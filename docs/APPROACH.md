@@ -32,6 +32,11 @@ Status dowodów: [VERIFICATION.md](VERIFICATION.md). Zasady dla agenta: [AGENTS.
    `Router.predict(..., model="multilingual", max_len=8192)` i preloadu modelu.
    Własny cienki host zapewnia jawny budżet, którego domyślny serwer upstream nie
    przekazuje w wywołaniu predict. Zachowany format `/v1/systemone`.
+   Korekta zatwierdzona 25.09: enum opisuje działy, nie adresy; `x-choice`
+   przekazuje krótkie pytanie i opis każdej kategorii. Router mapuje wynik
+   modelu na adres dopiero po walidacji. Szczegóły wykonania, manifest wag,
+   pomiar tokenów i wznowienie: [LAYA_TUNING_APPROACH.md](LAYA_TUNING_APPROACH.md).
+   Trening wag z tego dokumentu pozostaje odrębną, niewykonaną propozycją.
 5. Publiczny endpoint modelu i wybór modelu są konfigurowane wyłącznie env.
    Ollama pozostaje w Compose również dla dostawców alternatywnych, ale nie pobiera
    wtedy wag. Laya uruchamiana jest profilem. Mailpit zawsze przechwytuje pocztę.

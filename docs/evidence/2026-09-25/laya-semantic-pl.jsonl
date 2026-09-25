@@ -1,0 +1,16 @@
+{"case": 1, "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "a74332de-1245-4172-8ae3-3db6babea305", "passed": true, "seconds": 0.179}
+{"case": 2, "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "bdcc7534-00d1-428a-9315-b6cd5c6bf97f", "passed": true, "seconds": 0.171}
+{"case": 3, "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "fb702ca2-aa79-41e2-8bbe-158cb19b9a83", "passed": true, "seconds": 0.171}
+{"case": 4, "expected": "help-desk@example.com", "actual": "it@example.com", "request_id": "17b02b66-90bd-4876-a43c-93500c3d66ce", "passed": false, "error": "wrong MIME recipient", "seconds": 0.163}
+{"case": 5, "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "2d6ca7d7-481f-401c-9eff-d0fd56f88df5", "passed": true, "seconds": 0.191}
+{"case": 6, "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "e6437403-57e5-4f0d-bcbc-2a548c3c1509", "passed": true, "seconds": 0.399}
+{"case": 7, "expected": "it@example.com", "actual": "it@example.com", "request_id": "fb94e9af-7cd4-4ffc-b2fa-011c3b64094b", "passed": true, "seconds": 0.23}
+{"case": 8, "expected": "it@example.com", "actual": "it@example.com", "request_id": "8ffaec6c-604f-4d98-a02a-c16a3ab900b2", "passed": true, "seconds": 0.232}
+{"case": 9, "expected": "it@example.com", "actual": "it@example.com", "request_id": "98c65a13-d27c-4f56-85db-be7de2f509e5", "passed": true, "seconds": 0.221}
+{"case": 10, "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "8249d4d0-0d05-478e-bbc1-6d4cad42756e", "passed": true, "seconds": 0.221}
+{"case": 11, "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "9eadb5cd-28b1-4fe5-8c12-584f59f8c648", "passed": true, "seconds": 0.215}
+{"case": 12, "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "b97fefbf-63ef-45e2-b69f-58429e79df2f", "passed": true, "seconds": 0.207}
+{"case": 13, "expected": "other@example.com", "actual": "other@example.com", "request_id": "dc24cdc1-3f09-4caa-89ac-90cc72fb3f67", "passed": true, "seconds": 0.245}
+{"case": 14, "expected": "other@example.com", "actual": "other@example.com", "request_id": "8fe6cd19-e2f3-4bde-a859-6488cdffba00", "passed": true, "seconds": 0.23}
+{"case": 15, "expected": "other@example.com", "actual": "it@example.com", "request_id": "801634ca-16c0-443c-a246-3e8a548dc112", "passed": false, "error": "wrong MIME recipient", "seconds": 0.231}
+{"run_id": "67d6297c76ab", "passed": 13, "total": 15}

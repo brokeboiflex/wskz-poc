@@ -56,7 +56,9 @@ Nie jest publicznym endpointem routera i nie zwraca oryginalnej treści.
 `GET /v1/models`: `data[]` z `id`. `POST /v1/chat/completions`: tekstowe messages,
 model, tools i limit odpowiedzi. Odpowiedź musi zawierać dokładnie jedno poprawne
 `choices[0].message.tool_calls[]`. Nazwa: `send_department_email`.
-Jedyny argument: `recipient` z enum pięciu adresów. Zwykła treść nie jest
+Jedyny argument: `department` z enum `human_resources`, `payroll`, `help_desk`,
+`it`, `other`. Model dostaje treść i opisy działów. Router mapuje zatwierdzony
+wybór na adres odbiorcy; adresy docelowe nie są kategoriami modelu. Zwykła treść nie jest
 interpretowana jako wywołanie narzędzia. Nie wysyłamy danych uwierzytelniających
 mailera ani adresu Reply-To do modelu.
 
@@ -68,8 +70,21 @@ streaming, multimodalność, historię wykonanych narzędzi, nieznane modele i
 nieobsługiwane pola. Nazwa narzędzia i wartości enum pochodzą z requestu, bez
 wbudowanej polityki działów. Maksymalnie 7000 bajtów kontekstu decyzji.
 
+Opcjonalne rozszerzenie schematu argumentu `x-choice` zawiera `instructions`
+(niepuste pytanie, do 1000 znaków) i `criteria` (mapa każdej wartości enum na
+niepusty opis, do 500 znaków na opis). Adapter przekazuje je do silnika w
+kolejności enum. Brak lub nadmiar opcji, puste opisy albo wadliwa struktura
+zwracają HTTP 400 przed inferencją. Opisy wliczają się w limit bajtów.
+Bez rozszerzenia adapter zachowuje wcześniejszy format ogólny: instrukcje z
+promptu i schematu, a tekst opcji jako jej opis. Router korzysta z `x-choice`,
+aby Laya dostała krótkie pytanie klasyfikacyjne zamiast instrukcji wykonania toola.
+Rozszerzenie definiuje właściciel narzędzia; adapter nie zawiera polityki poczty.
+
 Engine przyjmuje `POST /v1/systemone`, z `model: multilingual`, `state` oraz jednym
 elementem `questions`: typ `choice`, instrukcje i `criteria` jako mapa opcji.
 Zwraca SDK Laya `answers.<question>.choice`. Wykorzystuje model o budżecie 8192
 tokenów. Surowy budżet bajtów jest konserwatywną granicą wejścia, nie statystyką
 tokenizacji. Brak odpowiedzi, wynik poza opcjami lub błąd modelu daje 502 adaptera.
+SDK ma ponadto osobny limit pytania i opcji: 256 tokenów dla tego checkpointu
+oraz 48 tokenów na opis opcji z jej etykietą. Aktualna polityka routera mieści
+się w tych limitach: 165 tokenów z markerami; najdłuższa opcja ma 27 tokenów.

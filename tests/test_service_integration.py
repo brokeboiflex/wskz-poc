@@ -40,7 +40,7 @@ async def test_http_request_tool_call_http_mailer_and_mime_contract(tmp_path, mo
                 tool_calls=[
                     {
                         "name": "send_department_email",
-                        "args": {"recipient": "it@example.com"},
+                        "args": {"department": "it"},
                         "id": "call_it",
                         "type": "tool_call",
                     }

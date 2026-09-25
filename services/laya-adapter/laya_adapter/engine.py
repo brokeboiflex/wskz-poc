@@ -25,7 +25,9 @@ class HttpDecisionEngine:
                         "selection": {
                             "type": "choice",
                             "instructions": choice.instructions,
-                            "criteria": {item: item for item in choice.options},
+                            "criteria": dict(zip(choice.options, choice.descriptions, strict=True))
+                            if choice.descriptions
+                            else {item: item for item in choice.options},
                         }
                     },
                 },

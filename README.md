@@ -106,6 +106,11 @@ wynik na błąd. Brak poprawnego wywołania narzędzia daje HTTP 502.
 Zadanie nie precyzuje granicy między HR i kadrami ani help deskiem i IT. Dlatego
 przyjęto następujący jawny podział, zapisany w polityce routera:
 
+Użytkownik podaje swój adres kontaktowy i treść. Model otrzymuje treść oraz
+znaczenie działów i sam wybiera `department`. Adresy odbiorców znajdują się
+wyłącznie w mapowaniu aplikacji i konfiguracji mailera. Model nie otrzymuje
+gotowego odbiorcy ani nie musi wnioskować o znaczeniu działu z adresu e-mail.
+
 | Dział                         | Typ sprawy                                                             |
 | ----------------------------- | ---------------------------------------------------------------------- |
 | `human-resources@example.com` | Rekrutacja, szkolenia, rozwój, relacje pracownicze                     |
@@ -153,20 +158,23 @@ Po zmianie kodu użyj `up -d --build`. `.env.example` opisuje pełną konfigurac
 
 Laya jest rzeczywistym modelem typowanych decyzji, nie modelem generującym natywne
 wywołania funkcji. Adapter przyjmuje dokładnie jedno narzędzie z jednym argumentem
-`string enum`, przekazuje opcje i instrukcje przez HTTP do Laya, a odpowiedź
+`string enum`, przekazuje opcje, osobne opisy działów i krótkie pytanie przez HTTP do Laya, a odpowiedź
 `choice` opakowuje w `tool_calls`. Sam nie zna adresów działów i nie klasyfikuje
 słowami kluczowymi. Nie ma dostępu do mailera.
 
-Silnik ładuje checkpoint `multilingual` przed zgłoszeniem gotowości. Cienki host
+Silnik używa `laya==0.3.20` i ładuje checkpoint `multilingual` (mmBERT-base)
+przed zgłoszeniem gotowości. W tej poprawce nie trenowano ani nie zmieniano wag. Cienki host
 wykorzystuje publiczne `Router.predict(..., max_len=8192)` i format
 `/v1/systemone`. Jawny limit chroni przed użyciem domyślnych 1024 tokenów serwera
 upstream. Adapter przyjmuje do 7000 bajtów łącznej treści, instrukcji i opcji;
 nadmiar jest odrzucany, a nie obcinany. To dodatkowy wariant porównawczy.
 **Ścieżką spełniającą wymaganie lokalnego LLM z natywnym function calling jest Ollama.**
 
-W rzeczywistym teście z 25.09.2026 Ollama uzyskała **15/15**, a Laya **6/15**
-poprawnych wyników. Laya uruchamia się i wysyła wiadomości do Mailpit, lecz nie
-spełnia kryterium trafności routingu. Wyniki i granice dowodów:
+Przed poprawką Laya uzyskała **6/15**, po przekazaniu polskich opisów działów
+uzyskała **13/15** na tych samych wiadomościach (25.09.2026). Pozostały błędy
+klasyfikacji niedziałającego komputera i pytania o historię Rzymu jako IT.
+Laya nadal nie spełnia pełnego kryterium trafności. Ollama po zmianie schematu
+narzędzia ponownie zaliczyła **15/15**. Wyniki i granice dowodów:
 [raport weryfikacji](docs/VERIFICATION.md).
 Podczas testów wystąpiły też okresowe błędy sondy tool calling w inicjalizatorze
 Ollamy, blokujące start API. Ich przyczyna pozostaje nieustalona; udany przebieg
@@ -176,7 +184,7 @@ E2E nie stanowi potwierdzenia niezawodności każdego startu.
 
 - HTTP 422: niepoprawny e-mail, pusta wiadomość, ponad 4000 znaków lub nadmiarowe pola.
 - HTTP 502 z `code` i `request_id`: awaria modelu, błędne tool calling lub niepotwierdzona wysyłka.
-- Model wybiera wyłącznie odbiorcę z enum. Reply-To i treść pochodzą z requestu,
+- Model wybiera wyłącznie dział z enum; aplikacja ustala jego adres. Reply-To i treść pochodzą z requestu,
   From z konfiguracji mailera. Dodatkowe argumenty narzędzia są odrzucane.
 - Mailer sprawdza swoją listę dopuszczonych odbiorców i token połączenia usługowego.
   Domyślny token jest publiczną wartością PoC, a port mailera pozostaje wewnętrzny.

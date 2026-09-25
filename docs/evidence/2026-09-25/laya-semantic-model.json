@@ -1,0 +1,38 @@
+{
+  "sdk": "0.3.20",
+  "revision": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+  "weights_sha256": "9d628fd971b700382ac6f65920a86f149777b2e748e0c955fb3b19695aa8f204",
+  "config_origin": "Upstream checkpoint metadata, including its training history; no local weight training was performed.",
+  "config": {
+    "encoder": "jhu-clsp/mmBERT-base",
+    "head_layers": 2,
+    "max_len": 1024,
+    "head_max_len": 256,
+    "max_prefixes": 6,
+    "act_costs": {
+      "escalate": 0.5
+    },
+    "cost_wrong_act": 3.0,
+    "amp_dtype": "bf16",
+    "model_name": "rl-agent",
+    "temperature": [1.0, 1.0, 1.0],
+    "temperature_by_options": {},
+    "training": {
+      "updates": 15987,
+      "epochs_completed": 4,
+      "hours": 4.97,
+      "world_size": 1,
+      "fine_tuned_from_checkpoint": false
+    }
+  },
+  "question_tokens": 37,
+  "option_tokens": {
+    "human_resources": 22,
+    "payroll": 26,
+    "help_desk": 27,
+    "it": 26,
+    "other": 22
+  },
+  "head_tokens_with_markers": 165,
+  "no_head_truncation": true
+}

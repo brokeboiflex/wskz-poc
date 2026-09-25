@@ -1,8 +1,45 @@
 # Stan weryfikacji
 
-Data: 25.09.2026. Rzeczywiste testy kontenerowe zostały wykonane po udostępnieniu
-Dockera i sieci. **Domyślna Ollama: 15/15 E2E. Dodatkowa Laya: 6/15, FAIL.**
-Nie należy przedstawiać obu wariantów jako spełniających kryteria odbioru.
+Data: 25.09.2026. **Po korekcie semantycznej Laya: 13/15, nadal FAIL akceptacji.**
+Model wybiera dział na podstawie treści i opisów; adres ustala aplikacja.
+Nie trenowano wag. Poprzedni pomiar Laya 6/15 pozostaje poniżej jako historia.
+
+## Korekta semantycznej klasyfikacji
+
+- Host: **85 passed**, bez pominięć, jeden warning Starlette/AnyIO.
+  Zbudowany kontener testowy: **85 passed**, bez warningów. Ruff lint: PASS.
+- Rzeczywisty klient ChatOpenAI zachowuje `x-choice` i dostarcza opisy do adaptera.
+  Testy obejmują pięć mapowań dział → adres, odmowę podanego adresu lub dodatkowych
+  argumentów, wadliwe opisy, limity oraz ogólność adaptera bez polityki poczty.
+- [Angielskie opisy](evidence/2026-09-25/laya-semantic.jsonl): **9/15**,
+  run `60b464aeb04b`. Następnie sprawdzono opisy po polsku, zgodnie z językiem wejścia.
+- [Aktualne polskie opisy](evidence/2026-09-25/laya-semantic-pl.jsonl): **13/15**,
+  run `67d6297c76ab`, E2E exit 1. Przypadek 4 (komputer) i 15 (historia Rzymu)
+  trafiły do IT zamiast help desku i other. Pozostałe przypadki przechodzą wszystkie
+  asercje surowego MIME, Reply-To, Message-ID, korelacji i oryginalnej treści.
+  Błędne przypadki kończą kontrolę na odbiorcy MIME.
+- Publiczne health API i Mailpit z hosta: HTTP 200.
+- [Ollama po zmianie schematu](evidence/2026-09-25/ollama-semantic.jsonl):
+  **15/15**, run `f0bb73ae3db9`, E2E exit 0. Inicjalizator w tym przebiegu
+  przeszedł prawdziwą sondę native tool calling i dopuścił start API.
+  Nie zmieniano jego kodu; wcześniejsza okresowa awaria nadal nie ma ustalonej
+  przyczyny. Nowy poprawny start nie oznacza usunięcia tej niestabilności.
+- [Snapshot i pomiar tokenizacji](evidence/2026-09-25/laya-semantic-model.json):
+  SDK 0.3.20, `multilingual`, encoder `jhu-clsp/mmBERT-base`. Pytanie i opcje
+  zajmują 165/256 tokenów, najdłuższa opcja 27/48. Opisy nie są obcinane.
+- Te same 15 znanych przypadków służyło do porównania formatów. Nie wykonano
+  niezależnego testu generalizacji ani certyfikacji odporności na prompt injection.
+  Korekta protokołu jest potwierdzona; pełna trafność modelu pozostaje otwarta.
+
+Sposób wykonania i wznowienie: [LAYA_TUNING_APPROACH.md](LAYA_TUNING_APPROACH.md).
+Końcowa kontrola Ruff lint/format, Prettier zmienionych dokumentów, `pip check`
+i konfiguracji Compose trzech wariantów: PASS. Kontenery zatrzymano po testach,
+zachowując wolumeny modeli, rejestru i syntetycznych wiadomości.
+
+## Historyczny przebieg przed korektą semantyczną
+
+Rzeczywiste testy kontenerowe zostały wykonane po udostępnieniu Dockera i sieci.
+**Domyślna Ollama: 15/15 E2E. Dodatkowa Laya: 6/15, FAIL.**
 
 ## Środowisko i wyniki
 
@@ -87,9 +124,9 @@ Niezależny przegląd zmian i ograniczenia: [CRITIC.md](CRITIC.md).
   później osiągnął gotowość. Nie zmieniano transportu ani źródła modeli.
 - Modele oraz zależności przechodnie nie mają kompletnego niezmiennego lockfile.
   Nie wykonano testów produkcyjnych, HA ani dostarczania do zewnętrznych skrzynek.
-- Wolumeny modeli, rejestru dostaw i 30 syntetycznych wiadomości zostały zachowane.
-- Po testach zatrzymano kontenery przez `docker compose stop`. Ostatnie
-  uruchomienie domyślnego wariantu zablokowała sonda gotowości; nie pozostawiono
+- W pierwotnym przebiegu zachowano wolumeny modeli, rejestru i 30 syntetycznych wiadomości.
+- Po tamtych testach zatrzymano kontenery przez `docker compose stop`. Ostatnie
+  uruchomienie domyślnego wariantu w pierwotnym przebiegu zablokowała sonda gotowości; nie pozostawiono
   API działającego z pominięciem tej kontroli.
 
 ## Powtórzenie

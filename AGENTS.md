@@ -15,13 +15,22 @@ Service Layer Pattern and a fresh independent critic after implementation.
 - Use synthetic messages and Mailpit for tests. No production mail or keys from other projects.
 - Default launch is `docker compose up -d`. Provider changes use env only.
 - Keep `README.md`, `docs/APPROACH.md`, `docs/VERIFICATION.md` and contracts current.
+- The user approved correcting Laya's semantic routing on 2026-09-25.
+  The model chooses a department from message content and descriptions; only the
+  application maps that choice to a mailbox. Preserve this separation.
+  `docs/LAYA_TUNING_APPROACH.md` records the executed integration correction and
+  the separate, unexecuted weight-training proposal. No weights were trained.
+- Pass the tool's JSON schema dictionary to StructuredTool: LangChain's Pydantic
+  subset loses the `x-choice` metadata. Validate calls with SendArguments before
+  tool execution. Keep the real ChatOpenAI-to-adapter regression test.
 - Mailpit needs both internal `smtp` and non-internal `mailpit-ui` networks for
   its loopback web port to be published by Docker. Validate the web UI from the
   host as well as MIME inside Compose; internal E2E alone misses this regression.
 - Keep Laya's `TORCHINDUCTOR_CACHE_DIR` on writable `/tmp`. The numeric runtime
   UID has no passwd entry; PyTorch's implicit cache path fails during preload.
-- Runtime evidence from 2026-09-25: 68 container tests pass; Ollama E2E passes
-  15/15, while Laya E2E fails with 6/15. Preserve that distinction in claims.
+- Current semantic correction: 85 container tests pass; Laya E2E improves from
+  6/15 to 13/15 but still fails acceptance. Ollama E2E passes 15/15 with the
+  new department schema; results are recorded in `docs/VERIFICATION.md`.
   Per-case evidence and repeat commands are linked from `docs/VERIFICATION.md`.
 - Ollama bootstrap intermittently failed its native-tool readiness probe during
   runtime tests. Subsequent probes passed, but the cause remains unresolved.

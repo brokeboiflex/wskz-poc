@@ -22,7 +22,12 @@ async def test_real_chatopenai_sends_tools_and_parses_native_tool_calls():
         body = json.loads(request.content)
         assert request.url.path == "/v1/chat/completions"
         assert body["tools"][0]["function"]["name"] == "send_department_email"
-        assert "recipient" in body["tools"][0]["function"]["parameters"]["properties"]
+        assert "department" in body["tools"][0]["function"]["parameters"]["properties"]
+        metadata = body["tools"][0]["function"]["parameters"]["properties"]["department"][
+            "x-choice"
+        ]
+        assert "Urlopy" in metadata["criteria"]["payroll"]
+        assert "@" not in json.dumps(body["tools"])
         return httpx.Response(
             200,
             json={
@@ -43,7 +48,7 @@ async def test_real_chatopenai_sends_tools_and_parses_native_tool_calls():
                                     "type": "function",
                                     "function": {
                                         "name": "send_department_email",
-                                        "arguments": '{"recipient":"kadry@example.com"}',
+                                        "arguments": '{"department":"payroll"}',
                                     },
                                 }
                             ],
@@ -53,12 +58,14 @@ async def test_real_chatopenai_sends_tools_and_parses_native_tool_calls():
             },
         )
 
-    async def send(recipient: str):
+    async def send(department: str):
         """Send email."""
         return "ok"
 
     tool = StructuredTool.from_function(
-        coroutine=send, name="send_department_email", args_schema=SendArguments
+        coroutine=send,
+        name="send_department_email",
+        args_schema=SendArguments.model_json_schema(),
     )
     async with httpx.AsyncClient(transport=httpx.MockTransport(handle)) as client:
         model = langchain_openai.ChatOpenAI(
@@ -72,7 +79,7 @@ async def test_real_chatopenai_sends_tools_and_parses_native_tool_calls():
         result = await model.bind_tools([tool]).ainvoke(
             [SystemMessage("route"), HumanMessage("urlop")]
         )
-    assert result.tool_calls[0]["args"] == {"recipient": "kadry@example.com"}
+    assert result.tool_calls[0]["args"] == {"department": "payroll"}
     assert len(seen) == 1
 
 
@@ -88,9 +95,11 @@ async def test_real_chatopenai_payload_is_accepted_by_laya_adapter():
             return True
 
         async def choose(self, choice):
-            assert "kadry@example.com" in choice.options
+            assert "payroll" in choice.options
+            assert "@" not in str(choice)
+            assert "Urlopy" in choice.descriptions[choice.options.index("payroll")]
             assert choice.state == "Proszę o urlop."
-            return "kadry@example.com"
+            return "payroll"
 
     class Mailer:
         def __init__(self):

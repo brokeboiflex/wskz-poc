@@ -1,5 +1,31 @@
 # Niezależny przegląd implementacji
 
+## Korekta semantycznego routingu - 25.09.2026
+
+Świeży niezależny krytyk przeczytał diff routera, adaptera, testów i dokumentacji
+oraz uruchomił testy hosta: **85 passed**. Potwierdził wybór `department` przez
+model i mapowanie na adres dopiero po walidacji, wykonanie rzeczywistego narzędzia
+LangChain oraz brak słów kluczowych decydujących za model. Nie znalazł nowego
+blokera w kodzie ani osłabienia kontroli argumentów i pojedynczej wysyłki.
+
+Wskazano nieaktualne opisy `recipient` w kontrakcie i konieczność wyjaśnienia
+zastępowania system promptu przez krótkie `x-choice.instructions`. Dokumenty
+poprawiono i poddano ponownej kontroli. Krytyk odczytał finalny
+[JSONL Laya](evidence/2026-09-25/laya-semantic-pl.jsonl) i potwierdził **13/15**,
+run `67d6297c76ab`, błędy tylko dla komputera i historii Rzymu (oba → IT).
+Sprawdził także zgodność rewizji/SHA wag i arytmetykę manifestu tokenizacji:
+37 tokenów pytania + 123 tokeny opcji + 5 markerów = 165/256.
+Metadane `config.training` w manifeście pochodzą z checkpointu upstream,
+nie z treningu w tym projekcie; dopisano to jawnie w pliku dowodowym.
+
+Korekta architektoniczna jest potwierdzona. **Trafność Laya nadal nie spełnia
+akceptacji 15/15.** Nie jest to niezależny benchmark ani dowód odporności na
+prompt injection. W chwili drugiego przeglądu nowy E2E Ollamy nadal trwał;
+jego finalny wynik potwierdzono w dodatkowym odczycie po zakończeniu wykonania:
+[JSONL Ollamy](evidence/2026-09-25/ollama-semantic.jsonl), run `f0bb73ae3db9`,
+wszystkie przypadki 1-15 `passed=true`. Krytyk potwierdził zgodność README
+i aktualnej części VERIFICATION z dowodami.
+
 ## Aktualizacja po testach runtime - 25.09.2026
 
 Świeży krytyk sprawdził rzeczywisty diff Compose i Dockerfile Laya, kod testu

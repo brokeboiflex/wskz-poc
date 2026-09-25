@@ -111,6 +111,77 @@ def test_adapter_never_invents_a_choice_when_engine_is_wrong():
     assert "tool_calls" not in response.text
 
 
+def described_payload():
+    body = payload()
+    body["tools"][0]["function"]["parameters"]["properties"]["team"]["x-choice"] = {
+        "instructions": "Which team handles the message?",
+        "criteria": {"support": "Technical problems", "billing": "Payments and invoices"},
+    }
+    return body
+
+
+async def test_descriptions_reach_engine_and_its_decision_returns_as_a_tool_call():
+    seen = []
+
+    def handle(request):
+        body = json.loads(request.content)
+        seen.append(body)
+        assert body["state"] == "Duplicate payment"
+        question = body["questions"]["selection"]
+        assert question["instructions"] == "Which team handles the message?"
+        assert list(question["criteria"]) == ["billing", "support"]
+        assert question["criteria"] == {
+            "billing": "Payments and invoices",
+            "support": "Technical problems",
+        }
+        return httpx.Response(200, json={"answers": {"selection": {"choice": "billing"}}})
+
+    async with httpx.AsyncClient(
+        base_url="http://engine/", transport=httpx.MockTransport(handle)
+    ) as engine:
+        app = create_app(ChoiceService(HttpDecisionEngine(engine, "multilingual")))
+        async with app.router.lifespan_context(app):
+            async with httpx.AsyncClient(
+                base_url="http://adapter/", transport=httpx.ASGITransport(app=app)
+            ) as client:
+                response = await client.post("/v1/chat/completions", json=described_payload())
+    assert response.status_code == 200
+    call = response.json()["choices"][0]["message"]["tool_calls"][0]
+    assert json.loads(call["function"]["arguments"]) == {"team": "billing"}
+    assert len(seen) == 1
+
+
+@pytest.mark.parametrize(
+    "metadata",
+    [
+        None,
+        [],
+        {"criteria": {}},
+        {"instructions": "pick", "criteria": {"billing": "Invoices"}},
+        {"instructions": "pick", "criteria": {"billing": "Invoices", "evil": "Other"}},
+        {"instructions": "", "criteria": {"billing": "Invoices", "support": "Bugs"}},
+        {"instructions": "pick", "criteria": {"billing": None, "support": "Bugs"}},
+    ],
+)
+def test_invalid_descriptions_fail_before_inference(metadata):
+    body = described_payload()
+    body["tools"][0]["function"]["parameters"]["properties"]["team"]["x-choice"] = metadata
+    engine = Engine()
+    with TestClient(create_app(ChoiceService(engine))) as client:
+        assert client.post("/v1/chat/completions", json=body).status_code == 400
+    assert engine.calls == []
+
+
+def test_description_bytes_are_included_in_context_limit():
+    body = described_payload()
+    prop = body["tools"][0]["function"]["parameters"]["properties"]["team"]
+    prop["x-choice"]["criteria"] = {key: "😀" * 500 for key in prop["enum"]}
+    engine = Engine()
+    with TestClient(create_app(ChoiceService(engine))) as client:
+        assert client.post("/v1/chat/completions", json=body).status_code == 413
+    assert engine.calls == []
+
+
 async def test_jev_http_contract():
     def handle(request):
         assert request.url.path == "/v1/systemone"

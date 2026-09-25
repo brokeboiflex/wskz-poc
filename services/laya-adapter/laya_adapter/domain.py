@@ -6,6 +6,7 @@ class Choice:
     state: str
     instructions: str
     options: tuple[str, ...]
+    descriptions: tuple[str, ...] = ()
 
 
 class AdapterError(Exception):

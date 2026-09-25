@@ -4,7 +4,7 @@ import httpx
 import pytest
 from fastapi.testclient import TestClient
 from langchain_core.messages import AIMessage
-from router_app.adapters.agent import LangChainRoutingAgent
+from router_app.adapters.agent import DEPARTMENT_CRITERIA, LangChainRoutingAgent
 from router_app.adapters.mailer import HttpDeliveryGateway
 from router_app.domain import Delivery, Department, Message, RoutingError
 from router_app.main import create_app
@@ -43,10 +43,10 @@ class Mailer:
         return Delivery(request_id, recipient.value, "submitted", f"<{request_id}@test>")
 
 
-def call(recipient=Department.PAYROLL.value, **extra):
+def call(department="payroll", **extra):
     return {
         "name": "send_department_email",
-        "args": {"recipient": recipient, **extra},
+        "args": {"department": department, **extra},
         "id": "call_1",
         "type": "tool_call",
     }
@@ -69,11 +69,32 @@ async def test_native_tool_execution_preserves_original_context(health_client):
     assert receipt.status == "submitted"
     assert mailer.commands == [(receipt.request_id, Department.PAYROLL, message)]
     assert model.tools[0].name == "send_department_email"
-    schema = model.tools[0].args_schema.model_json_schema()
-    assert set(schema["properties"]) == {"recipient"}
-    assert set(schema["properties"]["recipient"]["enum"]) == {d.value for d in Department}
+    schema = model.tools[0].args_schema
+    assert set(schema["properties"]) == {"department"}
+    assert set(schema["properties"]["department"]["enum"]) == set(DEPARTMENT_CRITERIA)
+    assert "@" not in str(schema) + model.tools[0].description + str(model.messages)
     assert len(model.messages) == 2
     assert message.email not in str(model.messages)
+
+
+@pytest.mark.parametrize(
+    "department,recipient",
+    [
+        ("human_resources", Department.HR),
+        ("payroll", Department.PAYROLL),
+        ("help_desk", Department.HELP_DESK),
+        ("it", Department.IT),
+        ("other", Department.OTHER),
+    ],
+)
+async def test_model_department_is_mapped_to_its_mailbox(health_client, department, recipient):
+    model = Model(AIMessage(content="", tool_calls=[call(department)]))
+    mailer = Mailer()
+    service = RoutingService(LangChainRoutingAgent(model, health_client, "test-model"), mailer)
+    message = Message("sender@example.com", "Treść do interpretacji przez model.")
+    receipt = await service.route(message)
+    assert receipt.recipient == recipient.value
+    assert mailer.commands == [(receipt.request_id, recipient, message)]
 
 
 @pytest.mark.parametrize(
@@ -84,6 +105,8 @@ async def test_native_tool_execution_preserves_original_context(health_client):
         AIMessage(content="", tool_calls=[call(), {**call(), "id": "call_2"}]),
         AIMessage(content="", tool_calls=[{**call(), "name": "unregistered_tool"}]),
         AIMessage(content="", tool_calls=[call("attacker@evil.example")]),
+        AIMessage(content="", tool_calls=[call("kadry@example.com")]),
+        AIMessage(content="", tool_calls=[call(recipient="it@example.com")]),
         AIMessage(content="", tool_calls=[call(reply_to="attacker@evil.example")]),
         AIMessage(
             content="",
@@ -131,6 +154,7 @@ async def test_transport_failure_cannot_be_reported_as_success(health_client):
         {"email": "jan@example.com", "message": " \n"},
         {"email": "jan@example.com", "message": "x" * 4001},
         {"email": "jan@example.com", "message": "test", "recipient": "it@example.com"},
+        {"email": "jan@example.com", "message": "test", "department": "it"},
     ],
 )
 def test_http_validation_precedes_application_execution(health_client, body):

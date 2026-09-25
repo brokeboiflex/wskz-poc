@@ -76,10 +76,32 @@ def parse_choice(body: CompletionRequest) -> tuple[str, Choice]:
             str(prop.get("description", "")),
         ]
     )
+    descriptions = ()
+    # Optional classifier metadata belongs to the tool owner, not this adapter.
+    # Keep native tool-execution prose out of the classifier's question budget.
+    if "x-choice" in prop:
+        decision = prop["x-choice"]
+        if not isinstance(decision, dict) or set(decision) != {"instructions", "criteria"}:
+            raise HTTPException(400, "x-choice requires instructions and criteria")
+        criteria = decision["criteria"]
+        question = decision["instructions"]
+        if (
+            not isinstance(question, str)
+            or not question.strip()
+            or len(question) > 1000
+            or not isinstance(criteria, dict)
+            or set(criteria) != set(options)
+            or any(
+                not isinstance(v, str) or not v.strip() or len(v) > 500 for v in criteria.values()
+            )
+        ):
+            raise HTTPException(400, "x-choice must describe every enum option exactly once")
+        instructions = question
+        descriptions = tuple(criteria[item] for item in options)
     # Keep the model's context bounded. No silent input truncation by the adapter.
-    if len((users[0].content + instructions + json.dumps(options)).encode()) > 7000:
+    if len((users[0].content + instructions + json.dumps([options, descriptions])).encode()) > 7000:
         raise HTTPException(413, "Laya input exceeds the 7000-byte decision budget")
-    return name, Choice(users[0].content, instructions, tuple(options))
+    return name, Choice(users[0].content, instructions, tuple(options), descriptions)
 
 
 def install_routes(app: FastAPI) -> None:
