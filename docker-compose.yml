@@ -77,7 +77,7 @@ services:
       - "127.0.0.1:${MAILPIT_PORT:-8025}:8025"
     volumes:
       - captured-mail:/data
-    networks: [smtp]
+    networks: [smtp, mailpit-ui]
     healthcheck:
       test: ["CMD", "/mailpit", "readyz"]
       interval: 10s
@@ -179,6 +179,8 @@ networks:
     internal: true
   smtp:
     internal: true
+  # Publishing the loopback web UI requires a non-internal bridge.
+  mailpit-ui: {}
   inference: {}
   laya-engine: {}
 

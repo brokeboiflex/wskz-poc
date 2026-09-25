@@ -71,6 +71,7 @@ wiadomości. Nie usuwa wiadomości. Wynik niezerowy oznacza niespełnienie kryte
 
 ```sh
 python3.12 -m venv .venv
+.venv/bin/python -m ensurepip
 .venv/bin/python -m pip install -r services/router/requirements.txt -r tests/requirements.txt
 .venv/bin/ruff check services tests verification
 .venv/bin/ruff format --check services tests verification
@@ -103,6 +104,53 @@ Host requirements obejmowały `services/router/requirements.txt` bez niedostępn
 OpenAI jest jawnie pomijany, jeśli brak paczki; standardowy obraz testowy instaluje
 pełen zestaw. To ograniczenie dowodów, a nie alternatywna implementacja runtime.
 Po uzyskaniu dostępu do normalnych instalacji użyć kanonicznych komend powyżej.
+
+## Wznowienie testów 25.09.2026
+
+Na polecenie „Przetestuj wskz-poc, potem commit and push” wznowiono ten sam
+zestaw testów. Sieć i Docker Engine są dostępne. Uzupełniono `pip` przez
+`ensurepip` i zainstalowano pełne requirements w istniejącym `.venv`.
+
+Pomocnik `docker-credential-desktop get` zatrzymywał pobieranie publicznych
+obrazów. Do tych samych poleceń Compose użyto tymczasowej konfiguracji klienta
+z pustym `auths`, bez zmiany konfiguracji użytkownika i bez kopiowania sekretów:
+
+```sh
+task_docker_host=$(docker context inspect --format '{{.Endpoints.docker.Host}}')
+task_docker_config=$(mktemp -d /tmp/wskz-docker-config.XXXXXX)
+printf '%s\n' '{"auths":{},"cliPluginsExtraDirs":["/Users/mini/.docker/cli-plugins"]}' > "$task_docker_config/config.json"
+export DOCKER_CONFIG="$task_docker_config"
+export DOCKER_HOST="$task_docker_host"
+docker compose up -d --build
+docker compose --profile test run --build --rm tests
+docker compose --profile test run --build --rm e2e
+```
+
+Ścieżka `cliPluginsExtraDirs` dotyczy tego hosta macOS. Na innym hoście użyć
+katalogu zawierającego jego pluginy Compose/Buildx. Przy sprawnym pomocniku
+poświadczeń nie potrzeba tych zmiennych. Po zakończeniu w danej powłoce wykonać
+`unset DOCKER_CONFIG DOCKER_HOST`. Wolumeny i obrazy nadal należą do tego samego
+daemonu i projektu Compose `message-router`. Wyniki i ograniczenia bieżącego
+przebiegu są w [VERIFICATION.md](VERIFICATION.md).
+
+Po starcie sprawdzić również publikowane porty z hosta (test wewnątrz Compose
+nie wykrywa braku publikacji panelu Mailpit):
+
+```sh
+curl --fail http://127.0.0.1:8000/health/ready
+curl --fail -o /dev/null http://127.0.0.1:8000/api/v1/docs
+curl --fail -o /dev/null http://127.0.0.1:8025/
+```
+
+Naprawy znalezione podczas testów nie zmieniają modelu, zbioru przypadków ani
+ścieżki agent → mailer → SMTP. Mailpit ma dodatkowy bridge `mailpit-ui` do
+publikacji panelu, a obraz Laya jawny `TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor`,
+żeby PyTorch nie szukał nazwy użytkownika dla numerycznego UID 10001.
+
+Końcowy checkpoint: kontenery zatrzymane (`docker compose stop`), wolumeny
+zachowane. Wyniki E2E w `docs/evidence/2026-09-25/`. Przed kolejnym uruchomieniem
+uwzględnić otwartą niestabilność sondy tool calling Ollamy i niezaliczoną trafność
+Laya opisaną w raporcie. Nie zastępować nieudanej sondy deklaracją gotowości.
 
 ## Checkpoint, awarie i wznowienie
 

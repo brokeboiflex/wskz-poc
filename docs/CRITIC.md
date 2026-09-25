@@ -1,5 +1,52 @@
 # Niezależny przegląd implementacji
 
+## Aktualizacja po testach runtime - 25.09.2026
+
+Świeży krytyk sprawdził rzeczywisty diff Compose i Dockerfile Laya, kod testu
+`verification/e2e.py`, raport `VERIFICATION.md`, log 68 zaliczonych testów
+kontenerowych, log przebudowy Laya oraz oba pełne logi E2E. Pliki
+[Ollama JSONL](evidence/2026-09-25/ollama.jsonl) i
+[Laya JSONL](evidence/2026-09-25/laya.jsonl) są zgodne rekord po rekordzie z logami
+wykonania; niezależnie przeliczono wyniki i czasy.
+
+**Domyślna Ollama zaliczyła 15/15 przypadków. Laya zaliczyła 6/15 i nie spełnia
+kryterium poprawnego routingu.** Historyczna luka G1 jest zamknięta dla Ollamy,
+a pomijane wcześniej testy kontraktu T1 wykonano w pełnym zestawie 68 testów.
+Nie znaleziono nowej regresji w dwóch minimalnych poprawkach uruchomieniowych.
+Panel Mailpit został dodatkowo sprawdzony niezależnie z hosta: HTTP 200.
+SMTP pozostaje niepublikowany, a sieci `smtp` i `app` pozostają wewnętrzne.
+Jawny cache PyTorch korzysta z zapisywalnego `/tmp`; przebudowa i rzeczywisty
+przebieg Laya potwierdzają wykonanie inferencji po wcześniejszej awarii preloadu.
+
+Pozostałe ograniczenia odbioru:
+
+- Laya błędnie skierowała przypadki 1, 2, 3, 4, 5, 9, 11, 12 i 14. Wszystkie
+  przeszły potwierdzenie `submitted` i odczyt MIME, ale te dziewięć zakończyło
+  test na odbiorcy. Nie potwierdzono dla nich dalszych asercji Reply-To,
+  Message-ID, korelacji i treści. Szybsza inferencja nie oznacza zaliczenia testu.
+- Niezawodność startu pozostaje niepotwierdzona. Po wcześniejszym błędzie
+  `model-init` bez zachowanego szczegółowego logu, końcowe przywracanie domyślnej
+  konfiguracji ponownie zakończyło się błędem sondy gotowości:
+  `model did not produce a native tool call`. Zachowano
+  [dowód awarii](evidence/2026-09-25/bootstrap-failure.txt). Cztery kolejne sondy
+  na rozgrzanym modelu i jedna po jego wyładowaniu zwróciły poprawne natywne
+  wywołanie; krytyk sprawdził ich surowe odpowiedzi. Nie zachowano jednak surowej
+  odpowiedzi z błędnego wywołania. Przyczyna pozostaje nieustalona, a problem
+  uruchomieniowy pozostaje otwarty mimo udanych ponowień i E2E.
+- Wynik Ollamy dotyczy jednego przebiegu 15 syntetycznych wiadomości w Mailpit.
+  Nie certyfikuje ogólnej trafności, odporności na prompt injection ani
+  produkcyjnego dostarczania poczty. OpenRouter nadal nie został wykonany.
+
+Raport weryfikacji poprawnie rozdziela sprawny runtime Laya od niezaliczonej
+trafności i ujawnia okresowy błąd startu Ollamy. Nie znaleziono materialnej
+sprzeczności z zachowanymi dowodami. Całego PoC nie należy opisywać jako
+bezwarunkowo gotowego: pozostają niezaliczony routing Laya i niestabilny start.
+
+## Historyczny przegląd przed udostępnieniem Dockera i sieci
+
+Poniższy raport zachowano jako zapis pierwszego przeglądu. Jego informacje
+o niewykonanych buildach, E2E i pominiętych testach zastępuje aktualizacja wyżej.
+
 Data: 25.09.2026. Krytyk sprawdził rzeczywisty kod wszystkich usług, Compose,
 Dockerfile, wymagania, przykłady env, kontrakty i testy. Opisy README nie zostały
 potraktowane jako dowód wykonania. Raport dotyczy samodzielnego PoC, nie wymaga

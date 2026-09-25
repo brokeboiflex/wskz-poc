@@ -81,6 +81,9 @@ HTTP. Nie importują kodu sąsiada i nie współdzielą bazy. Mailer nie zna mod
 a router nie zna SMTP ani bazy mailera. Sieć `smtp` jest wewnętrzna i niedostępna
 routerowi; porty SMTP, mailera i modeli nie są publikowane na hoście. Połączenie
 z dostawcą modelu jest jedyną zależnością routera wymagającą wyjścia do internetu.
+Mailpit ma dodatkową sieć `mailpit-ui`, dzięki której Docker publikuje panel na
+`127.0.0.1:8025`. Sama sieć `internal` nie zapewnia publikacji portu na hoście.
+Port SMTP pozostaje niepublikowany, a mailer korzysta z wewnętrznej sieci `smtp`.
 
 W każdej aplikacji biznesowej:
 
@@ -160,6 +163,14 @@ wykorzystuje publiczne `Router.predict(..., max_len=8192)` i format
 upstream. Adapter przyjmuje do 7000 bajtów łącznej treści, instrukcji i opcji;
 nadmiar jest odrzucany, a nie obcinany. To dodatkowy wariant porównawczy.
 **Ścieżką spełniającą wymaganie lokalnego LLM z natywnym function calling jest Ollama.**
+
+W rzeczywistym teście z 25.09.2026 Ollama uzyskała **15/15**, a Laya **6/15**
+poprawnych wyników. Laya uruchamia się i wysyła wiadomości do Mailpit, lecz nie
+spełnia kryterium trafności routingu. Wyniki i granice dowodów:
+[raport weryfikacji](docs/VERIFICATION.md).
+Podczas testów wystąpiły też okresowe błędy sondy tool calling w inicjalizatorze
+Ollamy, blokujące start API. Ich przyczyna pozostaje nieustalona; udany przebieg
+E2E nie stanowi potwierdzenia niezawodności każdego startu.
 
 ## Błędy, potwierdzenia i dane
 

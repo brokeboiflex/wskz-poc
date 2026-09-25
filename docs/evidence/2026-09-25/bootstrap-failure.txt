@@ -1,0 +1,19 @@
+2026-09-25: restoring default Ollama configuration after Laya E2E
+Command: docker compose up -d
+Exit code: 1
+
+Container message-router-model-init-1 Error service "model-init" didn't complete successfully: exit 1
+service "model-init" didn't complete successfully: exit 1
+
+model-init logs:
+Warming the model and checking native tool calling (no email).
+Traceback (most recent call last):
+  File "/app/bootstrap.py", line 84, in <module>
+    initialize()
+  File "/app/bootstrap.py", line 64, in initialize
+    raise RuntimeError("model did not produce a native tool call")
+RuntimeError: model did not produce a native tool call
+
+Subsequent diagnostic probes: four warm probes and one after unloading
+qwen3:1.7b all returned one readiness_probe native tool call with ready=true.
+The raw failing model response was not captured; root cause remains unresolved.

@@ -1,45 +1,100 @@
 # Stan weryfikacji
 
-Data: 25.09.2026. Implementacja i niezależny przegląd zakończone. Pełny odbiór
-uruchomieniowy pozostaje zablokowany przez ograniczenia środowiska.
+Data: 25.09.2026. Rzeczywiste testy kontenerowe zostały wykonane po udostępnieniu
+Dockera i sieci. **Domyślna Ollama: 15/15 E2E. Dodatkowa Laya: 6/15, FAIL.**
+Nie należy przedstawiać obu wariantów jako spełniających kryteria odbioru.
 
-- Konfiguracja Compose: PASS dla domyślnej Ollamy, `.env.laya-example` i `.env.openrouter-example`.
-- Testy Python 3.12: **66 passed, 1 skipped**. Pominięty został moduł `test_openai_wire.py` (dwa scenariusze wymagające niedostępnego w cache `langchain-openai`). Testowy obraz instaluje tę paczkę i powinien uruchomić cały moduł. Jeden warning dotyczy przestarzałego aliasu AnyIO w Starlette TestClient.
-- `ruff check services tests verification`: PASS. `ruff format --check services tests verification`: PASS.
-- Kontrakt wewnętrzny: test przechodzi przez rzeczywiste kontrolery ASGI routera i mailera, Service Layer, narzędzie LangChain, HTTP gateway, SQLite oraz budowanie MIME. Na granicach modelu i SMTP używa kontrolowanych odpowiedzi; nie jest rzeczywistą inferencją ani przechwyceniem sieciowego SMTP.
-- Testy trwałości: duplikat, konflikt payloadu, współbieżna rezerwacja, utrata odpowiedzi SMTP, awaria zapisu przed/po SMTP, restart niedokończonego zlecenia. Wszystkie PASS.
-- Testy inicjalizacji: istniejący/brakujący model, brak pobierania i płatnej inferencji dla zewnętrznego dostawcy, brak native tool calla, błąd autoryzacji i ograniczony czas oczekiwania. Wszystkie PASS.
-- Build obrazów i uruchomienie: niewykonane. Sandbox terminala odmawia dostępu do gniazda Docker (`permission denied`), mimo autoryzacji użytkownika. Nie oznacza to, że Docker na hoście jest wyłączony.
-- Pobranie wag, rzeczywista klasyfikacja, przechwycenie SMTP: niewykonane w tej sesji.
-- OpenRouter: niewykonane, nie dostarczono klucza dla tego projektu.
-- Laya: zweryfikowano oficjalne SDK/HTTP źródłowo; trafność i wydajność wymagają rzeczywistego modelu.
-- Niezależny krytyk: [CRITIC.md](CRITIC.md). Potwierdził strukturę mikroserwisów, Service Layer i rzeczywiste wykonywanie narzędzia. Wskazane błędy walidacji schematu Laya oraz mapowania awarii SQLite poprawiono i sprawdzono ponownie. Krytyk uruchomił 65 testów; późniejszy dodatkowy test integracji ASGI podniósł wynik głównego przebiegu do 66.
+## Środowisko i wyniki
 
-Testy z kontrolowanymi odpowiedziami zależności nie są dowodem działania modelu
-ani całego Compose. DoD pozostaje niepotwierdzone do przejścia kontenerowego E2E.
+Docker Engine 29.6.1, Compose 5.2.0, Linux ARM64 w Docker Desktop na macOS,
+10 CPU i około 7,75 GiB RAM przydzielonego Dockerowi. Inferencja CPU, bez GPU.
+Wyłącznie syntetyczne wiadomości z `verification/cases.json`, poczta w Mailpit.
 
-## Kryteria odbioru
+| Kontrola                                                        | Wynik                                                  |
+| --------------------------------------------------------------- | ------------------------------------------------------ |
+| Compose: domyślna Ollama, env Laya, env OpenRouter              | PASS                                                   |
+| Ruff lint i formatowanie                                        | PASS, 37 plików Python                                 |
+| Python 3.12 na hoście, pełne requirements                       | 68 passed, bez pominięć; jeden warning Starlette/AnyIO |
+| Świeżo zbudowany kontener testowy                               | 68 passed, bez pominięć i warningów                    |
+| `pip check` środowiska hosta                                    | PASS                                                   |
+| Build routera, mailera, inicjalizatora, adaptera i runtime Laya | PASS                                                   |
+| Gotowość API, Swagger i panel Mailpit przez porty hosta         | HTTP 200 po poprawce sieci Mailpit                     |
+| Ollama `qwen3:1.7b`, native tool calling, HTTP → SMTP → Mailpit | 15/15 PASS                                             |
+| Laya `multilingual`, adapter, HTTP → SMTP → Mailpit             | 6/15 PASS, 9 błędnych działów; proces E2E exit 1       |
+| OpenRouter                                                      | Niewykonane, brak klucza dla projektu                  |
 
-| Kryterium                           | Implementacja / lokalny dowód                                    | Brakująca kontrola                                   |
-| ----------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------- |
-| Start jednym poleceniem             | Compose poprawny dla wszystkich env, init i zależności gotowości | Rzeczywisty build i `docker compose up -d`           |
-| Swagger `/api/v1/docs`              | PASS przez rzeczywisty kontroler ASGI                            | HTTP opublikowanego kontenera                        |
-| README                              | Obecny w katalogu głównym samodzielnego projektu                 | Brak                                                 |
-| Agent i native tool calling         | Schemat tools i rzeczywisty StructuredTool sprawdzone lokalnie   | Pełny ChatOpenAI oraz rzeczywista Ollama             |
-| Poprawny dział                      | Polityka, zamknięta lista i 15 przypadków odbioru                | Trafność rzeczywistego modelu, bez deklaracji wyniku |
-| Wiadomość w Mailpit                 | Konfiguracja transportu i skrypt kontroli raw MIME               | Rzeczywisty SMTP i panel Mailpit                     |
-| Reply-To                            | PASS dla MIME i integracji aplikacji z kontrolowanym SMTP        | Raw MIME z Mailpit po rzeczywistej wysyłce           |
-| Oddzielne kontenery / Service Layer | PASS testów granic importów i niezależnego krytyka               | Brak potwierdzonej wady architektury                 |
+Pełny zestaw 68 testów obejmuje oba wcześniej pomijane scenariusze rzeczywistego
+klienta ChatOpenAI, kontrolery ASGI, wykonanie narzędzia LangChain, kontrakt Laya,
+MIME, SQLite, idempotencję, współbieżność, niepewne potwierdzenia SMTP, awarie
+zapisu i granice architektury. Zależności modelu i SMTP w tych testach są
+kontrolowane; rzeczywistą inferencję i SMTP potwierdzają osobne przebiegi E2E.
 
-## Komendy brakującej weryfikacji
+## Dowody E2E
 
-```sh
-docker compose up -d --build
-docker compose --profile test run --build --rm tests
-docker compose --profile test run --build --rm e2e
-docker compose --env-file .env.laya-example up -d --build
-docker compose --env-file .env.laya-example --profile test run --build --rm e2e
-```
+- [Ollama JSONL](evidence/2026-09-25/ollama.jsonl), run `96db7c88b2f6`:
+  **15/15**. Wszystkie pięć działów. Każdy przypadek sprawdził adres docelowy,
+  Reply-To, Message-ID, X-Request-ID i niezmienioną treść surowego MIME w Mailpit.
+  Czas jednego żądania: minimum 11,365 s, mediana 14,633 s, maksimum 51,437 s;
+  łącznie 276,057 s. Czasy obejmują także odbiór i kontrolę MIME, bez pobierania wag.
+- [Laya JSONL](evidence/2026-09-25/laya.jsonl), run `2f68d753ba8d`:
+  **6/15**. Błędne przypadki: 1, 2, 3, 4, 5, 9, 11, 12 i 14. Na przykład prośba
+  o urlop trafiła do help desku zamiast kadr. Wszystkie żądania zwróciły
+  `submitted` i miały wiadomość w Mailpit, ale dziewięć zakończyło kontrolę na
+  błędnym odbiorcy MIME; dalsze asercje tych dziewięciu nie zostały wykonane.
+  Minimum 0,221 s, mediana 0,231 s, maksimum 0,298 s. Krótszy czas nie rekompensuje
+  niezaliczonej trafności. Nie zmieniano przypadków, oczekiwanych adresów, promptu
+  ani modeli, żeby uzyskać wynik pozytywny.
 
-Przed zmianą wariantu zatrzymać poprzedni zgodnie z README, zachowując wolumeny.
-Nie przenosić statusów PASS z testów jednostkowych na brakujące wiersze E2E.
+To pojedyncze przebiegi na 15 przypadkach, nie benchmark ogólnej skuteczności,
+obciążenia ani odporności na prompt injection. Laya pozostaje wariantem
+porównawczym i nie spełnia aktualnego kryterium routingu.
+
+## Poprawione błędy uruchomieniowe
+
+1. **Brak panelu Mailpit na hoście.** Kontener był podłączony wyłącznie do
+   `smtp: internal`. Docker zapisywał żądane powiązanie portu, ale
+   `NetworkSettings.Ports` nie zawierało publikacji, a połączenie z portem 8025
+   było odrzucane. Dodano osobny bridge `mailpit-ui`; SMTP pozostaje niepublikowany,
+   a jego sieć nadal wewnętrzna. Ponowna kontrola z hosta: HTTP 200.
+2. **Laya nie ładowała modelu.** Pierwotna przyczyna to `KeyError: getpwuid(): uid
+not found: 10001` w wyznaczaniu domyślnego cache PyTorch; ponowny import ujawniał
+   wtórny błąd rejestracji artefaktu `precompile`. Jawny
+   `TORCHINDUCTOR_CACHE_DIR=/tmp/torchinductor` korzysta z zapisywalnego tmpfs.
+   Po przebudowie przechodzą importy PyTorch/Transformers, preload rzeczywistych
+   wag, gotowość kontenera i pełne wykonanie zestawu E2E. Trafność pozostaje FAIL.
+
+Naprawę sieci wspiera [dokumentacja sieci Compose](https://docs.docker.com/compose/how-tos/networking/).
+Niezależny przegląd zmian i ograniczenia: [CRITIC.md](CRITIC.md).
+
+## Przebieg i ograniczenia
+
+- Początkowy pomocnik poświadczeń Docker Desktop blokował pobieranie publicznych
+  obrazów. Testy wykonano z tymczasową pustą konfiguracją auth klienta, na tym
+  samym daemonie, bez zmiany ustawień użytkownika. Powtórzenie w
+  [APPROACH.md](APPROACH.md).
+- Pierwszy start Ollamy z pobraniem wag przeszedł. Podczas późniejszej przebudowy
+  jeden `model-init` zakończył się kodem 1 bez zachowanego szczegółowego logu.
+  Przy powrocie z Laya dwukrotnie odtworzono błąd `model did not produce a native tool call`,
+  który prawidłowo zablokował API. Następne cztery sondy na rozgrzanym modelu i
+  jedna po jego wyładowaniu przeszły, zwracając prawdziwe `readiness_probe` z
+  `ready=true`. Nie odtworzono surowej niepoprawnej odpowiedzi; nie można uznać
+  przyczyny za ustaloną ani problemu za naprawiony. **Start Ollamy jest okresowo
+  zawodny**, mimo zaliczonego routingu. Nie dodano automatycznego retry ani
+  pomijania kontroli tool calling. Ślad błędu:
+  [bootstrap-failure.txt](evidence/2026-09-25/bootstrap-failure.txt).
+- Start Laya z zachowanymi wagami trwał kilka minut. Diagnostyczny proces z limitem
+  30 s pokazał oczekiwanie na handshake TLS do Hugging Face; właściwy kontener
+  później osiągnął gotowość. Nie zmieniano transportu ani źródła modeli.
+- Modele oraz zależności przechodnie nie mają kompletnego niezmiennego lockfile.
+  Nie wykonano testów produkcyjnych, HA ani dostarczania do zewnętrznych skrzynek.
+- Wolumeny modeli, rejestru dostaw i 30 syntetycznych wiadomości zostały zachowane.
+- Po testach zatrzymano kontenery przez `docker compose stop`. Ostatnie
+  uruchomienie domyślnego wariantu zablokowała sonda gotowości; nie pozostawiono
+  API działającego z pominięciem tej kontroli.
+
+## Powtórzenie
+
+Komendy, wymagania, warianty dostawców i wznowienie bez usuwania danych:
+[APPROACH.md](APPROACH.md). Do standardowego uruchomienia nadal służy
+`docker compose up -d`. E2E tworzy nowe syntetyczne wiadomości przy każdym
+wykonaniu; nie ponawiać niepewnych zgłoszeń produkcyjnych na tej podstawie.
