@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/overtime-timeoff/resolved_preface",
+    "scenario_id": "payroll/overtime-timeoff",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Rozliczenie nadgodzin czasem wolnym.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\n\nOsobna, aktualna wiadomość:\nZ przełożonym uzgodniłem odbiór wolnego za dodatkową pracę podczas wdrożenia w sobotę. Chciałbym dowiedzieć się, jaki wniosek złożyć, aby godziny zostały prawidłowo rozliczone. Proszę o sprawdzenie dostępnego salda i zasad wpisania odbioru do ewidencji czasu pracy."
+  }
+]

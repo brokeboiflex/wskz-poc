@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/night-allowance/base", "scenario_id": "payroll/night-allowance", "variant": "base", "run_id": "cfa1020046f9", "dataset_sha256": "b02fdc5b51c9d353136f519a407bc0bba246d7fc2cefb9d19ac0a72753e8dc39", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "5ef73164-58b8-497e-a512-9b6f765208df", "passed": true, "seconds": 3.409}
+{"run_id": "cfa1020046f9", "dataset_sha256": "b02fdc5b51c9d353136f519a407bc0bba246d7fc2cefb9d19ac0a72753e8dc39", "passed": 1, "total": 1}

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/occasional-leave/base", "scenario_id": "payroll/occasional-leave", "variant": "base", "run_id": "057b158fc2f0", "dataset_sha256": "de0fdde9511ce5829f5af44c0013622c4dcddb08425997a002e326c1efb933dd", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "92005be0-d625-4bd5-ad1d-df18bbe328d6", "passed": true, "seconds": 3.879}
+{"run_id": "057b158fc2f0", "dataset_sha256": "de0fdde9511ce5829f5af44c0013622c4dcddb08425997a002e326c1efb933dd", "passed": 1, "total": 1}

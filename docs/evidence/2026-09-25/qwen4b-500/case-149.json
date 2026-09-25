@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/income-certificate/base",
+    "scenario_id": "payroll/income-certificate",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Zaświadczenie o zarobkach.",
+    "message": "Składam wniosek mieszkaniowy i potrzebuję potwierdzenia średniego wynagrodzenia z ostatnich trzech miesięcy. Mam formularz instytucji przyjmującej wniosek. Proszę o wskazanie sposobu przekazania go do wypełnienia oraz informacji, kiedy mogę odebrać podpisane zaświadczenie o zarobkach."
+  }
+]

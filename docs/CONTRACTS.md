@@ -62,6 +62,21 @@ wybór na adres odbiorcy; adresy docelowe nie są kategoriami modelu. Zwykła tr
 interpretowana jako wywołanie narzędzia. Nie wysyłamy danych uwierzytelniających
 mailera ani adresu Reply-To do modelu.
 
+Ustawienia `MODEL_REASONING_EFFORT`, `MODEL_TEMPERATURE` i `MODEL_TOP_P` są
+opcjonalne; puste wartości pomijają pola w requestach. `MODEL_TOKEN_LIMIT_FIELD`
+wybiera `max_tokens` lub `max_completion_tokens`. Domyślny wariant Ollama używa
+`max_tokens`, `reasoning_effort=none`, temperatury 0.7 i top_p 0.8.
+Gotowość wymaga `GET /models` z dokładnym ID wybranego modelu. Zewnętrzny
+endpoint musi obsługiwać Chat Completions, tool calling i użyte standardowe
+schema; sam zgodny URL nie gwarantuje pełnej zgodności dostawcy.
+
+LangChain `create_agent` wykonuje jedno wywołanie modelu z limitem
+`MODEL_TIMEOUT_SECONDS`, walidację middleware i terminalne narzędzie wysyłki.
+Błędny native tool call daje `invalid_tool_call` bez wywołania mailera;
+timeout lub błąd dostawcy daje `model_unavailable`. Jawne zakończenie
+`finish_reason=length` jest odrzucane; samo zużycie limitu tokenów nie oznacza błędu. Nie ma korekcyjnych ponowień
+modelu, kolejnej inferencji po wysyłce ani automatycznego ponowienia mailera.
+
 ## Laya adapter i engine
 
 Adapter obsługuje podzbiór powyższego protokołu: jeden tekst użytkownika, opcjonalny
@@ -70,15 +85,15 @@ streaming, multimodalność, historię wykonanych narzędzi, nieznane modele i
 nieobsługiwane pola. Nazwa narzędzia i wartości enum pochodzą z requestu, bez
 wbudowanej polityki działów. Maksymalnie 7000 bajtów kontekstu decyzji.
 
-Opcjonalne rozszerzenie schematu argumentu `x-choice` zawiera `instructions`
-(niepuste pytanie, do 1000 znaków) i `criteria` (mapa każdej wartości enum na
-niepusty opis, do 500 znaków na opis). Adapter przekazuje je do silnika w
-kolejności enum. Brak lub nadmiar opcji, puste opisy albo wadliwa struktura
-zwracają HTTP 400 przed inferencją. Opisy wliczają się w limit bajtów.
-Bez rozszerzenia adapter zachowuje wcześniejszy format ogólny: instrukcje z
-promptu i schematu, a tekst opcji jako jej opis. Router korzysta z `x-choice`,
-aby Laya dostała krótkie pytanie klasyfikacyjne zamiast instrukcji wykonania toola.
-Rozszerzenie definiuje właściciel narzędzia; adapter nie zawiera polityki poczty.
+Opisane opcje używają standardowego JSON Schema: argument zawiera string enum
+oraz `anyOf` z jedną alternatywą na wartość. Każda alternatywa ma `type: string`,
+jednoelementowe `enum` i `description`. Opis samego argumentu jest pytaniem
+(do 1000 znaków), a opisy alternatyw kryteriami (do 500 znaków). Adapter mapuje
+je na pytanie i kryteria Laya w kolejności głównego enum. Brak lub nadmiar opcji,
+duplikaty i błędne opisy dają HTTP 400 przed inferencją. Opisy wliczają się w
+limit bajtów. Zwykły enum bez anyOf nadal używa instrukcji z promptu i schematu,
+a tekst opcji jako jej opisu. Nie ma prywatnego rozszerzenia x-choice ani
+wbudowanej polityki działów w adapterze.
 
 Engine przyjmuje `POST /v1/systemone`, z `model: multilingual`, `state` oraz jednym
 elementem `questions`: typ `choice`, instrukcje i `criteria` jako mapa opcji.
@@ -88,3 +103,11 @@ tokenizacji. Brak odpowiedzi, wynik poza opcjami lub błąd modelu daje 502 adap
 SDK ma ponadto osobny limit pytania i opcji: 256 tokenów dla tego checkpointu
 oraz 48 tokenów na opis opcji z jej etykietą. Aktualna polityka routera mieści
 się w tych limitach: 165 tokenów z markerami; najdłuższa opcja ma 27 tokenów.
+
+Opcjonalne `MODEL_TOOL_CHOICE`: puste pomija pole; `auto` i `required` wysyłane są
+bez zmian, `named` wskazuje nazwę jedynego narzędzia przez ChatOpenAI. LangChain
+wiąże narzędzie podczas `create_agent`, z ustawieniem przekazanym przez
+`ModelRequest.override`. Laya akceptuje `auto`/`required`; jej przykład env używa
+`required`. Obecna Ollama ignoruje wybór, dlatego jej przykład pomija pole.
+Brak wsparcia u dostawcy nie uruchamia fallbacku ani ponowienia. Bootstrap nadal
+sprawdza ogólną gotowość tool calling, nie egzekwowanie named tool_choice.

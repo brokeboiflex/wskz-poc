@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/training-accessibility/resolved_postscript",
+    "scenario_id": "human_resources/training-accessibility",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Dostosowanie materiałów szkoleniowych.",
+    "message": "W przyszłym miesiącu biorę udział w szkoleniu wdrożeniowym. Ze względu na słaby wzrok potrzebuję materiałów w dostępnej wersji tekstowej oraz większej czcionki w ćwiczeniach. Proszę uzgodnić to z organizatorem zajęć przed spotkaniem, abym mogła pracować samodzielnie z pozostałymi uczestnikami.\n\nPS. Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

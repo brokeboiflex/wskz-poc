@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/education-leave-credit/base",
+    "scenario_id": "payroll/education-leave-credit",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Uzupełnienie dokumentacji do wyliczenia urlopu.",
+    "message": "Chciałbym dostarczyć dyplom ukończenia studiów do akt pracowniczych, ponieważ nie został uwzględniony przy zatrudnieniu. Proszę o informację, czy wystarczy okazać oryginał, oraz o sprawdzenie wpływu tego dokumentu na naliczenie stażu i wymiaru urlopu wypoczynkowego."
+  }
+]

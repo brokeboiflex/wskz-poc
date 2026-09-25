@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/buddy-program/base", "scenario_id": "human_resources/buddy-program", "variant": "base", "run_id": "2e5e96de46f2", "dataset_sha256": "7b8b3a68553f2b36e2725549828176dfa96cddecd2a891c292eda6afc6801ce1", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "0abc1907-a821-4089-8d1c-704a430cc6d4", "passed": true, "seconds": 3.84}
+{"run_id": "2e5e96de46f2", "dataset_sha256": "7b8b3a68553f2b36e2725549828176dfa96cddecd2a891c292eda6afc6801ce1", "passed": 1, "total": 1}

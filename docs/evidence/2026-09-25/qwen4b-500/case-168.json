@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/schedule-record/conversation_history",
+    "scenario_id": "payroll/schedule-record",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Korekta ewidencji po zamianie zmian.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nZamieniłem się ze współpracownikiem terminami dyżurów za zgodą kierownika. Grafik roboczy został poprawiony, ale w zestawieniu do rozliczenia nadal widać pierwotny układ. Proszę wyjaśnić, jak przekazać zatwierdzoną zmianę, aby ewidencja odpowiadała faktycznie przepracowanym godzinom."
+  }
+]

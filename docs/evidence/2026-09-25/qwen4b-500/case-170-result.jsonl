@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/part-time-leave/forwarded_history", "scenario_id": "payroll/part-time-leave", "variant": "forwarded_history", "run_id": "ed81087cee72", "dataset_sha256": "3ec7a49e7c0a1f5bb566e2f9dc34ba6a9b4d4d0fd3b1a2a3d32c73d03fed30c2", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "d0df98c6-1df5-4a25-a752-cf2919bab112", "passed": true, "seconds": 8.799}
+{"run_id": "ed81087cee72", "dataset_sha256": "3ec7a49e7c0a1f5bb566e2f9dc34ba6a9b4d4d0fd3b1a2a3d32c73d03fed30c2", "passed": 1, "total": 1}

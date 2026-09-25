@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/part-time-leave/base", "scenario_id": "payroll/part-time-leave", "variant": "base", "run_id": "6c4f8d03b9dc", "dataset_sha256": "3b04c876cd4052ef5a34cd80d68f69a353d90548069aa3e13fb42bd23fff431c", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "d4c07d26-d7ef-455e-a894-afe04cd86b67", "passed": true, "seconds": 5.923}
+{"run_id": "6c4f8d03b9dc", "dataset_sha256": "3b04c876cd4052ef5a34cd80d68f69a353d90548069aa3e13fb42bd23fff431c", "passed": 1, "total": 1}

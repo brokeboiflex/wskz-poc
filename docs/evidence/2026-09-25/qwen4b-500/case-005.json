@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/candidate-feedback/base",
+    "scenario_id": "human_resources/candidate-feedback",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Informacja zwrotna po rozmowie kwalifikacyjnej.",
+    "message": "Dziękuję za wiadomość o zakończeniu naboru. Rozumiem, że wybrali Państwo inną osobę. Chciałabym jednak dowiedzieć się, nad którymi kompetencjami powinnam popracować przed kolejną aplikacją. Czy mogę otrzymać krótką informację zwrotną dotyczącą mojego zadania rekrutacyjnego?"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/referral-process/resolved_postscript",
+    "scenario_id": "human_resources/referral-process",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zasady polecania kandydatów, bez rozliczenia premii.",
+    "message": "Chciałabym polecić znajomego na otwarte stanowisko programisty. Nie pracował wcześniej w naszej firmie i ma doświadczenie zgodne z ogłoszeniem. Proszę wyjaśnić, jak przekazać jego kandydaturę do rekrutacji i czy powinien najpierw samodzielnie wysłać CV przez formularz.\n\nPS. Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

@@ -14,6 +14,7 @@ from email import policy
 from email.parser import BytesParser
 from email.utils import getaddresses
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 from uuid import uuid4
@@ -124,6 +125,19 @@ def main(argv=None):
         except Exception as exc:
             result["passed"] = False
             result["error"] = str(exc)
+            if isinstance(exc, HTTPError):
+                result["http_status"] = exc.code
+                # Retain the public error category and correlation, not arbitrary
+                # upstream response text. Never replay an uncertain submission.
+                try:
+                    error_body = json.load(exc)
+                    if isinstance(error_body, dict):
+                        for field in ("code", "request_id"):
+                            value = error_body.get(field)
+                            if isinstance(value, str):
+                                result[field] = value
+                except (ValueError, OSError):
+                    pass
         result["seconds"] = round(time.perf_counter() - start, 3)
         results.append(result)
         print(json.dumps(result, ensure_ascii=False), flush=True)

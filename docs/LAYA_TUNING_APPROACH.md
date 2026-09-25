@@ -1,3 +1,8 @@
+> Aktualizacja po przeglądzie neutralności dostawcy: sekcje poniżej dokumentują
+> historyczną korektę x-choice. Aktualny kontrakt używa standardowych description
+> i anyOf; adapter zachowuje identyczne pytanie i kryteria. Zobacz
+> [CONTRACTS.md](CONTRACTS.md) i [TOOL_WIRING.md](TOOL_WIRING.md).
+
 # Korekta integracji Laya i propozycja dostrojenia wag
 
 Status 25.09.2026: użytkownik poleceniem „Dobra popraw to” zatwierdził korektę

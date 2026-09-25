@@ -89,7 +89,7 @@ docker compose --env-file .env.ollama-example --profile test run --build --rm e2
 ```
 
 For Laya use `.env.laya-example` in both commands. Each run adds 500 captured emails.
-Mailpit currently retains only 1,000 messages, so before a large run account for
+Mailpit now defaults to 10,000 messages (`MAILPIT_MAX_MESSAGES`), so before a large run account for
 existing mail and raise the retention limit as necessary to avoid automatic eviction.
 Do not delete messages or volumes. Label, rationale and scenario metadata remain in
 the test harness; the API receives only synthetic sender contact and message text.
@@ -125,10 +125,101 @@ SHA-256: `bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e`.
 Host and rebuilt test container: **97 tests passed**. The E2E container also
 passed deterministic corpus verification as its normal non-root user. Ruff,
 Prettier and diff whitespace checks passed. Those are code/data checks, not a
-500-case model score. **No 500-case inference run has been performed.**
+500-case model score. **At this corpus-creation checkpoint no 500-case inference run had been performed.**
+The later tool-wiring repair and live evaluation are recorded in
+[TOOL_WIRING.md](TOOL_WIRING.md) and [VERIFICATION.md](VERIFICATION.md).
 
 Limits: balanced synthetic class frequencies do not estimate live inbox
 frequencies. History variants reuse five templates and mark earlier issues as
 resolved explicitly. This does not test ambiguous unresolved threads, every
 prompt-injection attack, maximal input lengths or multilingual performance.
 Any future confidence interval or data split must account for paired scenarios.
+
+## Reauthorized full check after generic-agent repair
+
+The user explicitly requested "Check with all 500 messages" after the small
+provider-switch smoke. This authorizes a new complete run on the current
+Ollama 0.13.5 / qwen3:1.7b stack, using the frozen corpus and existing E2E
+harness. No model/prompt/schema/corpus tuning or automatic request retries.
+Evidence directory: `docs/evidence/2026-09-25/ollama-500-generic/`. Preserve
+nonzero exit and separate wrong departments from HTTP/tool-call failures.
+The earlier interrupted runs remain historical evidence.
+
+## Latest checkpoint: stopped by user
+
+The reauthorized run was stopped on the user's explicit instruction. Run
+`2279baae02cc` has 241 completed records: 176 correct routes, 52 wrong departments,
+and 13 HTTP 502 `invalid_tool_call` responses. All 13 matching API log reasons
+are `missing_call`, not malformed JSON or invalid arguments. Of the 100 HR
+messages, 41 went to help desk. These are partial, class-ordered results, not a
+500-case accuracy score. No full-run MIME audit was performed. An in-flight
+request at cancellation may finish independently; do not replay it automatically.
+The E2E container was stopped (exit 137); results and API logs were preserved in
+`docs/evidence/2026-09-25/ollama-500-generic/`. Do not resume without a new explicit
+request. No model, prompt, schema or corpus changes were made during this run.
+
+## Full 500-case observed run authorized after the model comparison
+
+The user explicitly requested "Ok full test now. All 500". This supersedes the
+stop instruction for a new run only; preserve the previous interrupted results.
+Use qwen3:4b-instruct-2507-q4_K_M on existing Ollama 0.13.5, unchanged prompt,
+schema, image and inference settings. Frozen dataset SHA-256:
+`bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e`.
+
+Evidence: docs/evidence/2026-09-25/qwen4b-500/. The observed runner wraps the
+existing single-case E2E harness. It runs serially, saves exact input/result,
+correlated raw wire trace and raw MIME, and validates every case before starting
+the next. It pauses on each failure and every ten cases for operator review.
+The operator reads the actual failed message and raw/parsed output before
+continuing. A failed case is never retried. Do not change settings, prompt or
+labels during the run. Only synthetic Mailpit delivery is permitted.
+
+The per-case gate checks one request/response, unchanged wire payload except
+message text, no answer-key leakage, valid native call/parsed agreement, delivery
+correlation and full MIME even when the department is wrong. Failed requests
+must have no mail. Wrong routes and protocol failures are reported separately.
+Unknown audit errors stop execution. Capture whole service logs and perform an
+independent final Mailpit duplicate audit. No extra diagnostic inferences are
+part of these 500 cases. Raw content tracing is disabled after saving evidence.
+
+Commands from the PoC root:
+
+```sh
+MODEL_TRACE=true docker compose --env-file docs/evidence/2026-09-25/qwen4b-500/model.env up -d --no-deps --wait --wait-timeout 60 api
+.venv/bin/python -u docs/evidence/2026-09-25/qwen4b-500/run.py
+```
+
+The runner requires the existing .venv, healthy API/Mailpit and enough Mailpit
+retention for 500 new messages. It refuses an existing results.jsonl to prevent
+accidental replay. Review gates accept continue to advance, stop to terminate.
+After interruption inspect the last request/logs and preserve the partial run;
+there is no automatic resume or replay of uncertain deliveries. Store operator
+reviews, complete results, confusion matrix, per-class counts, latency and
+paired-family results. This is synthetic evaluation; prior diagnostic use of
+some cases means it is not a pristine held-out test.
+
+## Latest instruction: stop and audit existing evidence, 2026-09-26
+
+The user stopped testing at 190 completed cases and asked to rule out a fluke.
+No further inference, benchmark continuation or synthetic email is authorized
+by this audit. The runner is absent and stopped at the case-190 review gate.
+Preserve full service logs, audit the saved raw wire traces against the frozen
+inputs and current app, verify all live captured MIME and duplicates, and
+recompute scores from raw outcomes rather than trusting passed flags. Check
+class coverage, paired scenarios, previous diagnostic exposure, label leakage
+and hidden retries. A fresh independent critic reviews saved evidence only.
+
+Use summarize.py --partial for this explicit partial run; write partial-summary.json
+and partial-failures.json, never a 500-case completion artifact. Restore raw
+tracing to false after preserving logs. Neither a clean forensic audit nor a
+perfect class-ordered prefix proves repeatability or general accuracy.
+
+## Resume authorized, 2026-09-26
+
+User requested commit, push and remaining cases. Resume the same observed method
+at case 191 using `run.py --resume-after-190`; preserve cases 1-190, no replay.
+The explicit flag validates the frozen prefix and refuses an existing resume
+marker or case-191 artifacts. Keep per-case audits, failure/ten-case review gates
+and unchanged model settings. Preserve first-segment logs separately, then join
+API logs for the full audit. Save logs before disabling tracing. Commit and push
+the implementation checkpoint, then completed evidence.

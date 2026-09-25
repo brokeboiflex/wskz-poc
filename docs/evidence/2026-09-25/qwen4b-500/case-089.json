@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/cross-team-conflict/base",
+    "scenario_id": "human_resources/cross-team-conflict",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Mediacja pomiędzy zespołami.",
+    "message": "Zespół sprzedaży i realizacji wzajemnie obwiniają się za opóźnienia, przez co wspólne spotkania przestały prowadzić do ustaleń. Potrzebujemy neutralnej osoby do moderowania rozmowy o odpowiedzialności. Proszę o pomoc w zorganizowaniu mediacji i wypracowaniu zasad przekazywania zadań.\n\nPrzykład z ostatniego tygodnia: handlowiec obiecał klientowi termin, którego realizacja nie uważała za możliwy. W odpowiedzi na wspólnym czacie pojawiły się osobiste uwagi i rozmowa przeszła z ustalania rozwiązania do przypominania dawnych błędów. Klient ostatecznie dostał nowy termin, ale napięcie zostało.\n\nObie strony chcą dalej współpracować, tylko każda oczekuje, że pierwsza ustąpi druga. Chcielibyśmy spotkać się w małej grupie z neutralnym moderatorem. Celem ma być sposób uzgadniania zobowiązań i wyjaśniania rozbieżności, a nie rozstrzyganie, kto ogólnie pracuje lepiej. Mogę zebrać przykłady sytuacji, które powtarzają się najczęściej."
+  }
+]

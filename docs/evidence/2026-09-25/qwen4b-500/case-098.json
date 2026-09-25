@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/payroll-course/conversation_history",
+    "scenario_id": "human_resources/payroll-course",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Szkolenie z naliczania wynagrodzeń, bez błędu wypłaty.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDo mojego zakresu zadań dojdzie weryfikowanie danych do list płac. Chciałabym zapisać się na szkolenie z podstaw naliczania wynagrodzeń i interpretacji dokumentów. Potrzebuję kursu dla początkującej osoby, najlepiej z ćwiczeniami na przykładach i możliwością zadawania pytań prowadzącemu."
+  }
+]

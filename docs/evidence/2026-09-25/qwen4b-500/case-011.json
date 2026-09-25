@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/accessible-interview/base",
+    "scenario_id": "human_resources/accessible-interview",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Dostosowanie przebiegu rekrutacji do potrzeb kandydata.",
+    "message": "Jestem zaproszony na rozmowę rekrutacyjną w przyszłym tygodniu. Ze względu na niedosłuch potrzebuję rozmowy z napisami albo możliwości udzielenia części odpowiedzi pisemnie. Chciałbym wcześniej uzgodnić dostępny format spotkania, aby wszyscy uczestnicy mogli się do niego przygotować.\n\nRozmowa telefoniczna jest dla mnie trudniejsza niż spotkanie wideo z widoczną twarzą rozmówcy. W poprzednich procesach dobrze sprawdzało się także przesłanie pytań organizacyjnych tekstowo. Zależy mi na uzgodnieniu formy z wyprzedzeniem, żeby na samym spotkaniu skupić się na zadaniach i doświadczeniu."
+  }
+]

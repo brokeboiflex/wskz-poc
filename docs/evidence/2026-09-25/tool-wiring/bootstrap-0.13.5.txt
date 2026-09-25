@@ -1,0 +1,2 @@
+model-init-1  | Warming the model and checking native tool calling (no email).
+model-init-1  | Selected model endpoint is ready.

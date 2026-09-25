@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/communication-workshop/quoted_history",
+    "scenario_id": "human_resources/communication-workshop",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Organizacja szkolenia z komunikacji.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW naszym zespole powtarzają się nieporozumienia przy przekazywaniu zadań między zmianami. Chciałabym zorganizować warsztat z komunikacji i udzielania informacji zwrotnej dla ośmiu osób. Proszę pomóc dobrać program oraz prowadzącego, który przećwiczy z nami sytuacje z codziennej współpracy.\n\nNajczęściej problem wygląda tak: poranna zmiana zostawia zadanie z krótkim komentarzem, a popołudniowa nie wie, co zostało już sprawdzone i kto ma podjąć decyzję. W efekcie obie grupy wykonują tę samą pracę, po czym pojawiają się pretensje. Mamy już formularz przekazania zadań, ale sam formularz nie rozwiązał trudności w rozmowach.\n\nChcielibyśmy przećwiczyć przekazywanie niepełnych informacji, zadawanie pytań bez oskarżeń i zgłaszanie wątpliwości przełożonemu. Możemy zebrać anonimowe przykłady przed zajęciami. Ze względu na grafik nie wszyscy mogą uczestniczyć jednocześnie, więc przydałyby się dwie grupy pracujące na tych samych ćwiczeniach.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

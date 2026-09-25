@@ -1,5 +1,32 @@
 # Stan weryfikacji
 
+## Najnowsza diagnoza obserwowana
+
+Bez zmiany modelu/promptu wykonano cztery oddzielnie obserwowane zgłoszenia
+oraz trzy sondy tokenów przez standardowe OpenAI Chat Completions (bez wysyłki).
+Zapisano pełne requesty, surowe odpowiedzi, wynik LangChain i MIME.
+Model mylił etykietę działu z nazwą funkcji: `help_desk` lub `payroll` zamiast
+`send_department_email`. Parser serwera ukrywał takie wywołanie jako pustą
+odpowiedź. Osobno odtworzono poprawne wywołanie ze złym działem.
+Kontrola zakończyła się poprawnym HR; dwa wysłane maile przeszły niezależne
+kontrole MIME, dwa odrzucone zgłoszenia nie wysłały maili. Jedna sonda urlopu
+nie odtworzyła błędu; zachowano oba wyniki. To diagnoza, nie naprawa trafności.
+46 testów instrumentacji/SDK/routera zaliczonych; trace po odczycie wyłączony.
+Dowody: [observed-debug/README.md](evidence/2026-09-25/observed-debug/README.md).
+
+## Latest checkpoint: stopped by user
+
+The reauthorized run was stopped on the user's explicit instruction. Run
+`2279baae02cc` has 241 completed records: 176 correct routes, 52 wrong departments,
+and 13 HTTP 502 `invalid_tool_call` responses. All 13 matching API log reasons
+are `missing_call`, not malformed JSON or invalid arguments. Of the 100 HR
+messages, 41 went to help desk. These are partial, class-ordered results, not a
+500-case accuracy score. No full-run MIME audit was performed. An in-flight
+request at cancellation may finish independently; do not replay it automatically.
+The E2E container was stopped (exit 137); results and API logs were preserved in
+`docs/evidence/2026-09-25/ollama-500-generic/`. Do not resume without a new explicit
+request. No model, prompt, schema or corpus changes were made during this run.
+
 Data: 25.09.2026. **Po korekcie semantycznej Laya: 13/15, nadal FAIL akceptacji.**
 Model wybiera dział na podstawie treści i opisów; adres ustala aplikacja.
 Nie trenowano wag. Poprzedni pomiar Laya 6/15 pozostaje poniżej jako historia.
@@ -10,7 +37,90 @@ pozostaje prawdziwym wynikiem tamtego przebiegu, ale nie dowodzi powtarzalnie
 bezbłędnego routingu. Dowody nowych przebiegów i pomiarów zasobów są w
 `docs/evidence/2026-09-25/resources/`.
 
-## Nowy benchmark syntetyczny 500 wiadomości
+## Aktualny wynik: wspólny agent bez heurystyk dostawcy
+
+Na polecenie po świeżym przeglądzie usunięto dwie pozostałe zależności:
+heurystykę licznika tokenów Ollamy oraz prywatne x-choice w schemacie każdego
+requestu. Agent używa standardowego JSON Schema z opisami alternatyw anyOf;
+adapter Laya przekłada je na identyczne pytanie i kryteria typed choice.
+Nie dodano nowego proxy, patchowania SDK ani przełączników nazw dostawców w agencie.
+
+- **120/120 testów na hoście i w przebudowanym kontenerze.** Obejmują dwa
+  endpointy konfigurowane wyłącznie env przez rzeczywisty SDK, poprawne wywołanie
+  przy osiągniętym limicie tokenów oraz dokładną zgodność wejścia Laya.
+- **Ollama: 5/5 live smoke**, run `0f9c08ddffc3`.
+- **Laya: 4/5 poprawnych działów, 5/5 dostarczonych wiadomości**, run `ab7b125923ec`.
+  „Nie działa mi komputer.” trafiło do IT zamiast help desku. Ten sam błąd jest
+  zapisany w starszych `laya-semantic-pl.jsonl` i `resources/laya-e2e.jsonl`.
+  Nie zmieniano polityki ani wag, aby dopasować wynik testu.
+- Odczyt MIME wszystkich **10** wiadomości potwierdził oryginalny tekst, Reply-To,
+  adres zgodny z decyzją modelu, Message-ID, korelację i brak duplikatów.
+- Render-only na rzeczywistej Ollamie potwierdził zachowanie opisów, anyOf i enum
+  w stockowym szablonie. Nie uruchamiało to inferencji ani wysyłki.
+- Świeży krytyk nie znalazł blokera; niezależnie zaliczył **101 testów** i potwierdził,
+  że anyOf jest standardowym JSON Schema, a nie przemianowaną prywatną strukturą.
+
+Przełączenie wykonano `.env.laya-example`, a potem przywrócono `.env.ollama-example`.
+Domyślne kontenery są zdrowe; opcjonalna Laya została zatrzymana. OpenRouter
+sprawdzono na poziomie konfiguracji/wire, bez prawdziwego zewnętrznego klucza
+lub płatnej inferencji. Zgodność każdego zewnętrznego dostawcy nie jest dowiedziona:
+wymagane są Chat Completions z tool calling, użyte standardowe pola schematu
+oraz `/models` z wybranym ID. Licznik tokenów nie zastępuje finish_reason.
+
+Dowody: `docs/evidence/2026-09-25/generic-agent/`: `container-tests.txt`,
+`ollama-smoke.jsonl`, `laya-smoke.jsonl`, `mime-audit.json`, `rendered-schema.json`.
+Read-only kontrola MIME: `audit_smoke.py`. Pierwsze podejście do Laya zakończyło
+się przed pierwszym POST, ponieważ API jeszcze się uruchamiało; zapisano
+`laya-preflight-exit.txt`. Właściwy przebieg użył Compose `--wait`.
+Benchmark 500 przypadków pozostał zatrzymany. Komendy: [TOOL_WIRING.md](TOOL_WIRING.md).
+
+## Wcześniejsza naprawa integracji Qwen/Ollama
+
+**Finalny kod: 116/116 testów na hoście i w przebudowanym kontenerze; 5/5
+rzeczywistych zgłoszeń smoke.** API, Swagger i panel Mailpit są dostępne.
+Ollama 0.13.5 uruchomiła model i zaliczyła pojedynczą sondę native tool calling.
+To weryfikacja integracji, nie pomiar ogólnej trafności modelu.
+
+Potwierdzono w rzeczywistym prompcie regresję Ollama #14601: wersja 0.17.7
+renderowała definicję narzędzia jako strukturę Go zamiast JSON. Compose używa
+teraz 0.13.5 sprzed regresji; produkcyjne narzędzie na stockowym szablonie
+renderuje się jako poprawny JSON z zachowaną nazwą, opisami, wymaganym polem
+i enum. Przywrócony manifest modelu jest identyczny z oryginalnym, wraz z wagami.
+Usunięto naprawianie szablonu w bootstrapie i własną pętlę korekt. LangChain
+`create_agent` zarządza inferencją i wykonaniem terminalnego narzędzia.
+
+Smoke wybrał pierwszy przypadek każdego działu z istniejącego 15-elementowego
+zestawu: urlop, komputer, serwer, rekrutacja, przepis kulinarny. Każde zgłoszenie
+sprawdzono przez HTTP, model, mailer i rzeczywisty SMTP do Mailpit: odbiorcę,
+Reply-To, Message-ID, korelację, oryginalną treść i brak duplikatu. Wszystkie
+przeszły bez korekcyjnych ponowień. Run ID: `d8d91b7be2bb`.
+
+Dowody w `docs/evidence/2026-09-25/tool-wiring/`:
+
+- `agent-factory-tests.txt`: 116 zaliczonych testów kontenerowych.
+- `bootstrap-0.13.5.txt`, `rendered-prompt-0.13.5-stock.json`,
+  `model-manifest-stock.json`: działający runtime, stockowy szablon i model.
+- `focused-smoke-cases.json`, `focused-smoke.jsonl`, `focused-smoke-exit.txt`:
+  dokładne wejścia, per-case wyniki i kod wyjścia 0.
+- `agent-factory-api.txt`, `agent-factory-containers.jsonl`: logi i stan kontenerów.
+
+Świeży niezależny krytyk nie znalazł blokującego błędu w kodzie; samodzielnie
+zaliczył 79 testów obejmujących agenta, realną serializację SDK, kontrakty,
+mailer, bootstrap i granice warstw. Przypomniał, że ponowny publiczny POST
+tworzy nowy identyfikator i może wysłać drugi mail; deduplikacja wewnętrznego
+mailera nie jest deduplikacją publicznych requestów. [Raport](CRITIC.md).
+
+Początkowy build po pobraniu obrazu zatrzymał się na błędzie I/O containerd,
+gdy host miał 214 MiB wolnego miejsca. Użytkownik zwolnił miejsce; po wznowieniu
+build i wszystkie powyższe kontrole przeszły. Kontenery pozostawiono uruchomione.
+
+Benchmark 500 przypadków **zatrzymano na polecenie użytkownika** i nie wznowiono.
+Nie ma wyniku końcowego. `template-patch-partial.jsonl` opisuje przerwaną, starszą
+implementację z retry i patchowaniem, nie finalny kod. Historyczne 121 testów
+również dotyczą tej usuniętej implementacji. Źródła i komendy:
+[TOOL_WIRING.md](TOOL_WIRING.md).
+
+## Utworzenie benchmarku syntetycznego 500 wiadomości (wcześniejszy checkpoint)
 
 Zbudowano [zbiór 500 przypadków](../verification/benchmark/cases-500.json), po 100
 na dział, z 250 scenariuszy w dwóch wariantach. Etykiety przypisano podczas
@@ -24,7 +134,7 @@ nie stanowi reprezentatywnej próbki rzeczywistej korespondencji.
 - `--cases` wybiera zbiór; wyniki zawierają ID przypadku/rodziny i SHA-256.
 - API otrzymuje tylko nadawcę i treść, bez etykiet i uzasadnień.
 - Niezależny przegląd zakończony bez pozostałego blokera dla tego zakresu.
-- **Nie wykonano inferencji ani wysyłki 500 wiadomości.** Historyczne wyniki
+- **W chwili utworzenia zbioru nie wykonano inferencji 500 wiadomości.** Historyczne wyniki
   13/15 i 15/15 dotyczą wyłącznie poprzedniego zestawu 15 krótkich wiadomości.
 
 Sposób odtworzenia, ograniczenia i checkpoint:
@@ -162,3 +272,52 @@ Komendy, wymagania, warianty dostawców i wznowienie bez usuwania danych:
 [APPROACH.md](APPROACH.md). Do standardowego uruchomienia nadal służy
 `docker compose up -d`. E2E tworzy nowe syntetyczne wiadomości przy każdym
 wykonaniu; nie ponawiać niepewnych zgłoszeń produkcyjnych na tej podstawie.
+
+## Routing-policy revision: observed, 2026-09-25
+
+Shortened the function description, added explicit system routing policy and
+configurable MODEL_TOOL_CHOICE through existing LangChain middleware. All 77
+targeted SDK/router/tracing/Laya tests pass; Ruff and all three Compose examples
+validate. Fresh independent read-only critic found no implementation blocker.
+
+Four individually observed public requests on the unchanged qwen3:1.7b backend:
+interview and language-training cases routed correctly to HR; harassment and
+leave cases still returned HTTP 502 with empty upstream messages. Both successful
+deliveries passed MIME/Reply-To checks, both rejected requests produced no mail.
+A separate logprobs replay for harassment again generated help_desk as the
+function name. The model/backend reliability problem remains. No broad accuracy
+claim, external-provider call or new Laya inference; the full benchmark remains
+stopped. Evidence and repeat instructions:
+[evidence/2026-09-25/routing-policy/README.md](evidence/2026-09-25/routing-policy/README.md).
+
+## Env-only model comparison, 2026-09-25
+
+qwen3:4b-instruct-2507-q4_K_M on the same Ollama 0.13.5 passed all four
+individually observed diagnostic cases: interview, language training, harassment
+reporting and leave. The previous revised-prompt 1.7B run passed two and returned
+missing calls for two. Each new request made exactly one native email-tool call
+and produced one captured email with correct recipient, original body and Reply-To.
+Only the model field changed in corresponding wire requests; app image/hashes
+are unchanged. No code tests rerun because no application change was made.
+
+Public latency: 20.363 s on the first loaded request, then 3.685/4.402/3.962 s.
+Ollama container snapshot: 3.514 GiB, CPU only, serving context 4096. This is not
+a peak-memory measurement or a balanced accuracy benchmark. No clean bootstrap
+or broader corpus check was performed. Candidate active, tracing off, defaults
+unchanged. [Logs, MIME, model provenance and commands](evidence/2026-09-25/qwen4b-instruct/README.md).
+
+## Full run stopped; forensic audit, 2026-09-26
+
+The user stopped the 4B run at 190/500. No test process remains and no new
+inference was run for the audit. All190 saved raw responses and live captured
+emails were independently checked: 100 HR and 90 payroll correct, zero protocol
+or MIME failures, no duplicate or unrecorded attempt. Full API logs have 950
+correlated events and server logs exactly 190 inference POSTs. The four earlier
+4B diagnostic requests also passed again with identical inputs.
+
+This is 95 paired scenarios, only two classes, and a corpus already exposed
+during debugging. No claim of broad accuracy or stochastic reliability is
+warranted. The fresh critic confirmed real successes without direct label
+leakage or scoring inflation. Candidate remains active with tracing off; the
+benchmark must not resume implicitly.
+[Forensic findings](evidence/2026-09-25/qwen4b-500/FORENSIC_REVIEW.md).

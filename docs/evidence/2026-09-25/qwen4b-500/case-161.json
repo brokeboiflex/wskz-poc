@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/worktime-duplicate/base",
+    "scenario_id": "payroll/worktime-duplicate",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Podwójne naliczenie czasu pracy.",
+    "message": "Zauważyłam, że jedna zmiana została wpisana do ewidencji dwukrotnie. Łączna liczba godzin za miesiąc jest przez to zawyżona. Chciałabym zgłosić błąd przed rozliczeniem wynagrodzenia. Proszę zweryfikować powtórzony wpis i potwierdzić prawidłowy wymiar czasu pracy za ten okres."
+  }
+]

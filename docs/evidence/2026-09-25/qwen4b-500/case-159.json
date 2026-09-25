@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/worktime-missing/base",
+    "scenario_id": "payroll/worktime-missing",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Brakujące godziny w ewidencji.",
+    "message": "W miesięcznej ewidencji nie ma mojej obecności z ostatniego piątku, mimo że pracowałem zgodnie z grafikiem. Kierownik może potwierdzić zmianę, a system wejść zarejestrował przyjście. Proszę sprawdzić zapis i wskazać, jak skorygować liczbę przepracowanych godzin przed naliczeniem wypłaty.\n\nByła to zmiana od rana do popołudnia, bez wyjścia prywatnego. Na początku dnia odbiłem kartę przy wejściu, a po zakończeniu pracy przy wyjściu. W międzyczasie pomagałem przy przyjęciu dostawy, dlatego obecność może potwierdzić również osoba kierująca magazynem.\n\nW podglądzie widzę pusty dzień, a nie błędnie policzoną liczbę godzin. Kierownik zaakceptował moje miesięczne zestawienie, zanim zauważyliśmy brak. Chciałbym ustalić, czy powinien ponownie zatwierdzić kartę po korekcie, czy potrzebne jest osobne oświadczenie. Proszę również potwierdzić, że wyjaśnienie zdąży zostać uwzględnione przed zamknięciem listy płac, aby nie powstała kolejna korekta w następnym miesiącu."
+  }
+]

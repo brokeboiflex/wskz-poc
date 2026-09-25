@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/worktime-duplicate/base", "scenario_id": "payroll/worktime-duplicate", "variant": "base", "run_id": "04e2d75df88f", "dataset_sha256": "e140e876db05b8e5a3124c8e7b6b6cae33758200f66ad1c0033246ddfa086c1d", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "4708d546-8c0c-485d-b892-cb5811ea80ff", "passed": true, "seconds": 5.789}
+{"run_id": "04e2d75df88f", "dataset_sha256": "e140e876db05b8e5a3124c8e7b6b6cae33758200f66ad1c0033246ddfa086c1d", "passed": 1, "total": 1}

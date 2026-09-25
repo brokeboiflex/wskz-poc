@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/survey-followup/base", "scenario_id": "human_resources/survey-followup", "variant": "base", "run_id": "48a155374e6b", "dataset_sha256": "55195f1987a00b65777b2bcc7c8696bd0dfa0a49f2b3d2af16238c59d98c9855", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "39d77982-fb95-4a21-87dd-b4d586190f0e", "passed": true, "seconds": 3.707}
+{"run_id": "48a155374e6b", "dataset_sha256": "55195f1987a00b65777b2bcc7c8696bd0dfa0a49f2b3d2af16238c59d98c9855", "passed": 1, "total": 1}

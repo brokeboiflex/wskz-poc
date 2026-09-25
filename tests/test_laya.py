@@ -113,10 +113,12 @@ def test_adapter_never_invents_a_choice_when_engine_is_wrong():
 
 def described_payload():
     body = payload()
-    body["tools"][0]["function"]["parameters"]["properties"]["team"]["x-choice"] = {
-        "instructions": "Which team handles the message?",
-        "criteria": {"support": "Technical problems", "billing": "Payments and invoices"},
-    }
+    prop = body["tools"][0]["function"]["parameters"]["properties"]["team"]
+    prop["description"] = "Which team handles the message?"
+    prop["anyOf"] = [
+        {"type": "string", "enum": ["support"], "description": "Technical problems"},
+        {"type": "string", "enum": ["billing"], "description": "Payments and invoices"},
+    ]
     return body
 
 
@@ -152,20 +154,24 @@ async def test_descriptions_reach_engine_and_its_decision_returns_as_a_tool_call
 
 
 @pytest.mark.parametrize(
-    "metadata",
+    "alternatives",
     [
         None,
         [],
-        {"criteria": {}},
-        {"instructions": "pick", "criteria": {"billing": "Invoices"}},
-        {"instructions": "pick", "criteria": {"billing": "Invoices", "evil": "Other"}},
-        {"instructions": "", "criteria": {"billing": "Invoices", "support": "Bugs"}},
-        {"instructions": "pick", "criteria": {"billing": None, "support": "Bugs"}},
+        {},
+        [None, None],
+        [{"type": "string", "enum": ["billing"], "description": "Invoices"}] * 2,
+        [{"type": "string", "enum": ["evil"], "description": "Invoices"}] * 2,
+        [{"type": "string", "enum": ["billing", "support"], "description": "Invoices"}] * 2,
+        [
+            {"type": "string", "enum": ["billing"], "description": None},
+            {"type": "string", "enum": ["support"], "description": "Bugs"},
+        ],
     ],
 )
-def test_invalid_descriptions_fail_before_inference(metadata):
+def test_invalid_descriptions_fail_before_inference(alternatives):
     body = described_payload()
-    body["tools"][0]["function"]["parameters"]["properties"]["team"]["x-choice"] = metadata
+    body["tools"][0]["function"]["parameters"]["properties"]["team"]["anyOf"] = alternatives
     engine = Engine()
     with TestClient(create_app(ChoiceService(engine))) as client:
         assert client.post("/v1/chat/completions", json=body).status_code == 400
@@ -175,7 +181,8 @@ def test_invalid_descriptions_fail_before_inference(metadata):
 def test_description_bytes_are_included_in_context_limit():
     body = described_payload()
     prop = body["tools"][0]["function"]["parameters"]["properties"]["team"]
-    prop["x-choice"]["criteria"] = {key: "😀" * 500 for key in prop["enum"]}
+    for item in prop["anyOf"]:
+        item["description"] = "😀" * 500
     engine = Engine()
     with TestClient(create_app(ChoiceService(engine))) as client:
         assert client.post("/v1/chat/completions", json=body).status_code == 413

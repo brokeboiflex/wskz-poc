@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/payslip-copy/resolved_postscript", "scenario_id": "payroll/payslip-copy", "variant": "resolved_postscript", "run_id": "ba6d831204ed", "dataset_sha256": "3c8ab0c8abb077881c138dc49a42ceb48afca1210412d48230c2746844066ed0", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "25e5e2e7-b93e-4305-ba70-12d505e2801d", "passed": true, "seconds": 3.531}
+{"run_id": "ba6d831204ed", "dataset_sha256": "3c8ab0c8abb077881c138dc49a42ceb48afca1210412d48230c2746844066ed0", "passed": 1, "total": 1}

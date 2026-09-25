@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/promotion-criteria/forwarded_history",
+    "scenario_id": "human_resources/promotion-criteria",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Kryteria rozwoju i awansu.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nChciałbym dowiedzieć się, jakie kompetencje i osiągnięcia są wymagane, aby ubiegać się o rolę starszego specjalisty. Rozmowa z przełożonym była bardzo ogólna. Proszę o wyjaśnienie procesu oceny gotowości do awansu i przykładów działań, które mogę zaplanować w najbliższym kwartale.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nZamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

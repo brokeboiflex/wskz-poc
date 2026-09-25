@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/promotion-criteria/base",
+    "scenario_id": "human_resources/promotion-criteria",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Kryteria rozwoju i awansu.",
+    "message": "Chciałbym dowiedzieć się, jakie kompetencje i osiągnięcia są wymagane, aby ubiegać się o rolę starszego specjalisty. Rozmowa z przełożonym była bardzo ogólna. Proszę o wyjaśnienie procesu oceny gotowości do awansu i przykładów działań, które mogę zaplanować w najbliższym kwartale."
+  }
+]

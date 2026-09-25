@@ -1,0 +1,16 @@
+{
+  "ollama_version": {
+    "version": "0.13.5"
+  },
+  "configuration": {
+    "OPENAI_BASE_URL": "http://ollama:11434/v1",
+    "OPENAI_MODEL": "qwen3:1.7b",
+    "MODEL_MAX_TOKENS": "1024",
+    "MODEL_TOKEN_LIMIT_FIELD": "max_tokens",
+    "MODEL_REASONING_EFFORT": "none",
+    "MODEL_TEMPERATURE": "0.7",
+    "MODEL_TOP_P": "0.8",
+    "MODEL_TIMEOUT_SECONDS": "180"
+  },
+  "agent_sha256": "b58c2abc88ee3a783de5d5a460de980e82bc49faef5a1b9c186223023b22ecc5"
+}

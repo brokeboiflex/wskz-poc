@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/withdraw-application/conversation_history",
+    "scenario_id": "human_resources/withdraw-application",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Wycofanie kandydatury.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPiszę w sprawie mojego udziału w rekrutacji na stanowisko specjalisty do spraw zakupów. Przyjąłem już inną propozycję i chciałbym wycofać kandydaturę przed zaplanowaną rozmową. Proszę przekazać tę informację osobom prowadzącym nabór, aby nie rezerwowały dla mnie terminu."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/absence-code/conversation_history", "scenario_id": "payroll/absence-code", "variant": "conversation_history", "run_id": "bd0afaf671be", "dataset_sha256": "f51b8b2b4ba2b893d0e8b24770644a09f0f1bba5fd7affa1a4fca7989500547d", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "f72b251e-bd17-42e1-a2e9-831874c9cd16", "passed": true, "seconds": 6.2}
+{"run_id": "bd0afaf671be", "dataset_sha256": "f51b8b2b4ba2b893d0e8b24770644a09f0f1bba5fd7affa1a4fca7989500547d", "passed": 1, "total": 1}

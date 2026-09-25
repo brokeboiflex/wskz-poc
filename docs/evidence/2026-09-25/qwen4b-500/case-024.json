@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/leadership-course/resolved_preface",
+    "scenario_id": "human_resources/leadership-course",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Rozwój kompetencji kierowniczych.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n\nOsobna, aktualna wiadomość:\nOd przyszłego miesiąca będę koordynować pracę małego zespołu. Dotychczas odpowiadałam wyłącznie za własne zadania i potrzebuję przygotowania do prowadzenia rozmów oraz delegowania pracy. Czy firma organizuje szkolenie dla nowych liderów lub może zaproponować odpowiednią ścieżkę rozwojową?"
+  }
+]

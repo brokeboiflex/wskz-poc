@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/career-path/base",
+    "scenario_id": "human_resources/career-path",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Planowanie ścieżki zawodowej.",
+    "message": "Od trzech lat zajmuję się obsługą klientów i chciałabym stopniowo przejść do analizy procesów. Nie wiem, jakie umiejętności będą wymagane i od czego zacząć przygotowania. Proszę o rozmowę dotyczącą możliwej ścieżki rozwoju oraz dostępnych działań wspierających taki kierunek.\n\nNajbardziej interesuje mnie praca z danymi o przyczynach reklamacji. Przygotowałam już niewielkie zestawienie powtarzających się problemów i rozmawiałam z analityczką o jej codziennych zadaniach. Widzę jednak, że potrzebuję uporządkować wiedzę, zamiast zapisywać się na przypadkowe kursy.\n\nMój przełożony popiera przygotowanie takiego planu i może zapewnić kilka godzin miesięcznie na obserwowanie pracy innego zespołu. Chciałabym podczas konsultacji ustalić realne etapy: co powinnam umieć po trzech miesiącach, jak pokazać postęp i kiedy wrócić do rozmowy o możliwym przejściu. Nie oczekuję gwarancji nowego stanowiska; potrzebuję konkretnego kierunku nauki."
+  }
+]

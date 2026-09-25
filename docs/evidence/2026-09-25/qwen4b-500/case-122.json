@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/missing-salary/quoted_history",
+    "scenario_id": "payroll/missing-salary",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Brak przelewu wynagrodzenia.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nZwykle otrzymuję wypłatę do dziesiątego dnia miesiąca, a tym razem środki jeszcze nie wpłynęły. Numer rachunku nie zmienił się i pozostali członkowie zespołu otrzymali przelewy. Proszę sprawdzić status mojego wynagrodzenia oraz poinformować mnie o ewentualnej przyczynie opóźnienia.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

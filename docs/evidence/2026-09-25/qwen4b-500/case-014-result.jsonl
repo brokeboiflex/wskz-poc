@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/internship/resolved_preface", "scenario_id": "human_resources/internship", "variant": "resolved_preface", "run_id": "8435bdb08b2e", "dataset_sha256": "fb1bf86bc6dbd905d0e4e608747d76e6b1a6dce5666c2bdcab62ef7dfa21c7d7", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "fc5b2751-e58c-45f6-9ae6-21d6ae751f75", "passed": true, "seconds": 5.655}
+{"run_id": "8435bdb08b2e", "dataset_sha256": "fb1bf86bc6dbd905d0e4e608747d76e6b1a6dce5666c2bdcab62ef7dfa21c7d7", "passed": 1, "total": 1}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/buddy-program/quoted_history",
+    "scenario_id": "human_resources/buddy-program",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Program opiekunów dla nowych pracowników.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nChcielibyśmy wprowadzić w zespole osobę wspierającą każdego nowego pracownika przez pierwszy miesiąc. Potrzebujemy zasad wyboru opiekunów i wskazówek, jak przygotować ich do tej roli. Czy można pomóc nam opracować taki program i określić zakres spotkań z nowymi osobami?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

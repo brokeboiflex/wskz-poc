@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/unpaid-leave/base", "scenario_id": "payroll/unpaid-leave", "variant": "base", "run_id": "844de12f1005", "dataset_sha256": "3a5ffa594c62398bcc216a0ed83c333f66fb4919d69221ab8774bb777c89f2b9", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "6d85ddf9-4ca7-41cf-9aba-3324aa8d228b", "passed": true, "seconds": 3.904}
+{"run_id": "844de12f1005", "dataset_sha256": "3a5ffa594c62398bcc216a0ed83c333f66fb4919d69221ab8774bb777c89f2b9", "passed": 1, "total": 1}

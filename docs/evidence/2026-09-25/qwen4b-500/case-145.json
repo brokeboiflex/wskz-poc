@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/tax-data-correction/base",
+    "scenario_id": "payroll/tax-data-correction",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Korekta danych w dokumencie płacowym.",
+    "message": "W rocznej informacji o dochodach zauważyłam literówkę w nazwisku i nieaktualny adres. Wcześniej zgłaszałam zmianę danych pracodawcy. Proszę o weryfikację zapisów oraz wskazanie, jak otrzymać poprawiony dokument. Nie potrzebuję porady podatkowej, tylko korekty danych w wystawionej informacji."
+  }
+]

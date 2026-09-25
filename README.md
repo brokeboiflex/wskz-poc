@@ -20,8 +20,10 @@ docker compose up -d
 ```
 
 Nie trzeba tworzyć `.env`. Compose buduje obrazy, uruchamia Ollamę i Mailpit,
-pobiera `qwen3:1.7b`, rozgrzewa model i sprawdza rzeczywiste tool calling bez wysyłki
-maila. API startuje po pomyślnej inicjalizacji i gotowości mailera. Pierwszy start
+pobiera `qwen3:1.7b`, rozgrzewa model i sprawdza rzeczywiste tool calling bez
+wysyłki maila. Ollama jest przypięta do `0.13.5`, wersji sprzed regresji
+serializacji narzędzi Qwen (#14601). Nie modyfikujemy szablonu ani wag modelu.
+API startuje po pomyślnej inicjalizacji i gotowości mailera. Pierwszy start
 może potrwać kilka minut lub dłużej, zależnie od internetu i CPU. Kolejne starty
 wykorzystują zachowane wagi. Błąd inicjalizacji blokuje start API.
 
@@ -126,12 +128,13 @@ W każdej aplikacji biznesowej:
 5. **Composition root** (`main.py`) tworzy zależności w lifecycle aplikacji.
 
 Agent jest celowo ograniczony do jednej decyzji i jednej czynności końcowej.
-`ChatOpenAI.bind_tools()` przekazuje rzeczywisty schemat narzędzia do modelu.
-Adapter sprawdza `AIMessage.tool_calls`, waliduje pojedyncze wywołanie i uruchamia
-zarejestrowane narzędzie LangChain przez `StructuredTool.ainvoke()`.
-Tekst „wysłano” ani JSON w zwykłej odpowiedzi nie powoduje wysyłki. Po potwierdzeniu
-SMTP nie ma kolejnej inferencji, która mogłaby wywołać ponowną wysyłkę lub zmienić
-wynik na błąd. Brak poprawnego wywołania narzędzia daje HTTP 502.
+`create_agent(model=ChatOpenAI(...), tools=[...])` zarządza powiązaniem modelu
+z narzędziem i jego wykonaniem. Jeden middleware sprawdza poprawność wywołania
+przed wysyłką. `return_direct=True` kończy agenta po wykonaniu narzędzia.
+Nie ma własnej pętli agenta, korekcyjnych ponowień ani heurystyk konkretnego
+modelu. Schemat narzędzia używa standardowych enum, anyOf i description; każdy
+dostawca dostaje te same opisy działów. Adapter Laya tłumaczy ten schemat na
+swój format typed choice.
 
 ## Zasady routingu
 
@@ -261,7 +264,33 @@ Lokalne porty są ograniczone do loopback. Unified Mail Core nie jest wymagany a
 dołączony: ewentualny adapter z jego outboxem może zastąpić mailer za tym samym
 kontraktem, ale status `queued` nie może udawać `submitted`.
 
+## Parametry modelu i błędne wywołania
+
+Wariant Ollama jawnie wyłącza thinking przez `MODEL_REASONING_EFFORT=none`,
+ustawia `MODEL_TEMPERATURE=0.7` i `MODEL_TOP_P=0.8`. Puste wartości pomijają te
+opcje, czego wymagają niektórzy dostawcy oraz adapter Laya. Szablony env zawierają
+odpowiednie ustawienia. `MODEL_TOKEN_LIMIT_FIELD=max_tokens` zachowuje pole
+obsługiwane przez przypiętą Ollamę; można wybrać `max_completion_tokens` dla
+innego endpointu. Sam wspólny format OpenAI nie oznacza identycznych możliwości
+wszystkich dostawców.
+
+Agent wykonuje jedno wywołanie modelu z limitem `MODEL_TIMEOUT_SECONDS=180`.
+Niepoprawny tool call kończy request błędem `invalid_tool_call`, bez wysyłki.
+Agent sprawdza nazwę narzędzia, dokładnie jeden argument `department`, wartości
+z enum i nieuciętą odpowiedź. Nie usuwa nadmiarowych argumentów ani nie zgaduje
+wywołania z tekstu. Po wysyłce nie ma kolejnej próby modelu ani mailera.
+Logi API rozróżniają brak wywołania, błędne argumenty, wiele wywołań, niewłaściwą
+nazwę i jawne zakończenie `length`. Sam licznik tokenów nie oznacza błędu. Szczegóły naprawy i źródła:
+[TOOL_WIRING.md](docs/TOOL_WIRING.md).
+
 ## Testy i diagnostyka
+
+Obserwowane debugowanie: [OBSERVED_DEBUGGING.md](docs/OBSERVED_DEBUGGING.md).
+`MODEL_TRACE=true` włącza w logach API surowe requesty i odpowiedzi modelu,
+wynik parsowania, walidacji i wysyłki po wspólnym `request_id`. Wyłącznie dla
+syntetycznych danych lokalnych; domyślnie wyłączone. Inference nadal korzysta
+z ChatOpenAI i API OpenAI-compatible, bez klienta Ollamy. Przed kolejnym
+przypadkiem odczytać trace; nie uruchamiać nieobserwowanych testów modelu.
 
 Rozszerzony zbiór: [500 syntetycznych wiadomości po polsku](verification/benchmark/cases-500.json),
 po 100 na każdy z pięciu działów. Zawiera 250 scenariuszy w dwóch wariantach:
@@ -279,9 +308,11 @@ docker compose --env-file .env.ollama-example --profile test run --build --rm e2
 
 Dla Laya użyj `.env.laya-example`. Do API trafiają tylko adres nadawcy i treść;
 odpowiedzi wzorcowe pozostają w teście. Wyniki zapisują identyfikatory przypadków,
-rodzin i SHA-256 dokładnie użytego pliku. **Nie wykonano jeszcze inferencji na 500
-przypadkach.** Wykonanie wymaga działającego wariantu usług i uwzględnienia limitu
-przechowywania poczty w Mailpit, aby nie wyparł wcześniejszych wiadomości.
+rodzin i SHA-256 dokładnie użytego pliku, a przy błędzie HTTP także jego kod
+oraz `request_id`. Aktualne wyniki: [VERIFICATION.md](docs/VERIFICATION.md).
+Wykonanie wymaga działającego wariantu usług. `MAILPIT_MAX_MESSAGES` (domyślnie
+10 000) musi pomieścić wcześniejszą pocztę i nowy przebieg bez automatycznego
+usuwania najstarszych wiadomości.
 Źródła, ograniczenia par scenariuszy, kontrole i wznowienie:
 [BENCHMARK_APPROACH.md](docs/BENCHMARK_APPROACH.md).
 
@@ -324,3 +355,29 @@ Kontrakty usług: [CONTRACTS.md](docs/CONTRACTS.md).
 - [Gotowość zależności Compose](https://docs.docker.com/compose/how-tos/startup-order/)
 - [Mailpit API](https://mailpit.axllent.org/docs/api-v1/)
 - [Laya, SDK i granice modelu](https://github.com/NandhaKishorM/laya)
+
+`MODEL_TOOL_CHOICE` steruje standardowym polem wyboru narzędzia: puste pomija
+pole, `auto` zostawia wybór modelowi, `required` wymaga narzędzia, a `named`
+wskazuje funkcję `send_department_email`. Wsparcie zależy od backendu: przykład
+Ollamy pomija pole (ta wersja je ignoruje), Laya używa `required`, a OpenRouter
+`named` i wymaga obsługi przez wybrany model/backend. Nie wykonujemy automatycznego
+ponowienia z innymi ustawieniami. Polityka działów znajduje się w system prompt;
+schemat zachowuje opisy kategorii potrzebne adapterowi Laya.
+
+Ostatnia obserwowana próba po uproszczeniu opisu narzędzia i doprecyzowaniu polityki:
+2 z 4 wybranych przypadków poprawne, 2 nadal bez wywołania narzędzia. To mała
+próba diagnostyczna, nie pomiar skuteczności. Problem lokalnego modelu/backendu
+pozostaje; [surowe dowody i wyniki](docs/evidence/2026-09-25/routing-policy/README.md).
+
+Późniejsze porównanie z `qwen3:4b-instruct-2507-q4_K_M`, bez zmian kodu,
+zaliczyło te same **4/4 przypadki**, w tym oba wcześniejsze błędy. To nadal
+wybrana próba HR/kadry, nie ogólna skuteczność. Kandydat pozostaje aktywny
+lokalnie; domyślny model repozytorium nie został zmieniony.
+[Konfiguracja eksperymentu, surowe logi i przechwycone maile](docs/evidence/2026-09-25/qwen4b-instruct/README.md).
+
+Pełny przebieg został następnie zatrzymany przez użytkownika na **190/500**.
+Audyt surowych odpowiedzi i wszystkich 190 przechwyconych maili potwierdził
+100 poprawnych HR i 90 kadry, bez błędów protokołu ani duplikatów. To 95 par
+scenariuszy i tylko dwa działy; korpus był już używany podczas debugowania.
+Nie potwierdza to ogólnej skuteczności ani powtarzalności.
+[Audyt dowodów i ograniczenia](docs/evidence/2026-09-25/qwen4b-500/FORENSIC_REVIEW.md).

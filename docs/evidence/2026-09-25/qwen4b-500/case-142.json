@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/bank-account/quoted_history",
+    "scenario_id": "payroll/bank-account",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Zmiana rachunku do wypłaty.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nOd następnego miesiąca chciałabym otrzymywać wynagrodzenie na nowy rachunek bankowy. Nie zamieszczam numeru w tej wiadomości, bo najpierw potrzebuję właściwego formularza i bezpiecznego sposobu przekazania danych. Proszę o instrukcję zgłoszenia zmiany oraz termin jej uwzględnienia.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

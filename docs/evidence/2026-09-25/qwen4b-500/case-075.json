@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/training-accessibility/base",
+    "scenario_id": "human_resources/training-accessibility",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Dostosowanie materiałów szkoleniowych.",
+    "message": "W przyszłym miesiącu biorę udział w szkoleniu wdrożeniowym. Ze względu na słaby wzrok potrzebuję materiałów w dostępnej wersji tekstowej oraz większej czcionki w ćwiczeniach. Proszę uzgodnić to z organizatorem zajęć przed spotkaniem, abym mogła pracować samodzielnie z pozostałymi uczestnikami."
+  }
+]

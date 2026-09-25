@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/overtime-pay/base",
+    "scenario_id": "payroll/overtime-pay",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Naliczanie wynagrodzenia za nadgodziny.",
+    "message": "W ubiegłym miesiącu przepracowałam dodatkowe godziny zatwierdzone przez kierownika. Widzę je w ewidencji, ale na pasku wypłaty nie pojawiło się odpowiadające im rozliczenie. Proszę sprawdzić, czy zostały uwzględnione na liście płac i w jakim terminie zostaną wypłacone.\n\nDodatkowa praca dotyczyła dwóch wieczorów przy zamknięciu miesiąca. Przełożony zatwierdził godziny w tym samym tygodniu. Mam daty i numer zaakceptowanej karty, więc mogę przekazać je do porównania z danymi wykorzystanymi podczas naliczania wypłaty."
+  }
+]

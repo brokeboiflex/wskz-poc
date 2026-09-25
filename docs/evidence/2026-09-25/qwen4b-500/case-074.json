@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/training-reschedule/resolved_preface",
+    "scenario_id": "human_resources/training-reschedule",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zmiana terminu udziału w szkoleniu.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n\nOsobna, aktualna wiadomość:\nZostałem zapisany na warsztat negocjacji, ale w tym samym terminie prowadzę wcześniej uzgodnione spotkanie z klientem. Chciałbym przenieść udział na kolejną edycję, zachowując miejsce w programie. Proszę sprawdzić dostępne terminy i poinformować prowadzącego o zmianie uczestnika."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/feedback-culture/forwarded_history",
+    "scenario_id": "human_resources/feedback-culture",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Warsztat o informacji zwrotnej po napięciu w zespole.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPo ostatnim przeglądzie projektu kilka osób unika zabierania głosu, bo uwagi były przekazywane w bardzo osobisty sposób. Chciałabym, abyśmy nauczyli się rozmawiać o błędach bez atakowania współpracowników. Proszę o wsparcie w przygotowaniu warsztatu i zasad konstruktywnej informacji zwrotnej.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

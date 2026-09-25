@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/discrimination-report/base",
+    "scenario_id": "human_resources/discrimination-report",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zgłoszenie dyskryminujących zachowań.",
+    "message": "Kilkukrotnie usłyszałem od współpracowników komentarze dotyczące mojego pochodzenia, także podczas rozmów z klientami. Mam zapisane daty i opis sytuacji. Chciałbym zgłosić problem poufnie i ustalić, jak wygląda procedura wyjaśniająca oraz jakie wsparcie jest dostępne dla pracownika."
+  }
+]

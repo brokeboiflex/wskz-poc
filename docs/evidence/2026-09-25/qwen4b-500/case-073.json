@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/training-reschedule/base",
+    "scenario_id": "human_resources/training-reschedule",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zmiana terminu udziału w szkoleniu.",
+    "message": "Zostałem zapisany na warsztat negocjacji, ale w tym samym terminie prowadzę wcześniej uzgodnione spotkanie z klientem. Chciałbym przenieść udział na kolejną edycję, zachowując miejsce w programie. Proszę sprawdzić dostępne terminy i poinformować prowadzącego o zmianie uczestnika."
+  }
+]

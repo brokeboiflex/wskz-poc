@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/discrimination-report/forwarded_history",
+    "scenario_id": "human_resources/discrimination-report",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zgłoszenie dyskryminujących zachowań.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nKilkukrotnie usłyszałem od współpracowników komentarze dotyczące mojego pochodzenia, także podczas rozmów z klientami. Mam zapisane daty i opis sytuacji. Chciałbym zgłosić problem poufnie i ustalić, jak wygląda procedura wyjaśniająca oraz jakie wsparcie jest dostępne dla pracownika.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nW poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

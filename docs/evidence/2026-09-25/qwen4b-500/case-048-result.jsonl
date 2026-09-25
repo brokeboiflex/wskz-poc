@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/exclusion/conversation_history", "scenario_id": "human_resources/exclusion", "variant": "conversation_history", "run_id": "bf692084ae26", "dataset_sha256": "e4cc49ac9a42981b94f071aab15f8cefe5aa373175a98aa267710de935ff2b55", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "79d59302-11c1-4555-bcbc-3e3e09cdc7fe", "passed": true, "seconds": 6.138}
+{"run_id": "bf692084ae26", "dataset_sha256": "e4cc49ac9a42981b94f071aab15f8cefe5aa373175a98aa267710de935ff2b55", "passed": 1, "total": 1}

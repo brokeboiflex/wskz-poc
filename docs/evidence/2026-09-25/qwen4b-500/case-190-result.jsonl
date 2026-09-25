@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/leave-return/forwarded_history", "scenario_id": "payroll/leave-return", "variant": "forwarded_history", "run_id": "0df747db92f5", "dataset_sha256": "677dbd83503535338b18f81a32dfeed8e8c985c52ac79e85b424bfea7b46fc26", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "58deef9d-5ad7-48cb-8637-a92872586b3a", "passed": true, "seconds": 6.56}
+{"run_id": "0df747db92f5", "dataset_sha256": "677dbd83503535338b18f81a32dfeed8e8c985c52ac79e85b424bfea7b46fc26", "passed": 1, "total": 1}

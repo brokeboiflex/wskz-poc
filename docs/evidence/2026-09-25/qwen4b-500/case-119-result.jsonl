@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/leave-carryover/base", "scenario_id": "payroll/leave-carryover", "variant": "base", "run_id": "1b2fd732d175", "dataset_sha256": "f3a5890c2b441baced3f043c8b369b9e0c06161dd0f3349899dfc064a2ea6ae8", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "366f94c7-b18e-40a4-a877-baea134f482d", "passed": true, "seconds": 3.841}
+{"run_id": "1b2fd732d175", "dataset_sha256": "f3a5890c2b441baced3f043c8b369b9e0c06161dd0f3349899dfc064a2ea6ae8", "passed": 1, "total": 1}

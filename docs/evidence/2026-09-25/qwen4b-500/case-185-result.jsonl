@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/salary-currency/base", "scenario_id": "payroll/salary-currency", "variant": "base", "run_id": "cf256d47fcb9", "dataset_sha256": "67ae7021191ca8cde8e6380d72ccb328864528f821b34846cd078fdb443fbc82", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "e71922e2-6cfd-46a9-9e47-356defbaf5c8", "passed": true, "seconds": 4.294}
+{"run_id": "cf256d47fcb9", "dataset_sha256": "67ae7021191ca8cde8e6380d72ccb328864528f821b34846cd078fdb443fbc82", "passed": 1, "total": 1}

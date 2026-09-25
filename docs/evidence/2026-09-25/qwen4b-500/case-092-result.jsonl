@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/recognition-program/quoted_history", "scenario_id": "human_resources/recognition-program", "variant": "quoted_history", "run_id": "742940a28b02", "dataset_sha256": "321bd2ba97ec42ccfb3e726465ff84c8cae7b0afc37ef5e40ba2007ebf81e367", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "913356ea-5488-4da5-913d-b0d9682eb0a9", "passed": true, "seconds": 6.113}
+{"run_id": "742940a28b02", "dataset_sha256": "321bd2ba97ec42ccfb3e726465ff84c8cae7b0afc37ef5e40ba2007ebf81e367", "passed": 1, "total": 1}

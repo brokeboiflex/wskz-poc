@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/timesheet-approval/base", "scenario_id": "payroll/timesheet-approval", "variant": "base", "run_id": "e1d4585bbc98", "dataset_sha256": "eb3e50462d5378e488b3a7cdab16d6d06a7a20e8ed95de95766645e5a089d5bc", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "f62c9022-a4c4-4d5f-877c-d177460fb5fa", "passed": true, "seconds": 4.118}
+{"run_id": "e1d4585bbc98", "dataset_sha256": "eb3e50462d5378e488b3a7cdab16d6d06a7a20e8ed95de95766645e5a089d5bc", "passed": 1, "total": 1}

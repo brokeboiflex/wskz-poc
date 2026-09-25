@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/application-status/base", "scenario_id": "human_resources/application-status", "variant": "base", "run_id": "0a8357750f44", "dataset_sha256": "035e69f232cb143e67bd1bcc53fd5e280294ce54a87e5e08786829c69c56aec5", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "fe8b4836-ccd2-4c28-8465-49c0fb3d3218", "passed": true, "seconds": 3.973}
+{"run_id": "0a8357750f44", "dataset_sha256": "035e69f232cb143e67bd1bcc53fd5e280294ce54a87e5e08786829c69c56aec5", "passed": 1, "total": 1}

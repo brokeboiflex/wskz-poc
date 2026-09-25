@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/buddy-program/base",
+    "scenario_id": "human_resources/buddy-program",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Program opiekunów dla nowych pracowników.",
+    "message": "Chcielibyśmy wprowadzić w zespole osobę wspierającą każdego nowego pracownika przez pierwszy miesiąc. Potrzebujemy zasad wyboru opiekunów i wskazówek, jak przygotować ich do tej roli. Czy można pomóc nam opracować taki program i określić zakres spotkań z nowymi osobami?"
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/income-certificate/base", "scenario_id": "payroll/income-certificate", "variant": "base", "run_id": "a89f79b3e545", "dataset_sha256": "6a79335ad57364a85c79880ebe5243f029808213023a874359b05ef6c29875cb", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "591ef840-805b-40c2-8aad-1556c152db3c", "passed": true, "seconds": 3.523}
+{"run_id": "a89f79b3e545", "dataset_sha256": "6a79335ad57364a85c79880ebe5243f029808213023a874359b05ef6c29875cb", "passed": 1, "total": 1}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/referral-process/base",
+    "scenario_id": "human_resources/referral-process",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zasady polecania kandydatów, bez rozliczenia premii.",
+    "message": "Chciałabym polecić znajomego na otwarte stanowisko programisty. Nie pracował wcześniej w naszej firmie i ma doświadczenie zgodne z ogłoszeniem. Proszę wyjaśnić, jak przekazać jego kandydaturę do rekrutacji i czy powinien najpierw samodzielnie wysłać CV przez formularz."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/sick-pay/base", "scenario_id": "payroll/sick-pay", "variant": "base", "run_id": "8fcf754f5142", "dataset_sha256": "be30dd3b8d31e3604220772b93448972a1371e3b894a4ceae610239f0c3d20b7", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "7121af07-e5df-458a-a6b4-f4f21dc2f6e0", "passed": true, "seconds": 3.74}
+{"run_id": "8fcf754f5142", "dataset_sha256": "be30dd3b8d31e3604220772b93448972a1371e3b894a4ceae610239f0c3d20b7", "passed": 1, "total": 1}

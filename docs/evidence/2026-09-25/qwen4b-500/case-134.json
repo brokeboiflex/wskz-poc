@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/salary-overpayment/resolved_preface",
+    "scenario_id": "payroll/salary-overpayment",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wyjaśnienie nadpłaty wynagrodzenia.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n\nOsobna, aktualna wiadomość:\nNa moje konto wpłynęła kwota wyższa niż wskazana na pasku wynagrodzenia. Nie mam informacji o dodatkowej premii ani wyrównaniu. Proszę zweryfikować przelew i poinformować mnie, czy doszło do nadpłaty oraz jak formalnie wyjaśnić tę różnicę w rozliczeniu."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/tax-data-correction/base", "scenario_id": "payroll/tax-data-correction", "variant": "base", "run_id": "f252df5a4ae3", "dataset_sha256": "a57e606f6226fe3b76a5b4e0205c43ff9d57068b0fd91bd0155066f4056c6f5f", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "f171c8ef-72d5-4a52-98ce-69decb26cb6c", "passed": true, "seconds": 4.577}
+{"run_id": "f252df5a4ae3", "dataset_sha256": "a57e606f6226fe3b76a5b4e0205c43ff9d57068b0fd91bd0155066f4056c6f5f", "passed": 1, "total": 1}

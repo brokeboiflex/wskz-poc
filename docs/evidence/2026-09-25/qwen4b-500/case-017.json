@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/vacancy-profile/base",
+    "scenario_id": "human_resources/vacancy-profile",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Doprecyzowanie wymagań w ogłoszeniu rekrutacyjnym.",
+    "message": "Nasz zespół rozpoczyna nabór na stanowisko opiekuna klientów. W przygotowanym ogłoszeniu znalazł się wymóg prowadzenia samochodu, choć praca odbywa się zdalnie i nie obejmuje wyjazdów. Proszę o konsultację treści ogłoszenia przed jego publikacją i ustalenie rzeczywiście potrzebnych kompetencji."
+  }
+]

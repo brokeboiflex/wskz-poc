@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/salary-overpayment/base",
+    "scenario_id": "payroll/salary-overpayment",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wyjaśnienie nadpłaty wynagrodzenia.",
+    "message": "Na moje konto wpłynęła kwota wyższa niż wskazana na pasku wynagrodzenia. Nie mam informacji o dodatkowej premii ani wyrównaniu. Proszę zweryfikować przelew i poinformować mnie, czy doszło do nadpłaty oraz jak formalnie wyjaśnić tę różnicę w rozliczeniu."
+  }
+]

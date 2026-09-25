@@ -16,6 +16,22 @@ def request(url, payload=None, *, key="", timeout=30):
         return json.load(response)
 
 
+def probe_error(result):
+    try:
+        choice = result["choices"][0]
+        if choice.get("finish_reason") == "length":
+            return "readiness tool call was truncated"
+        calls = choice["message"].get("tool_calls") or []
+        if len(calls) != 1 or calls[0]["function"]["name"] != "readiness_probe":
+            return "model did not produce a native tool call"
+        args = json.loads(calls[0]["function"]["arguments"])
+        if not isinstance(args, dict) or set(args) != {"ready"} or args["ready"] is not True:
+            return "invalid readiness tool arguments"
+    except (ValueError, KeyError, TypeError, IndexError):
+        return "invalid readiness response"
+    return None
+
+
 def initialize():
     base = os.environ.get("OPENAI_BASE_URL", "http://ollama:11434/v1").rstrip("/")
     model = os.environ.get("OPENAI_MODEL", "qwen3:1.7b")
@@ -24,6 +40,19 @@ def initialize():
     if mode not in {"ollama", "external"}:
         raise ValueError("MODEL_BOOTSTRAP must be ollama or external")
     if mode == "ollama":
+        # Same wire options as the API; no LangChain dependency across services.
+        token_field = os.environ.get("MODEL_TOKEN_LIMIT_FIELD", "max_tokens")
+        if token_field not in {"max_tokens", "max_completion_tokens"}:
+            raise ValueError("invalid MODEL_TOKEN_LIMIT_FIELD")
+        options = {token_field: int(os.environ.get("MODEL_MAX_TOKENS", "1024"))}
+        for env, field, default, convert in (
+            ("MODEL_REASONING_EFFORT", "reasoning_effort", "none", str),
+            ("MODEL_TEMPERATURE", "temperature", "0.7", float),
+            ("MODEL_TOP_P", "top_p", "0.8", float),
+        ):
+            value = os.environ.get(env, default)
+            if value:
+                options[field] = convert(value)
         native = os.environ.get("OLLAMA_BASE_URL", "http://ollama:11434").rstrip("/")
         models = request(native + "/api/tags")["models"]
         if not any(item["name"] == model for item in models):
@@ -32,38 +61,37 @@ def initialize():
             if result.get("status") != "success":
                 raise RuntimeError("model pull did not succeed")
         print("Warming the model and checking native tool calling (no email).", flush=True)
-        result = request(
-            base + "/chat/completions",
-            {
-                "model": model,
-                "messages": [
-                    {"role": "user", "content": "Call readiness_probe with ready=true. /no_think"}
-                ],
-                "tools": [
-                    {
-                        "type": "function",
-                        "function": {
-                            "name": "readiness_probe",
-                            "description": "Report that inference is ready.",
-                            "parameters": {
-                                "type": "object",
-                                "properties": {"ready": {"type": "boolean"}},
-                                "required": ["ready"],
-                            },
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": "Use the provided tool once. No prose."},
+                {"role": "user", "content": "Call readiness_probe with ready=true."},
+            ],
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "readiness_probe",
+                        "description": "Report that inference is ready.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {"ready": {"type": "boolean"}},
+                            "required": ["ready"],
+                            "additionalProperties": False,
                         },
-                    }
-                ],
-                "max_tokens": 256,
-                "stream": False,
-            },
-            key=key,
-            timeout=600,
-        )
-        calls = result["choices"][0]["message"].get("tool_calls", [])
-        if len(calls) != 1 or calls[0]["function"]["name"] != "readiness_probe":
-            raise RuntimeError("model did not produce a native tool call")
-        if json.loads(calls[0]["function"]["arguments"]).get("ready") is not True:
-            raise RuntimeError("invalid readiness tool arguments")
+                    },
+                }
+            ],
+            **options,
+            "stream": False,
+        }
+        probe_deadline = time.monotonic() + 600
+        result = request(base + "/chat/completions", payload, key=key, timeout=600)
+        if time.monotonic() >= probe_deadline:
+            raise RuntimeError("readiness probe timed out")
+        reason = probe_error(result)
+        if reason:
+            raise RuntimeError(reason)
     deadline = time.monotonic() + 1200
     while time.monotonic() < deadline:
         try:

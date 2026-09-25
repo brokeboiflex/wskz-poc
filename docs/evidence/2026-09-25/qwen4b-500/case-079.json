@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/knowledge-sharing/base",
+    "scenario_id": "human_resources/knowledge-sharing",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Organizacja wewnętrznego dzielenia się wiedzą.",
+    "message": "Kilka osób z zespołu chciałoby prowadzić krótkie spotkania, na których uczymy się od siebie nowych metod pracy. Potrzebujemy pomocy w zaplanowaniu programu i przygotowaniu prowadzących. Czy można wesprzeć nas w uruchomieniu cyklu wewnętrznych zajęć oraz ocenie ich przydatności?"
+  }
+]

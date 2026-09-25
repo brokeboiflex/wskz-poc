@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/harassment-procedure/base", "scenario_id": "human_resources/harassment-procedure", "variant": "base", "run_id": "0bf45c7d771a", "dataset_sha256": "9f9f8156d085060ef85481ed95009785f418e4a59e34f1cceb2db16cb71758f0", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "f1787ec2-81f1-420f-9f26-4279364d7a5b", "passed": true, "seconds": 3.685}
+{"run_id": "0bf45c7d771a", "dataset_sha256": "9f9f8156d085060ef85481ed95009785f418e4a59e34f1cceb2db16cb71758f0", "passed": 1, "total": 1}

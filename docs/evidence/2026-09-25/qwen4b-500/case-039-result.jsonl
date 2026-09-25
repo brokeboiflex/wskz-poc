@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/promotion-criteria/base", "scenario_id": "human_resources/promotion-criteria", "variant": "base", "run_id": "e2c787858af7", "dataset_sha256": "1278c57becb5fc53bc7a7d363a42dccd90204b2567a2167352f5e46886870366", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "c639ce57-7c8f-4e0d-89ca-ceed642e137e", "passed": true, "seconds": 4.034}
+{"run_id": "e2c787858af7", "dataset_sha256": "1278c57becb5fc53bc7a7d363a42dccd90204b2567a2167352f5e46886870366", "passed": 1, "total": 1}

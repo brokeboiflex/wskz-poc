@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/service-correction/resolved_preface", "scenario_id": "payroll/service-correction", "variant": "resolved_preface", "run_id": "4106da809f08", "dataset_sha256": "652f323704148e2d13835d48f93125c483e506249326e118bf8aeefc0856f580", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "80f426f5-9a1a-40cb-a478-6701865fb9fd", "passed": true, "seconds": 7.802}
+{"run_id": "4106da809f08", "dataset_sha256": "652f323704148e2d13835d48f93125c483e506249326e118bf8aeefc0856f580", "passed": 1, "total": 1}

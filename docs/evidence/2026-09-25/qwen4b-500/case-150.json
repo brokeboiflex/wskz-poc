@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/income-certificate/forwarded_history",
+    "scenario_id": "payroll/income-certificate",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Zaświadczenie o zarobkach.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nSkładam wniosek mieszkaniowy i potrzebuję potwierdzenia średniego wynagrodzenia z ostatnich trzech miesięcy. Mam formularz instytucji przyjmującej wniosek. Proszę o wskazanie sposobu przekazania go do wypełnienia oraz informacji, kiedy mogę odebrać podpisane zaświadczenie o zarobkach.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

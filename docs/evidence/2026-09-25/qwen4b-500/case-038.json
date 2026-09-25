@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/competency-assessment/conversation_history",
+    "scenario_id": "human_resources/competency-assessment",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Ocena kompetencji i plan rozwoju.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPo ostatnim projekcie chcę uporządkować swoje mocne strony i obszary wymagające pracy. Potrzebuję narzędzia do oceny kompetencji oraz pomocy w ułożeniu planu rozwojowego na kolejne półrocze. Od czego zacząć i z kim omówić wyniki takiej oceny?"
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/leave-balance/base", "scenario_id": "payroll/leave-balance", "variant": "base", "run_id": "80970b4cc95c", "dataset_sha256": "c381c4b2670480968f1bc8d938c03cf5be161f38b161b46bc55fbd412f91b271", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "c1d71f66-0e7c-416c-8e9a-c820f64644b1", "passed": true, "seconds": 9.529}
+{"run_id": "80970b4cc95c", "dataset_sha256": "c381c4b2670480968f1bc8d938c03cf5be161f38b161b46bc55fbd412f91b271", "passed": 1, "total": 1}

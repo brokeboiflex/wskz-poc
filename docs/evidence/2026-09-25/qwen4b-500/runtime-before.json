@@ -1,0 +1,45 @@
+{
+  "git_head": "a05141444111b3c24296e8de943a0c056b81fd8a",
+  "application_sha256": {
+    "services/router/router_app/adapters/agent.py": "af8845ebd053dc15af97b60da27852eeb3b5c6842f28daff8067e48970f20abe",
+    "services/router/router_app/main.py": "689834ea1a185cf6bdb37ece4abb24e69a8adf251b09153dc0891e9117d5fbd2",
+    "services/router/router_app/config.py": "52c85641df1f49ab0c50643eca8c9e76b7c5eb952517e08278d93fd1e941bdfe",
+    "services/router/router_app/model_trace.py": "d6ad11a7c466fecefe1dea1ac61821afe8bb64dfaf9060dae1381457cb64f2d1",
+    "services/router/requirements.txt": "d17e57656dfb6f88e8a4390887936f377bf3c7b8914acaae3c4f909e8f70afe7"
+  },
+  "api_image_id": "sha256:f9b6a4830f8861ee3ae64b1659021e2309bcc366cec0ef47bd2de7ed29f9cd66",
+  "ollama_image_id": "sha256:2c9595c555fd70a28363489ac03bd5bf9e7c5bdf2890373c3a830ffd7252ce6d",
+  "docker_memory_bytes": 8321515520,
+  "model_manifest_sha256": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+  "model_manifest": {
+    "schemaVersion": 2,
+    "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+    "config": {
+      "mediaType": "application/vnd.docker.container.image.v1+json",
+      "digest": "sha256:b72accf9724e93698c57cbd3b1af2d3341b3d05ec2089d86d273d97964853cd2",
+      "size": 487
+    },
+    "layers": [
+      {
+        "mediaType": "application/vnd.ollama.image.model",
+        "digest": "sha256:85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9",
+        "size": 2497280480
+      },
+      {
+        "mediaType": "application/vnd.ollama.image.template",
+        "digest": "sha256:eade0a07cac7712787bbce23d12f9306adb4781d873d1df6e16f7840fa37afec",
+        "size": 1379
+      },
+      {
+        "mediaType": "application/vnd.ollama.image.license",
+        "digest": "sha256:d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+        "size": 11338
+      },
+      {
+        "mediaType": "application/vnd.ollama.image.params",
+        "digest": "sha256:0914c7781e001948488d937994217538375b4fd8c1466c5e7a625221abd3ea7a",
+        "size": 119
+      }
+    ]
+  }
+}

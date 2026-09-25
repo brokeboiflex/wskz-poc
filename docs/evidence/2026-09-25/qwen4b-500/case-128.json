@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/night-allowance/conversation_history",
+    "scenario_id": "payroll/night-allowance",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Dodatek za pracę w nocy.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nW ostatnim okresie miałem sześć zmian nocnych. W zestawieniu wynagrodzenia naliczono dodatek tylko za cztery, chociaż grafik i potwierdzenia obecności obejmują wszystkie zmiany. Proszę porównać dane i wyjaśnić brakującą część dodatku przed zamknięciem kolejnego rozliczenia."
+  }
+]

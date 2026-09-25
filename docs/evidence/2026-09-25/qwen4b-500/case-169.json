@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/part-time-leave/base",
+    "scenario_id": "payroll/part-time-leave",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Przeliczenie urlopu przy zmianie etatu.",
+    "message": "Od początku przyszłego miesiąca zmienia się mój wymiar etatu. Chciałabym sprawdzić, jak wpłynie to na pozostały limit urlopu i sposób wykazywania dni wolnych. Proszę o przeliczenie salda na podstawie podpisanego aneksu i wyjaśnienie wartości widocznej w ewidencji.\n\nCzęść dni wykorzystałam jeszcze przy poprzednim wymiarze czasu pracy. Pozostałą część chcę zaplanować dopiero po wejściu aneksu w życie. Dlatego potrzebuję rozpisania wyliczenia, a nie jedynie wartości końcowej, którą widzę obecnie w portalu."
+  }
+]

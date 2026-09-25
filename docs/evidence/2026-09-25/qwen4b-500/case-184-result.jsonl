@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/benefit-deduction/resolved_preface", "scenario_id": "payroll/benefit-deduction", "variant": "resolved_preface", "run_id": "966d11a2061a", "dataset_sha256": "8e64c387db1b3fc809c7dddcc27948b9973e95a36e66b762e8ee3c87f332ff6c", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "d06d1c14-75d1-4d28-8b09-e159396571e9", "passed": true, "seconds": 5.468}
+{"run_id": "966d11a2061a", "dataset_sha256": "8e64c387db1b3fc809c7dddcc27948b9973e95a36e66b762e8ee3c87f332ff6c", "passed": 1, "total": 1}

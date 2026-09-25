@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/language-training/base", "scenario_id": "human_resources/language-training", "variant": "base", "run_id": "5f1c0e67f346", "dataset_sha256": "89c5917d267629c5d703fb8ad1c6b232d6e0688e759aa6ee87aa56f5e705cdd8", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "740d18a0-1fef-46d8-945c-0d2779b32a24", "passed": true, "seconds": 20.363}
+{"run_id": "5f1c0e67f346", "dataset_sha256": "89c5917d267629c5d703fb8ad1c6b232d6e0688e759aa6ee87aa56f5e705cdd8", "passed": 1, "total": 1}

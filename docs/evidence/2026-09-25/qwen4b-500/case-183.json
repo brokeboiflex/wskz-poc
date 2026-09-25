@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/benefit-deduction/base",
+    "scenario_id": "payroll/benefit-deduction",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Potrącenie za świadczenie na pasku wynagrodzenia.",
+    "message": "Zrezygnowałam z dodatkowego pakietu sportowego zgodnie z terminem, jednak opłata nadal została potrącona z pensji. Potwierdzenie rezygnacji jest dostępne. Proszę sprawdzić rozliczenie tego składnika na liście płac i wyjaśnić, czy nadpłacona kwota zostanie zwrócona przy kolejnej wypłacie."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/payslip-deduction/conversation_history", "scenario_id": "payroll/payslip-deduction", "variant": "conversation_history", "run_id": "05461cf1e4a5", "dataset_sha256": "0ef313dfd359c1de8a5b66b86c8e6e7e1e0bbe0459ac4335e4cf2196ae9bcd32", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "1ea28a80-7f0e-41a0-b7cd-fa9f024ffaeb", "passed": true, "seconds": 6.137}
+{"run_id": "05461cf1e4a5", "dataset_sha256": "0ef313dfd359c1de8a5b66b86c8e6e7e1e0bbe0459ac4335e4cf2196ae9bcd32", "passed": 1, "total": 1}

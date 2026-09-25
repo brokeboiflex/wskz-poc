@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/feedback-culture/base", "scenario_id": "human_resources/feedback-culture", "variant": "base", "run_id": "b1c9d534c674", "dataset_sha256": "050ca36b453dadf45345b706346877cd72eda5627135317335f5e0770c15b48b", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "441f4f6e-f7e0-4891-b8cf-a93b1e2cf35a", "passed": true, "seconds": 3.777}
+{"run_id": "b1c9d534c674", "dataset_sha256": "050ca36b453dadf45345b706346877cd72eda5627135317335f5e0770c15b48b", "passed": 1, "total": 1}

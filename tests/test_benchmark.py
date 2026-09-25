@@ -133,3 +133,49 @@ def test_selected_dataset_flows_through_runner_and_records_provenance(
     assert result["dataset_sha256"] == hashlib.sha256(path.read_bytes()).hexdigest()
     assert summary["dataset_sha256"] == result["dataset_sha256"]
     assert summary["passed"] == summary["total"] == 1
+
+
+def test_http_rejection_retains_category_and_correlation_without_retry(
+    tmp_path, monkeypatch, capsys
+):
+    from io import BytesIO
+    from urllib.error import HTTPError
+
+    case = builder.build_cases()[0]
+    path = tmp_path / "rejected.json"
+    path.write_text(json.dumps([case]))
+    calls = []
+
+    def fetch(url, body=None, raw=False):
+        if url.endswith("/health/ready"):
+            return {"status": "ready"}
+        if url.endswith("/api/v1/docs"):
+            return b"swagger"
+        if url.endswith("/api/v1/openapi.json"):
+            return {"paths": {"/api/v1/messages": {}}}
+        calls.append(body)
+        raise HTTPError(
+            url,
+            502,
+            "Bad Gateway",
+            {},
+            BytesIO(
+                json.dumps(
+                    {
+                        "code": "invalid_tool_call",
+                        "request_id": "test-rejection",
+                        "untrusted": "do not include this in evidence",
+                    }
+                ).encode()
+            ),
+        )
+
+    monkeypatch.setattr(e2e, "fetch", fetch)
+    assert e2e.main(["--cases", str(path)]) == 1
+    assert len(calls) == 1
+    result, summary = map(json.loads, capsys.readouterr().out.splitlines())
+    assert result["http_status"] == 502
+    assert result["code"] == "invalid_tool_call"
+    assert result["request_id"] == "test-rejection"
+    assert "untrusted" not in result
+    assert summary["passed"] == 0

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/portfolio-update/forwarded_history", "scenario_id": "human_resources/portfolio-update", "variant": "forwarded_history", "run_id": "8eb8c536245e", "dataset_sha256": "3f703622c4d434b1acb8edf34be408f7ea5d666625d5c94767228fe8a63601eb", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "f216cf67-09b1-4d6d-aaec-6768267d8c42", "passed": true, "seconds": 6.484}
+{"run_id": "8eb8c536245e", "dataset_sha256": "3f703622c4d434b1acb8edf34be408f7ea5d666625d5c94767228fe8a63601eb", "passed": 1, "total": 1}

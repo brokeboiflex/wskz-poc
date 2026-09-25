@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/knowledge-sharing/base", "scenario_id": "human_resources/knowledge-sharing", "variant": "base", "run_id": "8ed7126173a7", "dataset_sha256": "7967987a5f98a1c69ca73e541f1e65d08d05c3c0d4d66fbda7a2465ef8d67f6e", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "3af6365c-4b8e-4010-b46d-c5e7cd9ce4c1", "passed": true, "seconds": 4.32}
+{"run_id": "8ed7126173a7", "dataset_sha256": "7967987a5f98a1c69ca73e541f1e65d08d05c3c0d4d66fbda7a2465ef8d67f6e", "passed": 1, "total": 1}

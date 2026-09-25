@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/internship/base",
+    "scenario_id": "human_resources/internship",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zapytanie o program praktyk.",
+    "message": "Studiuję logistykę i szukam miejsca na praktyki wakacyjne. Na stronie firmy znalazłem opis zeszłorocznego programu, ale nie widzę aktualnych terminów. Czy w tym roku będą przyjmowani praktykanci i jakie dokumenty kandydat powinien złożyć na początku rekrutacji?"
+  }
+]

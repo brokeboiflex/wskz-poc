@@ -17,7 +17,7 @@ class Model:
         self.tools = []
         self.messages = []
 
-    def bind_tools(self, tools):
+    def bind_tools(self, tools, **kwargs):
         self.tools = tools
         return self
 
@@ -260,3 +260,67 @@ async def test_mailer_timeout_not_retried():
                 str(uuid4()), Department.IT, Message("jan@example.com", "test")
             )
     assert len(calls) == 1
+
+
+async def test_invalid_arguments_fail_without_regeneration(health_client):
+    class Once(Model):
+        async def ainvoke(self, messages):
+            assert not self.messages, "unexpected corrective retry"
+            return await super().ainvoke(messages)
+
+    model = Once(AIMessage(content="private text", tool_calls=[call(message="private args")]))
+    mailer = Mailer()
+    agent = LangChainRoutingAgent(model, health_client, "test")
+    with pytest.raises(RoutingError, match="invalid_tool_call"):
+        await agent.run("test-id", Message("sender@example.com", "urlop"), mailer)
+    assert not mailer.commands
+
+
+async def test_complete_call_at_token_limit_is_accepted(health_client, caplog):
+    response = AIMessage(
+        content="",
+        tool_calls=[call()],
+        response_metadata={"finish_reason": "tool_calls"},
+        usage_metadata={"input_tokens": 50, "output_tokens": 384, "total_tokens": 434},
+    )
+    mailer = Mailer()
+    agent = LangChainRoutingAgent(Model(response), health_client, "test")
+    receipt = await agent.run("budget-test", Message("sender@example.com", "urlop"), mailer)
+    assert receipt.status == "submitted"
+    assert len(mailer.commands) == 1
+    assert "reason=truncated" not in caplog.text
+
+
+async def test_model_timeout_prevents_delivery(health_client):
+    import asyncio
+
+    class SlowModel(Model):
+        attempts = 0
+
+        async def ainvoke(self, messages):
+            self.attempts += 1
+            await asyncio.sleep(1)
+            return AIMessage(content="no tool")
+
+    mailer = Mailer()
+    model = SlowModel(None)
+    agent = LangChainRoutingAgent(model, health_client, "test", timeout=0.11)
+    with pytest.raises(RoutingError, match="model_unavailable"):
+        await agent.run("timeout-test", Message("sender@example.com", "urlop"), mailer)
+    assert model.attempts == 1
+    assert not mailer.commands
+
+
+async def test_delivery_failure_does_not_restart_the_model_loop(health_client):
+    class Once(Model):
+        async def ainvoke(self, messages):
+            assert not self.messages, "model called again after delivery attempted"
+            return await super().ainvoke(messages)
+
+    mailer = Mailer(RoutingError("delivery_unknown"))
+    agent = LangChainRoutingAgent(
+        Once(AIMessage(content="", tool_calls=[call()])), health_client, "test"
+    )
+    with pytest.raises(RoutingError, match="delivery_unknown"):
+        await agent.run("delivery-test", Message("sender@example.com", "urlop"), mailer)
+    assert len(mailer.commands) == 1

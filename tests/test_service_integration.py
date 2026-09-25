@@ -30,7 +30,7 @@ async def test_http_request_tool_call_http_mailer_and_mime_contract(tmp_path, mo
             pass
 
     class Model:
-        def bind_tools(self, tools):
+        def bind_tools(self, tools, **kwargs):
             assert tools[0].name == "send_department_email"
             return self
 

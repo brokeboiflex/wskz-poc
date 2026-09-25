@@ -1,0 +1,12 @@
+api-1  | INFO:     Started server process [7]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | tool_call_rejected request_id=d04da8bd-229c-416a-9e91-eeeef60affe6 attempt=1 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0
+api-1  | tool_call_rejected request_id=6e474610-5297-4201-98c4-5800f6ec3391 attempt=1 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0
+api-1  | tool_call_rejected request_id=13303c0b-6d04-4c3a-90c2-dd192f8485b7 attempt=1 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0
+api-1  | tool_call_rejected request_id=03e76a33-52bf-4bb8-bf77-2d4498db4870 attempt=1 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0
+api-1  | tool_call_rejected request_id=f95adb57-d5b7-4483-9bd0-eb532466a21d attempt=1 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0
+api-1  | tool_call_rejected request_id=f95adb57-d5b7-4483-9bd0-eb532466a21d attempt=2 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0
+api-1  | tool_call_rejected request_id=ae683793-6bed-450a-81a7-1a489a24ea27 attempt=1 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0
+api-1  | tool_call_rejected request_id=dd51ded8-3f27-4907-9dbf-693f1a3bc296 attempt=1 reason=missing_call finish_reason=stop tool_calls=0 invalid_tool_calls=0

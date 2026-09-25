@@ -209,3 +209,69 @@ SDK rzeczywiście udostępnia jawny parametr `max_len`; odczyt źródła nie zas
 uruchomienia przypiętej wersji pakietu i rzeczywistego checkpointu.
 
 Raport należy odświeżyć po wykonaniu brakujących kontroli.
+
+## Finalne uproszczenie integracji Ollama/LangChain, 25.09.2026
+
+Świeży agent krytyk przeczytał finalny kod i zainstalowane źródła LangChain,
+nie tylko opis zmian. Samodzielnie zaliczył 79 testów hosta. Nie znalazł
+blokującego błędu. Potwierdził, że `create_agent` zarządza bindingiem, inferencją
+i wykonaniem toola, a `return_direct` kończy graf bez ponownej inferencji.
+Middleware odrzuca błędne, wielokrotne i ucięte wywołania przed wysyłką.
+Błędy mailera propagują bez ponowień. Zachowano oryginalną treść i Reply-To,
+mapowanie działów oraz niezależność warstw i serwisów.
+
+Ograniczenie wskazane przez krytyka: deduplikacja wewnętrznego mailera dotyczy
+tego samego ID; drugi publiczny POST tworzy nowe ID i może wysłać kolejny mail.
+Krytyk nie wykonywał inferencji ani operacji Docker. Osobne kontrole prowadzącego
+po jego przeglądzie potwierdziły stockowy szablon na 0.13.5, 116 testów w
+kontenerze i 5/5 zgłoszeń smoke. Benchmark 500 przypadków pozostaje zatrzymany.
+
+## Świeży przegląd neutralności po poprawkach
+
+Poprzedni dodatkowy przegląd ocenił neutralność jako PARTIAL: agent nadal miał
+heurystykę zużycia tokenów Ollamy i wysyłał prywatne x-choice do wszystkich
+dostawców. Obie uwagi zostały naprawione na polecenie użytkownika.
+
+Nowy niezależny krytyk przeczytał kod po zmianach i zaliczył 101 testów. Nie
+znalazł blokera w zakresie naprawy. Potwierdził brak heurystyki licznika tokenów,
+standardowy JSON Schema anyOf z opisanymi singleton enums, zachowanie wejścia
+Laya, właściwe użycie create_agent i brak ponowień wysyłki. Walidacja dokładnie
+jednego narzędzia, mapowanie dozwolonego działu i zachowanie oryginalnego maila
+pozostają regułami biznesowymi, a nie wyjątkami konkretnego modelu.
+
+Krytyk nie uruchamiał inferencji ani Dockera. Ograniczenie dowodów: kontrolowane
+odpowiedzi HTTP potwierdzają przenośność klienta, nie zgodność każdego dostawcy.
+Prowadzący osobno sprawdził oba rzeczywiste lokalne warianty i opisał wyniki
+5/5 Ollamy oraz 4/5 Laya w VERIFICATION.md.
+
+## Routing-policy revision, 2026-09-25
+
+Fresh agent routing_policy_critic inspected the changed application, env/Compose
+wiring, real SDK tests, installed LangChain source and the Laya schema contract.
+No concrete defect found: middleware override reaches bind_tools, named choice
+serializes correctly, and Laya's input is unchanged. No provider branch, retry
+or repair was added. Critic ran no tests/inference and explicitly did not certify
+model accuracy. Parent observed four public cases: two pass, two still fail;
+details in evidence/2026-09-25/routing-policy/README.md.
+
+## Env-only model comparison, 2026-09-25
+
+Fresh model_comparison_critic independently inspected qwen4b-instruct/ artifacts,
+prior routing-policy/ requests, application/manifest hashes and live Mailpit.
+No evidence blocker: four correct calls/deliveries; only model changed on the
+wire; all four MIME bodies, recipients, Reply-To and correlations confirmed.
+Four selected cases do not establish general accuracy; model package changes
+weights and stock template. No inference/tests/mutations by the critic.
+
+## Stopped-run forensic review, 2026-09-26
+
+Fresh fluke_evidence_critic recomputed all 190 saved outcomes independently from
+corpus, raw wire, SDK and MIME. It found no score inflation/direct label leakage
+and confirmed four identical-input repeated successes. It highlighted two-class
+coverage, 95 correlated pairs, prior corpus exposure and unmeasured repeatability.
+The parent's separate complete-log and live-mail audit found no hidden attempts
+or duplicate deliveries. No model calls or mail were made during review.
+
+Earlier runner critic recommendations were incorporated into the final partial
+auditor: expected label and boolean/derived score consistency, category total
+conservation, all trace correlations and explicit partial-run status.

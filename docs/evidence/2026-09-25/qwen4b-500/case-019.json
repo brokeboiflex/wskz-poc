@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/internal-recruitment/base",
+    "scenario_id": "human_resources/internal-recruitment",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Udział w rekrutacji wewnętrznej.",
+    "message": "Pracuję obecnie w obsłudze zamówień i zauważyłem wewnętrzne ogłoszenie dotyczące analityka procesów. Chciałbym wziąć udział w naborze, nie rezygnując na tym etapie z obecnego stanowiska. Proszę o wskazanie zasad aplikowania i sposobu poinformowania przełożonego o kandydaturze."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/survey-followup/conversation_history",
+    "scenario_id": "human_resources/survey-followup",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Działania po badaniu zaangażowania.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nW wynikach ankiety pracowniczej często pojawia się brak informacji o decyzjach zarządu. Chciałabym zorganizować rozmowę z zespołem i przełożyć te uwagi na konkretne działania. Proszę o wsparcie osoby, która pomoże omówić wyniki bez szukania autorów poszczególnych odpowiedzi."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/security-awareness/forwarded_history",
+    "scenario_id": "human_resources/security-awareness",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Organizacja szkolenia, bez aktywnego incydentu.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nChciałabym zamówić dla zespołu szkolenie o rozpoznawaniu fałszywych wiadomości i bezpiecznym korzystaniu z internetu. Potrzebujemy programu profilaktycznego dla nowych pracowników oraz terminu, w którym każdy będzie mógł wziąć udział w zajęciach. Najlepiej sprawdziłyby się krótkie ćwiczenia z omawianiem przykładów.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

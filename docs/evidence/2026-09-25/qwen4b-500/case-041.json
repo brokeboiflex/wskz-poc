@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/performance-feedback/base",
+    "scenario_id": "human_resources/performance-feedback",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Wsparcie w rozmowie o ocenie pracy.",
+    "message": "Otrzymałam roczną ocenę pracy, z której nie rozumiem kilku uwag dotyczących współpracy. Chciałabym przygotować się do konstruktywnej rozmowy i ustalić mierzalne cele na kolejny okres. Proszę o wsparcie w omówieniu zasad przekazywania informacji zwrotnej oraz możliwości wyjaśnienia tej oceny."
+  }
+]

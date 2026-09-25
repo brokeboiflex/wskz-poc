@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/leave-cancellation/resolved_postscript",
+    "scenario_id": "payroll/leave-cancellation",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Cofnięcie zatwierdzonego urlopu.",
+    "message": "Miałem zaplanowany urlop na przyszły tydzień, jednak po uzgodnieniu z przełożonym pozostaję wtedy w pracy. Proszę anulować zaakceptowany wniosek i przywrócić odpowiednią liczbę dni do mojego salda. Chciałbym również potwierdzenia, że ewidencja będzie pokazywała normalną obecność.\n\nPS. Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

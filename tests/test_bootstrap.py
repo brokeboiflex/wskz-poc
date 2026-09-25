@@ -100,3 +100,157 @@ def test_missing_model_has_bounded_readiness_wait(monkeypatch):
     monkeypatch.setattr(bootstrap, "request", lambda *a, **k: {"data": []})
     with pytest.raises(RuntimeError, match="20 minutes"):
         bootstrap.initialize()
+
+
+@pytest.mark.parametrize("omit", [False, True])
+def test_bootstrap_and_production_model_use_same_inference_options(monkeypatch, omit):
+    import asyncio
+    import json
+
+    import httpx
+    from router_app.config import Settings
+    from router_app.main import build_model
+
+    monkeypatch.setenv("MODEL_MAX_TOKENS", "384")
+    monkeypatch.setenv("MODEL_TOKEN_LIMIT_FIELD", "max_tokens")
+    monkeypatch.setenv("MODEL_REASONING_EFFORT", "" if omit else "none")
+    monkeypatch.setenv("MODEL_TEMPERATURE", "" if omit else "0.7")
+    monkeypatch.setenv("MODEL_TOP_P", "" if omit else "0.8")
+    bodies = []
+    response = {
+        "id": "probe",
+        "object": "chat.completion",
+        "created": 1,
+        "model": "test-model",
+        "choices": [
+            {
+                "index": 0,
+                "finish_reason": "tool_calls",
+                "message": {
+                    "role": "assistant",
+                    "content": None,
+                    "tool_calls": [
+                        {
+                            "id": "probe",
+                            "type": "function",
+                            "function": {"name": "readiness_probe", "arguments": '{"ready":true}'},
+                        }
+                    ],
+                },
+            }
+        ],
+    }
+
+    def request(url, payload=None, **kwargs):
+        if url.endswith("/api/tags"):
+            return {"models": [{"name": "test-model"}]}
+        if url.endswith("/models"):
+            return {"data": [{"id": "test-model"}]}
+        bodies.append(payload)
+        return response
+
+    monkeypatch.setattr(bootstrap, "request", request)
+    bootstrap.initialize()
+
+    async def api_request():
+        def handle(request):
+            bodies.append(json.loads(request.content))
+            return httpx.Response(200, json=response)
+
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handle)) as client:
+            await build_model(Settings(), client).ainvoke("probe")
+
+    asyncio.run(api_request())
+    fields = {"max_tokens", "max_completion_tokens", "reasoning_effort", "temperature", "top_p"}
+    assert {k: v for k, v in bodies[0].items() if k in fields} == {
+        k: v for k, v in bodies[1].items() if k in fields
+    }
+
+
+@pytest.mark.parametrize("finish,expected", [("tool_calls", None), ("length", "truncated")])
+def test_bootstrap_uses_finish_reason_not_token_count(finish, expected):
+    response = {
+        "usage": {"completion_tokens": 1024},
+        "choices": [
+            {
+                "finish_reason": finish,
+                "message": {
+                    "tool_calls": [
+                        {
+                            "function": {
+                                "name": "readiness_probe",
+                                "arguments": '{"ready":true}',
+                            }
+                        }
+                    ]
+                },
+            }
+        ],
+    }
+    error = bootstrap.probe_error(response)
+    assert error is None if expected is None else expected in error
+
+
+@pytest.mark.parametrize("arguments", ['{"ready":true,"extra":"bad"}', '{"ready":1}', "{"])
+def test_bootstrap_never_accepts_extra_or_malformed_arguments(arguments):
+    response = {
+        "choices": [
+            {
+                "message": {
+                    "tool_calls": [
+                        {
+                            "function": {
+                                "name": "readiness_probe",
+                                "arguments": arguments,
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+    assert bootstrap.probe_error(response) is not None
+
+
+def test_bootstrap_rejected_probe_is_not_retried(monkeypatch):
+    probes = []
+
+    def request(url, payload=None, **kwargs):
+        if url.endswith("/api/tags"):
+            return {"models": [{"name": "test-model"}]}
+        probes.append(url)
+        return {"choices": [{"message": {"content": "ready"}}]}
+
+    monkeypatch.setattr(bootstrap, "request", request)
+    with pytest.raises(RuntimeError, match="native tool call"):
+        bootstrap.initialize()
+    assert probes == ["http://model/v1/chat/completions"]
+
+
+def test_bootstrap_does_not_accept_a_valid_response_after_budget(monkeypatch):
+    ticks = iter([0, 601])
+    monkeypatch.setattr(bootstrap.time, "monotonic", lambda: next(ticks))
+
+    def request(url, *args, **kwargs):
+        if url.endswith("/api/tags"):
+            return {"models": [{"name": "test-model"}]}
+        return {
+            "choices": [
+                {
+                    "message": {
+                        "tool_calls": [
+                            {
+                                "function": {
+                                    "name": "readiness_probe",
+                                    "arguments": '{"ready":true}',
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+
+    monkeypatch.setattr(bootstrap, "request", request)
+    with pytest.raises(RuntimeError, match="timed out"):
+        bootstrap.initialize()

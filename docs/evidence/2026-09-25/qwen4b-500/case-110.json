@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/leave-demand/forwarded_history",
+    "scenario_id": "payroll/leave-demand",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Formalności dotyczące urlopu na żądanie.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZ powodu nagłej sytuacji rodzinnej nie będę dziś obecny w pracy. Przełożony został już powiadomiony telefonicznie. Chciałbym zgłosić dzisiejszy dzień jako urlop na żądanie i upewnić się, czy mam jeszcze dostępny limit oraz jaki dokument powinienem przekazać do ewidencji.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

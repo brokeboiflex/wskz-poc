@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/exclusion/base",
+    "scenario_id": "human_resources/exclusion",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Wyjaśnienie wykluczania ze współpracy.",
+    "message": "Od czasu powrotu do zespołu nie jestem zapraszana na spotkania, na których ustala się zadania dotyczące mojego stanowiska. Prośby o włączenie mnie do rozmów nie przynoszą rezultatu. Chciałabym omówić tę sytuację z osobą, która może pomóc przywrócić właściwą współpracę."
+  }
+]

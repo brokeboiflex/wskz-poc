@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/care-leave/base",
+    "scenario_id": "payroll/care-leave",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Ewidencja dni opieki.",
+    "message": "W tym miesiącu wykorzystałam jeden dzień opieki nad dzieckiem, a w zestawieniu pojawiły się dwa. Proszę zweryfikować zapis na podstawie mojego wniosku i poprawić pozostały limit. Zależy mi na prawidłowej ewidencji przed planowaniem kolejnej nieobecności w przyszłym miesiącu."
+  }
+]

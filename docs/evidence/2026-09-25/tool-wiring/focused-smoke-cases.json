@@ -1,0 +1,27 @@
+[
+  {
+    "id": "original-smoke-001",
+    "message": "Chciałbym zgłosić urlop na jutro.",
+    "recipient": "kadry@example.com"
+  },
+  {
+    "id": "original-smoke-004",
+    "message": "Nie działa mi komputer.",
+    "recipient": "help-desk@example.com"
+  },
+  {
+    "id": "original-smoke-007",
+    "message": "Serwer produkcyjny nie odpowiada, awaria dotyczy całej firmy.",
+    "recipient": "it@example.com"
+  },
+  {
+    "id": "original-smoke-010",
+    "message": "Chciałbym zapytać o rekrutację na stanowisko analityka.",
+    "recipient": "human-resources@example.com"
+  },
+  {
+    "id": "original-smoke-013",
+    "message": "Jaki jest przepis na ciasto marchewkowe?",
+    "recipient": "other@example.com"
+  }
+]

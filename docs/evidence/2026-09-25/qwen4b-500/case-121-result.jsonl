@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/missing-salary/base", "scenario_id": "payroll/missing-salary", "variant": "base", "run_id": "4ebd102db7d1", "dataset_sha256": "f56bd545e7d5c463751bfd97a4c731219f6f2e950ea69070d63b86ef47dc7830", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "2ef78bb6-8b42-48a3-9416-d361cc0fee27", "passed": true, "seconds": 4.174}
+{"run_id": "4ebd102db7d1", "dataset_sha256": "f56bd545e7d5c463751bfd97a4c731219f6f2e950ea69070d63b86ef47dc7830", "passed": 1, "total": 1}

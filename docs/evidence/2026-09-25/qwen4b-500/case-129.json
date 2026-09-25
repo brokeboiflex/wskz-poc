@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/bonus-missing/base",
+    "scenario_id": "payroll/bonus-missing",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Rozliczenie przyznanej premii.",
+    "message": "Otrzymałam pisemne potwierdzenie przyznania premii kwartalnej, ale nie widzę jej w ostatniej wypłacie. Decyzja została już zatwierdzona przez przełożonego, nie proszę o ponowną ocenę wyników. Chciałabym sprawdzić termin wypłaty oraz to, czy informacja trafiła do naliczenia wynagrodzeń."
+  }
+]

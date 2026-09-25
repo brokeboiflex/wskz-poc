@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/payslip-deduction/base",
+    "scenario_id": "payroll/payslip-deduction",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wyjaśnienie potrącenia z pensji.",
+    "message": "Na ostatnim pasku wynagrodzenia pojawiła się pozycja potrącenia, której wcześniej nie było. Opis jest skrótowy i nie potrafię ustalić, czego dotyczy. Proszę o wyjaśnienie podstawy naliczenia tej kwoty oraz wskazanie okresu, za który została pobrana z mojej pensji."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/survey-followup/base",
+    "scenario_id": "human_resources/survey-followup",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Działania po badaniu zaangażowania.",
+    "message": "W wynikach ankiety pracowniczej często pojawia się brak informacji o decyzjach zarządu. Chciałabym zorganizować rozmowę z zespołem i przełożyć te uwagi na konkretne działania. Proszę o wsparcie osoby, która pomoże omówić wyniki bez szukania autorów poszczególnych odpowiedzi."
+  }
+]

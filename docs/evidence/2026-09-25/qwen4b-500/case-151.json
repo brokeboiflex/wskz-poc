@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/service-certificate/base",
+    "scenario_id": "payroll/service-certificate",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Świadectwo pracy po zakończeniu zatrudnienia.",
+    "message": "Moja umowa zakończyła się w ubiegłym tygodniu, ale nie otrzymałam jeszcze świadectwa pracy. Rozliczenie sprzętu zostało zamknięte. Proszę sprawdzić status dokumentu i potwierdzić, w jaki sposób zostanie mi przekazany. Potrzebuję go do dopełnienia formalności u nowego pracodawcy."
+  }
+]

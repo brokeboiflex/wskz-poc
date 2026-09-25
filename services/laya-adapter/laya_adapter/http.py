@@ -77,25 +77,35 @@ def parse_choice(body: CompletionRequest) -> tuple[str, Choice]:
         ]
     )
     descriptions = ()
-    # Optional classifier metadata belongs to the tool owner, not this adapter.
-    # Keep native tool-execution prose out of the classifier's question budget.
-    if "x-choice" in prop:
-        decision = prop["x-choice"]
-        if not isinstance(decision, dict) or set(decision) != {"instructions", "criteria"}:
-            raise HTTPException(400, "x-choice requires instructions and criteria")
-        criteria = decision["criteria"]
-        question = decision["instructions"]
+    # Translate standard, described enum alternatives into typed choice criteria.
+    if "anyOf" in prop:
+        alternatives = prop["anyOf"]
+        criteria = {}
+        if not isinstance(alternatives, list) or len(alternatives) != len(options):
+            raise HTTPException(400, "anyOf must describe each enum option once")
+        for item in alternatives:
+            if (
+                not isinstance(item, dict)
+                or set(item) != {"type", "enum", "description"}
+                or item["type"] != "string"
+                or not isinstance(item["enum"], list)
+                or len(item["enum"]) != 1
+                or not isinstance(item["enum"][0], str)
+                or item["enum"][0] not in options
+                or item["enum"][0] in criteria
+            ):
+                raise HTTPException(400, "anyOf requires distinct single-value string enums")
+            criteria[item["enum"][0]] = item["description"]
+        question = prop.get("description")
         if (
             not isinstance(question, str)
             or not question.strip()
             or len(question) > 1000
-            or not isinstance(criteria, dict)
-            or set(criteria) != set(options)
             or any(
                 not isinstance(v, str) or not v.strip() or len(v) > 500 for v in criteria.values()
             )
         ):
-            raise HTTPException(400, "x-choice must describe every enum option exactly once")
+            raise HTTPException(400, "nonempty question and option descriptions required")
         instructions = question
         descriptions = tuple(criteria[item] for item in options)
     # Keep the model's context bounded. No silent input truncation by the adapter.

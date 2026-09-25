@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/care-leave/resolved_postscript", "scenario_id": "payroll/care-leave", "variant": "resolved_postscript", "run_id": "898e830b8715", "dataset_sha256": "c65f8e23a776c54ea203d6dde6069e646ddd135e8df4bebd23ce4db6d08b0bbb", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "756764a0-d5bf-475e-a0d1-a2f9714b26c5", "passed": true, "seconds": 3.198}
+{"run_id": "898e830b8715", "dataset_sha256": "c65f8e23a776c54ea203d6dde6069e646ddd135e8df4bebd23ce4db6d08b0bbb", "passed": 1, "total": 1}

@@ -1,0 +1,1 @@
+{"model": "qwen3:4b-instruct-2507-q4_K_M", "base_url": "http://ollama:11434/v1", "trace": false, "tool_choice": null, "health": {"status": "ready"}}

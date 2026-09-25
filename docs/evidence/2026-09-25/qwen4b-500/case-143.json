@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/tax-form/base",
+    "scenario_id": "payroll/tax-form",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wydanie rocznej informacji podatkowej od pracodawcy.",
+    "message": "Nie otrzymałem jeszcze rocznej informacji podatkowej dotyczącej wynagrodzeń z ubiegłego roku. Chciałbym sprawdzić, czy dokument został już przygotowany i na jaki kanał go wysłano. Proszę o pomoc w uzyskaniu kopii, abym mógł skompletować materiały do rozliczenia rocznego."
+  }
+]

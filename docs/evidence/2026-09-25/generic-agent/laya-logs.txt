@@ -1,0 +1,17 @@
+laya-adapter-1  | INFO:     Started server process [7]
+laya-adapter-1  | INFO:     Waiting for application startup.
+laya-adapter-1  | INFO:     Application startup complete.
+laya-adapter-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+laya-adapter-1  | INFO:     Shutting down
+laya-adapter-1  | INFO:     Waiting for application shutdown.
+laya-adapter-1  | INFO:     Application shutdown complete.
+laya-adapter-1  | INFO:     Finished server process [7]
+laya-adapter-1  | INFO:     Started server process [7]
+laya-adapter-1  | INFO:     Waiting for application startup.
+laya-adapter-1  | INFO:     Application startup complete.
+laya-adapter-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1           | INFO:     Started server process [7]
+api-1           | INFO:     Waiting for application startup.
+api-1           | INFO:     Application startup complete.
+api-1           | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+model-init-1    | Selected model endpoint is ready.

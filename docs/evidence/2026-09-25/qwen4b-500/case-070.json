@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/values-workshop/forwarded_history",
+    "scenario_id": "human_resources/values-workshop",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Warsztat dotyczący kultury współpracy.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNowo połączone zespoły mają różne zwyczaje dotyczące spotkań, odpowiedzialności i przekazywania informacji. Potrzebujemy warsztatu, na którym ustalimy wspólne zasady współpracy. Proszę pomóc przygotować scenariusz i poprowadzić rozmowę tak, aby każda grupa mogła przedstawić swoje potrzeby.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

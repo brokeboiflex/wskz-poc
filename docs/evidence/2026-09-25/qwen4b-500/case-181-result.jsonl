@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/salary-change-effective/base", "scenario_id": "payroll/salary-change-effective", "variant": "base", "run_id": "36b009baa9cc", "dataset_sha256": "aa3d98fcdd5a7249cae9d62196166d55352daed95ae1e5da6af4e1be89938ce3", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "c6b18477-b447-479f-9191-948c927c7f90", "passed": true, "seconds": 3.762}
+{"run_id": "36b009baa9cc", "dataset_sha256": "aa3d98fcdd5a7249cae9d62196166d55352daed95ae1e5da6af4e1be89938ce3", "passed": 1, "total": 1}

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/team-mediation/resolved_preface", "scenario_id": "human_resources/team-mediation", "variant": "resolved_preface", "run_id": "fb3b1ad54b2b", "dataset_sha256": "b0b2b6a302386d254d978f7164a51591ca8475b5e89900acc1f1858a863621e2", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "c2206c06-692f-45d2-821c-0fcb03e5a6af", "passed": true, "seconds": 5.437}
+{"run_id": "fb3b1ad54b2b", "dataset_sha256": "b0b2b6a302386d254d978f7164a51591ca8475b5e89900acc1f1858a863621e2", "passed": 1, "total": 1}

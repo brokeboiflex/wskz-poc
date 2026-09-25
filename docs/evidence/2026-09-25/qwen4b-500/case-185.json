@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/salary-currency/base",
+    "scenario_id": "payroll/salary-currency",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wyjaśnienie waluty i kwoty wypłaty.",
+    "message": "W umowie mam wynagrodzenie określone w złotych, a na zestawieniu przelewu pojawił się opis sugerujący inną walutę. Chciałbym upewnić się, że kwota została naliczona poprawnie. Proszę o weryfikację danych rozliczenia i potwierdzenie wartości wynagrodzenia należnego za ten miesiąc."
+  }
+]

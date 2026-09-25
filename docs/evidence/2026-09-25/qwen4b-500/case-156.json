@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/contract-copy/resolved_postscript",
+    "scenario_id": "payroll/contract-copy",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Uzyskanie kopii umowy o pracę.",
+    "message": "Porządkuję dokumenty i nie mogę znaleźć swojego egzemplarza umowy o pracę wraz z ostatnim aneksem. Chciałabym otrzymać ich kopie z akt pracowniczych. Proszę o informację, jak złożyć taki wniosek i czy dokumenty można odebrać osobiście w uzgodnionym terminie.\n\nPS. Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/competency-assessment/base", "scenario_id": "human_resources/competency-assessment", "variant": "base", "run_id": "406e6467194b", "dataset_sha256": "4f4d0076f420f45872f7a00a8f08c16b5d4946d613e6449387af9857f6fb04fa", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "7f9f3ce3-4ed3-4eb7-b190-f4f6181d25d1", "passed": true, "seconds": 3.777}
+{"run_id": "406e6467194b", "dataset_sha256": "4f4d0076f420f45872f7a00a8f08c16b5d4946d613e6449387af9857f6fb04fa", "passed": 1, "total": 1}

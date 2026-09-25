@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/night-allowance/base",
+    "scenario_id": "payroll/night-allowance",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Dodatek za pracę w nocy.",
+    "message": "W ostatnim okresie miałem sześć zmian nocnych. W zestawieniu wynagrodzenia naliczono dodatek tylko za cztery, chociaż grafik i potwierdzenia obecności obejmują wszystkie zmiany. Proszę porównać dane i wyjaśnić brakującą część dodatku przed zamknięciem kolejnego rozliczenia."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/contract-data/base",
+    "scenario_id": "payroll/contract-data",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Korekta danych osobowych w dokumentacji zatrudnienia.",
+    "message": "Po zmianie nazwiska potrzebuję zaktualizować dane w dokumentach pracowniczych i rozliczeniach wynagrodzenia. Proszę wskazać wymagany formularz oraz sposób okazania dokumentu potwierdzającego zmianę. Chciałabym mieć pewność, że kolejne zaświadczenia będą wystawiane z prawidłowymi danymi."
+  }
+]

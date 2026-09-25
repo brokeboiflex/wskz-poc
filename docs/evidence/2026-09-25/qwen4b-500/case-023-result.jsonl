@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "human_resources/leadership-course/base", "scenario_id": "human_resources/leadership-course", "variant": "base", "run_id": "a93f95f52631", "dataset_sha256": "b7155d33fa195c23328c99172876e7bd9ff9326dddb73493182a3d537a469d33", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "93601ddf-5a7c-437a-a79f-e3c06cad43fb", "passed": true, "seconds": 3.458}
+{"run_id": "a93f95f52631", "dataset_sha256": "b7155d33fa195c23328c99172876e7bd9ff9326dddb73493182a3d537a469d33", "passed": 1, "total": 1}

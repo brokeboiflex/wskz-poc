@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/bank-account/base", "scenario_id": "payroll/bank-account", "variant": "base", "run_id": "00b9eae0452a", "dataset_sha256": "9a41b84c5d807aff414a3842f1135c5519c65c6065d324bf738ce8de810d9a0c", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "539f07cb-b808-480a-9434-57fcea98f52a", "passed": true, "seconds": 4.176}
+{"run_id": "00b9eae0452a", "dataset_sha256": "9a41b84c5d807aff414a3842f1135c5519c65c6065d324bf738ce8de810d9a0c", "passed": 1, "total": 1}

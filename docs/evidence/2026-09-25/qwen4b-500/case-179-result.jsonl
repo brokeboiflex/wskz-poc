@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/medical-absence-record/base", "scenario_id": "payroll/medical-absence-record", "variant": "base", "run_id": "ae3323b8528b", "dataset_sha256": "3dfac491d1969957103bfce071a315ddb5ccfcacfcd6a1667ab90ada038e38ad", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "8e40d63b-1ca4-48ca-b9ef-8369f11577a9", "passed": true, "seconds": 4.418}
+{"run_id": "ae3323b8528b", "dataset_sha256": "3dfac491d1969957103bfce071a315ddb5ccfcacfcd6a1667ab90ada038e38ad", "passed": 1, "total": 1}

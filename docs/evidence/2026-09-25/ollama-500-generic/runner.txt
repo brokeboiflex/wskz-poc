@@ -1,0 +1,7 @@
+ Container message-router-mailer-1 Running 
+ Container message-router-api-1 Running 
+ Container message-router-ollama-1 Running 
+ Container message-router-mailpit-1 Running 
+ Container message-router-e2e-run-c220e2f1f0b5 Creating 
+ Container message-router-e2e-run-c220e2f1f0b5 Created 
+

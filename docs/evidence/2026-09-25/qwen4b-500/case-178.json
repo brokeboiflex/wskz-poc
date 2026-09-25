@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/absence-code/conversation_history",
+    "scenario_id": "payroll/absence-code",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Nieprawidłowy rodzaj nieobecności w ewidencji.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDzień uzgodnionego urlopu okolicznościowego został oznaczony jako urlop wypoczynkowy. W efekcie zmniejszyło się moje dostępne saldo. Proszę porównać wpis z zaakceptowanym wnioskiem i skorygować rodzaj nieobecności. Dokument potwierdzający przyczynę wolnego został już wcześniej dostarczony."
+  }
+]

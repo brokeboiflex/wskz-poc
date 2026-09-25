@@ -1,0 +1,46 @@
+{
+  "application_files_unchanged": true,
+  "api_image_unchanged": true,
+  "cases": [
+    {
+      "case": "025",
+      "changed_wire_fields": [
+        "model"
+      ],
+      "previous_passed": true,
+      "current_passed": true,
+      "seconds": 20.363,
+      "request_id": "740d18a0-1fef-46d8-945c-0d2779b32a24"
+    },
+    {
+      "case": "051",
+      "changed_wire_fields": [
+        "model"
+      ],
+      "previous_passed": false,
+      "current_passed": true,
+      "seconds": 3.685,
+      "request_id": "f1787ec2-81f1-420f-9f26-4279364d7a5b"
+    },
+    {
+      "case": "103",
+      "changed_wire_fields": [
+        "model"
+      ],
+      "previous_passed": false,
+      "current_passed": true,
+      "seconds": 4.402,
+      "request_id": "ea68443d-c9c0-4de8-af55-838b0598313b"
+    },
+    {
+      "case": "001",
+      "changed_wire_fields": [
+        "model"
+      ],
+      "previous_passed": true,
+      "current_passed": true,
+      "seconds": 3.962,
+      "request_id": "3f384393-3339-436d-9b86-9a20c4cc66bb"
+    }
+  ]
+}

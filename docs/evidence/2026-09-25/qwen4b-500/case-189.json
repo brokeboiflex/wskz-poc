@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/leave-return/base",
+    "scenario_id": "payroll/leave-return",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Skrócenie nieobecności i korekta salda.",
+    "message": "Po uzgodnieniu z kierownikiem wróciłam do pracy dwa dni przed końcem zaplanowanego urlopu. Proszę o wskazanie dokumentu potwierdzającego wcześniejszy powrót i skorygowanie ewidencji. Chciałabym, aby dni, w których faktycznie pracowałam, nie pomniejszały mojego pozostałego limitu."
+  }
+]

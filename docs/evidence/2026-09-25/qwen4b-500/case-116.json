@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/care-leave/resolved_postscript",
+    "scenario_id": "payroll/care-leave",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Ewidencja dni opieki.",
+    "message": "W tym miesiącu wykorzystałam jeden dzień opieki nad dzieckiem, a w zestawieniu pojawiły się dwa. Proszę zweryfikować zapis na podstawie mojego wniosku i poprawić pozostały limit. Zależy mi na prawidłowej ewidencji przed planowaniem kolejnej nieobecności w przyszłym miesiącu.\n\nPS. Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

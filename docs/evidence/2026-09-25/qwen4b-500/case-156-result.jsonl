@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/contract-copy/resolved_postscript", "scenario_id": "payroll/contract-copy", "variant": "resolved_postscript", "run_id": "ddb82870c76e", "dataset_sha256": "aa5ee5f10e10fc6f64efacbb56618e805bf9f23e2b42ba1f11233d60dd84260e", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "4cf5732d-8dff-449e-96e4-a707883db15a", "passed": true, "seconds": 3.225}
+{"run_id": "ddb82870c76e", "dataset_sha256": "aa5ee5f10e10fc6f64efacbb56618e805bf9f23e2b42ba1f11233d60dd84260e", "passed": 1, "total": 1}

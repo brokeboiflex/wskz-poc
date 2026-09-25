@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/candidate-references/base",
+    "scenario_id": "human_resources/candidate-references",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Przekazanie referencji w procesie naboru.",
+    "message": "Osoba prowadząca moją rekrutację poprosiła o referencje po ostatniej rozmowie. Poprzedni przełożony zgodził się na kontakt, ale chciałbym najpierw potwierdzić sposób przekazania jego danych. Proszę o wskazanie właściwej osoby w zespole rekrutacyjnym i informacji potrzebnych do kontynuowania procesu."
+  }
+]

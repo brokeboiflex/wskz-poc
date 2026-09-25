@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/termination-settlement/base", "scenario_id": "payroll/termination-settlement", "variant": "base", "run_id": "a35c106d9f1d", "dataset_sha256": "27ca230a6ef502c44313763833743aebb6f8767811bff344102efb6ba3b49f0b", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "7e9306a9-bed4-4acd-8576-fab1d5887646", "passed": true, "seconds": 4.774}
+{"run_id": "a35c106d9f1d", "dataset_sha256": "27ca230a6ef502c44313763833743aebb6f8767811bff344102efb6ba3b49f0b", "passed": 1, "total": 1}

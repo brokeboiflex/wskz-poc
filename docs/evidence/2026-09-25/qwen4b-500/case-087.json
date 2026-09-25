@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/reentry-development/base",
+    "scenario_id": "human_resources/reentry-development",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Plan rozwoju po dłuższej przerwie.",
+    "message": "Wracam do zespołu po dłuższej przerwie i chciałabym odświeżyć wiedzę o metodach pracy, które wprowadzono podczas mojej nieobecności. Formalności zostały już załatwione. Proszę pomóc ułożyć plan szkoleń i konsultacji, dzięki którym stopniowo odzyskam samodzielność w wykonywaniu zadań.\n\nNajwięcej zmian dotyczy sposobu planowania projektów i omawiania wyników z klientami. Materiały są dostępne, ale nie wiem, które nadal obowiązują. Pomogłoby wskazanie kolejności tematów oraz osoby, z którą mogę sprawdzić, czy poprawnie rozumiem nowe zasady."
+  }
+]

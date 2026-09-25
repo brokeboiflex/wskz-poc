@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/tax-form/resolved_preface", "scenario_id": "payroll/tax-form", "variant": "resolved_preface", "run_id": "4dff92e44f29", "dataset_sha256": "2b1817f917c79ceac310c552d95a457ff8f6f41f6b1bca45eb5a556edfca62d3", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "39bf9d71-9152-4cfb-94c3-e522059f213b", "passed": true, "seconds": 5.447}
+{"run_id": "4dff92e44f29", "dataset_sha256": "2b1817f917c79ceac310c552d95a457ff8f6f41f6b1bca45eb5a556edfca62d3", "passed": 1, "total": 1}

@@ -16,6 +16,9 @@ README, kontrakty, testy oraz raport weryfikacji. Projekt nie zależy od Resumer
 
 Architektura i polityka: [README.md](../README.md), kontrakty: [CONTRACTS.md](CONTRACTS.md).
 Status dowodów: [VERIFICATION.md](VERIFICATION.md). Zasady dla agenta: [AGENTS.md](../AGENTS.md).
+Najnowsze zatwierdzone debugowanie obserwowane przez OpenAI-compatible API:
+[OBSERVED_DEBUGGING.md](OBSERVED_DEBUGGING.md). Benchmark pozostaje zatrzymany;
+każdy pojedynczy przypadek wymaga odczytu skorelowanych śladów przed kolejnym.
 Pomiar CPU i RAM podczas tego samego testu syntetycznego:
 [RESOURCE_MEASUREMENT.md](RESOURCE_MEASUREMENT.md).
 
@@ -26,20 +29,23 @@ To 250 rodzin scenariuszy w dwóch wariantach, po 100 wiadomości na dział.
 ## Implementacja
 
 1. Router: FastAPI → RoutingService → port RoutingAgent i port DeliveryGateway.
-   Adapter LangChain używa ChatOpenAI i rzeczywistego StructuredTool. Odrzuca brak,
-   nadmiar i błędne argumenty tool calla. Wysyłka kończy wykonanie agenta.
+   Adapter używa LangChain `create_agent`, ChatOpenAI i StructuredTool.
+   Jeden middleware waliduje wywołanie przed wysyłką; `return_direct` kończy
+   agenta po narzędziu. Brak własnej pętli, korekcyjnych ponowień lub inferencji
+   po wysyłce. Nie ponawiamy mailera po błędzie.
 2. Mailer: osobne API → DeliveryService → własny rejestr SQLite i SMTP.
    Trwała rezerwacja z UUID i hashem payloadu przed wywołaniem SMTP. Statusy
    submitted/failed/unknown, bez automatycznych ponowień.
-3. Ollama: osobny kontener. Model-init sprawdza/pobiera wagi i wykonuje neutralny
-   tool call gotowości bez jakiejkolwiek wysyłki.
+3. Ollama: osobny kontener, wersja 0.13.5 sprzed regresji tool calling #14601.
+   Model-init sprawdza/pobiera wagi i wykonuje jeden neutralny tool call
+   gotowości bez wysyłki. Nie zmienia szablonu ani wag modelu.
 4. Laya: osobne kontenery adaptera protokołu i silnika. Adapter przekłada jedno
    narzędzie z argumentem enum na typed choice. Silnik korzysta z publicznego SDK
    `Router.predict(..., model="multilingual", max_len=8192)` i preloadu modelu.
    Własny cienki host zapewnia jawny budżet, którego domyślny serwer upstream nie
    przekazuje w wywołaniu predict. Zachowany format `/v1/systemone`.
-   Korekta zatwierdzona 25.09: enum opisuje działy, nie adresy; `x-choice`
-   przekazuje krótkie pytanie i opis każdej kategorii. Router mapuje wynik
+   Korekta zatwierdzona 25.09: enum opisuje działy, nie adresy; standardowe
+   description i anyOf przekazują pytanie i opis każdej kategorii. Router mapuje wynik
    modelu na adres dopiero po walidacji. Szczegóły wykonania, manifest wag,
    pomiar tokenów i wznowienie: [LAYA_TUNING_APPROACH.md](LAYA_TUNING_APPROACH.md).
    Trening wag z tego dokumentu pozostaje odrębną, niewykonaną propozycją.
@@ -193,3 +199,72 @@ Laya opisaną w raporcie. Nie zastępować nieudanej sondy deklaracją gotowośc
 Wersje bezpośrednich zależności zapisano w requirements każdego serwisu; obrazy
 mają jawne tagi. Zależności przechodnie nie mają jeszcze kompletnego lockfile,
 a checkpointy modeli są identyfikowane tagiem/nazwą, nie niezmiennym hashem.
+
+## Korekta integracji tool calling, 25.09.2026
+
+Na polecenie użytkownika „Full access now. Fix it” wznowiono testy Dockera.
+Potwierdzono regresję serwera Ollama i zmianę pola tokenów przez ChatOpenAI.
+Po uwagach o nadmiernej złożoności usunięto pętlę korekt i naprawianie szablonu
+w bootstrapie. Używamy `create_agent` oraz Ollamy 0.13.5 sprzed regresji.
+Zgodnie z poleceniem użytkownika benchmark 500 przypadków zatrzymano i nie
+wznawiamy go. Dalsza weryfikacja to testy kodu/kontraktów i mały smoke test.
+Źródła, komendy oraz checkpoint: [TOOL_WIRING.md](TOOL_WIRING.md).
+
+## Uogólnienie agenta po przeglądzie
+
+Na polecenie „So fix it and test” usunięto specyficzną dla Ollamy heurystykę
+licznika tokenów i prywatne rozszerzenie x-choice. Standardowy JSON Schema
+opisuje teraz każdą opcję, a wyłącznie adapter Laya tłumaczy go na typed choice.
+Walidujemy jawne ucięcie i poprawność pojedynczego wywołania, bez heurystyk modelu.
+Weryfikacja: testy kodu/kontraktów, pięć istniejących przypadków smoke dla Ollamy,
+przełączenie env na Laya i te same pięć przypadków, powrót do Ollamy. Bez
+wznowienia benchmarku 500, treningu lub zewnętrznych płatnych wywołań.
+Dowody: `docs/evidence/2026-09-25/generic-agent/`.
+
+## Latest checkpoint: stopped by user
+
+The reauthorized run was stopped on the user's explicit instruction. Run
+`2279baae02cc` has 241 completed records: 176 correct routes, 52 wrong departments,
+and 13 HTTP 502 `invalid_tool_call` responses. All 13 matching API log reasons
+are `missing_call`, not malformed JSON or invalid arguments. Of the 100 HR
+messages, 41 went to help desk. These are partial, class-ordered results, not a
+500-case accuracy score. No full-run MIME audit was performed. An in-flight
+request at cancellation may finish independently; do not replay it automatically.
+The E2E container was stopped (exit 137); results and API logs were preserved in
+`docs/evidence/2026-09-25/ollama-500-generic/`. Do not resume without a new explicit
+request. No model, prompt, schema or corpus changes were made during this run.
+
+## Routing-policy replay checkpoint
+
+The approved prompt/tool-choice change and four individual observed replays are
+complete. See [evidence](evidence/2026-09-25/routing-policy/README.md): two public
+cases succeeded, two remain missing calls. One metadata-only replay reproduced
+function-name confusion. Repeat commands and checkpoint rules remain in
+OBSERVED_DEBUGGING.md; do not resume the stopped benchmark.
+
+## Model comparison checkpoint
+
+User approved an env-only model comparison with logs. Four observed cases on
+qwen3:4b-instruct-2507-q4_K_M passed with unchanged application code; candidate
+remains active with tracing off, repository defaults unchanged. Reproduction,
+artifacts and limitations: [model comparison](evidence/2026-09-25/qwen4b-instruct/README.md).
+Follow OBSERVED_DEBUGGING.md; no bulk benchmark resume.
+
+## Latest checkpoint: testing stopped at 190, evidence audit complete
+
+User stopped testing and requested a no-fluke check. No further model inference
+was run. Full logs and all 190 live MIME agree with 190 actual successful calls,
+but only HR 100/payroll 90 (95 pairs) were covered, with previous corpus exposure.
+Commands, read-only repeat audit and limitations:
+[FORENSIC_REVIEW.md](evidence/2026-09-25/qwen4b-500/FORENSIC_REVIEW.md).
+Do not resume testing without a new request.
+
+## Resume authorized, 2026-09-26
+
+User requested commit, push and remaining cases. Resume the same observed method
+at case 191 using `run.py --resume-after-190`; preserve cases 1-190, no replay.
+The explicit flag validates the frozen prefix and refuses an existing resume
+marker or case-191 artifacts. Keep per-case audits, failure/ten-case review gates
+and unchanged model settings. Preserve first-segment logs separately, then join
+API logs for the full audit. Save logs before disabling tracing. Commit and push
+the implementation checkpoint, then completed evidence.

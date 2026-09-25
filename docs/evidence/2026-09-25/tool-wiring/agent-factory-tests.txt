@@ -1,0 +1,9 @@
+ Container message-router-mailpit-1 Running 
+ Container message-router-mailer-1 Running 
+ Container message-router-api-1 Running 
+ Container message-router-ollama-1 Running 
+ Container message-router-tests-run-8455dd2f1b7a Creating 
+ Container message-router-tests-run-8455dd2f1b7a Created 
+........................................................................ [ 62%]
+............................................                             [100%]
+116 passed in 1.05s

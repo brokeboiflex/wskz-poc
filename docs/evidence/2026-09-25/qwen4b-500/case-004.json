@@ -1,0 +1,12 @@
+[
+  {
+    "id": "human_resources/application-status/resolved_preface",
+    "scenario_id": "human_resources/application-status",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Status kandydatury w rekrutacji.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nOsobna, aktualna wiadomość:\nDwa tygodnie temu przesłałem CV na stanowisko koordynatora magazynu i otrzymałem potwierdzenie przyjęcia aplikacji. Od tamtej pory nie mam informacji o dalszych etapach. Proszę sprawdzić, czy rekrutacja nadal trwa i kiedy kandydaci mogą spodziewać się odpowiedzi."
+  }
+]

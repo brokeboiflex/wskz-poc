@@ -1,0 +1,3 @@
+<tool_call>
+{"name": "payroll", "arguments": {"department": "payroll"}}
+</tool_call>

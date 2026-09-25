@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/overtime-pay/resolved_postscript",
+    "scenario_id": "payroll/overtime-pay",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Naliczanie wynagrodzenia za nadgodziny.",
+    "message": "W ubiegłym miesiącu przepracowałam dodatkowe godziny zatwierdzone przez kierownika. Widzę je w ewidencji, ale na pasku wypłaty nie pojawiło się odpowiadające im rozliczenie. Proszę sprawdzić, czy zostały uwzględnione na liście płac i w jakim terminie zostaną wypłacone.\n\nDodatkowa praca dotyczyła dwóch wieczorów przy zamknięciu miesiąca. Przełożony zatwierdził godziny w tym samym tygodniu. Mam daty i numer zaakceptowanej karty, więc mogę przekazać je do porównania z danymi wykorzystanymi podczas naliczania wypłaty.\n\nPS. Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/medical-absence-record/base",
+    "scenario_id": "payroll/medical-absence-record",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Weryfikacja rejestracji zwolnienia w ewidencji.",
+    "message": "Na zestawieniu obecności widzę nieusprawiedliwioną nieobecność za dni objęte wystawionym zwolnieniem. Przełożony zna sytuację, ale zapis nie został zmieniony. Proszę sprawdzić, czy informacja o zwolnieniu dotarła do pracodawcy i czy okres zostanie prawidłowo uwzględniony przy rozliczeniu."
+  }
+]
