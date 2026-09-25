@@ -25,6 +25,10 @@ maila. API startuje po pomyślnej inicjalizacji i gotowości mailera. Pierwszy s
 może potrwać kilka minut lub dłużej, zależnie od internetu i CPU. Kolejne starty
 wykorzystują zachowane wagi. Błąd inicjalizacji blokuje start API.
 
+**Laya jest opcjonalna i domyślnie wyłączona.** Bez aktywnego profilu `laya`
+Compose nie buduje ani nie uruchamia `laya-runtime` i `laya-adapter`, ani nie
+pobiera wag Laya. Do podstawowego wariantu nie trzeba edytować Compose.
+
 - Swagger: <http://localhost:8000/api/v1/docs>
 - OpenAPI: <http://localhost:8000/api/v1/openapi.json>
 - Mailpit: <http://localhost:8025>
@@ -53,18 +57,46 @@ skrzynką ani dostarczania maili na zewnętrzne adresy.
 
 ## Architektura i Service Layer Pattern
 
+**Przebieg jednego zgłoszenia** po uruchomieniu środowiska. Agent działa wewnątrz
+API: model wybiera dział przez tool calling, a agent wykonuje narzędzie wysyłki.
+Każdy serwis na diagramie to osobny kontener; klient jest poza aplikacją.
+
 ```mermaid
-flowchart LR
-    User[Klient HTTP] --> API[Router API / Python]
-    API --> LLM[Ollama / Chat Completions]
-    LLM -->|native tool call| API
-    API -->|narzędzie: HTTP /internal/v1/deliveries| Mailer[Mailer / Python]
-    Mailer --> Ledger[(Prywatny rejestr SQLite)]
-    Mailer -->|SMTP| Mailpit[Mailpit]
-    API -. alternatywny base URL .-> Adapter[Laya adapter / Python]
-    Adapter -->|HTTP /v1/systemone| Laya[Laya runtime / Python]
-    API -. alternatywny base URL .-> Cloud[OpenRouter]
+sequenceDiagram
+    participant Client as Klient
+    participant API as API + agent LangChain
+    participant Model as Ollama
+    participant Mailer as Mailer
+    participant Mailpit as Mailpit
+
+    Client->>API: POST /api/v1/messages (email, message)
+    API->>Model: Treść wiadomości + schemat narzędzia
+    Model-->>API: Tool call z wybranym działem
+    Note over API: Walidacja i wykonanie narzędzia<br/>Mapowanie działu na adres odbiorcy
+    API->>Mailer: HTTP: odbiorca, treść, adres Reply-To
+    Note over Mailer: Rezerwacja wysyłki we własnym SQLite
+    Mailer->>Mailpit: SMTP: wiadomość z nagłówkiem Reply-To
+    Mailpit-->>Mailer: Akceptacja SMTP
+    Mailer-->>API: Potwierdzenie wysyłki
+    API-->>Client: Odbiorca, request_id, status submitted
 ```
+
+Wiadomość pozostaje w Mailpit i jest widoczna w jego panelu. SQLite jest prywatnym
+magazynem mailera, bez osobnego kontenera. `model-init` przygotowuje model przed
+startem API i nie uczestniczy w obsłudze zgłoszeń.
+
+**Wybór modelu jest alternatywą, nie kolejnym etapem przepływu.** Powyżej pokazano
+domyślną Ollamę. API korzysta z jednego endpointu wskazanego przez `OPENAI_BASE_URL`:
+
+| Wariant            | Z czym komunikuje się agent w API                      | Sposób wyboru działu                                    |
+| ------------------ | ------------------------------------------------------ | ------------------------------------------------------- |
+| Ollama (domyślnie) | Kontener `ollama`                                      | Natywny tool call lokalnego LLM                         |
+| OpenRouter         | Zewnętrzne API OpenRouter                              | Natywny tool call wybranego modelu                      |
+| Laya (opcjonalnie) | Kontener `laya-adapter`, który odpytuje `laya-runtime` | Klasyfikator wybiera dział, adapter tworzy `tool_calls` |
+
+Mailer i Mailpit obsługują każdy wariant tak samo. Kontenery Laya uruchamiają się
+tylko po włączeniu profilu `laya`. Ollama pozostaje w Compose także przy innym
+dostawcy, ale API wtedy jej nie odpytuje. [Konfiguracja wariantów](#dostawcy-przez-env).
 
 | Kontener       | Odpowiedzialność                                                    |
 | -------------- | ------------------------------------------------------------------- |
@@ -133,6 +165,17 @@ i specyficzne parametry reasoning nie są częścią wspólnego kontraktu.
 
 Przykłady nie zawierają sekretów:
 
+| Wariant                          | Aktywny profil | Kontenery Laya    |
+| -------------------------------- | -------------- | ----------------- |
+| Domyślny / `.env.ollama-example` | brak           | Wyłączone         |
+| `.env.openrouter-example`        | brak           | Wyłączone         |
+| `.env.laya-example`              | `laya`         | Runtime i adapter |
+
+`COMPOSE_PROFILES=laya` w przykładzie Laya włącza oba kontenery. Ten sam plik
+ustawia `OPENAI_BASE_URL` na adapter. Samo `--profile laya` nie przełącza klienta
+modelu. Profile można ustawić również w `.env` lub powłoce; usuń takie ustawienie,
+jeśli ma obowiązywać wariant domyślny.
+
 ```sh
 # Ollama; równoważne domyślnemu uruchomieniu.
 docker compose --env-file .env.ollama-example up -d
@@ -153,6 +196,16 @@ niepotrzebnych wag. Przy przełączaniu wariantu zachowaj ten sam plik env we
 wszystkich komendach. Aby zatrzymać poprzedni wariant przed zmianą, użyj
 `docker compose --env-file <poprzedni-plik> down` bez `--volumes`; dane pozostaną.
 Po zmianie kodu użyj `up -d --build`. `.env.example` opisuje pełną konfigurację.
+
+Jeśli Laya była wcześniej uruchomiona, samo wyłączenie profilu nie zatrzyma jej
+kontenerów. Powrót do Ollamy z zachowaniem danych i pobranych wag:
+
+```sh
+docker compose --env-file .env.laya-example stop laya-adapter laya-runtime
+docker compose --env-file .env.ollama-example up -d
+```
+
+Mechanizm profili opisuje [dokumentacja Docker Compose](https://docs.docker.com/compose/how-tos/profiles/).
 
 ### Różnica wariantu Laya
 
@@ -209,6 +262,28 @@ dołączony: ewentualny adapter z jego outboxem może zastąpić mailer za tym s
 kontraktem, ale status `queued` nie może udawać `submitted`.
 
 ## Testy i diagnostyka
+
+Rozszerzony zbiór: [500 syntetycznych wiadomości po polsku](verification/benchmark/cases-500.json),
+po 100 na każdy z pięciu działów. Zawiera 250 scenariuszy w dwóch wariantach:
+bazowym oraz z zamkniętym wcześniejszym wątkiem. Obejmuje krótkie niepełne prośby,
+zwykłe zgłoszenia i dłuższe wiadomości z konkretnymi szczegółami. Etykiety i ich
+uzasadnienia powstały razem ze scenariuszami; nie pochodzą z przewidywań modeli.
+To kontrolowany benchmark syntetyczny, nie próbka rzeczywistej skrzynki.
+
+Dotychczasowy test 15 wiadomości pozostaje domyślny. Duży zbiór wybiera się jawnie:
+
+```sh
+docker compose --env-file .env.ollama-example --profile test run --build --rm e2e \
+  python e2e.py --cases benchmark/cases-500.json
+```
+
+Dla Laya użyj `.env.laya-example`. Do API trafiają tylko adres nadawcy i treść;
+odpowiedzi wzorcowe pozostają w teście. Wyniki zapisują identyfikatory przypadków,
+rodzin i SHA-256 dokładnie użytego pliku. **Nie wykonano jeszcze inferencji na 500
+przypadkach.** Wykonanie wymaga działającego wariantu usług i uwzględnienia limitu
+przechowywania poczty w Mailpit, aby nie wyparł wcześniejszych wiadomości.
+Źródła, ograniczenia par scenariuszy, kontrole i wznowienie:
+[BENCHMARK_APPROACH.md](docs/BENCHMARK_APPROACH.md).
 
 ```sh
 # Konfiguracja nie wymaga działającego daemonu.

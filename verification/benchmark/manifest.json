@@ -1,0 +1,46 @@
+{
+  "dataset": "wskz-synthetic-pl-500-v1",
+  "provenance": "synthetic, authored by Codex; no imported customer emails",
+  "intended_use": "evaluation only; paired cases are not independent observations",
+  "cases": 500,
+  "scenario_families": 250,
+  "sha256": "bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e",
+  "source_sha256": {
+    "help_desk.txt": "636648831875bac4cd3f47893c3c292f7204eeffcf7fdcd3ccc82668fd172ecd",
+    "human_resources.txt": "ea2ac0bb83e0ef845bf8932e525e286e3e46bd02241534e5615ba19a73823d4c",
+    "it.txt": "7b5e6b06828a98087534386b834228a330e11006227b11542e608a5d5cf284fe",
+    "other.txt": "324f069b60f1be2a761ddbdf98237ec7fbaf01e7824a26e2d78d5fea940d2f5a",
+    "payroll.txt": "9577f4936c44f1f754a2cb7108ca5ca85f6c251e6b517a0bfd1d7fbaed013bdf"
+  },
+  "departments": {
+    "human_resources": 100,
+    "payroll": 100,
+    "help_desk": 100,
+    "it": 100,
+    "other": 100
+  },
+  "variants": {
+    "base": 250,
+    "quoted_history": 50,
+    "resolved_preface": 50,
+    "resolved_postscript": 50,
+    "conversation_history": 50,
+    "forwarded_history": 50
+  },
+  "characters": {
+    "min": 87,
+    "median": 468.5,
+    "max": 1362
+  },
+  "words_whitespace": {
+    "min": 16,
+    "median": 61.0,
+    "max": 176
+  },
+  "utf8_bytes": {
+    "min": 93,
+    "median": 493.5,
+    "max": 1442
+  },
+  "model_evaluation": "not run"
+}

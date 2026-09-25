@@ -13,7 +13,15 @@ Service Layer Pattern and a fresh independent critic after implementation.
 - Mailer owns its SQLite delivery ledger. Never retry unknown SMTP outcomes automatically.
 - Laya is a typed classifier behind a separate compatibility adapter, not native LLM tool calling.
 - Use synthetic messages and Mailpit for tests. No production mail or keys from other projects.
+- The approved 500-case Polish benchmark is in `verification/benchmark/cases-500.json`.
+  Read `docs/BENCHMARK_APPROACH.md` before rebuilding or running it. There are 250
+  scenario families with two correlated variants each, 100 cases per department.
+  Preserve family grouping in any future splits and never send labels/rationales
+  to the model. The original 15-case smoke test remains the default.
 - Default launch is `docker compose up -d`. Provider changes use env only.
+- Keep optional profiles documented in Compose: Laya runtime and adapter are
+  disabled by default. Enabling a profile and selecting the model endpoint are
+  separate settings; disabling a profile does not stop existing containers.
 - Keep `README.md`, `docs/APPROACH.md`, `docs/VERIFICATION.md` and contracts current.
 - The user approved correcting Laya's semantic routing on 2026-09-25.
   The model chooses a department from message content and descriptions; only the
@@ -35,3 +43,8 @@ Service Layer Pattern and a fresh independent critic after implementation.
 - Ollama bootstrap intermittently failed its native-tool readiness probe during
   runtime tests. Subsequent probes passed, but the cause remains unresolved.
   Do not call startup fully reliable or weaken the probe to hide the failure.
+- Resource measurement reuses the approved synthetic test: see
+  `docs/RESOURCE_MEASUREMENT.md`. Both model runtimes use about 1.9 GiB in this
+  CPU setup; Laya's advantage is CPU time, not materially lower RAM.
+  That repeat scored 13/15 for each provider, including two new Ollama mistakes.
+  Preserve the distinction between the earlier 15/15 and this later 13/15 run.

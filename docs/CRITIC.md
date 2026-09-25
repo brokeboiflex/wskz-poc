@@ -1,5 +1,27 @@
 # Niezależny przegląd implementacji
 
+## Benchmark 500 przypadków - 25.09.2026
+
+Niezależny krytyk przeczytał wszystkie 250 scenariuszy źródłowych i porównał je
+z bieżącą polityką działów. Nie znalazł jednoznacznie błędnej etykiety, ale wskazał
+sztuczne komentarze tłumaczące brak kontekstu, nadmierne wykluczanie innych działów
+i zbyt jednolitą długość wiadomości. Poprawiono te miejsca i rozbudowano 50
+scenariuszy o konkretne szczegóły.
+
+W drugim przeglądzie skontrolował warianty historyczne wszystkich 50 scenariuszy
+`other`, poprawione dłuższe wiadomości, reguły składania par, oddzielenie odpowiedzi
+wzorcowej od requestu, Dockerfile i ścieżkę `--cases`. Samodzielnie uruchomił
+walidator odtworzenia oraz 12 testów benchmarku: PASS. Sprawdzony SHA-256:
+`bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e`.
+
+Wniosek: brak pozostałego blokera poprawności dla kontrolowanego benchmarku
+syntetycznego. Ograniczenia: 250 skorelowanych par, sztucznie równy udział działów,
+pięć powtarzanych szablonów historii z jawnym zamknięciem poprzedniego tematu.
+**Nie uruchomiono modeli na tych 500 przypadkach.** Przegląd i testy kodu nie
+potwierdzają trafności modelu ani skuteczności na rzeczywistej skrzynce.
+
+Podejście, komendy i checkpoint: [BENCHMARK_APPROACH.md](BENCHMARK_APPROACH.md).
+
 ## Korekta semantycznego routingu - 25.09.2026
 
 Świeży niezależny krytyk przeczytał diff routera, adaptera, testów i dokumentacji

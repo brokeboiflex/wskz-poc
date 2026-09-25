@@ -16,6 +16,12 @@ README, kontrakty, testy oraz raport weryfikacji. Projekt nie zależy od Resumer
 
 Architektura i polityka: [README.md](../README.md), kontrakty: [CONTRACTS.md](CONTRACTS.md).
 Status dowodów: [VERIFICATION.md](VERIFICATION.md). Zasady dla agenta: [AGENTS.md](../AGENTS.md).
+Pomiar CPU i RAM podczas tego samego testu syntetycznego:
+[RESOURCE_MEASUREMENT.md](RESOURCE_MEASUREMENT.md).
+
+Zatwierdzony syntetyczny benchmark 500 wiadomości po polsku, źródła scenariuszy,
+walidacja i komendy uruchomienia: [BENCHMARK_APPROACH.md](BENCHMARK_APPROACH.md).
+To 250 rodzin scenariuszy w dwóch wariantach, po 100 wiadomości na dział.
 
 ## Implementacja
 

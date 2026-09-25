@@ -7,4 +7,5 @@ RUN python -m pip install --no-cache-dir -r /tmp/router.txt -r /tmp/tests.txt
 COPY pyproject.toml .
 COPY services ./services
 COPY tests ./tests
+COPY verification ./verification
 CMD ["pytest", "-q", "-p", "no:cacheprovider"]

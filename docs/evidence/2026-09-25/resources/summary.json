@@ -1,0 +1,36 @@
+{
+  "ollama": {
+    "runtime_ram_gib_before": 1.861,
+    "runtime_ram_gib_after": 1.942,
+    "runtime_ram_gib_sampled_max": 1.957,
+    "selected_containers_ram_gib_after": 2.1032890625,
+    "runtime_cpu_seconds_interval": 1652.187,
+    "runtime_cpu_seconds_per_request": 110.146,
+    "e2e_seconds": 174.242,
+    "e2e_median_seconds": 10.698,
+    "runtime_cpu_percent_sampled_max": 1089.4,
+    "e2e_summary": {
+      "run_id": "1010942b42fc",
+      "passed": 13,
+      "total": 15
+    },
+    "sample_count": 398
+  },
+  "laya": {
+    "runtime_ram_gib_before": 1.883,
+    "runtime_ram_gib_after": 1.925,
+    "runtime_ram_gib_sampled_max": 1.926,
+    "selected_containers_ram_gib_after": 2.126962890625,
+    "runtime_cpu_seconds_interval": 13.592,
+    "runtime_cpu_seconds_per_request": 0.906,
+    "e2e_seconds": 2.764,
+    "e2e_median_seconds": 0.171,
+    "runtime_cpu_percent_sampled_max": 517.52,
+    "e2e_summary": {
+      "run_id": "56876801584a",
+      "passed": 13,
+      "total": 15
+    },
+    "sample_count": 54
+  }
+}

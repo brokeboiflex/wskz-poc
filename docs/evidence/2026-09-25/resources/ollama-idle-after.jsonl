@@ -1,0 +1,4 @@
+{"BlockIO":"172kB / 0B","CPUPerc":"0.00%","Container":"message-router-ollama-1","ID":"af5be6e11d34","MemPerc":"25.06%","MemUsage":"1.942GiB / 7.75GiB","Name":"message-router-ollama-1","NetIO":"57.2kB / 33.2kB","PIDs":"35"}
+{"BlockIO":"0B / 0B","CPUPerc":"0.24%","Container":"message-router-api-1","ID":"c5ac3b581f54","MemPerc":"1.25%","MemUsage":"98.97MiB / 7.75GiB","Name":"message-router-api-1","NetIO":"62.3kB / 92.3kB","PIDs":"6"}
+{"BlockIO":"0B / 455kB","CPUPerc":"0.24%","Container":"message-router-mailer-1","ID":"9dd29f49f5b5","MemPerc":"0.58%","MemUsage":"45.98MiB / 7.75GiB","Name":"message-router-mailer-1","NetIO":"47.1kB / 45.9kB","PIDs":"3"}
+{"BlockIO":"65.5kB / 934kB","CPUPerc":"0.94%","Container":"message-router-mailpit-1","ID":"c510f9f4c0e0","MemPerc":"0.25%","MemUsage":"20.21MiB / 7.75GiB","Name":"message-router-mailpit-1","NetIO":"52.5kB / 724kB","PIDs":"13"}

@@ -4,6 +4,33 @@ Data: 25.09.2026. **Po korekcie semantycznej Laya: 13/15, nadal FAIL akceptacji.
 Model wybiera dział na podstawie treści i opisów; adres ustala aplikacja.
 Nie trenowano wag. Poprzedni pomiar Laya 6/15 pozostaje poniżej jako historia.
 
+Późniejszy [pomiar CPU i RAM](RESOURCE_MEASUREMENT.md) powtórzył ten sam zestaw:
+Laya 13/15, Ollama 13/15 (błędne przypadki 3 i 6). Wcześniejsze 15/15 Ollamy
+pozostaje prawdziwym wynikiem tamtego przebiegu, ale nie dowodzi powtarzalnie
+bezbłędnego routingu. Dowody nowych przebiegów i pomiarów zasobów są w
+`docs/evidence/2026-09-25/resources/`.
+
+## Nowy benchmark syntetyczny 500 wiadomości
+
+Zbudowano [zbiór 500 przypadków](../verification/benchmark/cases-500.json), po 100
+na dział, z 250 scenariuszy w dwóch wariantach. Etykiety przypisano podczas
+pisania scenariuszy; żaden z ocenianych modeli nie ustalał odpowiedzi wzorcowych.
+Mediana: 61 słów, zakres: 16–176 słów. Zbiór jest syntetyczny i kontrolowany,
+nie stanowi reprezentatywnej próbki rzeczywistej korespondencji.
+
+- Host i przebudowany kontener testowy: **97 passed** (12 nowych kontroli).
+- Walidacja źródeł, liczby, balansu, unikalności, par i SHA-256: PASS.
+- Deterministyczne odtworzenie w obrazie E2E jako UID 10001: PASS.
+- `--cases` wybiera zbiór; wyniki zawierają ID przypadku/rodziny i SHA-256.
+- API otrzymuje tylko nadawcę i treść, bez etykiet i uzasadnień.
+- Niezależny przegląd zakończony bez pozostałego blokera dla tego zakresu.
+- **Nie wykonano inferencji ani wysyłki 500 wiadomości.** Historyczne wyniki
+  13/15 i 15/15 dotyczą wyłącznie poprzedniego zestawu 15 krótkich wiadomości.
+
+Sposób odtworzenia, ograniczenia i checkpoint:
+[BENCHMARK_APPROACH.md](BENCHMARK_APPROACH.md). Manifest:
+[manifest.json](../verification/benchmark/manifest.json).
+
 ## Korekta semantycznej klasyfikacji
 
 - Host: **85 passed**, bez pominięć, jeden warning Starlette/AnyIO.

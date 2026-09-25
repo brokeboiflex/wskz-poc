@@ -1,0 +1,5 @@
+{"BlockIO":"0B / 0B","CPUPerc":"0.28%","Container":"message-router-laya-runtime-1","ID":"d105eed5b3e4","MemPerc":"24.84%","MemUsage":"1.925GiB / 7.75GiB","Name":"message-router-laya-runtime-1","NetIO":"31.2kB / 16.9kB","PIDs":"39"}
+{"BlockIO":"0B / 0B","CPUPerc":"0.31%","Container":"message-router-laya-adapter-1","ID":"ffe1ca498912","MemPerc":"0.50%","MemUsage":"39.84MiB / 7.75GiB","Name":"message-router-laya-adapter-1","NetIO":"66.8kB / 36.7kB","PIDs":"3"}
+{"BlockIO":"0B / 0B","CPUPerc":"8.06%","Container":"message-router-api-1","ID":"08ebb4a5dc38","MemPerc":"1.25%","MemUsage":"98.86MiB / 7.75GiB","Name":"message-router-api-1","NetIO":"38.8kB / 78.8kB","PIDs":"5"}
+{"BlockIO":"0B / 487kB","CPUPerc":"0.30%","Container":"message-router-mailer-1","ID":"9dd29f49f5b5","MemPerc":"0.58%","MemUsage":"45.98MiB / 7.75GiB","Name":"message-router-mailer-1","NetIO":"31.7kB / 31.5kB","PIDs":"3"}
+{"BlockIO":"0B / 786kB","CPUPerc":"0.03%","Container":"message-router-mailpit-1","ID":"c510f9f4c0e0","MemPerc":"0.28%","MemUsage":"22.13MiB / 7.75GiB","Name":"message-router-mailpit-1","NetIO":"46kB / 828kB","PIDs":"12"}
