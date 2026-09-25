@@ -1,0 +1,62 @@
+[
+  {
+    "message": "Chciałbym zgłosić urlop na jutro.",
+    "recipient": "kadry@example.com"
+  },
+  {
+    "message": "Nie zgadza mi się naliczone wynagrodzenie za sierpień.",
+    "recipient": "kadry@example.com"
+  },
+  {
+    "message": "Potrzebuję zaświadczenia o zatrudnieniu i zarobkach.",
+    "recipient": "kadry@example.com"
+  },
+  {
+    "message": "Nie działa mi komputer.",
+    "recipient": "help-desk@example.com"
+  },
+  {
+    "message": "Zapomniałem hasła do konta pracowniczego, proszę o reset.",
+    "recipient": "help-desk@example.com"
+  },
+  {
+    "message": "Moja drukarka nie drukuje dokumentów.",
+    "recipient": "help-desk@example.com"
+  },
+  {
+    "message": "Serwer produkcyjny nie odpowiada, awaria dotyczy całej firmy.",
+    "recipient": "it@example.com"
+  },
+  {
+    "message": "Wykryliśmy atak ransomware na serwerze firmowym.",
+    "recipient": "it@example.com"
+  },
+  {
+    "message": "W całym biurze przestała działać sieć, wszystkie zespoły są odcięte.",
+    "recipient": "it@example.com"
+  },
+  {
+    "message": "Chciałbym zapytać o rekrutację na stanowisko analityka.",
+    "recipient": "human-resources@example.com"
+  },
+  {
+    "message": "Chciałabym zaplanować szkolenie z komunikacji dla mojego zespołu.",
+    "recipient": "human-resources@example.com"
+  },
+  {
+    "message": "Potrzebuję rozmowy o ścieżce rozwoju zawodowego w firmie.",
+    "recipient": "human-resources@example.com"
+  },
+  {
+    "message": "Jaki jest przepis na ciasto marchewkowe?",
+    "recipient": "other@example.com"
+  },
+  {
+    "message": "Fioletowy księżyc tańczy z ogórkiem.",
+    "recipient": "other@example.com"
+  },
+  {
+    "message": "Szukam informacji o historii starożytnego Rzymu.",
+    "recipient": "other@example.com"
+  }
+]

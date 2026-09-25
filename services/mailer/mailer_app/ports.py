@@ -1,0 +1,19 @@
+from typing import Protocol
+
+from .domain import Receipt, SendCommand
+
+
+class DeliveryRepository(Protocol):
+    def reserve(self, command: SendCommand) -> tuple[bool, Receipt]: ...
+
+    def finish(self, request_id: str, status: str) -> Receipt: ...
+
+    def get(self, request_id: str) -> Receipt | None: ...
+
+    def ready(self) -> bool: ...
+
+
+class MailTransport(Protocol):
+    def send(self, command: SendCommand, message_id: str) -> None: ...
+
+    def ready(self) -> bool: ...

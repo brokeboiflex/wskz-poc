@@ -1,0 +1,189 @@
+name: message-router
+
+x-python-health: &python-health
+  test:
+    [
+      "CMD",
+      "python",
+      "-c",
+      "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health/ready', timeout=8)",
+    ]
+  interval: 20s
+  timeout: 10s
+  retries: 3
+  start_period: 30s
+
+x-model-env: &model-env
+  OPENAI_BASE_URL: ${OPENAI_BASE_URL:-http://ollama:11434/v1}
+  OPENAI_API_KEY: ${OPENAI_API_KEY:-ollama}
+  OPENAI_MODEL: ${OPENAI_MODEL:-qwen3:1.7b}
+
+services:
+  api:
+    build: ./services/router
+    environment:
+      <<: *model-env
+      MODEL_TIMEOUT_SECONDS: ${MODEL_TIMEOUT_SECONDS:-180}
+      MODEL_MAX_TOKENS: ${MODEL_MAX_TOKENS:-1024}
+      MAILER_BASE_URL: http://mailer:8000
+      MAILER_TOKEN: ${MAILER_TOKEN:-local-poc-mailer-token}
+      MAILER_TIMEOUT_SECONDS: 40
+    ports:
+      - "127.0.0.1:${API_PORT:-8000}:8000"
+    depends_on:
+      model-init:
+        condition: service_completed_successfully
+      mailer:
+        condition: service_healthy
+    networks: [app, inference]
+    healthcheck: *python-health
+    init: true
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+
+  mailer:
+    build: ./services/mailer
+    environment:
+      SMTP_HOST: mailpit
+      SMTP_PORT: 1025
+      SMTP_TIMEOUT_SECONDS: 15
+      MAIL_FROM: ${MAIL_FROM:-router@example.com}
+      MAILER_TOKEN: ${MAILER_TOKEN:-local-poc-mailer-token}
+      DATABASE_PATH: /data/deliveries.sqlite3
+      ALLOWED_RECIPIENTS: human-resources@example.com,help-desk@example.com,it@example.com,kadry@example.com,other@example.com
+    depends_on:
+      mailpit:
+        condition: service_healthy
+    networks: [app, smtp]
+    volumes:
+      - deliveries:/data
+    healthcheck: *python-health
+    init: true
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+
+  mailpit:
+    image: axllent/mailpit:v1.29.2
+    environment:
+      MP_DATABASE: /data/mailpit.db
+      MP_MAX_MESSAGES: 1000
+    ports:
+      - "127.0.0.1:${MAILPIT_PORT:-8025}:8025"
+    volumes:
+      - captured-mail:/data
+    networks: [smtp]
+    healthcheck:
+      test: ["CMD", "/mailpit", "readyz"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:0.17.7
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+      OLLAMA_KEEP_ALIVE: 30m
+      OLLAMA_NUM_PARALLEL: 1
+    volumes:
+      - ollama-models:/root/.ollama
+    networks: [inference]
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+
+  model-init:
+    build: ./services/model-init
+    environment:
+      <<: *model-env
+      MODEL_BOOTSTRAP: ${MODEL_BOOTSTRAP:-ollama}
+      OLLAMA_BASE_URL: http://ollama:11434
+    depends_on:
+      ollama:
+        condition: service_healthy
+    networks: [inference]
+    restart: "no"
+    read_only: true
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+
+  laya-runtime:
+    profiles: [laya]
+    build: ./services/laya-runtime
+    environment:
+      LAYA_THREADS: ${LAYA_THREADS:-4}
+      HF_HOME: /models
+    volumes:
+      - laya-models:/models
+    networks: [laya-engine]
+    healthcheck:
+      <<: *python-health
+      start_period: 20m
+      start_interval: 5s
+    init: true
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+
+  laya-adapter:
+    profiles: [laya]
+    build: ./services/laya-adapter
+    environment:
+      LAYA_BASE_URL: http://laya-runtime:8000
+      LAYA_MODEL: multilingual
+      ADAPTER_MODEL: laya-multilingual
+      LAYA_TIMEOUT_SECONDS: 150
+    depends_on:
+      laya-runtime:
+        condition: service_healthy
+    networks: [inference, laya-engine]
+    healthcheck: *python-health
+    init: true
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+
+  tests:
+    profiles: [test]
+    build:
+      context: .
+      dockerfile: tests/Dockerfile
+    network_mode: none
+
+  e2e:
+    profiles: [test]
+    build: ./verification
+    environment:
+      API_URL: http://api:8000
+      MAILPIT_URL: http://mailpit:8025
+    depends_on:
+      api:
+        condition: service_healthy
+    networks: [app, smtp]
+
+networks:
+  app:
+    internal: true
+  smtp:
+    internal: true
+  inference: {}
+  laya-engine: {}
+
+volumes:
+  deliveries:
+  captured-mail:
+  ollama-models:
+  laya-models:
