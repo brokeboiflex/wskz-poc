@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/calendar-sync/resolved_preface", "scenario_id": "help_desk/calendar-sync", "variant": "resolved_preface", "run_id": "29ba732b9b7f", "dataset_sha256": "12c5336135262301dabaa0bf7a1f6a386e1ac160975e8eabab3f45ae722f9c66", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "275c71ec-314e-466a-95ab-c4d96cab54b2", "passed": true, "seconds": 5.498}
+{"run_id": "29ba732b9b7f", "dataset_sha256": "12c5336135262301dabaa0bf7a1f6a386e1ac160975e8eabab3f45ae722f9c66", "passed": 1, "total": 1}

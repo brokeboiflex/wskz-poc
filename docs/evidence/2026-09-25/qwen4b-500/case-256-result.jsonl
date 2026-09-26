@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/license-user/resolved_postscript", "scenario_id": "help_desk/license-user", "variant": "resolved_postscript", "run_id": "775af74899ca", "dataset_sha256": "e110409aa74dbfe4591c6ee9bb54fe0bfb15b38642002d0a5801e48a876754e7", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "95d4a352-a45a-4882-9cd2-26edbabb491b", "passed": true, "seconds": 3.339}
+{"run_id": "775af74899ca", "dataset_sha256": "e110409aa74dbfe4591c6ee9bb54fe0bfb15b38642002d0a5801e48a876754e7", "passed": 1, "total": 1}

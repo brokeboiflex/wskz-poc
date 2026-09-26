@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/data-exposure/forwarded_history",
+    "scenario_id": "it/data-exposure",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Ujawnienie firmowych danych w publicznym zasobie.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZauważyłem, że katalog z wewnętrznymi dokumentami można otworzyć bez logowania z publicznego internetu. Nie powinien być dostępny poza firmą. Proszę o pilne zabezpieczenie zasobu, sprawdzenie zakresu udostępnionych danych i przeanalizowanie, czy ktoś nieuprawniony mógł je pobrać.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nPomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

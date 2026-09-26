@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/touchpad/base",
+    "scenario_id": "help_desk/touchpad",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem z gładzikiem laptopa.",
+    "message": "Gładzik w moim służbowym laptopie przestał reagować po ponownym uruchomieniu. Podłączona mysz działa, ale często pracuję poza biurkiem i potrzebuję przywrócenia gładzika. Proszę o sprawdzenie ustawień oraz sterownika tego urządzenia na moim komputerze."
+  }
+]

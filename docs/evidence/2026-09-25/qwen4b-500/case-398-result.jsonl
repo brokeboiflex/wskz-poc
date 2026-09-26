@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/payroll-server/conversation_history", "scenario_id": "it/payroll-server", "variant": "conversation_history", "run_id": "5a0f2020fc91", "dataset_sha256": "e423f59db1c7276133911aad60b964c19dc44a4dada12731ca03a96b95798b02", "expected": "it@example.com", "actual": "it@example.com", "request_id": "2fc1a31c-2e9c-4d6a-87ee-348d678caa19", "passed": true, "seconds": 10.102}
+{"run_id": "5a0f2020fc91", "dataset_sha256": "e423f59db1c7276133911aad60b964c19dc44a4dada12731ca03a96b95798b02", "passed": 1, "total": 1}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/meeting-display/base",
+    "scenario_id": "help_desk/meeting-display",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Podłączenie komputera użytkownika do sprawnego ekranu.",
+    "message": "Mój laptop nie wyświetla obrazu na ekranie w sali spotkań. Komputer kolegi działa z tym samym przewodem, więc problem wydaje się dotyczyć mojego urządzenia. Proszę pomóc ustawić wyjście obrazu i sprawdzić przejściówkę, zanim rozpocznę prezentację dla zespołu."
+  }
+]

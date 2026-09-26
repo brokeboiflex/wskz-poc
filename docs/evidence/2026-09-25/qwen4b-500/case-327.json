@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/storage-array/base",
+    "scenario_id": "it/storage-array",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria firmowej macierzy dyskowej.",
+    "message": "Macierz przechowująca wspólne dane zgłasza awarię kilku dysków i przejście w stan zdegradowany. Dostęp do plików jest znacznie spowolniony we wszystkich zespołach. Proszę o pilną ocenę stanu infrastruktury pamięci masowej i zabezpieczenie ciągłości działania usług.\n\nAlarm pojawił się w nocy, a rano kolejne dyski zostały oznaczone jako niedostępne. Nie wyjmowaliśmy żadnych nośników i nie uruchamialiśmy samodzielnie odbudowy. Konsola zarządzania nadal odpowiada, więc można zebrać dane diagnostyczne przed podjęciem dalszych działań."
+  }
+]

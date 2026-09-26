@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:32:39 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-e946998892db-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 2df42654-6e66-4259-9019-c6eaaf0b37a9
+Date: Sat, 26 Sep 2026 09:32:39 -0000
+Message-ID: <2df42654-6e66-4259-9019-c6eaaf0b37a9@message-router.local>
+X-Request-ID: 2df42654-6e66-4259-9019-c6eaaf0b37a9
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Klucz dost=C4=99pu do firmowej us=C5=82ugi znalaz=C5=82 si=C4=99 omy=C5=82kow=
+o w publicznym repozytorium. Repozytorium jest ju=C5=BC ukryte, ale sam klucz=
+ nadal mo=C5=BCe dzia=C5=82a=C4=87. Prosz=C4=99 o natychmiastow=C4=85 obs=C5=
+=82ug=C4=99 incydentu, rotacj=C4=99 ujawnionego po=C5=9Bwiadczenia oraz spraw=
+dzenie log=C3=B3w pod k=C4=85tem jego nieuprawnionego u=C5=BCycia.

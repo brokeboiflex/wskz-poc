@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/referral-bonus-pay/base",
+    "scenario_id": "payroll/referral-bonus-pay",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wypłata już przyznanej premii za polecenie.",
+    "message": "Premia za polecenie pracownika została mi przyznana i zatwierdzona miesiąc temu. Nie pytam o zasady programu ani rekrutację tej osoby. Proszę sprawdzić, dlaczego świadczenie nie pojawiło się na pasku wynagrodzenia i w którym terminie zostanie wypłacone.\n\nOsoba odpowiedzialna za program potwierdziła spełnienie warunków i przekazanie decyzji do wypłaty. W wiadomości wskazano bieżący miesiąc. Mam to potwierdzenie i mogę je dołączyć, jeżeli pomoże ustalić, na którym etapie zatrzymało się rozliczenie."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/pdf-reader/quoted_history", "scenario_id": "help_desk/pdf-reader", "variant": "quoted_history", "run_id": "7c9acd4e5963", "dataset_sha256": "8b0757a31b4c6f609b1d171692ec96c85cccc026a35fbf976a6626e9ed993f24", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "2218db00-b142-427e-b6f3-2ed228a2434c", "passed": true, "seconds": 5.906}
+{"run_id": "7c9acd4e5963", "dataset_sha256": "8b0757a31b4c6f609b1d171692ec96c85cccc026a35fbf976a6626e9ed993f24", "passed": 1, "total": 1}

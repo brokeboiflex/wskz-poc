@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/password-forgotten/resolved_postscript", "scenario_id": "help_desk/password-forgotten", "variant": "resolved_postscript", "run_id": "ad236000ddba", "dataset_sha256": "77e3e6e900a19fc4c95b69786a9d501d7ec4bd6b2cb4f57311d1ec3acf6b0982", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "40a51c8e-ddd2-456b-bd82-9323aa82f5b6", "passed": true, "seconds": 3.317}
+{"run_id": "ad236000ddba", "dataset_sha256": "77e3e6e900a19fc4c95b69786a9d501d7ec4bd6b2cb4f57311d1ec3acf6b0982", "passed": 1, "total": 1}

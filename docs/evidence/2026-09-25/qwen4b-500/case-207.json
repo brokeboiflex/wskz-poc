@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/keyboard/base",
+    "scenario_id": "help_desk/keyboard",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka klawiatury pracownika.",
+    "message": "W mojej klawiaturze przestały działać niektóre klawisze. Problem występuje w różnych programach, również po ponownym uruchomieniu komputera. Podłączona na próbę inna klawiatura działa poprawnie. Proszę o pomoc w wymianie uszkodzonego urządzenia, abym mogła normalnie przygotowywać dokumenty."
+  }
+]

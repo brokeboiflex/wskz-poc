@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/printer-local/base", "scenario_id": "help_desk/printer-local", "variant": "base", "run_id": "e0b98f81712e", "dataset_sha256": "d44a69be7d01b02dcdacd7e969cfbb263e4abb35d0661395abb6539b00317902", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "cf7a1f1c-8c53-4f39-acbe-a4145364ae42", "passed": true, "seconds": 9.087}
+{"run_id": "e0b98f81712e", "dataset_sha256": "d44a69be7d01b02dcdacd7e969cfbb263e4abb35d0661395abb6539b00317902", "passed": 1, "total": 1}

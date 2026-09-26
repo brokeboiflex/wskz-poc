@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/dns-outage/resolved_postscript",
+    "scenario_id": "it/dns-outage",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria firmowej usługi DNS.",
+    "message": "W całej organizacji przestały rozwiązywać się nazwy wewnętrznych serwisów. Te same zasoby odpowiadają po adresach IP, a objawy potwierdzili pracownicy z kilku działów. Proszę o sprawdzenie firmowych serwerów DNS oraz przywrócenie poprawnego rozwiązywania nazw dla wszystkich użytkowników.\n\nPotwierdziliśmy ten sam objaw w obu oddziałach i na różnych systemach operacyjnych. Nazwy publicznych stron działają, ale wewnętrzne adresy kończą się błędem rozpoznawania. Proszę uwzględnić ostatnie zmiany w strefach i dostępność serwerów odpowiadających za wewnętrzną domenę.\n\nPS. Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

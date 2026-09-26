@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/branch-link/base", "scenario_id": "it/branch-link", "variant": "base", "run_id": "f6ad245b8292", "dataset_sha256": "06fc65f12133cb037bfb070e2c67c0c6c73be37481d46b310eb8d475a53c7ece", "expected": "it@example.com", "actual": "it@example.com", "request_id": "571a7219-7a8a-4eb2-a088-35d9734ad3f6", "passed": true, "seconds": 7.522}
+{"run_id": "f6ad245b8292", "dataset_sha256": "06fc65f12133cb037bfb070e2c67c0c6c73be37481d46b310eb8d475a53c7ece", "passed": 1, "total": 1}

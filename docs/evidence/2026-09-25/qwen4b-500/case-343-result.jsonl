@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/mail-server/base", "scenario_id": "it/mail-server", "variant": "base", "run_id": "aeeaf4ff61d2", "dataset_sha256": "bddbcadd62b95f03d4f6f97df63e59312aa9fd6e0d72097720fcf6c3baff7d4e", "expected": "it@example.com", "actual": "it@example.com", "request_id": "cb607290-ba4b-4291-8d44-7ecb6321e5cf", "passed": true, "seconds": 7.284}
+{"run_id": "aeeaf4ff61d2", "dataset_sha256": "bddbcadd62b95f03d4f6f97df63e59312aa9fd6e0d72097720fcf6c3baff7d4e", "passed": 1, "total": 1}

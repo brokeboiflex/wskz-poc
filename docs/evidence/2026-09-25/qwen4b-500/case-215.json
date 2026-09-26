@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/headset/base",
+    "scenario_id": "help_desk/headset",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem z zestawem słuchawkowym użytkownika.",
+    "message": "Podczas rozmów służbowych rozmówcy nie słyszą mnie przez nowy zestaw słuchawkowy. Wbudowany mikrofon laptopa działa, a sam zestaw odtwarza dźwięk poprawnie. Sprawdziłem wyciszenie na przewodzie. Proszę o pomoc w konfiguracji mikrofonu na moim stanowisku.\n\nW ustawieniach spotkania widzę dwa mikrofony i nie wiem, który odpowiada podłączonym słuchawkom. Test dźwięku odtwarza głos przez słuchawki, ale nagranie pozostaje puste. Wolałbym sprawdzić konfigurację przed zamawianiem kolejnego urządzenia."
+  }
+]

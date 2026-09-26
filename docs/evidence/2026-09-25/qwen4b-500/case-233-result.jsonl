@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/vpn-single/base", "scenario_id": "help_desk/vpn-single", "variant": "base", "run_id": "3e8659f2bf25", "dataset_sha256": "1b0266a339fb5b262259f2a7a17c9d3c03d1e9110492786e794a4ef0420bd0a3", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "46dcef4a-a193-49d3-9823-829a63353432", "passed": true, "seconds": 5.382}
+{"run_id": "3e8659f2bf25", "dataset_sha256": "1b0266a339fb5b262259f2a7a17c9d3c03d1e9110492786e794a4ef0420bd0a3", "passed": 1, "total": 1}

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/log-pipeline/base", "scenario_id": "it/log-pipeline", "variant": "base", "run_id": "bf62edb73259", "dataset_sha256": "fb30b97a1b3c8a1d2d20381404be08b5f1cd7c2dfc57cba64c9b1feee67063ee", "expected": "it@example.com", "actual": "it@example.com", "request_id": "a0d76cde-9720-4f91-acb3-7f78bffba6f4", "passed": true, "seconds": 4.792}
+{"run_id": "bf62edb73259", "dataset_sha256": "fb30b97a1b3c8a1d2d20381404be08b5f1cd7c2dfc57cba64c9b1feee67063ee", "passed": 1, "total": 1}

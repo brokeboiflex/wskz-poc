@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/database-down/base",
+    "scenario_id": "it/database-down",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Niedostępność centralnej bazy danych.",
+    "message": "Aplikacje korzystające ze wspólnej bazy przestały zapisywać dane. Błędy występują równocześnie w kilku usługach i wskazują na brak połączenia z serwerem bazy danych. Proszę o sprawdzenie jego stanu, dostępności dysków oraz procesu bazy przed wznowieniem operacji biznesowych."
+  }
+]

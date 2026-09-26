@@ -158,3 +158,9 @@ marker or case-191 artifacts. Keep per-case audits, failure/ten-case review gate
 and unchanged model settings. Preserve first-segment logs separately, then join
 API logs for the full audit. Save logs before disabling tracing. Commit and push
 the implementation checkpoint, then completed evidence.
+
+## Latest checkpoint: stopped at 400
+
+User stopped testing to inspect failures. No further inference. Results: 375 correct,
+6 wrong routes, 19 upstream missing calls; 381 live MIME audits passed. See
+`docs/evidence/2026-09-25/qwen4b-500/FAILURE_REVIEW.md` (path from repository root).

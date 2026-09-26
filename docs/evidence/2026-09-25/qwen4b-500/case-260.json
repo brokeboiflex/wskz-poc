@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/slow-laptop/forwarded_history",
+    "scenario_id": "help_desk/slow-laptop",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Spowolnienie pojedynczego komputera.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOd kilku dni mój laptop bardzo wolno otwiera programy, nawet zanim połączę się z firmowymi zasobami. Wentylator pracuje głośno, a ponowne uruchomienie pomaga tylko na chwilę. Proszę sprawdzić stan tego urządzenia; pozostałe stanowiska w zespole nie mają podobnych objawów.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nSpotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

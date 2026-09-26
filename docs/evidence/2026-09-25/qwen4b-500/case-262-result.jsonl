@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/battery/quoted_history", "scenario_id": "help_desk/battery", "variant": "quoted_history", "run_id": "63f22a47bae9", "dataset_sha256": "eb9dda256fb52ba323856c7019361b86812341d7713c19ebd1feb461dd3f4e90", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "00d496ac-ab41-46ac-9f52-e87f54a602d7", "passed": true, "seconds": 6.716}
+{"run_id": "63f22a47bae9", "dataset_sha256": "eb9dda256fb52ba323856c7019361b86812341d7713c19ebd1feb461dd3f4e90", "passed": 1, "total": 1}

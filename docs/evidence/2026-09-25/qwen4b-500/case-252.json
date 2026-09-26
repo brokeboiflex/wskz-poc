@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/pdf-reader/quoted_history",
+    "scenario_id": "help_desk/pdf-reader",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Konfiguracja czytnika dokumentów.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPo ostatniej zmianie ustawień pliki PDF otwierają się w niewłaściwej aplikacji i nie mogę korzystać z komentarzy. Dokumenty same w sobie są poprawne. Proszę pomóc przywrócić firmowy czytnik jako domyślny program na moim komputerze i sprawdzić jego działanie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

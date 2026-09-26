@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:38:27 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-675d5e28fc1e-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= b3ac9572-62ff-43f0-b6fe-03f464d3da9e
+Date: Sat, 26 Sep 2026 09:38:27 -0000
+Message-ID: <b3ac9572-62ff-43f0-b6fe-03f464d3da9e@message-router.local>
+X-Request-ID: b3ac9572-62ff-43f0-b6fe-03f464d3da9e
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Monitoring pokazuje rosn=C4=85c=C4=85 temperatur=C4=99 w szafie z serwerami, =
+a dwa hosty zacz=C4=99=C5=82y ogranicza=C4=87 wydajno=C5=9B=C4=87. Prosz=C4=
+=99 o sprawdzenie warunk=C3=B3w pracy infrastruktury serwerowej i zabezpiecze=
+nie ci=C4=85g=C5=82o=C5=9Bci us=C5=82ug. Alarm dotyczy pomieszczenia technicz=
+nego, nie komfortu pracy w zwyk=C5=82ym pokoju biurowym.

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/switch-failure/forwarded_history", "scenario_id": "it/switch-failure", "variant": "forwarded_history", "run_id": "ff1ff072e21f", "dataset_sha256": "8ef73a259ed902b7fcca44c37b449807f07e9fbceb70fd3c0b287ff4e16c797c", "expected": "it@example.com", "actual": "it@example.com", "request_id": "44901cb4-57c3-4fda-8ea6-f0706d3e2586", "passed": true, "seconds": 10.043}
+{"run_id": "ff1ff072e21f", "dataset_sha256": "8ef73a259ed902b7fcca44c37b449807f07e9fbceb70fd3c0b287ff4e16c797c", "passed": 1, "total": 1}

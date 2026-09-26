@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/slow-laptop/forwarded_history", "scenario_id": "help_desk/slow-laptop", "variant": "forwarded_history", "run_id": "bb140e031e19", "dataset_sha256": "7e185ed3261d5fd2a14164b2468452e352e8283b66cafe51177742e0e373ef81", "expected": "help-desk@example.com", "actual": "it@example.com", "request_id": "df136ec4-a3d7-4867-868e-159a39620d3e", "passed": false, "error": "wrong MIME recipient", "seconds": 6.228}
+{"run_id": "bb140e031e19", "dataset_sha256": "7e185ed3261d5fd2a14164b2468452e352e8283b66cafe51177742e0e373ef81", "passed": 0, "total": 1}

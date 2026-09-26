@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/disk-full/base", "scenario_id": "help_desk/disk-full", "variant": "base", "run_id": "bcd5e40e9fc7", "dataset_sha256": "0ab2433bd5d4e1c5749a503f0f62eb2e91451938cafae5777b62d0f69026b476", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "7cebba8a-fd72-4e82-930c-a683a990fc23", "passed": true, "seconds": 4.163}
+{"run_id": "bcd5e40e9fc7", "dataset_sha256": "0ab2433bd5d4e1c5749a503f0f62eb2e91451938cafae5777b62d0f69026b476", "passed": 1, "total": 1}

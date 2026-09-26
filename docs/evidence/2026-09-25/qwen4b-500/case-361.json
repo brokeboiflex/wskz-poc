@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/stolen-laptop/base",
+    "scenario_id": "it/stolen-laptop",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Incydent bezpieczeństwa związany z utratą urządzenia.",
+    "message": "Skradziono mój służbowy laptop, na którym były zapisane sesje do firmowych aplikacji. Zgłosiłam już kradzież odpowiednim służbom. Proszę o pilne zabezpieczenie dostępu, unieważnienie aktywnych sesji i ocenę ryzyka dla danych firmowych. Na razie nie chodzi o wydanie nowego sprzętu."
+  }
+]

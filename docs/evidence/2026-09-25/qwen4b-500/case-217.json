@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/camera/base",
+    "scenario_id": "help_desk/camera",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Niedziałająca kamera pojedynczego użytkownika.",
+    "message": "Kamera w moim laptopie pokazuje czarny obraz we wszystkich aplikacjach do spotkań. Osłona obiektywu jest odsunięta, a ponowne uruchomienie nie pomogło. Za godzinę mam rozmowę z kandydatem. Czy ktoś może pomóc uruchomić kamerę przed tym spotkaniem?"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/sso-outage/conversation_history",
+    "scenario_id": "it/sso-outage",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria centralnego uwierzytelniania.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPracownicy z kilku oddziałów równocześnie stracili możliwość logowania do wszystkich aplikacji korzystających z firmowego SSO. Zmiana hasła pojedynczej osoby niczego nie rozwiązuje. Proszę o sprawdzenie centralnej usługi uwierzytelniania i przywrócenie jej dostępności dla organizacji.\n\nObjaw jest wspólny dla poczty, systemu zamówień i portalu pracowniczego. Osoby z aktywną sesją czasem jeszcze pracują, ale każda nowa próba logowania kończy się błędem. Proszę sprawdzić zależności centralnego uwierzytelniania, zanim zaczniemy resetować konta użytkowników."
+  }
+]

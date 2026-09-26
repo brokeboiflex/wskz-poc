@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/mouse/forwarded_history",
+    "scenario_id": "help_desk/mouse",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem z myszą na jednym stanowisku.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nKursor na moim komputerze przeskakuje, a kliknięcia często nie są rejestrowane. Wymieniłem baterię i sprawdziłem mysz na innej powierzchni, bez poprawy. Pozostałe urządzenia działają. Proszę o wsparcie w ustaleniu usterki lub otrzymaniu sprawnej myszy do pracy.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nRozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

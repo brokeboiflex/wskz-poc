@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <help-desk@example.com>; Fri, 25 Sep 2026 22:37:46 +0000 (UTC)
+From: router@example.com
+To: help-desk@example.com
+Reply-To: acceptance-010ac4a240bd-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 12bd4820-8ece-477e-bb5f-c90f20819e59
+Date: Fri, 25 Sep 2026 22:37:46 -0000
+Message-ID: <12bd4820-8ece-477e-bb5f-c90f20819e59@message-router.local>
+X-Request-ID: 12bd4820-8ece-477e-bb5f-c90f20819e59
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Nie mog=C4=99 u=C5=BCy=C4=87 s=C5=82u=C5=BCbowego certyfikatu do podpisania d=
+okumentu na swoim komputerze. Program wy=C5=9Bwietla komunikat o braku czytni=
+ka, cho=C4=87 urz=C4=85dzenie jest pod=C5=82=C4=85czone. Prosz=C4=99 o pomoc =
+w konfiguracji czytnika i aplikacji podpisuj=C4=85cej. Sam dokument jest ju=
+=C5=BC przygotowany i poprawny.

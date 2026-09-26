@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/account-locked/base",
+    "scenario_id": "help_desk/account-locked",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Odblokowanie konta użytkownika.",
+    "message": "Przy logowaniu pojawił się komunikat, że moje konto jest zablokowane po zbyt wielu próbach. Wpisywałam wcześniej stare hasło z pamięci. Nie zauważyłam żadnych obcych logowań ani podejrzanych wiadomości. Proszę o pomoc w odblokowaniu dostępu do mojego konta pracowniczego."
+  }
+]

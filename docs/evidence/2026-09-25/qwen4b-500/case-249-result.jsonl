@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/spreadsheet-open/base", "scenario_id": "help_desk/spreadsheet-open", "variant": "base", "run_id": "81d990eb11dd", "dataset_sha256": "9a1e2dbb33af06e84610df844bc56dea5c3edbdd9a98e2bad428c0a722128bfe", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "255c93b3-98e9-4eaf-900c-6a25f466cc5a", "passed": true, "seconds": 4.021}
+{"run_id": "81d990eb11dd", "dataset_sha256": "9a1e2dbb33af06e84610df844bc56dea5c3edbdd9a98e2bad428c0a722128bfe", "passed": 1, "total": 1}

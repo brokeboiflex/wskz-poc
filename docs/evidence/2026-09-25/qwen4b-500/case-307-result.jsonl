@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/dhcp-exhaustion/base", "scenario_id": "it/dhcp-exhaustion", "variant": "base", "run_id": "2fc2f1f9b1fc", "dataset_sha256": "9f3731e5073abbfd1049231a630fdecf62ba6fda114d09d84bee5c56d527f2a4", "expected": "it@example.com", "actual": "it@example.com", "request_id": "152e4ae4-650e-4e95-86f3-fc72992c64c9", "passed": true, "seconds": 5.829}
+{"run_id": "2fc2f1f9b1fc", "dataset_sha256": "9f3731e5073abbfd1049231a630fdecf62ba6fda114d09d84bee5c56d527f2a4", "passed": 1, "total": 1}

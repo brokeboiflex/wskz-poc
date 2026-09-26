@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/browser-cache/base", "scenario_id": "help_desk/browser-cache", "variant": "base", "run_id": "0492663a7969", "dataset_sha256": "f2cd36aff38a6e14ff64e0589ce9650b715754d740a7ff717d4596cc549e2d76", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "6c07ed92-5132-4e7f-9ec4-fa3071646d73", "passed": true, "seconds": 3.762}
+{"run_id": "0492663a7969", "dataset_sha256": "f2cd36aff38a6e14ff64e0589ce9650b715754d740a7ff717d4596cc549e2d76", "passed": 1, "total": 1}

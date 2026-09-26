@@ -321,3 +321,9 @@ warranted. The fresh critic confirmed real successes without direct label
 leakage or scoring inflation. Candidate remains active with tracing off; the
 benchmark must not resume implicitly.
 [Forensic findings](evidence/2026-09-25/qwen4b-500/FORENSIC_REVIEW.md).
+
+## Latest checkpoint: stopped at 400
+
+User stopped testing to inspect failures. No further inference. Results: 375 correct,
+6 wrong routes, 19 upstream missing calls; 381 live MIME audits passed. See
+`docs/evidence/2026-09-25/qwen4b-500/FAILURE_REVIEW.md` (path from repository root).

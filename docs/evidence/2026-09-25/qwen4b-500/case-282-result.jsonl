@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/bluetooth/quoted_history", "scenario_id": "help_desk/bluetooth", "variant": "quoted_history", "run_id": "6c2f41ce03b4", "dataset_sha256": "c5b07777ad33859effe9f0fbeeca238ad0bc93947fc5a257b77da8004f5dc9e8", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "a86e3f11-1b7f-4db7-80f6-46e79ac5c7be", "passed": true, "seconds": 7.019}
+{"run_id": "6c2f41ce03b4", "dataset_sha256": "c5b07777ad33859effe9f0fbeeca238ad0bc93947fc5a257b77da8004f5dc9e8", "passed": 1, "total": 1}

@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:28:44 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-2ddea65a9244-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 268ce87e-a46c-4a8d-af6e-ee790b703674
+Date: Sat, 26 Sep 2026 09:28:44 -0000
+Message-ID: <268ce87e-a46c-4a8d-af6e-ee790b703674@message-router.local>
+X-Request-ID: 268ce87e-a46c-4a8d-af6e-ee790b703674
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Zmiany kont wprowadzone na jednym kontrolerze domeny nie pojawiaj=C4=85 si=C4=
+=99 na drugim. Powoduje to niesp=C3=B3jne uprawnienia wielu u=C5=BCytkownik=
+=C3=B3w zale=C5=BCnie od miejsca logowania. Prosz=C4=99 o diagnostyk=C4=99 re=
+plikacji i przywr=C3=B3cenie sp=C3=B3jnego dzia=C5=82ania infrastruktury kata=
+logowej.

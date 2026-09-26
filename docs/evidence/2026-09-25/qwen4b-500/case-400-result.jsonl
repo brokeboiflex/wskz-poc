@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/recruitment-system-outage/forwarded_history", "scenario_id": "it/recruitment-system-outage", "variant": "forwarded_history", "run_id": "e8ac4cdf2cd1", "dataset_sha256": "cc4e4361f64706a95a8006800778181bf901d4c9b684305a049c8e48a91b2389", "expected": "it@example.com", "actual": "it@example.com", "request_id": "55eb8612-17d5-4026-9b64-abb0772082a8", "passed": true, "seconds": 7.619}
+{"run_id": "e8ac4cdf2cd1", "dataset_sha256": "cc4e4361f64706a95a8006800778181bf901d4c9b684305a049c8e48a91b2389", "passed": 1, "total": 1}

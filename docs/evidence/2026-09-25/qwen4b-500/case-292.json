@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/remote-desktop-single/quoted_history",
+    "scenario_id": "help_desk/remote-desktop-single",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem dostępu z jednego urządzenia.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nZe swojego laptopa nie mogę uruchomić zdalnego pulpitu, choć na zapasowym urządzeniu loguję się poprawnie tym samym kontem. Pozostałe osoby pracują normalnie. Proszę o pomoc w konfiguracji klienta na moim komputerze oraz sprawdzenie zapisanego adresu połączenia.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

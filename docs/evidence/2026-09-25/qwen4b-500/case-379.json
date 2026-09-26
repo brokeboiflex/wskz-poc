@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/log-pipeline/base",
+    "scenario_id": "it/log-pipeline",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria infrastruktury zbierania logów.",
+    "message": "Centralna platforma przestała przyjmować logi z serwerów aplikacyjnych. Lokalne pliki nadal powstają, lecz wspólna wyszukiwarka pokazuje dane tylko do wczoraj. Proszę o sprawdzenie kolejki przesyłania i magazynu logów, aby przywrócić obserwowalność usług oraz analizę zdarzeń bezpieczeństwa."
+  }
+]

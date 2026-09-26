@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/stolen-laptop/quoted_history", "scenario_id": "it/stolen-laptop", "variant": "quoted_history", "run_id": "ca44aeed7b25", "dataset_sha256": "3794605b964be9d14ae3201d79fcf7e0a4f378dc3f7145b099107f4ad5aff2ca", "expected": "it@example.com", "actual": "it@example.com", "request_id": "e82405ad-fd4e-4629-8c30-532ab892326a", "passed": true, "seconds": 8.222}
+{"run_id": "ca44aeed7b25", "dataset_sha256": "3794605b964be9d14ae3201d79fcf7e0a4f378dc3f7145b099107f4ad5aff2ca", "passed": 1, "total": 1}

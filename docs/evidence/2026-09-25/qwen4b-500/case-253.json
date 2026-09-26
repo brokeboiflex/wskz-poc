@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/software-install/base",
+    "scenario_id": "help_desk/software-install",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Instalacja zatwierdzonego programu na stanowisku.",
+    "message": "Do realizacji zadania potrzebuję zatwierdzonego przez firmę programu do diagramów. Przełożony potwierdził zgodę, ale instalator wymaga uprawnień administratora na moim laptopie. Proszę o pomoc w instalacji wskazanej aplikacji i sprawdzeniu, czy mogę uruchomić ją na swoim koncie."
+  }
+]

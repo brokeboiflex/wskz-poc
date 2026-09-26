@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:34:39 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-4583f0daf7f2-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= f9c68101-f39f-4961-ae08-ef663ad9a11a
+Date: Sat, 26 Sep 2026 09:34:39 -0000
+Message-ID: <f9c68101-f39f-4961-ae08-ef663ad9a11a@message-router.local>
+X-Request-ID: f9c68101-f39f-4961-ae08-ef663ad9a11a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Od wczoraj nie otrzymujemy metryk z grupy serwer=C3=B3w produkcyjnych. Same u=
+s=C5=82ugi jeszcze dzia=C5=82aj=C4=85, ale brak alarmowania uniemo=C5=BCliwia=
+ szybkie wykrycie awarii. Prosz=C4=99 o sprawdzenie centralnego systemu monit=
+oringu, po=C5=82=C4=85cze=C5=84 agent=C3=B3w i przywr=C3=B3cenie zbierania da=
+nych oraz powiadomie=C5=84.

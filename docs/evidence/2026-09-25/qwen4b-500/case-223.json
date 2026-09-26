@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/scanner/base",
+    "scenario_id": "help_desk/scanner",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Pomoc z urządzeniem użytkownika.",
+    "message": "Skaner podłączony do mojego komputera przestał być wykrywany po zmianie portu USB. Urządzenie ma zasilanie, a przewód jest dobrze wpięty. Potrzebuję zeskanować podpisany dokument. Proszę pomóc przywrócić połączenie skanera z aplikacją na tym konkretnym stanowisku."
+  }
+]

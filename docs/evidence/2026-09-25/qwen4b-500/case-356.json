@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/compromised-account/resolved_postscript",
+    "scenario_id": "it/compromised-account",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Podejrzenie przejęcia konta.",
+    "message": "W historii mojego konta widzę udane logowanie z miejsca, w którym nigdy nie byłem, a współpracownicy otrzymali ode mnie wiadomości, których nie wysyłałem. Proszę pilnie sprawdzić podejrzenie przejęcia konta, zabezpieczyć aktywne sesje i ustalić zakres nieuprawnionych działań.\n\nPS. Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

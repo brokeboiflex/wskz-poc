@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/branch-link/base",
+    "scenario_id": "it/branch-link",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria połączenia infrastruktury między oddziałami.",
+    "message": "Oddział w drugim mieście nie ma dostępu do centralnych zasobów. Lokalne aplikacje działają, ale wszystkie połączenia z centralą kończą się przekroczeniem czasu oczekiwania. Problem dotyczy całego oddziału. Proszę o sprawdzenie łącza między lokalizacjami i urządzeń odpowiedzialnych za komunikację."
+  }
+]

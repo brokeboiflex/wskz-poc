@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/keyboard-layout/base",
+    "scenario_id": "help_desk/keyboard-layout",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Ustawienie układu klawiatury użytkownika.",
+    "message": "Po przypadkowym naciśnięciu skrótu klawiaturowego nie mogę wpisywać polskich znaków, a niektóre klawisze dają inne litery. Problem występuje tylko na moim komputerze. Proszę o pomoc w przywróceniu właściwego układu klawiatury i wskazanie, jak uniknąć ponownego przełączenia."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/recruitment-system-outage/forwarded_history",
+    "scenario_id": "it/recruitment-system-outage",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria infrastruktury systemu rekrutacyjnego.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nFormularz rekrutacyjny nie działa dla żadnego kandydata, a serwer zwraca błędy przy każdym żądaniu. Zespół prowadzący nabór potwierdził, że treść ogłoszeń jest poprawna. Proszę o sprawdzenie serwera i bazy danych oraz przywrócenie dostępności całej usługi.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nPomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

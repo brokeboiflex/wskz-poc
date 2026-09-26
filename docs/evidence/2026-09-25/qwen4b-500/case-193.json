@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/worktime-report/base",
+    "scenario_id": "payroll/worktime-report",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Udostępnienie własnej ewidencji czasu pracy.",
+    "message": "Chciałbym otrzymać zestawienie moich godzin pracy i nieobecności z poprzedniego kwartału. Potrzebuję go do porównania z paskami wynagrodzenia. Proszę wskazać sposób złożenia wniosku o udostępnienie ewidencji oraz termin, w którym przygotowany raport będzie dostępny do odbioru.\n\nChodzi o zestawienie z podziałem na dni, a nie tylko sumę miesięczną. W kilku tygodniach zamieniałem się zmianami i chcę uporządkować własne zapisy. Jeżeli obowiązuje formularz wniosku o kopię ewidencji, proszę o jego udostępnienie."
+  }
+]

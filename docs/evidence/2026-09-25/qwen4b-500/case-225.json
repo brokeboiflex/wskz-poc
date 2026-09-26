@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/password-forgotten/base",
+    "scenario_id": "help_desk/password-forgotten",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Reset hasła pojedynczego pracownika.",
+    "message": "Po powrocie z wolnego nie pamiętam hasła do konta służbowego. Nie mogę zalogować się na komputerze i nie chcę wykonywać kolejnych prób, żeby nie zablokować konta. Proszę o pomoc w bezpiecznym zresetowaniu hasła oraz informację, jak potwierdzić swoją tożsamość."
+  }
+]

@@ -1,0 +1,35 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:42:26 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-5a0f2020fc91-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 2fc1a31c-2e9c-4d6a-87ee-348d678caa19
+Date: Sat, 26 Sep 2026 09:42:26 -0000
+Message-ID: <2fc1a31c-2e9c-4d6a-87ee-348d678caa19@message-router.local>
+X-Request-ID: 2fc1a31c-2e9c-4d6a-87ee-348d678caa19
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Historia wcze=C5=9Bniejszej rozmowy:
+Ja: Stary problem z mysz=C4=85 przy moim biurku rozwi=C4=85zano przez wymian=
+=C4=99 urz=C4=85dzenia. Nowa mysz dzia=C5=82a i nie wymaga dalszego sprawdzan=
+ia.
+Odpowied=C5=BA: Dzi=C4=99kujemy za potwierdzenie zako=C5=84czenia tamtej spra=
+wy.
+
+Moja obecna wiadomo=C5=9B=C4=87 dotyczy osobnej kwestii:
+Portal p=C5=82acowy nie otwiera si=C4=99 =C5=BCadnemu pracownikowi, a monitor=
+ing wskazuje zatrzymanie jego serwera aplikacyjnego. Pr=C3=B3bowa=C5=82y osob=
+y z kilku oddzia=C5=82=C3=B3w i ka=C5=BCda otrzyma=C5=82a b=C5=82=C4=85d 503.=
+ Potrzebujemy przywr=C3=B3cenia dzia=C5=82ania centralnej us=C5=82ugi, aby mo=
+=C5=BCna by=C5=82o doko=C5=84czy=C4=87 dzisiejsze operacje i otworzy=C4=87 ze=
+stawienia.
+
+Zesp=C3=B3=C5=82 potwierdzi=C5=82, =C5=BCe ostatnie poprawne dzia=C5=82anie m=
+ia=C5=82o miejsce przed planow=C4=85 zmian=C4=85 konfiguracji. Od tego moment=
+u proces serwera uruchamia si=C4=99 i natychmiast ko=C5=84czy. Logi s=C4=85 d=
+ost=C4=99pne, a baza odpowiada na podstawowy test po=C5=82=C4=85czenia. Potrz=
+ebujemy diagnostyki warstwy aplikacyjnej.

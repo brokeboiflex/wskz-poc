@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/mouse/base", "scenario_id": "help_desk/mouse", "variant": "base", "run_id": "346c03111975", "dataset_sha256": "25708e6b1088a6f29f034deeb8df8bb889ed433eec8bdbbfd826a3ee89937558", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "311f16e7-8a68-4e03-983a-cc203b2861b0", "passed": true, "seconds": 4.844}
+{"run_id": "346c03111975", "dataset_sha256": "25708e6b1088a6f29f034deeb8df8bb889ed433eec8bdbbfd826a3ee89937558", "passed": 1, "total": 1}

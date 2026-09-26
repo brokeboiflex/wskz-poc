@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/printer-driver/quoted_history", "scenario_id": "help_desk/printer-driver", "variant": "quoted_history", "run_id": "1db899ff01d9", "dataset_sha256": "6f1973b82740077a6fb17b1fb91f97bc38af3785c24a9ec563620a97e985a2ae", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "b7dccd42-1501-48ab-a06c-1594e9fe902f", "passed": true, "seconds": 6.116}
+{"run_id": "1db899ff01d9", "dataset_sha256": "6f1973b82740077a6fb17b1fb91f97bc38af3785c24a9ec563620a97e985a2ae", "passed": 1, "total": 1}

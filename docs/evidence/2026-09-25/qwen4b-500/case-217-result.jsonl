@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/camera/base", "scenario_id": "help_desk/camera", "variant": "base", "run_id": "300eef7d7fd8", "dataset_sha256": "54e9ae7e4a7db359083cb929190d13664570db05462244c91b4eae33167dffcc", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "3ad734a1-8e6f-4cb4-81a6-821217e3bfa1", "passed": true, "seconds": 4.184}
+{"run_id": "300eef7d7fd8", "dataset_sha256": "54e9ae7e4a7db359083cb929190d13664570db05462244c91b4eae33167dffcc", "passed": 1, "total": 1}

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/suspicious-forwarding/resolved_postscript", "scenario_id": "it/suspicious-forwarding", "variant": "resolved_postscript", "run_id": "ad0fa4332177", "dataset_sha256": "5dfb8c06e25f0f8ccd5127513c69196cf83e8d978e6ec7be35014b0b86a530f5", "expected": "it@example.com", "actual": "it@example.com", "request_id": "60b36688-2f96-45a1-9710-b05a2e299dc8", "passed": true, "seconds": 4.992}
+{"run_id": "ad0fa4332177", "dataset_sha256": "5dfb8c06e25f0f8ccd5127513c69196cf83e8d978e6ec7be35014b0b86a530f5", "passed": 1, "total": 1}

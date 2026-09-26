@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/mail-queue/resolved_postscript",
+    "scenario_id": "it/mail-queue",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Zablokowana centralna kolejka pocztowa.",
+    "message": "Monitoring serwera poczty pokazuje rosnącą kolejkę niewysłanych wiadomości z wielu działów. Programy użytkowników potwierdzają wysłanie, ale odbiorcy zewnętrzni nic nie otrzymują. Proszę o sprawdzenie działania centralnej usługi SMTP i usunięcie przyczyny zatrzymania dostarczania poczty.\n\nPS. Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

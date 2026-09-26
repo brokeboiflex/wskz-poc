@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/mail-server/base",
+    "scenario_id": "it/mail-server",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria firmowej infrastruktury pocztowej.",
+    "message": "Od godziny ósmej wiadomości nie docierają do żadnej skrzynki w naszej domenie. Wysyłający z zewnątrz otrzymują komunikat o niedostępności serwera pocztowego. Proszę o pilną kontrolę infrastruktury poczty i przywrócenie przyjmowania wiadomości dla całej firmy."
+  }
+]

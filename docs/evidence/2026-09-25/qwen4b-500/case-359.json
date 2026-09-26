@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/data-exposure/base",
+    "scenario_id": "it/data-exposure",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Ujawnienie firmowych danych w publicznym zasobie.",
+    "message": "Zauważyłem, że katalog z wewnętrznymi dokumentami można otworzyć bez logowania z publicznego internetu. Nie powinien być dostępny poza firmą. Proszę o pilne zabezpieczenie zasobu, sprawdzenie zakresu udostępnionych danych i przeanalizowanie, czy ktoś nieuprawniony mógł je pobrać."
+  }
+]

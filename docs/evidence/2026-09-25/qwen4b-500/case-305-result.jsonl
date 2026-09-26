@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/dns-outage/base", "scenario_id": "it/dns-outage", "variant": "base", "run_id": "861dba50daaf", "dataset_sha256": "a6a28593477093f1ae8558bc17884cf90a5d4bbf1394ecea342f7ade373694d8", "expected": "it@example.com", "actual": "it@example.com", "request_id": "bfd9fad1-c8cd-4a7c-951d-bae8628d2b16", "passed": true, "seconds": 7.812}
+{"run_id": "861dba50daaf", "dataset_sha256": "a6a28593477093f1ae8558bc17884cf90a5d4bbf1394ecea342f7ade373694d8", "passed": 1, "total": 1}

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/new-hire-login/quoted_history", "scenario_id": "help_desk/new-hire-login", "variant": "quoted_history", "run_id": "7defdf7e02cf", "dataset_sha256": "976cc1bb9341a17b7c7730374e11ae88ce84608547aa14cea4c49973384d3be8", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "60a3d70f-5cc7-4182-a8a3-5f411910e697", "passed": true, "seconds": 6.783}
+{"run_id": "7defdf7e02cf", "dataset_sha256": "976cc1bb9341a17b7c7730374e11ae88ce84608547aa14cea4c49973384d3be8", "passed": 1, "total": 1}

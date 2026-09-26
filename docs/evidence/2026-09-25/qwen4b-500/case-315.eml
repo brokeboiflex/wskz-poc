@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:21:39 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-e0667ad2aad3-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= cfc4658e-fbc1-449b-95d9-ca085b958092
+Date: Sat, 26 Sep 2026 09:21:39 -0000
+Message-ID: <cfc4658e-fbc1-449b-95d9-ca085b958092@message-router.local>
+X-Request-ID: cfc4658e-fbc1-449b-95d9-ca085b958092
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Po zatwierdzonym wdro=C5=BCeniu aplikacja w =C5=9Brodowisku produkcyjnym nie =
+mo=C5=BCe po=C5=82=C4=85czy=C4=87 si=C4=99 z wewn=C4=99trzn=C4=85 baz=C4=85 d=
+anych. Potrzebujemy sprawdzenia regu=C5=82 mi=C4=99dzy odpowiednimi segmentam=
+i sieci i wdro=C5=BCenia uzgodnionej konfiguracji zapory. Problem dotyczy kom=
+unikacji serwer=C3=B3w, a nie uprawnie=C5=84 pojedynczego pracownika.

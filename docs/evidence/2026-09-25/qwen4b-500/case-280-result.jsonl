@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/certificate-login/forwarded_history", "scenario_id": "help_desk/certificate-login", "variant": "forwarded_history", "run_id": "072c2e728587", "dataset_sha256": "b49ca369c0fccd868994586edab4e45baffef736f3174648286a44e20e388714", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "a4454a5e-3bde-48d3-95e1-d7619f057b88", "passed": true, "seconds": 6.481}
+{"run_id": "072c2e728587", "dataset_sha256": "b49ca369c0fccd868994586edab4e45baffef736f3174648286a44e20e388714", "passed": 1, "total": 1}

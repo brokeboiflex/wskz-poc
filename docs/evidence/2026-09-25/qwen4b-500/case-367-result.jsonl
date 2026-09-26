@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/ddos/base", "scenario_id": "it/ddos", "variant": "base", "run_id": "c5d1ed7b2914", "dataset_sha256": "95f12646d58326c9894e876b719aca3a7a4dd3a1924475cf57d5c7ab850fce13", "expected": "it@example.com", "actual": "it@example.com", "request_id": "5270c698-c46e-437c-a90b-d83f46118caa", "passed": true, "seconds": 5.509}
+{"run_id": "c5d1ed7b2914", "dataset_sha256": "95f12646d58326c9894e876b719aca3a7a4dd3a1924475cf57d5c7ab850fce13", "passed": 1, "total": 1}

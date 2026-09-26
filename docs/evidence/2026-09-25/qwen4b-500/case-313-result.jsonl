@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/vpn-gateway/base", "scenario_id": "it/vpn-gateway", "variant": "base", "run_id": "f87615b359d6", "dataset_sha256": "738ebcd340502ed6c34afc898f168add2ad5f4351c60b1abe9ff530b5be77ff4", "expected": "it@example.com", "actual": "it@example.com", "request_id": "43cbb9ad-baca-40a6-9216-e19cab7c8fb9", "passed": true, "seconds": 7.066}
+{"run_id": "f87615b359d6", "dataset_sha256": "738ebcd340502ed6c34afc898f168add2ad5f4351c60b1abe9ff530b5be77ff4", "passed": 1, "total": 1}

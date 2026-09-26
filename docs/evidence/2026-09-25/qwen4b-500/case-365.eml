@@ -1,0 +1,26 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:32:55 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-16a14399f072-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 26153f27-8b15-44e1-9b9c-c5604f7fea65
+Date: Sat, 26 Sep 2026 09:32:55 -0000
+Message-ID: <26153f27-8b15-44e1-9b9c-c5604f7fea65@message-router.local>
+X-Request-ID: 26153f27-8b15-44e1-9b9c-c5604f7fea65
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Na mojej skrzynce pojawi=C5=82a si=C4=99 regu=C5=82a automatycznie przekazuj=
+=C4=85ca wiadomo=C5=9Bci na nieznany adres zewn=C4=99trzny. Nie tworzy=C5=82e=
+m jej i nie rozpoznaj=C4=99 ostatnich zmian ustawie=C5=84. Prosz=C4=99 o spra=
+wdzenie podejrzenia naruszenia konta, zatrzymanie wycieku korespondencji i us=
+talenie zakresu zdarzenia.
+
+O zmianie dowiedzia=C5=82em si=C4=99 przypadkiem przy sprawdzaniu ustawie=C5=
+=84. Regu=C5=82a obejmuje wszystkie nowe wiadomo=C5=9Bci i dodatkowo ukrywa n=
+iekt=C3=B3re powiadomienia. Zachowa=C5=82em widok konfiguracji, ale nie potra=
+fi=C4=99 oceni=C4=87, od kiedy dzia=C5=82a i jakie wiadomo=C5=9Bci mog=C5=82y=
+ zosta=C4=87 przekazane.

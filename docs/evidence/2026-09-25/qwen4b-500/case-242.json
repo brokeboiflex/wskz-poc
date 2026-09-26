@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/mail-signature/quoted_history",
+    "scenario_id": "help_desk/mail-signature",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Konfiguracja podpisu pocztowego użytkownika.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPo wymianie komputera zniknął mój firmowy podpis w programie pocztowym. Mam zatwierdzony wzór, ale nie wiem, jak dodać go do nowej konfiguracji. Proszę o pomoc techniczną w ustawieniu podpisu, aby pojawiał się automatycznie przy wysyłaniu wiadomości.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

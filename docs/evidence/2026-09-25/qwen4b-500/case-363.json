@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/token-leak/base",
+    "scenario_id": "it/token-leak",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Ujawniony sekret systemowy.",
+    "message": "Klucz dostępu do firmowej usługi znalazł się omyłkowo w publicznym repozytorium. Repozytorium jest już ukryte, ale sam klucz nadal może działać. Proszę o natychmiastową obsługę incydentu, rotację ujawnionego poświadczenia oraz sprawdzenie logów pod kątem jego nieuprawnionego użycia."
+  }
+]

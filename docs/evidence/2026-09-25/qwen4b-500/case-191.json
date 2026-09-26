@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/certificate-deadline/base",
+    "scenario_id": "payroll/certificate-deadline",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Przygotowanie zaświadczenia na formularzu urzędowym.",
+    "message": "Urząd wymaga ode mnie zaświadczenia o okresie zatrudnienia na swoim formularzu. Termin uzupełnienia dokumentów mija w przyszłym tygodniu. Proszę o informację, jak przekazać druk do wypełnienia i z kim ustalić odbiór podpisanego dokumentu potwierdzającego moje zatrudnienie."
+  }
+]

@@ -1,6 +1,10 @@
 # Observed 500-case run: Qwen3-4B-Instruct-2507
 
-**Stopped by the user at 190/500. No further inference is running or authorized.**
+**Stopped by the user at 400/500. No further inference is running or authorized.**
+
+Latest: 375 correct, 6 wrong routes, 19 missing tool calls.
+See [failure review](FAILURE_REVIEW.md) and partial-summary.json.
+The following 190-case checkpoint is historical.
 All 190 completed cases were independently audited against saved traces and live
 Mailpit. [Forensic findings and limits](FORENSIC_REVIEW.md); machine-readable
 results: partial-summary.json. The remaining 310 cases were not executed.

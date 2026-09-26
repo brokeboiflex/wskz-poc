@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/wifi-single/base",
+    "scenario_id": "help_desk/wifi-single",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem z Wi-Fi jednego laptopa.",
+    "message": "Mój laptop nie łączy się z biurową siecią bezprzewodową, chociaż telefon i komputery obok mają połączenie. Usunęłam zapis sieci i próbowałam dodać ją ponownie. Proszę o pomoc z konfiguracją tego urządzenia; nie wygląda to na awarię obejmującą biuro."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/battery/base",
+    "scenario_id": "help_desk/battery",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka baterii urządzenia pracownika.",
+    "message": "Służbowy laptop wyłącza się natychmiast po odłączeniu zasilacza, mimo że wskaźnik pokazuje naładowaną baterię. Przez to nie mogę korzystać z niego podczas spotkań poza biurkiem. Proszę o sprawdzenie baterii i ustalenie sposobu przywrócenia normalnego działania mojego urządzenia."
+  }
+]

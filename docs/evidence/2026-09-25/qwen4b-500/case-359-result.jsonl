@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/data-exposure/base", "scenario_id": "it/data-exposure", "variant": "base", "run_id": "8aa349c740bd", "dataset_sha256": "6bc2659cd3087e99a0be36d6be078ee984d4ca385c59b011f726a2db75b99ad9", "expected": "it@example.com", "actual": "it@example.com", "request_id": "1845abc8-90bb-464b-9982-2d44170d49be", "passed": true, "seconds": 5.176}
+{"run_id": "8aa349c740bd", "dataset_sha256": "6bc2659cd3087e99a0be36d6be078ee984d4ca385c59b011f726a2db75b99ad9", "passed": 1, "total": 1}

@@ -1,0 +1,35 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:34:10 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-59881f915c9a-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= fa0886b7-8246-4450-9376-229c979a31b3
+Date: Sat, 26 Sep 2026 09:34:10 -0000
+Message-ID: <fa0886b7-8246-4450-9376-229c979a31b3@message-router.local>
+X-Request-ID: fa0886b7-8246-4450-9376-229c979a31b3
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Zatwierdzono uruchomienie nowej wewn=C4=99trznej aplikacji. Potrzebujemy przy=
+gotowa=C4=87 maszyn=C4=99 wirtualn=C4=85, sie=C4=87, monitoring oraz kopie za=
+pasowe w firmowym =C5=9Brodowisku. Prosz=C4=99 o realizacj=C4=99 cz=C4=99=C5=
+=9Bci infrastrukturalnej zgodnie z przekazan=C4=85 specyfikacj=C4=85 i ustale=
+nie terminu przekazania serwera zespo=C5=82owi wdro=C5=BCeniowemu.
+
+Aplikacja b=C4=99dzie dost=C4=99pna wy=C5=82=C4=85cznie wewn=C4=99trznie i ma=
+ korzysta=C4=87 z wydzielonej bazy danych. Zesp=C3=B3=C5=82 wdro=C5=BCeniowy =
+poda=C5=82 wymagane zasoby oraz porty, ale nie ma uprawnie=C5=84 do tworzenia=
+ maszyn ani zmiany regu=C5=82 sieciowych. Potrzebujemy =C5=9Brodowiska przygo=
+towanego zgodnie ze standardem firmowym.
+
+Przed przekazaniem chcemy potwierdzi=C4=87 obj=C4=99cie maszyny monitoringiem=
+, kopi=C4=85 zapasow=C4=85 i regularnymi aktualizacjami. Prosz=C4=99 ustali=
+=C4=87 te=C5=BC w=C5=82a=C5=9Bciciela technicznego oraz spos=C3=B3b zg=C5=82a=
+szania awarii poza zwyk=C5=82ymi godzinami pracy. Testy aplikacji rozpoczn=C4=
+=85 si=C4=99 dopiero po odbiorze infrastruktury. Je=C5=BCeli specyfikacja wym=
+aga doprecyzowania, mo=C5=BCemy um=C3=B3wi=C4=87 kr=C3=B3tkie spotkanie z oso=
+b=C4=85 prowadz=C4=85c=C4=85 wdro=C5=BCenie, zamiast uruchamia=C4=87 serwer n=
+a podstawie niepe=C5=82nych parametr=C3=B3w.

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/boot-loop/base",
+    "scenario_id": "help_desk/boot-loop",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem uruchamiania pojedynczej stacji roboczej.",
+    "message": "Po wczorajszym zamknięciu systemu mój komputer uruchamia się w kółko i nie dochodzi do ekranu logowania. Odłączyłam dodatkowe urządzenia, ale sytuacja się powtarza. Proszę o pomoc z tym stanowiskiem; pozostałe komputery w naszym zespole działają bez problemu.\n\nNa ekranie pojawia się logo producenta, następnie krótko komunikat o przygotowywaniu naprawy i urządzenie zaczyna wszystko od początku. Nie dochodzę do pulpitu. Mogę pozostawić laptop podłączony w biurze, jeżeli potrzebna będzie dłuższa diagnostyka."
+  }
+]

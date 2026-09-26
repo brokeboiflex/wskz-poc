@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/ddos/conversation_history", "scenario_id": "it/ddos", "variant": "conversation_history", "run_id": "da125a244cbc", "dataset_sha256": "fe6dfa565eb9dba9269a4df8087690d0df5e705f5b1e2ece076859eecd9cefa5", "expected": "it@example.com", "actual": "it@example.com", "request_id": "e3a479c6-3cf6-4450-9759-80b2c3d221b9", "passed": true, "seconds": 8.245}
+{"run_id": "da125a244cbc", "dataset_sha256": "fe6dfa565eb9dba9269a4df8087690d0df5e705f5b1e2ece076859eecd9cefa5", "passed": 1, "total": 1}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/server-patching/quoted_history",
+    "scenario_id": "it/server-patching",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Planowa administracja serwerami.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nMamy zatwierdzone okno serwisowe na aktualizację systemów serwerowych w najbliższy weekend. Proszę przygotować kolejność prac, sprawdzić kopie i przeprowadzić aktualizacje zgodnie z uzgodnionym planem. Po zakończeniu potrzebujemy potwierdzenia działania usług udostępnianych całej firmie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/vulnerability/base",
+    "scenario_id": "it/vulnerability",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Usunięcie podatności w usłudze serwerowej.",
+    "message": "Skan bezpieczeństwa wykazał krytyczną podatność w wersji oprogramowania na naszym publicznym serwerze. Potrzebujemy oceny narażenia i zaplanowania poprawki w uzgodnionym oknie serwisowym. Proszę o zajęcie się zabezpieczeniem tej usługi oraz potwierdzenie usunięcia podatności po aktualizacji."
+  }
+]

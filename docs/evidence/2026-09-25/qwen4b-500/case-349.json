@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/directory-replication/base",
+    "scenario_id": "it/directory-replication",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Problem replikacji kontrolerów domeny.",
+    "message": "Zmiany kont wprowadzone na jednym kontrolerze domeny nie pojawiają się na drugim. Powoduje to niespójne uprawnienia wielu użytkowników zależnie od miejsca logowania. Proszę o diagnostykę replikacji i przywrócenie spójnego działania infrastruktury katalogowej."
+  }
+]

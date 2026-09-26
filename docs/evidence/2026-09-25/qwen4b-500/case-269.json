@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/access-folder/base",
+    "scenario_id": "help_desk/access-folder",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Przywrócenie uprawnienia konkretnego użytkownika.",
+    "message": "Nie mogę otworzyć folderu projektu, do którego miałem wcześniej dostęp. Koledzy nadal korzystają z niego bez problemów, a właściciel folderu potwierdził, że powinienem mieć uprawnienia. Proszę o sprawdzenie dostępu mojego konta i pomoc w przywróceniu możliwości odczytu dokumentów."
+  }
+]

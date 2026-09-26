@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/directory-replication/base", "scenario_id": "it/directory-replication", "variant": "base", "run_id": "2ddea65a9244", "dataset_sha256": "ca3f09a81587488c0bc666f99b10570c59c5a0f1cd4e4d74a63e3ef4cdc3c4fc", "expected": "it@example.com", "actual": "it@example.com", "request_id": "268ce87e-a46c-4a8d-af6e-ee790b703674", "passed": true, "seconds": 6.587}
+{"run_id": "2ddea65a9244", "dataset_sha256": "ca3f09a81587488c0bc666f99b10570c59c5a0f1cd4e4d74a63e3ef4cdc3c4fc", "passed": 1, "total": 1}

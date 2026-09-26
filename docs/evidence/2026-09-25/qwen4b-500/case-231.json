@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/expired-password/base",
+    "scenario_id": "help_desk/expired-password",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Pomoc z wygasłym hasłem.",
+    "message": "System informuje, że moje hasło wygasło, ale po wybraniu opcji zmiany wraca do ekranu logowania. Problem dotyczy tylko mojego konta. Proszę o pomoc w ustawieniu nowego hasła, żebym mogła wrócić do pracy z dokumentami w służbowym komputerze."
+  }
+]

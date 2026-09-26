@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/cluster-node/quoted_history", "scenario_id": "it/cluster-node", "variant": "quoted_history", "run_id": "5548549b3ebe", "dataset_sha256": "f215fbc1f85ba4ac66232f290a7bba716a999681046dd9265df144d62bedcc26", "expected": "it@example.com", "actual": "it@example.com", "request_id": "67767168-fcd2-4ef7-90b2-50099d9d1fc4", "passed": true, "seconds": 8.323}
+{"run_id": "5548549b3ebe", "dataset_sha256": "f215fbc1f85ba4ac66232f290a7bba716a999681046dd9265df144d62bedcc26", "passed": 1, "total": 1}

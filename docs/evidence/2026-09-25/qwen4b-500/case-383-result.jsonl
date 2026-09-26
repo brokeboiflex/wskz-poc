@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/storage-permissions/base", "scenario_id": "it/storage-permissions", "variant": "base", "run_id": "cfa87c6a97f7", "dataset_sha256": "d8a092330618a2e961f0b91e9ee116179b41c75dd892abf51e047de5b2d16efa", "expected": "it@example.com", "passed": false, "error": "HTTP Error 502: Bad Gateway", "http_status": 502, "code": "invalid_tool_call", "request_id": "1e999af7-6692-4204-be2f-4743b816232d", "seconds": 4.927}
+{"run_id": "cfa87c6a97f7", "dataset_sha256": "d8a092330618a2e961f0b91e9ee116179b41c75dd892abf51e047de5b2d16efa", "passed": 0, "total": 1}

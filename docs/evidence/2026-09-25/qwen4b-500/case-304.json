@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/branch-link/resolved_preface",
+    "scenario_id": "it/branch-link",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria połączenia infrastruktury między oddziałami.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nOsobna, aktualna wiadomość:\nOddział w drugim mieście nie ma dostępu do centralnych zasobów. Lokalne aplikacje działają, ale wszystkie połączenia z centralą kończą się przekroczeniem czasu oczekiwania. Problem dotyczy całego oddziału. Proszę o sprawdzenie łącza między lokalizacjami i urządzeń odpowiedzialnych za komunikację."
+  }
+]

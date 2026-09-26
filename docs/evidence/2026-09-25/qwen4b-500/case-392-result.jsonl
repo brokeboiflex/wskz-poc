@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/mail-auth/quoted_history", "scenario_id": "it/mail-auth", "variant": "quoted_history", "run_id": "79eaf03d0bc6", "dataset_sha256": "5e46b82a4875951176dd2252739f0028a86210d9e1ba0fe9b9005e1df54e319d", "expected": "it@example.com", "passed": false, "error": "HTTP Error 502: Bad Gateway", "http_status": 502, "code": "invalid_tool_call", "request_id": "2d6e0a31-f06d-428d-97b6-03b61d3c7398", "seconds": 9.944}
+{"run_id": "79eaf03d0bc6", "dataset_sha256": "5e46b82a4875951176dd2252739f0028a86210d9e1ba0fe9b9005e1df54e319d", "passed": 0, "total": 1}

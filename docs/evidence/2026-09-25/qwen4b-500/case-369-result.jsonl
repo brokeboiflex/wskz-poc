@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/vulnerability/base", "scenario_id": "it/vulnerability", "variant": "base", "run_id": "3cdf0012b154", "dataset_sha256": "ad6af8f75adb1c1429ae63e71703f494eaca59de63a348addce622adbcd9fba9", "expected": "it@example.com", "actual": "it@example.com", "request_id": "f0764622-e9d3-429a-9154-442ed2467e36", "passed": true, "seconds": 4.906}
+{"run_id": "3cdf0012b154", "dataset_sha256": "ad6af8f75adb1c1429ae63e71703f494eaca59de63a348addce622adbcd9fba9", "passed": 1, "total": 1}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/company-network/base",
+    "scenario_id": "it/company-network",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria sieci obejmująca firmę.",
+    "message": "Od godziny dziewiątej wszystkie zespoły w biurze utraciły połączenie z firmową siecią. Nie działają komputery podłączone przewodem ani przez Wi-Fi, a restart pojedynczych urządzeń niczego nie zmienia. Proszę o pilne sprawdzenie infrastruktury sieciowej i przywrócenie łączności dla całej lokalizacji.\n\nZebraliśmy zgłoszenia z recepcji, magazynu i piętra administracyjnego. Każdy z tych obszarów utracił połączenie mniej więcej w tym samym momencie. Telefony komórkowe korzystające z własnego internetu otwierają publiczne serwisy, więc problem nie wydaje się dotyczyć samych stron.\n\nNie działa też dostęp do wewnętrznego systemu zamówień ani wspólnego dysku. Pracownicy pozostawili urządzenia włączone, żeby można było wykonać diagnostykę. Nie zmieniamy ustawień sieci na poszczególnych stanowiskach. Osoba dyżurująca przy wejściu może zapewnić dostęp do pomieszczenia technicznego. Potrzebujemy informacji o przywracaniu łączności i ewentualnym sposobie pracy awaryjnej, ponieważ obecnie wszystkie zespoły w tej lokalizacji mają zatrzymane zadania."
+  }
+]

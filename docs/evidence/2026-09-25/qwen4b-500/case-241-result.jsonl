@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/mail-signature/base", "scenario_id": "help_desk/mail-signature", "variant": "base", "run_id": "c3cce8fbbceb", "dataset_sha256": "bbddcdff97b0481881ab4b4d07da09f879f76f03659bef5ffb88d2873bae16b8", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "385fb080-086f-4686-b41e-ce742c7e1ae5", "passed": true, "seconds": 3.564}
+{"run_id": "c3cce8fbbceb", "dataset_sha256": "bbddcdff97b0481881ab4b4d07da09f879f76f03659bef5ffb88d2873bae16b8", "passed": 1, "total": 1}

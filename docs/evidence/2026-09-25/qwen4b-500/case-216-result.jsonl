@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/headset/resolved_postscript", "scenario_id": "help_desk/headset", "variant": "resolved_postscript", "run_id": "13af5fd0f5d1", "dataset_sha256": "9e315c5d089277446a2e8afd2526e212595779e8e2eb4161a466e46ae6741ec9", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "0417c110-4150-49a8-9610-480ef8a28197", "passed": true, "seconds": 3.59}
+{"run_id": "13af5fd0f5d1", "dataset_sha256": "9e315c5d089277446a2e8afd2526e212595779e8e2eb4161a466e46ae6741ec9", "passed": 1, "total": 1}

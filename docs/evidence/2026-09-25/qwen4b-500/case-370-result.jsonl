@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/vulnerability/forwarded_history", "scenario_id": "it/vulnerability", "variant": "forwarded_history", "run_id": "53ce6e9324fa", "dataset_sha256": "931bf1cf71df15cc29cd51514529f148aa981dd324caa170d99a0cb977b43c1f", "expected": "it@example.com", "actual": "it@example.com", "request_id": "d928053b-d728-41de-a23d-4360d0961e40", "passed": true, "seconds": 7.993}
+{"run_id": "53ce6e9324fa", "dataset_sha256": "931bf1cf71df15cc29cd51514529f148aa981dd324caa170d99a0cb977b43c1f", "passed": 1, "total": 1}

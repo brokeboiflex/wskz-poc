@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/monitoring-gap/base",
+    "scenario_id": "it/monitoring-gap",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Naprawa centralnego monitoringu infrastruktury.",
+    "message": "Od wczoraj nie otrzymujemy metryk z grupy serwerów produkcyjnych. Same usługi jeszcze działają, ale brak alarmowania uniemożliwia szybkie wykrycie awarii. Proszę o sprawdzenie centralnego systemu monitoringu, połączeń agentów i przywrócenie zbierania danych oraz powiadomień."
+  }
+]

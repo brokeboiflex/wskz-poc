@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:25:42 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-9a8410975cf9-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= bdcb1b20-fca3-4291-97de-b18808d84852
+Date: Sat, 26 Sep 2026 09:25:42 -0000
+Message-ID: <bdcb1b20-fca3-4291-97de-b18808d84852@message-router.local>
+X-Request-ID: bdcb1b20-fca3-4291-97de-b18808d84852
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Po awarii hosta potrzebujemy odtworzy=C4=87 ca=C5=82=C4=85 maszyn=C4=99 wirtu=
+aln=C4=85 obs=C5=82uguj=C4=85c=C4=85 system zam=C3=B3wie=C5=84 z ostatniej po=
+prawnej kopii. To uzgodniona operacja przywr=C3=B3cenia us=C5=82ugi dla firmy=
+. Prosz=C4=99 o przeprowadzenie odtworzenia na zapasowym ho=C5=9Bcie i weryfi=
+kacj=C4=99 dzia=C5=82ania serwera przed udost=C4=99pnieniem u=C5=BCytkownikom.

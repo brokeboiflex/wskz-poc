@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/ups/resolved_postscript", "scenario_id": "it/ups", "variant": "resolved_postscript", "run_id": "d92d4c955416", "dataset_sha256": "85b64ab81c5cac70b6c0516bd47049cd06cdc7c27b7511276b4f0d2fbdd9ef74", "expected": "it@example.com", "actual": "it@example.com", "request_id": "63d56062-b105-4ba8-86ee-8414b0334fb9", "passed": true, "seconds": 4.709}
+{"run_id": "d92d4c955416", "dataset_sha256": "85b64ab81c5cac70b6c0516bd47049cd06cdc7c27b7511276b4f0d2fbdd9ef74", "passed": 1, "total": 1}

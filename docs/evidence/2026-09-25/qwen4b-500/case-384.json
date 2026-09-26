@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/storage-permissions/resolved_preface",
+    "scenario_id": "it/storage-permissions",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Błędna centralna polityka uprawnień wielu zespołów.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nOsobna, aktualna wiadomość:\nPo wczorajszej zmianie polityki katalogowej całe grupy pracowników straciły uprawnienia do kilku usług jednocześnie. Problem występuje w różnych lokalizacjach i nie dotyczy pojedynczego konta. Proszę o sprawdzenie wdrożonej konfiguracji infrastruktury tożsamości oraz przywrócenie prawidłowych zasad dostępu."
+  }
+]

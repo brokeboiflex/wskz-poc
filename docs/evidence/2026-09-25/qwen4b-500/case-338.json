@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/hypervisor/conversation_history",
+    "scenario_id": "it/hypervisor",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria hosta wirtualizacji.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nKilka maszyn wirtualnych zatrzymało się równocześnie po alarmie na jednym hoście klastra. Monitoring nie widzi części usług produkcyjnych. Proszę o sprawdzenie platformy wirtualizacji oraz bezpieczne przywrócenie pracy maszyn na dostępnych zasobach, z uwzględnieniem stanu ich danych."
+  }
+]

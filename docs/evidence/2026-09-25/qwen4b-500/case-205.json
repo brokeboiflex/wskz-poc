@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/black-screen/base",
+    "scenario_id": "help_desk/black-screen",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Czarny ekran w laptopie użytkownika.",
+    "message": "Laptop wydaje dźwięk uruchamiania, ale ekran pozostaje czarny. Gdy podłączę monitor koleżanki, obraz jest widoczny, więc mogę na chwilę odczytać pliki. Proszę o pomoc w sprawdzeniu wbudowanego ekranu i ustaleniu, czy urządzenie wymaga naprawy albo wymiany."
+  }
+]

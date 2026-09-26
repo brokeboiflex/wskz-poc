@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/password-forgotten/resolved_postscript",
+    "scenario_id": "help_desk/password-forgotten",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Reset hasła pojedynczego pracownika.",
+    "message": "Po powrocie z wolnego nie pamiętam hasła do konta służbowego. Nie mogę zalogować się na komputerze i nie chcę wykonywać kolejnych prób, żeby nie zablokować konta. Proszę o pomoc w bezpiecznym zresetowaniu hasła oraz informację, jak potwierdzić swoją tożsamość.\n\nPS. Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

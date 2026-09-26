@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/production-server/base",
+    "scenario_id": "it/production-server",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria serwera produkcyjnego.",
+    "message": "Serwer obsługujący główną aplikację przestał odpowiadać. Użytkownicy z wszystkich działów widzą komunikat o niedostępności, a monitoring przestał otrzymywać odpowiedzi z hosta. Proszę o pilną diagnostykę serwera i przywrócenie usługi zgodnie z procedurą obsługi awarii produkcyjnych."
+  }
+]

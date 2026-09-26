@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/server-patching/base",
+    "scenario_id": "it/server-patching",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Planowa administracja serwerami.",
+    "message": "Mamy zatwierdzone okno serwisowe na aktualizację systemów serwerowych w najbliższy weekend. Proszę przygotować kolejność prac, sprawdzić kopie i przeprowadzić aktualizacje zgodnie z uzgodnionym planem. Po zakończeniu potrzebujemy potwierdzenia działania usług udostępnianych całej firmie."
+  }
+]

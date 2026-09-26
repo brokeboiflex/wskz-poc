@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/wifi-controller/base", "scenario_id": "it/wifi-controller", "variant": "base", "run_id": "c1a19d811929", "dataset_sha256": "9273b293713e183dc9029d35d62f456ed44f22ab62d301df0088feeddef5409d", "expected": "it@example.com", "actual": "it@example.com", "request_id": "801eae68-c8bf-481c-b252-103cda754a79", "passed": true, "seconds": 7.939}
+{"run_id": "c1a19d811929", "dataset_sha256": "9273b293713e183dc9029d35d62f456ed44f22ab62d301df0088feeddef5409d", "passed": 1, "total": 1}

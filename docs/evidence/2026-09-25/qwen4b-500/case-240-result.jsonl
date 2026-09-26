@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/outlook-profile/forwarded_history", "scenario_id": "help_desk/outlook-profile", "variant": "forwarded_history", "run_id": "6a4507c8f193", "dataset_sha256": "97ffabcccfb37d18659c2c13e95cceac99e4faacfb6cfbba95bda5d819114e6c", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "52a8c92f-8c58-4b95-8dfe-cf0042102bf6", "passed": true, "seconds": 11.601}
+{"run_id": "6a4507c8f193", "dataset_sha256": "97ffabcccfb37d18659c2c13e95cceac99e4faacfb6cfbba95bda5d819114e6c", "passed": 1, "total": 1}

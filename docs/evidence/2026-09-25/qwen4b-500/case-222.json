@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/printer-driver/quoted_history",
+    "scenario_id": "help_desk/printer-driver",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Instalacja drukarki dla użytkownika.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nZmieniono drukarkę przy naszym pokoju i nie pojawia się ona na liście urządzeń w moim komputerze. Inne osoby już z niej korzystają. Nie mam uprawnień do samodzielnej instalacji sterownika. Proszę o pomoc w dodaniu nowej drukarki do mojego stanowiska.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

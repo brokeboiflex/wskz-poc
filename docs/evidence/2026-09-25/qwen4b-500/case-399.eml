@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:42:32 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-640d9fa19b9a-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 1f859bfa-d5af-42b6-91c1-6980fe1c6ade
+Date: Sat, 26 Sep 2026 09:42:32 -0000
+Message-ID: <1f859bfa-d5af-42b6-91c1-6980fe1c6ade@message-router.local>
+X-Request-ID: 1f859bfa-d5af-42b6-91c1-6980fe1c6ade
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+Rm9ybXVsYXJ6IHJla3J1dGFjeWpueSBuaWUgZHppYcWCYSBkbGEgxbxhZG5lZ28ga2FuZHlkYXRh
+LCBhIHNlcndlciB6d3JhY2EgYsWCxJlkeSBwcnp5IGthxbxkeW0gxbzEhWRhbml1LiBaZXNww7PF
+giBwcm93YWR6xIVjeSBuYWLDs3IgcG90d2llcmR6acWCLCDFvGUgdHJlxZvEhyBvZ8WCb3N6ZcWE
+IGplc3QgcG9wcmF3bmEuIFByb3N6xJkgbyBzcHJhd2R6ZW5pZSBzZXJ3ZXJhIGkgYmF6eSBkYW55
+Y2ggb3JheiBwcnp5d3LDs2NlbmllIGRvc3TEmXBub8WbY2kgY2HFgmVqIHVzxYJ1Z2kuCg==

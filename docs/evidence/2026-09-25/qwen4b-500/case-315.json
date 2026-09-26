@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/firewall-rules/base",
+    "scenario_id": "it/firewall-rules",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Zmiana reguł na zaporze infrastruktury.",
+    "message": "Po zatwierdzonym wdrożeniu aplikacja w środowisku produkcyjnym nie może połączyć się z wewnętrzną bazą danych. Potrzebujemy sprawdzenia reguł między odpowiednimi segmentami sieci i wdrożenia uzgodnionej konfiguracji zapory. Problem dotyczy komunikacji serwerów, a nie uprawnień pojedynczego pracownika."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/compromised-account/base", "scenario_id": "it/compromised-account", "variant": "base", "run_id": "b0cfb5e06502", "dataset_sha256": "900c79e7ea3e1132d00ab4a2428363c860a61534886b43ba18e75d8cc2a1681a", "expected": "it@example.com", "actual": "it@example.com", "request_id": "04c2807e-afc4-4117-9f43-b6d331116b54", "passed": true, "seconds": 5.321}
+{"run_id": "b0cfb5e06502", "dataset_sha256": "900c79e7ea3e1132d00ab4a2428363c860a61534886b43ba18e75d8cc2a1681a", "passed": 1, "total": 1}

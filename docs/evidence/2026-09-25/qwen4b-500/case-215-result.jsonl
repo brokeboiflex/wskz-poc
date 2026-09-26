@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/headset/base", "scenario_id": "help_desk/headset", "variant": "base", "run_id": "9c4601abdab4", "dataset_sha256": "7e2245fe84852d5870e82925f62c01b027b65036bc8861ae3179cb6e45d4a171", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "d7d4c58a-6b78-435f-8f92-36e7f738942c", "passed": true, "seconds": 5.567}
+{"run_id": "9c4601abdab4", "dataset_sha256": "7e2245fe84852d5870e82925f62c01b027b65036bc8861ae3179cb6e45d4a171", "passed": 1, "total": 1}

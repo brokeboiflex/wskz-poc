@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/mouse/forwarded_history", "scenario_id": "help_desk/mouse", "variant": "forwarded_history", "run_id": "ceccb87b9c6f", "dataset_sha256": "086eaa67ce75b2900eff4a3f3f8a4f97df3867c9fbeea0c13147bebcfb245306", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "c4e4a08c-4041-4920-acad-66f0b2271ba9", "passed": true, "seconds": 6.065}
+{"run_id": "ceccb87b9c6f", "dataset_sha256": "086eaa67ce75b2900eff4a3f3f8a4f97df3867c9fbeea0c13147bebcfb245306", "passed": 1, "total": 1}

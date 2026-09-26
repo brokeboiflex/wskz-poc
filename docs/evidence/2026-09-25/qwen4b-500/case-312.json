@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/wifi-controller/quoted_history",
+    "scenario_id": "it/wifi-controller",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria centralnie zarządzanej sieci bezprzewodowej.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW całym biurze zniknęła firmowa sieć Wi-Fi, choć połączenia kablowe nadal działają. Problem potwierdzono na wielu różnych urządzeniach i piętrach. Proszę sprawdzić kontroler oraz punkty dostępowe; nie chodzi o konfigurację jednego laptopa, lecz o niedostępną usługę dla całej lokalizacji.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  }
+]

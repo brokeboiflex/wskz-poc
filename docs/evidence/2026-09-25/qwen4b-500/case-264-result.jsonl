@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/overheating/resolved_preface", "scenario_id": "help_desk/overheating", "variant": "resolved_preface", "run_id": "8c6de11eab30", "dataset_sha256": "d9d73a2f1e0cbf1b07479406c1f7859ccb43faa4364808038679767d2d097e07", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "e7f6bf42-de8c-44a6-821a-1fede8d68ee5", "passed": true, "seconds": 6.121}
+{"run_id": "8c6de11eab30", "dataset_sha256": "d9d73a2f1e0cbf1b07479406c1f7859ccb43faa4364808038679767d2d097e07", "passed": 1, "total": 1}

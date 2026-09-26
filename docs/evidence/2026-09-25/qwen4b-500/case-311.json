@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/wifi-controller/base",
+    "scenario_id": "it/wifi-controller",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria centralnie zarządzanej sieci bezprzewodowej.",
+    "message": "W całym biurze zniknęła firmowa sieć Wi-Fi, choć połączenia kablowe nadal działają. Problem potwierdzono na wielu różnych urządzeniach i piętrach. Proszę sprawdzić kontroler oraz punkty dostępowe; nie chodzi o konfigurację jednego laptopa, lecz o niedostępną usługę dla całej lokalizacji."
+  }
+]

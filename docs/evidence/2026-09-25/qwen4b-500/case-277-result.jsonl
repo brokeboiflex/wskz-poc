@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/payroll-pdf-download/base", "scenario_id": "help_desk/payroll-pdf-download", "variant": "base", "run_id": "ef294893b573", "dataset_sha256": "33af2a212ba234acf7eecabf347d38005b873a5c44e9ca033cfb00be0fe19936", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "fb32276d-85bb-45e7-ad21-4f06e7753653", "passed": true, "seconds": 3.633}
+{"run_id": "ef294893b573", "dataset_sha256": "33af2a212ba234acf7eecabf347d38005b873a5c44e9ca033cfb00be0fe19936", "passed": 1, "total": 1}

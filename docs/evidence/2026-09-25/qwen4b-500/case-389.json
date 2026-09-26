@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/domain-renewal/base",
+    "scenario_id": "it/domain-renewal",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Utrzymanie domeny technicznej firmowej usługi.",
+    "message": "Domena wykorzystywana przez publiczną aplikację zbliża się do końca ważności, a automatyczne odnowienie nie zostało potwierdzone. Proszę sprawdzić jej utrzymanie i konfigurację DNS, żeby uniknąć przerwy w działaniu usługi. Potrzebujemy potwierdzenia przed weekendem, kiedy dyżuruje mniejszy zespół."
+  }
+]

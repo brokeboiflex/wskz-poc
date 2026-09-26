@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/mouse/base",
+    "scenario_id": "help_desk/mouse",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem z myszą na jednym stanowisku.",
+    "message": "Kursor na moim komputerze przeskakuje, a kliknięcia często nie są rejestrowane. Wymieniłem baterię i sprawdziłem mysz na innej powierzchni, bez poprawy. Pozostałe urządzenia działają. Proszę o wsparcie w ustaleniu usterki lub otrzymaniu sprawnej myszy do pracy."
+  }
+]

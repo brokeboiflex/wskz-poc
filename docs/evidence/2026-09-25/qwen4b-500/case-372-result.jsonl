@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/server-patching/quoted_history", "scenario_id": "it/server-patching", "variant": "quoted_history", "run_id": "286df501c319", "dataset_sha256": "c1afcb27f5ab5ffb274a02db50f8c7fb0b911fc18a0b3b729f75e2a59f2d7420", "expected": "it@example.com", "actual": "it@example.com", "request_id": "8cf3db5a-e1ee-4c33-bd8a-f9f9abe8b507", "passed": true, "seconds": 8.145}
+{"run_id": "286df501c319", "dataset_sha256": "c1afcb27f5ab5ffb274a02db50f8c7fb0b911fc18a0b3b729f75e2a59f2d7420", "passed": 1, "total": 1}

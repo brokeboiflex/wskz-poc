@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/hr-portal-password/resolved_preface", "scenario_id": "help_desk/hr-portal-password", "variant": "resolved_preface", "run_id": "83347b536a04", "dataset_sha256": "11914f844199d17d35fbdf290d3e6ec911a2f87f0a42153a88a04c136244fdcf", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "d1c445bc-19ce-48cf-960c-90b222477570", "passed": true, "seconds": 11.918}
+{"run_id": "83347b536a04", "dataset_sha256": "11914f844199d17d35fbdf290d3e6ec911a2f87f0a42153a88a04c136244fdcf", "passed": 1, "total": 1}

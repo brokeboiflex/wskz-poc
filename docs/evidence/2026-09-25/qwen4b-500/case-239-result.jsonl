@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/outlook-profile/base", "scenario_id": "help_desk/outlook-profile", "variant": "base", "run_id": "4b156530e226", "dataset_sha256": "c78b09398b98b37266769b5b4d357b3b1f053ff16f201cd80ab3726303beae83", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "870a8e82-12cd-4611-9be6-0f0053701670", "passed": true, "seconds": 8.837}
+{"run_id": "4b156530e226", "dataset_sha256": "c78b09398b98b37266769b5b4d357b3b1f053ff16f201cd80ab3726303beae83", "passed": 1, "total": 1}

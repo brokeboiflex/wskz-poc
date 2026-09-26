@@ -1,0 +1,25 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:28:15 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-f0be49971838-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 660cb4e5-7342-4cfd-9f49-7b42e8fe09ca
+Date: Sat, 26 Sep 2026 09:28:15 -0000
+Message-ID: <660cb4e5-7342-4cfd-9f49-7b42e8fe09ca@message-router.local>
+X-Request-ID: 660cb4e5-7342-4cfd-9f49-7b42e8fe09ca
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Monitoring serwera poczty pokazuje rosn=C4=85c=C4=85 kolejk=C4=99 niewys=C5=
+=82anych wiadomo=C5=9Bci z wielu dzia=C5=82=C3=B3w. Programy u=C5=BCytkownik=
+=C3=B3w potwierdzaj=C4=85 wys=C5=82anie, ale odbiorcy zewn=C4=99trzni nic nie=
+ otrzymuj=C4=85. Prosz=C4=99 o sprawdzenie dzia=C5=82ania centralnej us=C5=82=
+ugi SMTP i usuni=C4=99cie przyczyny zatrzymania dostarczania poczty.
+
+PS. Warsztat dla nowych lider=C3=B3w zako=C5=84czy=C5=82 si=C4=99 w ubieg=C5=
+=82ym tygodniu. Materia=C5=82y s=C4=85 ju=C5=BC przekazane i nie potrzeba pom=
+ocy przy jego organizacji. Ta dopisana informacja nie jest now=C4=85 pro=C5=
+=9Bb=C4=85.

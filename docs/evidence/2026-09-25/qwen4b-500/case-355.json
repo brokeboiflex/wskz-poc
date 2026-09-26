@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/compromised-account/base",
+    "scenario_id": "it/compromised-account",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Podejrzenie przejęcia konta.",
+    "message": "W historii mojego konta widzę udane logowanie z miejsca, w którym nigdy nie byłem, a współpracownicy otrzymali ode mnie wiadomości, których nie wysyłałem. Proszę pilnie sprawdzić podejrzenie przejęcia konta, zabezpieczyć aktywne sesje i ustalić zakres nieuprawnionych działań."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/mail-auth/base", "scenario_id": "it/mail-auth", "variant": "base", "run_id": "46f854a1f080", "dataset_sha256": "528bc0cde667d510d3a9feb0e74f9ec28fb85114044f22dc48d027356807801c", "expected": "it@example.com", "actual": "it@example.com", "request_id": "f94ce310-cfda-425e-ace4-2d5774de295e", "passed": true, "seconds": 6.578}
+{"run_id": "46f854a1f080", "dataset_sha256": "528bc0cde667d510d3a9feb0e74f9ec28fb85114044f22dc48d027356807801c", "passed": 1, "total": 1}

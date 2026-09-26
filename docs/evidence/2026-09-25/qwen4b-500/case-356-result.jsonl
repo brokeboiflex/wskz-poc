@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/compromised-account/resolved_postscript", "scenario_id": "it/compromised-account", "variant": "resolved_postscript", "run_id": "a2b33bde838b", "dataset_sha256": "509e69d5bdf39ce0640b983e03712bb55f98960acea794f068aff8633da4ebea", "expected": "it@example.com", "actual": "help-desk@example.com", "request_id": "07e946a3-17dd-4fea-83fb-a40e9093d2d9", "passed": false, "error": "wrong MIME recipient", "seconds": 4.17}
+{"run_id": "a2b33bde838b", "dataset_sha256": "509e69d5bdf39ce0640b983e03712bb55f98960acea794f068aff8633da4ebea", "passed": 0, "total": 1}

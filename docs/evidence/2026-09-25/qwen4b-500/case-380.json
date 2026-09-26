@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/log-pipeline/forwarded_history",
+    "scenario_id": "it/log-pipeline",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria infrastruktury zbierania logów.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nCentralna platforma przestała przyjmować logi z serwerów aplikacyjnych. Lokalne pliki nadal powstają, lecz wspólna wyszukiwarka pokazuje dane tylko do wczoraj. Proszę o sprawdzenie kolejki przesyłania i magazynu logów, aby przywrócić obserwowalność usług oraz analizę zdarzeń bezpieczeństwa.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nLokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/monitor-flicker/base", "scenario_id": "help_desk/monitor-flicker", "variant": "base", "run_id": "107b695f560b", "dataset_sha256": "862b4a96dbea51370681bd276bf20882ab5dfe7036b702f7619717545dad0e44", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "e83244c4-d82a-477e-adf0-afed2b74f4c4", "passed": true, "seconds": 3.585}
+{"run_id": "107b695f560b", "dataset_sha256": "862b4a96dbea51370681bd276bf20882ab5dfe7036b702f7619717545dad0e44", "passed": 1, "total": 1}

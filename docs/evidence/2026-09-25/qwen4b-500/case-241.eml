@@ -1,0 +1,19 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <help-desk@example.com>; Fri, 25 Sep 2026 22:30:56 +0000 (UTC)
+From: router@example.com
+To: help-desk@example.com
+Reply-To: acceptance-c3cce8fbbceb-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 385fb080-086f-4686-b41e-ce742c7e1ae5
+Date: Fri, 25 Sep 2026 22:30:56 -0000
+Message-ID: <385fb080-086f-4686-b41e-ce742c7e1ae5@message-router.local>
+X-Request-ID: 385fb080-086f-4686-b41e-ce742c7e1ae5
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Po wymianie komputera znikn=C4=85=C5=82 m=C3=B3j firmowy podpis w programie p=
+ocztowym. Mam zatwierdzony wz=C3=B3r, ale nie wiem, jak doda=C4=87 go do nowe=
+j konfiguracji. Prosz=C4=99 o pomoc techniczn=C4=85 w ustawieniu podpisu, aby=
+ pojawia=C5=82 si=C4=99 automatycznie przy wysy=C5=82aniu wiadomo=C5=9Bci.

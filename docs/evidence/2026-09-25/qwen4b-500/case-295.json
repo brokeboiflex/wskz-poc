@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/print-duplex/base",
+    "scenario_id": "help_desk/print-duplex",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Ustawienia drukowania pojedynczego użytkownika.",
+    "message": "Drukarka działa, ale dokumenty z mojego komputera zawsze wychodzą jednostronnie, mimo wybrania druku dwustronnego. U koleżanki te same ustawienia dają właściwy wynik. Proszę pomóc sprawdzić konfigurację sterownika na moim stanowisku, ponieważ przygotowuję większy zestaw materiałów."
+  }
+]

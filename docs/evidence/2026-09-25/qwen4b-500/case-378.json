@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/monitoring-gap/conversation_history",
+    "scenario_id": "it/monitoring-gap",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Naprawa centralnego monitoringu infrastruktury.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nOd wczoraj nie otrzymujemy metryk z grupy serwerów produkcyjnych. Same usługi jeszcze działają, ale brak alarmowania uniemożliwia szybkie wykrycie awarii. Proszę o sprawdzenie centralnego systemu monitoringu, połączeń agentów i przywrócenie zbierania danych oraz powiadomień."
+  }
+]

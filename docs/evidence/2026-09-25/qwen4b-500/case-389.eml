@@ -1,0 +1,21 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:39:26 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-2f3a86198644-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= c14874c7-0951-40bc-b46b-e882acb01253
+Date: Sat, 26 Sep 2026 09:39:26 -0000
+Message-ID: <c14874c7-0951-40bc-b46b-e882acb01253@message-router.local>
+X-Request-ID: c14874c7-0951-40bc-b46b-e882acb01253
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Domena wykorzystywana przez publiczn=C4=85 aplikacj=C4=99 zbli=C5=BCa si=C4=
+=99 do ko=C5=84ca wa=C5=BCno=C5=9Bci, a automatyczne odnowienie nie zosta=C5=
+=82o potwierdzone. Prosz=C4=99 sprawdzi=C4=87 jej utrzymanie i konfiguracj=C4=
+=99 DNS, =C5=BCeby unikn=C4=85=C4=87 przerwy w dzia=C5=82aniu us=C5=82ugi. Po=
+trzebujemy potwierdzenia przed weekendem, kiedy dy=C5=BCuruje mniejszy zesp=
+=C3=B3=C5=82.

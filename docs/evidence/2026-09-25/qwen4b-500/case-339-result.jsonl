@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/load-balancer/base", "scenario_id": "it/load-balancer", "variant": "base", "run_id": "2ec426a1526e", "dataset_sha256": "f8b3d404891256494d8261974bda0fd2ee3951e1e473fe244bad7635ec5d73bd", "expected": "it@example.com", "actual": "it@example.com", "request_id": "7cc7929d-1074-482b-ac00-59d5d0585c95", "passed": true, "seconds": 8.233}
+{"run_id": "2ec426a1526e", "dataset_sha256": "f8b3d404891256494d8261974bda0fd2ee3951e1e473fe244bad7635ec5d73bd", "passed": 1, "total": 1}

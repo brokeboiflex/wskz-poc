@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:18:40 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-2fc2f1f9b1fc-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 152e4ae4-650e-4e95-86f3-fc72992c64c9
+Date: Sat, 26 Sep 2026 09:18:40 -0000
+Message-ID: <152e4ae4-650e-4e95-86f3-fc72992c64c9@message-router.local>
+X-Request-ID: 152e4ae4-650e-4e95-86f3-fc72992c64c9
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Nowe urz=C4=85dzenia w kilku salach nie otrzymuj=C4=85 adres=C3=B3w sieciowyc=
+h, a starsze trac=C4=85 po=C5=82=C4=85czenie po odnowieniu dzier=C5=BCawy. Wi=
+da=C4=87 objawy wyczerpania puli adresowej w biurowej podsieci. Prosz=C4=99 o=
+ sprawdzenie konfiguracji centralnej us=C5=82ugi DHCP i zapewnienie prawid=C5=
+=82owego przydzia=C5=82u adres=C3=B3w.

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "payroll/payroll-login-resolved/base",
+    "scenario_id": "payroll/payroll-login-resolved",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Merytoryczna korekta salda po rozwiązaniu logowania.",
+    "message": "Dostęp do portalu pracowniczego już działa i mogę otworzyć wszystkie zestawienia. Nadal jednak widzę błędne saldo urlopu, ponieważ nie uwzględniono zatwierdzonego anulowania wniosku. Proszę o merytoryczne sprawdzenie ewidencji i przywrócenie dni, które nie zostały wykorzystane."
+  }
+]

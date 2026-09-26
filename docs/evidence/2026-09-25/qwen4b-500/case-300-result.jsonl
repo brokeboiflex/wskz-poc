@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/speaker-output/forwarded_history", "scenario_id": "help_desk/speaker-output", "variant": "forwarded_history", "run_id": "3b85b92bfc26", "dataset_sha256": "9471a262f0b5c21abe1c340b82db380dde8c1ab55c05ad0dc87ff030e90914a6", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "d1fb7a0b-f993-4db7-991a-06e8582d1096", "passed": true, "seconds": 8.103}
+{"run_id": "3b85b92bfc26", "dataset_sha256": "9471a262f0b5c21abe1c340b82db380dde8c1ab55c05ad0dc87ff030e90914a6", "passed": 1, "total": 1}

@@ -96,19 +96,20 @@ def main():
     assert hashlib.sha256(CORPUS.read_bytes()).hexdigest() == SHA
     cases = json.loads(CORPUS.read_text())
     assert len(cases) == 500
-    resume = sys.argv[1:] == ["--resume-after-190"]
+    resume = len(sys.argv) == 2 and sys.argv[1] in ("--resume-after-190", "--resume-after-294")
+    checkpoint = int(sys.argv[1].rsplit("-", 1)[1]) if resume else 0
     rows = []
     if resume:
         rows = [json.loads(line) for line in (HERE / "results.jsonl").read_text().splitlines()]
-        assert len(rows) == 190 and [r["case"] for r in rows] == list(range(1, 191))
-        assert not list(HERE.glob("case-191*")), "Uncertain request: inspect before resuming"
-        for row, case in zip(rows, cases[:190], strict=True):
+        assert len(rows) == checkpoint and [r["case"] for r in rows] == list(range(1, checkpoint + 1))
+        assert not list(HERE.glob(f"case-{checkpoint + 1:03d}*")), "Uncertain request: inspect before resuming"
+        for row, case in zip(rows, cases[:checkpoint], strict=True):
             assert row["case_id"] == case["id"] and row["dataset_sha256"] == SHA
     else:
         assert not sys.argv[1:], "Unknown arguments"
         assert not (HERE / "results.jsonl").exists(), "Existing run: inspect, never blindly replay"
     assert fetch("/api/v1/messages?limit=1")["total"] + 500 < 10000, "Mailpit retention"
-    with (HERE / ("resumed.json" if resume else "started.json")).open("x") as marker:
+    with (HERE / (f"resumed-{checkpoint}.json" if resume else "started.json")).open("x") as marker:
         json.dump({"utc": datetime.now(timezone.utc).isoformat(), "corpus": SHA}, marker)
     for index, case in enumerate(cases[len(rows):], len(rows) + 1):
         stem = f"case-{index:03d}"

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/phone-mail/resolved_postscript", "scenario_id": "help_desk/phone-mail", "variant": "resolved_postscript", "run_id": "b95841ccad10", "dataset_sha256": "b9aea823a424c7da5bbf6990ad509750efb02ae101aa578216b1a27d8ad895c1", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "ae1b0fd1-05d7-4c5e-b97b-5b97737bf29d", "passed": true, "seconds": 3.126}
+{"run_id": "b95841ccad10", "dataset_sha256": "b9aea823a424c7da5bbf6990ad509750efb02ae101aa578216b1a27d8ad895c1", "passed": 1, "total": 1}

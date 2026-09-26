@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/vpn-gateway/base",
+    "scenario_id": "it/vpn-gateway",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria bramy VPN dla wielu użytkowników.",
+    "message": "Od rana wszyscy pracownicy zdalni otrzymują błąd połączenia z bramą VPN. Wczoraj usługa działała, a dziś problem występuje z różnych sieci domowych. Proszę o sprawdzenie centralnej bramy, jej certyfikatów i dostępności, aby przywrócić zdalny dostęp do firmowych zasobów."
+  }
+]

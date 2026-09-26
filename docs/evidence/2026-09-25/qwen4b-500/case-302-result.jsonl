@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/company-network/quoted_history", "scenario_id": "it/company-network", "variant": "quoted_history", "run_id": "b5932e844fda", "dataset_sha256": "b4b0e6aada3441c797a4e4748caf9ef06b605c0ae00301b7bf094201af4eea00", "expected": "it@example.com", "actual": "it@example.com", "request_id": "34d5aac6-b31e-4000-84af-5e41f282a778", "passed": true, "seconds": 16.047}
+{"run_id": "b5932e844fda", "dataset_sha256": "b4b0e6aada3441c797a4e4748caf9ef06b605c0ae00301b7bf094201af4eea00", "passed": 1, "total": 1}

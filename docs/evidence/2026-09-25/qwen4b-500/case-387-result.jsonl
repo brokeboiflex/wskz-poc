@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/server-cooling/base", "scenario_id": "it/server-cooling", "variant": "base", "run_id": "675d5e28fc1e", "dataset_sha256": "3a7fb640b1c0225d95c481ebc885ba869d704f681ef44d879e6ba83064179959", "expected": "it@example.com", "actual": "it@example.com", "request_id": "b3ac9572-62ff-43f0-b6fe-03f464d3da9e", "passed": true, "seconds": 5.212}
+{"run_id": "675d5e28fc1e", "dataset_sha256": "3a7fb640b1c0225d95c481ebc885ba869d704f681ef44d879e6ba83064179959", "passed": 1, "total": 1}

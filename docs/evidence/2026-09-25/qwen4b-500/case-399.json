@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/recruitment-system-outage/base",
+    "scenario_id": "it/recruitment-system-outage",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria infrastruktury systemu rekrutacyjnego.",
+    "message": "Formularz rekrutacyjny nie działa dla żadnego kandydata, a serwer zwraca błędy przy każdym żądaniu. Zespół prowadzący nabór potwierdził, że treść ogłoszeń jest poprawna. Proszę o sprawdzenie serwera i bazy danych oraz przywrócenie dostępności całej usługi."
+  }
+]

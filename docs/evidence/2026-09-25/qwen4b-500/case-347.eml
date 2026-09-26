@@ -1,0 +1,26 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:28:26 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-dd6e278c848c-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= 088da619-28c0-4495-b777-e194783c0f52
+Date: Sat, 26 Sep 2026 09:28:26 -0000
+Message-ID: <088da619-28c0-4495-b777-e194783c0f52@message-router.local>
+X-Request-ID: 088da619-28c0-4495-b777-e194783c0f52
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Pracownicy z kilku oddzia=C5=82=C3=B3w r=C3=B3wnocze=C5=9Bnie stracili mo=C5=
+=BCliwo=C5=9B=C4=87 logowania do wszystkich aplikacji korzystaj=C4=85cych z f=
+irmowego SSO. Zmiana has=C5=82a pojedynczej osoby niczego nie rozwi=C4=85zuje=
+. Prosz=C4=99 o sprawdzenie centralnej us=C5=82ugi uwierzytelniania i przywr=
+=C3=B3cenie jej dost=C4=99pno=C5=9Bci dla organizacji.
+
+Objaw jest wsp=C3=B3lny dla poczty, systemu zam=C3=B3wie=C5=84 i portalu prac=
+owniczego. Osoby z aktywn=C4=85 sesj=C4=85 czasem jeszcze pracuj=C4=85, ale k=
+a=C5=BCda nowa pr=C3=B3ba logowania ko=C5=84czy si=C4=99 b=C5=82=C4=99dem. Pr=
+osz=C4=99 sprawdzi=C4=87 zale=C5=BCno=C5=9Bci centralnego uwierzytelniania, z=
+anim zaczniemy resetowa=C4=87 konta u=C5=BCytkownik=C3=B3w.

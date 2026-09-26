@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/ransomware/base",
+    "scenario_id": "it/ransomware",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Aktywny incydent cyberbezpieczeństwa.",
+    "message": "Na wspólnym serwerze plików pojawiły się dokumenty z nowymi rozszerzeniami i komunikat żądający zapłaty za odzyskanie danych. Kilka zespołów nie może otworzyć swoich plików. Proszę o natychmiastowe zajęcie się podejrzeniem ransomware i zabezpieczenie pozostałej infrastruktury przed dalszym szyfrowaniem.\n\nNajpierw dwie osoby zgłosiły, że dokumenty otwierają się jako niezrozumiały tekst. Po sprawdzeniu innych katalogów okazało się, że nazwy plików zostały zmienione także w zasobach projektów, których dziś nikt z naszego zespołu nie edytował. W kilku folderach znajduje się ta sama wiadomość z żądaniem zapłaty.\n\nPrzerwaliśmy zwykłą pracę na tym zasobie i nie próbujemy samodzielnie zmieniać nazw ani usuwać plików. Nie wiemy jeszcze, kiedy rozpoczęło się zdarzenie ani czy kopie zapasowe są dostępne. Mogę przekazać listę pierwszych zauważonych katalogów oraz czas zgłoszeń od pracowników. Potrzebujemy pilnej koordynacji reakcji, zabezpieczenia śladów i oceny, czy pozostałe serwery mogą być również zagrożone."
+  }
+]

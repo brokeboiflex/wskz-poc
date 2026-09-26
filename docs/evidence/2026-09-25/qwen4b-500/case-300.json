@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/speaker-output/forwarded_history",
+    "scenario_id": "help_desk/speaker-output",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Przywrócenie dźwięku na stanowisku pracownika.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOd odłączenia monitora nie słyszę żadnego dźwięku z laptopa. Wskaźnik głośności jest włączony, ale system chyba nadal kieruje odtwarzanie do niepodłączonego urządzenia. Proszę o pomoc w wyborze właściwego wyjścia audio na moim komputerze przed następnym spotkaniem.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nSpotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

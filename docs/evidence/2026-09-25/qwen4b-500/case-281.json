@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/bluetooth/base",
+    "scenario_id": "help_desk/bluetooth",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Parowanie urządzenia użytkownika.",
+    "message": "Nowa mysz bezprzewodowa nie pojawia się w ustawieniach Bluetooth mojego laptopa. Włączyłem tryb parowania i wymieniłem baterię, ale komputer nadal jej nie wykrywa. Proszę o pomoc w połączeniu tych urządzeń, ponieważ obecnie mogę korzystać wyłącznie z gładzika."
+  }
+]

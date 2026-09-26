@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/switch-failure/base",
+    "scenario_id": "it/switch-failure",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Awaria urządzenia infrastruktury sieciowej.",
+    "message": "Wszystkie stanowiska na drugim piętrze straciły połączenie przewodowe w tym samym momencie. Na przełączniku w szafie sieciowej świeci kontrolka alarmu, podczas gdy inne piętra działają. Proszę o sprawdzenie urządzenia i przywrócenie łączności dla tej części firmowej infrastruktury."
+  }
+]

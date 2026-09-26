@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/production-server/quoted_history", "scenario_id": "it/production-server", "variant": "quoted_history", "run_id": "8c0fcd9a0080", "dataset_sha256": "55644cefc9903a2bc186efbad31de751d9a4028b7800a37932812ed0897fc625", "expected": "it@example.com", "actual": "it@example.com", "request_id": "f17ad5e8-8871-45cb-9883-fbb2813a6778", "passed": true, "seconds": 10.489}
+{"run_id": "8c0fcd9a0080", "dataset_sha256": "55644cefc9903a2bc186efbad31de751d9a4028b7800a37932812ed0897fc625", "passed": 1, "total": 1}

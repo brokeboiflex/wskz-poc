@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/backup-failure/resolved_preface", "scenario_id": "it/backup-failure", "variant": "resolved_preface", "run_id": "6f2539f46b2f", "dataset_sha256": "9985a53ab57fa8fca86bbac5269251dcf117f77d9e959e2e1dab3c0f2c609e97", "expected": "it@example.com", "actual": "it@example.com", "request_id": "7b3db295-df5e-47e8-83ae-d0d57ee200ce", "passed": true, "seconds": 16.795}
+{"run_id": "6f2539f46b2f", "dataset_sha256": "9985a53ab57fa8fca86bbac5269251dcf117f77d9e959e2e1dab3c0f2c609e97", "passed": 1, "total": 1}

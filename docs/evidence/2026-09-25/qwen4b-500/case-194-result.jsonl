@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "payroll/worktime-report/resolved_preface", "scenario_id": "payroll/worktime-report", "variant": "resolved_preface", "run_id": "cd61b598cc01", "dataset_sha256": "80e998311d90cfda75399b35e9cbb132178e59361ff6f4ea44871fac62a83763", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "f158e796-d751-47ff-ac7e-18300252e892", "passed": true, "seconds": 7.82}
+{"run_id": "cd61b598cc01", "dataset_sha256": "80e998311d90cfda75399b35e9cbb132178e59361ff6f4ea44871fac62a83763", "passed": 1, "total": 1}

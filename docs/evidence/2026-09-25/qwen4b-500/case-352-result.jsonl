@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/ransomware/quoted_history", "scenario_id": "it/ransomware", "variant": "quoted_history", "run_id": "5fbcad68dd6d", "dataset_sha256": "e14203e3bee15a9e456b15c9bb5a9c713acac5c5378e0774242f21d995347f0c", "expected": "it@example.com", "actual": "it@example.com", "request_id": "7302d905-bc94-49e2-98cb-082bcdee3935", "passed": true, "seconds": 15.263}
+{"run_id": "5fbcad68dd6d", "dataset_sha256": "e14203e3bee15a9e456b15c9bb5a9c713acac5c5378e0774242f21d995347f0c", "passed": 1, "total": 1}

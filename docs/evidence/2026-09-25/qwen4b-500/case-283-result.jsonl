@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/touchpad/base", "scenario_id": "help_desk/touchpad", "variant": "base", "run_id": "5700b5134c1d", "dataset_sha256": "b119bafe727867e29a573bd98fdd179a58a9c2a37973fd0c6c611ccb91a81749", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "356a7214-e657-4e33-a4b8-21760c6f975f", "passed": true, "seconds": 3.872}
+{"run_id": "5700b5134c1d", "dataset_sha256": "b119bafe727867e29a573bd98fdd179a58a9c2a37973fd0c6c611ccb91a81749", "passed": 1, "total": 1}

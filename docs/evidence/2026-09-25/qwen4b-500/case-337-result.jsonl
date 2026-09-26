@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "it/hypervisor/base", "scenario_id": "it/hypervisor", "variant": "base", "run_id": "29d2b385ac47", "dataset_sha256": "d9842fec110be9631d718074fc0952b466dd46617e730432ce6fd109da2d6840", "expected": "it@example.com", "actual": "it@example.com", "request_id": "f2d721ae-2ae9-4615-ae75-f2535f94014e", "passed": true, "seconds": 5.566}
+{"run_id": "29d2b385ac47", "dataset_sha256": "d9842fec110be9631d718074fc0952b466dd46617e730432ce6fd109da2d6840", "passed": 1, "total": 1}

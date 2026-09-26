@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/office-crash/base",
+    "scenario_id": "help_desk/office-crash",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Awaria aplikacji na jednym stanowisku.",
+    "message": "Edytor tekstu zamyka się na moim komputerze kilka sekund po uruchomieniu, nawet przy pustym dokumencie. Inne programy działają normalnie, a plik otwiera się na komputerze kolegi. Proszę o sprawdzenie lokalnej instalacji i pomoc w przywróceniu działania programu."
+  }
+]

@@ -1,0 +1,20 @@
+Return-Path: <router@example.com>
+Received: from [172.26.0.2] (message-router-mailer-1.message-router_smtp. [172.26.0.2])
+        by 757d258c4d31 (Mailpit) with SMTP
+        for <it@example.com>; Sat, 26 Sep 2026 09:39:54 +0000 (UTC)
+From: router@example.com
+To: it@example.com
+Reply-To: acceptance-46f854a1f080-0@example.com
+Subject: =?utf-8?q?Zg=C5=82oszenie?= f94ce310-cfda-425e-ace4-2d5774de295e
+Date: Sat, 26 Sep 2026 09:39:54 -0000
+Message-ID: <f94ce310-cfda-425e-ace4-2d5774de295e@message-router.local>
+X-Request-ID: f94ce310-cfda-425e-ace4-2d5774de295e
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Wiadomo=C5=9Bci wysy=C5=82ane z firmowego systemu s=C4=85 odrzucane przez wie=
+lu odbiorc=C3=B3w z powodu b=C5=82=C4=99dnej konfiguracji uwierzytelniania do=
+meny. Prosz=C4=99 o sprawdzenie rekord=C3=B3w SPF, DKIM i DMARC oraz ustawie=
+=C5=84 serwera wysy=C5=82kowego. Problem dotyczy wsp=C3=B3lnej infrastruktury=
+, a nie programu pocztowego jednej osoby.

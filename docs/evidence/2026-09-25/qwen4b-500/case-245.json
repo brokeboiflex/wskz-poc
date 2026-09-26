@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/teams-audio/base",
+    "scenario_id": "help_desk/teams-audio",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Ustawienia dźwięku pojedynczego pracownika.",
+    "message": "W aplikacji do spotkań dźwięk wychodzi przez głośniki laptopa zamiast przez podłączone słuchawki. W innych programach słuchawki działają prawidłowo. Proszę o pomoc w ustawieniu właściwego urządzenia dla mojego konta, żebym mogła prowadzić rozmowy bez przeszkadzania osobom obok."
+  }
+]

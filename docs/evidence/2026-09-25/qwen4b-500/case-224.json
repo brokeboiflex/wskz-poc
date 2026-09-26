@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/scanner/resolved_preface",
+    "scenario_id": "help_desk/scanner",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Pomoc z urządzeniem użytkownika.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n\nOsobna, aktualna wiadomość:\nSkaner podłączony do mojego komputera przestał być wykrywany po zmianie portu USB. Urządzenie ma zasilanie, a przewód jest dobrze wpięty. Potrzebuję zeskanować podpisany dokument. Proszę pomóc przywrócić połączenie skanera z aplikacją na tym konkretnym stanowisku."
+  }
+]

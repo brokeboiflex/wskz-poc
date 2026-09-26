@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/expired-password/base", "scenario_id": "help_desk/expired-password", "variant": "base", "run_id": "b29e9d1551ee", "dataset_sha256": "ec662276ad034a5c07fe561aa67a49a1ac80f296c293bc4ff6618d8e18d4c902", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "05076935-a0a6-407b-b720-a624a78ef1ce", "passed": true, "seconds": 3.555}
+{"run_id": "b29e9d1551ee", "dataset_sha256": "ec662276ad034a5c07fe561aa67a49a1ac80f296c293bc4ff6618d8e18d4c902", "passed": 1, "total": 1}

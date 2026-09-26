@@ -1,0 +1,12 @@
+[
+  {
+    "id": "help_desk/payroll-pdf-download/conversation_history",
+    "scenario_id": "help_desk/payroll-pdf-download",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Techniczna usterka pobierania dokumentu u użytkownika.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPasek wynagrodzenia jest już wystawiony i widoczny w portalu, ale na moim laptopie jego pobieranie kończy się błędem przeglądarki. Na innym komputerze plik można pobrać. Będę wdzięczna za sprawdzenie ustawień mojego urządzenia, bo podobnie zachowuje się pobieranie innych dokumentów."
+  }
+]

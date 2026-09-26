@@ -1,0 +1,12 @@
+[
+  {
+    "id": "it/domain-renewal/forwarded_history",
+    "scenario_id": "it/domain-renewal",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Utrzymanie domeny technicznej firmowej usługi.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nDomena wykorzystywana przez publiczną aplikację zbliża się do końca ważności, a automatyczne odnowienie nie zostało potwierdzone. Proszę sprawdzić jej utrzymanie i konfigurację DNS, żeby uniknąć przerwy w działaniu usługi. Potrzebujemy potwierdzenia przed weekendem, kiedy dyżuruje mniejszy zespół.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nStary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  }
+]

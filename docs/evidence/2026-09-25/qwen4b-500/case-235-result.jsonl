@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/wifi-single/base", "scenario_id": "help_desk/wifi-single", "variant": "base", "run_id": "ce78d994acf4", "dataset_sha256": "22a3d501959dc451b5d9793b500e8d00fe399edd782a3707ca303cd9e836c703", "expected": "help-desk@example.com", "passed": false, "error": "HTTP Error 502: Bad Gateway", "http_status": 502, "code": "invalid_tool_call", "request_id": "76973fa0-0ec1-4752-bea1-d26022b0c333", "seconds": 3.971}
+{"run_id": "ce78d994acf4", "dataset_sha256": "22a3d501959dc451b5d9793b500e8d00fe399edd782a3707ca303cd9e836c703", "passed": 0, "total": 1}

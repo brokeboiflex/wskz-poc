@@ -1,0 +1,40 @@
+mailer-1  | INFO:     Started server process [7]
+mailer-1  | INFO:     Waiting for application startup.
+mailer-1  | INFO:     Application startup complete.
+mailer-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+mailer-1  | INFO:     Shutting down
+mailer-1  | INFO:     Waiting for application shutdown.
+mailer-1  | INFO:     Application shutdown complete.
+mailer-1  | INFO:     Finished server process [7]
+mailer-1  | INFO:     Started server process [7]
+mailer-1  | INFO:     Waiting for application startup.
+mailer-1  | INFO:     Application startup complete.
+mailer-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+mailer-1  | INFO:     Shutting down
+mailer-1  | INFO:     Waiting for application shutdown.
+mailer-1  | INFO:     Application shutdown complete.
+mailer-1  | INFO:     Finished server process [7]
+mailer-1  | INFO:     Started server process [7]
+mailer-1  | INFO:     Waiting for application startup.
+mailer-1  | INFO:     Application startup complete.
+mailer-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+mailer-1  | INFO:     Shutting down
+mailer-1  | INFO:     Waiting for application shutdown.
+mailer-1  | INFO:     Application shutdown complete.
+mailer-1  | INFO:     Finished server process [7]
+mailer-1  | INFO:     Started server process [7]
+mailer-1  | INFO:     Waiting for application startup.
+mailer-1  | INFO:     Application startup complete.
+mailer-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+mailer-1  | INFO:     Shutting down
+mailer-1  | INFO:     Waiting for application shutdown.
+mailer-1  | INFO:     Application shutdown complete.
+mailer-1  | INFO:     Finished server process [7]
+mailer-1  | INFO:     Started server process [7]
+mailer-1  | INFO:     Waiting for application startup.
+mailer-1  | INFO:     Application startup complete.
+mailer-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+mailer-1  | INFO:     Started server process [7]
+mailer-1  | INFO:     Waiting for application startup.
+mailer-1  | INFO:     Application startup complete.
+mailer-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
