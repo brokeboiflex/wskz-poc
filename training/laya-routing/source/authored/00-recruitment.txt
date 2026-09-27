@@ -1,0 +1,69 @@
+human_resources-001
+Proszę o zapewnienie tłumacza języka migowego na rozmowę kwalifikacyjną z niesłyszącą kandydatką.
+Do kolejnego etapu rekrutacji zaprosiliśmy osobę niesłyszącą. Kandydatka potrzebuje tłumacza języka migowego, żeby swobodnie uczestniczyć w rozmowie. Proszę zorganizować jego udział w spotkaniu i uzgodnić z kandydatką odpowiednią formę komunikacji.
+Wczorajszy problem z logowaniem został już usunięty i mogę wejść do systemu. Teraz potrzebuję pomocy przy organizacji rozmowy kwalifikacyjnej z niesłyszącym kandydatem. Proszę zapewnić na czas tego spotkania tłumacza języka migowego.
+Kandydat napisał: „Na spotkaniu potrzebuję tłumacza języka migowego”. Proszę uzgodnić udział takiej osoby w jego rozmowie kwalifikacyjnej. Chcemy, aby mógł spokojnie odpowiedzieć na pytania i przedstawić swoje doświadczenie.
+Hej, ogarniecie tłumacza migowego na rozmowę kwalifikacyjną? Kandydat nie słyszy, a spotkanie mamy w czwartek.
+
+human_resources-002
+Proszę uzgodnić z kandydatem nowy termin rozmowy kwalifikacyjnej.
+Kandydat na stanowisko archiwisty nie może przyjść na zaplanowaną rozmowę. Nadal chce uczestniczyć w naborze i zaproponował dwa inne dni. Proszę ustalić z nim nową datę spotkania kwalifikacyjnego.
+Brakujące potwierdzenie obecności dotarło i rozliczenie godzin jest już poprawne. Pozostała mi inna sprawa: kandydat poprosił o przesunięcie rozmowy kwalifikacyjnej. Proszę skontaktować się z nim i uzgodnić nowy termin.
+Kandydat napisał: „We wtorek nie dam rady, mogę przyjść w piątek”. Proszę uzgodnić z nim zmianę daty rozmowy kwalifikacyjnej i potwierdzić nowy termin obu stronom.
+Hej, kandydat nie dotrze jutro na rozmowę kwalifikacyjną. Ustalicie z nim inny termin?
+
+human_resources-005
+Proszę opracować merytoryczne pytania do ustrukturyzowanej rozmowy rekrutacyjnej.
+W kolejnym naborze chcemy wszystkim kandydatom zadawać porównywalne pytania. Dotychczas każda rozmowa miała inny przebieg, przez co trudno zestawić odpowiedzi. Proszę przygotować merytoryczny zestaw pytań do ustrukturyzowanego wywiadu rekrutacyjnego.
+Drukarka znów działa po wymianie uszkodzonego elementu, więc tamto zgłoszenie można zamknąć. Obecnie potrzebuję przygotowania pytań do ustrukturyzowanej rozmowy z kandydatami. Chodzi o zawartość wywiadu rekrutacyjnego, którą zastosujemy wobec wszystkich aplikujących.
+Osoba prowadząca nabór zaznaczyła: „Chcę porównywać odpowiedzi na te same pytania”. Proszę opracować merytoryczny zestaw do ustrukturyzowanego wywiadu rekrutacyjnego, tak aby kolejne rozmowy pozwalały oceniać te same kompetencje.
+Potrzebujemy sensownych pytań do rozmów rekrutacyjnych, jednakowych dla wszystkich kandydatów. Pomożecie ułożyć taki zestaw?
+
+human_resources-006
+Proszę zweryfikować referencje kandydata, który wyraził już zgodę na kontakt z poprzednim pracodawcą.
+Kończymy rekrutację na stanowisko specjalisty. Kandydat wskazał osoby, które mogą potwierdzić jego wcześniejsze obowiązki, i wyraził zgodę na kontakt z nimi. Proszę sprawdzić te referencje przed podjęciem decyzji o zatrudnieniu.
+Brakującą część mojego wynagrodzenia już wypłacono i to rozliczenie jest zamknięte. Teraz proszę zweryfikować referencje kandydata do naszego zespołu. Jego zgodę na kontakt z poprzednim pracodawcą mamy już na piśmie.
+W wiadomości kandydat napisał: „Możecie zadzwonić do mojego poprzedniego przełożonego”. Proszę skorzystać z udzielonej zgody i sprawdzić jego referencje. Zależy nam na potwierdzeniu zakresu odpowiedzialności przed zakończeniem rekrutacji.
+Hej, mamy już zgodę kandydata. Możecie sprawdzić jego referencje u poprzedniego pracodawcy?
+
+human_resources-007
+Kandydat wycofał aplikację przed zakończeniem naboru; proszę odnotować jego rezygnację.
+Otrzymaliśmy wiadomość od osoby uczestniczącej w nadal otwartej rekrutacji. Kandydat rezygnuje z dalszego udziału i prosi o wycofanie zgłoszenia. Proszę przyjąć tę rezygnację oraz odpowiednio oznaczyć jego aplikację.
+Spóźniona paczka z dokumentami została doręczona, sprawa przesyłki jest zakończona. Teraz przekazuję rezygnację kandydata z trwającej rekrutacji. Proszę przyjąć wycofanie jego aplikacji i odnotować, że nie uczestniczy już w naborze.
+Kandydat przekazał: „Wycofuję swoją aplikację i nie będę brać udziału w kolejnych etapach”. Nabór nadal trwa, dlatego proszę przyjąć tę rezygnację i zaktualizować status jego zgłoszenia.
+Hej, jedna osoba wycofała aplikację z naszego naboru. Odnotujcie proszę rezygnację, żeby nie zapraszać jej na kolejny etap.
+
+human_resources-008
+Na jakim etapie znajduje się obecnie rekrutacja, w której uczestniczę?
+Wysłałam zgłoszenie na stanowisko konsultantki i otrzymałam potwierdzenie jego przyjęcia. Od tego czasu nie mam informacji o dalszym przebiegu naboru. Proszę podać, na jakim etapie znajduje się obecnie rekrutacja.
+Wcześniejszy problem z otwieraniem załącznika został rozwiązany po ponownym przesłaniu pliku. Teraz proszę tylko o informację dotyczącą etapu trwającego naboru na konsultanta. Chciałbym wiedzieć, czy rekrutacja nadal jest prowadzona i jak daleko zaszła.
+W potwierdzeniu zgłoszenia przeczytałam: „O kolejnych etapach poinformujemy osobno”. Chciałabym dowiedzieć się, na jakim etapie jest teraz ta rekrutacja. Proszę jedynie o aktualny status procesu.
+Cześć, wiadomo już coś o etapie rekrutacji na konsultanta? Chodzi mi tylko o status naboru.
+
+human_resources-009
+Proszę przygotować i zorganizować zadanie praktyczne dla osób kandydujących na stanowisko redaktora.
+Do następnego etapu naboru redaktorów przeszło kilka osób. Chcemy ocenić, jak radzą sobie z poprawianiem tekstu, a same rozmowy tego nie pokażą. Proszę przygotować dla kandydatów zadanie praktyczne i zaplanować jego przeprowadzenie.
+Problemy z wysyłaniem załączników z mojego programu pocztowego zostały naprawione; pliki już docierają do odbiorców. Teraz proszę o zorganizowanie zadania praktycznego w rekrutacji redaktorów. Potrzebujemy ćwiczenia, które pozwoli porównać umiejętności kandydatów.
+Kierowniczka napisała: „Chcę zobaczyć, jak kandydaci radzą sobie z redagowaniem tekstu”. Proszę przygotować zadanie praktyczne dla osób ubiegających się o stanowisko redaktora i ustalić sposób przeprowadzenia tego etapu rekrutacji.
+Hej, trzeba sprawdzić redagowanie w praktyce. Ułożycie zadanko dla kandydatów na redaktorów i ogarniecie ten etap rekrutacji?
+
+human_resources-010
+Proszę ustalić skład komisji rekrutacyjnej do naboru na stanowisko kierownika.
+Przygotowujemy nabór osoby, która pokieruje nowym zespołem. Zanim rozpoczniemy rozmowy, musimy wiedzieć, kto będzie uczestniczył w ocenie kandydatów. Proszę ustalić skład komisji rekrutacyjnej dla tego stanowiska.
+Rezerwacja sali jest już potwierdzona i tamta kwestia nie wymaga dalszych działań. Nadal nie mamy jednak ustalonego składu komisji do rekrutacji kierownika. Proszę wyznaczyć osoby, które wezmą udział w rozmowach i ocenie kandydatów.
+Dyrektorka zapytała: „Kto będzie z nami oceniał kandydatów na kierownika?”. Proszę ustalić skład komisji rekrutacyjnej do tego naboru, abyśmy mogli przygotować udział poszczególnych osób w rozmowach.
+Kto zasiądzie w komisji przy rekrutacji kierownika? Ustalcie proszę skład, bo chcemy już planować rozmowy.
+
+human_resources-012
+Proszę wyjaśnić, według jakich kryteriów wstępnie selekcjonowane są aplikacje kandydatów.
+Przygotowuję zgłoszenie do otwartego naboru i chcę zrozumieć jego zasady. Interesuje mnie etap wyboru aplikacji do dalszych rozmów. Proszę opisać kryteria stosowane przy tej wstępnej selekcji.
+Błąd w moich danych kontaktowych został poprawiony i potwierdzenie już dotarło. Mam teraz pytanie o zasady naboru: jakie kryteria decydują o wstępnej selekcji aplikacji? Proszę wyjaśnić, na co zwracacie uwagę na tym etapie.
+W ogłoszeniu widzę zdanie: „Wybrane osoby zaprosimy do dalszego etapu”. Proszę wyjaśnić kryteria preselekcji aplikacji w tym naborze. Chcę poznać zasady wyboru zgłoszeń, zanim prześlę swoje dokumenty.
+Hej, według czego wybieracie aplikacje do pierwszej rozmowy? Przyda mi się wyjaśnienie zasad preselekcji w tym naborze.
+
+human_resources-015
+Nowy wakat został zatwierdzony; proszę zaplanować nabór na to stanowisko.
+Mamy już zatwierdzony dodatkowy wakat w zespole obsługi. Możemy rozpocząć poszukiwanie osoby, ale przebieg rekrutacji nie został jeszcze ustalony. Proszę zaplanować nabór i jego kolejne etapy dla tego stanowiska.
+Wcześniejsza pomyłka w ewidencji mojego czasu pracy została skorygowana i rozliczenie jest zamknięte. Teraz potrzebujemy uruchomić rekrutację na zatwierdzony już wakat. Proszę zaplanować nabór oraz kolejność działań prowadzących do wyboru kandydata.
+Otrzymaliśmy decyzję: „Wakat został zatwierdzony, można rozpocząć poszukiwania”. Proszę zaplanować nabór na nowe stanowisko w naszym zespole, wraz z etapami rekrutacji i organizacją kontaktu z kandydatami.
+Mamy zgodę na nowy wakat. Zaplanujecie nabór, żebyśmy wiedzieli, jak ruszyć z rekrutacją?

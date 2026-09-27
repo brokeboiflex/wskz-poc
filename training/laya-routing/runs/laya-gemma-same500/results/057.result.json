@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/team-integration/conversation_history",
+  "family": "human_resources/team-integration",
+  "message": "Historia wcześniejszej rozmowy:\nJa: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPo połączeniu dwóch zespołów pracujemy obok siebie, ale rzadko wymieniamy wiedzę i trudno nam ustalać wspólne zasady. Chciałabym zorganizować moderowany warsztat integracyjny nastawiony na współpracę. Proszę pomóc dobrać formę spotkania, która nie ograniczy się do wspólnej rozrywki.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.25348470799508505,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "437d562d3f40771d66ad5125bbbc94635ceb172d7dd24aa2a7430524cec0affd",
+  "response_sha256": "6b7885c2107e97854a91123ec84195e0ab54b0d127140e04fd65a8872090a158"
+}

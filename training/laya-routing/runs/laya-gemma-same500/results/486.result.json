@@ -1,0 +1,13 @@
+{
+  "id": "other/fragment/base",
+  "family": "other/fragment",
+  "message": "Dzień dobry, w nawiązaniu do kwestii związanej z tym, że w ubiegłym tygodniu miało zostać ustalone",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.17037562499172054,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5648a38a78f40450c86b06db9518e2b71c48c0111d3b1f9c54a71e35cb701ae9",
+  "response_sha256": "c4aa1b2254aca16144940ad59a1f3293fc1c156154280d2fc7b2f69d0da69774"
+}

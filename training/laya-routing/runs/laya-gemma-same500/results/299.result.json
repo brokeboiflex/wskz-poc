@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/speaker-output/forwarded_history",
+  "family": "help_desk/speaker-output",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOd odłączenia monitora nie słyszę żadnego dźwięku z laptopa. Wskaźnik głośności jest włączony, ale system chyba nadal kieruje odtwarzanie do niepodłączonego urządzenia. Proszę o pomoc w wyborze właściwego wyjścia audio na moim komputerze przed następnym spotkaniem.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nSpotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2479072910209652,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "895edad31ba2586513800c4e20ba18da3299145cf1df18be6a27b7970ebed406",
+  "response_sha256": "68468b5faf973c07dd2d2c9f9447aebe7e406dda273978069eb623b92e8b7b9b"
+}

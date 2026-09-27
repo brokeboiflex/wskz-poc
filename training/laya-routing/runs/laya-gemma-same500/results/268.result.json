@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/access-folder/base",
+  "family": "help_desk/access-folder",
+  "message": "Nie mogę otworzyć folderu projektu, do którego miałem wcześniej dostęp. Koledzy nadal korzystają z niego bez problemów, a właściciel folderu potwierdził, że powinienem mieć uprawnienia. Proszę o sprawdzenie dostępu mojego konta i pomoc w przywróceniu możliwości odczytu dokumentów.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19015679199947044,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5cbf76292a0c377b2b5945a0be77140ceaf1b1dae71e69ceab930b5f20c3c27b",
+  "response_sha256": "31791e979c549f322e7831e2fb5296f479a4227ecf24d39247c7805bc6299898"
+}

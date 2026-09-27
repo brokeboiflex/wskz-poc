@@ -1,0 +1,13 @@
+{
+  "id": "other/ancient-history/resolved_postscript",
+  "family": "other/ancient-history",
+  "message": "Czy możecie wyjaśnić, dlaczego rozpadło się cesarstwo zachodniorzymskie? Przygotowuję się do spotkania klubu historycznego i chciałbym odróżnić długotrwałe przyczyny od bezpośrednich wydarzeń. Interesuje mnie krótki opis najważniejszych zmian politycznych i gospodarczych, a nie sprawa związana z pracą.\n\nW dyskusji pojawiły się najazdy, problemy podatkowe i podział administracyjny, ale każdy wymienia inną przyczynę jako jedyną. Chciałbym uporządkować kolejność wydarzeń i zrozumieć, dlaczego część wschodnia przetrwała znacznie dłużej.\n\nPS. Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.28795399999944493,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "801afc236957ebdc8f24c97d153cc766967db7437121771fcbe6b9294f10551e",
+  "response_sha256": "c72dd597ece197040ce45f888f2938251300332b4f23af916cf6e253139d02ca"
+}

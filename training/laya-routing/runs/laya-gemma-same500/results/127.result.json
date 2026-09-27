@@ -1,0 +1,13 @@
+{
+  "id": "payroll/night-allowance/conversation_history",
+  "family": "payroll/night-allowance",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nW ostatnim okresie miałem sześć zmian nocnych. W zestawieniu wynagrodzenia naliczono dodatek tylko za cztery, chociaż grafik i potwierdzenia obecności obejmują wszystkie zmiany. Proszę porównać dane i wyjaśnić brakującą część dodatku przed zamknięciem kolejnego rozliczenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23785633299848996,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "88f0e5dde0136abeadea1ef92d5e8c2ba52bbae06872d199640ac1c6f236eba7",
+  "response_sha256": "41e49126c1c2c10d404501fbf1a310d2ceabb2c52bfed465ef4289c6b65c7414"
+}

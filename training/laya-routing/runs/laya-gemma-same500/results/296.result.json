@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/local-time/base",
+  "family": "help_desk/local-time",
+  "message": "Mój laptop pokazuje godzinę przesuniętą o dwie godziny, przez co przypomnienia o spotkaniach pojawiają się nie wtedy, kiedy trzeba. Telefon oraz komputery obok mają prawidłowy czas. Proszę o pomoc w ustawieniu strefy czasowej i synchronizacji na tym urządzeniu.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.18954274998395704,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "91f53f3157b746f8e8bc3620387a98071e835f37e27d7892b513ab94a92d9889",
+  "response_sha256": "f57ec07e73d715a1d536e0a5ca99a4e0ae4e46935fbb30be5543909a274251e3"
+}

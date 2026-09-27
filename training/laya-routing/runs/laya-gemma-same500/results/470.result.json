@@ -1,0 +1,13 @@
+{
+  "id": "other/missing-attachment/base",
+  "family": "other/missing-attachment",
+  "message": "Dzień dobry, proszę sprawdzić sprawę opisaną w załączniku i przekazać mi informację o dalszych krokach.\n\n[Brak załączników]",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.19366491597611457,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5a66fa90dfda29ff1e25fe03ad0358d984e2168f56cdda1fe6b2ed4506e3053b",
+  "response_sha256": "42b0699adbfe89af0149cba2dbe447e6eb722802b9bae171cee2003b8d0a3bb5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/dns-outage/base",
+  "family": "it/dns-outage",
+  "message": "W całej organizacji przestały rozwiązywać się nazwy wewnętrznych serwisów. Te same zasoby odpowiadają po adresach IP, a objawy potwierdzili pracownicy z kilku działów. Proszę o sprawdzenie firmowych serwerów DNS oraz przywrócenie poprawnego rozwiązywania nazw dla wszystkich użytkowników.\n\nPotwierdziliśmy ten sam objaw w obu oddziałach i na różnych systemach operacyjnych. Nazwy publicznych stron działają, ale wewnętrzne adresy kończą się błędem rozpoznawania. Proszę uwzględnić ostatnie zmiany w strefach i dostępność serwerów odpowiadających za wewnętrzną domenę.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2608814589912072,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b44f6b161d7d1e1f88daf41ca5faacc5af2541b51b0e8f62d55688cf5690a3ed",
+  "response_sha256": "ffdfb063e290a5295150da535b48d92ff22d0e2471819f25fa192fe783434c3a"
+}

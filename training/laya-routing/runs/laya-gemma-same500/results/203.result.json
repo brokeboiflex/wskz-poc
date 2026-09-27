@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/boot-loop/resolved_preface",
+  "family": "help_desk/boot-loop",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nOsobna, aktualna wiadomość:\nPo wczorajszym zamknięciu systemu mój komputer uruchamia się w kółko i nie dochodzi do ekranu logowania. Odłączyłam dodatkowe urządzenia, ale sytuacja się powtarza. Proszę o pomoc z tym stanowiskiem; pozostałe komputery w naszym zespole działają bez problemu.\n\nNa ekranie pojawia się logo producenta, następnie krótko komunikat o przygotowywaniu naprawy i urządzenie zaczyna wszystko od początku. Nie dochodzę do pulpitu. Mogę pozostawić laptop podłączony w biurze, jeżeli potrzebna będzie dłuższa diagnostyka.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2723551669914741,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "30dc907bb5a4ce55acd5a3902e785f9b0bdba084f226b7132207db2b5b3defc4",
+  "response_sha256": "2bb01d6d3fbc4877492c58b885d9cd22bb29e5c6c180b37ed42a142701dac967"
+}

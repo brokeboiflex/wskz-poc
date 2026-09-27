@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/harassment-procedure/quoted_history",
+  "family": "human_resources/harassment-procedure",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPotrzebuję informacji, jak zgłosić powtarzające się niestosowne wiadomości od współpracownika. Nie chcę przesyłać ich do całego zespołu ani omawiać sprawy na ogólnym spotkaniu. Proszę wskazać osobę do poufnego kontaktu i wyjaśnić, w jaki sposób dokumentować zdarzenia.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.25520183399203233,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5731012cdec043c68a5ea0f60564fc24fd91bef6c442615daa46941924151f86",
+  "response_sha256": "9f497d89cc79e08d77c12eb00a85defca43771e0d782d8c709eb9b32143f7949"
+}

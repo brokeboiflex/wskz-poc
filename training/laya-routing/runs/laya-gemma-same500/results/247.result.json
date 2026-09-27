@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/office-crash/conversation_history",
+  "family": "help_desk/office-crash",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nEdytor tekstu zamyka się na moim komputerze kilka sekund po uruchomieniu, nawet przy pustym dokumencie. Inne programy działają normalnie, a plik otwiera się na komputerze kolegi. Proszę o sprawdzenie lokalnej instalacji i pomoc w przywróceniu działania programu.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2405412909865845,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "71631a4570a7a861677e4b44ad9d4a16e9d7a77a298b068d74a0761291165c97",
+  "response_sha256": "7145e848ddfebaf6b1b8100103984a6ade7708c81d22883a83ac27f5a733f647"
+}

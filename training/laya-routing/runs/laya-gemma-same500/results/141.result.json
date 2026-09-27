@@ -1,0 +1,13 @@
+{
+  "id": "payroll/bank-account/quoted_history",
+  "family": "payroll/bank-account",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nOd następnego miesiąca chciałabym otrzymywać wynagrodzenie na nowy rachunek bankowy. Nie zamieszczam numeru w tej wiadomości, bo najpierw potrzebuję właściwego formularza i bezpiecznego sposobu przekazania danych. Proszę o instrukcję zgłoszenia zmiany oraz termin jej uwzględnienia.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.25215625000419095,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ffb920249b1770ff74ee519127b482c999a2be153f5c01c25954cb3b9b8cad96",
+  "response_sha256": "fd6fb73f7b33700382c605386962ffd2a59d29fb104a0c40ab58de8cdb17b070"
+}

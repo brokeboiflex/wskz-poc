@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-error/base",
+  "family": "other/unknown-error",
+  "message": "Coś się nie zgadza, ale trudno mi teraz dokładnie wyjaśnić co. Wczoraj było inaczej. Czy mogę najpierw z kimś porozmawiać i ustalić, od czego zacząć?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.19910120801068842,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ed9b4299fd3177848f9f893a7bcf7263b71803d2a4ef197ce196eca75f4599b5",
+  "response_sha256": "f6c1140494b693c100a154783e3904b88daf0eb398eba9a7acfc643379db9c40"
+}

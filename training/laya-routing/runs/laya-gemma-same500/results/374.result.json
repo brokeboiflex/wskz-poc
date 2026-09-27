@@ -1,0 +1,13 @@
+{
+  "id": "it/capacity/base",
+  "family": "it/capacity",
+  "message": "System przetwarzania raportów regularnie wykorzystuje całą pamięć dostępnego serwera i zatrzymuje zadania kilku działów. Analiza obciążenia wskazuje na potrzebę zwiększenia zasobów. Proszę o ocenę możliwości rozbudowy infrastruktury i zaplanowanie zmiany zapewniającej stabilne wykonanie procesów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19131462500081398,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "06654213b471dad15d9eefc99cc45543856ffde1d65faf3df0b8e5b92c9d0426",
+  "response_sha256": "744d333dd93472ba0a185f05dcc9dcde8e2a49b038d6dc837e379eb1a5393fcf"
+}

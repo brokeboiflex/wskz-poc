@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPo podłączeniu laptopa do mojej stacji dokującej nie działa monitor ani klawiatura. Te same urządzenia działają, gdy podłączę je bezpośrednio do komputera. Sprawdziłam przewód zasilania i uruchomiłam laptop ponownie. Proszę o pomoc z wyposażeniem tego stanowiska.\n\nSprawdziłam kilka połączeń, żeby zawęzić problem. Monitor działa bezpośrednio z laptopem. Klawiatura działa po podłączeniu do portu komputera. Po wpięciu do stacji dokującej oba urządzenia znikają, choć laptop nadal się ładuje. Inny laptop podłączony do tej samej stacji zachowuje się podobnie.\n\nWczoraj zestaw działał jeszcze poprawnie. Nie przenosiłam biurka ani nie wymieniałam przewodów, tylko na noc odłączyłam laptop. Teraz pracuję tymczasowo na jego małym ekranie, ale potrzebuję obu wyświetlaczy do porównania tabel. Czy można sprawdzić stację lub na czas diagnostyki zapewnić działający egzemplarz? Jestem dziś w biurze do popołudnia i mogę pokazać problem na miejscu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

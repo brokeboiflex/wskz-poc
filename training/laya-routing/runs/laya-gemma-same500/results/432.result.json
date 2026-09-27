@@ -1,0 +1,13 @@
+{
+  "id": "other/private-purchase/base",
+  "family": "other/private-purchase",
+  "message": "Kupiłam w sklepie internetowym czajnik do domu i otrzymałam model w innym kolorze niż zamówiony. Chciałabym napisać do sprzedawcy prośbę o wymianę. Czy możecie pomóc ułożyć taką wiadomość? Zakup był prywatny i nie ma związku z firmowym wyposażeniem.\n\nNa potwierdzeniu zamówienia mam właściwy wariant, a etykieta pudełka wskazuje inny. Samo urządzenie wygląda na nieużywane i nie zostało jeszcze uruchomione. Mam zdjęcia przesyłki, numer zamówienia oraz wiadomość od sklepu potwierdzającą zakup.\n\nChciałabym poprosić o wymianę na zamówiony kolor, a nie o zwrot pieniędzy. Nie wiem, czy w pierwszej wiadomości opisywać wszystko szczegółowo, czy wystarczy krótka informacja i zdjęcia. Zależy mi na spokojnym tonie, bo być może to zwykła pomyłka podczas pakowania. Pomóżcie ułożyć jasną wiadomość do sprzedawcy z prośbą o wskazanie sposobu wymiany i o informację, jak przygotować paczkę do odbioru.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.3301047919958364,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c921d065aae5fe9d7c91ffb739dc7b7ca3645d4f496641a9466ddd9216371c5a",
+  "response_sha256": "0e85acb0ca2ef4995f04ed6de4ee2b24651717576907493a0f22a5802d099868"
+}

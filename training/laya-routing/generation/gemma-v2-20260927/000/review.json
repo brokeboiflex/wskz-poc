@@ -1,0 +1,6 @@
+{
+  "decision": "reject",
+  "note": "Kontekst i zakonczona historia poprawione, wszystkie zamiary HR. Pole quotation nadal nie zawiera cytatu mimo jawnej instrukcji; odrzucenie przed treningiem. W kolejnym kontrakcie cytat i dalsza wypowiedz beda osobnymi polami z bezstratnym polaczeniem.",
+  "result_sha256": "e4a0cee4ccab88eebfce34e6cafe7be91486732301c7f0d550190f35e253345a",
+  "time": 1790527934.9702148
+}

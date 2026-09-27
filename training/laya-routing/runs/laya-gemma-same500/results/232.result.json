@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/vpn-single/base",
+  "family": "help_desk/vpn-single",
+  "message": "Pracuję dziś z domu i na moim laptopie połączenie VPN zatrzymuje się przed zalogowaniem. Internet działa, a koleżanka łączy się z firmą normalnie. Proszę o pomoc w sprawdzeniu ustawień klienta na moim urządzeniu i przywróceniu dostępu do zasobów.\n\nKomunikat pojawia się przed prośbą o kod uwierzytelniający. Na ekranie jest nazwa nieaktualnego profilu połączenia z poprzedniego laptopa. Nie wiem, czy mogę go samodzielnie usunąć, dlatego potrzebuję pomocy w sprawdzeniu prawidłowej konfiguracji.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2841837920132093,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4fae56198c73e41f8e7ff103e00c44fdb50064a5ecddb16123ade7bb3f2b37db",
+  "response_sha256": "3ad7aa3ba8be8fb5a27dfa7b141a602014fb5645ea80705fe280eaea9b0e2e7f"
+}

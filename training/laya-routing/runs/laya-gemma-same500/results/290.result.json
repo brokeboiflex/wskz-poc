@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/remote-desktop-single/base",
+  "family": "help_desk/remote-desktop-single",
+  "message": "Ze swojego laptopa nie mogę uruchomić zdalnego pulpitu, choć na zapasowym urządzeniu loguję się poprawnie tym samym kontem. Pozostałe osoby pracują normalnie. Proszę o pomoc w konfiguracji klienta na moim komputerze oraz sprawdzenie zapisanego adresu połączenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2104174590203911,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "090ad73d7aef14b40d25901801c424ab4305b52e7b4e1240acb6c5b887210348",
+  "response_sha256": "9836e40d3a0f8d359f31be36984752c13841a5f2bfe3bb61d9aaa295a644bcc1"
+}

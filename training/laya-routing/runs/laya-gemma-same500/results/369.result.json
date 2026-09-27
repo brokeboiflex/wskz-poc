@@ -1,0 +1,13 @@
+{
+  "id": "it/vulnerability/forwarded_history",
+  "family": "it/vulnerability",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nSkan bezpieczeństwa wykazał krytyczną podatność w wersji oprogramowania na naszym publicznym serwerze. Potrzebujemy oceny narażenia i zaplanowania poprawki w uzgodnionym oknie serwisowym. Proszę o zajęcie się zabezpieczeniem tej usługi oraz potwierdzenie usunięcia podatności po aktualizacji.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWarsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.25674195800093,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9b317c7dbe160c7bee33e22743d28c81bed822331a24d262df2e9a992b4a9329",
+  "response_sha256": "63bfcf6176f6a381f8a8ea95bb9190c47f150f5e0996eeaadd57792a2d98f6d2"
+}

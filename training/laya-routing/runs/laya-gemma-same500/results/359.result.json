@@ -1,0 +1,13 @@
+{
+  "id": "it/data-exposure/forwarded_history",
+  "family": "it/data-exposure",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZauważyłem, że katalog z wewnętrznymi dokumentami można otworzyć bez logowania z publicznego internetu. Nie powinien być dostępny poza firmą. Proszę o pilne zabezpieczenie zasobu, sprawdzenie zakresu udostępnionych danych i przeanalizowanie, czy ktoś nieuprawniony mógł je pobrać.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nPomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.25353225000435486,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "60e6312ac31a2804c36970e3750e0624bcabb85bdd65ee84e849918ea21769a2",
+  "response_sha256": "5d8247dd4149660820f90354f22cd7838c64a5db81fbb2f7af33e3e9a9339cbd"
+}

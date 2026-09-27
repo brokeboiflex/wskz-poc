@@ -1,0 +1,13 @@
+{
+  "id": "other/thank-you/base",
+  "family": "other/thank-you",
+  "message": "Dziękuję za wcześniejszą pomoc i szybki kontakt. Sprawa, o której rozmawialiśmy, jest już zakończona i nie potrzebuję dalszych działań. Chciałem tylko przekazać, że doceniam zaangażowanie osoby, która mi pomogła. Nie zgłaszam w tej wiadomości żadnego nowego problemu.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.2166235840122681,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f2d21067be513bab6a4c8813806ee95aa0b7c1a20ebadb370dd1b383ce07263a",
+  "response_sha256": "5b9278141f2ef45b158240254b35fa650c1aa09968a3f57362cdf6a0a9db2ce0"
+}

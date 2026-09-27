@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nNa serwerze przetwarzającym zadania firmowe zabrakło wolnego miejsca i zatrzymała się kolejka operacji. Problem wpływa na wszystkie zlecane zadania od dzisiejszego poranka. Potrzebne jest sprawdzenie przyrostu danych, bezpieczne przywrócenie miejsca i uruchomienie zatrzymanej usługi wraz z oczekującymi zadaniami.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

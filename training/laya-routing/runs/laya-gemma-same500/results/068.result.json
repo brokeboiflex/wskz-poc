@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/values-workshop/base",
+  "family": "human_resources/values-workshop",
+  "message": "Nowo połączone zespoły mają różne zwyczaje dotyczące spotkań, odpowiedzialności i przekazywania informacji. Potrzebujemy warsztatu, na którym ustalimy wspólne zasady współpracy. Proszę pomóc przygotować scenariusz i poprowadzić rozmowę tak, aby każda grupa mogła przedstawić swoje potrzeby.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19418716701329686,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "921b93645cd7dd9489277f21f957ace01be2bc0ce058a3aaad96f1e8eecca730",
+  "response_sha256": "eff9587bf0ac10d3ac0f205c117a58b22c7ec36d7a412f99fd5c77f263fa4aab"
+}

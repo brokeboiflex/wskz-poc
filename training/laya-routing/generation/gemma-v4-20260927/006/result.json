@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 10.6191737500194,
+  "response_sha256": "bfa05de1b3dc67797561394a169b36b418a5ebcd993a35a5f63c5eb376c523bf",
+  "request_sha256": "af47fcda3ac1ec046df33e0ffb3c97125ccd1b8023bda9e18e9e52b0b57614c5",
+  "messages": [
+    {
+      "style": "short",
+      "message": "Zorganizuj zadanie praktyczne dla kandydatów na redaktorów teraz."
+    },
+    {
+      "style": "context",
+      "message": "Potrzebuję zorganizować praktyczne zadanie dla kandydatów na stanowisko redaktora. Chciałbym ustalić szczegóły dotyczące tego procesu rekrutacyjnego. Proszę o pomoc w przygotowaniu materiałów szkoleniowych dla kandydatów."
+    },
+    {
+      "style": "resolved_history",
+      "message": "Wcześniej omówiliśmy kwestie związane z procesem rekrutacyjnym. Obecnie musimy zorganizować zadanie praktyczne dla kandydatów na redaktorów. Proszę o pomoc w przygotowaniu materiałów szkoleniowych dla nich."
+    },
+    {
+      "style": "quotation",
+      "message": "„Organizacja zadania praktycznego dla kandydatów na redaktorów.” Chciałbym zorganizować zadanie praktyczne dla kandydatów na redaktorów. Proszę o pomoc w przygotowaniu materiałów szkoleniowych dla nich."
+    },
+    {
+      "style": "informal",
+      "message": "Trzeba zorganizować zadanie dla redaktorów. Pomóż mi przygotować materiały szkoleniowe dla nich."
+    }
+  ]
+}

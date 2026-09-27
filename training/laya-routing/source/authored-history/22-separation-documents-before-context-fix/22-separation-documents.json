@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:24:31.676037+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 texts individually read and checked against10 frozen definitions and policy. Request routing/editorial review only, no benchmark, model-score or legal-advice access.",
+  "source_sha256": "05f2c01d8ae1b543591dbb578ce7584d5a4ff18219e4c6cc2560d97c01509b7c",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/22-separation-documents.txt",
+      "sha256": "05f2c01d8ae1b543591dbb578ce7584d5a4ff18219e4c6cc2560d97c01509b7c"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": false,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 49,
+    "route_ambiguous_due_to_missing_employment_context": 1,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 49,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 1
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "payroll-006",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-008",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-011",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-014",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-017",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-019",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-020",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-048",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-049",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-054",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "severity": "blocking",
+          "variant": "context",
+          "message_index": 1,
+          "category": "missing_routing_context",
+          "finding": "The certificate is not identified as an employment certificate. Its absence-record correction is underspecified without the hidden scenario."
+        }
+      ]
+    }
+  ],
+  "batch_findings": [],
+  "notes": "The other49 messages preserve their precise document or insurance action and include adequate employment context. Old issues are explicitly closed and quotations have recognizable sources.",
+  "limits": [
+    "Initial quality review only; final cross-split and benchmark exclusions remain mandatory.",
+    "This is not final training-data acceptance."
+  ]
+}

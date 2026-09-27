@@ -1,0 +1,69 @@
+payroll-067
+Proszę wyjaśnić wypłatę dodatku za moje zatwierdzone nadgodziny.
+Dodatkowe godziny zostały zaakceptowane przez przełożonego. Chcę zrozumieć rozliczenie należnego dodatku w wypłacie. Proszę objaśnić, jak go wypłacono.
+Proszę wyjaśnić wypłatę dodatku za zaakceptowane nadgodziny. Problem z logowaniem został naprawiony, mam już dostęp do paska. Samo naliczenie wymaga dla mnie objaśnienia.
+Kierownik napisał: „Nadgodziny zostały zatwierdzone do rozliczenia”. Proszę wyjaśnić wypłatę należnego za nie dodatku.
+Nadgodziny zatwierdzone, ale nie rozumiem dodatku na wypłacie. Wyjaśnicie jego rozliczenie?
+
+payroll-068
+Chcę rozliczyć pracę w niedzielę przez udzielenie dnia wolnego.
+Pracowałam w niedzielę i zamierzam odebrać za nią wolny dzień. Proszę pomóc ustalić i odnotować takie rozliczenie czasu pracy.
+Zgubiony identyfikator został zastąpiony i mogę wejść do biura. Zwracam się o rozliczenie przepracowanej niedzieli poprzez udzielenie dnia wolnego.
+Przełożona potwierdziła: „Za tę niedzielę otrzymasz dzień wolny”. Proszę odnotować i uzgodnić takie rozliczenie mojej pracy.
+Pracowałem w niedzielę i chcę odebrać dzień wolny. Załatwicie rozliczenie w tej formie?
+
+payroll-070
+Proszę sprawdzić dodatek naliczony za moją pracę w porze nocnej.
+W ostatnim okresie miałem nocne zmiany. Chcę zweryfikować, czy należny dodatek za te godziny został prawidłowo naliczony. Proszę sprawdzić rozliczenie.
+Sprawdźcie proszę mój dodatek za pracę w nocy. Usterka wyświetlania grafiku została usunięta i mam potwierdzenie godzin. Potrzebuję weryfikacji należności.
+Na pasku jest pozycja: „Dodatek nocny”. Proszę sprawdzić jej zgodność z moimi przepracowanymi godzinami w porze nocnej.
+Dodatek za nocki chyba się nie zgadza. Sprawdzicie naliczenie według moich godzin?
+
+payroll-082
+Proszę poprawić rozliczenie przekroczenia średniotygodniowej normy czasu pracy.
+Po zamknięciu okresu widzę nieprawidłowo rozliczone godziny ponad normę średniotygodniową. Proszę zweryfikować przekroczenie i skorygować rozliczenie mojego czasu pracy.
+Sprawa dostawy materiałów została zamknięta. Proszę skorygować rozliczenie godzin wynikających z przekroczenia średniotygodniowej normy czasu pracy.
+W zestawieniu wskazano: „Przekroczenie normy średniotygodniowej”, lecz rozliczenie jest niezgodne z zapisanymi godzinami. Proszę je poprawić.
+Źle rozliczono mi przekroczenie normy średniotygodniowej. Sprawdzicie godziny i zrobicie korektę?
+
+payroll-092
+Wnioskuję o czas wolny zamiast wynagrodzenia za moje nadgodziny.
+Chciałabym odebrać przepracowane nadgodziny jako wolne, zamiast otrzymać za nie pieniądze. Proszę przyjąć mój wniosek i uzgodnić taką formę rozliczenia.
+Proszę rozliczyć moje nadgodziny czasem wolnym zamiast wypłatą, zgodnie z moim wnioskiem. Służbowy laptop został już naprawiony. To osobna sprawa dotycząca rozliczenia godzin.
+W przesłanym wniosku napisałem: „Proszę o czas wolny za nadgodziny”. Chcę zamienić wynagrodzenie za te godziny na wolne i proszę odnotować tę dyspozycję.
+Wolę odebrać nadgodziny jako wolne niż dostać kasę. Składam taki wniosek, pomożecie zmienić rozliczenie?
+
+payroll-093
+Kiedy zostaną wypłacone moje nadgodziny po zamknięciu okresu rozliczeniowego?
+Okres rozliczeniowy zakończył się, a nadgodziny zostały podsumowane. Potrzebuję informacji o terminie ich wypłaty. Proszę ustalić datę rozliczenia pieniężnego.
+Błąd otwierania zestawienia godzin już naprawiono. Proszę ustalić termin wypłaty nadgodzin po zamknięciu ostatniego okresu rozliczeniowego.
+Przełożona poinformowała: „Okres jest zamknięty, nadgodziny podliczone”. Proszę wskazać, kiedy nastąpi ich wypłata.
+Okres rozliczeniowy zamknięty. Kiedy wypłacicie moje nadgodziny? Potrzebuję daty.
+
+payroll-095
+Jak naliczany jest dodatek za moją pracę w święto?
+Wykonywałem obowiązki w dniu świątecznym. Chciałbym zrozumieć sposób obliczenia dodatku w wynagrodzeniu. Proszę wyjaśnić zasady naliczenia tej pozycji.
+Proszę wyjaśnić sposób naliczenia dodatku za przepracowane święto. Zaległa przesyłka dotarła, wcześniejsze zgłoszenie nie wymaga już działań.
+Na pasku widnieje: „Dodatek za pracę w święto”. Proszę objaśnić, jak obliczono go za mój przepracowany dzień.
+Pracowałam w święto. Jak policzono dodatek do pensji za ten dzień? Możecie wyjaśnić?
+
+payroll-107
+Proszę sprawdzić rozliczenie dodatkowych godzin przy moim niepełnym etacie.
+Pracuję na część etatu i wykonałam więcej godzin niż zwykle zaplanowane. Chcę sprawdzić, jak rozliczono ten dodatkowy czas. Proszę zweryfikować zestawienie i należność.
+Przywrócono mi dostęp do dokumentów. Proszę sprawdzić rozliczenie dodatkowych godzin, które przepracowałem jako osoba zatrudniona na niepełny etat.
+W umowie mam zapis: „Połowa etatu”. Przepracowałem dodatkowe godziny i proszę sprawdzić ich rozliczenie przy takim wymiarze zatrudnienia.
+Jestem na część etatu i dorobiłem dodatkowe godziny. Sprawdzicie, jak je rozliczono?
+
+payroll-109
+Proszę skorygować pominięte nadgodziny zatwierdzone po zamknięciu listy płac.
+Przełożony zaakceptował moje nadgodziny już po przygotowaniu wypłat. Nie zostały więc ujęte na zamkniętej liście. Proszę wprowadzić korektę pominiętego rozliczenia.
+Potrzebuję korekty nadgodzin pominiętych, ponieważ zatwierdzono je po zamknięciu listy płac. Problem z drukarką jest rozwiązany. Proszę uwzględnić dostarczone potwierdzenie godzin.
+Kierownik napisał: „Zatwierdziłem nadgodziny po zamknięciu listy płac”. Proszę skorygować rozliczenie, które tych godzin nie uwzględniło.
+Moje nadgodziny szef zatwierdził dopiero po zamknięciu wypłat i wypadły z listy. Dopiszecie korektę?
+
+payroll-112
+Proszę wyjaśnić bilans czasu wolnego udzielonego za pracę poza grafikiem.
+Odbierałam wolne za dodatkową pracę w terminach niewskazanych w grafiku. Nie rozumiem pozostałego bilansu godzin. Proszę objaśnić, jak rozliczono udzielony czas wolny.
+Naprawiono już błąd wyświetlania ewidencji. Proszę wyjaśnić bilans wolnego, które otrzymałem za pracę poza ustalonym grafikiem.
+W ewidencji jest pozycja: „Wolne za pracę poza grafikiem”. Proszę wyjaśnić bilans udzielonych i pozostałych godzin w tym rozliczeniu.
+Nie łapię bilansu wolnego za pracę poza grafikiem. Wyjaśnicie, ile odebrałem i co zostało?

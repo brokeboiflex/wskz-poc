@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-return/base",
+  "family": "payroll/leave-return",
+  "message": "Po uzgodnieniu z kierownikiem wróciłam do pracy dwa dni przed końcem zaplanowanego urlopu. Proszę o wskazanie dokumentu potwierdzającego wcześniejszy powrót i skorygowanie ewidencji. Chciałabym, aby dni, w których faktycznie pracowałam, nie pomniejszały mojego pozostałego limitu.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19862745801219717,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9468a94ab20a3fc8e36617f200e351ea6238780be8b5bf8e4313ed32ce2e51a2",
+  "response_sha256": "7a0af1c718fe082f8eddca7a4e13711ebebedd3a202a515c23ad3c9558723a03"
+}

@@ -1,0 +1,7 @@
+{
+  "input": "/Users/mini/programming/resumer/poc/message-router/training/laya-routing/data/validation.jsonl",
+  "policy": "/Users/mini/programming/resumer/poc/message-router/training/laya-routing/policy.json",
+  "output": "/Users/mini/programming/resumer/poc/message-router/training/laya-routing/work/run-20260927/validation-2",
+  "weights-sha256": "992a2a7bd5efb93f97921752b88f2a45c19ce2ec0c12bd69f0b28f7cbbfd3a5f",
+  "split": "validation"
+}

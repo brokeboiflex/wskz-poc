@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/discrimination-report/forwarded_history",
+  "family": "human_resources/discrimination-report",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nKilkukrotnie usłyszałem od współpracowników komentarze dotyczące mojego pochodzenia, także podczas rozmów z klientami. Mam zapisane daty i opis sytuacji. Chciałbym zgłosić problem poufnie i ustalić, jak wygląda procedura wyjaśniająca oraz jakie wsparcie jest dostępne dla pracownika.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nW poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2516752079827711,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3459d46a6d3760c64c813619ad50c3170a0ca09d822ae581f9f11b3aba70d6f2",
+  "response_sha256": "acaa328a002de2982cbb409b56843236427da3963ef43f37a06a17447d739fd1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/reentry-development/base",
+  "family": "human_resources/reentry-development",
+  "message": "Wracam do zespołu po dłuższej przerwie i chciałabym odświeżyć wiedzę o metodach pracy, które wprowadzono podczas mojej nieobecności. Formalności zostały już załatwione. Proszę pomóc ułożyć plan szkoleń i konsultacji, dzięki którym stopniowo odzyskam samodzielność w wykonywaniu zadań.\n\nNajwięcej zmian dotyczy sposobu planowania projektów i omawiania wyników z klientami. Materiały są dostępne, ale nie wiem, które nadal obowiązują. Pomogłoby wskazanie kolejności tematów oraz osoby, z którą mogę sprawdzić, czy poprawnie rozumiem nowe zasady.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.23548345800372772,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "071d384b54e6af191f22b77a2b5c99c4a555049f965d4dbdf23d8b8cd8671c33",
+  "response_sha256": "79ce53c7f43e76c9f8fcaa8c4ef75c5a03a9e69e69a795ea8b1773832c214a97"
+}

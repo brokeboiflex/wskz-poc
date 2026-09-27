@@ -1,0 +1,13 @@
+{
+  "id": "it/hypervisor/conversation_history",
+  "family": "it/hypervisor",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nKilka maszyn wirtualnych zatrzymało się równocześnie po alarmie na jednym hoście klastra. Monitoring nie widzi części usług produkcyjnych. Proszę o sprawdzenie platformy wirtualizacji oraz bezpieczne przywrócenie pracy maszyn na dostępnych zasobach, z uwzględnieniem stanu ich danych.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2463821249839384,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "06cef55b32816ff8df68a26272c0b5486ecd98225d5574ccb4c1564338e46732",
+  "response_sha256": "3e9ad1bef339e2949660a3d465bebebd375d323beac7bf2c20a9b7937fa52ca9"
+}

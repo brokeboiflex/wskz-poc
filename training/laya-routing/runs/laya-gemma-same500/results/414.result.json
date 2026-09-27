@@ -1,0 +1,13 @@
+{
+  "id": "other/translation/base",
+  "family": "other/translation",
+  "message": "Czy możecie przetłumaczyć na angielski krótkie zaproszenie na moje urodziny i zachować nieformalny ton? Chcę napisać znajomym, że spotykamy się w sobotę po południu i każdy może przynieść ulubioną przekąskę.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.1910973749763798,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3cc5ecc148b7ebd3371cba89743771a33e536315fbf7dea779f306c1cc97c588",
+  "response_sha256": "454e2494acea59a60b62f7f7ab519c0795dd9503f25bf43859effbe2d3c4d801"
+}

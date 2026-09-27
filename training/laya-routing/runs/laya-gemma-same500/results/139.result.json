@@ -1,0 +1,13 @@
+{
+  "id": "payroll/sick-pay/forwarded_history",
+  "family": "payroll/sick-pay",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPrzez kilka dni w zeszłym miesiącu przebywałem na zwolnieniu. Otrzymana wypłata różni się od mojego oszacowania, dlatego chciałbym zrozumieć sposób naliczenia wynagrodzenia za ten okres. Proszę sprawdzić, jakie dni nieobecności przyjęto i jak wpłynęły na poszczególne składniki wypłaty.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nZapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.262742667022394,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "93fff179e19285661faf797ee78e3d21cd2952b424b6ebfff6f438ab14a22959",
+  "response_sha256": "1ba2d5eff880ac779d216b93c7235c193042053ad07b433c991b41c4db22d1b2"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/camera/base",
+  "family": "help_desk/camera",
+  "message": "Kamera w moim laptopie pokazuje czarny obraz we wszystkich aplikacjach do spotkań. Osłona obiektywu jest odsunięta, a ponowne uruchomienie nie pomogło. Za godzinę mam rozmowę z kandydatem. Czy ktoś może pomóc uruchomić kamerę przed tym spotkaniem?",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19662041700212285,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0175f4de5aeda1ae63d4787c14ea008db704a5889f8cfe0623acfb35a0a47379",
+  "response_sha256": "551e0e9a2e42594d0fa47d6cd8a4b17d42936410cd5d90cb029324b886c58ca0"
+}

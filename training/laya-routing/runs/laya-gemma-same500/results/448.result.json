@@ -1,0 +1,13 @@
+{
+  "id": "other/recycling/base",
+  "family": "other/recycling",
+  "message": "Porządkuję mieszkanie i mam opakowania złożone z papieru oraz folii, których nie potrafię rozdzielić. Chciałabym wiedzieć, jak sprawdzić właściwy sposób ich segregacji w swojej gminie. Czy możecie wskazać, gdzie szukać informacji?",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.20842512499075383,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cc982ce74e40a48ba00a22fb800980cd731711d0f9fb79da05636c1107516e64",
+  "response_sha256": "efb38253783ac943bec79736ee15317645dabfb51caf5975fc69eb9c7b9e6a27"
+}

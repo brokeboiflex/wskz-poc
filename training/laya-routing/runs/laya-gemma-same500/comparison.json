@@ -1,0 +1,39 @@
+{
+  "laya": {
+    "correct": 432,
+    "protocol_errors": 0,
+    "median_seconds": 0.23064593749586493,
+    "p95_seconds": 0.34602666599676013,
+    "sum_request_seconds": 119.98104424917256
+  },
+  "gemma": {
+    "correct": 493,
+    "protocol_errors": 0,
+    "median_seconds": 1.7999999999999998,
+    "p95_seconds": 2.59,
+    "sum_request_seconds": 909.394
+  },
+  "median_speedup": 7.804169540303612,
+  "per_department": {
+    "help_desk": {
+      "laya": 100,
+      "gemma": 99
+    },
+    "human_resources": {
+      "laya": 87,
+      "gemma": 99
+    },
+    "it": {
+      "laya": 86,
+      "gemma": 100
+    },
+    "other": {
+      "laya": 60,
+      "gemma": 99
+    },
+    "payroll": {
+      "laya": 99,
+      "gemma": 96
+    }
+  }
+}

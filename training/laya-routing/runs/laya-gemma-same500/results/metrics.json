@@ -1,0 +1,110 @@
+{
+  "count": 500,
+  "correct": 432,
+  "accuracy": 0.864,
+  "macro_f1": 0.8587970584543128,
+  "protocol_errors": 0,
+  "per_class": {
+    "human_resources": {
+      "support": 100,
+      "precision": 0.8613861386138614,
+      "recall": 0.87,
+      "f1": 0.8656716417910447
+    },
+    "payroll": {
+      "support": 100,
+      "precision": 0.9166666666666666,
+      "recall": 0.99,
+      "f1": 0.9519230769230769
+    },
+    "help_desk": {
+      "support": 100,
+      "precision": 0.7575757575757576,
+      "recall": 1.0,
+      "f1": 0.8620689655172413
+    },
+    "it": {
+      "support": 100,
+      "precision": 0.8686868686868687,
+      "recall": 0.86,
+      "f1": 0.864321608040201
+    },
+    "other": {
+      "support": 100,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75
+    }
+  },
+  "confusion": {
+    "human_resources": {
+      "human_resources": 87,
+      "payroll": 2,
+      "help_desk": 9,
+      "it": 2,
+      "other": 0,
+      "None": 0
+    },
+    "payroll": {
+      "human_resources": 1,
+      "payroll": 99,
+      "help_desk": 0,
+      "it": 0,
+      "other": 0,
+      "None": 0
+    },
+    "help_desk": {
+      "human_resources": 0,
+      "payroll": 0,
+      "help_desk": 100,
+      "it": 0,
+      "other": 0,
+      "None": 0
+    },
+    "it": {
+      "human_resources": 0,
+      "payroll": 1,
+      "help_desk": 13,
+      "it": 86,
+      "other": 0,
+      "None": 0
+    },
+    "other": {
+      "human_resources": 13,
+      "payroll": 6,
+      "help_desk": 10,
+      "it": 11,
+      "other": 60,
+      "None": 0
+    }
+  },
+  "families": 250,
+  "family_all_correct": 198,
+  "family_mean_accuracy": 0.864,
+  "family_cluster_bootstrap": {
+    "clusters": 250,
+    "all_correct": 198,
+    "mean_cluster_accuracy": 0.864,
+    "accuracy_percentile_95_interval": [
+      0.824,
+      0.898
+    ],
+    "bootstrap_repetitions": 2000,
+    "seed": 42,
+    "limitation": "Synthetic clustered bootstrap is descriptive; few broad groups and common author limit generalization."
+  },
+  "semantic_group_cluster_bootstrap": null,
+  "latency_seconds": {
+    "median": 0.23064593749586493,
+    "p95": 0.3488192920049187
+  },
+  "contract": {
+    "input_sha256": "bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e",
+    "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+    "weights_sha256": "1b69c0e79d45ee9decac6bc0840985652448b8c28af59a30ecdf7f04628098a8",
+    "split": "regression",
+    "endpoint": "http://127.0.0.1:18091/v1/chat/completions",
+    "script_sha256": "80ed217848cbb61a442f0bf48fdbe7ece4311135dfd198d192b7e09430d27d9c"
+  },
+  "review_complete": true
+}

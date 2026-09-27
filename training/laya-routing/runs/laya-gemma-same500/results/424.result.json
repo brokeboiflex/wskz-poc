@@ -1,0 +1,13 @@
+{
+  "id": "other/sewing/base",
+  "family": "other/sewing",
+  "message": "Chciałabym skrócić zasłony w mieszkaniu i zastanawiam się, jak równo wyznaczyć linię podwinięcia. Mam podstawowe przybory do szycia, ale niewielkie doświadczenie. Czy możecie opisać kolejność czynności i sposób sprawdzenia długości przed ostatecznym zszyciem materiału?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.215946874988731,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7c76de9d7a4cb5da049d7b1a0ad7febdc885f7e6aa5ac7077d13aee4128dccbe",
+  "response_sha256": "d0a01f959a9189fa8934100cd9bf2cc5057e04e4def88b63dd4d4e7ccd659935"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/restore-server/resolved_postscript",
+  "family": "it/restore-server",
+  "message": "Po awarii hosta potrzebujemy odtworzyć całą maszynę wirtualną obsługującą system zamówień z ostatniej poprawnej kopii. To uzgodniona operacja przywrócenia usługi dla firmy. Proszę o przeprowadzenie odtworzenia na zapasowym hoście i weryfikację działania serwera przed udostępnieniem użytkownikom.\n\nPS. Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.23638425001990981,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "502250803dfb94af14aae07aa8ad221402c70025f906114bd7e91d4831be4d42",
+  "response_sha256": "215680b625df3423ca55c187e2503196a3a5af16d51da9da74b3eb3537568e2b"
+}

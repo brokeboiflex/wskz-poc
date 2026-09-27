@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/mfa-new-phone/base",
+  "family": "help_desk/mfa-new-phone",
+  "message": "Wymieniłem telefon i nie przeniosłem aplikacji generującej kody do logowania. Hasło działa, ale nie mogę przejść drugiego etapu uwierzytelniania. Stary telefon został wyczyszczony. Proszę o pomoc w ponownej konfiguracji uwierzytelniania dla mojego konta po potwierdzeniu tożsamości.\n\nNowy telefon ma ten sam numer, jednak aplikacja uwierzytelniająca jest pusta. Przy próbie logowania na komputerze system wymaga zatwierdzenia na poprzednim urządzeniu, do którego nie mam już dostępu. Nie zapisałem wcześniej kodów zapasowych i nie chcę wielokrotnie wybierać przypadkowych opcji.\n\nZmiana telefonu była planowana, urządzenie nie zostało zgubione ani skradzione. Mogę potwierdzić swoją tożsamość osobiście w biurze albo przez uzgodnioną procedurę z przełożonym. Potrzebuję ponownie powiązać aplikację z własnym kontem. Proszę wskazać, co przygotować przed kontaktem, żebym nie musiał przerywać konfiguracji z powodu brakujących informacji. Sam dostęp do internetu na obu urządzeniach jest sprawny.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.32324320799671113,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d9a7fcfb05352fe40adbbc990c9c4c691b3e647dab27d70745081b715bf5fa40",
+  "response_sha256": "58dc39f7fd2d32be44d0558573145bf5c51f86c48c851fa026bd7184f2caa819"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "validation_completed_training_stopped",
+  "epoch2_validation_count": 500,
+  "epoch2_validation_correct": 443,
+  "accuracy": 0.886,
+  "macro_f1": 0.8825885928198579,
+  "resumed_indices": [
+    386,
+    499
+  ],
+  "further_training_or_evaluation_authorized": false
+}

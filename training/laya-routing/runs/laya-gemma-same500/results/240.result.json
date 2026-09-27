@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/mail-signature/base",
+  "family": "help_desk/mail-signature",
+  "message": "Po wymianie komputera zniknął mój firmowy podpis w programie pocztowym. Mam zatwierdzony wzór, ale nie wiem, jak dodać go do nowej konfiguracji. Proszę o pomoc techniczną w ustawieniu podpisu, aby pojawiał się automatycznie przy wysyłaniu wiadomości.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.20979008401627652,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6eb1459804139899d74977f1905c684f9c02ca1e3ca3f11e50143722baceab5b",
+  "response_sha256": "74e326827edf319088bedbd742f58e57b786dd83c1027857afe6bbbdcadf0ead"
+}

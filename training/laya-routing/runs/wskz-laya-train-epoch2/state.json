@@ -1,0 +1,17 @@
+{
+  "State": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-27T19:49:26.910665879Z",
+    "FinishedAt": "2026-09-27T20:18:30.953313298Z"
+  },
+  "Image": "sha256:4d0ffa68273f122a8bb1db1a14d1503b7cca218c91d05c4970ede69601107989",
+  "Memory": 10737418240
+}

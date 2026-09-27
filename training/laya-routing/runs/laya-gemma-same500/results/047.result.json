@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/exclusion/conversation_history",
+  "family": "human_resources/exclusion",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nOd czasu powrotu do zespołu nie jestem zapraszana na spotkania, na których ustala się zadania dotyczące mojego stanowiska. Prośby o włączenie mnie do rozmów nie przynoszą rezultatu. Chciałabym omówić tę sytuację z osobą, która może pomóc przywrócić właściwą współpracę.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2381179170042742,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8dc0aeb38d4327e1f311de6573e9b17f04d718208d3b97fc5057dfda1c041dcc",
+  "response_sha256": "f8e5add81c6f22f2287fe6e2556da7ba45c14a0b616dfaaaa1af0e3a0e9416db"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "payroll/referral-bonus-pay/resolved_postscript",
+  "family": "payroll/referral-bonus-pay",
+  "message": "Premia za polecenie pracownika została mi przyznana i zatwierdzona miesiąc temu. Nie pytam o zasady programu ani rekrutację tej osoby. Proszę sprawdzić, dlaczego świadczenie nie pojawiło się na pasku wynagrodzenia i w którym terminie zostanie wypłacone.\n\nOsoba odpowiedzialna za program potwierdziła spełnienie warunków i przekazanie decyzji do wypłaty. W wiadomości wskazano bieżący miesiąc. Mam to potwierdzenie i mogę je dołączyć, jeżeli pomoże ustalić, na którym etapie zatrzymało się rozliczenie.\n\nPS. Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.273362250009086,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f7cea206839fd513982f0756957bdc7affae787c44c7d110ca83db7525fecb86",
+  "response_sha256": "9624796e35b1131574e2bb1edd490c7859dd26581075a4910e26f2d98a9b92d6"
+}

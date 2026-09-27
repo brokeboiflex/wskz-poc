@@ -1,0 +1,69 @@
+other-000
+Proszę naprawić zablokowaną mechaniczną roletę w sali.
+Roleta sterowana ręcznie nie daje się podnieść. Sprzęt w sali jest sprawny. Potrzebujemy naprawy mechanizmu zasłony okiennej.
+Proszę odblokować mechaniczną roletę w sali. Komputer już naprawiono i działa. Pozostał wyłącznie problem z ręcznym mechanizmem rolety.
+Koleżanka zgłosiła: „Ręczna roleta utknęła i nie da się jej ruszyć”. Sprzęt sali działa. Proszę naprawić mechanizm rolety.
+Roleta w sali zacięła się mechanicznie. Sprzęt działa, naprawicie samo ręczne zwijanie?
+
+other-001
+Pod zlewem w kuchni biurowej jest przeciek; proszę go usunąć.
+Woda zbiera się w szafce pod kuchennym zlewem. Proszę zorganizować naprawę nieszczelnej instalacji w biurze.
+Moje hasło już odblokowano. Proszę usunąć przeciek pod zlewem w kuchni biurowej, bo nadal zbiera się tam woda.
+Osoba sprzątająca zgłosiła: „Pod zlewem w kuchni cieknie”. Proszę zorganizować naprawę tego przecieku w biurze.
+Cieknie pod zlewem w biurowej kuchni. Załatwicie naprawę instalacji?
+
+other-002
+Proszę naprawić uszkodzony zamek w drzwiach do pomieszczenia.
+Klucz nie obraca mechanizmu i nie możemy poprawnie zamknąć pokoju. Proszę zająć się fizycznym zamkiem w drzwiach.
+Proszę wymienić lub naprawić uszkodzony zamek drzwi pokoju. Problem z moim dostępem do poczty już rozwiązano. Chodzi o mechanizm na klucz.
+Kolega powiedział: „Zamek w tych drzwiach nie przekręca się”. Proszę naprawić fizyczne zamknięcie pomieszczenia.
+Zamek w drzwiach pokoju się zepsuł, klucz nie działa. Ogarniecie naprawę?
+
+other-005
+Proszę wymienić przepaloną żarówkę nad stołem w sali.
+Jedna lampa nad miejscem spotkań nie świeci, ponieważ przepaliła się żarówka. Potrzebujemy jej wymiany w sali.
+Błędną kwotę pensji już poprawiono. Proszę wymienić przepaloną żarówkę nad stołem w sali spotkań.
+Pracownik zgłosił: „Żarówka nad stołem się przepaliła”. Proszę zorganizować wymianę oświetlenia w tym miejscu sali.
+Żarówka nad stołem w sali padła. Wymienicie ją proszę?
+
+other-006
+Spłuczka w toalecie budynku przecieka; proszę ją naprawić.
+Woda bez przerwy płynie z mechanizmu toalety. Proszę zorganizować naprawę cieknącej spłuczki w budynku.
+Proszę naprawić spłuczkę w toalecie, z której ciągle leci woda. Mój komputer już działa po naprawie. Pozostała usterka sanitarna.
+Osoba korzystająca z toalety zgłosiła: „Spłuczka cały czas cieknie”. Proszę zająć się naprawą w budynku.
+Spłuczka w toalecie leje bez końca. Załatwicie naprawę?
+
+other-007
+Proszę uzgodnić sprzątanie zabrudzonej wspólnej kuchni.
+Blaty i podłoga w kuchni wymagają posprzątania po ostatnim użyciu. Potrzebujemy ustalić wykonanie sprzątania wspólnego pomieszczenia.
+Dokument zatrudnienia już odebrałam. Proszę zorganizować sprzątanie zabrudzonej kuchni wspólnej w biurze.
+Koleżanka napisała: „Wspólna kuchnia została bardzo brudna”. Proszę uzgodnić jej posprzątanie.
+W kuchni wspólnej jest bałagan i brud. Dogadacie sprzątanie pomieszczenia?
+
+other-009
+Proszę naprawić krzesło biurowe z uszkodzonym oparciem.
+Oparcie mojego krzesła nie trzyma pozycji i jest poluzowane. Potrzebuję naprawy mebla używanego przy biurku.
+Proszę zająć się uszkodzonym oparciem krzesła biurowego. Monitor już wymieniono i działa. Chodzi wyłącznie o naprawę mebla.
+Kolega obejrzał krzesło i powiedział: „Oparcie jest uszkodzone”. Proszę naprawić ten mebel biurowy.
+Oparcie mojego krzesła biurowego się rozleciało. Pomożecie załatwić naprawę?
+
+other-010
+Okno w pokoju nie domyka się; proszę zgłosić naprawę.
+Skrzydło okienne nie przylega do ramy i pozostaje szczelina. Potrzebujemy naprawy okna w pomieszczeniu biurowym.
+Moje rozliczenie godzin już skorygowano. Proszę naprawić niedomykające się okno w naszym pokoju.
+Koleżanka zgłosiła: „Tego okna nie da się do końca zamknąć”. Proszę zorganizować naprawę okna w pomieszczeniu.
+Okno w pokoju nie chce się domknąć. Załatwicie kogoś do naprawy?
+
+other-011
+W toalecie brakuje mydła i ręczników; proszę je uzupełnić.
+Dozownik jest pusty, a zapas ręczników papierowych się skończył. Proszę dostarczyć oba środki do toalety budynku.
+Proszę uzupełnić mydło oraz ręczniki w toalecie. Awaria drukarki została już usunięta. Teraz brakuje materiałów sanitarnych.
+Osoba sprzątająca poinformowała: „Nie ma już mydła ani ręczników”. Proszę uzupełnić zapasy w toalecie.
+Skończyło się mydło i ręczniki w toalecie. Doniesiecie zapas?
+
+other-012
+Proszę naprawić ogrzewanie w zwykłym pokoju biurowym.
+Grzejnik w pomieszczeniu, gdzie siedzą pracownicy, pozostaje zimny. To pokój biurowy, bez serwerów. Proszę zorganizować naprawę ogrzewania.
+Proszę przywrócić ogrzewanie naszego pokoju biurowego. System komputerowy już działa po naprawie. Zimny grzejnik dotyczy zwykłego pomieszczenia, nie serwerowni.
+Kolega napisał: „Grzejnik w naszym pokoju jest zupełnie zimny”. Proszę naprawić ogrzewanie tego zwykłego biura, bez związku z serwerownią.
+W pokoju biurowym nie grzeje kaloryfer. Nie chodzi o serwerownię, tylko nasze biuro. Załatwicie naprawę?

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/conference-development/base",
+  "family": "human_resources/conference-development",
+  "message": "Znalazłem konferencję dotyczącą zarządzania projektami, której program odpowiada moim celom rozwojowym. Chciałbym omówić możliwość uczestnictwa w ramach planu szkoleniowego. Proszę o informację, kto ocenia wartość takiego wydarzenia i jakie uzasadnienie powinienem przygotować przed podjęciem decyzji.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2103237500123214,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7f309a6934afa2c83a8be9408a4aeae6ba0c37c3d66ed56aba5e4114e06313be",
+  "response_sha256": "4d6bc3ced83a86a94fd00106b0a4baad9a1d81cfdcbe345894e997c706f6eae8"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "payroll/payroll-login-resolved/forwarded_history",
+  "family": "payroll/payroll-login-resolved",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nDostęp do portalu pracowniczego już działa i mogę otworzyć wszystkie zestawienia. Nadal jednak widzę błędne saldo urlopu, ponieważ nie uwzględniono zatwierdzonego anulowania wniosku. Proszę o merytoryczne sprawdzenie ewidencji i przywrócenie dni, które nie zostały wykorzystane.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nHasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2553302499873098,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ded305306ac84e24da443803366aa05fad6138c91eb05684d43ed34c88a84b4d",
+  "response_sha256": "c91e0e7bb1c655a5b349b46ddf52247d6cf93824a58197cb805b72360fa33165"
+}

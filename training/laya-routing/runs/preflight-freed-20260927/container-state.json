@@ -1,0 +1,18 @@
+{
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": true,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 137,
+    "Error": "",
+    "StartedAt": "2026-09-27T15:41:39.118315792Z",
+    "FinishedAt": "2026-09-27T15:42:20.09516913Z"
+  },
+  "image": "sha256:4d0ffa68273f122a8bb1db1a14d1503b7cca218c91d05c4970ede69601107989",
+  "memory": 7549747200,
+  "memory_swap": 7549747200
+}

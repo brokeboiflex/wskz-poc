@@ -1,0 +1,11 @@
+{
+  "index": 3,
+  "family": {
+    "family": "human_resources-006",
+    "label": "human_resources",
+    "split": "train",
+    "semantic_group": "human_resources:recruitment_process",
+    "scenario": "Weryfikacja referencji kandydata za jego zgodą."
+  },
+  "time": 1790529031.786422
+}

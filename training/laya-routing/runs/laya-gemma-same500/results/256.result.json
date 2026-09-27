@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/disk-full/base",
+  "family": "help_desk/disk-full",
+  "message": "Mój komputer zgłasza brak wolnego miejsca i nie zapisuje już nowych plików. Nie chcę usuwać firmowych dokumentów na własną rękę, ponieważ nie wiem, które katalogi są potrzebne. Proszę o pomoc w bezpiecznym uporządkowaniu lokalnego dysku i sprawdzeniu przyczyny jego zapełnienia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.1904349579999689,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5b6d0c13780e2887b40cc8b494762ad61f7f8e9e83159e6e602161854eea0a53",
+  "response_sha256": "f841e01570f2448c0c9d079ff7305426297bf036e626208c1701edfb30fd3a43"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/keyboard-layout/resolved_postscript",
+  "family": "help_desk/keyboard-layout",
+  "message": "Po przypadkowym naciśnięciu skrótu klawiaturowego nie mogę wpisywać polskich znaków, a niektóre klawisze dają inne litery. Problem występuje tylko na moim komputerze. Proszę o pomoc w przywróceniu właściwego układu klawiatury i wskazanie, jak uniknąć ponownego przełączenia.\n\nPS. Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.22836712500429712,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "fc19296f3e6b4609537ba6a37f6a9670fe3b2cbaa723eaa5caf26abb42c1b917",
+  "response_sha256": "35e37a08125b6ea39e702b37bbba05e70b4c488744da6a59c34fb9b654e3ae84"
+}

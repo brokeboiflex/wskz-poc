@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-number/base",
+  "family": "other/unknown-number",
+  "message": "Cześć, co z numerem 4827? Mam tylko taki zapis w notesie. Możecie sprawdzić i dać znać?",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.16988616698654369,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9a7229f8a02e4020ba64762aebab21aaf2c9d192d5fd11501f0bdde5ebf4621a",
+  "response_sha256": "32af94922bc9dc6405ff0d866494932d9bf26f593ec5c5451d28370969c0e3f5"
+}

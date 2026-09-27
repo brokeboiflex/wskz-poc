@@ -1,0 +1,13 @@
+{
+  "id": "other/supplier-offer/base",
+  "family": "other/supplier-offer",
+  "message": "Dzień dobry, reprezentuję dostawcę materiałów opakowaniowych i chciałbym przedstawić ofertę pudeł kartonowych dla Państwa firmy. Proszę o wskazanie osoby odpowiedzialnej za zakupy tego rodzaju produktów. Nie ubiegam się o zatrudnienie, tylko o możliwość nawiązania współpracy handlowej.\n\nMamy kilka standardowych rozmiarów i możliwość przygotowania próbnego zestawu do oceny. Zanim prześlę katalog, chciałbym upewnić się, że trafi do osoby zajmującej się zaopatrzeniem. Jeśli firma nie kupuje takich materiałów, wystarczy krótka odpowiedź.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.22986662498442456,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "42c974a628d563e75299f8c7b0fb901df413d1b4d00e44afb513b8a5da2d409b",
+  "response_sha256": "d0398f11b32752ac055be9af959e0fbeaf5bfd88227b9bcd39b089ae2ac9a769"
+}

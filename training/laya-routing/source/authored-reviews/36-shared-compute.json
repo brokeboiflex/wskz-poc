@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:43:38.149412+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages read individually and compared with10 exact frozen definitions, policy and manual approach. No corpus authorship, old benchmark, scores or inference.",
+  "source_sha256": "c8f3d2079e8387e3e22d4dac0dfaea3a0107765c5b9c64407d49857b6196a822",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/36-shared-compute.txt",
+      "sha256": "c8f3d2079e8387e3e22d4dac0dfaea3a0107765c5b9c64407d49857b6196a822"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "it-000",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-002",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-003",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-004",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-005",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-006",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-007",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-010",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-011",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-015",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "All50 variants retain the exact shared service and failure: application host availability, lost cluster node, scheduler non-start, organisation-wide application gateway errors, container resource exhaustion, unfinished reporting jobs, central event-log ingestion, growing shared queue, environment-wide VM boot errors and reverse-proxy forwarding. Log ingestion remains distinct from personal login. Shared infrastructure scope is independently clear in every message. Histories are concrete and closed, quotes attributed, with no active-task drift or target department names.",
+  "limits": [
+    "Initial quality review only; final semantic/lexical exclusions remain mandatory.",
+    "Five variants are correlated within each family; no training-data acceptance."
+  ]
+}

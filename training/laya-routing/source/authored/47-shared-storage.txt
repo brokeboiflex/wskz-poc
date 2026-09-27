@@ -1,0 +1,69 @@
+it-064
+Wspólny serwer plików nie udostępnia katalogów żadnemu działowi.
+Wszystkie zespoły straciły dostęp do folderów na centralnym serwerze. Proszę sprawdzić usługę plikową i przywrócić udostępnianie katalogów organizacji.
+Proszę przywrócić katalogi wspólnego serwera plików dla wszystkich działów. Mój problem z klawiaturą już naprawiono. Awaria obejmuje centralną usługę.
+Monitoring zgłasza: „Udziały plikowe niedostępne”. Żaden dział nie widzi katalogów. Proszę naprawić wspólny serwer plików.
+Centralny serwer nie daje folderów żadnemu działowi. Sprawdzicie wspólne udziały?
+
+it-068
+Klaster bazy firmowej aplikacji utracił dostępny węzeł podstawowy.
+W środowisku bazodanowym nie ma aktywnego serwera pełniącego rolę podstawową. Proszę zdiagnozować klaster i przywrócić działanie bazy aplikacji.
+Rozliczenie mojego urlopu jest zakończone. Proszę zająć się klastrem bazy danych firmowej aplikacji, który utracił dostępny węzeł podstawowy.
+Panel klastra pokazuje: „Brak dostępnego węzła podstawowego”. Proszę przywrócić działanie bazy danych aplikacji organizacji.
+Klaster bazy naszej aplikacji stracił primary. Potrzebna interwencja przy wspólnej bazie.
+
+it-072
+Centralna baza nie zapisuje danych po wyczerpaniu identyfikatorów sekwencji, mimo wolnego dysku.
+Pula identyfikatorów została wykorzystana i nowe zapisy są odrzucane. Przestrzeń dyskowa jest dostępna. Proszę naprawić sekwencję w centralnej bazie danych.
+Proszę przywrócić zapisy w centralnej bazie po wyczerpaniu puli identyfikatorów sekwencji. Mój monitor już naprawiono. Miejsca na dysku bazy nie brakuje.
+Baza zgłasza: „Sekwencja osiągnęła limit identyfikatorów”. Dysk ma wolne miejsce. Proszę usunąć przyczynę zatrzymania zapisów w centralnej bazie.
+Centralna baza skończyła identyfikatory sekwencji i blokuje zapisy, dysk ma miejsce. Naprawicie sekwencję?
+
+it-079
+Długa transakcja we wspólnej bazie blokuje zapytania wielu aplikacji.
+Systemy organizacji czekają na dostęp, ponieważ jedna transakcja utrzymuje blokady. Proszę sprawdzić centralną bazę i przywrócić wykonywanie zapytań.
+Zaświadczenie do zatrudnienia już otrzymałem. Proszę zająć się długą transakcją blokującą zapytania wielu aplikacji we wspólnej bazie.
+Monitoring bazy wskazuje: „Zapytania oczekują na blokadę długiej transakcji”. Dotyczy wielu aplikacji. Proszę podjąć interwencję w bazie.
+Jedna długa transakcja blokuje zapytania kilku aplikacji. Sprawdzicie wspólną bazę danych?
+
+it-082
+Centralny zasób dokumentów osiągnął limit pojemności całej organizacji.
+Żaden zespół nie może dodać nowych plików do wspólnego repozytorium. Został osiągnięty jego limit. Proszę zapewnić dalszą pojemność centralnego zasobu.
+Proszę zająć się limitem pojemności centralnego zasobu dokumentów dla całej firmy. Błąd mojej pensji już skorygowano. Wspólne miejsce jest pełne.
+Repozytorium pokazuje: „Osiągnięto limit pojemności organizacji”. Proszę przywrócić możliwość zapisywania dokumentów we wspólnym zasobie.
+Centralne miejsce na dokumenty jest pełne dla wszystkich. Ogarniecie pojemność wspólnego zasobu?
+
+it-085
+Replikacja produkcyjnej bazy między serwerami ma duże opóźnienie.
+Dane na zapasowym serwerze pozostają daleko za aktualnym stanem bazy produkcyjnej. Proszę zdiagnozować i naprawić opóźnioną replikację.
+Naprawa mojego laptopa jest zakończona. Proszę sprawdzić duże opóźnienie replikacji produkcyjnej bazy danych pomiędzy serwerami.
+Monitoring zgłasza: „Wysokie opóźnienie replikacji”. Dotyczy serwerów bazy produkcyjnej. Proszę przywrócić sprawne przekazywanie danych.
+Replikacja produkcyjnej bazy mocno została w tyle między serwerami. Sprawdzicie opóźnienie?
+
+it-096
+Wspólny system przechowywania obiektów zwraca błędy wielu usługom.
+Różne aplikacje nie mogą odczytać ani zapisać danych w centralnym zasobie obiektowym. Proszę zdiagnozować wspólny system przechowywania.
+Proszę naprawić system przechowywania obiektów zgłaszający błędy wielu usługom. Rozliczenie moich godzin już poprawiono. Awaria dotyczy wspólnego zasobu.
+Usługi zgłaszają: „Błąd dostępu do magazynu obiektowego”. Problem występuje w wielu aplikacjach. Proszę sprawdzić centralny system przechowywania.
+Magazyn obiektowy sypie błędami wielu usługom. Zajmiecie się wspólnym storage?
+
+it-112
+Proszę zaplanować migrację danych wspólnego serwera plików między macierzami.
+Chcemy przenieść centralne udziały na inną macierz dyskową. Potrzebny jest plan migracji danych serwera plików. Proszę przygotować kolejność i sposób wykonania.
+Moje zaświadczenie już wydano. Proszę zaplanować przeniesienie danych wspólnego serwera plików między macierzami dyskowymi.
+W planie infrastruktury zapisano: „Przenieść dane serwera plików na nową macierz”. Proszę opracować migrację wspólnych zasobów.
+Dane wspólnego serwera plików mają przejść na inną macierz. Zaplanujecie migrację?
+
+it-115
+Proszę odtworzyć działanie firmowej bazy danych po uszkodzeniu indeksów.
+Baza aplikacji działa nieprawidłowo z powodu uszkodzonych struktur indeksowych. Potrzebujemy przywrócenia sprawności bazy organizacji. Proszę podjąć naprawę.
+Proszę przywrócić działanie bazy firmy po uszkodzeniu indeksów. Moja lokalna drukarka już działa. Problem dotyczy centralnych danych aplikacji.
+Diagnostyka bazy wskazuje: „Uszkodzone indeksy”. Proszę odtworzyć poprawne działanie firmowej bazy danych po tej awarii.
+Uszkodziły się indeksy firmowej bazy. Pomożecie odtworzyć jej działanie?
+
+it-119
+Centralna pamięć masowa zgłasza utratę jednej ścieżki dostępu.
+Infrastruktura przechowywania danych działa z brakującym torem połączenia. Proszę sprawdzić utraconą ścieżkę dostępu do wspólnej pamięci masowej.
+Wypłatę dodatku już rozliczono. Proszę zareagować na utratę jednej ścieżki dostępu zgłaszaną przez centralną infrastrukturę pamięci masowej.
+Panel zasobu pokazuje: „Jedna ścieżka dostępu niedostępna”. Proszę sprawdzić centralną pamięć masową i przywrócić połączenie.
+Centralny storage zgubił jedną ścieżkę dostępu. Sprawdzicie tor połączenia?

@@ -1,0 +1,13 @@
+{
+  "id": "it/restore-server/base",
+  "family": "it/restore-server",
+  "message": "Po awarii hosta potrzebujemy odtworzyć całą maszynę wirtualną obsługującą system zamówień z ostatniej poprawnej kopii. To uzgodniona operacja przywrócenia usługi dla firmy. Proszę o przeprowadzenie odtworzenia na zapasowym hoście i weryfikację działania serwera przed udostępnieniem użytkownikom.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.20069312502164394,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d22ede5d587725d865e176d77297246fa7ab709441cc42f522b1b05c77274f6b",
+  "response_sha256": "9c73e9ccf1b6c1cb37f746c368cacb4e1a3adc443f9f85973ee244854bd10543"
+}

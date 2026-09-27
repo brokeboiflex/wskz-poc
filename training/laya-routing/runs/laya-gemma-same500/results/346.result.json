@@ -1,0 +1,13 @@
+{
+  "id": "it/sso-outage/base",
+  "family": "it/sso-outage",
+  "message": "Pracownicy z kilku oddziałów równocześnie stracili możliwość logowania do wszystkich aplikacji korzystających z firmowego SSO. Zmiana hasła pojedynczej osoby niczego nie rozwiązuje. Proszę o sprawdzenie centralnej usługi uwierzytelniania i przywrócenie jej dostępności dla organizacji.\n\nObjaw jest wspólny dla poczty, systemu zamówień i portalu pracowniczego. Osoby z aktywną sesją czasem jeszcze pracują, ale każda nowa próba logowania kończy się błędem. Proszę sprawdzić zależności centralnego uwierzytelniania, zanim zaczniemy resetować konta użytkowników.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.24084295801003464,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "37409e6837ba487872279bd13a0738140b75a304e285fa8970aca50c1115929b",
+  "response_sha256": "d9128036ad7bf20e535f0491c6cc04eabdc51cd5ecad3871cc352b33a168ed84"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/new-hire-login/base",
+  "family": "help_desk/new-hire-login",
+  "message": "To mój pierwszy dzień pracy. Spotkania wdrożeniowe i dokumenty są już przygotowane, ale przekazane konto nie pozwala zalogować się do laptopa. Pojawia się komunikat o nieprawidłowej nazwie użytkownika. Proszę o pomoc w uruchomieniu dostępu na moim stanowisku.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.21330816598492675,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "82ae5a7d872593d135f02aeb0e910baba681ba883c63b509ee925622de212673",
+  "response_sha256": "6d880e0eac7d94a26adf9e0c945e575f78abeb819627967eb834aa177aa2ef0b"
+}

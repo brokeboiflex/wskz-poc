@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/bluetooth/quoted_history",
+  "family": "help_desk/bluetooth",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nNowa mysz bezprzewodowa nie pojawia się w ustawieniach Bluetooth mojego laptopa. Włączyłem tryb parowania i wymieniłem baterię, ale komputer nadal jej nie wykrywa. Proszę o pomoc w połączeniu tych urządzeń, ponieważ obecnie mogę korzystać wyłącznie z gładzika.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.25098858299315907,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "73ee163aee3f604a27d0ecd68799ebded65ca0bbe513dad158dd70a877d509e1",
+  "response_sha256": "677ab1ff1ea5f85bc614684ca1a26f59ea8b65c0bddf81167733929461758f08"
+}

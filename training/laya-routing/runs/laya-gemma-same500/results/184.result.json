@@ -1,0 +1,13 @@
+{
+  "id": "payroll/salary-currency/base",
+  "family": "payroll/salary-currency",
+  "message": "W umowie mam wynagrodzenie określone w złotych, a na zestawieniu przelewu pojawił się opis sugerujący inną walutę. Chciałbym upewnić się, że kwota została naliczona poprawnie. Proszę o weryfikację danych rozliczenia i potwierdzenie wartości wynagrodzenia należnego za ten miesiąc.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19666570800472982,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1e69c743a3c58c56d883ffe305686ba31a149770835b3c4e6e5b551d2bf45aeb",
+  "response_sha256": "2057e72bbc890784c6adb3b529b4ad4a99df134678bcbd666624bd57a688fcf2"
+}

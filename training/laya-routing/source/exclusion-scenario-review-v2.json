@@ -1,0 +1,200 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-09-27T17:06:50.172228+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "plan_sha256": "e022ef413734939e34a85503ab086180ad0d862a1396fa04cc56b131212001de",
+  "approved_for_generation": false,
+  "data_accepted_for_training": false,
+  "scope": "Narrow semantic exclusion review of exactly 13 changed definitions against benchmark, smoke, 16 train reservations and all remaining 587 current definitions. No inference or training. Unchanged assessments inherited only through exact diff and hash-bound prior audit.",
+  "inputs": {
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "e022ef413734939e34a85503ab086180ad0d862a1396fa04cc56b131212001de"
+    },
+    "replacements": {
+      "path": "poc/message-router/training/laya-routing/source/replacements-20260927.json",
+      "sha256": "6c2a7ab60b21cf2096a6208369bdbc3bb68aff230347577c0e1b78e64180a069"
+    },
+    "prior_plan": {
+      "path": "poc/message-router/training/laya-routing/source/history/pre-exclusion-20260927/scenarios.json",
+      "sha256": "9a20ee73e24d79943415584ac8aabb91cc34a6cdb0d3f3b5cc6c911f5394fc2f"
+    },
+    "prior_exclusion_review": {
+      "path": "poc/message-router/training/laya-routing/source/history/pre-exclusion-20260927/exclusion-scenario-review.json",
+      "sha256": "3bea8b68fc87f7810e253372b27bdfae97f85081444519b977dcd99214e540b9"
+    },
+    "benchmark": {
+      "path": "poc/message-router/verification/benchmark/cases-500.json",
+      "sha256": "bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e"
+    },
+    "smoke": {
+      "path": "poc/message-router/verification/cases.json",
+      "sha256": "34b55ac3f3854c93547500fa60e7b4344dc41f42c1be31a0fb9c016d91da131b"
+    },
+    "preflight": {
+      "path": "poc/message-router/training/laya-routing/preflight-train.jsonl",
+      "sha256": "d2a006979f14c870e29436a62ab9dff1a62ac295e1b4ed2320488db1272a65a3"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    }
+  },
+  "diff_verified": {
+    "changed_scenario_definitions": 13,
+    "changed_ids_labels_groups_splits": 0,
+    "total_families": 600,
+    "total_semantic_groups": 60,
+    "split_family_counts": {
+      "train": 400,
+      "validation": 100,
+      "test": 100
+    }
+  },
+  "verdict": "one_targeted_definition_exclusion_required; not_whole_plan_rejection",
+  "high_confidence_exclude_family_ids": ["payroll-013"],
+  "changed_family_counts": {
+    "reviewed": 13,
+    "eligible_for_generation": 12,
+    "high_confidence_near_duplicate": 1,
+    "cross_split_collisions": 0,
+    "held_out_preflight_collisions": 0
+  },
+  "decision_threshold": {
+    "high_confidence_near_duplicate": "Definition-level collision of a concrete incident signature: a distinctive combination of antecedent/condition, affected object/scope and active requested action. This is a conservative exclusion under the frozen-case protocol, not a claim that an unwritten generated message is a textual duplicate.",
+    "broader_task_overlap": "Only shared task, service, skill, symptom family or policy intent, with insufficient distinctive event configuration to infer a near-duplicate. These are not automatic exclusions.",
+    "same_department_only": "Not recorded as a collision.",
+    "authorship": "The plan was authored and frozen before this exclusion audit without reading old messages. Similarity alone does not prove benchmark-derived authorship, deliberate leakage or overfitting.",
+    "preflight": "Known resource-probe scenarios are reserved for train; a match in train is permitted by that reservation. None of the identified preflight matches crosses into validation/test."
+  },
+  "interpretation_limits": [
+    "This reviews short scenario definitions, not the five generated messages. Generation can add or remove distinctive context, so final text-level and semantic audits remain mandatory.",
+    "No model predictions, errors, accuracy or selection outcomes were used.",
+    "References are identifiers only; no old message text, rationale, suggested replacement or rewritten scenario is reproduced.",
+    "Broader-overlap links are illustrative semantic links, not an exhaustive catalogue of all possible generic matches.",
+    "Unflagged definitions are eligible for generation, not certified free of all future leakage and not accepted training data.",
+    "The existing500 remain known regression evidence; this exclusion review does not make them a virgin generalization test.",
+    "Confidence is qualitative reviewer judgment about scenario resemblance, not a statistical probability."
+  ],
+  "reservation_notes": "All16 resource-probe scenarios remain train-only. Replacements remove the prior direct mapping of preflight005 to payroll002, preflight010 to it046, and preflight012 to it030; remaining relevant leave, backup and DNS definitions are still train. This is not a finding that the16 resource-probe examples are benchmark-disjoint.",
+  "assessments": [
+    {
+      "family": "human_resources-087",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "human_resources-095",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "payroll-002",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "payroll-013",
+      "split": "train",
+      "status": "high_confidence_near_duplicate",
+      "benchmark_references": ["payroll/leave-return"],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "payroll-025",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "help_desk-080",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "it-030",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "it-046",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "it-088",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "it-094",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "it-104",
+      "split": "train",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "it-091",
+      "split": "validation",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    },
+    {
+      "family": "it-072",
+      "split": "test",
+      "status": "eligible_for_generation",
+      "benchmark_references": [],
+      "cross_split_near_duplicate_identified": false,
+      "preflight_held_out_collision_identified": false,
+      "label_consistent_with_policy": true
+    }
+  ],
+  "generated_data_status": "No generated examples reviewed or accepted. Historical attempts under the old plan must not enter current corpus."
+}

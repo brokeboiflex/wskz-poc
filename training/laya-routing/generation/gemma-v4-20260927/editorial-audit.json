@@ -1,0 +1,7 @@
+{
+  "approved_for_training": false,
+  "excluded_entire_run": true,
+  "reason": "Independent critic found intent drift in003 and006, weak non-specific histories002-006, repetitive quotations. Prior local editorial accepts do not constitute final data acceptance.",
+  "blocking_families": ["human_resources-006", "human_resources-009"],
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+}

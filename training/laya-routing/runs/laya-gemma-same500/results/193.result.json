@@ -1,0 +1,13 @@
+{
+  "id": "payroll/worktime-report/resolved_preface",
+  "family": "payroll/worktime-report",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\n\nOsobna, aktualna wiadomość:\nChciałbym otrzymać zestawienie moich godzin pracy i nieobecności z poprzedniego kwartału. Potrzebuję go do porównania z paskami wynagrodzenia. Proszę wskazać sposób złożenia wniosku o udostępnienie ewidencji oraz termin, w którym przygotowany raport będzie dostępny do odbioru.\n\nChodzi o zestawienie z podziałem na dni, a nie tylko sumę miesięczną. W kilku tygodniach zamieniałem się zmianami i chcę uporządkować własne zapisy. Jeżeli obowiązuje formularz wniosku o kopię ewidencji, proszę o jego udostępnienie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2757727080024779,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "dea11f35cbaabeddc83092904cb29fcff1ff0511d1d336e907eebe61b07b8a10",
+  "response_sha256": "122f5e86cffcdf896430b5d1be9fcb4de8fe7467a5c0fe77463dd2b5f72f0bba"
+}

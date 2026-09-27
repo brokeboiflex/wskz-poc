@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/boot-loop/base",
+  "family": "help_desk/boot-loop",
+  "message": "Po wczorajszym zamknięciu systemu mój komputer uruchamia się w kółko i nie dochodzi do ekranu logowania. Odłączyłam dodatkowe urządzenia, ale sytuacja się powtarza. Proszę o pomoc z tym stanowiskiem; pozostałe komputery w naszym zespole działają bez problemu.\n\nNa ekranie pojawia się logo producenta, następnie krótko komunikat o przygotowywaniu naprawy i urządzenie zaczyna wszystko od początku. Nie dochodzę do pulpitu. Mogę pozostawić laptop podłączony w biurze, jeżeli potrzebna będzie dłuższa diagnostyka.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2323553330206778,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a5895168232030a3fa035ea318e7b40cb5864a16ef0adef26e75c113caa5ef18",
+  "response_sha256": "1bbc2fbbda7ea558f0163e44027042d2f1ff3d5548eb23fd777c37b2adcf3097"
+}

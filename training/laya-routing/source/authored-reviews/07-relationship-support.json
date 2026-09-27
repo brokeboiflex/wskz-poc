@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:04:37.801211+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 texts individually read and compared to10 frozen scenario definitions. Initial semantic/editorial quality, no benchmark access or inference.",
+  "source_sha256": "c79016be4d4fa64748b4d74d6d44050713c805f856a133fc84d977b0138bd47e",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/07-relationship-support.txt",
+      "sha256": "c79016be4d4fa64748b4d74d6d44050713c805f856a133fc84d977b0138bd47e"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    },
+    "prior_review": {
+      "path": "poc/message-router/training/laya-routing/source/authored-history/07-before-context-fix/07-relationship-support.json",
+      "sha256": "07b593bb9f3dd2f8a45af917a624e7ec0a92a9397b0ba71ca8594a3242b5735a"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "route_ambiguous_due_to_missing_workplace_context": 0,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "human_resources-100",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-101",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-103",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-108",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-109",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-110",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-112",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-114",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-118",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-119",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "history_variation": {
+    "non_prefix_history_families": [
+      "human_resources-101",
+      "human_resources-109",
+      "human_resources-112",
+      "human_resources-118"
+    ],
+    "count": 4,
+    "verdict": "Meaningful order variation confirmed. Closed old matter appears after the active request or, for097, between sentences about it. Current request remains unambiguous."
+  },
+  "limits": [
+    "The8 varied histories across these2 batches reduce the previously identified order pattern; they do not establish diversity of the complete future corpus.",
+    "Cross-split and benchmark exclusion reviews remain outstanding.",
+    "This report is not final training-data acceptance."
+  ],
+  "delta_verification": {
+    "changed_family": "human_resources-110",
+    "variant": "context",
+    "changed_messages": 1,
+    "unchanged_messages": 49,
+    "correction_accepted": true,
+    "notes": "Explicit workplace relationship restored. Exact active request preserved."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/training-platform-login/base",
+  "family": "help_desk/training-platform-login",
+  "message": "Jestem zapisana na kurs i organizator potwierdził moje miejsce. Problem polega na tym, że platforma szkoleniowa odrzuca hasło mojego konta, także po ponownym wpisaniu. Proszę o pomoc z logowaniem, abym mogła otworzyć materiały przed rozpoczęciem zajęć.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19055491700419225,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "89a7551fd601fd263339a847c300f66a0c81d7baa8ae11aaed4ab80edad3e823",
+  "response_sha256": "6b1e4b21e8c8db05b7ea05172e1a67500695dd2c0194513df153705647f5d36d"
+}

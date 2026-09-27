@@ -1,0 +1,13 @@
+{
+  "id": "other/car/base",
+  "family": "other/car",
+  "message": "Chciałbym uporządkować harmonogram przeglądów mojego prywatnego samochodu. Nie wiem, które informacje odczytać z książki serwisowej, aby nie pominąć wymiany podstawowych elementów. Czy możecie wskazać, jak przygotować listę czynności do omówienia z warsztatem?",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.18671083298977464,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d41cf96662abdee2ede579df88ba7647db8721ba34a8efcf09b1316d191482e1",
+  "response_sha256": "2e95e62438762c12dc6babbb384021f4f3f93e5c8eef963d5611e4f78f080ae6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/application-status/resolved_preface",
+  "family": "human_resources/application-status",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nOsobna, aktualna wiadomość:\nDwa tygodnie temu przesłałem CV na stanowisko koordynatora magazynu i otrzymałem potwierdzenie przyjęcia aplikacji. Od tamtej pory nie mam informacji o dalszych etapach. Proszę sprawdzić, czy rekrutacja nadal trwa i kiedy kandydaci mogą spodziewać się odpowiedzi.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2646392500028014,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "81c8cba6edd6b2d6d3880afb881548c4c79b2f5a2747ab9ac8856245977761d9",
+  "response_sha256": "aa0b46d6d507ffe49102d93484269e6299bbaec0da1f9ec3bf89e392a24a74bc"
+}

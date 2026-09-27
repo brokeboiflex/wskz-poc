@@ -1,0 +1,13 @@
+{
+  "id": "payroll/contract-data/conversation_history",
+  "family": "payroll/contract-data",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPo zmianie nazwiska potrzebuję zaktualizować dane w dokumentach pracowniczych i rozliczeniach wynagrodzenia. Proszę wskazać wymagany formularz oraz sposób okazania dokumentu potwierdzającego zmianę. Chciałabym mieć pewność, że kolejne zaświadczenia będą wystawiane z prawidłowymi danymi.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.24156900000525638,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f4518e176bd05f28ecdc8a674ec9be0dc4ff4b5611bf101432ec1b9e7140a8ee",
+  "response_sha256": "cc817423c2b22ec053d11eb694aa4ba054552e69b432f9b5d4acf0f887c19244"
+}

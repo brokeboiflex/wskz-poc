@@ -1,0 +1,13 @@
+{
+  "id": "other/car/forwarded_history",
+  "family": "other/car",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nChciałbym uporządkować harmonogram przeglądów mojego prywatnego samochodu. Nie wiem, które informacje odczytać z książki serwisowej, aby nie pominąć wymiany podstawowych elementów. Czy możecie wskazać, jak przygotować listę czynności do omówienia z warsztatem?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nUdział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.2906361250206828,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e79f59e390318f53251e22796648fe47c2ef366a19c81f5fb815575a1b268fcc",
+  "response_sha256": "6f9426016b48d68053d23ac6d4e928a74d1252ef6d31399d17286b0a678c7e30"
+}

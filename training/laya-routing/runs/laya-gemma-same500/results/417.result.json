@@ -1,0 +1,13 @@
+{
+  "id": "other/math/conversation_history",
+  "family": "other/math",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPomagam dziecku przygotować się do sprawdzianu i utknęliśmy przy obliczaniu pola trapezu. Czy możecie wyjaśnić prostymi słowami, skąd bierze się odpowiedni wzór i jak go zastosować?",
+  "expected": "other",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.22743666599853896,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cc90c10fb2f87b73d42eb00914165fd973215bb3d2e7468341e54eecf11e24d0",
+  "response_sha256": "70b9ea093216883bfb57ee6fca7db32bb489cf68ecdbb1d7e8624270738ac5ec"
+}

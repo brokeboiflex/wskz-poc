@@ -1,0 +1,13 @@
+{
+  "id": "it/directory-replication/forwarded_history",
+  "family": "it/directory-replication",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZmiany kont wprowadzone na jednym kontrolerze domeny nie pojawiają się na drugim. Powoduje to niespójne uprawnienia wielu użytkowników zależnie od miejsca logowania. Proszę o diagnostykę replikacji i przywrócenie spójnego działania infrastruktury katalogowej.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nStary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2528838329890277,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "54e18d3cdaaadbd11239aca5df20c92ec539f5cec08f03a092dd0db783d21b8c",
+  "response_sha256": "ad09ef769d1ac1896561132727101dc5e2c36f490a3b1208e0bc9e97900f2402"
+}

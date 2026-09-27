@@ -1,0 +1,13 @@
+{
+  "id": "payroll/payroll-login-resolved/base",
+  "family": "payroll/payroll-login-resolved",
+  "message": "Dostęp do portalu pracowniczego już działa i mogę otworzyć wszystkie zestawienia. Nadal jednak widzę błędne saldo urlopu, ponieważ nie uwzględniono zatwierdzonego anulowania wniosku. Proszę o merytoryczne sprawdzenie ewidencji i przywrócenie dni, które nie zostały wykorzystane.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19401391700375825,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1c415a0489c7df8d7ad448f6d3ff0228dc40748df3c893f62d287662fbd4a15b",
+  "response_sha256": "b4cfc5b76562fdb578cf257fab23e29cc9531df8f1a913bf5495c5f18f7ad5e7"
+}

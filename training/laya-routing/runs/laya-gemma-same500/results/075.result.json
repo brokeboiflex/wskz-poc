@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/training-accessibility/resolved_postscript",
+  "family": "human_resources/training-accessibility",
+  "message": "W przyszłym miesiącu biorę udział w szkoleniu wdrożeniowym. Ze względu na słaby wzrok potrzebuję materiałów w dostępnej wersji tekstowej oraz większej czcionki w ćwiczeniach. Proszę uzgodnić to z organizatorem zajęć przed spotkaniem, abym mogła pracować samodzielnie z pozostałymi uczestnikami.\n\nPS. Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.23227316598058678,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d8f1c2ac9db2b197855b3d9384e14365e7c28534aea06e610fa859c2115bd154",
+  "response_sha256": "3ccc94e5b20cd3e87f953c8478cef5a35d5c1b5d83fcc48c6ef8e33b7c343e09"
+}

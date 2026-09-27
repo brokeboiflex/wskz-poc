@@ -1,0 +1,11 @@
+{
+  "index": 5,
+  "family": {
+    "family": "human_resources-008",
+    "label": "human_resources",
+    "split": "train",
+    "semantic_group": "human_resources:recruitment_process",
+    "scenario": "Informacja o etapie trwającej rekrutacji bez żądania oceny kompetencji."
+  },
+  "time": 1790529099.694271
+}

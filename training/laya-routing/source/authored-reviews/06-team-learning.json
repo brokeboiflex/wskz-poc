@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:03:03.750950+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 texts individually read and compared to10 frozen scenario definitions. Initial semantic/editorial quality, no benchmark access or inference.",
+  "source_sha256": "c7605be3e19e15a13ba5a88cca746394cc699441a7a4295c3e0594d178c95d9c",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/06-team-learning.txt",
+      "sha256": "c7605be3e19e15a13ba5a88cca746394cc699441a7a4295c3e0594d178c95d9c"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "route_ambiguous_due_to_missing_workplace_context": 0,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "human_resources-087",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-088",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-090",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-092",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-093",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-095",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-096",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-097",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-098",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-099",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "history_variation": {
+    "non_prefix_history_families": [
+      "human_resources-087",
+      "human_resources-090",
+      "human_resources-095",
+      "human_resources-097"
+    ],
+    "count": 4,
+    "verdict": "Meaningful order variation confirmed. Closed old matter appears after the active request or, for097, between sentences about it. Current request remains unambiguous."
+  },
+  "limits": [
+    "The8 varied histories across these2 batches reduce the previously identified order pattern; they do not establish diversity of the complete future corpus.",
+    "Cross-split and benchmark exclusion reviews remain outstanding.",
+    "This report is not final training-data acceptance."
+  ]
+}

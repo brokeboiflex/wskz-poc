@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/feedback-culture/base",
+  "family": "human_resources/feedback-culture",
+  "message": "Po ostatnim przeglądzie projektu kilka osób unika zabierania głosu, bo uwagi były przekazywane w bardzo osobisty sposób. Chciałabym, abyśmy nauczyli się rozmawiać o błędach bez atakowania współpracowników. Proszę o wsparcie w przygotowaniu warsztatu i zasad konstruktywnej informacji zwrotnej.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.20000899999286048,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "908f9d28d825c176c313f8cf1d5a5b7c8553eb52678bf9bdf3a6b0e77349871e",
+  "response_sha256": "1793a4f0c5c0b2ac691f3cab4c823987de99ed04bd8ad191745328ba229d0e0b"
+}

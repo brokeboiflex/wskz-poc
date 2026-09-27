@@ -1,0 +1,17 @@
+{
+  "ready_for_training": true,
+  "review_notes": "Frozen600-family plan previously independently reviewed, including excluded benchmark scenarios. All3000 messages authored from that plan without benchmark contents or model scores. First2500 independently reviewed; final500 reviewed by author after explicit user instruction not to run critic again. Full lexical exclusions/cross-split audit and tokenization pass. Synthetic same-author corpus; generic topical overlap and formulaic style remain limitations; no-action/context-free families necessarily limit the five styles. This is not proof of general real-world performance or zero overfitting.",
+  "independently_reviewed_messages": 2500,
+  "author_only_reviewed_messages": 500,
+  "no_more_critic_user_instruction": "Ziomek oszczędzaj tokeny. Nie odpalaj juz krytyka",
+  "train_sha256": "391a5e6ba71cc2aba60db25981e1be3c9f7eae600783c10f7fb9d97edb1d68ae",
+  "validation_sha256": "ca9d5dbd46a375d92ea43e81b551c40bf5929b4036430b0aa7c98b500eeee721",
+  "test_sha256": "a5b9c76b34cc3896c2369f20828419d61fe3d06013653084dd9ed65a90cd64ba",
+  "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+  "collection_audit_sha256": "e5d6952a818880dc0f610e33592426fc2862c1c2c37db1b392906d0ed7c05286",
+  "tokenization_audit_sha256": "039698cb185dd6a04f5b5ce5f4ab3b19424000c384d2466a35753c419d75677d",
+  "scenario_exclusion_review_sha256": "ee5273202eb93271c52fb008d8620c587c99f58d7a6099262da50748010f6d2a",
+  "data_guard_sha256": "0aa7b6dcfddae9e2a49a483fea5502f7a5fd76774fa45d2b19d92ca067e969e9",
+  "old_benchmark_sha256": "bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e",
+  "smoke_sha256": "34b55ac3f3854c93547500fa60e7b4344dc41f42c1be31a0fb9c016d91da131b"
+}

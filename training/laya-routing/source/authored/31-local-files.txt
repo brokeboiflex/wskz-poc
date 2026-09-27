@@ -1,0 +1,69 @@
+help_desk-098
+Omyłkowo usunąłem własny plik z lokalnego profilu; proszę pomóc go odzyskać.
+Przez pomyłkę skasowałam dokument zapisany na moim komputerze. Potrzebuję odzyskania tego własnego pliku z lokalnego profilu użytkownika. Proszę sprawdzić dostępne możliwości.
+Proszę odzyskać mój plik, który sam omyłkowo usunąłem z lokalnego profilu. Sprawa potwierdzenia urlopu jest już załatwiona. Chodzi o pojedynczy dokument na moim komputerze.
+System potwierdził: „Plik został usunięty”. To ja skasowałam go przez pomyłkę ze swojego lokalnego profilu. Proszę pomóc odzyskać dokument.
+Skasowałem przypadkiem swój plik z komputera. Pomożecie go odzyskać z mojego profilu?
+
+help_desk-099
+Edytor nie pozwala mi zapisać dokumentu we własnym katalogu z powodu uprawnień.
+Próbuję zapisać plik w swoim folderze roboczym, ale program odmawia dostępu. Proszę poprawić uprawnienia na moim stanowisku tak, abym mógł zapisywać własne dokumenty.
+Brakującą wypłatę już otrzymałem. Proszę pomóc z odmową zapisu przez edytor we własnym katalogu z powodu lokalnych uprawnień.
+Przy zapisie w moim folderze edytor pokazuje: „Brak uprawnień do zapisu”. Proszę pomóc przywrócić możliwość zapisania własnego dokumentu na komputerze.
+Edytor nie zapisuje w moim folderze, krzyczy o uprawnienia. Sprawdzicie to na moim komputerze?
+
+help_desk-102
+Nie mogę rozpakować legalnego archiwum na swoim komputerze.
+Otrzymałam znane archiwum z materiałami do pracy, ale lokalny program nie potrafi go rozpakować. Na innym stanowisku plik działa. Proszę pomóc z moim komputerem.
+Proszę pomóc rozpakować legalne archiwum z materiałami na moim stanowisku. Korektę dokumentu zatrudnienia już wykonano. Problemem jest lokalna obsługa tego pliku.
+Program rozpakowujący u mnie pokazuje: „Nie można wypakować plików”. Archiwum pochodzi ze znanego źródła i działa kolegom. Proszę pomóc otworzyć je na moim komputerze.
+Mam zwykłe archiwum z materiałami, u innych się rozpakowuje, u mnie nie. Pomożecie z programem?
+
+help_desk-104
+Lokalny dysk mojego komputera jest pełny; potrzebuję bezpiecznego uporządkowania miejsca.
+Na pojedynczym stanowisku brakuje przestrzeni do dalszej pracy. Nie chcę przypadkowo usunąć potrzebnych dokumentów. Proszę pomóc bezpiecznie uporządkować lokalny dysk.
+Termin kursu został już ustalony. Proszę pomóc bezpiecznie zwolnić miejsce na pełnym dysku mojego komputera, zachowując potrzebne pliki.
+System pokazuje ostrzeżenie: „Za mało miejsca na dysku”. Dotyczy lokalnego dysku mojego stanowiska. Proszę pomóc uporządkować go bez utraty potrzebnych danych.
+Mój dysk jest zapchany. Pomożecie bezpiecznie zrobić miejsce, żebym nie skasował czegoś ważnego?
+
+help_desk-105
+Proszę przywrócić poprzednią wersję mojego własnego dokumentu.
+Zmieniłam plik i potrzebuję wrócić do wcześniejszej zapisanej wersji. Dokument należy do mnie i znajduje się w moich plikach roboczych. Proszę pomóc go odtworzyć.
+Potrzebuję poprzedniej wersji mojego dokumentu po nieudanej edycji. Nadgodziny już prawidłowo rozliczono. Proszę sprawdzić możliwość przywrócenia własnego pliku.
+Kolega podpowiedział: „Sprawdź historię wersji dokumentu”. Nie umiem przywrócić wcześniejszego zapisu mojego pliku, więc proszę o pomoc.
+Zepsułem sobie dokument zmianami. Pomożecie wrócić do jego poprzedniej wersji?
+
+help_desk-106
+Synchronizacja moich plików utknęła na jednym dokumencie w lokalnym kliencie.
+Na moim komputerze aplikacja synchronizująca nie przechodzi dalej przez pojedynczy plik. Pozostałym użytkownikom usługa działa. Proszę pomóc odblokować mój lokalny klient.
+Błędną datę urlopu już poprawiono. Proszę sprawdzić klienta synchronizacji moich plików, który na tym komputerze utknął przy jednym dokumencie.
+Przy tym samym pliku od dawna widnieje „Synchronizowanie”. Problem dotyczy tylko mojego klienta. Proszę pomóc odblokować synchronizację własnych dokumentów.
+Synchronizacja moich plików stoi na jednym dokumencie. Innym działa, zerkniecie na mój lokalny program?
+
+help_desk-113
+Proszę pomóc zmienić uprawnienia do mojego własnego katalogu roboczego.
+Chcę dostosować dostęp do folderu, którego jestem właścicielem na swoim stanowisku. Nie wiem, jak poprawnie ustawić uprawnienia. Proszę o pomoc w tej lokalnej zmianie.
+Proszę pomóc ustawić uprawnienia do mojego własnego katalogu roboczego. Rozliczenie premii jest już zakończone. Potrzebuję wsparcia przy konfiguracji folderu na komputerze.
+W ustawieniach mojego folderu widzę kartę „Uprawnienia”. Proszę pomóc zmienić dostęp do tego własnego katalogu roboczego we właściwy sposób.
+Chcę zmienić uprawnienia swojego folderu roboczego. Pomożecie ustawić to na moim komputerze?
+
+help_desk-116
+Mój znany pendrive nie jest widoczny na tym komputerze, bez oznak podejrzanego zdarzenia.
+Podłączam własny używany wcześniej nośnik do swojego stanowiska, ale nie pojawia się w systemie. Nie ma alertów ani innych oznak ataku. Proszę pomóc wykryć lokalny pendrive.
+Zaświadczenie już odebrałam. Potrzebuję pomocy z moim znanym pendrivem niewidocznym na jednym komputerze. Nie obserwuję niczego wskazującego na atak.
+Koleżanka sprawdziła listę dysków i powiedziała: „Twojego pendrive tu nie widać”. To mój znany nośnik, bez podejrzeń ataku. Proszę sprawdzić wykrywanie na tym stanowisku.
+Mój własny pendrive nie pokazuje się na tym komputerze. Nic podejrzanego się nie dzieje, pomożecie go wykryć?
+
+help_desk-118
+Nie mogę zmienić nazwy własnego pliku, ponieważ blokuje go proces.
+System nie pozwala przemianować mojego dokumentu, wskazując, że plik jest używany. Proszę pomóc ustalić i zwolnić lokalną blokadę procesu na moim komputerze.
+Proszę pomóc zmienić nazwę mojego pliku zablokowanego przez proces. Wniosek o urlop został przyjęty. Problem dotyczy pojedynczego dokumentu na moim stanowisku.
+Przy zmianie nazwy pojawia się: „Plik jest używany przez inny proces”. Proszę pomóc odblokować mój własny dokument na komputerze.
+Chcę zmienić nazwę swojego pliku, ale jakiś proces go trzyma. Pomożecie zdjąć blokadę?
+
+help_desk-119
+Proszę przenieść moje pliki i ustawienia na nowy komputer służbowy.
+Otrzymałem inne stanowisko i potrzebuję zachować własne dokumenty oraz konfigurację użytkownika. Proszę pomóc przenieść je ze starego komputera na nowy.
+Zmiana danych pracownika została już odnotowana. Potrzebuję przeniesienia własnych plików i ustawień użytkownika na nowy komputer służbowy.
+Przy przekazaniu laptopa usłyszałam: „Trzeba jeszcze przenieść twoje dane i ustawienia”. Proszę pomóc wykonać przeniesienie na mój nowy komputer.
+Dostałem nowy komputer do pracy. Pomożecie przenieść moje pliki i ustawienia ze starego?

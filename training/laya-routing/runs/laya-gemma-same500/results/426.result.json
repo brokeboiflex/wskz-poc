@@ -1,0 +1,13 @@
+{
+  "id": "other/furniture/base",
+  "family": "other/furniture",
+  "message": "Składam w domu regał i nie potrafię ustalić, w jakiej kolejności zamontować tylną ściankę oraz półki. Instrukcja jest mało czytelna. Czy możecie podpowiedzieć ogólne zasady bezpiecznego montażu takiego mebla?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.18468800000846386,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f2135e7506688ce9f859919998b4e4e49dfd36af9b77cc36041b461540a727ed",
+  "response_sha256": "d618ca4be17f5404d6029b85bfcaaffdf5738efa8ee4cbc222c984851b3fa0a0"
+}

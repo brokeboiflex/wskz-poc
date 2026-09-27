@@ -1,0 +1,13 @@
+{
+  "id": "other/general-contact/base",
+  "family": "other/general-contact",
+  "message": "Dzień dobry, chciałabym porozmawiać z kimś z firmy. Nie wiem, od czego zacząć i do kogo napisać. Czy ktoś może się ze mną skontaktować?",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.17888970801141113,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ee9daa2a5b892d4c3ae933c96b319dcd00699272b2df7015c705d5afe82ae616",
+  "response_sha256": "640700d5a7dbe9cae4de54e5433f6a7147682959c7e374c0aa528d99e35d3b83"
+}

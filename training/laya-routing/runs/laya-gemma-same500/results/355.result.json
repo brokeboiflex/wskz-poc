@@ -1,0 +1,13 @@
+{
+  "id": "it/compromised-account/resolved_postscript",
+  "family": "it/compromised-account",
+  "message": "W historii mojego konta widzę udane logowanie z miejsca, w którym nigdy nie byłem, a współpracownicy otrzymali ode mnie wiadomości, których nie wysyłałem. Proszę pilnie sprawdzić podejrzenie przejęcia konta, zabezpieczyć aktywne sesje i ustalić zakres nieuprawnionych działań.\n\nPS. Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.22533124999608845,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "aeace3fe8f480ed0196b220202e4e0c0c3089d8b9f31f1d494aee3a35fbbd562",
+  "response_sha256": "eafb89f85e724140c05a90c24960525d9ea0439dab7d5de37dc079de5c1a07cd"
+}

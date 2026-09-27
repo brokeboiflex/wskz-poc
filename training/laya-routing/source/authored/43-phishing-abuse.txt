@@ -1,0 +1,69 @@
+it-104
+Zgłaszam fałszywe kody jednorazowe w SMS-ach nakłaniających do oddzwonienia i podania hasła.
+Przychodzą SMS-y udające kody do logowania służbowego. Wiadomości żądają telefonu zwrotnego i ujawnienia hasła. Proszę zbadać tę próbę wyłudzenia.
+Proszę zareagować na fałszywe SMS-y z kodami, prośbą o oddzwonienie i podanie hasła służbowego. Mój problem z drukarką już naprawiono. Nie są to prawdziwe powiadomienia.
+SMS z rzekomym kodem zawiera: „Oddzwoń i podaj hasło do weryfikacji”. Proszę zbadać fałszywe kody jednorazowe używane do wyłudzenia dostępu.
+Dostaję fałszywe kody SMS do pracy i każą oddzwonić z hasłem. Sprawdzicie tę próbę wyłudzenia?
+
+it-105
+Pracownicy dostają wiadomość podszywającą się pod kierownika i żądającą hasła.
+Ktoś używa nazwiska przełożonego, aby nakłonić zespół do przekazania danych logowania. Proszę zareagować na rozsyłaną próbę wyłudzenia haseł.
+Korekta mojej pensji jest zakończona. Zgłaszam wiadomości do pracowników, które udają kierownika i żądają podania hasła. Proszę zbadać oszustwo.
+Wiadomość rzekomo od kierownika mówi: „Prześlij mi swoje hasło”. Przełożony zaprzecza jej wysłaniu. Proszę zająć się wyłudzeniem kierowanym do pracowników.
+Ktoś udaje szefa i pisze ludziom, żeby oddali hasła. Potrzebna reakcja na phishing.
+
+it-106
+Fałszywa strona logowania naśladuje portal naszej organizacji.
+Znaleźliśmy witrynę kopiującą wygląd firmowego portalu i zbierającą dane dostępowe. Proszę zbadać podszywanie się oraz zabezpieczyć pracowników przed wyłudzeniem.
+Proszę sprawdzić fałszywą stronę logowania imitującą portal organizacji. Usterkę mojego monitora już usunięto. Zgłaszam stronę służącą wyłudzeniu danych.
+Kolega ostrzegł: „Ta strona wygląda jak nasz portal, ale to fałszywe logowanie”. Proszę zbadać próbę podszycia pod organizację.
+Jest podróbka strony logowania do naszego portalu. Zajmiecie się tym wyłudzeniem?
+
+it-107
+Pracownik zeskanował podejrzany QR prowadzący do kradzieży danych logowania.
+Kod otworzył stronę wyłudzającą służbowy dostęp. Proszę zareagować na incydent po zeskanowaniu QR i sprawdzić zagrożenie dla konta pracownika.
+Zaświadczenie już otrzymałem. Proszę zbadać podejrzany kod QR, który pracownik zeskanował i który prowadzi do kradzieży danych dostępu.
+Pracownik zgłosił: „Zeskanowałem QR i trafiłem na stronę wyłudzającą login”. Proszę podjąć reakcję na zagrożenie jego służbowego konta.
+Pracownik zeskanował podejrzany QR do strony kradnącej dane logowania. Zajmiecie się incydentem?
+
+it-108
+Rozmówca podszywa się pod wsparcie techniczne i żąda zatwierdzenia obcego logowania.
+Ktoś dzwoni do pracownika, udaje firmową pomoc i nakłania do potwierdzenia sesji, której pracownik nie rozpoczął. Proszę zbadać tę próbę przejęcia dostępu.
+Proszę zareagować na telefoniczne podszywanie się pod wsparcie z prośbą o zatwierdzenie logowania. Mój urlop już rozliczono. Rozmówca nie jest uprawnioną osobą.
+Fałszywy konsultant powiedział: „Zatwierdź logowanie, to test wsparcia”. Pracownik nie inicjował sesji. Proszę zbadać próbę wyłudzenia telefonicznego.
+Ktoś dzwoni jako rzekome wsparcie i każe zatwierdzić obce logowanie. Sprawdzicie atak?
+
+it-109
+Kampania wyłudzeń używa domeny łudząco podobnej do firmowej.
+Do pracowników trafiają oszukańcze wiadomości z adresu różniącego się nieznacznie od naszej domeny. Proszę zbadać kampanię podszywającą się pod organizację.
+Mój komputer został już naprawiony. Proszę zareagować na kampanię wyłudzeń wykorzystującą podobną do firmowej domenę.
+Pracownik zauważył: „Adres wygląda jak nasz, ale domena ma zmienioną literę”. Wiadomości służą wyłudzeniu. Proszę zbadać tę kampanię.
+Rozsyłają wyłudzenia z domeny prawie jak nasza. Zajmiecie się kampanią podszywania?
+
+it-110
+Pracownicy otrzymali fałszywe zaproszenie do udostępnienia konta służbowego.
+Wiadomość udaje uprawnione zaproszenie, ale nakłania do przekazania dostępu do konta. Proszę zbadać oszustwo skierowane do pracowników.
+Proszę zająć się fałszywymi zaproszeniami do udostępniania służbowych kont. Rozliczenie mojej delegacji już zamknięto. To zgłoszenie próby wyłudzenia dostępu.
+Fałszywe zaproszenie zawiera: „Udostępnij swoje konto służbowe, aby kontynuować”. Proszę zareagować na wiadomości rozesłane pracownikom.
+Ludzie dostali lewe zaproszenia, żeby udostępnić konto z pracy. Sprawdzicie to oszustwo?
+
+it-113
+Zgłaszam próbę przejęcia konta przez spreparowany formularz resetowania hasła.
+Otrzymałam odnośnik do fałszywego resetu, który ma przechwycić dostęp do konta służbowego. Proszę zbadać tę próbę wyłudzenia.
+Korektę moich godzin już wykonano. Proszę podjąć reakcję na spreparowany formularz resetu hasła służący przejęciu konta pracownika.
+Fałszywa strona wyświetla: „Zresetuj hasło konta firmowego”. Formularz służy wyłudzeniu dostępu. Proszę sprawdzić zgłoszoną próbę przejęcia konta.
+Dostałam spreparowany reset hasła, żeby ukraść konto z pracy. Zajmiecie się tą próbą?
+
+it-114
+Ktoś nakłania pracownika do instalacji zdalnego dostępu w celu kradzieży danych.
+Rozmówca próbuje przekonać użytkownika do oddania kontroli nad służbowym komputerem przez dodatkowy program. Zgłaszamy próbę wykradzenia danych i prosimy o reakcję.
+Proszę zareagować na nakłanianie pracownika do instalacji zdalnego dostępu w celu kradzieży danych. Mój problem z drukowaniem już rozwiązano.
+Napastnik instruuje pracownika: „Zainstaluj zdalny dostęp i podaj kod”. Chodzi o przejęcie danych służbowych. Proszę zbadać tę próbę oszustwa.
+Ktoś namawia pracownika do zdalnego dostępu, żeby ukraść firmowe dane. Potrzebna reakcja bezpieczeństwa.
+
+it-117
+Podejrzana strona obiecuje dokument pracowniczy za podanie firmowego loginu i hasła.
+Witryna udaje miejsce odbioru dokumentu zatrudnienia, ale żąda danych służbowego konta. Proszę zbadać próbę ich wyłudzenia.
+Błędną datę mojego urlopu już skorygowano. Zgłaszam podejrzaną stronę obiecującą dokument pracowniczy w zamian za firmowe dane logowania.
+Strona wyświetla: „Podaj firmowy login i hasło, aby odebrać dokument zatrudnienia”. Witryna jest podejrzana. Proszę zareagować na możliwe wyłudzenie.
+Jakaś podejrzana strona daje niby dokument z pracy, ale chce login i hasło firmowe. Sprawdzicie phishing?

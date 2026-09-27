@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/new-hire-login/quoted_history",
+  "family": "help_desk/new-hire-login",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nTo mój pierwszy dzień pracy. Spotkania wdrożeniowe i dokumenty są już przygotowane, ale przekazane konto nie pozwala zalogować się do laptopa. Pojawia się komunikat o nieprawidłowej nazwie użytkownika. Proszę o pomoc w uruchomieniu dostępu na moim stanowisku.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2557687080116011,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f792847b22622547140747af393bb3f568a74f64196df1f6992792d0916f97e1",
+  "response_sha256": "1bf0d0d94198ef9753aff5e60712cae633302e47fee239dd38f085d2e1971e6e"
+}

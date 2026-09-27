@@ -1,0 +1,13 @@
+{
+  "id": "it/malware-alert/base",
+  "family": "it/malware-alert",
+  "message": "Program ochronny na służbowym komputerze wykrył złośliwy plik i informuje o próbie połączenia z podejrzanym serwerem. Nie uruchamiam już dokumentów na tym urządzeniu. Proszę o obsługę zgłoszenia jako incydentu bezpieczeństwa i sprawdzenie, czy zagrożenie dotknęło firmowych danych.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2170948330021929,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2d178001d58057794321b2522c23a57972acaa64b8849d1813a06b0ff43aaa0a",
+  "response_sha256": "f2f475e9de72bdf56c327e6bd89640153d3887cc73948588fbeaafaf0c3b51db"
+}

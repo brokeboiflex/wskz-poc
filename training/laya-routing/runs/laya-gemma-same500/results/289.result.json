@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/meeting-display/forwarded_history",
+  "family": "help_desk/meeting-display",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nMój laptop nie wyświetla obrazu na ekranie w sali spotkań. Komputer kolegi działa z tym samym przewodem, więc problem wydaje się dotyczyć mojego urządzenia. Proszę pomóc ustawić wyjście obrazu i sprawdzić przejściówkę, zanim rozpocznę prezentację dla zespołu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nRozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.24726841700612567,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c8c025c7ed64dc8cca2fd92f73ccf09c2de27827dd55e968b682ed2d2ac1d187",
+  "response_sha256": "12285fac8957c0920963bc57a2ba74f05dbd1f09baf731e225fcff9b5ead1a2b"
+}

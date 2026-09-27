@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/certificate-login/forwarded_history",
+  "family": "help_desk/certificate-login",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNie mogę użyć służbowego certyfikatu do podpisania dokumentu na swoim komputerze. Program wyświetla komunikat o braku czytnika, choć urządzenie jest podłączone. Proszę o pomoc w konfiguracji czytnika i aplikacji podpisującej. Sam dokument jest już przygotowany i poprawny.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2496511249919422,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "eb090f2cb74c4928153e68132b38ae3b60e4974372d484645e68522c57ec6074",
+  "response_sha256": "cff9b33ff60814a5015302aa9561ba2cb48bcebfa64be2885edb07c4c700b9d0"
+}

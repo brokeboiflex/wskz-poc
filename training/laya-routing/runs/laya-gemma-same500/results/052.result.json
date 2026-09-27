@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/workload-conversation/base",
+  "family": "human_resources/workload-conversation",
+  "message": "Od kilku miesięcy przydzielane są mi zadania przekraczające możliwości jednej osoby. Nie chodzi teraz o rozliczenie nadgodzin, tylko o pomoc w rozmowie z przełożonym i uporządkowaniu oczekiwań. Chciałabym umówić konsultację dotyczącą obciążenia pracą oraz zasad współpracy w zespole.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19507720801630057,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ef03c23cea0e73e9650a0ae5320e815797dc973bc2b9f8309e4d1c057a65eeb7",
+  "response_sha256": "a4c59ce3b515059213fa6a5be978db57e5b7451259e784fe49927b374117291d"
+}

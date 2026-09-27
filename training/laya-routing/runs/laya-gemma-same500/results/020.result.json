@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/communication-workshop/base",
+  "family": "human_resources/communication-workshop",
+  "message": "W naszym zespole powtarzają się nieporozumienia przy przekazywaniu zadań między zmianami. Chciałabym zorganizować warsztat z komunikacji i udzielania informacji zwrotnej dla ośmiu osób. Proszę pomóc dobrać program oraz prowadzącego, który przećwiczy z nami sytuacje z codziennej współpracy.\n\nNajczęściej problem wygląda tak: poranna zmiana zostawia zadanie z krótkim komentarzem, a popołudniowa nie wie, co zostało już sprawdzone i kto ma podjąć decyzję. W efekcie obie grupy wykonują tę samą pracę, po czym pojawiają się pretensje. Mamy już formularz przekazania zadań, ale sam formularz nie rozwiązał trudności w rozmowach.\n\nChcielibyśmy przećwiczyć przekazywanie niepełnych informacji, zadawanie pytań bez oskarżeń i zgłaszanie wątpliwości przełożonemu. Możemy zebrać anonimowe przykłady przed zajęciami. Ze względu na grafik nie wszyscy mogą uczestniczyć jednocześnie, więc przydałyby się dwie grupy pracujące na tych samych ćwiczeniach.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.33518199998070486,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a7cdbe2f4c872158d2ce76faf96aade98c8f300dbe7012687a441d2cad0caafb",
+  "response_sha256": "c82b97c4f64e98134b46de7d5c65a8954219d9b8b425c08515435ca883a60c2c"
+}

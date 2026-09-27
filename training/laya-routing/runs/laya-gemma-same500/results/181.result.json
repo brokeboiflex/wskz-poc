@@ -1,0 +1,13 @@
+{
+  "id": "payroll/salary-change-effective/quoted_history",
+  "family": "payroll/salary-change-effective",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPodpisany aneks przewiduje nową stawkę wynagrodzenia od pierwszego dnia bieżącego miesiąca. Na ostatnim pasku nadal widzę poprzednią kwotę podstawy. Proszę sprawdzić, czy aneks został uwzględniony przy naliczaniu wypłaty i kiedy nastąpi ewentualne wyrównanie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.25510758301243186,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a2173946a7db49a2213fd7c199f0f01aa50a9dbea52ed94330c37c7183fcc8ea",
+  "response_sha256": "d6cca9647a3be834e9f2e8b318b1394ce405160d15d68189f1c3e6b20357a618"
+}

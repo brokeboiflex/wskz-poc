@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-demand/base",
+  "family": "payroll/leave-demand",
+  "message": "Z powodu nagłej sytuacji rodzinnej nie będę dziś obecny w pracy. Przełożony został już powiadomiony telefonicznie. Chciałbym zgłosić dzisiejszy dzień jako urlop na żądanie i upewnić się, czy mam jeszcze dostępny limit oraz jaki dokument powinienem przekazać do ewidencji.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1916591250046622,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6807c2deffa33ce4a8c9618dc801f5f8372a4c7c2af6e7779a35520214eeae4e",
+  "response_sha256": "b119380fb7bdf539fd9c8b223019b97130234237f0f8e689304eca859a3db685"
+}

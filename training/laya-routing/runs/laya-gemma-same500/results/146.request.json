@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Bank poprosił mnie o aktualne zaświadczenie potwierdzające zatrudnienie w naszej firmie. Formularz wymaga podpisu pracodawcy i wskazania rodzaju umowy. Proszę o informację, komu przekazać druk i ile czasu zajmuje przygotowanie takiego dokumentu do odbioru.\n\nInstytucja wymaga swojego formularza, na którym znajdują się pola dotyczące daty zatrudnienia, rodzaju umowy oraz potwierdzenia, że stosunek pracy nadal trwa. Nie wystarczy jej skan samej umowy. Dokument ma być podpisany przez upoważnioną osobę, a ja nie wiem, czy potrzebny jest oryginał formularza, czy wystarczy jego elektroniczna wersja.\n\nTermin uzupełnienia wniosku mija w przyszły czwartek. Mogę odebrać dokument osobiście, jeśli będzie to szybsze. Proszę dać znać, jakie dane identyfikujące pracownika przekazać przez właściwy kanał i czy na druku powinienem sam uzupełnić jakąś część przed dostarczeniem. Zależy mi na uniknięciu konieczności ponownego wystawiania zaświadczenia."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

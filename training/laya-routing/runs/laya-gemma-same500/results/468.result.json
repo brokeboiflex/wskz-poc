@@ -1,0 +1,13 @@
+{
+  "id": "other/press-request/base",
+  "family": "other/press-request",
+  "message": "Przygotowuję artykuł o lokalnych przedsiębiorstwach i chciałabym uzyskać zgodę na krótką rozmowę o historii Państwa firmy. Czy można skontaktować mnie z osobą uprawnioną do wypowiedzi dla mediów? Mogę wcześniej przesłać zakres pytań i uzgodnić termin autoryzacji wypowiedzi.\n\nArtykuł będzie dotyczył zmian, jakie zaszły w dzielnicy w ciągu ostatnich kilkunastu lat. Interesuje mnie historia powstania firmy, jej związek z okolicą i wspomnienia osób, które pamiętają pierwszą siedzibę. Nie potrzebuję danych finansowych ani informacji o konkretnych pracownikach.\n\nRozmowa może odbyć się telefonicznie lub osobiście, w dogodnym dla rozmówcy terminie. Przewiduję około dwudziestu minut i wcześniej prześlę listę zagadnień. Jeśli firma dysponuje archiwalnym zdjęciem budynku przeznaczonym do publikacji, chętnie uzgodnię również możliwość jego wykorzystania z odpowiednim podpisem. Proszę przekazać zapytanie osobie, która może reprezentować firmę w kontakcie z redakcją.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.3160781250044238,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "78b473f6db2c3a0e80431c6300b47fae56553d31cff62bc6a8895a409c52b7ea",
+  "response_sha256": "aafdb361c8575e1e398c142be2724e4656e7ffa80a1c5c3059821d7772806dfd"
+}

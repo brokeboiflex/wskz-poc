@@ -1,0 +1,13 @@
+{
+  "id": "it/switch-failure/base",
+  "family": "it/switch-failure",
+  "message": "Wszystkie stanowiska na drugim piętrze straciły połączenie przewodowe w tym samym momencie. Na przełączniku w szafie sieciowej świeci kontrolka alarmu, podczas gdy inne piętra działają. Proszę o sprawdzenie urządzenia i przywrócenie łączności dla tej części firmowej infrastruktury.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19160633298452012,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ea1e120e2addbcb24c2cdf7e262780da7995fade3e8b548a78ed677139b40e25",
+  "response_sha256": "d0abee5a6d90422d1a12151a5e4c4d958bc9e25e60906b961fa36246134522c2"
+}

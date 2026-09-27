@@ -1,0 +1,13 @@
+{
+  "id": "it/mail-server/base",
+  "family": "it/mail-server",
+  "message": "Od godziny ósmej wiadomości nie docierają do żadnej skrzynki w naszej domenie. Wysyłający z zewnątrz otrzymują komunikat o niedostępności serwera pocztowego. Proszę o pilną kontrolę infrastruktury poczty i przywrócenie przyjmowania wiadomości dla całej firmy.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.20987099999911152,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f1e2a55aa98b841fda54bcd7dfbc2d4938847f4c78acb3aa0dda74a2a9447ef4",
+  "response_sha256": "316e76f01a749bc6a3f00a98e20855f2212ed56e3a3e6b9d123b8fcb9f9dc62b"
+}

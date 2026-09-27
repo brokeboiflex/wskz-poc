@@ -1,0 +1,13 @@
+{
+  "id": "other/coffee-machine-home/quoted_history",
+  "family": "other/coffee-machine-home",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nChcę wybrać ekspres do kawy do własnego mieszkania. Zależy mi na łatwym czyszczeniu i możliwości przygotowania jednej filiżanki, ale gubię się w nazwach urządzeń. Czy możecie wyjaśnić różnice między podstawowymi typami?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2582912500074599,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "197e0f83d1254a789ccb1338d10ff833a88aefd047b30701bd5f74003822f4a3",
+  "response_sha256": "a35f37d7e58814646ed9a8ffd2ba877a154751855215967aee728aca2df9e835"
+}

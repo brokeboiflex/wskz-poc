@@ -1,0 +1,13 @@
+{
+  "id": "other/home-internet/quoted_history",
+  "family": "other/home-internet",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPiszę o prywatnym internecie w mieszkaniu, z którego nie korzystam do pracy i do którego nie są podłączone urządzenia firmowe. Chciałbym porównać oferty operatorów przed końcem umowy. Proszę o wskazanie parametrów, na które powinienem zwrócić uwagę przy wyborze abonamentu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.26758724998217076,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3b86741f0d1c62b38b55eef00c67f65018a77772f673e18f025422ee103cd5b3",
+  "response_sha256": "da32547e38ce490cb811ec7c16a603f0afd11da53c39f35fc58698a5e30a1444"
+}

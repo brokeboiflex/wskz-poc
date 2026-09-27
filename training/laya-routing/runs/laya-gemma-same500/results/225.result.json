@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/password-forgotten/resolved_postscript",
+  "family": "help_desk/password-forgotten",
+  "message": "Po powrocie z wolnego nie pamiętam hasła do konta służbowego. Nie mogę zalogować się na komputerze i nie chcę wykonywać kolejnych prób, żeby nie zablokować konta. Proszę o pomoc w bezpiecznym zresetowaniu hasła oraz informację, jak potwierdzić swoją tożsamość.\n\nPS. Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.22632254200289026,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "86cc7faa5e4000c00817808699593493033ad680c869b63c0955aaa2faf79941",
+  "response_sha256": "18d2928fc4a13f28316c55dae4b9e3131dd4735a7fa4224c9cf63667799c599d"
+}

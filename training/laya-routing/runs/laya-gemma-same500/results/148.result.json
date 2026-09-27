@@ -1,0 +1,13 @@
+{
+  "id": "payroll/income-certificate/base",
+  "family": "payroll/income-certificate",
+  "message": "Składam wniosek mieszkaniowy i potrzebuję potwierdzenia średniego wynagrodzenia z ostatnich trzech miesięcy. Mam formularz instytucji przyjmującej wniosek. Proszę o wskazanie sposobu przekazania go do wypełnienia oraz informacji, kiedy mogę odebrać podpisane zaświadczenie o zarobkach.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1910619999980554,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "30ff6d16009197e5f9be47c64c79a0298ef75d17f1888ec2cf5ad476c48e4687",
+  "response_sha256": "9ffdf0a6eeaea0d7102fc0a4cee305dce803ed991f08cc6336859fc280e1fb38"
+}

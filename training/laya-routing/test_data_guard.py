@@ -26,6 +26,12 @@ class DataGuardTest(unittest.TestCase):
         report = validate([row(), row("b", "test", text="Inna wypowiedź.")], [], complete=False)
         self.assertIn("family_split", {e["kind"] for e in report["errors"]})
 
+    def test_distinct_families_in_same_semantic_group_cannot_cross_split(self):
+        first = {**row(), "semantic_group": "same-intent"}
+        second = {**row("b", "test", "two", "Odmienne słowa."), "semantic_group": "same-intent"}
+        report = validate([first, second], [], complete=False)
+        self.assertIn("semantic_group_split", {error["kind"] for error in report["errors"]})
+
     def test_benchmark_copy_rejected_even_if_id_changed(self):
         report = validate(
             [row(text="Proszę: NAPRAWIĆ urządzenie!")],

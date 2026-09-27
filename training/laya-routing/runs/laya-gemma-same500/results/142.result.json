@@ -1,0 +1,13 @@
+{
+  "id": "payroll/tax-form/base",
+  "family": "payroll/tax-form",
+  "message": "Nie otrzymałem jeszcze rocznej informacji podatkowej dotyczącej wynagrodzeń z ubiegłego roku. Chciałbym sprawdzić, czy dokument został już przygotowany i na jaki kanał go wysłano. Proszę o pomoc w uzyskaniu kopii, abym mógł skompletować materiały do rozliczenia rocznego.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19696762500097975,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4d5c1e71734d9facf32712eae898d83e0105e276664e200fdc5054f5d2821a4d",
+  "response_sha256": "7f1dc70fa9d61855daaa0ff09fed9704ef46ef53c1025fb4a626f785642ff2ac"
+}

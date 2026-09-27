@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/onboarding-program/forwarded_history",
+  "family": "human_resources/onboarding-program",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nW poniedziałek dołącza do nas nowa osoba. Sprzęt, konta i dokumenty zatrudnienia są już przygotowane. Potrzebuję natomiast planu spotkań zapoznawczych, prezentacji zasad współpracy i wskazania opiekuna wdrożenia. Proszę o pomoc w ułożeniu pierwszego tygodnia od strony organizacyjnej i rozwojowej.\n\nNowa osoba będzie pracowała z nami hybrydowo. W pierwszym tygodniu może być w biurze w poniedziałek i środę, a pozostałe dni spędzi zdalnie. Chcemy zaplanować poznanie ludzi, omówienie sposobu przekazywania zadań oraz krótką sesję pytań po pierwszych doświadczeniach.\n\nMamy prezentację o produktach, ale brakuje materiału o codziennych zasadach współpracy. Nie chcemy zasypać nowej osoby całym zestawem dokumentów pierwszego dnia. Potrzebujemy pomocy w rozłożeniu tematów i dobraniu opiekuna, który będzie dostępny również w dni pracy zdalnej. Warto byłoby też ustalić moment rozmowy podsumowującej po dwóch tygodniach i sposób zbierania informacji o trudnościach we wdrożeniu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.4090591670246795,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1ba0b2d0214d10df0489eb8dee94779178ab1c16f1d375f067c47e2730b21c21",
+  "response_sha256": "2ffe5fed646758b0ccc97e3ee876543e2d87deed7f5dc046e0e871e645149e74"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/monitor-flicker/resolved_preface",
+  "family": "help_desk/monitor-flicker",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nOsobna, aktualna wiadomość:\nDodatkowy monitor na moim biurku co kilka minut gaśnie i wraca obraz. Drugi ekran podłączony do tego samego laptopa jest stabilny. Zmiana kabla nie pomogła. Proszę o sprawdzenie monitora, ponieważ przerywanie obrazu utrudnia mi porównywanie dokumentów podczas pracy.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.26326433397480287,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7ae18216c8bcadbf5282ad2beb1c79bbd2af58898e1b502991e282c480cbcf47",
+  "response_sha256": "5dbffa85213824e35384246d13d929d9f491b3aa53c21c25f80ee2fca07e1b57"
+}

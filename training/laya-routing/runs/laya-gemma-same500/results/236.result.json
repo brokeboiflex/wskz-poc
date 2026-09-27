@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/browser-cache/base",
+  "family": "help_desk/browser-cache",
+  "message": "Na moim komputerze strona firmowej aplikacji stale pokazuje stary formularz, podczas gdy u kolegi jest już nowa wersja. W drugiej przeglądarce widok jest prawidłowy. Proszę o pomoc w uporządkowaniu ustawień przeglądarki, z której korzystam na co dzień.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.18904937501065433,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ef279463022aaca0418b93f275af5b8fe02d91b69bbea97c4b2f3624856e37c6",
+  "response_sha256": "dd70ff382c64cd8f62c334507698fbbe207f9b6d243bee9113f111c8f9f7325d"
+}

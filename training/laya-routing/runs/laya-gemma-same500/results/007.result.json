@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/withdraw-application/conversation_history",
+  "family": "human_resources/withdraw-application",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPiszę w sprawie mojego udziału w rekrutacji na stanowisko specjalisty do spraw zakupów. Przyjąłem już inną propozycję i chciałbym wycofać kandydaturę przed zaplanowaną rozmową. Proszę przekazać tę informację osobom prowadzącym nabór, aby nie rezerwowały dla mnie terminu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2441307919798419,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5a9241975d9f3e700f3c92f8f6704f8a1244e2b2427377c32215e83a342df016",
+  "response_sha256": "db4d463e5df1cc70937a4136650d0971f9bfbe713ef9116dac3968e4d91bca1e"
+}

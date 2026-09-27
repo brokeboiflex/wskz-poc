@@ -1,0 +1,13 @@
+{
+  "id": "other/travel-route/resolved_preface",
+  "family": "other/travel-route",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nOsobna, aktualna wiadomość:\nPlanuję wycieczkę rowerową z rodziną i szukam spokojnej trasy nad jeziorem. Zależy mi na drodze bez dużego ruchu samochodowego i z miejscem na odpoczynek. Czy możecie zaproponować sposób zaplanowania takiego wyjazdu?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.21765087501262315,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "058781bcb0b2f09a79b9b8bdafd40e0fb87060519722648a8d160973c2a7ff32",
+  "response_sha256": "5d47afcdf986a05a653c740053587bc67940952faaf0dc96bb5c24b689360fde"
+}

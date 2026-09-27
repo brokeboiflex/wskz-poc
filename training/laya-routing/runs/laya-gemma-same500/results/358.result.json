@@ -1,0 +1,13 @@
+{
+  "id": "it/data-exposure/base",
+  "family": "it/data-exposure",
+  "message": "Zauważyłem, że katalog z wewnętrznymi dokumentami można otworzyć bez logowania z publicznego internetu. Nie powinien być dostępny poza firmą. Proszę o pilne zabezpieczenie zasobu, sprawdzenie zakresu udostępnionych danych i przeanalizowanie, czy ktoś nieuprawniony mógł je pobrać.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19214366699452512,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ffc4696a2ec18fc6265d6413a63dc3c45737382d58c6d52b0cac4bca1653fe51",
+  "response_sha256": "6b6bd53cff45a40b9a4426026584100d5c7cb450af2c53b9bf1d19bfa2368b78"
+}

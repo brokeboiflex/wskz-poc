@@ -1,0 +1,13 @@
+{
+  "id": "payroll/weekend-shift/resolved_postscript",
+  "family": "payroll/weekend-shift",
+  "message": "W ostatnią sobotę zastępowałam nieobecną osobę na zatwierdzonej zmianie. W ewidencji nadal widnieje dzień wolny, dlatego nie wiem, czy ta praca została przekazana do rozliczenia. Proszę sprawdzić zapis i poinformować, jakie potwierdzenie powinien dostarczyć mój przełożony.\n\nPS. Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "payroll",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.22834762500133365,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c2898962d0f95e8e55e5c7f45d58517a43413a78759640154c78a7397c711460",
+  "response_sha256": "75fce22f40fd42c16ed53c293af0cd71bafbd2734bab823266d13570b9cb4be7"
+}

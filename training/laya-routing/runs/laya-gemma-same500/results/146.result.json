@@ -1,0 +1,13 @@
+{
+  "id": "payroll/employment-certificate/base",
+  "family": "payroll/employment-certificate",
+  "message": "Bank poprosił mnie o aktualne zaświadczenie potwierdzające zatrudnienie w naszej firmie. Formularz wymaga podpisu pracodawcy i wskazania rodzaju umowy. Proszę o informację, komu przekazać druk i ile czasu zajmuje przygotowanie takiego dokumentu do odbioru.\n\nInstytucja wymaga swojego formularza, na którym znajdują się pola dotyczące daty zatrudnienia, rodzaju umowy oraz potwierdzenia, że stosunek pracy nadal trwa. Nie wystarczy jej skan samej umowy. Dokument ma być podpisany przez upoważnioną osobę, a ja nie wiem, czy potrzebny jest oryginał formularza, czy wystarczy jego elektroniczna wersja.\n\nTermin uzupełnienia wniosku mija w przyszły czwartek. Mogę odebrać dokument osobiście, jeśli będzie to szybsze. Proszę dać znać, jakie dane identyfikujące pracownika przekazać przez właściwy kanał i czy na druku powinienem sam uzupełnić jakąś część przed dostarczeniem. Zależy mi na uniknięciu konieczności ponownego wystawiania zaświadczenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.3006404170009773,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "235b5bde8040b1acb86c0ad10bc4caf1fa5e7b956ef06367ca853c4d7144c178",
+  "response_sha256": "14489fa31544396ae9fac7ffb05a4d968579e7683b9ce7cd460590e545e7ab96"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/recruitment-system-outage/forwarded_history",
+  "family": "it/recruitment-system-outage",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nFormularz rekrutacyjny nie działa dla żadnego kandydata, a serwer zwraca błędy przy każdym żądaniu. Zespół prowadzący nabór potwierdził, że treść ogłoszeń jest poprawna. Proszę o sprawdzenie serwera i bazy danych oraz przywrócenie dostępności całej usługi.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nPomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2552676670020446,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1168dcb4acda05f3568c5f1857ebe6ce0ba3adef0241a65ddd6605b8a74c01c0",
+  "response_sha256": "51b3910803b7ab0489e8758b0dc6a2b1926fc494e70188f0676a18d33cc04f3c"
+}

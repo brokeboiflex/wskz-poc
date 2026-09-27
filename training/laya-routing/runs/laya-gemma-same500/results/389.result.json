@@ -1,0 +1,13 @@
+{
+  "id": "it/domain-renewal/forwarded_history",
+  "family": "it/domain-renewal",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nDomena wykorzystywana przez publiczną aplikację zbliża się do końca ważności, a automatyczne odnowienie nie zostało potwierdzone. Proszę sprawdzić jej utrzymanie i konfigurację DNS, żeby uniknąć przerwy w działaniu usługi. Potrzebujemy potwierdzenia przed weekendem, kiedy dyżuruje mniejszy zespół.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nStary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2538889589777682,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e8fbfc911488355673d9b23d57e3824b954b532dee4958ff1b2fe06fa0fedef1",
+  "response_sha256": "602cbdac97036093f38b63d33a896af841e0822aa82cb60c79b1c9f20617f606"
+}

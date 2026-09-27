@@ -1,0 +1,13 @@
+{
+  "id": "it/mail-queue/base",
+  "family": "it/mail-queue",
+  "message": "Monitoring serwera poczty pokazuje rosnącą kolejkę niewysłanych wiadomości z wielu działów. Programy użytkowników potwierdzają wysłanie, ale odbiorcy zewnętrzni nic nie otrzymują. Proszę o sprawdzenie działania centralnej usługi SMTP i usunięcie przyczyny zatrzymania dostarczania poczty.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.20117383301840164,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "746abb92b7e92af593575d93c073aa027a5788569f447cc8ca556898098cb545",
+  "response_sha256": "94f4b062b9ad04192f5e6baa096bcfd1142a4142dd1f957652b9f5df24b95eb5"
+}

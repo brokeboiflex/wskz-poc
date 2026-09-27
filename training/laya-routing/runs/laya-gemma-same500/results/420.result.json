@@ -1,0 +1,13 @@
+{
+  "id": "other/weather/base",
+  "family": "other/weather",
+  "message": "Chciałbym zaplanować piknik i zastanawiam się, na jakie elementy prognozy pogody zwrócić uwagę poza samą temperaturą. Interesują mnie wiatr, opady i zachmurzenie. Czy możecie wyjaśnić, jak ocenić, czy dany dzień będzie odpowiedni na kilkugodzinny pobyt na zewnątrz?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.21497587498743087,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a153e0b1ded310e818001b8bf350cf6e3d20273750a929a929a7604979f788e5",
+  "response_sha256": "a4efee7729e5092a8f8d6423b2de4f9611fc008c16d9b470dc890db3ed78deaf"
+}

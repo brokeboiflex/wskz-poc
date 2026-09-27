@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/camera/conversation_history",
+  "family": "help_desk/camera",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nKamera w moim laptopie pokazuje czarny obraz we wszystkich aplikacjach do spotkań. Osłona obiektywu jest odsunięta, a ponowne uruchomienie nie pomogło. Za godzinę mam rozmowę z kandydatem. Czy ktoś może pomóc uruchomić kamerę przed tym spotkaniem?",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.23939337499905378,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "24a2351691a17f2781720a49260a2a6986371cff0a109893f38aa0d45bf830ee",
+  "response_sha256": "9306a5beea12112061b2e0045c9db008a355b3ef4c096404988083a93ded9d4a"
+}

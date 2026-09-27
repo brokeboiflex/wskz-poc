@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/account-locked/conversation_history",
+  "family": "help_desk/account-locked",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPrzy logowaniu pojawił się komunikat, że moje konto jest zablokowane po zbyt wielu próbach. Wpisywałam wcześniej stare hasło z pamięci. Nie zauważyłam żadnych obcych logowań ani podejrzanych wiadomości. Proszę o pomoc w odblokowaniu dostępu do mojego konta pracowniczego.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.24073179200058803,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "be06622de06f274efdf8b5741db77fca71a101097a3895a78a6a377111d2f083",
+  "response_sha256": "5c2ad956c29182bab8f20ff4d0e5124fa56fc0b85118b55b7227d661bfea2584"
+}

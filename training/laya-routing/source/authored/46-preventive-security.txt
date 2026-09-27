@@ -1,0 +1,69 @@
+it-001
+Proszę zaplanować obowiązkowe MFA w systemach organizacji.
+Chcemy objąć firmowe systemy wymaganiem dodatkowego składnika logowania. Potrzebny jest plan centralnego wdrożenia obowiązkowego MFA. Proszę go przygotować.
+Proszę zaplanować wdrożenie obowiązkowego MFA dla systemów organizacji. Mój lokalny błąd logowania już naprawiono. Zadanie dotyczy wspólnej polityki dostępu.
+W decyzji zapisano: „MFA będzie obowiązkowe w systemach firmy”. Proszę przygotować plan wdrożenia tego wymagania.
+Chcemy obowiązkowe MFA w firmowych systemach. Zaplanujecie centralne wdrożenie?
+
+it-009
+Proszę przejrzeć uprawnienia administratorów infrastruktury przed audytem bezpieczeństwa.
+Zbliża się kontrola i potrzebujemy zweryfikować zakres dostępów administracyjnych. Proszę sprawdzić uprawnienia osób zarządzających firmową infrastrukturą.
+Rozliczenie mojego urlopu już poprawiono. Proszę wykonać przegląd uprawnień administratorów infrastruktury przed audytem bezpieczeństwa.
+Audytor poprosił: „Zweryfikujcie uprawnienia administratorów infrastruktury”. Proszę przeprowadzić ten przegląd przed kontrolą bezpieczeństwa.
+Przed audytem trzeba przejrzeć uprawnienia adminów infrastruktury. Zrobicie weryfikację dostępów?
+
+it-012
+Proszę ustalić proces rotowania kluczy dostępowych używanych przez usługi.
+Aplikacje organizacji korzystają ze stałych poświadczeń. Chcemy zaplanować ich regularną zmianę. Proszę opracować techniczny proces rotacji kluczy usługowych.
+Proszę ustalić rotację kluczy dostępu dla wspólnych usług. Usterkę mojego laptopa już usunięto. Chodzi o zarządzanie poświadczeniami infrastruktury.
+W przeglądzie bezpieczeństwa zapisano: „Wprowadzić regularną rotację kluczy usługowych”. Proszę ustalić proces ich wymiany w organizacji.
+Potrzebujemy procesu wymiany kluczy dostępowych usług. Ustalicie rotację poświadczeń firmowych aplikacji?
+
+it-016
+Proszę wdrożyć segmentację sieci ograniczającą dostęp do serwerów produkcyjnych.
+Chcemy oddzielić strefę produkcyjną i dopuścić do niej tylko wymagany ruch. Proszę przygotować techniczne rozdzielenie sieci chroniące serwery.
+Moje zaświadczenie już wydano. Proszę wdrożyć segmentację firmowej sieci ograniczającą dostęp do serwerów produkcyjnych.
+W planie zabezpieczeń wskazano: „Ograniczyć dostęp do produkcji przez segmentację”. Proszę wdrożyć odpowiedni podział sieci dla serwerów produkcyjnych.
+Trzeba odseparować produkcyjne serwery w sieci i ograniczyć dojście. Wdrożycie segmentację?
+
+it-027
+Proszę przygotować techniczne skanowanie podatności firmowych serwerów.
+Chcemy sprawdzić stan zabezpieczeń naszej infrastruktury serwerowej. Potrzebne jest przygotowanie skanowania podatności w uzgodnionym zakresie. Proszę zorganizować ten proces techniczny.
+Proszę przygotować skanowanie podatności serwerów organizacji. Problem z moją drukarką już rozwiązano. To planowana kontrola bezpieczeństwa infrastruktury.
+W zatwierdzonym zadaniu zapisano: „Przygotować skanowanie podatności serwerów”. Proszę zorganizować techniczną kontrolę naszej infrastruktury.
+Przygotujecie skan podatności firmowych serwerów? Chcemy sprawdzić zabezpieczenia infrastruktury.
+
+it-033
+Proszę centralnie wdrożyć poprawki bezpieczeństwa na infrastrukturze.
+Mamy pakiet aktualizacji zabezpieczających wspólne środowisko. Potrzebujemy skoordynowanej instalacji na urządzeniach infrastruktury. Proszę przeprowadzić centralne wdrożenie.
+Rozliczenie mojej pensji jest już poprawne. Proszę wykonać centralne wdrożenie poprawek bezpieczeństwa na firmowej infrastrukturze.
+W harmonogramie wpisano: „Instalacja poprawek bezpieczeństwa infrastruktury”. Proszę zrealizować wspólne wdrożenie aktualizacji.
+Poprawki bezpieczeństwa są gotowe. Wdrożycie je centralnie na infrastrukturze firmy?
+
+it-038
+Potrzebujemy uzgodnić techniczną politykę szyfrowania danych organizacji.
+Chcemy ustalić, jak firmowe systemy mają zabezpieczać dane kryptograficznie. Proszę przygotować i uzgodnić wymagania techniczne dotyczące szyfrowania informacji organizacji.
+Proszę uzgodnić techniczną politykę szyfrowania danych firmowych. Termin mojego kursu już potwierdzono. Zadanie dotyczy zabezpieczeń systemowych.
+W ustaleniach wskazano: „Określić techniczne zasady szyfrowania danych”. Proszę pomóc uzgodnić taką politykę dla organizacji.
+Musimy ustalić techniczne zasady szyfrowania firmowych danych. Przygotujecie politykę do uzgodnienia?
+
+it-040
+Proszę skonfigurować monitorowanie podejrzanych logowań w systemie bezpieczeństwa.
+Chcemy otrzymywać centralne alerty o nietypowym dostępie do kont. Potrzebna jest konfiguracja wykrywania podejrzanych logowań w firmowej platformie bezpieczeństwa.
+Błędną datę urlopu już poprawiono. Proszę ustawić monitorowanie podejrzanych logowań w centralnym systemie bezpieczeństwa.
+W zadaniu zabezpieczeń zapisano: „Włączyć monitorowanie podejrzanych logowań”. Proszę skonfigurować tę funkcję w systemie organizacji.
+Ustawicie centralnie monitoring podejrzanych logowań? Potrzebujemy alertów w systemie bezpieczeństwa.
+
+it-044
+Proszę przygotować techniczny proces zarządzania uprzywilejowanym dostępem.
+Chcemy uporządkować nadawanie i kontrolowanie wysokich uprawnień w systemach. Proszę opracować proces techniczny zarządzania dostępem uprzywilejowanym dla organizacji.
+Proszę przygotować proces zarządzania uprzywilejowanym dostępem do firmowych systemów. Mój problem z mikrofonem już usunięto. Potrzebna jest procedura techniczna.
+Audyt bezpieczeństwa zalecił: „Wprowadzić zarządzanie dostępem uprzywilejowanym”. Proszę przygotować techniczny proces realizujący to wymaganie.
+Trzeba ogarnąć technicznie przydzielanie i kontrolę uprzywilejowanego dostępu. Przygotujecie proces dla firmy?
+
+it-058
+Proszę utworzyć zabezpieczenia firmowej aplikacji przed atakami sieciowymi.
+Wspólna usługa wymaga technicznych mechanizmów ograniczających ataki z sieci. Proszę przygotować i wdrożyć ochronę aplikacji organizacji.
+Zaświadczenie pracownicze już dostałam. Proszę utworzyć zabezpieczenia techniczne chroniące firmową aplikację przed atakami sieciowymi.
+W przeglądzie zapisano: „Aplikacja wymaga ochrony przed atakami sieciowymi”. Proszę przygotować zabezpieczenia tej firmowej usługi.
+Nasza aplikacja potrzebuje ochrony przed atakami z sieci. Wdrożycie techniczne zabezpieczenia?

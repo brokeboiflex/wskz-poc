@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/security-awareness/forwarded_history",
+  "family": "human_resources/security-awareness",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nChciałabym zamówić dla zespołu szkolenie o rozpoznawaniu fałszywych wiadomości i bezpiecznym korzystaniu z internetu. Potrzebujemy programu profilaktycznego dla nowych pracowników oraz terminu, w którym każdy będzie mógł wziąć udział w zajęciach. Najlepiej sprawdziłyby się krótkie ćwiczenia z omawianiem przykładów.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.25736516699544154,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "283f2a534bc33828817e39f5ae1f7f583be06cdf11c608ba5b8ebe4ee7a96cf5",
+  "response_sha256": "3c903e7bb9d2c74a8ed6bfe265a1853c22cba147c90ca57df1c9797342e29bae"
+}

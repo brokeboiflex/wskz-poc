@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/slow-laptop/base",
+  "family": "help_desk/slow-laptop",
+  "message": "Od kilku dni mój laptop bardzo wolno otwiera programy, nawet zanim połączę się z firmowymi zasobami. Wentylator pracuje głośno, a ponowne uruchomienie pomaga tylko na chwilę. Proszę sprawdzić stan tego urządzenia; pozostałe stanowiska w zespole nie mają podobnych objawów.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19030879100318998,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "145895f54ced8b7735bb29ab61ce523a57fbf7d75ed57ed908ac6ea53858a346",
+  "response_sha256": "f262bc8521feadca32dd3266e8513f8cee33facad9c74234c63edf188158c1da"
+}

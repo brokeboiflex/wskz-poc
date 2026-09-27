@@ -1,0 +1,13 @@
+{
+  "id": "payroll/absence-code/base",
+  "family": "payroll/absence-code",
+  "message": "Dzień uzgodnionego urlopu okolicznościowego został oznaczony jako urlop wypoczynkowy. W efekcie zmniejszyło się moje dostępne saldo. Proszę porównać wpis z zaakceptowanym wnioskiem i skorygować rodzaj nieobecności. Dokument potwierdzający przyczynę wolnego został już wcześniej dostarczony.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1952969169942662,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ab504ca40ee17938085d6742330b45999370ef65dc4fd9816d6c9447c71e783d",
+  "response_sha256": "bf2f990649e54da7e31157fe5db7f0db0156dc00497d252a2db09f71dd124c77"
+}

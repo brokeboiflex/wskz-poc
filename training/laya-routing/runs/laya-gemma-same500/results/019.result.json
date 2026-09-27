@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/internal-recruitment/forwarded_history",
+  "family": "human_resources/internal-recruitment",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPracuję obecnie w obsłudze zamówień i zauważyłem wewnętrzne ogłoszenie dotyczące analityka procesów. Chciałbym wziąć udział w naborze, nie rezygnując na tym etapie z obecnego stanowiska. Proszę o wskazanie zasad aplikowania i sposobu poinformowania przełożonego o kandydaturze.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2558007500192616,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9d1fbf8b6e628d1ed0b1f4a0bd324e88c70e07a9381b7e9ddeb639cdb3ea81bd",
+  "response_sha256": "58bf1201151a723c0b6c8ba6eddb114fd7c66900a0ecaa2e964aa1d07376f1c6"
+}

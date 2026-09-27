@@ -3,3 +3,4 @@ runs/**/checkpoints/
 runs/**/export/
 *.pt
 *.safetensors
+work/

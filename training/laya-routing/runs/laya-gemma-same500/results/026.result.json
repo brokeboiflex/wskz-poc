@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/excel-training/base",
+  "family": "human_resources/excel-training",
+  "message": "Arkusz działa poprawnie, ale przygotowanie raportów zajmuje mi dużo czasu, ponieważ nie znam tabel przestawnych. Czy mogę zapisać się na szkolenie z zaawansowanego Excela? Zależy mi na praktycznych ćwiczeniach z analizy danych, a nie na pomocy z jednym konkretnym plikiem.\n\nNa co dzień łączę dane z kilku arkuszy i porównuję miesięczne zestawienia. Robię to ręcznie, więc łatwo o przeoczenie wiersza. Przydałby się kurs obejmujący porządkowanie danych, tabele przestawne i kontrolę poprawności wyników na podobnych przykładach.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.23227358298026957,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6de885297e1f636f9eb23ece44f178e6699675018eac00abf0d91137a4315dd0",
+  "response_sha256": "c70d2c347982c326c16c38af4c42b8977268b7cd5649c8b6983f9389ba72d942"
+}

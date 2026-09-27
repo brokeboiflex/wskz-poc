@@ -1,0 +1,13 @@
+{
+  "id": "other/board-game/base",
+  "family": "other/board-game",
+  "message": "Planujemy rodzinny wieczór z grami i szukam sposobu na jasne wytłumaczenie zasad początkującym. Czy lepiej najpierw opisać wszystkie wyjątki, czy rozegrać rundę próbną? Proszę o wskazówki dotyczące prowadzenia takiego prywatnego spotkania, bez związku z zajęciami dla pracowników.\n\nW grupie będą dwie osoby, które nigdy wcześniej nie grały, oraz kilka znających zasady. Nie chciałbym, żeby początkujący tylko obserwowali cudze ruchy. Przydałby się sposób wyjaśnienia celu gry i najważniejszych decyzji bez długiego wykładu.",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.2880989170225803,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d124f49da7af56f269d826000b736b189ba55134b36ae86e751b73f22f3b535d",
+  "response_sha256": "4fef09d5366443b099c6d0ab44b8c7aad42babcc37583d371c39d9a329fc0c75"
+}

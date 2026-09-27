@@ -1,0 +1,13 @@
+{
+  "id": "it/server-provision/base",
+  "family": "it/server-provision",
+  "message": "Zatwierdzono uruchomienie nowej wewnętrznej aplikacji. Potrzebujemy przygotować maszynę wirtualną, sieć, monitoring oraz kopie zapasowe w firmowym środowisku. Proszę o realizację części infrastrukturalnej zgodnie z przekazaną specyfikacją i ustalenie terminu przekazania serwera zespołowi wdrożeniowemu.\n\nAplikacja będzie dostępna wyłącznie wewnętrznie i ma korzystać z wydzielonej bazy danych. Zespół wdrożeniowy podał wymagane zasoby oraz porty, ale nie ma uprawnień do tworzenia maszyn ani zmiany reguł sieciowych. Potrzebujemy środowiska przygotowanego zgodnie ze standardem firmowym.\n\nPrzed przekazaniem chcemy potwierdzić objęcie maszyny monitoringiem, kopią zapasową i regularnymi aktualizacjami. Proszę ustalić też właściciela technicznego oraz sposób zgłaszania awarii poza zwykłymi godzinami pracy. Testy aplikacji rozpoczną się dopiero po odbiorze infrastruktury. Jeżeli specyfikacja wymaga doprecyzowania, możemy umówić krótkie spotkanie z osobą prowadzącą wdrożenie, zamiast uruchamiać serwer na podstawie niepełnych parametrów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.3310904579993803,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a4a99e9aec3eea273cf3d842ae6d2c7a1ea363de3c7792bc924b9c05041eaff4",
+  "response_sha256": "d59d35f90d89ef0c1dabaeae087b926bc6fee600a5f870d130f4ec184ee4176c"
+}

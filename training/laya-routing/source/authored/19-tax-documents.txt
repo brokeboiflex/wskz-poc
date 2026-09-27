@@ -1,0 +1,69 @@
+payroll-106
+Proszę przekazać mój roczny dokument podatkowy od pracodawcy.
+Potrzebuję informacji podatkowej dotyczącej wynagrodzeń z ubiegłego roku. Nie otrzymałem jeszcze dokumentu od pracodawcy. Proszę go udostępnić.
+Chciałabym otrzymać roczny dokument podatkowy z mojego zatrudnienia. Skrzynka pocztowa działa po naprawie, więc można przekazać informację o odbiorze.
+W komunikacie pracodawcy napisano: „Roczne informacje podatkowe są gotowe”. Proszę przekazać dokument dotyczący moich wynagrodzeń.
+Podeślecie roczny dokument podatkowy od pracodawcy? Potrzebuję go za ostatni rok pracy.
+
+payroll-108
+Proszę sprostować moje dane na informacji podatkowej dotyczącej wynagrodzeń.
+Otrzymałam dokument podatkowy z zatrudnienia i zauważyłam błędne dane identyfikacyjne. Proszę poprawić informację, tak aby odpowiadała moim prawidłowym danym.
+Problem z pobraniem pliku został rozwiązany. Na informacji podatkowej dotyczącej moich wynagrodzeń są jednak nieprawidłowe dane osobowe. Proszę je sprostować.
+W rocznym dokumencie w rubryce „Dane podatnika” widnieje pomyłka dotycząca mnie jako pracownika. Proszę sprostować dane na informacji o wynagrodzeniach.
+Mam błędne dane na dokumencie podatkowym z pracy. Poprawicie je proszę?
+
+payroll-111
+Chcę złożyć oświadczenie wpływające na zaliczki podatkowe pobierane z pensji.
+Przekazuję oświadczenie dotyczące sposobu naliczania zaliczek na podatek od wynagrodzenia. Proszę przyjąć dokument i uwzględnić go w moich danych płacowych.
+Proszę przyjąć oświadczenie do zaliczek podatkowych z mojej pensji. Problem z drukarką został usunięty i podpisany formularz jest już przygotowany.
+Na formularzu widnieje: „Oświadczenie pracownika dla celów obliczania zaliczek”. Chcę złożyć ten dokument dotyczący podatku pobieranego z wynagrodzenia.
+Mam oświadczenie do zaliczek podatkowych z pensji. Przyjmiecie je do rozliczeń mojej wypłaty?
+
+payroll-113
+Dlaczego zmieniła się zaliczka na podatek wykazana na moim pasku wynagrodzenia?
+W ostatnim rozliczeniu widzę inną kwotę zaliczki podatkowej niż wcześniej. Proszę wyjaśnić przyczynę tej zmiany w mojej pensji.
+Dostęp do paska został przywrócony. Proszę wyjaśnić, dlaczego zmieniła się widoczna na nim zaliczka na podatek od mojego wynagrodzenia.
+Na pasku pozycja „Zaliczka na podatek” ma inną kwotę niż miesiąc wcześniej. Proszę wyjaśnić tę zmianę w rozliczeniu pensji.
+Na pasku mam inną zaliczkę podatkową niż wcześniej. Skąd zmiana przy mojej wypłacie?
+
+payroll-114
+Proszę potwierdzić uwzględnienie podwyższonych kosztów uzyskania przychodu w moim rozliczeniu pracowniczym.
+Złożyłem dane dotyczące podwyższonych kosztów uzyskania przychodu z zatrudnienia. Chcę upewnić się, że są stosowane przy naliczaniu wynagrodzenia. Proszę o potwierdzenie.
+Potrzebuję potwierdzenia zastosowania podwyższonych kosztów uzyskania przychodu w mojej pensji. Zmiana adresu została już zapisana prawidłowo i nie wymaga dalszej korekty.
+W oświadczeniu wskazałam: „Podwyższone koszty uzyskania przychodu”. Proszę potwierdzić, czy uwzględniono je w naliczaniu mojego wynagrodzenia.
+Te podwyższone koszty uzyskania przychodu są już uwzględniane przy mojej pensji? Potwierdzicie?
+
+payroll-115
+Proszę zaktualizować właściwy urząd skarbowy w moich danych płacowych.
+Zmieniła się właściwość urzędu skarbowego dotycząca moich rozliczeń. Przekazuję aktualną informację i proszę uaktualnić ją w danych używanych do rozliczania wynagrodzeń.
+Problem z otwieraniem formularza został naprawiony. Proszę zmienić zapis właściwego urzędu skarbowego w moich danych płacowych na przekazaną aktualną informację.
+W oświadczeniu wpisałem: „Nowy właściwy urząd skarbowy”. Proszę zaktualizować tę informację w danych do rozliczania mojego wynagrodzenia.
+Zmienił mi się urząd skarbowy. Uaktualnicie go w danych płacowych pracownika?
+
+payroll-116
+Gdzie mogę odebrać korektę mojego pracowniczego dokumentu podatkowego?
+Poinformowano mnie o przygotowaniu korekty rocznej informacji dotyczącej wynagrodzeń. Nie wiem, gdzie jest dostępna. Proszę wskazać miejsce i sposób odbioru poprawionego dokumentu.
+Chcę dowiedzieć się, gdzie odebrać korektę dokumentu podatkowego od pracodawcy. Usterka telefonu służbowego została usunięta. Pytam o dostępny kanał odbioru dokumentu.
+Otrzymałam wiadomość: „Korekta informacji podatkowej została przygotowana”. Proszę wyjaśnić, gdzie mogę odebrać mój poprawiony dokument pracowniczy.
+Korekta dokumentu podatkowego z pracy podobno gotowa. Gdzie mam ją odebrać?
+
+payroll-117
+Jak formalnie cofnąć wcześniejsze oświadczenie podatkowe złożone pracodawcy?
+Chcę wycofać poprzednio złożone oświadczenie wpływające na rozliczanie podatku z pensji. Proszę wskazać formalności potrzebne do jego cofnięcia.
+Usunięto awarię poczty i wysyłka działa. Potrzebuję informacji, jak formalnie cofnąć wcześniejsze oświadczenie podatkowe złożone do rozliczania mojego wynagrodzenia.
+W poprzednim formularzu wskazałam: „Oświadczenie dla celów podatkowych pracownika”. Chcę je teraz cofnąć. Proszę wyjaśnić wymagane formalności wobec pracodawcy.
+Chcę wycofać stare oświadczenie podatkowe do pensji. Co formalnie trzeba zrobić?
+
+payroll-118
+Proszę sprawdzić wykazanie mojego świadczenia pracowniczego w rocznej informacji podatkowej.
+Otrzymałem świadczenie związane z zatrudnieniem i chcę upewnić się, że jest właściwie ujęte w dokumencie rocznym. Proszę sprawdzić tę pozycję w informacji podatkowej.
+Sprawdźcie proszę, czy świadczenie pracownicze wykazano w mojej rocznej informacji podatkowej. Zgłoszone wcześniej zacinanie drukarki już naprawiono.
+W zestawieniu wypłat widnieje: „Świadczenie pracownicze”. Proszę sprawdzić, czy zostało wykazane w rocznej informacji podatkowej od pracodawcy.
+To świadczenie z pracy jest uwzględnione w rocznym dokumencie podatkowym? Sprawdzicie zapis?
+
+payroll-119
+Proszę o potwierdzenie przekazania dokumentu podatkowego byłemu pracownikowi.
+Zatrudnienie tej osoby już się zakończyło. Potrzebuję upewnić się, że roczna informacja podatkowa została jej przekazana. Proszę potwierdzić wykonanie tej czynności.
+Brakujący adres korespondencyjny byłego pracownika został już uzupełniony. Proszę potwierdzić, czy przekazano mu dokument podatkowy dotyczący wcześniejszego zatrudnienia.
+W wykazie wysyłek widnieje: „Były pracownik”. Proszę potwierdzić, czy dokument podatkowy dla tej osoby został rzeczywiście przekazany.
+Możecie potwierdzić, że były pracownik dostał już dokument podatkowy z firmy? Potrzebuję potwierdzenia przekazania.

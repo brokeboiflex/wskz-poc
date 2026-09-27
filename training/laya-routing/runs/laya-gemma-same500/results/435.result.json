@@ -1,0 +1,13 @@
+{
+  "id": "other/delivery-personal/resolved_postscript",
+  "family": "other/delivery-personal",
+  "message": "Czekam na paczkę z prezentem dla członka rodziny, a numer śledzenia od kilku dni pokazuje ten sam status. Chciałbym dowiedzieć się, jakie informacje przygotować przed kontaktem z przewoźnikiem.\n\nPS. Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.21023549998062663,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5e93c5333f0b905e590c1b9a5f28a0cffcb0d7494426c8661fe3abcf0a02015e",
+  "response_sha256": "4d0dd33e51398b107d180bc64f161a2bddcd4e0227da77c483fc75afddbb6d3f"
+}

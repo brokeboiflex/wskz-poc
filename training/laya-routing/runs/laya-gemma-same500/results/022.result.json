@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/leadership-course/base",
+  "family": "human_resources/leadership-course",
+  "message": "Od przyszłego miesiąca będę koordynować pracę małego zespołu. Dotychczas odpowiadałam wyłącznie za własne zadania i potrzebuję przygotowania do prowadzenia rozmów oraz delegowania pracy. Czy firma organizuje szkolenie dla nowych liderów lub może zaproponować odpowiednią ścieżkę rozwojową?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.18976299997302704,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4a60021d3372ae5785cbc29edfbf3c3c3e2ddd9e9dacfb38ac98fc39e42277f8",
+  "response_sha256": "bb5c0a6da3634bdf501ff9163357d3fc11c74c78db707141e6dea2935f9af7a5"
+}

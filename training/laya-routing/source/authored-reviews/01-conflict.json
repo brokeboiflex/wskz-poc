@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T17:57:58.789446+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages individually reviewed against10 frozen definitions, policy and approved manual approach. No benchmark access or inference.",
+  "source_sha256": "fae9e44a22956c177257b7f4c848256840383fafd0c918fc319ac6573ed802e1",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/01-conflict.txt",
+      "sha256": "fae9e44a22956c177257b7f4c848256840383fafd0c918fc319ac6573ed802e1"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    },
+    "prior_review": {
+      "path": "poc/message-router/training/laya-routing/source/authored-history/01-conflict-before-context-fix/01-conflict.json",
+      "sha256": "d67eeb8b8b8828aefd88b6ee51a89716fbd5ad35145f34bec493f7d16543d093"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "route_ambiguous_due_to_missing_workplace_context": 0,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "human_resources-016",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-018",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-019",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-021",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-022",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-023",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-024",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-026",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-030",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-032",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "limits": [
+    "Benchmark exclusions and cross-split lexical/semantic checks remain outstanding.",
+    "Initial quality approval is distinct from final dataset acceptance."
+  ],
+  "delta_verification": {
+    "changed_variants": [
+      ["human_resources-024", "informal"],
+      ["human_resources-026", "informal"],
+      ["human_resources-030", "informal"]
+    ],
+    "unchanged_messages": 47,
+    "corrections_accepted": true,
+    "notes": "All3 revised informal variants now explicitly identify work or coworkers. Active requests and scenarios are preserved."
+  }
+}

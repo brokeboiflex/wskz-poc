@@ -1,0 +1,9 @@
+{
+  "approved_for_generation": true,
+  "data_accepted_for_training": false,
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "reviewer": "independent_laya_preflight_review",
+  "created_at": "2026-09-27T17:08:44.746107+00:00",
+  "exclusion_review": "exclusion-scenario-review-v3.json",
+  "notes": "Full original60-group/600-definition review plus13 replacement audit and exact final delta verification. Split allocation preserved; no new concrete cross-split collision or held-out preflight overlap identified. All13 high-confidence original exclusions replaced. Generated messages remain unaccepted and need individual, semantic and lexical review before training; old500 remain regression only."
+}

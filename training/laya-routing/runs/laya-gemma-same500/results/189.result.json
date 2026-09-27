@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-return/forwarded_history",
+  "family": "payroll/leave-return",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPo uzgodnieniu z kierownikiem wróciłam do pracy dwa dni przed końcem zaplanowanego urlopu. Proszę o wskazanie dokumentu potwierdzającego wcześniejszy powrót i skorygowanie ewidencji. Chciałabym, aby dni, w których faktycznie pracowałam, nie pomniejszały mojego pozostałego limitu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2592870420194231,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c467cb320a6f37af0664d2299ea7ed47f4472cbbfc318a9f2310e71e05623c4e",
+  "response_sha256": "fe38d458d0cee44e4b4bbade0e35c32ca7b972d2abbd82d109387578b61f698a"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "payroll/care-leave/resolved_postscript",
+  "family": "payroll/care-leave",
+  "message": "W tym miesiącu wykorzystałam jeden dzień opieki nad dzieckiem, a w zestawieniu pojawiły się dwa. Proszę zweryfikować zapis na podstawie mojego wniosku i poprawić pozostały limit. Zależy mi na prawidłowej ewidencji przed planowaniem kolejnej nieobecności w przyszłym miesiącu.\n\nPS. Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.22495637499378063,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ab3dcdf4829e4d2a57cf52553fbffe0f9d7b9a1b7afaae8e228e20fb685a62fd",
+  "response_sha256": "685355d7f8e91c4a4a319ee2f6afcb39303f0a369a1a19f79974c36fa763548a"
+}

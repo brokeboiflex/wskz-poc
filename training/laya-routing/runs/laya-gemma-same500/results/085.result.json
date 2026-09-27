@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/recruitment-task/resolved_postscript",
+  "family": "human_resources/recruitment-task",
+  "message": "Otrzymałam zadanie rekrutacyjne polegające na przygotowaniu analizy sprzedaży. W instrukcji nie wskazano, czy prezentacja ma być po polsku, czy po angielsku. Zanim rozpocznę pracę, proszę o doprecyzowanie oczekiwań oraz potwierdzenie terminu przekazania rozwiązania osobie oceniającej kandydatów.\n\nPS. Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.22628183400956914,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6643904b22c599a2d0917b69d7303a4b31839e3cc7c02d084e70ed79161928f3",
+  "response_sha256": "6fe11ab7dcc054023c1227e29ed9e084672845ea979fc328e2220908cc59cf5d"
+}

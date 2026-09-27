@@ -1,0 +1,13 @@
+{
+  "id": "it/server-cooling/base",
+  "family": "it/server-cooling",
+  "message": "Monitoring pokazuje rosnącą temperaturę w szafie z serwerami, a dwa hosty zaczęły ograniczać wydajność. Proszę o sprawdzenie warunków pracy infrastruktury serwerowej i zabezpieczenie ciągłości usług. Alarm dotyczy pomieszczenia technicznego, nie komfortu pracy w zwykłym pokoju biurowym.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.1989154999901075,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "dd8ef71c79bd416aea5db718c5a11b5648d67857ae3dd3c0f9d21fa38b8ab176",
+  "response_sha256": "a61845aa82f960f807eebacc3fd12879677a4374e14f46166b58ec6b0ebcfd16"
+}

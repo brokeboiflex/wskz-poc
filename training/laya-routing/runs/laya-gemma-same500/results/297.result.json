@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/local-time/conversation_history",
+  "family": "help_desk/local-time",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nMój laptop pokazuje godzinę przesuniętą o dwie godziny, przez co przypomnienia o spotkaniach pojawiają się nie wtedy, kiedy trzeba. Telefon oraz komputery obok mają prawidłowy czas. Proszę o pomoc w ustawieniu strefy czasowej i synchronizacji na tym urządzeniu.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.23624099997687154,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e8119dcc11e11b5c67f91f1a880f7a0c1b0bf0dd67003917d63b44027d0ca619",
+  "response_sha256": "597f609583e388bc0dc7ebca30d78c7210397a9876055ad2bec423cb70d66f2f"
+}

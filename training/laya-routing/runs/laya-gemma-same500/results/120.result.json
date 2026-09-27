@@ -1,0 +1,13 @@
+{
+  "id": "payroll/missing-salary/base",
+  "family": "payroll/missing-salary",
+  "message": "Zwykle otrzymuję wypłatę do dziesiątego dnia miesiąca, a tym razem środki jeszcze nie wpłynęły. Numer rachunku nie zmienił się i pozostali członkowie zespołu otrzymali przelewy. Proszę sprawdzić status mojego wynagrodzenia oraz poinformować mnie o ewentualnej przyczynie opóźnienia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.21658487498643808,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1c263601b1ca59f4d862463300a745e1c4b65f80e480af77e5a2dd748470ab6e",
+  "response_sha256": "19ed5c6cf2150bd50e3b1f6887c6ab2b9231aa9472033a5b86cf3c1ac2407cbf"
+}

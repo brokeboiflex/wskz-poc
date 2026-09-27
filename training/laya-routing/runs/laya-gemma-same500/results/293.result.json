@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/browser-extension/resolved_preface",
+  "family": "help_desk/browser-extension",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nOsobna, aktualna wiadomość:\nPo dodaniu zatwierdzonego rozszerzenia formularze w mojej przeglądarce przestały reagować na kliknięcia. W oknie bez dodatków działają poprawnie. Proszę o pomoc w ustaleniu konfliktu i przywróceniu działania mojego środowiska pracy bez zmieniania samej aplikacji firmowej.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.27138733299216256,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "fec7f5fa9785b3fb30dae2d45b4f07d8d62a8de118843bca5b525f122035982f",
+  "response_sha256": "2e26faec2781b7a878206a8d4c79de3ed5f2bb6fdfd7f0074d7fd48bbcc5f8d2"
+}

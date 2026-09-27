@@ -1,0 +1,69 @@
+help_desk-084
+Moja przeglądarka pokazuje stronę w niewłaściwym powiększeniu.
+Elementy jednej strony są u mnie ogromne i nie mieszczą się w oknie. Proszę pomóc ustawić prawidłowe powiększenie w mojej przeglądarce.
+Proszę poprawić powiększenie strony w mojej przeglądarce. Rozliczenie delegacji już zatwierdzono. Widok na moim komputerze nadal ma złą skalę.
+Koleżanka zauważyła: „W twojej przeglądarce strona jest nadmiernie powiększona”. Proszę pomóc przywrócić właściwy rozmiar widoku.
+Strona w mojej przeglądarce zrobiła się wielka. Pomożecie ustawić normalne powiększenie?
+
+help_desk-092
+Proszę skonfigurować czytnik ekranu na moim stanowisku.
+Potrzebuję odczytywania zawartości ekranu podczas pracy. Proszę pomóc ustawić czytnik dla mojego użytkownika na komputerze.
+Zaświadczenie o zarobkach już odebrałam. Potrzebuję konfiguracji czytnika ekranu na moim własnym stanowisku pracy.
+W instrukcji dostępności jest polecenie: „Skonfiguruj czytnik ekranu”. Proszę pomóc uruchomić go i ustawić na moim komputerze.
+Chcę korzystać z czytnika ekranu. Pomożecie poustawiać go na moim stanowisku?
+
+help_desk-093
+Moja przeglądarka blokuje potrzebne wyskakujące okno formularza.
+Po kliknięciu przycisku powinien otworzyć się formularz, lecz lokalna blokada okien go zatrzymuje. Proszę pomóc dopuścić potrzebne okno w mojej przeglądarce.
+Proszę odblokować wymagane okno formularza w mojej przeglądarce. Błędną liczbę dni urlopu już skorygowano. Ta prośba dotyczy ustawienia przeglądarki.
+Przeglądarka wyświetla: „Zablokowano wyskakujące okno”. To potrzebny formularz do pracy. Proszę pomóc zezwolić na jego otwarcie u mnie.
+Mój browser blokuje okienko z potrzebnym formularzem. Pomożecie je dopuścić?
+
+help_desk-100
+Proszę przywrócić zakładki w moim własnym profilu przeglądarki.
+Nie widzę zapisanych przeze mnie odnośników na swoim koncie przeglądarki. Potrzebuję pomocy w odzyskaniu zakładek tego profilu.
+Kwotę wynagrodzenia już wyjaśniono. Proszę pomóc przywrócić moje zakładki we własnym profilu przeglądarki.
+Przeglądarka w moim profilu pokazuje: „Brak zakładek”, choć wcześniej miałam zapisane odnośniki. Proszę pomóc je przywrócić.
+Zniknęły zakładki z mojego profilu przeglądarki. Pomożecie odzyskać zapisane linki?
+
+help_desk-103
+Potrzebuję ustawienia kontrastu i wielkości tekstu systemowego na moim komputerze.
+Obecny wygląd interfejsu jest dla mnie trudny do odczytania. Proszę pomóc dobrać kontrast i rozmiar napisów systemowych na własnym stanowisku.
+Proszę skonfigurować kontrast oraz wielkość tekstu w systemie mojego komputera. Zaświadczenie pracownicze już otrzymałem. Potrzebuję dostosowania czytelności interfejsu.
+W ustawieniach widzę pozycje „Kontrast” i „Rozmiar tekstu”. Proszę pomóc dostosować je do moich potrzeb na tym komputerze.
+Napisy systemowe są dla mnie za małe i słabo je widać. Pomożecie ustawić tekst i kontrast na moim komputerze?
+
+help_desk-108
+Moja przeglądarka nie zapamiętuje preferowanego języka stron.
+Wybieram właściwy język, ale przy kolejnym otwarciu stron przeglądarka wraca do poprzedniego. Proszę naprawić zapamiętywanie preferencji w moim profilu.
+Wniosek urlopowy został przyjęty. Proszę pomóc z przeglądarką, która nie zachowuje wybranego przeze mnie języka stron.
+W ustawieniach wybieram „Preferowany język”, ale po ponownym otwarciu wybór znika. Proszę pomóc zapisać tę preferencję w mojej przeglądarce.
+Ustawiam język stron, a mój browser ciągle go zapomina. Sprawdzicie mój profil?
+
+help_desk-110
+Proszę usunąć uszkodzoną pamięć lokalną jednej strony w mojej przeglądarce.
+Jedna witryna działa u mnie błędnie przez zapisane lokalnie uszkodzone dane. Potrzebuję wyczyszczenia pamięci tej strony w moim profilu. Proszę o pomoc.
+Proszę pomóc wyczyścić uszkodzone lokalne dane jednej strony w mojej przeglądarce. Rozliczenie nadgodzin już zakończono. Chodzi tylko o zapis tej witryny u mnie.
+Komunikat strony mówi: „Dane zapisane lokalnie są nieprawidłowe”. Proszę pomóc usunąć uszkodzoną pamięć tej strony z mojej przeglądarki.
+Jedna strona ma u mnie uszkodzone dane lokalne. Pomożecie wyczyścić jej pamięć w moim browserze?
+
+help_desk-112
+Tylko mój profil przeglądarki błędnie wyświetla sprawny portal.
+Na innych profilach portal wygląda poprawnie. U mnie jego elementy są rozjechane. Proszę pomóc naprawić wyświetlanie w moim profilu przeglądarki.
+Brakujące dokumenty pracownicze już dostarczono. Proszę sprawdzić mój profil przeglądarki, w którym działający innym portal wyświetla się nieprawidłowo.
+Kolega porównał widoki i powiedział: „Portal psuje się tylko w twoim profilu”. Proszę pomóc poprawić lokalne wyświetlanie strony.
+Portal jest sprawny, tylko na moim profilu przeglądarki wszystko się rozjeżdża. Pomożecie?
+
+help_desk-115
+Proszę skonfigurować skróty dostępności na moim komputerze.
+Chcę uruchamiać potrzebne funkcje dostępności za pomocą klawiatury. Proszę pomóc ustawić odpowiednie skróty dla mojego użytkownika.
+Potrzebuję konfiguracji skrótów dostępności na własnym stanowisku. Błąd w mojej wypłacie został już poprawiony. Chodzi o ustawienia komputera.
+W instrukcji znalazłem sekcję „Skróty dostępności”. Proszę pomóc dostosować je do mojego sposobu pracy na komputerze.
+Pomożecie ustawić skróty do funkcji dostępności na moim komputerze? Chcę wygodniej je włączać.
+
+help_desk-117
+Moja przeglądarka nie pokazuje dostępnych napisów w materiałach wideo.
+Film ma napisy, które inni użytkownicy mogą włączyć. U mnie nie pojawiają się w odtwarzaczu. Proszę pomóc z ustawieniami mojej przeglądarki.
+Szkolenie zostało już zapisane w planie. Proszę przywrócić wyświetlanie dostępnych napisów w filmach w mojej przeglądarce; inni je widzą.
+Koleżanka potwierdziła: „Ten film ma działające napisy”. U mnie nie są wyświetlane. Proszę sprawdzić ich obsługę w mojej przeglądarce.
+Wideo ma napisy, inni je widzą, a mój browser ich nie pokazuje. Pomożecie je włączyć u mnie?

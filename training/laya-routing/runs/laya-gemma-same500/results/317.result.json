@@ -1,0 +1,13 @@
+{
+  "id": "it/internet-provider/conversation_history",
+  "family": "it/internet-provider",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nCała siedziba ma dostęp do zasobów lokalnych, ale nie otwiera żadnych usług internetowych. Zapasowe połączenie mobilne pozwala je osiągnąć. Proszę o sprawdzenie firmowego łącza, urządzenia brzegowego i kontaktu z operatorem w celu przywrócenia dostępu dla wszystkich zespołów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.24000725001678802,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "16c12537eac256919719fdc08d62a90565424ccfdc697da75a42c74500baa803",
+  "response_sha256": "7f39e0deb907a63e4fc81c0fb42734edab0bb6742b842320d8561bcd485d782f"
+}

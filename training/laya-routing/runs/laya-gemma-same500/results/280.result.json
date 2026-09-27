@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/bluetooth/base",
+  "family": "help_desk/bluetooth",
+  "message": "Nowa mysz bezprzewodowa nie pojawia się w ustawieniach Bluetooth mojego laptopa. Włączyłem tryb parowania i wymieniłem baterię, ale komputer nadal jej nie wykrywa. Proszę o pomoc w połączeniu tych urządzeń, ponieważ obecnie mogę korzystać wyłącznie z gładzika.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.21158462500898167,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a65010aae50bfb274bb5fcc48881b619d5742deab421d5a82aa7e649748de6e7",
+  "response_sha256": "516b140e05ae80bf9ab504ca735eab7041a556062309828ae62505bde5c804aa"
+}

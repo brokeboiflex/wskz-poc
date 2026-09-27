@@ -1,0 +1,13 @@
+{
+  "id": "it/vulnerability/base",
+  "family": "it/vulnerability",
+  "message": "Skan bezpieczeństwa wykazał krytyczną podatność w wersji oprogramowania na naszym publicznym serwerze. Potrzebujemy oceny narażenia i zaplanowania poprawki w uzgodnionym oknie serwisowym. Proszę o zajęcie się zabezpieczeniem tej usługi oraz potwierdzenie usunięcia podatności po aktualizacji.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19249645798117854,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5044c2cbb8fb85c9ab3baae2ed12efe819b7ce932f954bddd74b275052bdadfe",
+  "response_sha256": "5580ba884a2c99650b17786b1d7da9444f97855f456b116c723b220e67df3359"
+}

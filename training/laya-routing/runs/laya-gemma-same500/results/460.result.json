@@ -1,0 +1,13 @@
+{
+  "id": "other/catering/base",
+  "family": "other/catering",
+  "message": "Na jutrzejsze spotkanie z gośćmi potrzebujemy wody i prostego poczęstunku dla sześciu osób. Kto przyjmuje takie zamówienia i do kiedy przekazać szczegóły? Dwie osoby nie jedzą nabiału, więc chciałabym uprzedzić dostawcę przed przygotowaniem zestawu.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.20964625000488013,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "09fea8fc6e55902e87db4bf86ca189fd98345c9184a21a55974aeffe94c9e7b5",
+  "response_sha256": "9ec5cd8b8eadf5cca9438a09a05ba4440d9550f686a1b184e6c3922ef16d154b"
+}

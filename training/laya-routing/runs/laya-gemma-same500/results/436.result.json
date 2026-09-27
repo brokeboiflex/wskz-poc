@@ -1,0 +1,13 @@
+{
+  "id": "other/poem/base",
+  "family": "other/poem",
+  "message": "Potrzebuję krótkiego, pogodnego wiersza na kartkę urodzinową dla babci. Chciałabym, żeby pojawiły się w nim ogród, wspólne spacery i domowe wypieki, ale bez żartów o wieku. Czy możecie pomóc napisać kilka wersów do prywatnych życzeń?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.21032766602002084,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ffb406dd329c07950253bf6d736643fe3556e261de354e434c3a75af7703731d",
+  "response_sha256": "fc5963007ab06c2a01dd93c957a54690698f33e9b2e29314a5a803c98325a885"
+}

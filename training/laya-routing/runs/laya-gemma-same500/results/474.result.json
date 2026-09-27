@@ -1,0 +1,13 @@
+{
+  "id": "other/vague-urgent/base",
+  "family": "other/vague-urgent",
+  "message": "To bardzo pilne!!! Sytuacja od rana jest taka sama. Ktoś może się wreszcie tym zająć? Potrzebuję odpowiedzi jeszcze dzisiaj.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.1898391669965349,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "84b9f0910927e85292953f7e6ccf2f3dcf1bbbbd37b53c5dc56ebf30a3b92f0c",
+  "response_sha256": "97ba9fc7f71c2c7da695c773f680feb489645a543a778da35176785654492c48"
+}

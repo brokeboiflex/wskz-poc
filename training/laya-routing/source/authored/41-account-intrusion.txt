@@ -1,0 +1,69 @@
+it-075
+Ktoś zalogował się na moje konto służbowe z nieznanej mi lokalizacji.
+Widzę udane logowanie z miejsca, w którym nie byłem, i nie jest to moje działanie. Proszę zbadać możliwe przejęcie konta pracownika.
+Proszę zareagować na obce logowanie do mojego konta służbowego z nieznanej lokalizacji. Wypłatę dodatku już wyjaśniono. Podejrzane logowanie nie pochodzi ode mnie.
+Alert konta pokazuje: „Nowe logowanie z nieznanej lokalizacji”. Nie wykonywałam go. Proszę sprawdzić incydent na moim koncie służbowym.
+Ktoś wszedł na moje konto w pracy z miejsca, którego nie znam. To nie ja, sprawdzicie naruszenie?
+
+it-076
+Dostaję prośby o zatwierdzenie drugiego składnika, choć nie próbuję się logować.
+Na mój telefon przychodzą potwierdzenia dostępu do konta służbowego, których nie inicjowałem. Proszę zbadać próbę nieuprawnionego logowania.
+Naprawę mojego monitora zakończono. Zgłaszam niezamówione prośby o zatwierdzenie drugiego składnika na koncie służbowym. Nie loguję się w tych chwilach.
+Telefon pyta: „Zatwierdzić logowanie?”, ale nie rozpoczynałam żadnej sesji służbowej. Proszę zareagować na podejrzane żądania drugiego składnika.
+Przychodzą potwierdzenia logowania do pracy, a ja się nie loguję. Sprawdzicie te obce próby?
+
+it-077
+Na koncie administratora pojawiły się działania, których właściciel nie wykonywał.
+Dziennik uprzywilejowanego konta pokazuje zmiany niepochodzące od jego właściciela. Proszę zbadać możliwe przejęcie konta administracyjnego i zabezpieczyć dostęp.
+Proszę sprawdzić nieautoryzowane działania na koncie administratora. Moje rozliczenie urlopu już poprawiono. Właściciel konta zaprzecza wykonaniu tych zmian.
+Administrator napisał: „Nie wykonywałem operacji widocznych na moim koncie”. Proszę podjąć reakcję na możliwe naruszenie konta uprzywilejowanego.
+Na koncie admina są akcje, których on nie robił. Zajmiecie się podejrzeniem przejęcia?
+
+it-080
+Hasło mojego konta pracowniczego znalazło się w potwierdzonym wycieku.
+Otrzymaliśmy potwierdzenie ujawnienia hasła do służbowego konta. Proszę podjąć reakcję na incydent i zabezpieczyć zagrożony dostęp.
+Zaświadczenie o zatrudnieniu już wydano. Zgłaszam potwierdzony wyciek hasła pracownika i proszę o działania incydentowe.
+Powiadomienie bezpieczeństwa brzmi: „Hasło służbowe znajduje się w potwierdzonym wycieku”. Proszę zareagować na ujawnienie danych mojego konta.
+Potwierdzili, że hasło do mojego konta w pracy wyciekło. Potrzebna reakcja na incydent.
+
+it-081
+Nieuprawniona osoba zmieniła metody odzyskiwania mojego konta służbowego.
+Nie dokonywałam zmian, ale moje dane odzyskiwania dostępu zostały zastąpione cudzymi. Proszę zbadać naruszenie i zabezpieczyć konto.
+Proszę pomóc po nieautoryzowanej zmianie metod odzyskiwania mojego konta służbowego. Usterka drukarki jest już usunięta. Zmian dostępu nie wykonywałem.
+Powiadomienie mówi: „Metody odzyskiwania konta zostały zmienione”. Nie wyrażałam zgody ani tego nie robiłam. Proszę zareagować na naruszenie konta pracowniczego.
+Ktoś bez zgody podmienił odzyskiwanie mojego konta z pracy. Sprawdzicie incydent i zabezpieczycie dostęp?
+
+it-084
+Z mojego konta pracowniczego wychodzą wiadomości bez mojego udziału.
+Odbiorcy otrzymują maile, których nie pisałem ani nie wysyłałem. Wyglądają na wysłane z mojego służbowego konta. Proszę zbadać jego nieuprawnione użycie.
+Mój dokument podatkowy już dostarczono. Proszę zająć się kontem służbowym, które wysyła wiadomości bez mojego działania.
+Koleżanka napisała: „Dostałam od ciebie dziwną wiadomość”. Nie wysyłałam jej, a znajduje się w wysłanych mojego konta służbowego. Proszę sprawdzić naruszenie.
+Moje konto w pracy samo rozsyła maile, których nie pisałem. Potrzebna reakcja bezpieczeństwa.
+
+it-086
+Logi wskazują przejęcie aktywnej sesji użytkownika w systemie firmowym.
+W zapisach bezpieczeństwa potwierdzono użycie cudzej trwającej sesji. Proszę zbadać przejęcie i zabezpieczyć konto oraz powiązane zasoby.
+Proszę zareagować na widoczne w logach przejęcie aktywnej sesji użytkownika. Korektę moich godzin już zakończono. To incydent dostępu do systemu firmy.
+Analiza logów wskazuje: „Aktywna sesja została przejęta”. Proszę zająć się incydentem dotyczącym konta pracownika w systemie firmowym.
+W logach widać przejęcie aktywnej sesji użytkownika. Sprawdzicie naruszenie i zabezpieczycie dostęp?
+
+it-087
+Podejrzana aplikacja uzyskała nieautoryzowany dostęp OAuth do konta firmowego.
+W uprawnieniach konta pojawiła się obca aplikacja, której nie zatwierdzaliśmy. Proszę zbadać nieuprawniony dostęp OAuth i zabezpieczyć dane służbowe.
+Problem z moim mikrofonem już rozwiązano. Proszę zareagować na podejrzaną aplikację z nieautoryzowanym dostępem OAuth do firmowego konta.
+Panel konta pokazuje: „Przyznano aplikacji dostęp OAuth”, choć nie udzielaliśmy takiej zgody. Proszę zbadać podejrzaną aplikację i ten incydent.
+Obca apka dostała OAuth do firmowego konta bez zgody. Zajmiecie się tym dostępem?
+
+it-088
+Wykryto password spraying na setki firmowych kont z jednego zakresu adresów.
+Monitoring wykrył password spraying: próby tych samych haseł wobec setek kont organizacji. Źródła należą do jednego zakresu adresowego. Proszę podjąć reakcję na ten atak.
+Proszę zareagować na password spraying obejmujący setki kont firmy z jednego zakresu adresów. Wniosek o moje wolne już przyjęto. Atak jest widoczny w monitoringu.
+Alert bezpieczeństwa wskazuje: „Password spraying z jednego zakresu adresów”. Dotyczy setek firmowych kont. Proszę podjąć działania incydentowe.
+Ktoś robi password spraying na setki naszych kont z jednego zakresu adresów. Sprawdzicie i powstrzymacie atak?
+
+it-089
+Potwierdzono nieautoryzowane utworzenie uprzywilejowanego konta w systemie firmy.
+W środowisku pojawiło się konto z wysokimi uprawnieniami, którego nikt nie zatwierdzał. Proszę zbadać potwierdzone naruszenie i zabezpieczyć system.
+Rozliczenie mojej delegacji już zamknięto. Proszę zająć się potwierdzonym utworzeniem uprzywilejowanego konta bez autoryzacji w firmowym systemie.
+Przegląd dostępu wykazał: „Nowe konto uprzywilejowane bez zatwierdzenia”. Proszę podjąć reakcję na ten potwierdzony incydent.
+W systemie firmy ktoś bez zgody założył konto z wysokimi uprawnieniami. Naruszenie potwierdzone, zajmiecie się nim?

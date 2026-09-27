@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:27:06.299083+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 texts individually read and checked against10 frozen definitions and policy. Request routing/editorial review only, no benchmark, model-score or legal-advice access.",
+  "source_sha256": "12c15c48c2acdd3844b7f2592567c67d71ba7953f287f2bb59c0eff00f1f1b4d",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/23-insurance-records.txt",
+      "sha256": "12c15c48c2acdd3844b7f2592567c67d71ba7953f287f2bb59c0eff00f1f1b4d"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    },
+    "prior_review": {
+      "path": "poc/message-router/training/laya-routing/source/authored-history/23-insurance-records-before-context-fix/23-insurance-records.json",
+      "sha256": "5c8bec71115c245c730d5542fcc00b4707895c46211d8146709537950353eac3"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "route_ambiguous_due_to_missing_employment_context": 0,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "payroll-059",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-063",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-065",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-076",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-080",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-087",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-096",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-101",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-105",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-110",
+      "split": "test",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "All50 messages now preserve the precise document or insurance action with adequate employment context. Histories and quotations remain correct.",
+  "limits": [
+    "Initial quality review only; final cross-split and benchmark exclusions remain mandatory.",
+    "This is not final training-data acceptance."
+  ],
+  "delta_verification": {
+    "changed_variants": [["payroll-063", "short"]],
+    "unchanged_messages": 49,
+    "corrections_accepted": true,
+    "notes": "Explicit employment context restored; the exact active request is unchanged."
+  }
+}

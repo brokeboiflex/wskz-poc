@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/leadership-course/resolved_preface",
+  "family": "human_resources/leadership-course",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n\nOsobna, aktualna wiadomość:\nOd przyszłego miesiąca będę koordynować pracę małego zespołu. Dotychczas odpowiadałam wyłącznie za własne zadania i potrzebuję przygotowania do prowadzenia rozmów oraz delegowania pracy. Czy firma organizuje szkolenie dla nowych liderów lub może zaproponować odpowiednią ścieżkę rozwojową?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2207932909950614,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "31348b4d89911b3156d8ed294074ab9bf3fb87dbee5d0776cc87272cf6fc8ede",
+  "response_sha256": "45659d63b4ebd504557a129e792eb85db94c05cee258f80ce7c859be9b0a1cfc"
+}

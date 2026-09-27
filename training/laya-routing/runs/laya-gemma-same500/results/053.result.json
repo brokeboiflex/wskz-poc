@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/workload-conversation/resolved_preface",
+  "family": "human_resources/workload-conversation",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nOsobna, aktualna wiadomość:\nOd kilku miesięcy przydzielane są mi zadania przekraczające możliwości jednej osoby. Nie chodzi teraz o rozliczenie nadgodzin, tylko o pomoc w rozmowie z przełożonym i uporządkowaniu oczekiwań. Chciałabym umówić konsultację dotyczącą obciążenia pracą oraz zasad współpracy w zespole.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.22868770800414495,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cb99c6723a33c3c51e3ae7d8436cd4b67306c9eb21841089a065e9f9d0b3117e",
+  "response_sha256": "dc09c3ebbbe3a2465375ecee04b81394cedc4b323f6f89907f6024dbd00ffd61"
+}

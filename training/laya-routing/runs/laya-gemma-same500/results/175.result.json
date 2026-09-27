@@ -1,0 +1,13 @@
+{
+  "id": "payroll/education-leave-credit/resolved_postscript",
+  "family": "payroll/education-leave-credit",
+  "message": "Chciałbym dostarczyć dyplom ukończenia studiów do akt pracowniczych, ponieważ nie został uwzględniony przy zatrudnieniu. Proszę o informację, czy wystarczy okazać oryginał, oraz o sprawdzenie wpływu tego dokumentu na naliczenie stażu i wymiaru urlopu wypoczynkowego.\n\nPS. Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2294297079788521,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8f497d53669da9f6c0853fe37a9577a41fa26caf017b57ae9f7bbcdc69e9cb63",
+  "response_sha256": "4f67bae9d425dcf22f4fa2460341e2323ba1862b8395effdf6618ab8b5a01ba8"
+}

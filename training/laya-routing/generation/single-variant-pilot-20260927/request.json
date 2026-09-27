@@ -1,0 +1,19 @@
+{
+  "model": "gemma4:e2b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Napisz jedną naturalną wiadomość po polsku dotyczącą podanej sprawy. Zachowaj dokładnie rodzaj zadania i fakty ze scenariusza. Nie dodawaj innych aktywnych spraw. Każda wiadomość jest samodzielna. Nie wymieniaj nazwy docelowego działu. Zwróć tylko treść wiadomości, bez komentarza, analizy i podpisu. Wszystkie szczegóły są fikcyjne.\nZnaczenie kategorii do kontroli zakresu: {\"human_resources\": \"Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.\", \"payroll\": \"Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia.\", \"help_desk\": \"Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie.\", \"it\": \"Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa.\", \"other\": \"Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział.\"}"
+    },
+    {
+      "role": "user",
+      "content": "Sprawa: Organizacja zadania praktycznego dla kandydatów na redaktorów.\nForma: trzy zdania, 25-45 słów. Krótko opisz sytuację i poproś o wykonanie dokładnie tego zadania. Występujesz jako organizator rekrutacji."
+    }
+  ],
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "seed": 48,
+  "reasoning_effort": "none",
+  "max_tokens": 300,
+  "stream": false
+}

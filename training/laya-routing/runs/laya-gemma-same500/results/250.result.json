@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/pdf-reader/base",
+  "family": "help_desk/pdf-reader",
+  "message": "Po ostatniej zmianie ustawień pliki PDF otwierają się w niewłaściwej aplikacji i nie mogę korzystać z komentarzy. Dokumenty same w sobie są poprawne. Proszę pomóc przywrócić firmowy czytnik jako domyślny program na moim komputerze i sprawdzić jego działanie.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2098309999855701,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6420a749f5fec4adfd8119571095a0734f9195f9c573d21d90f2ca17495da746",
+  "response_sha256": "3c611bdd68a2b57d11445361f108103600e1308f51b836d6bdb34b9d6bb3b239"
+}

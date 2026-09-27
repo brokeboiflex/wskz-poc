@@ -1,0 +1,69 @@
+other-030
+Jako klient proszę o fakturę za kupioną usługę.
+Opłaciłam zamówioną usługę i potrzebuję dokumentu sprzedaży. Proszę wystawić fakturę dla mnie jako nabywcy.
+Proszę wystawić fakturę za usługę, którą kupiłem jako klient. Mój wcześniejszy problem z komputerem już naprawiono. Chodzi o dokument zakupu.
+W potwierdzeniu zamówienia napisano: „Fakturę wystawimy na życzenie klienta”. Proszę przesłać fakturę za zakupioną usługę.
+Kupiłem u was usługę. Podeślecie fakturę za zamówienie?
+
+other-031
+Kiedy zostanie opłacona nasza faktura handlowa za dostawę?
+Piszę jako kontrahent oczekujący zapłaty za wykonane zamówienie. Proszę podać termin uregulowania faktury handlowej.
+Nieprawidłowy adres dostawy już poprawiono. Jako kontrahent proszę o informację, kiedy zapłacicie fakturę za nasze zamówienie.
+Na fakturze wskazaliśmy „Termin płatności”, który już minął. Jako dostawca proszę potwierdzić, kiedy dokument handlowy zostanie opłacony.
+Piszę od dostawcy: kiedy zapłacicie naszą fakturę za zamówienie? Potrzebujemy terminu.
+
+other-032
+Proszę poprawić błędną kwotę na fakturze wystawionej mi jako klientowi.
+Cena na dokumencie sprzedaży nie odpowiada uzgodnionemu zamówieniu. Składam reklamację i proszę skorygować fakturę klienta.
+Proszę skorygować kwotę faktury za mój zakup. Przesyłka już dotarła i opóźnienie jest załatwione. Nie zgadza się cena na dokumencie sprzedaży.
+W zamówieniu zapisano: „Cena uzgodniona”, lecz faktura dla mnie jako klienta podaje inną kwotę. Proszę poprawić ten błąd.
+Na fakturze za mój zakup jest zła kwota. Zgłaszam reklamację, poprawicie dokument?
+
+other-034
+Proszę potwierdzić zaksięgowanie mojej płatności za zamówiony produkt.
+Wysłałam przelew za zakup i chcę upewnić się, że wpłata została przypisana do zamówienia. Proszę o potwierdzenie zaksięgowania.
+Zmiana adresu odbioru już potwierdzona. Proszę sprawdzić, czy zaksięgowano moją płatność klienta za zamówiony produkt.
+Bank pokazał: „Przelew zrealizowany”. Proszę potwierdzić zaksięgowanie tej wpłaty za moje zamówienie produktu.
+Przelałem za zamówiony produkt. Potwierdzicie, że płatność się zaksięgowała?
+
+other-036
+Proszę zmienić dane nabywcy na dokumencie sprzedaży.
+Na fakturze za moje zamówienie widnieją nieaktualne informacje kupującego. Proszę uaktualnić dane nabywcy zgodnie z przekazanym zgłoszeniem.
+Proszę poprawić dane nabywcy na dokumencie zakupu. Problem z otwieraniem mojego pliku już naprawiono. Zmiana dotyczy informacji na fakturze sprzedażowej.
+W rubryce faktury „Nabywca” są nieaktualne dane. Proszę zmienić je na prawidłowe informacje kupującego.
+Na dokumencie sprzedaży są złe dane nabywcy. Zmienicie je według zgłoszenia?
+
+other-037
+Proszę uzgodnić warunki płatności za nasze zewnętrzne zamówienie.
+Reprezentuję kontrahenta przygotowującego zakup. Chcemy ustalić termin i sposób zapłaty za zamówienie. Proszę uzgodnić warunki handlowe.
+Błąd w opisie dostawy został poprawiony. Proszę ustalić warunki płatności za zewnętrzne zamówienie naszej firmy jako klienta.
+W ofercie zaznaczono: „Warunki płatności do uzgodnienia”. Jako zewnętrzny nabywca proszę ustalić je dla zamówienia.
+Chcemy dogadać płatność za nasze zamówienie jako klient. Ustalimy termin i sposób zapłaty?
+
+other-038
+Jako klient pytam o zwrot zaliczki wpłaconej za usługę.
+Wpłaciłem część ceny przy zamówieniu usługi. Potrzebuję informacji o zwrocie tej zaliczki klientowi. Proszę wyjaśnić stan i sposób rozliczenia zwrotu.
+Proszę wyjaśnić zwrot mojej zaliczki za zamówioną usługę. Dane kontaktowe już poprawiono. Pytam jako klient o wpłaconą kwotę.
+W potwierdzeniu zamówienia widnieje: „Zaliczka przyjęta”. Proszę o informację dotyczącą jej zwrotu za usługę, którą zamówiłam jako klientka.
+Co ze zwrotem zaliczki za moją usługę? Wpłaciłem ją jako klient przy zamówieniu.
+
+other-041
+Proszę przesłać cennik usług oferowanych przez organizację.
+Rozważam zakup i chcę porównać dostępne usługi oraz ich ceny. Proszę o aktualny cennik dla potencjalnego klienta.
+Moje poprzednie zgłoszenie problemu z komputerem już rozwiązano. Proszę przesłać cennik usług organizacji, które rozważam zamówić.
+W ofercie przeczytałam: „Cennik dostępny na zapytanie”. Proszę przesłać ceny usług organizacji dla klienta.
+Podeślecie cennik waszych usług? Chcę zobaczyć ceny przed zakupem.
+
+other-043
+Jako kontrahent proszę o kopię naszej umowy handlowej.
+Potrzebujemy egzemplarza podpisanego porozumienia dotyczącego współpracy z dostawcą. Proszę przekazać kopię umowy handlowej naszej firmie.
+Proszę przesłać kopię umowy handlowej kontrahentowi, którego reprezentuję. Fakturę za ostatnią dostawę już skorygowano. Pozostał potrzebny dokument umowy.
+W korespondencji potwierdzono: „Umowa handlowa została podpisana”. Jako kontrahent proszę o jej kopię.
+Potrzebujemy kopii naszej umowy handlowej jako kontrahent. Podeślecie dokument?
+
+other-045
+Na jaki rachunek mam zapłacić za moje zamówienie jako klient?
+Chcę opłacić zakupiony produkt, ale nie wiem, który numer konta jest właściwy. Proszę wyjaśnić dane rachunku do płatności za zamówienie.
+Błędny adres przesyłki już poprawiono. Proszę wskazać właściwy numer rachunku do opłacenia mojego zamówienia klienta.
+Na potwierdzeniu zakupu widnieje: „Płatność przelewem”. Proszę wyjaśnić, na jaki numer rachunku wysłać zapłatę za zamówienie.
+Gdzie mam przelać pieniądze za swoje zamówienie? Potrzebuję właściwego numeru konta do zakupu.

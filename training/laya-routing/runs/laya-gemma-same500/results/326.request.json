@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Macierz przechowująca wspólne dane zgłasza awarię kilku dysków i przejście w stan zdegradowany. Dostęp do plików jest znacznie spowolniony we wszystkich zespołach. Proszę o pilną ocenę stanu infrastruktury pamięci masowej i zabezpieczenie ciągłości działania usług.\n\nAlarm pojawił się w nocy, a rano kolejne dyski zostały oznaczone jako niedostępne. Nie wyjmowaliśmy żadnych nośników i nie uruchamialiśmy samodzielnie odbudowy. Konsola zarządzania nadal odpowiada, więc można zebrać dane diagnostyczne przed podjęciem dalszych działań."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

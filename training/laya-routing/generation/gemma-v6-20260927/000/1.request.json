@@ -1,0 +1,19 @@
+{
+  "model": "gemma4:e2b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Napisz jedną naturalną wiadomość po polsku z prośbą o załatwienie podanej sprawy.\nZachowaj dokładnie aktualne zadanie ze scenariusza. Warunki opisane jako spełnione nie są nowym zadaniem.\nZaadresuj prośbę do osoby mającej ją obsłużyć. Nie odpowiadaj na nią, nie pisz zaproszenia do kandydata i nie zmieniaj rekrutacji na szkolenie.\nNie dodawaj zadań, które wynikają tylko z ogólnego opisu kategorii. Każda wiadomość jest samodzielna.\nNie wymieniaj docelowego działu, etykiety ani klasyfikacji. Zwróć wyłącznie treść wiadomości, bez tytułu, podpisu i komentarza.\nJeśli scenariusz celowo nie zawiera prośby lub informacji, zachowaj ten brak zamiast dopisywać zadanie.\nOsoby i szczegóły fikcyjne, bez prawdziwych kontaktów i sekretów.\n\nZnaczenie kategorii wyłącznie do kontroli granic: {\"human_resources\": \"Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.\", \"payroll\": \"Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia.\", \"help_desk\": \"Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie.\", \"it\": \"Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa.\", \"other\": \"Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział.\"}"
+    },
+    {
+      "role": "user",
+      "content": "Bieżące zadanie: Organizacja rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego.\nForma wypowiedzi: Trzy naturalne zdania, 25-45 słów: sytuacja, jej znaczenie i prośba o wykonanie dokładnie zadania ze scenariusza."
+    }
+  ],
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "seed": 43,
+  "reasoning_effort": "none",
+  "max_tokens": 300,
+  "stream": false
+}

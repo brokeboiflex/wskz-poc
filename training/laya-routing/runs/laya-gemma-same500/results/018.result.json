@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/internal-recruitment/base",
+  "family": "human_resources/internal-recruitment",
+  "message": "Pracuję obecnie w obsłudze zamówień i zauważyłem wewnętrzne ogłoszenie dotyczące analityka procesów. Chciałbym wziąć udział w naborze, nie rezygnując na tym etapie z obecnego stanowiska. Proszę o wskazanie zasad aplikowania i sposobu poinformowania przełożonego o kandydaturze.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19585162500152364,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "066a1d8723730ae41b165f6c40fd08a532b40e5fcdaf1ac263033e50004813df",
+  "response_sha256": "8b5fc1c5b9370006471408a7d411200b3e1821f2dd3a7632d67c7d23f1850901"
+}

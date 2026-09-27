@@ -1,0 +1,69 @@
+help_desk-006
+Mój służbowy telefon nie synchronizuje kontaktów.
+Kontakty zapisane na koncie nie pojawiają się na moim telefonie do pracy. Proszę sprawdzić synchronizację tego urządzenia.
+Proszę przywrócić synchronizację kontaktów w moim służbowym telefonie. Rozliczenie delegacji już poprawiono i temat jest zamknięty.
+Telefon przy kontaktach pokazuje: „Synchronizacja nieudana”. Proszę pomóc zsynchronizować je na moim służbowym urządzeniu.
+Kontakty nie synchronizują się na moim telefonie z pracy. Zerkniecie na to?
+
+help_desk-007
+Potrzebuję konfiguracji eSIM na moim urządzeniu służbowym.
+Otrzymałam dane do aktywacji eSIM, lecz nie wiem, jak użyć ich na własnym telefonie do pracy. Proszę pomóc w konfiguracji.
+Zaświadczenie pracownicze już odebrałem. Potrzebuję pomocy w ustawieniu eSIM na moim służbowym urządzeniu.
+W instrukcji mam krok: „Dodaj profil eSIM”. Proszę pomóc wykonać go na moim telefonie służbowym.
+Mam eSIM do służbowego telefonu. Pomożecie ją skonfigurować na moim urządzeniu?
+
+help_desk-013
+Mój tablet nie obraca obrazu po zmianie orientacji urządzenia.
+Trzymam tablet poziomo, ale ekran pozostaje pionowy. Proszę sprawdzić obracanie obrazu na moim urządzeniu.
+Proszę naprawić obracanie obrazu na moim tablecie. Wniosek o urlop został już zapisany. Ekran nadal nie reaguje na zmianę orientacji.
+Koleżanka zauważyła: „Obraz nie obraca się razem z tabletem”. Proszę pomóc przywrócić tę funkcję w moim urządzeniu.
+Obracam tablet, a obraz stoi pionowo. Sprawdzicie obracanie na moim sprzęcie?
+
+help_desk-017
+Mój smartfon nie odczytuje kodów kreskowych w działającej aplikacji magazynowej.
+Inni skanują towary tą aplikacją bez problemu, ale mój telefon nie rozpoznaje kodów. Proszę sprawdzić odczyt na tym urządzeniu.
+Rozliczenie nadgodzin zostało zakończone. Proszę pomóc ze skanowaniem kodów kreskowych na moim smartfonie; aplikacja magazynowa innym działa.
+Na moim telefonie aplikacja pokazuje: „Nie rozpoznano kodu”. Ten sam kod koledzy skanują poprawnie. Proszę sprawdzić moje urządzenie.
+Apka magazynowa działa, tylko mój telefon nie czyta kodów kreskowych. Pomożecie?
+
+help_desk-023
+Mój smartfon nie pozwala zaktualizować aplikacji z zatwierdzonego sklepu.
+Próbuję pobrać aktualizację z dozwolonego źródła, ale mój telefon przerywa instalację. Proszę pomóc z aktualizacją na tym urządzeniu.
+Proszę pomóc zaktualizować aplikację z zatwierdzonego sklepu na moim smartfonie. Błąd w dokumentach zatrudnienia już poprawiono. Telefon nadal odmawia aktualizacji.
+Sklep zatwierdzony do pracy pokazuje na moim telefonie: „Nie można zaktualizować”. Proszę pomóc usunąć lokalny problem instalacji.
+Mój telefon nie chce aktualizacji apki z dozwolonego sklepu. Zerkniecie na urządzenie?
+
+help_desk-035
+Proszę pomóc ustawić blokadę ekranu na moim telefonie.
+Chcę skonfigurować blokowanie ekranu urządzenia, ale nie wiem, które ustawienia wybrać. Potrzebuję pomocy przy własnym telefonie.
+Dodatek do wynagrodzenia już rozliczono. Proszę pomóc skonfigurować blokadę ekranu mojego telefonu służbowego.
+W ustawieniach telefonu widzę opcję „Blokada ekranu”. Proszę pomóc prawidłowo ją ustawić na moim urządzeniu.
+Pomożecie ustawić blokadę ekranu na moim telefonie? Nie wiem, jak to skonfigurować.
+
+help_desk-043
+Mój służbowy tablet nie reaguje na rysik.
+Próbuję pisać rysikiem na tablecie do pracy, ale ekran nie odnotowuje dotknięć. Proszę sprawdzić ten zestaw.
+Proszę naprawić obsługę rysika w moim służbowym tablecie. Przesłany dokument pracowniczy został już poprawiony i przyjęty.
+Kolega po próbie napisał: „Tablet w ogóle nie reaguje na ten rysik”. Proszę sprawdzić rysik i moje urządzenie służbowe.
+Rysik nic nie robi na moim tablecie z pracy. Sprawdzicie, czemu nie reaguje?
+
+help_desk-051
+Mój telefon nie zapisuje zdjęć dokumentów w aplikacji roboczej.
+Wykonuję zdjęcie dokumentu, lecz nie pojawia się ono w używanej do pracy aplikacji. Problem dotyczy mojego telefonu. Proszę pomóc naprawić zapis.
+Wypłatę już wyrównano. Proszę sprawdzić mój telefon, który nie zapisuje zdjęć dokumentów do aplikacji roboczej.
+Po zrobieniu zdjęcia aplikacja na moim telefonie pokazuje: „Nie zapisano dokumentu”. Proszę przywrócić zapisywanie zdjęć w tym programie.
+Robię zdjęcie dokumentu, ale apka do pracy go nie zapisuje na moim telefonie. Pomożecie?
+
+help_desk-057
+Automatyczna jasność ekranu mojego telefonu nie reaguje na oświetlenie.
+Ekran pozostaje tak samo jasny w ciemnym pokoju i przy mocnym świetle. Proszę sprawdzić automatyczne dostosowanie jasności na moim telefonie.
+Proszę naprawić automatyczną jasność mojego telefonu, która nie reaguje na światło. Termin szkolenia już potwierdzono. Ta usterka nadal przeszkadza w używaniu urządzenia.
+W ustawieniach widzę „Jasność automatyczna: włączona”, ale ekran nie reaguje na zmianę światła. Proszę sprawdzić mój telefon.
+Automatyczna jasność niby włączona, a mój telefon wcale nie reaguje na światło. Zerkniecie?
+
+help_desk-068
+GPS mojego telefonu służbowego wskazuje błędną pozycję.
+Na mapie moje urządzenie pokazuje inne miejsce niż to, w którym się znajduję. Proszę sprawdzić działanie lokalizacji GPS na tym telefonie.
+Błąd rozliczenia czasu pracy został poprawiony. Proszę pomóc z nieprawidłową pozycją GPS na moim pojedynczym telefonie służbowym.
+Koleżanka porównała mapy i powiedziała: „Tylko twój telefon pokazuje inne miejsce”. Proszę sprawdzić GPS mojego urządzenia służbowego.
+GPS w moim telefonie z pracy pokazuje mnie gdzie indziej. Sprawdzicie lokalizację na tym urządzeniu?

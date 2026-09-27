@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/payroll-course/base",
+  "family": "human_resources/payroll-course",
+  "message": "Do mojego zakresu zadań dojdzie weryfikowanie danych do list płac. Chciałabym zapisać się na szkolenie z podstaw naliczania wynagrodzeń i interpretacji dokumentów. Potrzebuję kursu dla początkującej osoby, najlepiej z ćwiczeniami na przykładach i możliwością zadawania pytań prowadzącemu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19311312501668,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "926068b0fb36b4e7891233288de5690240864e73e4172e09b75cde6bdf2b838d",
+  "response_sha256": "e340e61eac35d98d1e42323dd0ccfae482e3f00ab440515ddfcb2d2c6f51ead8"
+}

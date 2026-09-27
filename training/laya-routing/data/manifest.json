@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "sources": {
+    "source/plan.json": "ba889cd43aba9c3ad6ab66dc08ddbfa07f088cfc0c731af174a28ec21f2bbe91",
+    "source/scenarios.json": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+    "source/collection-audit.json": "e5d6952a818880dc0f610e33592426fc2862c1c2c37db1b392906d0ed7c05286",
+    "source/accepted-authored.jsonl": "40cb20e0d0d919639151d987f765ddf0ece21669e897391e3a4a8e95621dfd96"
+  },
+  "splits": {
+    "train": {
+      "sha256": "391a5e6ba71cc2aba60db25981e1be3c9f7eae600783c10f7fb9d97edb1d68ae",
+      "records": 2000,
+      "families": 400,
+      "semantic_groups": 40,
+      "labels": {
+        "help_desk": 400,
+        "human_resources": 400,
+        "it": 400,
+        "other": 400,
+        "payroll": 400
+      }
+    },
+    "validation": {
+      "sha256": "ca9d5dbd46a375d92ea43e81b551c40bf5929b4036430b0aa7c98b500eeee721",
+      "records": 500,
+      "families": 100,
+      "semantic_groups": 10,
+      "labels": {
+        "help_desk": 100,
+        "human_resources": 100,
+        "it": 100,
+        "other": 100,
+        "payroll": 100
+      }
+    },
+    "test": {
+      "sha256": "a5b9c76b34cc3896c2369f20828419d61fe3d06013653084dd9ed65a90cd64ba",
+      "records": 500,
+      "families": 100,
+      "semantic_groups": 10,
+      "labels": {
+        "help_desk": 100,
+        "human_resources": 100,
+        "it": 100,
+        "other": 100,
+        "payroll": 100
+      }
+    }
+  }
+}

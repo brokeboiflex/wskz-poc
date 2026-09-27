@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/candidate-references/base",
+  "family": "human_resources/candidate-references",
+  "message": "Osoba prowadząca moją rekrutację poprosiła o referencje po ostatniej rozmowie. Poprzedni przełożony zgodził się na kontakt, ale chciałbym najpierw potwierdzić sposób przekazania jego danych. Proszę o wskazanie właściwej osoby w zespole rekrutacyjnym i informacji potrzebnych do kontynuowania procesu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19505279199802317,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "14d96e4c6c4bf8c3b22c62afb9ba7b234d962c9255ed8828b9d50fd017fdcbf2",
+  "response_sha256": "f9c18220b3fa41aab8b7ad09071eb5f8f1278b8f57a27902efbd89d7e4efa75b"
+}

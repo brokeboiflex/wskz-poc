@@ -1,0 +1,13 @@
+{
+  "id": "payroll/contract-data/base",
+  "family": "payroll/contract-data",
+  "message": "Po zmianie nazwiska potrzebuję zaktualizować dane w dokumentach pracowniczych i rozliczeniach wynagrodzenia. Proszę wskazać wymagany formularz oraz sposób okazania dokumentu potwierdzającego zmianę. Chciałabym mieć pewność, że kolejne zaświadczenia będą wystawiane z prawidłowymi danymi.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19713566699647345,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "630402645fe4eb0dd862c6c3b747adf070412d3d55dcb4f392cba501c74c02cb",
+  "response_sha256": "39cace27f00eca7036a46cd514230c3e441635d916e3fdf36e382374aa5e1303"
+}

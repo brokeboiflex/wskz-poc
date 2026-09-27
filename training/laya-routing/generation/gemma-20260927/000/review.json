@@ -1,0 +1,6 @@
+{
+  "decision": "reject",
+  "note": "Etykieta HR zgodna, ale wariant history nie zawiera zakonczonej sprawy, quotation nie ma cytatu, a prawie wszystkie teksty sa krotkimi parafrazami. Odrzucono calosc przed treningiem; potrzebny silniejszy kontrakt form wypowiedzi.",
+  "result_sha256": "c896c4e4f219b3b397a6b8f7eb877b029971da24baab4ef7a136f98bb38615f9",
+  "time": 1790527665.962332
+}

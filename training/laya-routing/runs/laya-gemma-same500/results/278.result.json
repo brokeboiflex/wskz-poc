@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/certificate-login/base",
+  "family": "help_desk/certificate-login",
+  "message": "Nie mogę użyć służbowego certyfikatu do podpisania dokumentu na swoim komputerze. Program wyświetla komunikat o braku czytnika, choć urządzenie jest podłączone. Proszę o pomoc w konfiguracji czytnika i aplikacji podpisującej. Sam dokument jest już przygotowany i poprawny.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19123758299974725,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "79a5ec9e88fd9e79aa95230932d1a15a0f3f8c37de8c441b744fcfbbe1baff5d",
+  "response_sha256": "1d420effec6b535d97dbc3fb1e283c79c897d274fc820e41ad10d015adb2c86f"
+}

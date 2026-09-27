@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nW miesięcznej ewidencji nie ma mojej obecności z ostatniego piątku, mimo że pracowałem zgodnie z grafikiem. Kierownik może potwierdzić zmianę, a system wejść zarejestrował przyjście. Proszę sprawdzić zapis i wskazać, jak skorygować liczbę przepracowanych godzin przed naliczeniem wypłaty.\n\nByła to zmiana od rana do popołudnia, bez wyjścia prywatnego. Na początku dnia odbiłem kartę przy wejściu, a po zakończeniu pracy przy wyjściu. W międzyczasie pomagałem przy przyjęciu dostawy, dlatego obecność może potwierdzić również osoba kierująca magazynem.\n\nW podglądzie widzę pusty dzień, a nie błędnie policzoną liczbę godzin. Kierownik zaakceptował moje miesięczne zestawienie, zanim zauważyliśmy brak. Chciałbym ustalić, czy powinien ponownie zatwierdzić kartę po korekcie, czy potrzebne jest osobne oświadczenie. Proszę również potwierdzić, że wyjaśnienie zdąży zostać uwzględnione przed zamknięciem listy płac, aby nie powstała kolejna korekta w następnym miesiącu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nHasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

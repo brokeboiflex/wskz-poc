@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Liście mojego domowego fikusa zaczęły żółknąć, choć podlewam go regularnie. Stoi przy oknie od zachodu i niedawno został przesadzony. Chciałabym dowiedzieć się, jak rozpoznać, czy problemem jest nadmiar wody, światło czy ziemia.\n\nPrzed przesadzeniem roślina stała przez kilka miesięcy w tym samym miejscu i rosła regularnie. Nowa doniczka jest trochę większa, ma otwory w dnie i podstawkę. Po podlaniu zostaje w niej woda, którą czasem wylewam dopiero następnego dnia. Żółkną głównie dolne liście.\n\nNie widzę na nich owadów ani plam podobnych do pleśni. Ziemia na powierzchni wysycha szybko, ale głębiej pozostaje wilgotna. Nie chcę od razu kupować kilku preparatów, bo nie wiem, czy są potrzebne. Jakie obserwacje warto zrobić przez najbliższy tydzień i od jakiej zmiany pielęgnacji zacząć, żeby nie pogorszyć stanu rośliny?"
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/portfolio-update/base",
+  "family": "human_resources/portfolio-update",
+  "message": "W zgłoszeniu na stanowisko projektantki podałam stary odnośnik do portfolio. Przygotowałam aktualny zestaw prac i chciałabym dołączyć go do mojej kandydatury przed oceną zgłoszeń. Proszę o informację, jak uzupełnić materiały przekazane zespołowi rekrutacyjnemu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19256404199404642,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "42f68077c58a5e1330718a6984e819718d67c24ee723b3447c35ca4823a0e9b4",
+  "response_sha256": "9d66402f8e7ddcc18320b47220769cff83542d39a9dffefce9331a5e7ef56da6"
+}

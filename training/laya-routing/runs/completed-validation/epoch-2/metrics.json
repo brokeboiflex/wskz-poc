@@ -1,0 +1,121 @@
+{
+  "count": 500,
+  "correct": 443,
+  "accuracy": 0.886,
+  "macro_f1": 0.8825885928198579,
+  "protocol_errors": 0,
+  "per_class": {
+    "human_resources": {
+      "support": 100,
+      "precision": 0.8130841121495327,
+      "recall": 0.87,
+      "f1": 0.8405797101449275
+    },
+    "payroll": {
+      "support": 100,
+      "precision": 0.776,
+      "recall": 0.97,
+      "f1": 0.8622222222222222
+    },
+    "help_desk": {
+      "support": 100,
+      "precision": 0.9611650485436893,
+      "recall": 0.99,
+      "f1": 0.9753694581280788
+    },
+    "it": {
+      "support": 100,
+      "precision": 1.0,
+      "recall": 0.97,
+      "f1": 0.9847715736040609
+    },
+    "other": {
+      "support": 100,
+      "precision": 0.9264705882352942,
+      "recall": 0.63,
+      "f1": 0.75
+    }
+  },
+  "confusion": {
+    "human_resources": {
+      "human_resources": 87,
+      "payroll": 10,
+      "help_desk": 0,
+      "it": 0,
+      "other": 3,
+      "None": 0
+    },
+    "payroll": {
+      "human_resources": 2,
+      "payroll": 97,
+      "help_desk": 0,
+      "it": 0,
+      "other": 1,
+      "None": 0
+    },
+    "help_desk": {
+      "human_resources": 0,
+      "payroll": 0,
+      "help_desk": 99,
+      "it": 0,
+      "other": 1,
+      "None": 0
+    },
+    "it": {
+      "human_resources": 1,
+      "payroll": 0,
+      "help_desk": 2,
+      "it": 97,
+      "other": 0,
+      "None": 0
+    },
+    "other": {
+      "human_resources": 17,
+      "payroll": 18,
+      "help_desk": 2,
+      "it": 0,
+      "other": 63,
+      "None": 0
+    }
+  },
+  "families": 100,
+  "family_all_correct": 75,
+  "family_mean_accuracy": 0.886,
+  "family_cluster_bootstrap": {
+    "clusters": 100,
+    "all_correct": 75,
+    "mean_cluster_accuracy": 0.886,
+    "accuracy_percentile_95_interval": [
+      0.834,
+      0.93
+    ],
+    "bootstrap_repetitions": 2000,
+    "seed": 42,
+    "limitation": "Synthetic clustered bootstrap is descriptive; few broad groups and common author limit generalization."
+  },
+  "semantic_group_cluster_bootstrap": {
+    "clusters": 10,
+    "all_correct": 2,
+    "mean_cluster_accuracy": 0.886,
+    "accuracy_percentile_95_interval": [
+      0.786,
+      0.96
+    ],
+    "bootstrap_repetitions": 2000,
+    "seed": 42,
+    "limitation": "Synthetic clustered bootstrap is descriptive; few broad groups and common author limit generalization."
+  },
+  "latency_seconds": {
+    "median": 0.1728974370053038,
+    "p95": 0.1903518330072984
+  },
+  "contract": {
+    "input_sha256": "ca9d5dbd46a375d92ea43e81b551c40bf5929b4036430b0aa7c98b500eeee721",
+    "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+    "weights_sha256": "992a2a7bd5efb93f97921752b88f2a45c19ce2ec0c12bd69f0b28f7cbbfd3a5f",
+    "split": "validation",
+    "endpoint": "http://127.0.0.1:18091/v1/chat/completions",
+    "script_sha256": "80ed217848cbb61a442f0bf48fdbe7ece4311135dfd198d192b7e09430d27d9c"
+  },
+  "review_complete": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/assessment-center/quoted_history",
+  "family": "human_resources/assessment-center",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW zaproszeniu do kolejnego etapu naboru pojawiła się informacja o zadaniu grupowym i krótkiej prezentacji. Chciałabym wiedzieć, ile potrwa spotkanie i czy należy wcześniej przygotować materiały. Proszę przekazać organizacyjne wskazówki dotyczące tego etapu rekrutacji na stanowisko konsultantki.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.26251474997843616,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f865904053ba6c727e64befea5a9605a8c23036e84c7c11cd461dd1ff5efb48b",
+  "response_sha256": "565bfc1a42acf457a4a40539978e510ff3773c574088653a7ccedfa3e6c155bd"
+}

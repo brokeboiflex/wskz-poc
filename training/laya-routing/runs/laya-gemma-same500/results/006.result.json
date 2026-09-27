@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/withdraw-application/base",
+  "family": "human_resources/withdraw-application",
+  "message": "Piszę w sprawie mojego udziału w rekrutacji na stanowisko specjalisty do spraw zakupów. Przyjąłem już inną propozycję i chciałbym wycofać kandydaturę przed zaplanowaną rozmową. Proszę przekazać tę informację osobom prowadzącym nabór, aby nie rezerwowały dla mnie terminu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19558883301215246,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "aef91a9ac6d7ddc915c74d8beda27fbf58e922a7564bcc9b323189aaf44ac7eb",
+  "response_sha256": "4ea73db3a0b28df2711d45953000dd72df96ed045b4dbec722661248b44b85c0"
+}

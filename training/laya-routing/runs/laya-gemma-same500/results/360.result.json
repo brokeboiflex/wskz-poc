@@ -1,0 +1,13 @@
+{
+  "id": "it/stolen-laptop/base",
+  "family": "it/stolen-laptop",
+  "message": "Skradziono mój służbowy laptop, na którym były zapisane sesje do firmowych aplikacji. Zgłosiłam już kradzież odpowiednim służbom. Proszę o pilne zabezpieczenie dostępu, unieważnienie aktywnych sesji i ocenę ryzyka dla danych firmowych. Na razie nie chodzi o wydanie nowego sprzętu.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.21563024999340996,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5e49ea24d986e08cd52bc5b467a9282d8875fabc10a81443a88f23bc5b6d97e6",
+  "response_sha256": "c4650c95f51f445c250b05d70d10eefd1746dcc75f1e91550649713e3d98044e"
+}

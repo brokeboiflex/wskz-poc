@@ -1,0 +1,13 @@
+{
+  "id": "it/log-pipeline/base",
+  "family": "it/log-pipeline",
+  "message": "Centralna platforma przestała przyjmować logi z serwerów aplikacyjnych. Lokalne pliki nadal powstają, lecz wspólna wyszukiwarka pokazuje dane tylko do wczoraj. Proszę o sprawdzenie kolejki przesyłania i magazynu logów, aby przywrócić obserwowalność usług oraz analizę zdarzeń bezpieczeństwa.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19643162499414757,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "53b42bdc47b3809759b7c1ccd66e810d59cd26c21692ee6b6b09b56a92a1abe7",
+  "response_sha256": "f27183379f2339bafe8f3ec204b7e4fda75eb0c201c041cd4e2ac3749dea583c"
+}

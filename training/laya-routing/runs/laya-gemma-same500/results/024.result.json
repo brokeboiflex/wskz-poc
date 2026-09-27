@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/language-training/base",
+  "family": "human_resources/language-training",
+  "message": "Coraz częściej uczestniczę w spotkaniach z zagranicznymi klientami i mam trudność z prowadzeniem negocjacji po angielsku. Chciałbym dołączyć do kursu językowego na poziomie biznesowym. Proszę o informacje o dostępnych grupach, badaniu poziomu i zasadach udziału pracowników.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.21693662501638755,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "67c92a93cbf90e14ff2ee8dc926f95e85122c8696f52e04dc30e7cd1aa0be3cc",
+  "response_sha256": "c92e0d6135603f89444a53a45ae44777b6409d373bad0a2d549953371f3f5574"
+}

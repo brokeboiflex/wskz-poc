@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/cross-team-conflict/base",
+  "family": "human_resources/cross-team-conflict",
+  "message": "Zespół sprzedaży i realizacji wzajemnie obwiniają się za opóźnienia, przez co wspólne spotkania przestały prowadzić do ustaleń. Potrzebujemy neutralnej osoby do moderowania rozmowy o odpowiedzialności. Proszę o pomoc w zorganizowaniu mediacji i wypracowaniu zasad przekazywania zadań.\n\nPrzykład z ostatniego tygodnia: handlowiec obiecał klientowi termin, którego realizacja nie uważała za możliwy. W odpowiedzi na wspólnym czacie pojawiły się osobiste uwagi i rozmowa przeszła z ustalania rozwiązania do przypominania dawnych błędów. Klient ostatecznie dostał nowy termin, ale napięcie zostało.\n\nObie strony chcą dalej współpracować, tylko każda oczekuje, że pierwsza ustąpi druga. Chcielibyśmy spotkać się w małej grupie z neutralnym moderatorem. Celem ma być sposób uzgadniania zobowiązań i wyjaśniania rozbieżności, a nie rozstrzyganie, kto ogólnie pracuje lepiej. Mogę zebrać przykłady sytuacji, które powtarzają się najczęściej.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.3089275840029586,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e3acc4575e6a4530095fe7dccf5b616cc348e1f8e38f957981f6f2455c55acfe",
+  "response_sha256": "196d08c46388f6e95fb9291f0280321589efb54a2ad9c15c5335b55c5e600813"
+}

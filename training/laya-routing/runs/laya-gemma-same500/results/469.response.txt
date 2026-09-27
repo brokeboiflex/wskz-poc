@@ -1,0 +1,1 @@
+{"id":"chatcmpl-92571a866bc141cebd3c2e31ca59c9d5","object":"chat.completion","created":1790545352,"model":"laya-multilingual","choices":[{"index":0,"finish_reason":"tool_calls","message":{"role":"assistant","content":null,"tool_calls":[{"id":"call_cc089d25284148519326a418f7e14bf1","type":"function","function":{"name":"route_message","arguments":"{\"department\": \"it\"}"}}]}}]}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/black-screen/resolved_postscript",
+  "family": "help_desk/black-screen",
+  "message": "Laptop wydaje dźwięk uruchamiania, ale ekran pozostaje czarny. Gdy podłączę monitor koleżanki, obraz jest widoczny, więc mogę na chwilę odczytać pliki. Proszę o pomoc w sprawdzeniu wbudowanego ekranu i ustaleniu, czy urządzenie wymaga naprawy albo wymiany.\n\nPS. Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.22587650001514703,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "85581716d8ccee7fc4ac6abd7dac5b0729fb98fe9c2f4b559e38173613891a13",
+  "response_sha256": "229c0ba295716783aec7c6a6a1c23da90e0cacc689a698af842e28f564b06fc7"
+}

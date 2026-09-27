@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/learning-platform-content/quoted_history",
+  "family": "human_resources/learning-platform-content",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nMam dostęp do platformy szkoleniowej i wszystkie materiały otwierają się poprawnie. Nie wiem jednak, które kursy wybrać przed objęciem roli opiekuna klienta. Proszę o wskazanie ścieżki nauki i obowiązkowych modułów, które najlepiej przygotują mnie do nowych zadań.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.24580362500273623,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2b6526842c73ab4cd65377059fb7ed69b986a3e51cae50b50f822c9d16063720",
+  "response_sha256": "f1902eb8306ffa91aa8da06085085587206eb35c9b26a424339906b193cc0e39"
+}

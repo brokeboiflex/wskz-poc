@@ -1,0 +1,13 @@
+{
+  "id": "payroll/salary-change-effective/base",
+  "family": "payroll/salary-change-effective",
+  "message": "Podpisany aneks przewiduje nową stawkę wynagrodzenia od pierwszego dnia bieżącego miesiąca. Na ostatnim pasku nadal widzę poprzednią kwotę podstawy. Proszę sprawdzić, czy aneks został uwzględniony przy naliczaniu wypłaty i kiedy nastąpi ewentualne wyrównanie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2151551250135526,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "900da34cc7e82819626b9eb9f1f8c40985a250ac964d209a1619d42268d00833",
+  "response_sha256": "88cb87b57d4745ee894f1a90e20c6052b77777687d53207ef93ddfbe25a3e298"
+}

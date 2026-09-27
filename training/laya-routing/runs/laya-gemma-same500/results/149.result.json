@@ -1,0 +1,13 @@
+{
+  "id": "payroll/income-certificate/forwarded_history",
+  "family": "payroll/income-certificate",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nSkładam wniosek mieszkaniowy i potrzebuję potwierdzenia średniego wynagrodzenia z ostatnich trzech miesięcy. Mam formularz instytucji przyjmującej wniosek. Proszę o wskazanie sposobu przekazania go do wypełnienia oraz informacji, kiedy mogę odebrać podpisane zaświadczenie o zarobkach.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.25151200001710095,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f92c84f0a9aef381c8d5660d246c5b6c63ddece47edc75fa4508eb33abb0d608",
+  "response_sha256": "faff353f4fcc8af6626ad6e0f7558add0640514c46816efabc35637afdb3e184"
+}

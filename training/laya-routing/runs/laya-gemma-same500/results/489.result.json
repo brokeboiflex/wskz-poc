@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-number/forwarded_history",
+  "family": "other/unknown-number",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nCześć, co z numerem 4827? Mam tylko taki zapis w notesie. Możecie sprawdzić i dać znać?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nMój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.24904470800538547,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3473fb4311d9660ef9bf78221c237806dc43a53d6e10c022cf5757002a78293c",
+  "response_sha256": "37841ab53a0a22b367d4effe8929d7e107428d33032e75ca89a1596754e33320"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/ups/base",
+  "family": "it/ups",
+  "message": "System zasilania awaryjnego w serwerowni zgłasza uszkodzoną baterię i brak gotowości do podtrzymania pracy hostów. Usługi nadal działają z podstawowego zasilania. Proszę o pilne sprawdzenie infrastruktury i zaplanowanie działań chroniących serwery przed niekontrolowanym wyłączeniem.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19602458301233128,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "38d9f8519e4cde793c190712e55ed5d9102cfe75b1cafd2fd3c42ef21c3a6c58",
+  "response_sha256": "8f4c28cf3bc95255989c0213b951c51c7ce3b4e75276a39a3b905f47300c3c99"
+}

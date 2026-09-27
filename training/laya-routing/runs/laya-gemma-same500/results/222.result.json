@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/scanner/base",
+  "family": "help_desk/scanner",
+  "message": "Skaner podłączony do mojego komputera przestał być wykrywany po zmianie portu USB. Urządzenie ma zasilanie, a przewód jest dobrze wpięty. Potrzebuję zeskanować podpisany dokument. Proszę pomóc przywrócić połączenie skanera z aplikacją na tym konkretnym stanowisku.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2750387920241337,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "74fe614eafb91b5c63d527f7ae20143bf4b130d0fec81753a0648b9fd0549314",
+  "response_sha256": "24d5e12caca90793480e4a8e4112e3bbc06866c91dc963809639984b7c19782c"
+}

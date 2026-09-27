@@ -1,0 +1,69 @@
+it-000
+Wspólny serwer aplikacji nie odpowiada żadnemu użytkownikowi; potrzebna interwencja.
+Osoby ze wszystkich zespołów utraciły dostęp do aplikacji na tym samym serwerze. Host nie odpowiada. Proszę sprawdzić wspólną usługę i przywrócić jej działanie.
+Proszę przywrócić wspólny serwer aplikacji, który nie odpowiada wszystkim użytkownikom. Mój lokalny problem z drukarką już naprawiono. Awaria dotyczy teraz usługi organizacji.
+Monitoring zgłasza: „Serwer aplikacji nie odpowiada”. Żaden użytkownik nie ma dostępu. Proszę podjąć interwencję na wspólnym serwerze.
+Serwer aplikacji padł wszystkim. Sprawdzicie wspólną usługę i przywrócicie dostęp?
+
+it-002
+Klaster maszyn wirtualnych utracił węzeł; proszę o interwencję infrastrukturalną.
+Jeden z węzłów wspólnego klastra przestał uczestniczyć w pracy środowiska. Potrzebujemy diagnozy i przywrócenia jego działania w infrastrukturze wirtualnej.
+Konfigurację mojego monitora już poprawiono. Zgłaszam utratę węzła w klastrze maszyn wirtualnych i proszę o interwencję w tej infrastrukturze.
+Panel klastra pokazuje: „Węzeł niedostępny”. Proszę sprawdzić utracony element środowiska maszyn wirtualnych i przywrócić jego pracę.
+Wypadł jeden węzeł klastra maszyn wirtualnych. Potrzebna interwencja przy infrastrukturze, zajmiecie się tym?
+
+it-003
+Centralny harmonogram nie uruchamia zadań wielu zespołów.
+Procesy z różnych obszarów organizacji nie startują o zaplanowanych porach. Wspólna usługa harmonogramu pozostawia je bez wykonania. Proszę przywrócić jej działanie.
+Proszę sprawdzić centralny harmonogram, który nie uruchamia procesów wielu zespołów. Hasło na moim koncie już zmieniono i lokalny dostęp działa.
+W panelu zadań widnieje: „Oczekuje na uruchomienie” dla procesów wielu zespołów. Proszę naprawić wspólną usługę harmonogramu.
+Centralny scheduler nie odpala procesów kilku zespołów. Ogarniecie tę wspólną usługę?
+
+it-004
+Firmowa brama aplikacji zwraca błędy użytkownikom w całej organizacji.
+Przez wspólny punkt dostępu nie można wejść do aplikacji firmowych. Błędy dotyczą wszystkich zespołów. Proszę zdiagnozować i przywrócić bramę.
+Błąd w mojej ewidencji urlopu został poprawiony. Proszę zająć się awarią bramy aplikacji firmowych, która zwraca błędy całej organizacji.
+Na wspólnej bramie użytkownicy otrzymują: „Błąd dostępu do aplikacji”. Dotyczy to całej organizacji. Proszę przywrócić działanie bramy.
+Brama do firmowych aplikacji sypie błędami wszystkim. Sprawdzicie centralny dostęp?
+
+it-005
+Wspólna platforma kontenerowa zgłasza brak zasobów i zatrzymuje usługi.
+Na platformie obsługującej wiele aplikacji kończą się dostępne zasoby. Kolejne usługi są zatrzymywane. Proszę podjąć interwencję w środowisku kontenerowym.
+Proszę zająć się brakiem zasobów na wspólnej platformie kontenerowej, która zatrzymuje usługi. Mój problem z mikrofonem już rozwiązano.
+Platforma zgłasza: „Niewystarczające zasoby”, a kolejne usługi przestają działać. Proszę sprawdzić wspólne środowisko kontenerowe.
+Platformie kontenerowej zabrakło zasobów i ubija usługi. Potrzebna interwencja przy wspólnej infrastrukturze.
+
+it-006
+Serwer raportowy nie kończy zadań zgłaszanych przez różne działy.
+Raporty zlecane przez wiele zespołów pozostają niedokończone na wspólnym serwerze. Proszę sprawdzić usługę raportowania i przywrócić wykonywanie zadań.
+Rozliczenie mojej pensji jest już prawidłowe. Proszę zdiagnozować serwer raportowy, który nie kończy zleceń pochodzących z różnych działów.
+Panel raportowania pokazuje „Przetwarzanie” bez końca dla zadań wielu działów. Proszę naprawić wspólny serwer raportowy.
+Raporty kilku działów wiszą na serwerze i żaden się nie kończy. Sprawdzicie usługę raportową?
+
+it-007
+Centralne logowanie zdarzeń przestało przyjmować dane z serwerów.
+Wspólna usługa zbierająca logi nie odbiera nowych wpisów od serwerów organizacji. Proszę sprawdzić centralny odbiór zdarzeń i przywrócić przepływ danych.
+Proszę naprawić centralną usługę logowania zdarzeń, która nie przyjmuje danych serwerowych. Drukowanie na moim stanowisku już działa po naprawie.
+System zbierający zdarzenia zgłasza: „Brak nowych danych z serwerów”. Proszę przywrócić odbieranie logów przez wspólną usługę.
+Centralny odbiornik logów nie bierze danych z serwerów. Zajmiecie się wspólnym zbieraniem zdarzeń?
+
+it-010
+Wspólna kolejka zadań ma rosnące zaległości z wielu aplikacji.
+Ruch dostarczany przez różne systemy nie jest obsługiwany na bieżąco i kolejka narasta. Proszę zdiagnozować firmowy system kolejkowania zadań.
+Potwierdzenie zatrudnienia już otrzymałem. Proszę sprawdzić narastające zaległości wielu aplikacji we wspólnym firmowym systemie kolejek.
+Monitoring kolejki pokazuje: „Liczba oczekujących zadań stale rośnie”. Zaległości dotyczą wielu aplikacji. Proszę podjąć interwencję we wspólnej usłudze.
+Firmowa kolejka zapycha się zadaniami z wielu aplikacji. Sprawdzicie, czemu zaległości rosną?
+
+it-011
+Maszyny wirtualne w całym środowisku startują z błędami infrastruktury.
+Próby uruchomienia wielu maszyn kończą się podobnymi błędami warstwy infrastrukturalnej. Problem obejmuje całe środowisko wirtualne. Proszę zdiagnozować wspólną przyczynę.
+Proszę naprawić błędy infrastruktury podczas uruchamiania maszyn wirtualnych całego środowiska. Usterkę mojego laptopa już usunięto.
+Panel wirtualizacji przy różnych maszynach zgłasza: „Błąd infrastruktury podczas startu”. Proszę sprawdzić całe środowisko i przywrócić uruchamianie.
+Maszyny wirtualne w całym środowisku nie startują normalnie, wszędzie błędy infrastruktury. Pomożecie przywrócić platformę?
+
+it-015
+Wspólny reverse proxy przestał przekazywać ruch do usług wewnętrznych.
+Usługi za firmowym proxy nie otrzymują połączeń. Proszę sprawdzić centralny reverse proxy i przywrócić kierowanie ruchu do wewnętrznych aplikacji.
+Korekta mojego urlopu została zakończona. Zgłaszam awarię wspólnego reverse proxy, który nie kieruje ruchu do usług wewnętrznych.
+Monitor bramy pokazuje: „Brak przekazywania ruchu do usług”. Proszę naprawić wspólny reverse proxy obsługujący aplikacje wewnętrzne.
+Reverse proxy przestał puszczać ruch do wewnętrznych usług. Sprawdzicie wspólną bramę?

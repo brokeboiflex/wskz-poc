@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/access-folder/forwarded_history",
+  "family": "help_desk/access-folder",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNie mogę otworzyć folderu projektu, do którego miałem wcześniej dostęp. Koledzy nadal korzystają z niego bez problemów, a właściciel folderu potwierdził, że powinienem mieć uprawnienia. Proszę o sprawdzenie dostępu mojego konta i pomoc w przywróceniu możliwości odczytu dokumentów.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nPrzerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.25789720899774693,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "93a020bae5395f8a3a5886610dc41bef101c1c06aae52d1a3a3efa84e6b8fbc2",
+  "response_sha256": "ce95a771ea1a92df79436c36185224252d2d0b618bd469d686274141d2305ab9"
+}

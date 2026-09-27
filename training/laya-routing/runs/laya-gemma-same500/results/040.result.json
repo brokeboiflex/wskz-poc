@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/performance-feedback/base",
+  "family": "human_resources/performance-feedback",
+  "message": "Otrzymałam roczną ocenę pracy, z której nie rozumiem kilku uwag dotyczących współpracy. Chciałabym przygotować się do konstruktywnej rozmowy i ustalić mierzalne cele na kolejny okres. Proszę o wsparcie w omówieniu zasad przekazywania informacji zwrotnej oraz możliwości wyjaśnienia tej oceny.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.21558716701110825,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8b55191218af7dd19683e3f1f4d1857ffc1d620467c3d074d902a6193c5b4daf",
+  "response_sha256": "e747d9b5bc4954c8ca6ea645bf84540f57cab29478ee4affed735cc2311aad83"
+}

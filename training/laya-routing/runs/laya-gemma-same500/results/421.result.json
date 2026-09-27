@@ -1,0 +1,13 @@
+{
+  "id": "other/weather/quoted_history",
+  "family": "other/weather",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nChciałbym zaplanować piknik i zastanawiam się, na jakie elementy prognozy pogody zwrócić uwagę poza samą temperaturą. Interesują mnie wiatr, opady i zachmurzenie. Czy możecie wyjaśnić, jak ocenić, czy dany dzień będzie odpowiedni na kilkugodzinny pobyt na zewnątrz?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.25411704200087115,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ae5c078141ae619c5e2703760605dff84f2e7cfb3844b084f6861c69b2055609",
+  "response_sha256": "0ee8a989f9c6f5b55882e90dacdc8f3f8cceeaa8199cda5d39c86394f0d96c59"
+}

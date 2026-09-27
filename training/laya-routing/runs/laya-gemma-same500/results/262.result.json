@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/overheating/base",
+  "family": "help_desk/overheating",
+  "message": "Mój laptop nagrzewa się i wyłącza po kilkunastu minutach zwykłej pracy. Stoi na płaskim biurku, a otwory wentylacyjne nie są zasłonięte. Nie uruchamiam wymagających programów. Proszę o pomoc w diagnostyce sprzętu, zanim ponownie utracę niezapisane zmiany w dokumentach.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.23106833299971186,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ba6e5d6b1875cf9e184aa8c4a474e1bd2ae8f3d73c290e9070d195e4b1bbb399",
+  "response_sha256": "85b480d1611871e99adea64217794b0cd95f487785f9aa6242a40816500e9e42"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/outlook-profile/forwarded_history",
+  "family": "help_desk/outlook-profile",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nProgram pocztowy na moim laptopie przestał pobierać wiadomości, ale przez przeglądarkę widzę całą aktualną skrzynkę. Inni pracownicy nie zgłaszają problemu. Proszę o pomoc w naprawie lokalnej konfiguracji poczty bez usuwania wiadomości zapisanych w moim profilu.\n\nW aplikacji ostatnia odebrana wiadomość ma datę z poniedziałku. Przycisk odświeżania przez chwilę pokazuje pracę, a potem wraca do poprzedniego stanu bez nowej poczty. W przeglądarce widzę wiadomości z dzisiaj i mogę na nie odpowiadać.\n\nNa laptopie mam też lokalny katalog z korespondencją dotyczącą zamkniętych projektów. Nie wiem, czy jest synchronizowany, dlatego nie próbowałem usuwać całego profilu ani zakładać go od początku. Proszę najpierw sprawdzić ustawienia i możliwość zachowania tego archiwum. Mogę pokazać dokładny widok programu podczas zdalnej sesji. Restart laptopa oraz wylogowanie z aplikacji nie zmieniły sytuacji, a inne programy korzystające z internetu działają.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.37742775000515394,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cbfde46e45298ca9ad94d21e29a98233c03da7529d4bafbebcaab0e6fd059dfe",
+  "response_sha256": "8e412c342f4e85ea76292e25c0085608d7d55bc48c7b41643d849764e867f490"
+}

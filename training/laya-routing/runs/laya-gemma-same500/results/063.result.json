@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/exit-interview/resolved_preface",
+  "family": "human_resources/exit-interview",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n\nOsobna, aktualna wiadomość:\nMoja współpraca z firmą kończy się za dwa tygodnie. Dokumenty i rozliczenie są już uzgodnione. Chciałbym natomiast umówić rozmowę, podczas której przekażę uwagi dotyczące organizacji pracy i relacji w zespole. Zależy mi na spokojnym podsumowaniu doświadczeń i konstruktywnej informacji zwrotnej.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.22904716699849814,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1111d1fa1dbf4f815699483414e52c9bfa06ae0febf364de8917d4bbae94d04d",
+  "response_sha256": "6e6f8953f4ed0ee04bedc3a551b9f5e7cf8e98d81f0d874c085a8ecb930aaaa2"
+}

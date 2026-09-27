@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/headset/resolved_postscript",
+  "family": "help_desk/headset",
+  "message": "Podczas rozmów służbowych rozmówcy nie słyszą mnie przez nowy zestaw słuchawkowy. Wbudowany mikrofon laptopa działa, a sam zestaw odtwarza dźwięk poprawnie. Sprawdziłem wyciszenie na przewodzie. Proszę o pomoc w konfiguracji mikrofonu na moim stanowisku.\n\nW ustawieniach spotkania widzę dwa mikrofony i nie wiem, który odpowiada podłączonym słuchawkom. Test dźwięku odtwarza głos przez słuchawki, ale nagranie pozostaje puste. Wolałbym sprawdzić konfigurację przed zamawianiem kolejnego urządzenia.\n\nPS. Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.26575766698806547,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "751f7079e687f1f0b9f1bdebbe66717bb84b4c74c3688e686aa6531f63d85152",
+  "response_sha256": "ffdc89bbca573d98cb922429efe8938c36aeb20642cddb5837f41be0b08f73ff"
+}

@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW naszym zespole powtarzają się nieporozumienia przy przekazywaniu zadań między zmianami. Chciałabym zorganizować warsztat z komunikacji i udzielania informacji zwrotnej dla ośmiu osób. Proszę pomóc dobrać program oraz prowadzącego, który przećwiczy z nami sytuacje z codziennej współpracy.\n\nNajczęściej problem wygląda tak: poranna zmiana zostawia zadanie z krótkim komentarzem, a popołudniowa nie wie, co zostało już sprawdzone i kto ma podjąć decyzję. W efekcie obie grupy wykonują tę samą pracę, po czym pojawiają się pretensje. Mamy już formularz przekazania zadań, ale sam formularz nie rozwiązał trudności w rozmowach.\n\nChcielibyśmy przećwiczyć przekazywanie niepełnych informacji, zadawanie pytań bez oskarżeń i zgłaszanie wątpliwości przełożonemu. Możemy zebrać anonimowe przykłady przed zajęciami. Ze względu na grafik nie wszyscy mogą uczestniczyć jednocześnie, więc przydałyby się dwie grupy pracujące na tych samych ćwiczeniach.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

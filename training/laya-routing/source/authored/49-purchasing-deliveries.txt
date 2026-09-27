@@ -1,0 +1,69 @@
+other-015
+Proszę zamówić papierowe materiały biurowe do magazynku.
+Kończą się notatniki i papier do codziennych prac. Potrzebujemy uzupełnić zapas w magazynku artykułów biurowych. Proszę złożyć zamówienie.
+Proszę zamówić papierowe materiały do magazynku biura. Hasło na moim koncie już zmieniono. Brakuje nam fizycznych zapasów do pracy.
+Osoba opiekująca się magazynkiem zgłosiła: „Kończą się papierowe materiały biurowe”. Proszę zamówić ich zapas.
+W magazynku kończą się notatniki i papier. Zamówicie materiały biurowe?
+
+other-016
+Proszę uzgodnić odbiór mojej przesyłki kurierskiej przez recepcję.
+Paczka ma dotrzeć podczas mojej nieobecności w budynku. Potrzebuję potwierdzenia, że recepcja ją odbierze. Proszę uzgodnić przekazanie przesyłki.
+Rozliczenie urlopu już poprawiono. Proszę ustalić, żeby recepcja odebrała przesyłkę od kuriera, gdy mnie nie będzie w budynku.
+Kurier napisał: „Przesyłkę dostarczę na recepcję”. Proszę uzgodnić jej odbiór przez osoby obsługujące wejście.
+Kurier przywiezie paczkę, kiedy mnie nie będzie. Dogadacie odbiór na recepcji?
+
+other-017
+Proszę wyjaśnić opóźnienie dostawy zamówionych mebli.
+Stoły miały dotrzeć w uzgodnionym terminie, ale nadal ich nie otrzymaliśmy. Proszę skontaktować się z dostawcą i ustalić powód opóźnienia.
+Proszę sprawdzić opóźnioną dostawę mebli do biura. Moja poczta już działa po naprawie. Nadal czekamy na zamówione stoły.
+Dostawca wcześniej potwierdził: „Meble będą w tym tygodniu”. Nie dotarły. Proszę wyjaśnić opóźnienie dostawy.
+Zamówione meble nie przyjechały na czas. Sprawdzicie u dostawcy, co z dostawą?
+
+other-018
+W paczce z artykułami biurowymi brakuje jednej zamówionej pozycji.
+Rozpakowaliśmy dostawę i porównaliśmy zawartość z zamówieniem. Nie ma części artykułów. Proszę zgłosić brak i uzgodnić uzupełnienie paczki.
+Zaświadczenie pracownicze już otrzymałam. Zgłaszam brakującą pozycję w paczce z zamówionymi artykułami biurowymi i proszę o uzupełnienie.
+Na liście dostawy widnieje „Notesy”, ale nie ma ich w paczce. Proszę zgłosić brak tej pozycji w artykułach biurowych.
+W paczce biurowych rzeczy brakuje jednej pozycji z zamówienia. Zgłosicie brak dostawcy?
+
+other-019
+Gdzie mamy składować nową dostawę drukowanych broszur?
+Przyjechały kartony materiałów drukowanych i trzeba ustalić miejsce ich przechowywania. Proszę wskazać, gdzie odłożyć nową dostawę broszur.
+Proszę ustalić miejsce składowania nowych drukowanych broszur. Problem z moim komputerem już naprawiono. Kartony czekają na rozmieszczenie.
+Osoba odbierająca dostawę zapytała: „Gdzie stawiamy kartony broszur?”. Proszę ustalić miejsce przechowywania drukowanych materiałów.
+Przyjechały broszury w kartonach. Gdzie je składujemy? Ustalicie miejsce?
+
+other-020
+Zgłaszam reklamację uszkodzonego opakowania dostarczonego towaru.
+Przesyłka dotarła z rozerwanym kartonem i naruszoną osłoną. Proszę zgłosić dostawcy reklamację dotyczącą stanu opakowania towaru.
+Rozliczenie mojej wypłaty już wyjaśniono. Proszę zareklamować uszkodzone opakowanie otrzymanego towaru.
+Przy odbiorze zapisano: „Opakowanie rozerwane i zgniecione”. Proszę zgłosić reklamację dostawy dotyczącą uszkodzonego opakowania.
+Towar przyszedł w rozwalonym opakowaniu. Zgłosicie reklamację tego uszkodzenia?
+
+other-021
+Proszę zamówić zapas kopert do wysyłania dokumentów.
+W magazynku zostało niewiele kopert potrzebnych do zwykłej korespondencji papierowej. Proszę uzupełnić zapas przez zamówienie nowej dostawy.
+Proszę zamówić koperty do wysyłki dokumentów. Drukarka już działa po naprawie. Brakuje nam materiałów do pakowania korespondencji.
+Recepcja zgłosiła: „Koperty do wysyłki się kończą”. Proszę zamówić zapas do dokumentów papierowych.
+Kończą się koperty na dokumenty. Zamówicie nowy zapas do wysyłek?
+
+other-023
+Proszę uzgodnić zwrot segregatorów dostarczonych niezgodnie z zamówieniem.
+Otrzymaliśmy niewłaściwy typ segregatorów. Nie odpowiadają zamówieniu, więc chcemy je oddać. Proszę ustalić z dostawcą sposób zwrotu.
+Dokument zatrudnienia już poprawiono. Proszę uzgodnić oddanie segregatorów, które dostarczono w niewłaściwym wariancie.
+Dostawca odpisał: „Prosimy uzgodnić zwrot błędnie wysłanego produktu”. Chodzi o niewłaściwe segregatory. Proszę zorganizować ich oddanie.
+Przyszły nie te segregatory, co trzeba. Dogadacie ich zwrot?
+
+other-026
+Proszę uzyskać ofertę na tablice korkowe do pomieszczeń.
+Chcemy wyposażyć kilka pokoi w zwykłe tablice do przypinania informacji. Potrzebujemy propozycji zakupu tablic korkowych. Proszę zebrać ofertę.
+Proszę o ofertę zakupu tablic korkowych do pomieszczeń biurowych. Mój problem z logowaniem już rozwiązano. Chodzi o wyposażenie pokoi.
+Kierowniczka poprosiła: „Sprawdźmy ofertę na tablice korkowe”. Proszę uzyskać propozycję dostawy do naszych pomieszczeń.
+Potrzebujemy tablic korkowych do pokoi. Załatwicie ofertę zakupu?
+
+other-027
+O której kurier odbierze przygotowane paczki?
+Mamy przesyłki gotowe do wysyłki i chcemy zaplanować przekazanie ich kierowcy. Proszę ustalić godzinę odbioru paczek przez kuriera.
+Korektę urlopu już odnotowano. Proszę uzgodnić godzinę, o której kurier odbierze nasze paczki.
+Kurier napisał: „Proszę ustalić porę odbioru”. Proszę uzgodnić konkretną godzinę przekazania przygotowanych paczek.
+Paczki gotowe. Ustalicie, o której odbierze je kurier?

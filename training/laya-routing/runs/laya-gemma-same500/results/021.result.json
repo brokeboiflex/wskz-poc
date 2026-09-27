@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/communication-workshop/quoted_history",
+  "family": "human_resources/communication-workshop",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW naszym zespole powtarzają się nieporozumienia przy przekazywaniu zadań między zmianami. Chciałabym zorganizować warsztat z komunikacji i udzielania informacji zwrotnej dla ośmiu osób. Proszę pomóc dobrać program oraz prowadzącego, który przećwiczy z nami sytuacje z codziennej współpracy.\n\nNajczęściej problem wygląda tak: poranna zmiana zostawia zadanie z krótkim komentarzem, a popołudniowa nie wie, co zostało już sprawdzone i kto ma podjąć decyzję. W efekcie obie grupy wykonują tę samą pracę, po czym pojawiają się pretensje. Mamy już formularz przekazania zadań, ale sam formularz nie rozwiązał trudności w rozmowach.\n\nChcielibyśmy przećwiczyć przekazywanie niepełnych informacji, zadawanie pytań bez oskarżeń i zgłaszanie wątpliwości przełożonemu. Możemy zebrać anonimowe przykłady przed zajęciami. Ze względu na grafik nie wszyscy mogą uczestniczyć jednocześnie, więc przydałyby się dwie grupy pracujące na tych samych ćwiczeniach.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.3890008339949418,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f8c28dd268aca3111bc27d6ac23b8cc53a2d4e28a376d04e4eb59d22bacca9b1",
+  "response_sha256": "14fe2e188aa468ff773d79502cae4f0f463eb6c40840f7c0bcab54afbf21e28f"
+}

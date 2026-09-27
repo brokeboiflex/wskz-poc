@@ -4,10 +4,12 @@ Gemma work accepted as complete. Gemma is now the default; Qwen weights removed 
 
 Final Gemma500 evaluation completed 2026-09-27: **493/500 correct (98.6%), 7 wrong routes, 0 missing/invalid native calls**. All500 first attempts, no retries or mail. Previous score471/500;27 old failures fixed,2 remain,5 new regressions. All raw responses and seven failure bundles saved; offline audit passed and1866 prior hashes unchanged. Synthetic regression evidence, not held-out/general application acceptance. [Results, failures and repeat procedure](evidence/2026-09-27/gemma-final-500/README.md). No further run is implicit.
 
-Laya fine-tuning approved 2026-09-27; resource preflight blocked by steady-state
-OOM and checkpoint disk budget. No trained model or full dataset/test result.
-[Approved method](LAYA_GENERALIZATION_APPROACH.md),
-[evidence and resume conditions](../training/laya-routing/README.md).
+Laya training completed two epochs; user ended further training. Validation:
+epoch1 447/500, epoch2 443/500. Validation-selected epoch1 scored432/500 on the
+same old500 as Gemma493/500, with median0.231s vs1.800s. No retries or mail.
+All containers stopped. No held-out test or further training authorized.
+[Results and hardware evidence limits](../README.md#laya-vs-gemma-jakość-szybkość-i-sprzęt-27092026),
+[reproduction](../training/laya-routing/runs/laya-gemma-same500/README.md).
 
 Latest repair (2026-09-27): **Ollama0.34.4-poc.tool-choice.2 is applied**. Generic native `tool_choice` transport now works; existing `MODEL_TOOL_CHOICE=required` is enabled and approved guidance is deployed. All8 saved missing-call cases pass on the first required request, including434; auto still reproduces434. Qwen, streaming, named, none and plain-text controls pass;81 application regressions and backend tests/vet pass. No full500 rerun or mail. Unsupported rendered required/none fails explicitly; API/mailer SMTP readiness remains blocked by pre-existing absent Mailpit. [Evidence, commands and rollback](evidence/2026-09-27/ollama-tool-choice/README.md).
 

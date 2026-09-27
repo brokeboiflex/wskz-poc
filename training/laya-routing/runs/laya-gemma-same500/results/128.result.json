@@ -1,0 +1,13 @@
+{
+  "id": "payroll/bonus-missing/base",
+  "family": "payroll/bonus-missing",
+  "message": "Otrzymałam pisemne potwierdzenie przyznania premii kwartalnej, ale nie widzę jej w ostatniej wypłacie. Decyzja została już zatwierdzona przez przełożonego, nie proszę o ponowną ocenę wyników. Chciałabym sprawdzić termin wypłaty oraz to, czy informacja trafiła do naliczenia wynagrodzeń.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1996092920016963,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5dba1c32850c48fe3d3f2c028009370fb1291016af4860f57dfd7d407b000018",
+  "response_sha256": "5fa4b5f9194d37e54bfcfd38dc48df1345395021426440c11d840a4d20cc5024"
+}

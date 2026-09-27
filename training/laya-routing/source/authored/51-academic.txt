@@ -1,0 +1,69 @@
+other-046
+Kiedy odbędzie się egzamin końcowy na moich studiach?
+Kończę przedmiot i potrzebuję terminu egzaminu. Proszę podać datę egzaminu końcowego dla studentów.
+Egzamin końcowy na studiach: kiedy będzie? Logowanie już naprawiono, nie potrzebuję dalszej pomocy z kontem.
+Prowadzący napisał: „Termin egzaminu podamy osobno”. Proszę o datę końcowego egzaminu na studiach.
+Kiedy mamy końcowy egzamin na studiach?
+
+other-047
+Proszę przesunąć termin oddania mojej pracy na studiach.
+Jestem studentką i nie zdążę ukończyć pracy na ustaloną datę. Proszę o przedłużenie terminu jej złożenia.
+Drukarkę już naprawiono. Proszę przesunąć termin oddania mojej pracy studenckiej.
+Wykładowca wskazał: „Pracę oddajemy w piątek”. Proszę o przesunięcie tego terminu dla mnie jako studenta.
+Nie zdążę z pracą na studia. Mogę dostać późniejszy termin oddania?
+
+other-048
+Jakie wymagania trzeba spełnić, żeby dostać się na ten kierunek studiów?
+Chcę aplikować na studia i sprawdzam warunki przyjęcia. Proszę przedstawić wymagania dla kandydatów na kierunek.
+Jakie są wymagania przyjęcia na kierunek studiów? Błąd otwierania strony już naprawiono.
+W opisie kierunku jest: „Przyjęcie po spełnieniu wymagań”. Proszę wyjaśnić wymagania dla kandydata na studia.
+Chcę dostać się na ten kierunek. Jakie są warunki przyjęcia na studia?
+
+other-049
+Proszę wystawić zaświadczenie potwierdzające mój status studenta.
+Studiuję na uczelni i potrzebuję dokumentu potwierdzającego ten fakt. Proszę o zaświadczenie o statusie studenta.
+Mój komputer już działa. Proszę o wydanie zaświadczenia potwierdzającego, że jestem studentką.
+W formularzu wymagają: „Zaświadczenie o statusie studenta”. Proszę wystawić mi taki dokument z uczelni.
+Potrzebuję papieru, że jestem studentem. Wystawicie zaświadczenie?
+
+other-050
+Proszę o harmonogram zjazdów na studiach podyplomowych.
+Planuję udział w zajęciach podyplomowych. Potrzebuję dat kolejnych zjazdów, aby zaplanować dojazdy.
+Kiedy są zjazdy studiów podyplomowych? Problem z moją pocztą już rozwiązano.
+Organizator studiów napisał: „Harmonogram zjazdów udostępnimy uczestnikom”. Proszę przesłać plan studiów podyplomowych.
+Podeślecie terminy zjazdów podyplomówki?
+
+other-052
+Zaliczyłem przedmiot na studiach, ale nie wpisano oceny.
+Prowadzący potwierdził zaliczenie, jednak w moich wynikach nie ma oceny. Proszę uzupełnić wpis studencki.
+Logowanie już działa. Proszę dopisać brakującą ocenę z przedmiotu, który zaliczyłam na studiach.
+Wykładowca napisał: „Przedmiot zaliczony”. Oceny nadal nie wpisano. Proszę uzupełnić wynik na studiach.
+Przedmiot zaliczony, a oceny na studiach brak. Wpiszecie ją?
+
+other-053
+Jakie są opłaty za semestr studiów?
+Chcę zaplanować koszty nauki na uczelni. Proszę podać należności związane z jednym semestrem studiów.
+Proszę o kwoty opłat semestralnych za studia. Uszkodzony załącznik już przesłano ponownie i działa.
+W ofercie widzę: „Opłaty semestralne”. Proszę wyjaśnić ich wysokość za studia.
+Ile płaci się za semestr studiów? Podeślecie informację?
+
+other-054
+Jakie zasady obowiązują podczas obrony pracy dyplomowej?
+Przygotowuję się do zakończenia studiów. Potrzebuję informacji o przebiegu i zasadach obrony dyplomu.
+Dostęp do biblioteki już przywrócono. Proszę wyjaśnić zasady obrony mojej pracy dyplomowej.
+Promotor napisał: „Zapoznaj się z zasadami obrony”. Proszę przekazać reguły obrony pracy dyplomowej.
+Jak wygląda obrona dyplomu i jakie są zasady?
+
+other-056
+Proszę o kontakt do opiekuna mojego kierunku studiów.
+Jestem studentem i potrzebuję porozmawiać z osobą opiekującą się kierunkiem. Proszę przekazać dane kontaktowe.
+Jak skontaktować się z opiekunem kierunku studiów? Mój problem z drukowaniem już usunięto.
+W instrukcji uczelni wskazano: „Skontaktuj się z opiekunem kierunku”. Proszę o kontakt do tej osoby.
+Macie kontakt do opiekuna mojego kierunku na studiach?
+
+other-057
+Jak wygląda przeniesienie między kierunkami studiów?
+Rozważam zmianę kierunku na uczelni. Potrzebuję informacji o procedurze przeniesienia i wymaganych krokach.
+Błąd konta studenta już naprawiono. Proszę wyjaśnić procedurę przeniesienia na inny kierunek studiów.
+W regulaminie przeczytałam: „Możliwe jest przeniesienie między kierunkami”. Proszę wyjaśnić procedurę takiej zmiany studiów.
+Chcę przenieść się na inny kierunek studiów. Jak to załatwić?

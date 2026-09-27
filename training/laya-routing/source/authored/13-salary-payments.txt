@@ -1,0 +1,69 @@
+payroll-016
+Nie otrzymałem miesięcznego wynagrodzenia; proszę wyjaśnić brak przelewu.
+Termin wypłaty minął, a na moim rachunku nie ma pensji za ostatni miesiąc. Proszę sprawdzić, dlaczego przelew wynagrodzenia nie dotarł.
+Potrzebuję wyjaśnienia braku przelewu miesięcznej pensji. Sprawa niedziałającej klawiatury jest zamknięta, dostałem sprawną. Wynagrodzenia nadal nie otrzymałem.
+Bank potwierdził: „Nie odnotowaliśmy wpływu od pracodawcy”. Proszę sprawdzić, dlaczego nie otrzymałam miesięcznego wynagrodzenia.
+Pensja za miesiąc nie przyszła, chociaż termin minął. Możecie sprawdzić brak przelewu?
+
+payroll-018
+Proszę poprawić potrącenie pensji za dzień, w którym faktycznie pracowałam.
+Na rozliczeniu widzę pomniejszenie wynagrodzenia za rzekomą nieobecność. Tego dnia normalnie wykonywałam obowiązki. Proszę skorygować potrącenie i należną pensję.
+Dostęp do dokumentów został przywrócony. Widzę potrącenie z wynagrodzenia za dzień faktycznie przepracowany i proszę poprawić to naliczenie.
+Przełożony potwierdził: „Tego dnia byłeś obecny i pracowałeś”. Proszę skorygować potrąconą za ten dzień część pensji.
+Odjęli mi z pensji dzień, który normalnie przepracowałem. Poprawicie to potrącenie?
+
+payroll-021
+Proszę sprawdzić wypłatę wysłaną na mój nieaktualny rachunek bankowy.
+Zmieniłam konto, ale wynagrodzenie prawdopodobnie trafiło na poprzedni rachunek. Proszę zweryfikować, na jakie konto wysłano pensję i wyjaśnić tę płatność.
+Chcę sprawdzić przelew pensji na mój stary rachunek. Błąd w danych kontaktowych został już poprawiony. Proszę zweryfikować konto użyte przy wypłacie.
+W potwierdzeniu płatności widzę: „Rachunek odbiorcy” z moim poprzednim numerem konta. Proszę sprawdzić wypłatę wynagrodzenia na nieaktualny rachunek.
+Wygląda na to, że pensja poszła na moje stare konto. Sprawdzicie przelew i numer rachunku?
+
+payroll-022
+Dlaczego kwota otrzymanej pensji różni się od kwoty na pasku wynagrodzenia?
+Na pasku wskazano inną kwotę do wypłaty niż ta, która wpłynęła na rachunek. Proszę porównać rozliczenie z przelewem i wyjaśnić rozbieżność.
+Nie mogłem wcześniej otworzyć paska, ale plik już działa. Jego kwota do wypłaty różni się od przelewu na konto. Proszę wyjaśnić tę rozbieżność.
+Na pasku zapisano: „Do wypłaty”, a obok kwotę wyższą od otrzymanego przelewu. Proszę sprawdzić, dlaczego te wartości się nie zgadzają.
+Na pasku mam inną kwotę niż na koncie. Wyjaśnicie różnicę w tej wypłacie?
+
+payroll-023
+Proszę usunąć omyłkowo naliczone dwa razy to samo potrącenie z pensji.
+W ostatnim rozliczeniu wynagrodzenia identyczne potrącenie występuje podwójnie. Dotyczy jednej należności, więc proszę poprawić zdublowane naliczenie.
+Proszę skorygować podwójne potrącenie tej samej kwoty z mojej pensji. Problem z blokadą konta komputerowego został już rozwiązany, nie wymaga dalszych działań.
+Na zestawieniu mojej pensji widzę dwa identyczne wpisy: „Potrącenie zaliczki”. Zaliczka była jedna. Proszę skorygować omyłkowe podwójne naliczenie potrącenia.
+To samo potrącenie zabrali mi z pensji dwa razy. Poprawicie ten duplikat?
+
+payroll-024
+Jak będzie wypłacone wynagrodzenie za mój niepełny pierwszy miesiąc zatrudnienia?
+Dołączyłem do pracy po rozpoczęciu miesiąca. Potrzebuję ustalić rozliczenie i wypłatę pensji za ten pierwszy, niepełny okres zatrudnienia. Proszę o informację.
+Sprzęt do pracy już otrzymałam i wszystko działa. Chciałabym ustalić wypłatę wynagrodzenia za mój pierwszy miesiąc, w którym pracowałam tylko część okresu.
+W umowie zapisano: „Praca rozpoczyna się dwudziestego dnia miesiąca”. Proszę ustalić, jak wypłacone zostanie wynagrodzenie za ten niepełny pierwszy miesiąc.
+Zaczęłam pracę pod koniec miesiąca. Jak rozliczycie i wypłacicie tę pierwszą, niepełną pensję?
+
+payroll-025
+Dlaczego moja jedna wypłata została podzielona na dwa przelewy opisane różnymi okresami?
+Oczekiwałam jednego wynagrodzenia, a otrzymałam dwa wpływy z opisami odmiennych okresów rozliczeniowych. Proszę wyjaśnić, dlaczego wypłata została tak rozdzielona.
+Proszę wyjaśnić dwa przelewy składające się na jedną wypłatę, z których każdy opisano innym okresem rozliczeniowym. Wcześniejsza reklamacja przesyłki jest zamknięta, paczka dotarła.
+W historii banku jeden przelew opisano: „Bieżący okres”, a drugi: „Poprzedni okres”. Oczekiwałem jednej pensji. Proszę wyjaśnić podział wypłaty na te dwa przelewy.
+Dostałem jedną pensję w dwóch przelewach, każdy ma inny okres w opisie. O co chodzi z tym rozdzieleniem?
+
+payroll-026
+Proszę sprawdzić termin przelewu pensji przed dniem wolnym bankowym.
+Zwykły termin wypłaty sąsiaduje z dniem, w którym banki nie realizują rozliczeń. Chcę wiedzieć, kiedy zostanie wysłane wynagrodzenie. Proszę sprawdzić datę przelewu.
+Mój błąd logowania został naprawiony. Potrzebuję sprawdzenia terminu przelewu wynagrodzenia, ponieważ przed nami dzień wolny w rozliczeniach bankowych.
+Bank poinformował: „W tym dniu sesje rozliczeniowe nie odbędą się”. Proszę sprawdzić, kiedy zostanie wysłana moja pensja przed tym dniem wolnym bankowym.
+Banki mają dzień wolny przy terminie wypłaty. Sprawdzicie, kiedy pójdzie przelew pensji?
+
+payroll-027
+Proszę o czytelne zestawienie składników mojego ostatniego wynagrodzenia.
+Chcę zobaczyć, z jakich elementów składa się ostatnia pensja. Obecne podsumowanie nie pozwala mi tego zrozumieć. Proszę przygotować czytelne wyszczególnienie składników.
+Potrzebuję czytelnego zestawienia składników ostatniej pensji. Problem z wyświetlaniem dokumentu już naprawiono. Chodzi mi o zrozumiały podział wynagrodzenia na poszczególne elementy.
+W podsumowaniu wypłaty widnieje tylko: „Razem”. Proszę przekazać czytelne zestawienie składników ostatniego wynagrodzenia, żebym rozumiał jego strukturę.
+Podeślecie jasne rozbicie ostatniej pensji na składniki? Chcę wiedzieć, co składa się na kwotę.
+
+payroll-028
+Proszę ustalić rozliczenie zwrotu nadpłaconego mi wynagrodzenia.
+Otrzymałam wyższą pensję, niż wynikało z należnego rozliczenia, i potwierdzono nadpłatę. Chcę prawidłowo zwrócić nadmiarową kwotę. Proszę ustalić sposób jej rozliczenia.
+Zgłoszoną awarię słuchawek usunięto. Pozostało rozliczenie zwrotu nadpłaconego wynagrodzenia; proszę wskazać kwotę i sposób prawidłowego zwrotu.
+W wyjaśnieniu wypłaty otrzymałem informację: „Wynagrodzenie zawiera nadpłatę”. Proszę ustalić rozliczenie jej zwrotu.
+Dostałem za dużą pensję i nadpłata już potwierdzona. Jak ją zwrócić i rozliczyć? Pomożecie to ustalić?

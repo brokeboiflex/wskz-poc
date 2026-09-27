@@ -1,0 +1,93 @@
+{
+  "model": "gemma4:e2b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Tworzysz pięć syntetycznych, naturalnych polskich wiadomości opisujących DOKŁADNIE jedną podaną sprawę.\nScenariusz określa aktualne działanie, jego przedmiot i stan już spełnionych warunków. Zachowaj je w każdym wariancie.\nOpis działów służy wyłącznie kontroli granic; NIE dodawaj do scenariusza innych zadań z opisu działu.\nNie zastępuj wykonania zadania uzyskiwaniem zgody, jeżeli zgoda jest już warunkiem spełnionym. Nie zamieniaj rekrutacji na szkolenie ani odwrotnie.\nKażdy tekst musi samodzielnie zawierać aktualny zamiar i jego dziedzinę. Czytelnik nie zna scenariusza ani innych wariantów.\nNajpierw ustal sobie, co autor chce TERAZ załatwić. Następnie zredaguj pięć różnych wiadomości i sprawdź ich zgodność.\nJSON zawiera short, context, informal jako teksty; resolved_history jako past_problem/resolution/message; quotation jako quote/message.\nHistoria ma wskazać KONKRETNY wcześniejszy problem i sposób, w jaki został już zakończony; ostatnie zdanie zawiera bieżącą sprawę.\nCytat przedstawia cudze słowa lub powiadomienie jako tło. Dalsza prośba NIE może powtarzać cytatu tymi samymi słowami.\nNie umieszczaj nazw docelowych działów, etykiet, ID, komentarzy o klasyfikacji ani uzasadnień odpowiedzi.\nNie twórz wszystkich tekstów według jednego szablonu. Nie używaj ogólnika 'wcześniej omówiliśmy kwestie'.\nWyjątek: jeśli scenariusz celowo nie zawiera konkretnej informacji lub prośby, zachowaj ten brak we wszystkich wariantach. Nie dopisuj zadania dla samej długości.\nOsoby i szczegóły fikcyjne; bez prawdziwych adresów, danych kontaktowych i sekretów.\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"znaczenie_dzialow\": {\"human_resources\": \"Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.\", \"payroll\": \"Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia.\", \"help_desk\": \"Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie.\", \"it\": \"Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa.\", \"other\": \"Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział.\"}, \"scenariusz\": \"Organizacja rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego.\", \"najwazniejsze\": \"Każdy z pięciu tekstów musi samodzielnie zawierać rodzaj sprawy ze scenariusza. Nie wolno pozostawić ogólnej rozmowy, zmiany, problemu, spotkania itp. bez podania czego dotyczy. Nie odsyłaj do poprzedniej wiadomości. Styl informal ma być potoczny, ale kompletny znaczeniowo.\", \"obowiazkowe_formy\": {\"short\": \"Jedno krótkie zdanie, 6-18 słów.\", \"context\": \"Trzy zdania: konkretna sytuacja, jej skutek i aktualna prośba. 25-45 słów.\", \"resolved_history\": \"Trzy zdania. Najpierw inna wcześniejsza sprawa wyraźnie JUŻ ROZWIĄZANA, następnie aktualna sytuacja ze scenariusza i prośba. 30-55 słów. Nie proś ponownie o rozwiązanie starej sprawy.\", \"quotation\": \"Wstaw dosłowny krótki cytat w cudzysłowie (np. słowa rozmówcy lub treść powiadomienia), następnie opisz aktualny zamiar ze scenariusza. 25-45 słów.\", \"informal\": \"Potoczna wiadomość do współpracownika, skróty lub drobna literówka, 10-25 słów.\"}, \"kontrola\": \"Sprawdź przed odpowiedzią: historia ma zakończoną dawną sprawę; quotation zawiera rzeczywisty cytat; wszystkie teksty zachowują scenariusz. Przy scenariuszu bez informacji lub bez prośby zachowaj ten brak, zamiast dopisywać zadanie.\"}"
+    }
+  ],
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "authored_messages",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "short": {
+            "type": "string",
+            "description": "Jedno krótkie zdanie, 6-18 słów."
+          },
+          "context": {
+            "type": "string",
+            "description": "Trzy zdania: konkretna sytuacja, jej skutek i aktualna prośba. 25-45 słów."
+          },
+          "resolved_history": {
+            "type": "object",
+            "properties": {
+              "past_problem": {
+                "type": "string",
+                "description": "Jedno zdanie o konkretnym wcześniejszym problemie, różnym od aktualnej sprawy."
+              },
+              "resolution": {
+                "type": "string",
+                "description": "Jedno zdanie stwierdzające, jak tamten problem został już rozwiązany."
+              },
+              "message": {
+                "type": "string",
+                "description": "Samodzielna bieżąca prośba dokładnie zgodna ze scenariuszem; nie pytaj ponownie o starą sprawę."
+              }
+            },
+            "required": [
+              "past_problem",
+              "resolution",
+              "message"
+            ],
+            "additionalProperties": false
+          },
+          "quotation": {
+            "type": "object",
+            "description": "Wstaw dosłowny krótki cytat w cudzysłowie (np. słowa rozmówcy lub treść powiadomienia), następnie opisz aktualny zamiar ze scenariusza. 25-45 słów.",
+            "properties": {
+              "quote": {
+                "type": "string",
+                "description": "Dosłowne słowa rozmówcy lub powiadomienia, bez cudzysłowu."
+              },
+              "message": {
+                "type": "string",
+                "description": "Aktualny zamiar autora po przytoczonym cytacie."
+              }
+            },
+            "required": [
+              "quote",
+              "message"
+            ],
+            "additionalProperties": false
+          },
+          "informal": {
+            "type": "string",
+            "description": "Potoczna wiadomość do współpracownika, skróty lub drobna literówka, 10-25 słów."
+          }
+        },
+        "required": [
+          "short",
+          "context",
+          "resolved_history",
+          "quotation",
+          "informal"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "seed": 42,
+  "reasoning_effort": "low",
+  "max_tokens": 3000,
+  "stream": false
+}

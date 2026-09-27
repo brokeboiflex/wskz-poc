@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/conference-development/quoted_history",
+  "family": "human_resources/conference-development",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nZnalazłem konferencję dotyczącą zarządzania projektami, której program odpowiada moim celom rozwojowym. Chciałbym omówić możliwość uczestnictwa w ramach planu szkoleniowego. Proszę o informację, kto ocenia wartość takiego wydarzenia i jakie uzasadnienie powinienem przygotować przed podjęciem decyzji.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2485147919796873,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6bdc553216559a479f989628659729566f8f3b3b1fcac9e87855fe4019c13ac1",
+  "response_sha256": "45909113fc4fc041835cdf39c4d6f2d87dbd1d05414c46be790651f2dca8caf5"
+}

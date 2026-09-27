@@ -1,0 +1,13 @@
+{
+  "id": "payroll/commission-correction/quoted_history",
+  "family": "payroll/commission-correction",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW zestawieniu prowizji za poprzedni miesiąc pominięto jedną zaakceptowaną transakcję. Osoba odpowiedzialna za sprzedaż potwierdziła jej uwzględnienie i przekazała korektę danych. Proszę sprawdzić, czy zmiana zostanie ujęta w moim wynagrodzeniu oraz w którym okresie pojawi się wyrównanie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.25837816699640825,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e3a7b6b55de8dc901d1ad843289c1e62093e985eb1bd23629c9326f5baac4f68",
+  "response_sha256": "34ed9a18668051e8abc9bede8e56fea972a472e8a675979fb2de5da70d1b97a6"
+}

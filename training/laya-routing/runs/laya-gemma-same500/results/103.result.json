@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-request/resolved_preface",
+  "family": "payroll/leave-request",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nOsobna, aktualna wiadomość:\nChciałabym złożyć wniosek o pięć dni urlopu wypoczynkowego w drugiej połowie listopada. Termin jest już uzgodniony z przełożonym, a zastępstwo zostało zapewnione. Proszę o informację, jakie formalności muszę jeszcze uzupełnić i czy mój obecny limit pozwala na taki wymiar wolnego.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.22984454198740423,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "721b1caf63da7cd15aa26d9fd0b26431b17d37d26ba55bea3ddea476a401a458",
+  "response_sha256": "658f9e8bc5d6fe3583c56b0da2b754769273b39f070a3e89aaa09a44de3d809e"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/mail-queue/resolved_postscript",
+  "family": "it/mail-queue",
+  "message": "Monitoring serwera poczty pokazuje rosnącą kolejkę niewysłanych wiadomości z wielu działów. Programy użytkowników potwierdzają wysłanie, ale odbiorcy zewnętrzni nic nie otrzymują. Proszę o sprawdzenie działania centralnej usługi SMTP i usunięcie przyczyny zatrzymania dostarczania poczty.\n\nPS. Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.22855374999926426,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1cc5520e8e42a10ee9cef2f4a1674b7609d847394778ca51f003bafe65aa588e",
+  "response_sha256": "fd88d4fc97664112d3026604ceb9a4ab4ac27497b9e9b2b89bcd564392b48b25"
+}

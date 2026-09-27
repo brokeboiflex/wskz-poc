@@ -1,0 +1,69 @@
+it-069
+Serwer pocztowy nie dostarcza wiadomości dla całej domeny firmy.
+Wszystkie skrzynki organizacji przestały otrzymywać pocztę z powodu wspólnej usługi serwerowej. Proszę sprawdzić serwer i przywrócić dostarczanie w całej domenie.
+Proszę naprawić dostarczanie wiadomości przez serwer pocztowy całej domeny firmy. Mój problem z klawiaturą już usunięto. Awaria poczty obejmuje organizację.
+Monitoring poczty zgłasza: „Brak dostarczania wiadomości w domenie”. Proszę przywrócić pracę serwera firmowej poczty.
+Poczta nie dochodzi nikomu w naszej domenie, serwer nie dostarcza wiadomości. Zajmiecie się wspólną usługą?
+
+it-070
+Centralna usługa kalendarzy nie udostępnia spotkań żadnemu zespołowi.
+W całej organizacji zniknął dostęp do wydarzeń obsługiwanych przez wspólną usługę. Proszę zdiagnozować centralne kalendarze i przywrócić spotkania.
+Rozliczenie mojej delegacji już zamknięto. Proszę naprawić centralną usługę kalendarzy, która nie udostępnia spotkań żadnemu z zespołów.
+Panel usługi zgłasza: „Kalendarze zespołów niedostępne”. Dotyczy to całej organizacji. Proszę przywrócić centralne udostępnianie spotkań.
+Centralne kalendarze nie pokazują spotkań żadnej ekipie. Sprawdzicie wspólną usługę?
+
+it-078
+Firmowa centrala telefoniczna przestała zestawiać połączenia.
+Pracownicy nie mogą wykonywać rozmów przez wspólną centralę. Proszę sprawdzić infrastrukturę telefoniczną organizacji i przywrócić zestawianie połączeń.
+Proszę zająć się firmową centralą, która nie zestawia rozmów. Błąd w mojej wypłacie już poprawiono. Problem obejmuje wspólną telefonię.
+Centrala zgłasza: „Nie można zestawić połączenia”. Dotyczy rozmów pracowników firmy. Proszę przywrócić działanie infrastruktury telefonicznej.
+Centrala telefoniczna firmy nie łączy rozmów. Potrzebna naprawa wspólnej telefonii.
+
+it-083
+W firmowej usłudze wideokonferencji wiele osób nie może tworzyć spotkań.
+Problem pojawia się na kontach różnych zespołów i dotyczy wspólnej platformy rozmów. Proszę przywrócić możliwość tworzenia wideokonferencji.
+Zaświadczenie pracownicze już otrzymałam. Proszę naprawić wspólną usługę wideokonferencji, która nie pozwala tworzyć spotkań wielu osobom.
+Użytkownicy różnych zespołów widzą: „Nie można utworzyć spotkania”. Proszę sprawdzić firmową platformę wideokonferencji.
+Kilka ekip nie może zakładać spotkań w firmowej usłudze wideo. Sprawdzicie platformę?
+
+it-090
+Wspólna bramka antyspamowa odrzuca całą pocztę przychodzącą.
+Żadne wiadomości z zewnątrz nie przechodzą przez centralny filtr organizacji. Proszę sprawdzić bramkę antyspamową i przywrócić prawidłową obsługę poczty.
+Proszę naprawić wspólną bramkę antyspamową odrzucającą całą pocztę przychodzącą. Mój monitor już działa po naprawie. Awaria dotyczy wiadomości do całej firmy.
+Log bramki pokazuje „Odrzucono” przy każdej przychodzącej wiadomości. Proszę przywrócić poprawne działanie centralnego filtra antyspamowego.
+Bramka antyspamowa wyrzuca całą pocztę z zewnątrz. Ogarniecie wspólny filtr?
+
+it-091
+Firmowy mostek konferencyjny łączy uczestników dwóch osobnych spotkań w jednej rozmowie.
+Osoby z niezależnych konferencji słyszą się nawzajem, ponieważ mostek miesza połączenia. Proszę naprawić rozdzielenie sesji na wspólnej platformie.
+Korektę mojego urlopu już zapisano. Proszę sprawdzić firmowy mostek konferencyjny, który połączył uczestników dwóch odrębnych spotkań.
+Uczestnik zgłosił: „Słyszymy ludzi z drugiej, osobnej konferencji”. Proszę naprawić mostek firmowy mieszający dwie rozmowy.
+Mostek wrzucił dwie osobne konferencje do jednej rozmowy. Sprawdzicie wspólną telefonię konferencyjną?
+
+it-102
+Firmowy komunikator nie synchronizuje kanałów żadnego działu.
+Zmiany i wiadomości w kanałach nie docierają do zespołów w całej organizacji. Proszę przywrócić synchronizację na wspólnej platformie komunikatora.
+Proszę naprawić synchronizację kanałów wszystkich działów na firmowej platformie komunikatora. Moja drukarka została już uruchomiona. To awaria wspólnej usługi.
+Monitoring platformy wskazuje: „Brak synchronizacji kanałów”. Dotyczy każdego działu. Proszę przywrócić działanie firmowego komunikatora.
+Komunikator nie synchronizuje kanałów żadnemu działowi. Zajmiecie się platformą?
+
+it-111
+Wspólny serwer książki adresowej przestał odpowiadać klientom.
+Aplikacje użytkowników nie mogą pobrać danych z centralnego katalogu kontaktów. Proszę sprawdzić serwer książki adresowej i przywrócić odpowiedzi.
+Rozliczenie mojego świadczenia już poprawiono. Proszę naprawić wspólny serwer książki adresowej, który nie odpowiada klientom w organizacji.
+Klienci katalogu zgłaszają: „Serwer książki adresowej nie odpowiada”. Proszę przywrócić centralną usługę kontaktów.
+Centralny serwer książki adresowej nie odpowiada programom użytkowników. Sprawdzicie usługę kontaktów?
+
+it-116
+Infrastruktura telefonii internetowej utraciła rejestrację wszystkich numerów.
+Żaden firmowy numer nie jest już zarejestrowany w usłudze połączeń. Proszę sprawdzić wspólną platformę telefonii internetowej i przywrócić rejestracje.
+Proszę przywrócić rejestrację wszystkich numerów w firmowej telefonii internetowej. Dokument zatrudnienia już odebrałem. Awaria dotyczy całej infrastruktury rozmów.
+Panel telefonii pokazuje: „Wszystkie numery niezarejestrowane”. Proszę podjąć interwencję w firmowej infrastrukturze połączeń internetowych.
+Wszystkie numery wyrejestrowały się z firmowej telefonii internetowej. Pomożecie przywrócić platformę?
+
+it-118
+Centralna archiwizacja poczty nie zapisuje nowych wiadomości.
+Bieżące maile są obsługiwane, ale nie trafiają do wspólnego archiwum organizacji. Proszę sprawdzić usługę centralnej archiwizacji i przywrócić zapis.
+Termin szkolenia już ustalono. Proszę zająć się centralną usługą archiwizacji poczty, która przestała zapisywać nowe wiadomości.
+Monitor archiwum zgłasza: „Brak nowych zapisów wiadomości”. Proszę przywrócić działanie centralnej archiwizacji firmowej poczty.
+Nowe maile nie wpadają do centralnego archiwum. Sprawdzicie usługę archiwizacji poczty?

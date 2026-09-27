@@ -1,0 +1,13 @@
+{
+  "id": "it/tls-expiry/quoted_history",
+  "family": "it/tls-expiry",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nWszystkie przeglądarki zgłaszają wygasły certyfikat przy otwieraniu firmowego portalu. Problem pojawił się dziś i dotyczy każdego użytkownika, również poza biurem. Proszę odnowić certyfikat na serwerze oraz sprawdzić mechanizm jego automatycznego odnawiania, aby usługa znów była dostępna.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2816694999928586,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "109368aa8df39a74df22d456e4878b46ce11fdc44bd4270b7c0066814e9d5feb",
+  "response_sha256": "d1bfbc392c9bd0764f31a4cf3a2ff7a13f5f1cb21744ce52b34748ec54fba996"
+}

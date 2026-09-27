@@ -1,0 +1,13 @@
+{
+  "id": "other/pet/forwarded_history",
+  "family": "other/pet",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNiedawno przygarnąłem kota i chciałbym urządzić mu spokojne miejsce do odpoczynku w mieszkaniu. Nie wiem, gdzie ustawić legowisko względem kuwety i misek. Czy możecie podpowiedzieć podstawowe zasady organizacji przestrzeni dla zwierzęcia, zwłaszcza w niewielkim mieszkaniu?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nMój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.25558575001196004,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2186678e04a2bb8dd40a75889e2fcdb0d993c64f9b47c40aca9eee15e1dc6c17",
+  "response_sha256": "4406cc91390183619f80e00620f518524f3101989f8b7f9884ffac865349b9f2"
+}

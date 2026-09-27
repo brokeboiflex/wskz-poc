@@ -1,0 +1,13 @@
+{
+  "id": "payroll/employment-history/base",
+  "family": "payroll/employment-history",
+  "message": "Odnalazłam świadectwo pracy od poprzedniego pracodawcy, którego nie przekazałam przy zatrudnieniu. Może ono mieć znaczenie dla naliczenia mojego wymiaru urlopu. Proszę wskazać sposób uzupełnienia dokumentacji i zweryfikować, czy po jego uwzględnieniu zmieni się dostępny limit.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19684083299944177,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8fdcf5803b9321d0541faf31e72d90fc9e6407457012b2e4cc1b9e59051cfe8f",
+  "response_sha256": "1dd53725105aa87c2d4cc094e53acf22eee957332d54be39103c5ebc4c53582b"
+}

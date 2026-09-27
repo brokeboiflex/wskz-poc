@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/buddy-program/quoted_history",
+  "family": "human_resources/buddy-program",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nChcielibyśmy wprowadzić w zespole osobę wspierającą każdego nowego pracownika przez pierwszy miesiąc. Potrzebujemy zasad wyboru opiekunów i wskazówek, jak przygotować ich do tej roli. Czy można pomóc nam opracować taki program i określić zakres spotkań z nowymi osobami?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2513247080205474,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a4710710055fe48061e9f671622b5e67b9e322ab663a8295782631489a73437e",
+  "response_sha256": "c2c23c46e86f02eb9e311f8101c75996c55cadc99f83eaa696f13ecbce6f359c"
+}

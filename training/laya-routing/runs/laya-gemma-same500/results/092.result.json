@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/interview-panel-training/base",
+  "family": "human_resources/interview-panel-training",
+  "message": "W przyszłym kwartale kilku liderów po raz pierwszy będzie prowadzić rozmowy z kandydatami. Chciałabym przygotować ich do zadawania pytań, oceny kompetencji i przekazywania informacji zwrotnej. Proszę o zorganizowanie krótkiego szkolenia oraz materiałów pomocniczych dla osób uczestniczących w rekrutacji.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.21415304200490937,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e1fa6d3165d56709101184e5f6fb251ded1c23f1b98fec7d10857e33514ff091",
+  "response_sha256": "389b6f9d77a327741309c9892d410f1b65525c1129418a760767c4e31285c0ec"
+}

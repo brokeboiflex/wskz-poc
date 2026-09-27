@@ -1,0 +1,13 @@
+{
+  "id": "payroll/overtime-timeoff/base",
+  "family": "payroll/overtime-timeoff",
+  "message": "Z przełożonym uzgodniłem odbiór wolnego za dodatkową pracę podczas wdrożenia w sobotę. Chciałbym dowiedzieć się, jaki wniosek złożyć, aby godziny zostały prawidłowo rozliczone. Proszę o sprawdzenie dostępnego salda i zasad wpisania odbioru do ewidencji czasu pracy.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1923330829886254,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b76b5f6c36fb2c4cd72b294d3dc068f006802c08cafb50560563a8952203c600",
+  "response_sha256": "73858fe5314e08744039731463cf7f21a2cdba1848c23764306efe2ffdbbb709"
+}

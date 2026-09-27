@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-reference/resolved_preface",
+  "family": "other/unknown-reference",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nOsobna, aktualna wiadomość:\nWracam do tego, o czym rozmawialiśmy ostatnio. Czy udało się już ustalić rozwiązanie i można przejść do kolejnego etapu? Dajcie znać, bo czekam na odpowiedź.",
+  "expected": "other",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.218302749999566,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9c6aafc9056b267e75213f685f1e7b43dc614a22bcf347ab5d497d69af4dc896",
+  "response_sha256": "d75abc728f612b4628e9aed11c0a0d96efb4499e228f06ef46dc15e15294243e"
+}

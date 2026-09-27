@@ -1,0 +1,69 @@
+other-003
+Czy mogę zarezerwować prywatny nocleg na weekend?
+Planuję krótki wyjazd dla siebie. Proszę o informację o dostępności pokoju na weekend.
+Pytam o nocleg na prywatny weekend. Hasło służbowe już zmieniono i działa.
+Pensjonat ogłasza: „Pokoje na weekend”. Czy mogę zarezerwować nocleg na prywatny wyjazd?
+Macie wolny nocleg na mój weekendowy wypad?
+
+other-008
+Proszę o rozkład kursów promu turystycznego.
+Planuję prywatne zwiedzanie i chcę skorzystać z promu. Proszę podać godziny rejsów dla turystów.
+Awarię mojego laptopa usunięto. Proszę o rozkład turystycznego promu na prywatną wycieczkę.
+Przewodnik napisał: „Dopłyniesz promem turystycznym”. Jak wygląda rozkład jego rejsów?
+O której pływa prom dla turystów? Planuję prywatny wypad.
+
+other-024
+Polecisz trasę pieszej wycieczki w góry?
+Chcę spędzić wolny dzień na wędrówce. Szukam wskazówek dotyczących trasy prywatnej wycieczki górskiej.
+Jaką trasą pójść w góry prywatnie? Rozliczenie pensji już poprawiono i zamknięto.
+Znajomy zaproponował: „Chodźmy na pieszą wycieczkę w góry”. Jaką trasę byś polecił?
+Gdzie pójść pieszo w góry na prywatny wypad? Masz trasę?
+
+other-025
+Chcę zmienić termin prywatnej rezerwacji biletu kolejowego.
+Wyjazd osobisty przesunął mi się o kilka dni. Proszę pomóc zmienić datę zarezerwowanego przejazdu pociągiem.
+Mój komputer już działa. Proszę zmienić termin biletu kolejowego na prywatną podróż.
+W rezerwacji widnieje: „Przejazd w sobotę”. Chcę przesunąć termin tego prywatnego biletu kolejowego.
+Przełożymy mój prywatny bilet na pociąg na inny dzień?
+
+other-028
+Jakie zasady przewozu bagażu obowiązują podczas mojej wakacyjnej podróży?
+Wyjeżdżam prywatnie i pakuję walizkę. Proszę wyjaśnić dopuszczalny bagaż oraz zasady jego przewozu.
+Proszę o zasady przewozu bagażu na urlopowym wyjeździe. Mój wniosek o urlop już zatwierdzono.
+Potwierdzenie podróży mówi: „Sprawdź zasady bagażowe”. Proszę wyjaśnić przewóz bagażu podczas mojego prywatnego wyjazdu.
+Jaki bagaż mogę zabrać na wakacyjną podróż? Wyjaśnicie zasady?
+
+other-029
+Jak dojechać do muzeum podczas prywatnej wycieczki?
+Zwiedzam miasto w wolnym czasie i chcę dotrzeć do muzeum. Proszę o wskazówki dojazdu.
+Telefon służbowy już naprawiono. Prywatnie pytam, jak dojechać do muzeum na wycieczce.
+Znajoma poleciła: „Odwiedź to muzeum”. Jak tam dojechać podczas mojego prywatnego zwiedzania?
+Jak dostać się do muzeum? Jestem tu prywatnie na wycieczce.
+
+other-035
+Czy na wakacjach mogę wypożyczyć tutaj rower?
+Chcę pojeździć rekreacyjnie podczas prywatnego urlopu. Proszę o informację o możliwości wynajęcia roweru.
+Można tu wypożyczyć rower na wakacje? Moją wypłatę już wyrównano.
+W przewodniku jest: „Zwiedzaj okolicę rowerem”. Czy mogę go wynająć na prywatny wakacyjny pobyt?
+Da się tu pożyczyć rower na wakacyjny wypad?
+
+other-039
+Szukam mapy szlaku turystycznego na prywatną wycieczkę.
+Planuję piesze zwiedzanie i potrzebuję mapy przebiegu szlaku. Proszę wskazać, gdzie mogę ją znaleźć.
+Zaświadczenie już odebrałam. Prywatnie poszukuję mapy szlaku turystycznego na wycieczkę.
+Znajomy doradził: „Zabierz mapę szlaku”. Gdzie znajdę ją do prywatnej wędrówki?
+Masz mapę tego turystycznego szlaku? Potrzebuję na prywatny wypad.
+
+other-042
+Podeślesz kontakt do pensjonatu, który polecałeś?
+Szukam noclegu na prywatny wyjazd. Chcę skontaktować się z poleconym przez znajomego pensjonatem.
+Proszę o namiar na polecany pensjonat. Problem z moją drukarką już rozwiązano; planuję prywatny wyjazd.
+Powiedziałeś: „Znam dobry pensjonat”. Podeślesz kontakt do niego na mój prywatny pobyt?
+Daj namiar na ten pensjonat, który mi polecałeś.
+
+other-044
+W jakich godzinach można zwiedzać zamek w wolny dzień?
+Planuję prywatną wizytę turystyczną. Proszę podać godziny dostępności zamku dla zwiedzających.
+Mój urlop już zapisano. Proszę o godziny zwiedzania zamku podczas prywatnego dnia wolnego.
+Przewodnik zachęca: „Odwiedź zamek”. W jakich godzinach mogę zwiedzać go w wolny dzień?
+Do której wpuszczają do zamku? Chcę pozwiedzać prywatnie.

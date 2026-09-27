@@ -1,0 +1,13 @@
+{
+  "id": "payroll/training-hours/base",
+  "family": "payroll/training-hours",
+  "message": "Brałam udział w obowiązkowym szkoleniu po zakończeniu zwykłej zmiany. Prowadzący potwierdził obecność, ale te godziny nie znalazły się w mojej ewidencji. Proszę sprawdzić ich rozliczenie i wskazać dokument potrzebny do uzupełnienia czasu pracy za ten dzień.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1877247499942314,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ea56f404ed7d2db082dd358cd2c0a9b7d514430618ea2da94e2397ebc14603f6",
+  "response_sha256": "7ece46c4837625d9b54af78a5eb2f414aa0c280ad21443039da3b3bdf81aa143"
+}

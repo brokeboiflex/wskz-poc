@@ -1,0 +1,13 @@
+{
+  "id": "other/garden/base",
+  "family": "other/garden",
+  "message": "Liście mojego domowego fikusa zaczęły żółknąć, choć podlewam go regularnie. Stoi przy oknie od zachodu i niedawno został przesadzony. Chciałabym dowiedzieć się, jak rozpoznać, czy problemem jest nadmiar wody, światło czy ziemia.\n\nPrzed przesadzeniem roślina stała przez kilka miesięcy w tym samym miejscu i rosła regularnie. Nowa doniczka jest trochę większa, ma otwory w dnie i podstawkę. Po podlaniu zostaje w niej woda, którą czasem wylewam dopiero następnego dnia. Żółkną głównie dolne liście.\n\nNie widzę na nich owadów ani plam podobnych do pleśni. Ziemia na powierzchni wysycha szybko, ale głębiej pozostaje wilgotna. Nie chcę od razu kupować kilku preparatów, bo nie wiem, czy są potrzebne. Jakie obserwacje warto zrobić przez najbliższy tydzień i od jakiej zmiany pielęgnacji zacząć, żeby nie pogorszyć stanu rośliny?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.31641004100674763,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "76061b0811c42ceab0f7ff6e5c54563db9317997e0c0b9630fb9ca71afb0dd2f",
+  "response_sha256": "87df27e43c2405db39bc5ac782487110729841b556648228de7fcb162d7a9947"
+}

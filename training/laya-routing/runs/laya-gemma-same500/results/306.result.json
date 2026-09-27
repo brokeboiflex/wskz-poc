@@ -1,0 +1,13 @@
+{
+  "id": "it/dhcp-exhaustion/base",
+  "family": "it/dhcp-exhaustion",
+  "message": "Nowe urządzenia w kilku salach nie otrzymują adresów sieciowych, a starsze tracą połączenie po odnowieniu dzierżawy. Widać objawy wyczerpania puli adresowej w biurowej podsieci. Proszę o sprawdzenie konfiguracji centralnej usługi DHCP i zapewnienie prawidłowego przydziału adresów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.1952482089982368,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "77ac1532af8c5f81d8b1a5f715a46cb9965929227a59bdf5bb16f87cb78e0796",
+  "response_sha256": "4d8334825cb3b1c42ead875fbc4cf3342e4a1978bcb3ab6981f60da19c31319e"
+}

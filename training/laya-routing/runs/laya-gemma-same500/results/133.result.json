@@ -1,0 +1,13 @@
+{
+  "id": "payroll/salary-overpayment/resolved_preface",
+  "family": "payroll/salary-overpayment",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n\nOsobna, aktualna wiadomość:\nNa moje konto wpłynęła kwota wyższa niż wskazana na pasku wynagrodzenia. Nie mam informacji o dodatkowej premii ani wyrównaniu. Proszę zweryfikować przelew i poinformować mnie, czy doszło do nadpłaty oraz jak formalnie wyjaśnić tę różnicę w rozliczeniu.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2285307079728227,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6d9ccaee1d845a8998a89476e8b56391f558d379f56b2d2f31db0eeaa2ac887a",
+  "response_sha256": "f1d0356d032198294743d4e436ab5fab04885ef43fa96be4d3492780f506d51a"
+}

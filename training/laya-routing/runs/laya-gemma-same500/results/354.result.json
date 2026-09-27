@@ -1,0 +1,13 @@
+{
+  "id": "it/compromised-account/base",
+  "family": "it/compromised-account",
+  "message": "W historii mojego konta widzę udane logowanie z miejsca, w którym nigdy nie byłem, a współpracownicy otrzymali ode mnie wiadomości, których nie wysyłałem. Proszę pilnie sprawdzić podejrzenie przejęcia konta, zabezpieczyć aktywne sesje i ustalić zakres nieuprawnionych działań.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19731941699865274,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c86de176f7d0f0f66e6f15ac7a0a3b683be24399bfb850cb9486c68d4c6aafe4",
+  "response_sha256": "3c99fc89d1d225a17b3cce770e1fc98b329294e3bfb0da2d2d64040af2466bb5"
+}

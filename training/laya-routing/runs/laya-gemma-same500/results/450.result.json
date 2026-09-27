@@ -1,0 +1,13 @@
+{
+  "id": "other/coffee-machine-home/base",
+  "family": "other/coffee-machine-home",
+  "message": "Chcę wybrać ekspres do kawy do własnego mieszkania. Zależy mi na łatwym czyszczeniu i możliwości przygotowania jednej filiżanki, ale gubię się w nazwach urządzeń. Czy możecie wyjaśnić różnice między podstawowymi typami?",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.20707895801751874,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6ebde905857a86129898047695e43dedfec6ede7d505a9c9d4bf0767dcc465d4",
+  "response_sha256": "32192a6d46170c9a421fc061c1479a464766b90386a466b9da582f0e98d44ca7"
+}

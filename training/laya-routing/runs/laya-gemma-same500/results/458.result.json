@@ -1,0 +1,13 @@
+{
+  "id": "other/office-cleaning/base",
+  "family": "other/office-cleaning",
+  "message": "Po wczorajszym spotkaniu w sali konferencyjnej zostały pełne kosze i zabrudzone stoły. Za kilka godzin przychodzą tam goście. Proszę o przekazanie prośby o posprzątanie pomieszczenia osobie zajmującej się obsługą budynku. Sprzęt w sali działa i nie zgłaszam problemu technicznego.\n\nW sali nie ma obecnie nikogo i można wejść od razu. Najpilniejsze jest opróżnienie koszy oraz wytarcie blatów; ustawienie stołów może zostać takie jak teraz. Klucz jest dostępny w recepcji, która zna godzinę kolejnego spotkania.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.25429366700700484,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c1d526e5dead3b2a7f0ee3bc8a9324e72a95e5b01845c629993f926b7a131d84",
+  "response_sha256": "a95dad620f304cc146713c0b0cbbb5db819669af8bd0b18c21b94d1ed68581d5"
+}

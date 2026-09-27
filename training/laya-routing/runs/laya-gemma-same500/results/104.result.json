@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-cancellation/base",
+  "family": "payroll/leave-cancellation",
+  "message": "Miałem zaplanowany urlop na przyszły tydzień, jednak po uzgodnieniu z przełożonym pozostaję wtedy w pracy. Proszę anulować zaakceptowany wniosek i przywrócić odpowiednią liczbę dni do mojego salda. Chciałbym również potwierdzenia, że ewidencja będzie pokazywała normalną obecność.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1967692500038538,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b5804c14bb43dea0e25535db1fc0aa909c84883194716060e6a3823f09dd2066",
+  "response_sha256": "bf46c9756d8bc8ee553b3be2edffee5227d0ed05144f86917bce3388163d6eca"
+}

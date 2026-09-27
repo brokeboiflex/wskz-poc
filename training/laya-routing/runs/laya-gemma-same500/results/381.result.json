@@ -1,0 +1,13 @@
+{
+  "id": "it/cluster-node/quoted_history",
+  "family": "it/cluster-node",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nJeden z węzłów klastra produkcyjnego ma status niedostępny i część usług nie została poprawnie przeniesiona na pozostałe maszyny. Użytkownicy otrzymują błędy przy realizacji zadań. Proszę o sprawdzenie infrastruktury klastra i przywrócenie wymaganej liczby działających instancji.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2549576250021346,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "63b0682d97a212ec8e853927aabd59091c603cfd8a0aa2f00111a627b5ed0c69",
+  "response_sha256": "3dd417ca44de68148eb969f63bac300efa4e6594b44cb0bc978c915f364786ef"
+}

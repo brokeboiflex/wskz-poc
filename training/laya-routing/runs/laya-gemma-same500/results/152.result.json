@@ -1,0 +1,13 @@
+{
+  "id": "payroll/service-correction/base",
+  "family": "payroll/service-correction",
+  "message": "Na otrzymanym świadectwie pracy wpisano nieprawidłową datę rozpoczęcia zatrudnienia. Mam kopię umowy potwierdzającą właściwy termin. Proszę o wskazanie procedury sprostowania i dokumentów potrzebnych do przygotowania poprawionej wersji, tak aby dalsze formalności opierały się na zgodnych danych.\n\nPozostałe pozycje dokumentu wyglądają prawidłowo. Błąd dotyczy wyłącznie miesiąca rozpoczęcia pracy. Chciałbym wiedzieć, czy zwrócić poprzedni egzemplarz przy odbiorze poprawionego i czy potrzebny jest mój podpis na odrębnym wniosku o sprostowanie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23676762499962933,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b85feb4ad8fdb5db83b2e0d325af757f2da33deb6954dce0c0e81860cc63b558",
+  "response_sha256": "eeac37f419c9760fd7722c94180a031ee5dffd26db80d21633224c4b59cdd5ac"
+}

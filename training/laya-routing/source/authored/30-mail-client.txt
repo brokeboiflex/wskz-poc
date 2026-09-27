@@ -1,0 +1,69 @@
+help_desk-080
+Proszę włączyć w moim programie pocztowym ostrzeżenie o zapowiedzianym, ale niedodanym załączniku.
+Zdarza mi się napisać, że przesyłam plik, i zapomnieć go dołączyć. Chcę, żeby mój klient poczty ostrzegał przed wysłaniem takiej wiadomości. Proszę skonfigurować tę funkcję.
+Proszę ustawić ostrzeganie o brakującym zapowiedzianym załączniku w mojej poczcie. Dokumenty do urlopu już przyjęto. Potrzebuję pomocy z lokalnym programem.
+W instrukcji klienta widzę opcję „Przypomnij o brakującym załączniku”. Proszę włączyć ją w moim programie, gdy wspominam o pliku, ale go nie dodam.
+Zapominam pliku, chociaż piszę w mailu, że go załączam. Włączycie mi przypominajkę przed wysłaniem w moim programie pocztowym?
+
+help_desk-081
+Proszę skonfigurować podpis w moim kliencie pocztowym.
+Mam gotową treść podpisu służbowego, ale nie wiem, jak ustawić jej automatyczne dodawanie w aplikacji. Proszę pomóc skonfigurować podpis na moim komputerze.
+Rozliczenie pensji zostało poprawione. Potrzebuję pomocy w dodaniu mojego podpisu do lokalnego programu pocztowego.
+Kierownik przekazał mi treść z dopiskiem: „Ustaw to jako podpis pocztowy”. Proszę pomóc skonfigurować ją w moim kliencie poczty.
+Mam treść podpisu do maili. Ustawicie mi go w aplikacji pocztowej?
+
+help_desk-085
+Wyszukiwanie w moim programie pocztowym nie znajduje starszych wiadomości.
+Widzę dawne maile podczas przeglądania folderów, ale lokalna wyszukiwarka nie zwraca ich w wynikach. Proszę naprawić wyszukiwanie w moim kliencie poczty.
+Proszę sprawdzić lokalne wyszukiwanie starych maili na moim komputerze. Termin szkolenia został już potwierdzony. Wiadomości istnieją, lecz nie pojawiają się w wynikach.
+Program przy szukaniu starego maila pokazuje „Brak wyników”, choć ręcznie znajduję wiadomość w folderze. Proszę naprawić wyszukiwarkę mojego klienta.
+Stare maile są w folderach, a wyszukiwarka w mojej poczcie ich nie widzi. Pomożecie to naprawić?
+
+help_desk-087
+Moja skrzynka pokazuje spotkania w błędnie ustawionej strefie czasowej.
+Godziny zaproszeń u mnie przesuwają się względem tych widzianych przez innych. W ustawieniach mojej skrzynki jest zła strefa czasowa. Proszę pomóc ją poprawić.
+Nieprawidłową liczbę dni urlopu skorygowano. Proszę zmienić błędną strefę czasową spotkań w mojej skrzynce pocztowej.
+Koleżanka zauważyła: „W twojej skrzynce spotkanie jest pokazane w innej strefie”. Proszę poprawić ustawienie strefy czasowej dla moich spotkań.
+Moja poczta pokazuje spotkania w złej strefie czasowej. Pomożecie ustawić właściwą?
+
+help_desk-088
+Nie widzę własnego kalendarza w moim programie pocztowym.
+W aplikacji mam pocztę, lecz zniknął widok mojego kalendarza. Inne osoby korzystają ze swoich kalendarzy. Proszę pomóc przywrócić mój w programie.
+Proszę przywrócić widoczność mojego kalendarza w kliencie poczty. Rozliczenie delegacji już zakończono. Kalendarza nadal nie mogę znaleźć na swoim stanowisku.
+Kolega sprawdził aplikację i powiedział: „Twojego kalendarza nie ma na liście”. Proszę pomóc pokazać go w moim programie pocztowym.
+Zniknął mi własny kalendarz z programu do maili. Pomożecie go przywrócić?
+
+help_desk-091
+Mój klient poczty nie otwiera zwykłych, legalnych załączników.
+Otrzymałam znane dokumenty od współpracownika, ale lokalny program pocztowy nie pozwala ich otworzyć. Te same pliki działają na innym stanowisku. Proszę naprawić obsługę załączników u mnie.
+Zaświadczenie o zatrudnieniu zostało już wystawione. Proszę pomóc z moim klientem pocztowym, który nie otwiera legalnych załączników ze znaną dokumentacją.
+Mój program pokazuje „Nie można otworzyć załącznika” przy zwykłym pliku od współpracownika. Plik sprawdzono na innym komputerze. Proszę naprawić lokalną obsługę załączników.
+Moja poczta nie otwiera normalnych załączników od kolegów, u innych te pliki działają. Sprawdzicie mój program?
+
+help_desk-094
+Proszę naprawić lokalny profil mojego programu pocztowego.
+Aplikacja na moim komputerze zgłasza problem z profilem i nie ładuje prawidłowo ustawień konta. Potrzebuję naprawy tego lokalnego profilu poczty.
+Proszę pomóc z uszkodzonym profilem klienta poczty na moim stanowisku. Brakującą część wynagrodzenia już wypłacono. Ta sprawa dotyczy ustawień aplikacji.
+Przy uruchamianiu poczty widzę: „Nie można załadować profilu”. Proszę naprawić lokalny profil mojego programu pocztowego.
+Profil w moim programie pocztowym się rozsypał. Pomożecie go naprawić na komputerze?
+
+help_desk-095
+Błędne reguły w mojej skrzynce przenoszą wiadomości do niewłaściwych folderów.
+Moja poczta automatycznie odkłada część wiadomości nie tam, gdzie powinna. Chcę poprawić reguły przypisane do własnej skrzynki. Proszę pomóc sprawdzić ich ustawienia.
+Korekta daty na dokumencie została wykonana. Potrzebuję naprawy reguł w mojej poczcie, które błędnie kierują wiadomości do folderów.
+W ustawieniach mojej reguły widzę „Przenieś do archiwum”, choć te wiadomości mają zostać w odbiorczej. Proszę poprawić reguły kierowania moją pocztą.
+Moje reguły poczty wrzucają maile do złych folderów. Pomożecie poustawiać je poprawnie?
+
+help_desk-096
+Proszę pomóc dodać zatwierdzoną skrzynkę do mojej aplikacji pocztowej.
+Mam zgodę na korzystanie z dodatkowej skrzynki i potrzebne dane dostępowe. Nie wiem, jak dołączyć ją w programie na swoim komputerze. Proszę o pomoc w konfiguracji.
+Potrzebuję dodania zatwierdzonej skrzynki do mojego klienta poczty. Zapis czasu pracy już poprawiono. Zgoda na dostęp jest udzielona, pozostała lokalna konfiguracja.
+Przełożony potwierdził: „Masz zatwierdzony dostęp do tej skrzynki”. Proszę pomóc dodać ją do programu pocztowego na moim stanowisku.
+Dostęp do skrzynki zatwierdzony, tylko nie umiem dodać jej w aplikacji. Pomożecie na moim komputerze?
+
+help_desk-097
+Na moim komputerze nie działają powiadomienia o nowych wiadomościach pocztowych.
+Maile docierają i widzę je po otwarciu programu, ale nie pojawiają się alerty. Proszę pomóc przywrócić powiadomienia dla mojego użytkownika.
+Otrzymałem już poprawione rozliczenie pensji. Proszę sprawdzić brak powiadomień o nowych mailach na moim stanowisku, mimo że wiadomości normalnie docierają.
+Koleżanka zapytała: „Dlaczego u ciebie nie wyskakuje powiadomienie o mailu?”. Wiadomości przychodzą. Proszę naprawić alerty w moim programie pocztowym.
+Maile przychodzą, ale żadnych powiadomień u mnie nie ma. Włączycie je z powrotem na moim komputerze?

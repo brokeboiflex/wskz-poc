@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/recognition-program/quoted_history",
+  "family": "human_resources/recognition-program",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nChcemy uruchomić program, w którym pracownicy dziękują sobie za pomoc przy projektach. Nie przewidujemy premii ani rozliczeń finansowych. Potrzebujemy konsultacji zasad wyróżniania, aby program był przejrzysty i nie pomijał osób wykonujących mniej widoczną pracę w zespole.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.25665679201483727,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f3b527524c6eebacfbf732e52285a308e1a586c54ceaff22dc6e5c7cfa74ab45",
+  "response_sha256": "d92ee737a1491ce9b2c5380a7ecfa59032109c908057b296226acd055a8e8b18"
+}

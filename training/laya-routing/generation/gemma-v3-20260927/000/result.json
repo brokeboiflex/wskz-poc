@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 12.824658666999312,
+  "response_sha256": "9eb116d619ee66fa3525e5b82f7d113fec845f1a9777607bf814b617ba279cae",
+  "request_sha256": "614b2257a44dc70f07bcad10da04232003625c49b6d04ab6d7844abfc8ce6c5f",
+  "messages": [
+    {
+      "style": "short",
+      "message": "Proszę o pomoc w organizacji rozmowy z kandydatem niesłyszącym, potrzebujemy tłumacza migowego."
+    },
+    {
+      "style": "context",
+      "message": "Potrzebujemy organizacji rozmowy z kandydatem, który nie słyszy, dlatego konieczne jest zapewnienie tłumacza migowego. To zapewni, że komunikacja przebiegnie efektywnie. Proszę o pomoc w tym zakresie."
+    },
+    {
+      "style": "resolved_history",
+      "message": "Wcześniej ustaliliśmy kwestię dostosowania materiałów do potrzeb kandydatów. Obecnie musimy zorganizować rozmowę z kandydatem niesłyszącym, dlatego potrzebujemy tłumacza migowego."
+    },
+    {
+      "style": "quotation",
+      "message": "„Organizacja rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego.” Potrzebujemy zorganizować rozmowę z kandydatem niesłyszącym, dlatego wymagany jest tłumacz migowy."
+    },
+    {
+      "style": "informal",
+      "message": "Musimy zorganizować rozmowę z tym kandydatem. Potrzebujemy tłumacza migowego do komunikacji."
+    }
+  ]
+}

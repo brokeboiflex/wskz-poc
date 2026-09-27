@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/touchpad/base",
+  "family": "help_desk/touchpad",
+  "message": "Gładzik w moim służbowym laptopie przestał reagować po ponownym uruchomieniu. Podłączona mysz działa, ale często pracuję poza biurkiem i potrzebuję przywrócenia gładzika. Proszę o sprawdzenie ustawień oraz sterownika tego urządzenia na moim komputerze.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.1974044579837937,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7e110ca0f70a281cb91827c7d2257581e1411128db423ead87e0ff71e8aeb9bc",
+  "response_sha256": "706ca587ca447f7d346abedaa47ef21ce7243bb48db7c8f8e810d712c5ee0105"
+}

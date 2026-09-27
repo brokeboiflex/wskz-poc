@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/keyboard/base",
+  "family": "help_desk/keyboard",
+  "message": "W mojej klawiaturze przestały działać niektóre klawisze. Problem występuje w różnych programach, również po ponownym uruchomieniu komputera. Podłączona na próbę inna klawiatura działa poprawnie. Proszę o pomoc w wymianie uszkodzonego urządzenia, abym mogła normalnie przygotowywać dokumenty.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19476054201368243,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "56e2482ab8bcb7da49d9b8d00ea12d1e4d2e788eb42e9b5c553d3b983cc9a3b1",
+  "response_sha256": "894af31bc7e9bc325956add6b46b1238cced00d7d01179b104821f314131504e"
+}

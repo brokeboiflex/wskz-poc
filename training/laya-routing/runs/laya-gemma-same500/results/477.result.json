@@ -1,0 +1,13 @@
+{
+  "id": "other/empty-forward/conversation_history",
+  "family": "other/empty-forward",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPrzesyłam poniżej korespondencję do sprawdzenia. Proszę o zajęcie się opisaną tam sprawą i informację zwrotną.\n\n--- Początek przekazanej wiadomości ---\n[treść wiadomości nie została dołączona]\n--- Koniec przekazanej wiadomości ---\n\nNie mam obecnie żadnych dodatkowych szczegółów ani identyfikatora, który pozwalałby odszukać ten wątek.",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.27370304201031104,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "03c0b7f38a9616224dbe8add92a686a08dcb20b388dda81294ef0467674d59a7",
+  "response_sha256": "411c3cd5303f68f5536f80e32149df4c08e0e8cb85bade9dd6ef780f08fa24ae"
+}

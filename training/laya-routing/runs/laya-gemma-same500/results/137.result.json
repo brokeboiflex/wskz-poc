@@ -1,0 +1,13 @@
+{
+  "id": "payroll/payslip-deduction/conversation_history",
+  "family": "payroll/payslip-deduction",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nNa ostatnim pasku wynagrodzenia pojawiła się pozycja potrącenia, której wcześniej nie było. Opis jest skrótowy i nie potrafię ustalić, czego dotyczy. Proszę o wyjaśnienie podstawy naliczenia tej kwoty oraz wskazanie okresu, za który została pobrana z mojej pensji.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.24262358402484097,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ff111a536785c970a7734dc93f14967424b38e61b413332ce5179beb02999c33",
+  "response_sha256": "e4915b388902d2f642dbd3dbba223546d643931d1f11b610453907a7e79c2e52"
+}

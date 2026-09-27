@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/survey-followup/base",
+  "family": "human_resources/survey-followup",
+  "message": "W wynikach ankiety pracowniczej często pojawia się brak informacji o decyzjach zarządu. Chciałabym zorganizować rozmowę z zespołem i przełożyć te uwagi na konkretne działania. Proszę o wsparcie osoby, która pomoże omówić wyniki bez szukania autorów poszczególnych odpowiedzi.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19118774999515153,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0e40df23c7cf75319f70d232d2e312cf23b861e95e18d03adb9933dc9123d865",
+  "response_sha256": "8875e24e90efa947b19d0851ea491c3b6a8ab26f34627987b0bfd8850e40ba95"
+}

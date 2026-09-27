@@ -1,0 +1,13 @@
+{
+  "id": "it/backup-failure/base",
+  "family": "it/backup-failure",
+  "message": "Od trzech nocy centralny system nie wykonuje kopii serwerów produkcyjnych. Raporty pokazują błąd połączenia z repozytorium backupu, a ostatnia poprawna kopia jest coraz starsza. Proszę o pilne przywrócenie działania harmonogramu i sprawdzenie możliwości odtworzenia chronionych danych.\n\nPierwszy nieudany przebieg został uznany za pojedynczy błąd, ale teraz identyczny komunikat pojawia się dla kolejnych maszyn. Harmonogram uruchamia zadania, po czym każde kończy się przed rozpoczęciem zapisu. Repozytorium jest widoczne w konsoli, natomiast test połączenia z serwera wykonującego kopie nie przechodzi.\n\nNie zmienialiśmy ręcznie retencji i nie usuwaliśmy starych punktów odtworzenia. Zależy nam na odzyskaniu regularnych kopii oraz sprawdzeniu, czy ostatni oznaczony jako poprawny przebieg rzeczywiście pozwala odtworzyć dane. Sama zielona informacja przy harmonogramie nie będzie wystarczająca. Proszę skoordynować diagnostykę z osobą odpowiedzialną za serwery i podać, które usługi wymagają dodatkowego zabezpieczenia do czasu naprawy.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.3352662500110455,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b904fa83671aaf77f005b45756c313dc98348175e82f4f8ec7b1427ffc90362e",
+  "response_sha256": "98c7a0fc8006cb74a6e91ed9634c319621f1cd52b3250cadceb31818eacc96c5"
+}

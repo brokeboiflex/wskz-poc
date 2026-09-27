@@ -1,0 +1,13 @@
+{
+  "id": "payroll/tax-data-correction/resolved_postscript",
+  "family": "payroll/tax-data-correction",
+  "message": "W rocznej informacji o dochodach zauważyłam literówkę w nazwisku i nieaktualny adres. Wcześniej zgłaszałam zmianę danych pracodawcy. Proszę o weryfikację zapisów oraz wskazanie, jak otrzymać poprawiony dokument. Nie potrzebuję porady podatkowej, tylko korekty danych w wystawionej informacji.\n\nPS. Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.24721362499985844,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7e648bf961e8184e62ef35d330adc52fbfeae70b916ca0b00416febf8b5af0f0",
+  "response_sha256": "fb884257b449e5cbbf5ab115fb73e2c2916308376cf5fe1963f87ec1128ed797"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/ups/resolved_postscript",
+  "family": "it/ups",
+  "message": "System zasilania awaryjnego w serwerowni zgłasza uszkodzoną baterię i brak gotowości do podtrzymania pracy hostów. Usługi nadal działają z podstawowego zasilania. Proszę o pilne sprawdzenie infrastruktury i zaplanowanie działań chroniących serwery przed niekontrolowanym wyłączeniem.\n\nPS. Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.22743491700384766,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3220b823c24e0d16015ff8159724cb8690b15425177bf31ba53760785815a3b5",
+  "response_sha256": "648b71ac4c622495eaef8a49c687d88fa1e9c1a9ade659cc5aa5015e4c0930fc"
+}

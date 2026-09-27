@@ -1,0 +1,28 @@
+{
+  "optimizer_steps": 2,
+  "microbatches": 32,
+  "trained_weights_saved": true,
+  "checkpoint_probe": {
+    "passed": true,
+    "checkpoint_sha256": "e9b88df29a3352422dacf95df0ed0ca443e1f247fe574c092cfa82ee05385195",
+    "export_sha256": "5f8d1b0bce9240dc80ab9528772ff6de1be664741e683cd5cdc1a14914043025",
+    "checkpoint_bytes": 3861535435,
+    "export_bytes": 1287653720,
+    "save_seconds": 5.4533703360000345,
+    "tensor_exact_reload": true,
+    "export_tensor_parity": true,
+    "live_api_parity": false,
+    "quality_evaluation": false
+  },
+  "production_changed": false,
+  "checkpoint_tensor_bytes": 3861321396,
+  "atomic_checkpoint_plus_best_plus_reserve_bytes": 13305246080,
+  "disk_free_bytes": 111701286912,
+  "disk_gate_passed": true,
+  "four_epoch_train_seconds_estimate": 7884.956701250076,
+  "estimate_excludes_validation_and_checkpoint_io": true,
+  "estimate_only_covers_preflight_sequence_lengths": true,
+  "peak_rss_bytes": 8952123392,
+  "script_sha256": "df49360476693412810e5827bbcc611a359aed70cd7e93be07c95d73d99aa811",
+  "optimizer_sha256": "0731178ececf0da3b1bb4cd8a2d96e73fbc07c0b7ff8edab4394166f7a371c5d"
+}

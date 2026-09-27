@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/training-accessibility/base",
+  "family": "human_resources/training-accessibility",
+  "message": "W przyszłym miesiącu biorę udział w szkoleniu wdrożeniowym. Ze względu na słaby wzrok potrzebuję materiałów w dostępnej wersji tekstowej oraz większej czcionki w ćwiczeniach. Proszę uzgodnić to z organizatorem zajęć przed spotkaniem, abym mogła pracować samodzielnie z pozostałymi uczestnikami.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.21454562500002794,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9ea895d2ecbc2679402350982fb6110ed2f35bed1733b36a34c528ee92e4c8ca",
+  "response_sha256": "e834c05cdf055e1cc07f1190477177f6093b6f3e3a45648e58df5ee43b635d87"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/promotion-criteria/base",
+  "family": "human_resources/promotion-criteria",
+  "message": "Chciałbym dowiedzieć się, jakie kompetencje i osiągnięcia są wymagane, aby ubiegać się o rolę starszego specjalisty. Rozmowa z przełożonym była bardzo ogólna. Proszę o wyjaśnienie procesu oceny gotowości do awansu i przykładów działań, które mogę zaplanować w najbliższym kwartale.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19658991700271145,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "be4cde8a44052f30cd6a94122c73768e7719f2ec06c2e253653ea70973d13688",
+  "response_sha256": "80b5c661a881d27333edf31637417baa278ed6804e192de380a2be8e1f4cfb84"
+}

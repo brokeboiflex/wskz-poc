@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/mentoring/resolved_preface",
+  "family": "human_resources/mentoring",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n\nOsobna, aktualna wiadomość:\nPo zmianie zakresu obowiązków potrzebuję wsparcia bardziej doświadczonej osoby w planowaniu pracy analitycznej. Nie chodzi o bieżące wykonanie konkretnego zadania. Czy działa u nas program mentoringowy i można pomóc mi znaleźć mentora, z którym ustalę regularne spotkania rozwojowe?\n\nMam już listę tematów, nad którymi chcę pracować: określanie zakresu analizy, prezentowanie wniosków i rozmowa z odbiorcą raportu. Najlepiej pasowałyby spotkania raz na dwa tygodnie. Mogę przygotowywać materiały przed rozmową i dokumentować ustalone działania.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.26954358399962075,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "acd14d3455a7259896e791e23867ef0421c39f2d58a4125ac34fb88eaba3ef09",
+  "response_sha256": "99c07e6ba4fa35179fcbc16d8d21fb007358f2a451c57ee371a58c1e15d4b321"
+}

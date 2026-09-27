@@ -1,0 +1,1091 @@
+{
+  "passed": true,
+  "complete_corpus_required": false,
+  "records": 3000,
+  "families": 600,
+  "semantic_groups": 60,
+  "counts": {
+    "test/help_desk": 100,
+    "test/human_resources": 100,
+    "test/it": 100,
+    "test/other": 100,
+    "test/payroll": 100,
+    "train/help_desk": 400,
+    "train/human_resources": 400,
+    "train/it": 400,
+    "train/other": 400,
+    "train/payroll": 400,
+    "validation/help_desk": 100,
+    "validation/human_resources": 100,
+    "validation/it": 100,
+    "validation/other": 100,
+    "validation/payroll": 100
+  },
+  "errors": [],
+  "semantic_review_required": true,
+  "limitation": "Lexical screening cannot prove absence of paraphrase or semantic leakage.",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "evidence": [
+    {
+      "source": "source/authored/00-recruitment.txt",
+      "sha256": "d107ac4a21a9cb1c3f3e92ecfb346d60c73d1624688b4b464c83f86c6a0a6801",
+      "families": [
+        "human_resources-001",
+        "human_resources-002",
+        "human_resources-005",
+        "human_resources-006",
+        "human_resources-007",
+        "human_resources-008",
+        "human_resources-009",
+        "human_resources-010",
+        "human_resources-012",
+        "human_resources-015"
+      ],
+      "review": "source/authored-reviews/00-recruitment.json",
+      "review_sha256": "57924693abbae6dfb6fb33f1a0eb7d13331fa20cb161147a2e9469f8315b4af7"
+    },
+    {
+      "source": "source/authored/01-conflict.txt",
+      "sha256": "fae9e44a22956c177257b7f4c848256840383fafd0c918fc319ac6573ed802e1",
+      "families": [
+        "human_resources-016",
+        "human_resources-018",
+        "human_resources-019",
+        "human_resources-021",
+        "human_resources-022",
+        "human_resources-023",
+        "human_resources-024",
+        "human_resources-026",
+        "human_resources-030",
+        "human_resources-032"
+      ],
+      "review": "source/authored-reviews/01-conflict.json",
+      "review_sha256": "615be883668413e7c4a86a64c5e3473fa5d5ce30fe50c313bf9b4f888c707f61"
+    },
+    {
+      "source": "source/authored/02-equal-treatment.txt",
+      "sha256": "1ffce3c784b5743ecae143ad4607def41978543e03410b4b5aab5b115c1fe370",
+      "families": [
+        "human_resources-033",
+        "human_resources-034",
+        "human_resources-036",
+        "human_resources-037",
+        "human_resources-038",
+        "human_resources-039",
+        "human_resources-040",
+        "human_resources-041",
+        "human_resources-042",
+        "human_resources-044"
+      ],
+      "review": "source/authored-reviews/02-equal-treatment.json",
+      "review_sha256": "c9e69ea28ad1202ff7876970fd75a74e253cacfc68381bab039f47dd677fc691"
+    },
+    {
+      "source": "source/authored/03-development.txt",
+      "sha256": "b080aa5a50c0c5ae9043ee39532c9810f1124228f7ad656054a3db99a7fab0cd",
+      "families": [
+        "human_resources-045",
+        "human_resources-046",
+        "human_resources-047",
+        "human_resources-048",
+        "human_resources-049",
+        "human_resources-050",
+        "human_resources-051",
+        "human_resources-052",
+        "human_resources-055",
+        "human_resources-056"
+      ],
+      "review": "source/authored-reviews/03-development.json",
+      "review_sha256": "4ae83ee59a52d12a1609573c88cb58a8c3c6558dee075538142f9130e038fc91"
+    },
+    {
+      "source": "source/authored/04-communication-training.txt",
+      "sha256": "33291582a671b9558c4e95ae99d1e43deabaf2dd7dfa2f9ea980dd78c870fbea",
+      "families": [
+        "human_resources-058",
+        "human_resources-059",
+        "human_resources-060",
+        "human_resources-061",
+        "human_resources-062",
+        "human_resources-063",
+        "human_resources-065",
+        "human_resources-066",
+        "human_resources-067",
+        "human_resources-068"
+      ],
+      "review": "source/authored-reviews/04-communication-training.json",
+      "review_sha256": "cb9ecf2e67b47a8cb91a30b3fdffae052285bd7a8f9b552cb2b250a76670a8c8"
+    },
+    {
+      "source": "source/authored/05-professional-training.txt",
+      "sha256": "4ecfb71c0fd60ad82d007edcb6510e3de78705bb26f16c7f7142dc2abb30c9ef",
+      "families": [
+        "human_resources-070",
+        "human_resources-072",
+        "human_resources-073",
+        "human_resources-074",
+        "human_resources-076",
+        "human_resources-078",
+        "human_resources-079",
+        "human_resources-080",
+        "human_resources-082",
+        "human_resources-084"
+      ],
+      "review": "source/authored-reviews/05-professional-training.json",
+      "review_sha256": "3719177f9e6be819751915a025b26ecd74ec4c25ddf266b390fd9a55b348e640"
+    },
+    {
+      "source": "source/authored/06-team-learning.txt",
+      "sha256": "c7605be3e19e15a13ba5a88cca746394cc699441a7a4295c3e0594d178c95d9c",
+      "families": [
+        "human_resources-087",
+        "human_resources-088",
+        "human_resources-090",
+        "human_resources-092",
+        "human_resources-093",
+        "human_resources-095",
+        "human_resources-096",
+        "human_resources-097",
+        "human_resources-098",
+        "human_resources-099"
+      ],
+      "review": "source/authored-reviews/06-team-learning.json",
+      "review_sha256": "b21799624941dc188f00d2ab0a3471dcd17c3f46c304d15272787871a5fe0d5d"
+    },
+    {
+      "source": "source/authored/07-relationship-support.txt",
+      "sha256": "c79016be4d4fa64748b4d74d6d44050713c805f856a133fc84d977b0138bd47e",
+      "families": [
+        "human_resources-100",
+        "human_resources-101",
+        "human_resources-103",
+        "human_resources-108",
+        "human_resources-109",
+        "human_resources-110",
+        "human_resources-112",
+        "human_resources-114",
+        "human_resources-118",
+        "human_resources-119"
+      ],
+      "review": "source/authored-reviews/07-relationship-support.json",
+      "review_sha256": "d766b4a7585109b0c745205e551652b2bcc86a650c2a0e2bc577b113bfd709f6"
+    },
+    {
+      "source": "source/authored/08-recruitment-outreach.txt",
+      "sha256": "c2a09ac34072eaf201f0e95319d90620c9b092b258b15f3d2f6e38141b16d95c",
+      "families": [
+        "human_resources-000",
+        "human_resources-020",
+        "human_resources-025",
+        "human_resources-029",
+        "human_resources-043",
+        "human_resources-053",
+        "human_resources-057",
+        "human_resources-064",
+        "human_resources-071",
+        "human_resources-077"
+      ],
+      "review": "source/authored-reviews/08-recruitment-outreach.json",
+      "review_sha256": "02cbbd509d2d019eea4af4c9b3df6304ee493bcb2f662c76973384975889ec5b"
+    },
+    {
+      "source": "source/authored/09-training-administration.txt",
+      "sha256": "eff612218f0c6e14cfa1616e377f815fd391148f0a7b6d780692a53a0b9f2c5a",
+      "families": [
+        "human_resources-083",
+        "human_resources-085",
+        "human_resources-089",
+        "human_resources-091",
+        "human_resources-102",
+        "human_resources-104",
+        "human_resources-105",
+        "human_resources-107",
+        "human_resources-113",
+        "human_resources-115"
+      ],
+      "review": "source/authored-reviews/09-training-administration.json",
+      "review_sha256": "ef105f6817dc6f77a1d6d8cce57d19bf13409b854e51f9fc084587ba115fa28b"
+    },
+    {
+      "source": "source/authored/10-performance-feedback.txt",
+      "sha256": "e6daec0a4c3d6d0ba43a07dc1b12204e546ff998ed7bb4c2cc4d15b614000726",
+      "families": [
+        "human_resources-003",
+        "human_resources-004",
+        "human_resources-011",
+        "human_resources-013",
+        "human_resources-014",
+        "human_resources-017",
+        "human_resources-027",
+        "human_resources-028",
+        "human_resources-031",
+        "human_resources-035"
+      ],
+      "review": "source/authored-reviews/10-performance-feedback.json",
+      "review_sha256": "191f2fd8228dd73dcf0ff226abb845f7588a98fe3f680d1306bf3a96581303c6"
+    },
+    {
+      "source": "source/authored/11-workforce-diagnosis.txt",
+      "sha256": "e62a03a2796e6a17111ace3fd7dba5bcd9a82d4c7247fad59981300a6e9ea783",
+      "families": [
+        "human_resources-054",
+        "human_resources-069",
+        "human_resources-075",
+        "human_resources-081",
+        "human_resources-086",
+        "human_resources-094",
+        "human_resources-106",
+        "human_resources-111",
+        "human_resources-116",
+        "human_resources-117"
+      ],
+      "review": "source/authored-reviews/11-workforce-diagnosis.json",
+      "review_sha256": "20bfd577e20a5e0444294c5e0f6a46b18c4d489630bc847311af024c17ff6c2f"
+    },
+    {
+      "source": "source/authored/12-ordinary-leave.txt",
+      "sha256": "43a868e5607437991b425851e4209ec8e48663fed10582d975e4a67986ef56a3",
+      "families": [
+        "payroll-002",
+        "payroll-003",
+        "payroll-004",
+        "payroll-005",
+        "payroll-007",
+        "payroll-009",
+        "payroll-010",
+        "payroll-012",
+        "payroll-013",
+        "payroll-015"
+      ],
+      "review": "source/authored-reviews/12-ordinary-leave.json",
+      "review_sha256": "cedf9caebc35d017e7a41a7d6d0781b39bdb0f6a31c719f43748db8d140f3cf2"
+    },
+    {
+      "source": "source/authored/13-salary-payments.txt",
+      "sha256": "ceaaa6c19961ed4da4f4caa47e015c1cd64b62cc8a3cd3615c22322895c71ef5",
+      "families": [
+        "payroll-016",
+        "payroll-018",
+        "payroll-021",
+        "payroll-022",
+        "payroll-023",
+        "payroll-024",
+        "payroll-025",
+        "payroll-026",
+        "payroll-027",
+        "payroll-028"
+      ],
+      "review": "source/authored-reviews/13-salary-payments.json",
+      "review_sha256": "a82bdafe501a2f093ebbd3ed87804d1305fd037eecd7f2c7b170edf272d44a5b"
+    },
+    {
+      "source": "source/authored/14-time-records.txt",
+      "sha256": "8008025de880e9f315a9bf4a7c81b08307450d6e5d206eaa42f806174b8f07fb",
+      "families": [
+        "payroll-029",
+        "payroll-030",
+        "payroll-031",
+        "payroll-035",
+        "payroll-036",
+        "payroll-038",
+        "payroll-039",
+        "payroll-040",
+        "payroll-041",
+        "payroll-042"
+      ],
+      "review": "source/authored-reviews/14-time-records.json",
+      "review_sha256": "4be43511b49bd5505dc2e62d2de4d43f005a8f166414354c6802216f83c61c50"
+    },
+    {
+      "source": "source/authored/15-personal-records.txt",
+      "sha256": "c9fd1accac0c4d45f40ca79ed25bb0a1d5184c06d4945be9097b26e2193f0255",
+      "families": [
+        "payroll-044",
+        "payroll-045",
+        "payroll-046",
+        "payroll-047",
+        "payroll-050",
+        "payroll-051",
+        "payroll-052",
+        "payroll-053",
+        "payroll-056",
+        "payroll-057"
+      ],
+      "review": "source/authored-reviews/15-personal-records.json",
+      "review_sha256": "5c62e10e68c21a396f4d318e8b3187cf97a5a0cc92b6b9f9a774792d23cd8fb3"
+    },
+    {
+      "source": "source/authored/16-contract-changes.txt",
+      "sha256": "e367f9660639cdbfee595981990c058bf52e7302f0dc919e1217d70322ecc70c",
+      "families": [
+        "payroll-060",
+        "payroll-061",
+        "payroll-062",
+        "payroll-066",
+        "payroll-069",
+        "payroll-071",
+        "payroll-072",
+        "payroll-073",
+        "payroll-074",
+        "payroll-075"
+      ],
+      "review": "source/authored-reviews/16-contract-changes.json",
+      "review_sha256": "5bab1d258eeb79646fad67b19d9b38f1cd6a03704de7224a09b0f22218f0fa56"
+    },
+    {
+      "source": "source/authored/17-sickness-absence.txt",
+      "sha256": "e97d17e757a7fb3d0021db3727aa9cbf1247df58ea91bb71d4dd41e6d3b7d374",
+      "families": [
+        "payroll-077",
+        "payroll-078",
+        "payroll-079",
+        "payroll-081",
+        "payroll-083",
+        "payroll-084",
+        "payroll-085",
+        "payroll-086",
+        "payroll-088",
+        "payroll-089"
+      ],
+      "review": "source/authored-reviews/17-sickness-absence.json",
+      "review_sha256": "5fa3e0b17fcafcfa2a52038a66b5712ef110f57ce194864074d6a25c706f92a1"
+    },
+    {
+      "source": "source/authored/18-payroll-components.txt",
+      "sha256": "028f305e56fbd47b596fe14133f8b7800d5cd783caf0b0511edb98c063409ab9",
+      "families": [
+        "payroll-090",
+        "payroll-091",
+        "payroll-094",
+        "payroll-097",
+        "payroll-098",
+        "payroll-099",
+        "payroll-100",
+        "payroll-102",
+        "payroll-103",
+        "payroll-104"
+      ],
+      "review": "source/authored-reviews/18-payroll-components.json",
+      "review_sha256": "5c48c9d7673d5e5b1af5caeba8d2a74a8d038f4204aa0be7d50b602aed023d55"
+    },
+    {
+      "source": "source/authored/19-tax-documents.txt",
+      "sha256": "78d64bbc8b86ce15a422c484fedd8dace044b9a25f9a6c23f3310895bd175989",
+      "families": [
+        "payroll-106",
+        "payroll-108",
+        "payroll-111",
+        "payroll-113",
+        "payroll-114",
+        "payroll-115",
+        "payroll-116",
+        "payroll-117",
+        "payroll-118",
+        "payroll-119"
+      ],
+      "review": "source/authored-reviews/19-tax-documents.json",
+      "review_sha256": "845325680ce4ffb617e867059e5e5081d643857e624a01d886e72b5f9daca90f"
+    },
+    {
+      "source": "source/authored/20-family-leave.txt",
+      "sha256": "e0834ab85b2be5cdae349e3c465b8a837b191b0a7a592d493a79a4fbae8cdbe1",
+      "families": [
+        "payroll-000",
+        "payroll-001",
+        "payroll-032",
+        "payroll-033",
+        "payroll-034",
+        "payroll-037",
+        "payroll-043",
+        "payroll-055",
+        "payroll-058",
+        "payroll-064"
+      ],
+      "review": "source/authored-reviews/20-family-leave.json",
+      "review_sha256": "7924b7660b0d4100362484c3990525234e699afeec11d134a02f236b70eb6085"
+    },
+    {
+      "source": "source/authored/21-overtime.txt",
+      "sha256": "680e5cb770fb7e5ef43e4dbc0b22aad1fdce392a5b25bf60a6ff8f09b9cb66bf",
+      "families": [
+        "payroll-067",
+        "payroll-068",
+        "payroll-070",
+        "payroll-082",
+        "payroll-092",
+        "payroll-093",
+        "payroll-095",
+        "payroll-107",
+        "payroll-109",
+        "payroll-112"
+      ],
+      "review": "source/authored-reviews/21-overtime.json",
+      "review_sha256": "2e8f0c0af952762628921975747b2300021551abd01b353955c4cc4a5764f9eb"
+    },
+    {
+      "source": "source/authored/22-separation-documents.txt",
+      "sha256": "d490c23175791e529a1cea97440ba0557b9ca8d2ddccbf4de86586edcd5a1ec0",
+      "families": [
+        "payroll-006",
+        "payroll-008",
+        "payroll-011",
+        "payroll-014",
+        "payroll-017",
+        "payroll-019",
+        "payroll-020",
+        "payroll-048",
+        "payroll-049",
+        "payroll-054"
+      ],
+      "review": "source/authored-reviews/22-separation-documents.json",
+      "review_sha256": "29411588d93266925460576d41a4f8b17d74f7d4864dd55140be25190a7d68d2"
+    },
+    {
+      "source": "source/authored/23-insurance-records.txt",
+      "sha256": "12c15c48c2acdd3844b7f2592567c67d71ba7953f287f2bb59c0eff00f1f1b4d",
+      "families": [
+        "payroll-059",
+        "payroll-063",
+        "payroll-065",
+        "payroll-076",
+        "payroll-080",
+        "payroll-087",
+        "payroll-096",
+        "payroll-101",
+        "payroll-105",
+        "payroll-110"
+      ],
+      "review": "source/authored-reviews/23-insurance-records.json",
+      "review_sha256": "97f94904670ff3eddaf073a60e8331118cab35ab07d5dda9afe852324fdc3c70"
+    },
+    {
+      "source": "source/authored/24-workstation-sessions.txt",
+      "sha256": "9868038ab8b297a3035868cef33e5d7a37e3c439f6f4ed4044dfabe21787f44d",
+      "families": [
+        "help_desk-000",
+        "help_desk-001",
+        "help_desk-002",
+        "help_desk-003",
+        "help_desk-004",
+        "help_desk-005",
+        "help_desk-008",
+        "help_desk-009",
+        "help_desk-010",
+        "help_desk-011"
+      ],
+      "review": "source/authored-reviews/24-workstation-sessions.json",
+      "review_sha256": "9ea2881bb9a137530c2bed660fa075369aadaec25a15644a36ee55319544336f"
+    },
+    {
+      "source": "source/authored/25-peripherals-audio.txt",
+      "sha256": "95d053530c0f4227158c40ad283b621c4472ad5d8492a4bf2f72929f8e11b013",
+      "families": [
+        "help_desk-014",
+        "help_desk-015",
+        "help_desk-016",
+        "help_desk-018",
+        "help_desk-019",
+        "help_desk-020",
+        "help_desk-021",
+        "help_desk-022",
+        "help_desk-025",
+        "help_desk-026"
+      ],
+      "review": "source/authored-reviews/25-peripherals-audio.json",
+      "review_sha256": "c803726e56bc19727cf57a58cf7b52691b9c2d237c8fa2a3d371de83f4425991"
+    },
+    {
+      "source": "source/authored/26-individual-printing.txt",
+      "sha256": "9c7c1f7ac02ab5939a202b6097b1d20c07f70c2740c43273ad085f4701383414",
+      "families": [
+        "help_desk-027",
+        "help_desk-028",
+        "help_desk-029",
+        "help_desk-030",
+        "help_desk-032",
+        "help_desk-033",
+        "help_desk-034",
+        "help_desk-036",
+        "help_desk-037",
+        "help_desk-038"
+      ],
+      "review": "source/authored-reviews/26-individual-printing.json",
+      "review_sha256": "309586e76f04f41e451bfc880f7a163c701e8fce3ea76d5b49c110a73ebaea95"
+    },
+    {
+      "source": "source/authored/27-ordinary-login.txt",
+      "sha256": "f7afa54691f8a99c8e574fbd9729f03d711f2f5886be14f6532fffcb12ae4cc7",
+      "families": [
+        "help_desk-039",
+        "help_desk-040",
+        "help_desk-041",
+        "help_desk-042",
+        "help_desk-044",
+        "help_desk-046",
+        "help_desk-047",
+        "help_desk-048",
+        "help_desk-049",
+        "help_desk-050"
+      ],
+      "review": "source/authored-reviews/27-ordinary-login.json",
+      "review_sha256": "21bed11c6d4f0fbd1011b55633653e931e984b8405171634399ddc535e5ea8ec"
+    },
+    {
+      "source": "source/authored/28-local-connectivity.txt",
+      "sha256": "446eca89ab2291551ac7c97cd5f1fa1901f37cbd055ee288ee33686b98e5212f",
+      "families": [
+        "help_desk-053",
+        "help_desk-056",
+        "help_desk-058",
+        "help_desk-061",
+        "help_desk-062",
+        "help_desk-063",
+        "help_desk-064",
+        "help_desk-065",
+        "help_desk-066",
+        "help_desk-067"
+      ],
+      "review": "source/authored-reviews/28-local-connectivity.json",
+      "review_sha256": "4dff32576ea37727f3fff3d28a00899066cd9b99f6c4441adaa20ebb1220c0ca"
+    },
+    {
+      "source": "source/authored/29-desktop-applications.txt",
+      "sha256": "c203b9594a61ae7e3275b53765f956db6d7d4d5647b4a37676b8e89274f8207a",
+      "families": [
+        "help_desk-069",
+        "help_desk-070",
+        "help_desk-071",
+        "help_desk-072",
+        "help_desk-074",
+        "help_desk-075",
+        "help_desk-076",
+        "help_desk-077",
+        "help_desk-078",
+        "help_desk-079"
+      ],
+      "review": "source/authored-reviews/29-desktop-applications.json",
+      "review_sha256": "01c1b0925fddeae13bbe49790f8140f33b41b85527307aa1b4f149698ab4e58b"
+    },
+    {
+      "source": "source/authored/30-mail-client.txt",
+      "sha256": "6f356bf555d6a199b546ce96a8afb49eb3e6cf469a7413424313f0b1e5433724",
+      "families": [
+        "help_desk-080",
+        "help_desk-081",
+        "help_desk-085",
+        "help_desk-087",
+        "help_desk-088",
+        "help_desk-091",
+        "help_desk-094",
+        "help_desk-095",
+        "help_desk-096",
+        "help_desk-097"
+      ],
+      "review": "source/authored-reviews/30-mail-client.json",
+      "review_sha256": "8639f4fcfc72cd21889b13fc17c26d0be96b190b3a725d576200d2e74f971130"
+    },
+    {
+      "source": "source/authored/31-local-files.txt",
+      "sha256": "b4ca6d07d156cefa07917e2bf74a446d9220b87178428f290dc0e571d0fb5113",
+      "families": [
+        "help_desk-098",
+        "help_desk-099",
+        "help_desk-102",
+        "help_desk-104",
+        "help_desk-105",
+        "help_desk-106",
+        "help_desk-113",
+        "help_desk-116",
+        "help_desk-118",
+        "help_desk-119"
+      ],
+      "review": "source/authored-reviews/31-local-files.json",
+      "review_sha256": "cf93886bd4002d290008b4f2cea3ab9380b292fa84507b4427f757c3d512f183"
+    },
+    {
+      "source": "source/authored/32-mobile-devices.txt",
+      "sha256": "e6d8ad533af90b4d642a6155754e2a1847b9ce0b8c282089ebb12f75721fcdad",
+      "families": [
+        "help_desk-006",
+        "help_desk-007",
+        "help_desk-013",
+        "help_desk-017",
+        "help_desk-023",
+        "help_desk-035",
+        "help_desk-043",
+        "help_desk-051",
+        "help_desk-057",
+        "help_desk-068"
+      ],
+      "review": "source/authored-reviews/32-mobile-devices.json",
+      "review_sha256": "7a78fcdaab00a3cca1ced3e2e486ff13b23f28448f3a75a45b87c67f80719947"
+    },
+    {
+      "source": "source/authored/33-hardware-maintenance.txt",
+      "sha256": "f7c8b381e7ce0b8c6a30e22c1cf847535c52a094660d52d6b6ef9f2388b70965",
+      "families": [
+        "help_desk-082",
+        "help_desk-083",
+        "help_desk-086",
+        "help_desk-089",
+        "help_desk-090",
+        "help_desk-101",
+        "help_desk-107",
+        "help_desk-109",
+        "help_desk-111",
+        "help_desk-114"
+      ],
+      "review": "source/authored-reviews/33-hardware-maintenance.json",
+      "review_sha256": "273b770330bb5d41a55117a7f5eb9fa61b5ddd19293a511c5544141de47ab7a6"
+    },
+    {
+      "source": "source/authored/34-software-installation.txt",
+      "sha256": "1a31b54c9dc84724e234ccca58aa4a6cc3676f0a173bc7781fc629526d27fb76",
+      "families": [
+        "help_desk-012",
+        "help_desk-024",
+        "help_desk-031",
+        "help_desk-045",
+        "help_desk-052",
+        "help_desk-054",
+        "help_desk-055",
+        "help_desk-059",
+        "help_desk-060",
+        "help_desk-073"
+      ],
+      "review": "source/authored-reviews/34-software-installation.json",
+      "review_sha256": "48a56a3bc8fcdcbd4bf894a4080b02d2e705bfb418ea035060139cbf7209ac5c"
+    },
+    {
+      "source": "source/authored/35-browser-accessibility.txt",
+      "sha256": "6d1910c5bd4f3e7e6994728d507860f0dd32cf0532c80f290f60da229c8eb292",
+      "families": [
+        "help_desk-084",
+        "help_desk-092",
+        "help_desk-093",
+        "help_desk-100",
+        "help_desk-103",
+        "help_desk-108",
+        "help_desk-110",
+        "help_desk-112",
+        "help_desk-115",
+        "help_desk-117"
+      ],
+      "review": "source/authored-reviews/35-browser-accessibility.json",
+      "review_sha256": "534c279eb8563b57e548143fa2af2ee3f7147648f890bc783fd93656ae132e19"
+    },
+    {
+      "source": "source/authored/36-shared-compute.txt",
+      "sha256": "c8f3d2079e8387e3e22d4dac0dfaea3a0107765c5b9c64407d49857b6196a822",
+      "families": [
+        "it-000",
+        "it-002",
+        "it-003",
+        "it-004",
+        "it-005",
+        "it-006",
+        "it-007",
+        "it-010",
+        "it-011",
+        "it-015"
+      ],
+      "review": "source/authored-reviews/36-shared-compute.json",
+      "review_sha256": "d38a1ef786be7b9117673f7bf77845c7140f5f7d1147fa889bb27ae87a726586"
+    },
+    {
+      "source": "source/authored/37-organisation-network.txt",
+      "sha256": "feda31b4ccac4572072bd3d985e0df45159628ecdb1f2dc6e11ac28f3c33746f",
+      "families": [
+        "it-018",
+        "it-019",
+        "it-021",
+        "it-022",
+        "it-023",
+        "it-024",
+        "it-025",
+        "it-026",
+        "it-028",
+        "it-029"
+      ],
+      "review": "source/authored-reviews/37-organisation-network.json",
+      "review_sha256": "13eae37ca07720ac5177788457b5e3d695f7eabe51bfa4b560e7ac49b70a3d9b"
+    },
+    {
+      "source": "source/authored/38-dns-certificates.txt",
+      "sha256": "e92d56129752b575f1edafdf56938e42062414406db0e454696b418fcd7fbdc0",
+      "families": [
+        "it-030",
+        "it-032",
+        "it-034",
+        "it-035",
+        "it-037",
+        "it-039",
+        "it-041",
+        "it-042",
+        "it-043",
+        "it-045"
+      ],
+      "review": "source/authored-reviews/38-dns-certificates.json",
+      "review_sha256": "9d1e2fab75d5105461a646829e5cf46e0f42d304e5e792c79ccb1393557a068e"
+    },
+    {
+      "source": "source/authored/39-backup-infrastructure.txt",
+      "sha256": "5f4757e50332f7db406ef6a1b4998ef841e51cc4cddb03ae2070d0da37a0e1b5",
+      "families": [
+        "it-046",
+        "it-048",
+        "it-049",
+        "it-050",
+        "it-051",
+        "it-052",
+        "it-053",
+        "it-054",
+        "it-055",
+        "it-057"
+      ],
+      "review": "source/authored-reviews/39-backup-infrastructure.json",
+      "review_sha256": "b12e6967416a5b5f8d444227b6c2cf81204235030ce80955e584a054b895ac8b"
+    },
+    {
+      "source": "source/authored/40-malware-incidents.txt",
+      "sha256": "b6e8664837de370d78741ad2e57937df9ce0321689796768cbf531f8afd69dc1",
+      "families": [
+        "it-059",
+        "it-060",
+        "it-061",
+        "it-062",
+        "it-063",
+        "it-065",
+        "it-066",
+        "it-071",
+        "it-073",
+        "it-074"
+      ],
+      "review": "source/authored-reviews/40-malware-incidents.json",
+      "review_sha256": "948e43be1811b4336d138c4b250c0b7004eca2e963545294433475d7eabbf448"
+    },
+    {
+      "source": "source/authored/41-account-intrusion.txt",
+      "sha256": "353d7a5f8e607cb1fa385d5d5e021c53e012d25cb03d311e92b8e8ad5e48f925",
+      "families": [
+        "it-075",
+        "it-076",
+        "it-077",
+        "it-080",
+        "it-081",
+        "it-084",
+        "it-086",
+        "it-087",
+        "it-088",
+        "it-089"
+      ],
+      "review": "source/authored-reviews/41-account-intrusion.json",
+      "review_sha256": "a91f54ed0fca94a8cd839c97ec2835e08de72207ed338e0749a16f3c35b9ae09"
+    },
+    {
+      "source": "source/authored/42-data-exposure.txt",
+      "sha256": "8e32c2b04a16215486dc2910a7f2ed9ac7b3d19f84a9a6e988991fcce6fec262",
+      "families": [
+        "it-092",
+        "it-093",
+        "it-094",
+        "it-095",
+        "it-097",
+        "it-098",
+        "it-099",
+        "it-100",
+        "it-101",
+        "it-103"
+      ],
+      "review": "source/authored-reviews/42-data-exposure.json",
+      "review_sha256": "24508053b939af5fbb70fdbdd7b4fc9b0d209ed9cf7e9d57cdabf48880651653"
+    },
+    {
+      "source": "source/authored/43-phishing-abuse.txt",
+      "sha256": "72967fc9a08e626440093c93b0017b45ca395be7f830dc550947af00f57d101c",
+      "families": [
+        "it-104",
+        "it-105",
+        "it-106",
+        "it-107",
+        "it-108",
+        "it-109",
+        "it-110",
+        "it-113",
+        "it-114",
+        "it-117"
+      ],
+      "review": "source/authored-reviews/43-phishing-abuse.json",
+      "review_sha256": "114156b620b830caa9b86dcb3221961fd74ecebff80d617c55cda6a2d09a3693"
+    },
+    {
+      "source": "source/authored/44-datacenter-physical.txt",
+      "sha256": "f8d57d414753485d7804128167ac15364c9f8329e88792ac83641421070f89b4",
+      "families": [
+        "it-008",
+        "it-013",
+        "it-014",
+        "it-017",
+        "it-020",
+        "it-031",
+        "it-036",
+        "it-047",
+        "it-056",
+        "it-067"
+      ],
+      "review": "source/authored-reviews/44-datacenter-physical.json",
+      "review_sha256": "2843e34b69d76d43430f7ee8bd4272c023bbbb826f8d442b2b72cdb72e8470be"
+    },
+    {
+      "source": "source/authored/45-shared-communications.txt",
+      "sha256": "c7af726bfc45512cd5240288cc5c635b917496cbb8aa7e46fedc894eb3a159ee",
+      "families": [
+        "it-069",
+        "it-070",
+        "it-078",
+        "it-083",
+        "it-090",
+        "it-091",
+        "it-102",
+        "it-111",
+        "it-116",
+        "it-118"
+      ],
+      "review": "source/authored-reviews/45-shared-communications.json",
+      "review_sha256": "8e76e9b727f710c4e33f320acea8837f5b86c133a2e06f0296e8dd2b54454f98"
+    },
+    {
+      "source": "source/authored/46-preventive-security.txt",
+      "sha256": "23ea66ef7e8b214d28e88e99db87df3f1199292327fe6cf96ebbc3316d571c5b",
+      "families": [
+        "it-001",
+        "it-009",
+        "it-012",
+        "it-016",
+        "it-027",
+        "it-033",
+        "it-038",
+        "it-040",
+        "it-044",
+        "it-058"
+      ],
+      "review": "source/authored-reviews/46-preventive-security.json",
+      "review_sha256": "f3c63182d53c27ba2160becd520df92d21084e15740f6b2aac7f9734c4424bd3"
+    },
+    {
+      "source": "source/authored/47-shared-storage.txt",
+      "sha256": "6ff5efa1b8f5f6f077c8415a1c74d688ecf29b80bf5e1a626482347724268424",
+      "families": [
+        "it-064",
+        "it-068",
+        "it-072",
+        "it-079",
+        "it-082",
+        "it-085",
+        "it-096",
+        "it-112",
+        "it-115",
+        "it-119"
+      ],
+      "review": "source/authored-reviews/47-shared-storage.json",
+      "review_sha256": "e032f8018323d04b9cc9df2d90dd3615bc96c651ebb62e41d63f56c7960c2efe"
+    },
+    {
+      "source": "source/authored/48-building-facilities.txt",
+      "sha256": "aa112f1d5d928ae311a06c64d3af7040fdb22a4e95dd56705f5befe9aab4ad04",
+      "families": [
+        "other-000",
+        "other-001",
+        "other-002",
+        "other-005",
+        "other-006",
+        "other-007",
+        "other-009",
+        "other-010",
+        "other-011",
+        "other-012"
+      ],
+      "review": "source/authored-reviews/48-building-facilities.json",
+      "review_sha256": "7a135952cf54774bf5e131018c514f350dd234667b50ef04a8f2bda32dc0fe0c"
+    },
+    {
+      "source": "source/authored/49-purchasing-deliveries.txt",
+      "sha256": "11eab102bd76f16248a9865f6d02beac85380731fdc74585d82023b283ea54e9",
+      "families": [
+        "other-015",
+        "other-016",
+        "other-017",
+        "other-018",
+        "other-019",
+        "other-020",
+        "other-021",
+        "other-023",
+        "other-026",
+        "other-027"
+      ],
+      "review": "source/authored-reviews/49-purchasing-deliveries.json",
+      "review_sha256": "737a2ced1e217dd8ddf3ebc2cf81464b4c5891d2c88e23d01176f27deae7c100"
+    },
+    {
+      "source": "source/authored/50-commercial-billing.txt",
+      "sha256": "8c8d24da7d3d74d190df403c6dcbd4e50576d4c57ba22504ad2da4290e044e14",
+      "families": [
+        "other-030",
+        "other-031",
+        "other-032",
+        "other-034",
+        "other-036",
+        "other-037",
+        "other-038",
+        "other-041",
+        "other-043",
+        "other-045"
+      ]
+    },
+    {
+      "source": "source/authored/51-academic.txt",
+      "sha256": "32793201adfb685df3c1ec0f51e5ca6459160e14ebf611777a6d73c569b3f3d8",
+      "families": [
+        "other-046",
+        "other-047",
+        "other-048",
+        "other-049",
+        "other-050",
+        "other-052",
+        "other-053",
+        "other-054",
+        "other-056",
+        "other-057"
+      ]
+    },
+    {
+      "source": "source/authored/52-public-events.txt",
+      "sha256": "31d2268254ac3387663f8ea577ca4a910cd8ef8c61e97935a8f27c05d5b183df",
+      "families": [
+        "other-059",
+        "other-060",
+        "other-061",
+        "other-062",
+        "other-063",
+        "other-064",
+        "other-066",
+        "other-067",
+        "other-069",
+        "other-070"
+      ]
+    },
+    {
+      "source": "source/authored/53-private-leisure.txt",
+      "sha256": "2ba829859a0b4aafa7f58b0769d9abe7066752efdcddaa4506f4cd811f487457",
+      "families": [
+        "other-071",
+        "other-072",
+        "other-073",
+        "other-075",
+        "other-077",
+        "other-078",
+        "other-079",
+        "other-080",
+        "other-081",
+        "other-085"
+      ]
+    },
+    {
+      "source": "source/authored/54-no-action.txt",
+      "sha256": "46a700748244412df6d5f5c49504ecb654fd2080865f7070bca7f9e9b2d1af9e",
+      "families": [
+        "other-087",
+        "other-088",
+        "other-089",
+        "other-091",
+        "other-092",
+        "other-093",
+        "other-094",
+        "other-095",
+        "other-096",
+        "other-097"
+      ]
+    },
+    {
+      "source": "source/authored/55-insufficient-context.txt",
+      "sha256": "6ff79ed9ad1ce138f19fda95e8a82d7e419df37a0cb617b7dddc7cb1470287dc",
+      "families": [
+        "other-100",
+        "other-102",
+        "other-106",
+        "other-107",
+        "other-109",
+        "other-110",
+        "other-112",
+        "other-114",
+        "other-116",
+        "other-118"
+      ]
+    },
+    {
+      "source": "source/authored/56-private-health.txt",
+      "sha256": "fee3d3853e0bb1a9f91887681fce9e3d65dd63e7c3c54c27b8daf0fd07e5ba49",
+      "families": [
+        "other-004",
+        "other-013",
+        "other-014",
+        "other-022",
+        "other-033",
+        "other-040",
+        "other-055",
+        "other-065",
+        "other-068",
+        "other-074"
+      ]
+    },
+    {
+      "source": "source/authored/57-municipal.txt",
+      "sha256": "cdf5116afb852633f82b836f71f4d9bc0eeb2453bb163ec1aae1f5f5f3f5c18a",
+      "families": [
+        "other-076",
+        "other-082",
+        "other-083",
+        "other-086",
+        "other-090",
+        "other-099",
+        "other-108",
+        "other-113",
+        "other-115",
+        "other-117"
+      ]
+    },
+    {
+      "source": "source/authored/58-private-travel.txt",
+      "sha256": "9d50587aa40c6a43ea288e2c6ff3194afd8b773aef3fb504bd09cc628c230311",
+      "families": [
+        "other-003",
+        "other-008",
+        "other-024",
+        "other-025",
+        "other-028",
+        "other-029",
+        "other-035",
+        "other-039",
+        "other-042",
+        "other-044"
+      ]
+    },
+    {
+      "source": "source/authored/59-private-plants-animals.txt",
+      "sha256": "1993f97e93870f6bacfa3e5a96e2008d73e161fe052943d832d9aba8db992138",
+      "families": [
+        "other-051",
+        "other-058",
+        "other-084",
+        "other-098",
+        "other-101",
+        "other-103",
+        "other-104",
+        "other-105",
+        "other-111",
+        "other-119"
+      ]
+    }
+  ],
+  "ready_for_training": false
+}

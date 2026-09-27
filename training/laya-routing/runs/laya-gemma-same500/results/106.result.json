@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-date-change/base",
+  "family": "payroll/leave-date-change",
+  "message": "Mój zaakceptowany urlop obejmuje dni od poniedziałku do środy. Uzgodniłam jednak z kierownikiem przesunięcie go na środę, czwartek i piątek tego samego tygodnia. Proszę o wskazanie sposobu skorygowania wniosku tak, aby liczba wykorzystanych dni pozostała bez zmian.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19263091700850055,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "900bfa1c445a9d7a7f9dd8447028422e3cfa58075898893ff66c12939a7f222b",
+  "response_sha256": "9b8389a647bbe7bc64eb4851f09021acdf39f47e62ad005cecb527d7a181fef6"
+}

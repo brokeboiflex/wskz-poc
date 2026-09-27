@@ -1,0 +1,69 @@
+it-018
+Cały nasz oddział jednocześnie utracił dostęp do sieci firmowej.
+Żadne stanowisko w oddziale nie może połączyć się z zasobami organizacji. Awaria zaczęła się równocześnie. Proszę przywrócić sieć dla całej lokalizacji.
+Proszę zająć się utratą sieci firmowej przez cały oddział. Mój wcześniejszy problem z klawiaturą naprawiono. Obecna awaria dotyczy wszystkich stanowisk lokalizacji.
+Kierownik oddziału zgłosił: „Wszyscy straciliśmy sieć w tej samej chwili”. Proszę sprawdzić wspólne połączenie oddziału z siecią firmową.
+Cały oddział stracił naraz sieć firmową. Potrzebna interwencja dla całej lokalizacji.
+
+it-019
+Wi-Fi w całym budynku nie pozwala pracownikom nawiązać połączenia.
+Żaden użytkownik w siedzibie nie może dołączyć do firmowej sieci bezprzewodowej. Proszę sprawdzić wspólną infrastrukturę Wi-Fi i przywrócić dostęp w budynku.
+Zaświadczenie do wynajmu już odebrałam. Proszę zdiagnozować awarię Wi-Fi, które nie przydziela połączeń pracownikom w całym budynku.
+Recepcja przekazała: „Nikt na żadnym piętrze nie może połączyć się z Wi-Fi”. Proszę przywrócić firmową sieć bezprzewodową w budynku.
+Wi-Fi nie wpuszcza nikogo w całym budynku. Sprawdzicie centralną obsługę sieci?
+
+it-021
+Centralny serwer DHCP przestał przydzielać adresy komputerom wielu działów.
+Stanowiska z różnych zespołów nie otrzymują konfiguracji adresowej. Proszę naprawić wspólny serwer DHCP odpowiedzialny za przydział adresów w organizacji.
+Proszę przywrócić przydzielanie adresów przez centralny DHCP dla wielu działów. Rozliczenie moich godzin już skorygowano. Awaria nadal blokuje komputery w firmie.
+Monitoring DHCP zgłasza: „Brak nowych dzierżaw”. Komputery wielu działów nie dostają adresów. Proszę sprawdzić centralny serwer.
+DHCP przestał rozdawać adresy komputerom z kilku działów. Ogarniecie wspólny serwer?
+
+it-022
+Firmowa brama VPN odrzuca połączenia wszystkich pracowników.
+Żadna z osób pracujących zdalnie nie może wejść przez wspólny VPN. Proszę zdiagnozować centralną bramę i przywrócić połączenia organizacji.
+Bateria mojego laptopa została już wymieniona. Proszę naprawić firmową bramę VPN, która nie przyjmuje połączeń żadnego pracownika.
+Dyżurny zgłosił: „Nikt nie może połączyć się przez firmowy VPN”. Proszę sprawdzić wspólną bramę dostępu zdalnego.
+VPN padł wszystkim, brama nie przyjmuje żadnego pracownika. Potrzebna naprawa centralnego dostępu.
+
+it-023
+Połączenie sieciowe między dwiema lokalizacjami firmy jest niedostępne.
+Oddziały nie mogą wymieniać danych przez wspólne połączenie między siedzibami. Proszę sprawdzić łącze i przywrócić komunikację obu lokalizacji.
+Proszę przywrócić połączenie pomiędzy dwiema lokalizacjami firmy. Mój stary problem z drukowaniem już naprawiono. Awaria dotyczy łączności między oddziałami.
+Monitor sieci zgłasza: „Tunel między lokalizacjami niedostępny”. Proszę sprawdzić i przywrócić połączenie obu firmowych siedzib.
+Dwie nasze lokalizacje straciły połączenie między sobą. Sprawdzicie łącze oddziałów?
+
+it-024
+Routing między firmowymi podsieciami blokuje pracę kilku zespołów.
+Przepływ ruchu między segmentami sieci organizacji nie działa prawidłowo. Kilka zespołów nie dociera do potrzebnych zasobów. Proszę naprawić wspólny routing.
+Dokument o zatrudnieniu już przygotowano. Proszę zająć się routingiem między firmowymi podsieciami, którego awaria blokuje kilka zespołów.
+Monitoring pokazuje: „Brak trasy między podsieciami”. Problem uniemożliwia pracę kilku zespołów. Proszę przywrócić routing w sieci firmowej.
+Między podsieciami firmy ruch nie przechodzi i kilka ekip stoi. Sprawdzicie routing?
+
+it-025
+Potwierdzona awaria wspólnego łącza internetowego obejmuje całą siedzibę.
+Wszyscy użytkownicy w budynku utracili internet, a problem potwierdzono na łączu zewnętrznym. Proszę podjąć działania związane z przywróceniem wspólnego połączenia.
+Proszę zająć się potwierdzoną awarią internetowego łącza całej siedziby. Mój dostęp do skrzynki wcześniej odblokowano. Obecnie brak internetu obejmuje wszystkich.
+Operator potwierdził: „Awaria dotyczy łącza obsługującego państwa siedzibę”. Proszę skoordynować przywrócenie internetu dla całej lokalizacji.
+Potwierdzili awarię naszego wspólnego łącza, cała siedziba bez internetu. Zajmiecie się przywróceniem połączenia?
+
+it-026
+Kontroler firmowego Wi-Fi zgłasza utratę wielu punktów dostępowych.
+W centralnym panelu zniknęła duża część urządzeń bezprzewodowych. Proszę sprawdzić kontroler oraz połączenia punktów Wi-Fi w firmowej infrastrukturze.
+Rozliczenie delegacji już zakończono. Proszę sprawdzić kontroler Wi-Fi, który zgłasza utratę wielu firmowych punktów dostępowych.
+Kontroler wyświetla alert: „Wiele punktów dostępowych offline”. Proszę zdiagnozować wspólną infrastrukturę Wi-Fi i przywrócić urządzenia.
+Kontroler zgubił sporo firmowych punktów Wi-Fi. Sprawdzicie centralnie, co stało się z urządzeniami?
+
+it-028
+Centralna zapora blokuje dozwolony ruch sieciowy całego działu.
+Zespół nie może korzystać z zatwierdzonych usług, ponieważ konfiguracja wspólnej zapory zatrzymuje ich ruch. Proszę sprawdzić reguły i przywrócić legalny dostęp działu.
+Proszę poprawić konfigurację centralnej zapory blokującą dozwolony ruch całego działu. Usterkę mojego monitora już usunięto. Dostęp zespołu nadal nie działa.
+Log zapory pokazuje: „Ruch z podsieci działu odrzucony”. Są to zatwierdzone połączenia. Proszę sprawdzić centralne reguły blokujące cały zespół.
+Firewall centralnie blokuje legalny ruch całego działu. Sprawdzicie konfigurację i przywrócicie dostęp?
+
+it-029
+Cała firmowa sieć gościnna przestała działać po zmianie infrastruktury.
+Po wykonanych zmianach żaden gość nie może skorzystać z wydzielonej sieci organizacji. Proszę sprawdzić konfigurację i przywrócić działanie całego segmentu gościnnego.
+Zaświadczenie pracownicze już otrzymałem. Zgłaszam niedziałającą całą sieć gościnną firmy po zmianie infrastruktury i proszę o naprawę.
+Recepcjonistka zgłosiła: „Po zmianach sieć gościnna nie działa nikomu”. Proszę sprawdzić wspólną infrastrukturę tego segmentu.
+Po zmianie infrastruktury cała sieć dla gości padła. Pomożecie przywrócić firmowy segment gościnny?

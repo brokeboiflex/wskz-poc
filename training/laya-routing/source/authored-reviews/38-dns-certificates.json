@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:44:30.180882+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages read individually and compared with10 exact frozen definitions, policy and manual approach. No corpus authorship, old benchmark, scores or inference.",
+  "source_sha256": "e92d56129752b575f1edafdf56938e42062414406db0e454696b418fcd7fbdc0",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/38-dns-certificates.txt",
+      "sha256": "e92d56129752b575f1edafdf56938e42062414406db0e454696b418fcd7fbdc0"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "it-030",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-032",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-034",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-035",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-037",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-039",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-041",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-042",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-043",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-045",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "All50 variants retain their concrete DNS/certificate task and infrastructure scope. All5 of it-030 preserve certificate issuance refused because of the permissions template; this is not a generic certificate expiry incident. Renewal, wrong authoritative target, stale resolver answers, incomplete post-renewal chain, new-domain deployment, external resolution failure, infrastructure clock errors, renewal-process housekeeping and internal-zone unavailability remain distinguishable. Closed histories and attributed quotations pass; no target department names or active-task drift.",
+  "limits": [
+    "Initial quality review only; final semantic/lexical exclusions remain mandatory.",
+    "Five variants are correlated within each family; no training-data acceptance."
+  ]
+}

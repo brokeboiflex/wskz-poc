@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/pdf-reader/quoted_history",
+  "family": "help_desk/pdf-reader",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPo ostatniej zmianie ustawień pliki PDF otwierają się w niewłaściwej aplikacji i nie mogę korzystać z komentarzy. Dokumenty same w sobie są poprawne. Proszę pomóc przywrócić firmowy czytnik jako domyślny program na moim komputerze i sprawdzić jego działanie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2486597080132924,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "77aae4b88fa4f296ba171e06338b7e33fd957783c555a99ff162dbcfee89bc72",
+  "response_sha256": "8f73f8173aaf7839255276ece70818bd8daf28abd0200ed45976bb0128ee0a50"
+}

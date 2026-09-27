@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/training-evaluation/base",
+  "family": "human_resources/training-evaluation",
+  "message": "Ukończyłem szkolenie z obsługi trudnych rozmów, ale większość programu nie odpowiadała opisowi, na podstawie którego się zapisałem. Chciałbym przekazać szczegółową opinię osobie odpowiedzialnej za rozwój pracowników. Proszę o kontakt, aby omówić przydatność zajęć i potrzeby kolejnych grup.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19224129201029427,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "58ce8bdbea5326b9131abf6933c56151d5468d55927c40eced553fd714aff4ef",
+  "response_sha256": "398a95ee62ec8cadcc292675827f8107be6062f8c6d9591a1987b60cfc083e2c"
+}

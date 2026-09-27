@@ -1,0 +1,69 @@
+other-004
+O której mam prywatną wizytę u dentysty?
+Zapisałam się do gabinetu stomatologicznego i nie pamiętam godziny. Proszę potwierdzić termin mojego przyjęcia.
+O której jest moja wizyta dentystyczna? Komputer już naprawiono; pytam prywatnie o gabinet.
+Recepcja napisała: „Wizyta u dentysty potwierdzona”. Proszę przypomnieć godzinę mojej prywatnej wizyty.
+Hej, na którą mam dentystę prywatnie?
+
+other-013
+Podeślesz prywatnie namiar na fizjoterapeutę?
+Szukam specjalisty dla siebie. Pamiętam, że polecałeś fizjoterapeutę, więc proszę o kontakt.
+Moja wypłata już poprawiona. Prywatnie poproszę namiar na polecanego fizjoterapeutę.
+Znajomy mówił: „Znam dobrego fizjoterapeutę”. Podeślesz mi prywatnie kontakt?
+Masz numer do fizjoterapeuty dla mnie?
+
+other-014
+Kiedy można umówić prywatne badanie wzroku?
+Chcę zapisać się jako pacjent na badanie oczu. Proszę podać dostępny termin wizyty.
+Proszę o wolny termin badania wzroku. Problem z moim kontem już rozwiązano, chodzi o prywatną wizytę.
+W gabinecie napisano: „Badanie wzroku po rezerwacji”. Jaki termin jest dostępny dla mnie jako pacjenta?
+Kiedy macie wolne badanie wzroku prywatnie?
+
+other-022
+Przypomnisz mi adres przychodni?
+Mam prywatną wizytę, ale nie zapisałem miejsca. Proszę o adres przychodni, żebym trafił.
+Drukarka już działa. Prywatnie proszę o przypomnienie adresu przychodni.
+Znajoma powiedziała: „Spotkamy się pod przychodnią”. Przypomnisz adres tego miejsca?
+Gdzie dokładnie jest ta przychodnia? Przypomnij adres.
+
+other-033
+Jak odebrać wyniki mojego prywatnego badania laboratoryjnego?
+Wykonałam badanie jako pacjentka i czekam na wyniki. Proszę poinformować o możliwości ich odbioru.
+Czy mogę odebrać własne wyniki laboratoryjne? Moje logowanie służbowe już naprawiono; pytam o prywatne badanie.
+Laboratorium poinformowało: „Wyniki są gotowe”. Jak odebrać rezultaty mojego badania?
+Moje wyniki z laboratorium są już do odbioru? Jak je dostać?
+
+other-040
+Chcę ustalić termin prywatnej wizyty szczepiennej.
+Planuję wizytę w gabinecie na szczepienie. Proszę uzgodnić dostępny termin dla mnie jako pacjenta.
+Rozliczenie urlopu już zakończono. Proszę ustalić datę mojej prywatnej wizyty szczepiennej.
+Recepcja napisała: „Możemy umówić szczepienie”. Uzgodnijmy termin mojej prywatnej wizyty.
+Dogadamy datę prywatnej wizyty na szczepienie?
+
+other-055
+W jakich godzinach jest otwarta pobliska apteka?
+Chcę podejść do apteki w okolicy prywatnie. Proszę podać jej godziny otwarcia.
+O której zamykają aptekę w okolicy? Mój problem z komputerem już naprawiono.
+Znajoma powiedziała: „Apteka jest niedaleko”. Wiesz, w jakich godzinach jest otwarta?
+Do której działa ta apteka obok?
+
+other-065
+Proszę przesłać kontakt do gabinetu ortodontycznego.
+Szukam numeru telefonu do ortodonty na własną wizytę. Proszę o dane kontaktowe gabinetu.
+Zaświadczenie pracownicze już odebrałem. Prywatnie poproszę kontakt do gabinetu ortodontycznego.
+Znajomy polecił: „Zadzwoń do tego ortodonty”. Podeślesz kontakt do gabinetu?
+Masz telefon do gabinetu ortodontycznego? Podeślij proszę.
+
+other-068
+Chcę zmienić datę mojej prywatnej konsultacji dietetycznej.
+Nie mogę przyjść do dietetyka w ustalonym terminie. Proszę przenieść moją wizytę pacjenta na inną datę.
+Proszę przesunąć prywatną konsultację dietetyczną. Błąd poczty już naprawiono; aktualna prośba dotyczy wizyty.
+Potwierdzenie mówi: „Konsultacja dietetyczna w czwartek”. Proszę zmienić datę mojej prywatnej wizyty.
+Muszę przełożyć prywatną wizytę u dietetyka. Zmienimy datę?
+
+other-074
+Czy mogę zapisać się prywatnie na masaż leczniczy?
+Chciałabym skorzystać z zabiegu dla siebie. Proszę o informację, czy przyjmujecie zapisy na prywatny masaż leczniczy.
+Moje wynagrodzenie już wyrównano. Pytam prywatnie o możliwość zapisania się na masaż leczniczy.
+W ofercie jest: „Masaż leczniczy”. Czy mogę umówić się na prywatny zabieg?
+Da się zapisać prywatnie na masaż leczniczy?

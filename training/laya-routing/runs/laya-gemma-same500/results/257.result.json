@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/disk-full/conversation_history",
+  "family": "help_desk/disk-full",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nMój komputer zgłasza brak wolnego miejsca i nie zapisuje już nowych plików. Nie chcę usuwać firmowych dokumentów na własną rękę, ponieważ nie wiem, które katalogi są potrzebne. Proszę o pomoc w bezpiecznym uporządkowaniu lokalnego dysku i sprawdzeniu przyczyny jego zapełnienia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.23842916698777117,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "55c2e8312e58b44bbe912e3de009d1af19d7668bd8b4d9b0255519c0cc346e7e",
+  "response_sha256": "3fad6d21adbb78a93473f2a4724178fd66547395f53630254287031b7312326c"
+}

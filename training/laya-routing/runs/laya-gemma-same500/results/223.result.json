@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/scanner/resolved_preface",
+  "family": "help_desk/scanner",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n\nOsobna, aktualna wiadomość:\nSkaner podłączony do mojego komputera przestał być wykrywany po zmianie portu USB. Urządzenie ma zasilanie, a przewód jest dobrze wpięty. Potrzebuję zeskanować podpisany dokument. Proszę pomóc przywrócić połączenie skanera z aplikacją na tym konkretnym stanowisku.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2804447089729365,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5f4789e910e03f8ebb0873117229ad7cb380d0962109b03408e1ac7783230e7b",
+  "response_sha256": "bed128fa7ea90979412531cb642b48ddc42d892a7a845090030632b30ce56669"
+}

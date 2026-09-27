@@ -1,0 +1,13 @@
+{
+  "id": "other/lost-umbrella/resolved_postscript",
+  "family": "other/lost-umbrella",
+  "message": "Zostawiłem wczoraj parasol przy wejściu do budynku i chciałbym dowiedzieć się, czy ktoś go znalazł. Był granatowy, z drewnianą rączką, bez żadnych dokumentów ani urządzeń elektronicznych. Proszę przekazać informację, gdzie sprawdza się rzeczy znalezione lub z kim można się w tej sprawie skontaktować.\n\nPS. Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.2332388750219252,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f8cdb45fa8b17258b001e69414b2c4901584a6770f25dd320621ac0c65fb55e9",
+  "response_sha256": "5f8b10aadaf09a2e667c7c45fcb619c3e5e1f1b53996aa22ad9facb4cc5196fa"
+}

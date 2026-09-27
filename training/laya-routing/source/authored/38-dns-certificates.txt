@@ -1,0 +1,69 @@
+it-030
+Centralny urząd certyfikacji odmawia nowych certyfikatów przez błędny szablon uprawnień.
+Nowe usługi nie otrzymują certyfikatów z firmowego urzędu certyfikacji. Przyczyną jest niepoprawny szablon uprawnień. Proszę poprawić centralną konfigurację wystawiania.
+Proszę naprawić szablon uprawnień urzędu certyfikacji, który odmawia certyfikatów nowym usługom. Mój lokalny problem z hasłem już rozwiązano.
+Urząd certyfikacji zgłasza: „Szablon nie zezwala na wystawienie certyfikatu”. Dotyczy nowych usług firmowych. Proszę poprawić centralny szablon uprawnień.
+Firmowy urząd certyfikacji nie wystawia certyfikatów nowym usługom, bo szablon uprawnień jest błędny. Poprawicie go?
+
+it-032
+Certyfikat centralnej usługi niedługo wygasa; proszę odnowić go na serwerze.
+Ważność certyfikatu wspólnej aplikacji dobiega końca. Potrzebujemy przeprowadzić odnowienie na serwerze przed utratą dostępu. Proszę zająć się usługą.
+Moje rozliczenie czasu pracy już poprawiono. Proszę odnowić wygasający certyfikat centralnej usługi na obsługującym ją serwerze.
+Monitoring pokazuje: „Certyfikat centralnej usługi wkrótce wygaśnie”. Proszę przeprowadzić odnowienie i instalację na serwerze.
+Kończy się certyfikat wspólnej usługi. Odnowicie go na serwerze, zanim wygaśnie?
+
+it-034
+Błędny rekord firmowej domeny kieruje wszystkich użytkowników do niewłaściwej usługi.
+Pod adresem organizacji otwiera się inny serwis, ponieważ wpis DNS wskazuje zły cel. Proszę poprawić wspólny rekord domeny.
+Proszę naprawić rekord firmowej domeny odsyłający wszystkich do niewłaściwej usługi. Moją drukarkę już uruchomiono. Ten problem dotyczy centralnego adresowania.
+Administrator aplikacji zgłosił: „Domena wskazuje inny serwis niż powinna”. Proszę skorygować rekord DNS, który błędnie kieruje wszystkich użytkowników.
+Nasza domena przez zły rekord prowadzi wszystkich do innej usługi. Poprawicie DNS?
+
+it-035
+Wewnętrzny resolver DNS zwraca nieaktualne rekordy wielu komputerom.
+Stanowiska z kilku zespołów otrzymują stare adresy od wspólnego resolvera. Proszę sprawdzić wewnętrzny DNS i przywrócić aktualne odpowiedzi.
+Zaświadczenie o zatrudnieniu już dostarczono. Proszę naprawić wewnętrzny resolver DNS, który zwraca wielu komputerom nieaktualne rekordy.
+Test resolvera wykazał: „Zwrócony adres jest nieaktualny”. To samo dotyczy wielu stacji. Proszę sprawdzić wspólny wewnętrzny DNS.
+Wewnętrzny DNS podaje stare rekordy komputerom kilku zespołów. Zajmiecie się resolverem?
+
+it-037
+Centralna usługa po odnowieniu certyfikatu nie wysyła pełnego łańcucha certyfikatów.
+Nowy certyfikat został zainstalowany, lecz serwer pomija część łańcucha. Proszę poprawić prezentację certyfikatów przez wspólną usługę.
+Proszę uzupełnić łańcuch certyfikatów prezentowany przez centralną usługę po odnowieniu. Problem z moją klawiaturą został już usunięty.
+Kontrola po odnowieniu zgłasza: „Niepełny łańcuch certyfikatów”. Proszę poprawić konfigurację wspólnego serwera, aby prezentował cały łańcuch.
+Po odnowieniu centralna usługa pokazuje niepełny łańcuch certyfikatów. Poprawicie konfigurację serwera?
+
+it-039
+Proszę wdrożyć konfigurację DNS nowej firmowej domeny.
+Organizacja ma nową domenę, która wymaga ustawienia rekordów dla planowanych usług. Proszę przygotować i wdrożyć jej konfigurację DNS.
+Korektę mojego urlopu już zapisano. Zwracam się o wdrożenie DNS dla nowej domeny firmowej i związanych z nią usług.
+W planie uruchomienia zapisano: „Skonfigurować DNS nowej domeny”. Proszę wdrożyć te ustawienia dla domeny organizacji.
+Mamy nową firmową domenę. Wdrożycie jej konfigurację DNS?
+
+it-041
+Firmowa domena nie rozwiązuje się z kilku zewnętrznych sieci.
+Sprawdziliśmy dostęp spoza organizacji w różnych miejscach i nigdzie nie jest rozpoznawana nazwa domeny. Proszę zdiagnozować jej zewnętrzne rozwiązywanie.
+Proszę sprawdzić nierozpoznawaną firmową domenę z kilku sieci zewnętrznych. Mój problem z lokalną aplikacją naprawiono. Tutaj błąd potwierdzają niezależne sieci.
+W testach zewnętrznych pojawia się: „Nie można rozwiązać nazwy domeny”. Dotyczy firmowego adresu sprawdzanego z kilku sieci. Proszę naprawić DNS.
+Naszej domeny nie rozpoznaje kilka zewnętrznych sieci. Sprawdzicie, co się stało z DNS?
+
+it-042
+Błędny czas infrastruktury powoduje problemy z ważnością certyfikatów w wielu usługach.
+Wspólna synchronizacja czasu jest nieprawidłowa, przez co kilka aplikacji odrzuca certyfikaty. Proszę naprawić zegar infrastruktury i powiązane błędy.
+Rozliczenie dodatku już wyjaśniono. Proszę poprawić czas infrastruktury, który wywołuje błędy ważności certyfikatów w wielu usługach firmowych.
+Diagnostyka wskazuje: „Czas systemowy poza okresem ważności certyfikatu”. Dotyczy wielu usług przez wspólny zegar infrastruktury. Proszę usunąć przyczynę.
+Zegar infrastruktury jest rozjechany i kilka usług odrzuca certyfikaty. Naprawicie synchronizację czasu?
+
+it-043
+Proszę uporządkować automatyczne odnawianie certyfikatów we wspólnym repozytorium.
+Firmowe certyfikaty są przechowywane centralnie, ale proces odnowień nie jest spójnie ustawiony. Potrzebujemy uporządkowania automatycznego odnawiania w tym repozytorium.
+Proszę uporządkować automatyczne odnowienia we wspólnym repozytorium certyfikatów. Konfigurację mojego monitora już zakończono. To zadanie dotyczy centralnego zarządzania certyfikatami.
+W przeglądzie zapisano: „Automatyczne odnawianie certyfikatów wymaga uporządkowania”. Proszę wdrożyć spójne odnowienia dla wspólnego repozytorium.
+W centralnym repozytorium certyfikatów trzeba ogarnąć automatyczne odnowienia. Uporządkujecie ten proces?
+
+it-045
+Wewnętrzna strefa DNS jest niedostępna i blokuje kilka aplikacji.
+Usługi nie potrafią odczytać nazw ze wspólnej wewnętrznej strefy. Proszę przywrócić jej dostępność, ponieważ błąd zatrzymuje działanie wielu aplikacji.
+Moje dokumenty pracownicze zostały uzupełnione. Proszę naprawić niedostępną wewnętrzną strefę DNS blokującą kilka firmowych aplikacji.
+Monitoring zgłasza: „Wewnętrzna strefa DNS niedostępna”. Kilka aplikacji nie działa z tego powodu. Proszę przywrócić strefę.
+Wewnętrzna strefa DNS padła i blokuje parę aplikacji. Sprawdzicie wspólną usługę nazw?

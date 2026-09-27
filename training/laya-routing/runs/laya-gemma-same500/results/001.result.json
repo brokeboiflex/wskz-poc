@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/interview-slot/quoted_history",
+  "family": "human_resources/interview-slot",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nDzień dobry, dostałam zaproszenie na rozmowę dotyczącą stanowiska analityczki, ale wskazana godzina pokrywa się z moim egzaminem. Czy możemy przełożyć spotkanie na czwartek po południu? Nadal jestem zainteresowana ofertą i zależy mi na rozmowie z osobą prowadzącą nabór.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.2552184160158504,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "88a01aa1de2745c4afd0d8907d918c4ad6c05dbcca2206b44eefa1ab4bb4197a",
+  "response_sha256": "5f490fef4ef7b2baf53cb494856a21abbb5823bef873d6d8cd9f180fc0608d66"
+}

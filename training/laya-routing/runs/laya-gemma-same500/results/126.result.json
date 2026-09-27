@@ -1,0 +1,13 @@
+{
+  "id": "payroll/night-allowance/base",
+  "family": "payroll/night-allowance",
+  "message": "W ostatnim okresie miałem sześć zmian nocnych. W zestawieniu wynagrodzenia naliczono dodatek tylko za cztery, chociaż grafik i potwierdzenia obecności obejmują wszystkie zmiany. Proszę porównać dane i wyjaśnić brakującą część dodatku przed zamknięciem kolejnego rozliczenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19062883299193345,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "42034fda94afc9b9deff65f660d955e459d4f3549edc3204433b19069c75726a",
+  "response_sha256": "dfd070a63a06464120e9e445c19d610b2a2ac8de3838abf75b3b1e5d3bda0954"
+}

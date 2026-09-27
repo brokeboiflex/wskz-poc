@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/competency-assessment/conversation_history",
+  "family": "human_resources/competency-assessment",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPo ostatnim projekcie chcę uporządkować swoje mocne strony i obszary wymagające pracy. Potrzebuję narzędzia do oceny kompetencji oraz pomocy w ułożeniu planu rozwojowego na kolejne półrocze. Od czego zacząć i z kim omówić wyniki takiej oceny?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.23787024998455308,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c7ccdaa322490f288b8eed6955b117cdf6cc71a97e67e022b758eb0f1593cc82",
+  "response_sha256": "b8b4240bb61d514e96a21bde8d87106ba6c9f9de0490d55a49c216584a43f452"
+}

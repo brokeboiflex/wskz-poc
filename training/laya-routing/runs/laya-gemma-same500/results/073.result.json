@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/training-reschedule/resolved_preface",
+  "family": "human_resources/training-reschedule",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n\nOsobna, aktualna wiadomość:\nZostałem zapisany na warsztat negocjacji, ale w tym samym terminie prowadzę wcześniej uzgodnione spotkanie z klientem. Chciałbym przenieść udział na kolejną edycję, zachowując miejsce w programie. Proszę sprawdzić dostępne terminy i poinformować prowadzącego o zmianie uczestnika.",
+  "expected": "human_resources",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.25334241602104157,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cfce30679a06d976f8dfb3a15b9caa0bdd62d8391d4e9717457be39bfc1e4a4b",
+  "response_sha256": "ee73d07dce6042d121b6cff6bfe6cb05a74eec1d835cc10fb56a582d82d9e9c9"
+}

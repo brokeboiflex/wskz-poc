@@ -1,0 +1,13 @@
+{
+  "id": "it/suspicious-forwarding/base",
+  "family": "it/suspicious-forwarding",
+  "message": "Na mojej skrzynce pojawiła się reguła automatycznie przekazująca wiadomości na nieznany adres zewnętrzny. Nie tworzyłem jej i nie rozpoznaję ostatnich zmian ustawień. Proszę o sprawdzenie podejrzenia naruszenia konta, zatrzymanie wycieku korespondencji i ustalenie zakresu zdarzenia.\n\nO zmianie dowiedziałem się przypadkiem przy sprawdzaniu ustawień. Reguła obejmuje wszystkie nowe wiadomości i dodatkowo ukrywa niektóre powiadomienia. Zachowałem widok konfiguracji, ale nie potrafię ocenić, od kiedy działa i jakie wiadomości mogły zostać przekazane.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.23281466600019485,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "62878c28aff6336bb176e22b9a0b4fad4f1c018475bcd5005e7155bd0d8fe463",
+  "response_sha256": "7edeeb5d3555b767672879ee3fe7f8cc8469c9212c6597c927d2b97b861375d3"
+}

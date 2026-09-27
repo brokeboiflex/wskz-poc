@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/accessible-interview/quoted_history",
+  "family": "human_resources/accessible-interview",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nJestem zaproszony na rozmowę rekrutacyjną w przyszłym tygodniu. Ze względu na niedosłuch potrzebuję rozmowy z napisami albo możliwości udzielenia części odpowiedzi pisemnie. Chciałbym wcześniej uzgodnić dostępny format spotkania, aby wszyscy uczestnicy mogli się do niego przygotować.\n\nRozmowa telefoniczna jest dla mnie trudniejsza niż spotkanie wideo z widoczną twarzą rozmówcy. W poprzednich procesach dobrze sprawdzało się także przesłanie pytań organizacyjnych tekstowo. Zależy mi na uzgodnieniu formy z wyprzedzeniem, żeby na samym spotkaniu skupić się na zadaniach i doświadczeniu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.3100258340127766,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "10688b81a84791d8d3997ca342849cd74188f557b9d266d94763eb0b8bf870ac",
+  "response_sha256": "23c4dfd211c420c71b91faa301c0a51c6632a002106c64effaafbe3a5359e863"
+}

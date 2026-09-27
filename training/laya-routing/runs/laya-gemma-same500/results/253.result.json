@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/software-install/resolved_preface",
+  "family": "help_desk/software-install",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nOsobna, aktualna wiadomość:\nDo realizacji zadania potrzebuję zatwierdzonego przez firmę programu do diagramów. Przełożony potwierdził zgodę, ale instalator wymaga uprawnień administratora na moim laptopie. Proszę o pomoc w instalacji wskazanej aplikacji i sprawdzeniu, czy mogę uruchomić ją na swoim koncie.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2278353750007227,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a1d9271ef7a7190eef13dff0b11b8791adcd6d3061a12b00f1c965461e44f0ee",
+  "response_sha256": "8f9161a16d90fa5c15904749fd5f2b9ba214767e2c389cbbc86603a5013c0ea4"
+}

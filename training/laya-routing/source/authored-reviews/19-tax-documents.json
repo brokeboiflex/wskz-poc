@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:19:40.656872+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "Read all50 messages independently and compare with10 exact frozen definitions and policy. Routing/editorial review only, no legal advice, benchmark access or model scores.",
+  "source_sha256": "78d64bbc8b86ce15a422c484fedd8dace044b9a25f9a6c23f3310895bd175989",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/19-tax-documents.txt",
+      "sha256": "78d64bbc8b86ce15a422c484fedd8dace044b9a25f9a6c23f3310895bd175989"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "payroll-106",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-108",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-111",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-113",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-114",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-115",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-116",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-117",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-118",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-119",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "Specific payroll components and employee tax-document actions remain distinguishable. Each variant retains enough employment/pay context, including ordinary wage terminology. No current request changes into general tax advice or a technical fault. Closed histories and attributed quotations are concrete.",
+  "limits": [
+    "Initial quality review only, not final dataset acceptance.",
+    "Full semantic/lexical cross-split and benchmark exclusion checks remain outstanding."
+  ]
+}

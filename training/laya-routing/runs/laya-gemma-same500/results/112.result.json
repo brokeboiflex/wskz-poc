@@ -1,0 +1,13 @@
+{
+  "id": "payroll/parental-leave/base",
+  "family": "payroll/parental-leave",
+  "message": "Planuję rozpocząć urlop rodzicielski po zakończeniu obecnej nieobecności. Chciałbym uporządkować terminy i komplet dokumentów wymaganych przez pracodawcę. Proszę o informację, jaki wniosek należy złożyć, gdzie go przekazać i w jaki sposób potwierdzić przyjęcie dokumentacji.\n\nChcemy z drugim rodzicem wcześniej ustalić podział opieki i podać pracodawcom spójne terminy. Nie przesądzam jeszcze o ostatecznych datach, ponieważ potrzebuję najpierw sprawdzić, jak je prawidłowo zapisać we wniosku i jakie potwierdzenia należy dołączyć.\n\nCzy mogę otrzymać listę wymaganych dokumentów oraz formularz stosowany w naszej firmie? Zależy mi również na informacji, gdzie odnotowane zostanie przyjęcie wniosku i w jaki sposób później otrzymam potwierdzenie okresu nieobecności. Dokumenty z danymi rodzinnymi przekażę dopiero przez wskazany kanał. Chciałbym uniknąć wysyłania kilku niepełnych wersji i przygotować komplet do jednorazowego sprawdzenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.30796608299715444,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "98e8a207de1cc848160e7f5541dfeedc769816f4a39391bf1fa2dc6bc63f9d51",
+  "response_sha256": "d2d17d88191fdc2a821abeac255577be842fd4183ea7e7adb37c066df223068e"
+}

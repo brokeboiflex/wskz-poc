@@ -1,0 +1,8 @@
+{
+  "input": "/Users/mini/programming/resumer/poc/message-router/verification/benchmark/cases-500.json",
+  "policy": "/Users/mini/programming/resumer/poc/message-router/training/laya-routing/policy.json",
+  "output": "/Users/mini/programming/resumer/poc/message-router/training/laya-routing/runs/laya-gemma-same500/results",
+  "weights-sha256": "1b69c0e79d45ee9decac6bc0840985652448b8c28af59a30ecdf7f04628098a8",
+  "split": "regression",
+  "freeze": "/Users/mini/programming/resumer/poc/message-router/training/laya-routing/runs/laya-gemma-same500/freeze.json"
+}

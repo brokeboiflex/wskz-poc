@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/survey-followup/conversation_history",
+  "family": "human_resources/survey-followup",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nW wynikach ankiety pracowniczej często pojawia się brak informacji o decyzjach zarządu. Chciałabym zorganizować rozmowę z zespołem i przełożyć te uwagi na konkretne działania. Proszę o wsparcie osoby, która pomoże omówić wyniki bez szukania autorów poszczególnych odpowiedzi.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2426378329982981,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e520c3bfabe6e93c8ea55c6cfdc04bedeeac28821b4666c5db1a79b521729257",
+  "response_sha256": "2c84e4bb5b761b0ecbf900c8adf51d5603e2f8277927be9ee2b438561d40b5d5"
+}

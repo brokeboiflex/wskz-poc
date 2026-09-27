@@ -9,6 +9,76 @@ Agent analizuje wiadomość i wykonuje narzędzie wysyłkowe przez native functi
 calling. Osobny serwis pocztowy przekazuje oryginalną treść przez SMTP do Mailpit,
 ustawiając `Reply-To` na adres z requestu.
 
+## Laya vs Gemma: jakość, szybkość i sprzęt (27.09.2026)
+
+Ten sam zestaw500 wiadomości, po jednej próbie, bez maili i ponowień. Laya:
+epoka1 wybrana wyłącznie na osobnej walidacji (447/500; epoka2:443/500).
+Gemma: zachowany wcześniejszy wynik, bez ponownego uruchomienia.
+
+| Miara                                     | Laya multilingual, epoka1 | Gemma4 E2B Q4_K_M |
+| ----------------------------------------- | ------------------------: | ----------------: |
+| Poprawne odpowiedzi                       |           432/500 (86,4%) |   493/500 (98,6%) |
+| Błędne działy                             |                        68 |                 7 |
+| Błędy protokołu                           |                         0 |                 0 |
+| Mediana żądania HTTP                      |                   0,231 s |           1,800 s |
+| P95 żądania HTTP                          |                   0,346 s |           2,590 s |
+| Suma czasu500 żądań, bez przerw operatora |                 119,981 s |         909,394 s |
+| HR /100                                   |                        87 |                99 |
+| Płace /100                                |                        99 |                96 |
+| Helpdesk /100                             |                       100 |                99 |
+| IT /100                                   |                        86 |               100 |
+| Inne /100                                 |                        60 |                99 |
+
+Laya ma **7,8× krótszą medianę odpowiedzi**, ale o61 poprawnych klasyfikacji mniej.
+Największa słabość to prywatne/nieokreślone wiadomości i odróżnianie aktualnej
+prośby od zamkniętej sprawy w historii. Wyniki dotyczą lokalnego CPU na Apple M4
+przez Docker Desktop, przy sekwencyjnych żądaniach. Oba warianty działają bez GPU.
+To porównanie istniejących konfiguracji, z różnymi promptami i adapterami,
+a nie identycznych silników ani jednoczesny pomiar obciążenia hosta.
+Gemma była wcześniej poprawiana na tym znanym zbiorze; nie jest to niezależny
+test generalizacji. Nowy oddzielny test Laya nie został uruchomiony.
+
+### RAM, dysk i koszt sprzętu
+
+**Nie zmierzono porównywalnego RAM ani CPU-sekund dla obu modeli podczas tych500
+żądań. Nie ma podstaw do stwierdzenia „Laya potrzebuje X razy mniej RAM” ani
+„kosztuje X razy mniej”.** Czas odpowiedzi nie mierzy energii, wykorzystania rdzeni,
+przepustowości pod obciążeniem ani rachunku za serwer.
+
+- Dostrojone wagi Laya FP32: **1 287 653 720 bajtów (1,20 GiB)**, sam plik
+  `model.safetensors`, bez tokenizera, obrazów i stanu optymalizatora.
+- Pakiet Gemmy raportowany przez Ollamę: **7 162 405 886 bajtów (6,67 GiB)**.
+  To około5,6× więcej miejsca niż sam eksport Laya, ale pakiety mają różny zakres;
+  nie jest to stosunek zużycia RAM.
+- Log Gemmy pokazuje bufory wag CPU316,12 MiB + CPU_REPACK1396,42 MiB oraz
+  mapowanie CPU_Mapped4480 MiB z lazy read. Ponadto KV36 MiB i początkowy
+  bufor obliczeń114,52 MiB. **Mapowanie pliku nie oznacza rezydentnego RAM**;
+  nie sumujemy tych wartości jako zmierzonej pamięci procesu lub kontenera.
+- Historyczny pomiar **bazowej, niedostrojonej Laya** na15 wiadomościach:
+  maksymalnie1,926 GiB dla runtime,2,127 GiB dla wybranych kontenerów aplikacji
+  po żądaniach. Dotyczył porównania z **Qwen3 1.7B, nie Gemmą** i nie dowodzi
+  zużycia obecnego eksportu FP32. Docker VM i macOS były poza tym pomiarem.
+- **Trening Laya**, osobny koszt: peak RSS7,247 GiB w epoce1 i8,286 GiB w epoce2.
+  Kontener miał limit10 GiB, VM Dockera12 GiB. Limit nie jest zużyciem ani
+  wymaganiem inferencji. Wagi, optimizer i checkpointy pozostają lokalnie.
+
+Na podstawie wykonanych testów potwierdzamy mniejsze opóźnienie i mniejszy plik
+wag Laya; **oszczędność RAM oraz koszt hostingu względem Gemmy pozostają nieustalone**.
+Domyślnym modelem pozostaje Gemma. Trening zakończono po dwóch epokach zgodnie
+z ograniczeniem użytkownika, nie po osiągnięciu patience. Brak dalszego treningu.
+Wszystkie kontenery zostały zatrzymane.
+
+Dowody i odtworzenie:
+[pełne porównanie, błędy, requesty i odpowiedzi](training/laya-routing/runs/laya-gemma-same500/README.md),
+[Gemma500](docs/evidence/2026-09-27/gemma-final-500/RESULTS.md),
+[metadane pakietu Gemmy](docs/evidence/2026-09-27/gemma-final-500/backend-before.json),
+[log buforów Gemmy](docs/evidence/2026-09-27/gemma-final-500/ollama.log),
+[historyczny pomiar RAM/CPU](docs/RESOURCE_MEASUREMENT.md),
+[trening, dane, wznowienie](training/laya-routing/RUNBOOK.md),
+[metryki i wybór checkpointu](training/laya-routing/runs/completed-validation/).
+W repozytorium są syntetyczne dane, kod i dowody; duże wagi i checkpointy
+są ignorowane przez Git. Sam klon nie zawiera dostrojonych wag.
+
 ## Uruchomienie
 
 Wymagania: Docker Engine / Docker Desktop z Compose **2.24 lub nowszym**, internet

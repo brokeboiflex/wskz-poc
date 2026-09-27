@@ -1,0 +1,13 @@
+{
+  "id": "it/hypervisor/base",
+  "family": "it/hypervisor",
+  "message": "Kilka maszyn wirtualnych zatrzymało się równocześnie po alarmie na jednym hoście klastra. Monitoring nie widzi części usług produkcyjnych. Proszę o sprawdzenie platformy wirtualizacji oraz bezpieczne przywrócenie pracy maszyn na dostępnych zasobach, z uwzględnieniem stanu ich danych.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19237633302691393,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2f01056817c0acaea307c47b374bd24628b221fa2bb5168ac2a2eb5a91d9d08c",
+  "response_sha256": "5d7c624b1d6b1248a548ecab4bbd406a3dc385434208dfd296b7dccb782b75c2"
+}

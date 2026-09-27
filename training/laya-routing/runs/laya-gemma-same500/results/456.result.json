@@ -1,0 +1,13 @@
+{
+  "id": "other/parking/base",
+  "family": "other/parking",
+  "message": "Przyjechałam dziś do biura i zauważyłam, że moje miejsce parkingowe jest zajęte przez nieznany samochód. Czy można ustalić, kto tam zaparkował? Numer miejsca jest na tabliczce, a ja od kilkunastu minut czekam przy wjeździe i nie mam gdzie zostawić auta.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.21223945898236707,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "fc0ab283fd8917019864a49fb7a463e55f1c11f7b53b49d524ae586d0bb4d67e",
+  "response_sha256": "96529e4375133cf994255c6d5620488de43e0a6f65ef03bcc000a657584f28d0"
+}

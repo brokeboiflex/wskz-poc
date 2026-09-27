@@ -1,0 +1,63 @@
+{
+  "model": "gemma4:e2b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Piszesz syntetyczne wiadomości po polsku do badania klasyfikacji zgłoszeń.\nNie klasyfikujesz istniejących wiadomości. Tworzysz nowe teksty na podstawie jednej definicji scenariusza.\nZwróć wyłącznie obiekt JSON messages z dokładnie pięcioma obiektami style/message.\nKażdy tekst ma wyrażać ten sam główny zamiar ze scenariusza, ale własnymi słowami i z innym naturalnym kontekstem.\nNie zmieniaj rodzaju sprawy, nie dodawaj nowej aktywnej prośby do innego działu.\nNie ujawniaj etykiety, nazwy docelowego działu, numeru scenariusza ani wskazówki dla klasyfikatora w wiadomości.\nNie pisz uzasadnienia poprawnej odpowiedzi. Nie używaj szablonu z podmienionymi nazwami.\nWarianty w kolejności:\nshort: krótka naturalna prośba, 6-18 słów;\ncontext: prośba z konkretnym kontekstem, 20-40 słów;\nresolved_history: zakończony wcześniejszy problem jako tło, wyraźna aktualna sprawa ze scenariusza, 25-50 słów;\nquotation: krótki cytat lub przekazana informacja i aktualny zamiar, 25-50 słów;\ninformal: naturalne skróty lub drobna literówka, 10-25 słów.\nJeśli scenariusz oznacza brak prośby lub brak informacji, zachowaj ten brak; nie wymyślaj konkretnego zadania tylko po to, by wydłużyć tekst.\nNie powtarzaj mechanicznie zwrotu 'nie chodzi o'. Używaj różnych zdań, nie jednego schematu.\nWszystkie osoby i szczegóły są fikcyjne. Nie umieszczaj prawdziwych adresów, danych kontaktowych ani sekretów.\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"znaczenie_dzialow\": {\"human_resources\": \"Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.\", \"payroll\": \"Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia.\", \"help_desk\": \"Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie.\", \"it\": \"Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa.\", \"other\": \"Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział.\"}, \"docelowe_znaczenie\": \"Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.\", \"scenariusz\": \"Organizacja rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego.\"}"
+    }
+  ],
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "authored_messages",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "messages": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "properties": {
+                "style": {
+                  "type": "string",
+                  "enum": [
+                    "short",
+                    "context",
+                    "resolved_history",
+                    "quotation",
+                    "informal"
+                  ]
+                },
+                "message": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "style",
+                "message"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "messages"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "seed": 42,
+  "reasoning_effort": "none",
+  "max_tokens": 1000,
+  "stream": false
+}

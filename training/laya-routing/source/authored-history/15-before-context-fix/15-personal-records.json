@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:14:41.657682+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 texts individually read and compared to10 frozen scenario definitions. Routing/editorial review only, no benchmark, model scores or legal advice.",
+  "source_sha256": "1b274b0772692ab6aad0dddff12772a754a8a8b5da2480b68d80544ab5eca2e2",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/15-personal-records.txt",
+      "sha256": "1b274b0772692ab6aad0dddff12772a754a8a8b5da2480b68d80544ab5eca2e2"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": false,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 49,
+    "route_ambiguous_due_to_missing_employment_context": 1,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 49,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 1
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "payroll-044",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-045",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-046",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-047",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-050",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-051",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "severity": "blocking",
+          "variant": "context",
+          "message_index": 1,
+          "category": "missing_routing_context",
+          "finding": "An unspecified certificate has a misspelled first name. The message does not identify an employment document and is equally compatible with a certificate issued by another institution; the payroll route depends on hidden scenario context."
+        }
+      ]
+    },
+    {
+      "family": "payroll-052",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-053",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-056",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-057",
+      "split": "train",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "All other texts retain the requested record correction, calculation explanation or specific employment-document action. The closed issues and quoted sources are concrete, and informal variants retain sufficient payroll context.",
+  "limits": [
+    "Initial quality review only, not final training-data acceptance.",
+    "Full semantic/lexical cross-split and benchmark exclusion checks remain mandatory."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/browser-extension/base",
+  "family": "help_desk/browser-extension",
+  "message": "Po dodaniu zatwierdzonego rozszerzenia formularze w mojej przeglądarce przestały reagować na kliknięcia. W oknie bez dodatków działają poprawnie. Proszę o pomoc w ustaleniu konfliktu i przywróceniu działania mojego środowiska pracy bez zmieniania samej aplikacji firmowej.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.23055350000504404,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "32e73713e1142fb15dc741d5cbcbf65b231a47a5a1ecffd4e4566085efbc1a0e",
+  "response_sha256": "6db3c43e3c382ba57b531ae2d005d80c7caf83f9cb9ab4f903c2e1d0f8d1c30d"
+}

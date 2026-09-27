@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/calendar-sync/resolved_preface",
+  "family": "help_desk/calendar-sync",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nOsobna, aktualna wiadomość:\nSpotkania dodawane na komputerze nie pojawiają się w służbowym telefonie. Poczta na obu urządzeniach działa, a problem dotyczy wyłącznie mojego kalendarza. Proszę o pomoc w sprawdzeniu ustawień synchronizacji, ponieważ przez brak aktualizacji przeoczyłam zmianę godziny spotkania.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.26372766701388173,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5164fdb81b067049d53c4c0e0b8cde651dae74572669df9df5066733faca4a67",
+  "response_sha256": "2c130abe00f80f0008a437821a117ea1e5505bbb2edde0a8f927eb96f9df78d5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/vpn-gateway/base",
+  "family": "it/vpn-gateway",
+  "message": "Od rana wszyscy pracownicy zdalni otrzymują błąd połączenia z bramą VPN. Wczoraj usługa działała, a dziś problem występuje z różnych sieci domowych. Proszę o sprawdzenie centralnej bramy, jej certyfikatów i dostępności, aby przywrócić zdalny dostęp do firmowych zasobów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.21674208299373277,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "505bba713960b53a0f4d5a44e331af5f23187b571147bbe4c644933fb9311fde",
+  "response_sha256": "6ff7a7cc4a2dc69cb1292f9da7571d2c1373d2de2e5cecac8b7250ee7304ed39"
+}

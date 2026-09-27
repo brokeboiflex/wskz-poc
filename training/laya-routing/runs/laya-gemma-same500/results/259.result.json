@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/slow-laptop/forwarded_history",
+  "family": "help_desk/slow-laptop",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOd kilku dni mój laptop bardzo wolno otwiera programy, nawet zanim połączę się z firmowymi zasobami. Wentylator pracuje głośno, a ponowne uruchomienie pomaga tylko na chwilę. Proszę sprawdzić stan tego urządzenia; pozostałe stanowiska w zespole nie mają podobnych objawów.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nSpotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.25079824999556877,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b7206919753bec3f5323f33e74e27a166c91e914efa9587ab616215a81820712",
+  "response_sha256": "1d543c312329c2a4a617b9ec8c4a3cc27abb1342fd27a36685e1840710c30036"
+}

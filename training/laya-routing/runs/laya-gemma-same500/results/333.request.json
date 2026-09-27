@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n\nOsobna, aktualna wiadomość:\nOd trzech nocy centralny system nie wykonuje kopii serwerów produkcyjnych. Raporty pokazują błąd połączenia z repozytorium backupu, a ostatnia poprawna kopia jest coraz starsza. Proszę o pilne przywrócenie działania harmonogramu i sprawdzenie możliwości odtworzenia chronionych danych.\n\nPierwszy nieudany przebieg został uznany za pojedynczy błąd, ale teraz identyczny komunikat pojawia się dla kolejnych maszyn. Harmonogram uruchamia zadania, po czym każde kończy się przed rozpoczęciem zapisu. Repozytorium jest widoczne w konsoli, natomiast test połączenia z serwera wykonującego kopie nie przechodzi.\n\nNie zmienialiśmy ręcznie retencji i nie usuwaliśmy starych punktów odtworzenia. Zależy nam na odzyskaniu regularnych kopii oraz sprawdzeniu, czy ostatni oznaczony jako poprawny przebieg rzeczywiście pozwala odtworzyć dane. Sama zielona informacja przy harmonogramie nie będzie wystarczająca. Proszę skoordynować diagnostykę z osobą odpowiedzialną za serwery i podać, które usługi wymagają dodatkowego zabezpieczenia do czasu naprawy."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

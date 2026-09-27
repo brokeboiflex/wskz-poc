@@ -1,0 +1,13 @@
+{
+  "id": "it/company-network/base",
+  "family": "it/company-network",
+  "message": "Od godziny dziewiątej wszystkie zespoły w biurze utraciły połączenie z firmową siecią. Nie działają komputery podłączone przewodem ani przez Wi-Fi, a restart pojedynczych urządzeń niczego nie zmienia. Proszę o pilne sprawdzenie infrastruktury sieciowej i przywrócenie łączności dla całej lokalizacji.\n\nZebraliśmy zgłoszenia z recepcji, magazynu i piętra administracyjnego. Każdy z tych obszarów utracił połączenie mniej więcej w tym samym momencie. Telefony komórkowe korzystające z własnego internetu otwierają publiczne serwisy, więc problem nie wydaje się dotyczyć samych stron.\n\nNie działa też dostęp do wewnętrznego systemu zamówień ani wspólnego dysku. Pracownicy pozostawili urządzenia włączone, żeby można było wykonać diagnostykę. Nie zmieniamy ustawień sieci na poszczególnych stanowiskach. Osoba dyżurująca przy wejściu może zapewnić dostęp do pomieszczenia technicznego. Potrzebujemy informacji o przywracaniu łączności i ewentualnym sposobie pracy awaryjnej, ponieważ obecnie wszystkie zespoły w tej lokalizacji mają zatrzymane zadania.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.3488192920049187,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "058e7c5cdda7af78d1e5a1bb23b7cbc39901f2b8148e90309ca7603583b8a52f",
+  "response_sha256": "ea81823ad184b3539029545f5f0e4d6758688dc50a2f58789348964539c68a2a"
+}

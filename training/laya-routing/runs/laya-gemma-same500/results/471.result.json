@@ -1,0 +1,13 @@
+{
+  "id": "other/missing-attachment/quoted_history",
+  "family": "other/missing-attachment",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nDzień dobry, proszę sprawdzić sprawę opisaną w załączniku i przekazać mi informację o dalszych krokach.\n\n[Brak załączników]\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.22760074998950586,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9ab539e01ea7015f3b0b9eb5529c8aa97f9e1e225c4ebc1e2c6c4cfcafe33078",
+  "response_sha256": "7d330c9864975797418008e436f2f94bf8bf979cba2f4a84c78fffb3bbf7004b"
+}

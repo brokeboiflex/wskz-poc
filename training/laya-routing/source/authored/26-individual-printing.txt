@@ -1,0 +1,69 @@
+help_desk-027
+Moje dokumenty zalegają w lokalnej kolejce druku i nie wychodzą z komputera.
+Wysyłam dokumenty z własnego stanowiska, ale wszystkie pozostają w mojej kolejce. Inni drukują bez przeszkód. Proszę pomóc odblokować lokalne zadania drukowania.
+Proszę odblokować dokumenty w kolejce drukowania mojego komputera. Sprawa błędnej wypłaty została rozliczona. Nadal żaden z moich plików nie trafia do wydruku.
+W mojej kolejce przy dokumentach widnieje: „Oczekuje”. Koledzy drukują normalnie. Proszę sprawdzić lokalną kolejkę na moim stanowisku.
+Moje wydruki wiszą w kolejce na komputerze i nic nie wychodzi. Pomożecie ją odblokować?
+
+help_desk-028
+Na moim komputerze nie widzę drukarki, z której korzystają pozostali pracownicy.
+Koledzy mogą wybrać wspólną drukarkę, a na mojej liście jej nie ma. Proszę pomóc udostępnić ją na moim stanowisku.
+Potwierdzenie urlopu już otrzymałam. Proszę pomóc z brakiem drukarki na moim komputerze, mimo że inni pracownicy widzą ją i drukują.
+Kolega mówi: „Ta drukarka jest u mnie na liście i działa”. Na moim komputerze jej brakuje. Proszę pomóc przywrócić widoczność urządzenia.
+Wszyscy widzą drukarkę, tylko mój komputer nie. Dodacie ją albo sprawdzicie, czemu zniknęła?
+
+help_desk-029
+Wydruki z mojego komputera trafiają do niewłaściwej drukarki.
+Wybieram drukowanie, ale dokumenty wychodzą na innym urządzeniu niż potrzebuję. Problem dotyczy mojego stanowiska. Proszę poprawić kierowanie zadań druku.
+Proszę ustawić właściwą drukarkę dla mojego komputera, bo pliki trafiają na inne urządzenie. Korekta danych pracownika jest już zakończona.
+W potwierdzeniu zadania widzę: „Wysłano do drukarki w innym pokoju”. Proszę pomóc skierować wydruki z mojego stanowiska do właściwego urządzenia.
+Moje wydruki lądują na złej drukarce. Pomożecie poprawić ustawienie na komputerze?
+
+help_desk-030
+Proszę skonfigurować druk dwustronny na moim stanowisku.
+Chcę drukować dokumenty po obu stronach kartek, lecz nie potrafię ustawić tego na swoim komputerze. Proszę pomóc w konfiguracji dwustronnego wydruku.
+Dokument potwierdzający zatrudnienie już wydano. Potrzebuję pomocy w ustawieniu drukowania dwustronnego na moim komputerze.
+W oknie drukowania widzę opcję: „Drukuj po obu stronach”. Proszę pomóc prawidłowo skonfigurować dwustronny wydruk na moim stanowisku.
+Chcę drukować z mojego komputera na dwóch stronach kartki. Ustawicie mi to?
+
+help_desk-032
+Sterownik drukarki na moim komputerze zgłasza błąd.
+Próba drukowania z jednego stanowiska kończy się błędem sterownika. Pozostali użytkownicy korzystają z urządzenia poprawnie. Proszę naprawić sterownik na moim komputerze.
+Proszę sprawdzić błąd sterownika drukarki na moim stanowisku. Zapisanie nadgodzin już potwierdzono. Drukowanie z innych komputerów działa.
+Mój komputer pokazuje: „Błąd sterownika drukarki”. Proszę pomóc naprawić lokalny sterownik, ponieważ urządzenie działa innym osobom.
+U mnie wyskakuje błąd sterownika drukarki. Zerkniecie na mój komputer? Inni drukują normalnie.
+
+help_desk-033
+Proszę pomóc wydrukować mój dokument we właściwej skali.
+Z mojego komputera dokument wychodzi pomniejszony i trudno go odczytać. Potrzebuję ustawić właściwą skalę wydruku. Proszę o pomoc z konfiguracją zadania.
+Termin szkolenia został już uzgodniony. Proszę pomóc dobrać skalę wydruku mojego dokumentu, aby miał prawidłowy rozmiar na kartce.
+Koleżanka zauważyła: „Ten wydruk jest znacznie mniejszy niż powinien”. Proszę pomóc ustawić skalę drukowania dokumentu na moim komputerze.
+Mój dokument drukuje się malutki. Pomożecie ustawić odpowiednią skalę wydruku?
+
+help_desk-034
+Moja lokalna kolejka pokazuje drukarkę jako offline, choć inni z niej korzystają.
+Na moim stanowisku urządzenie ma status niedostępnego. Współpracownicy drukują na nim normalnie. Proszę sprawdzić prywatną kolejkę druku w moim profilu.
+Proszę pomóc z drukarką oznaczoną jako offline wyłącznie w mojej kolejce. Wniosek o zmianę rachunku został już przyjęty. Inni użytkownicy drukują bez przeszkód.
+W kolejce mojego użytkownika widnieje: „Drukarka offline”. Urządzenie działa pozostałym osobom. Proszę naprawić stan lokalnej kolejki.
+U mnie kolejka mówi, że drukarka offline, a koledzy drukują. Ogarniecie to na moim profilu?
+
+help_desk-036
+Nie potrafię dodać udostępnionej drukarki do swojego profilu użytkownika.
+Drukarka została udostępniona pracownikom, lecz nie wiem, jak dodać ją na swoim koncie komputera. Proszę przeprowadzić mnie przez tę konfigurację.
+Zaległe zaświadczenie już otrzymałem. Proszę pomóc dodać udostępnioną drukarkę do mojego profilu na komputerze.
+W instrukcji napisano: „Dodaj udostępnioną drukarkę do profilu”. Nie potrafię wykonać tego kroku na swoim komputerze, proszę o pomoc.
+Drukarka jest udostępniona, tylko nie umiem jej dodać na swoim koncie. Pomożecie?
+
+help_desk-037
+Wydruki PDF z mojego stanowiska mają nieprawidłowe marginesy.
+Ten sam plik drukuje się poprawnie z komputera kolegi, ale u mnie treść przesuwa się i marginesy są błędne. Proszę sprawdzić ustawienia wydruku PDF na mojej stacji.
+Proszę poprawić marginesy podczas drukowania PDF z mojego komputera. Reklamacja rozliczenia pensji została wyjaśniona. Plik nadal wychodzi z błędnym położeniem treści.
+Kolega porównał wydruki i powiedział: „Tylko z twojego komputera marginesy są inne”. Proszę pomóc ustawić poprawny wydruk PDF na moim stanowisku.
+PDF drukuje mi się ze złymi marginesami, u kolegi ten sam jest dobry. Sprawdzicie moje ustawienia?
+
+help_desk-038
+Wspólna drukarka działa, ale z mojego komputera wychodzą wyłącznie puste kartki.
+Koledzy otrzymują prawidłowe wydruki z tego samego urządzenia. Zadania z mojego stanowiska dają puste strony. Proszę sprawdzić lokalny problem drukowania.
+Błędny zapis obecności został poprawiony. Proszę pomóc z drukowaniem pustych kartek wyłącznie z mojego komputera na sprawnej wspólnej drukarce.
+Koleżanka potwierdziła: „Moje dokumenty wychodzą dobrze, twoje kartki są puste”. Proszę sprawdzić drukowanie z mojego pojedynczego stanowiska.
+Drukarka wszystkim drukuje, a ode mnie wychodzą puste kartki. Zerkniecie na mój komputer?

@@ -1,0 +1,69 @@
+help_desk-000
+Mój komputer zatrzymuje się przed ekranem logowania; proszę pomóc go uruchomić.
+Po włączeniu służbowego komputera widzę tylko ekran startowy. Nie dochodzi do miejsca wpisania hasła. Problem dotyczy mojego stanowiska, proszę o pomoc.
+Potrzebuję pomocy z komputerem, który zatrzymuje się przed logowaniem. Rozliczenie mojego urlopu już poprawiono i jest zamknięte. Nadal nie mogę uruchomić stanowiska.
+Koleżanka sprawdziła ekran i powiedziała: „Nie dochodzi nawet do logowania”. Proszę pomóc z uruchomieniem tego jednego komputera.
+Mój komputer stoi na ekranie startowym i nie dochodzi do hasła. Zerkniecie, co blokuje uruchomienie?
+
+help_desk-001
+Po poprawnym zalogowaniu na moim komputerze nie ładuje się pulpit.
+Hasło zostaje przyjęte, ale zamiast pulpitu widzę pusty ekran. Pozostałe stanowiska działają normalnie. Proszę pomóc przywrócić pulpit na moim komputerze.
+Brakującą część pensji już wypłacono. Zgłaszam inny problem: loguję się poprawnie na swoim stanowisku, lecz pulpit się nie pojawia.
+Na ekranie pojawia się „Zalogowano”, po czym widzę wyłącznie puste tło. Proszę naprawić ładowanie pulpitu na moim komputerze.
+Hasło wchodzi, ale pulpitu brak. Pomożecie z moim komputerem? U kolegów jest normalnie.
+
+help_desk-002
+Mój laptop po aktualizacji ciągle się restartuje; proszę przerwać tę pętlę.
+Aktualizacja służbowego laptopa dobiegła końca, lecz urządzenie bez przerwy uruchamia się ponownie. Nie mogę rozpocząć pracy. Proszę o pomoc przy tym komputerze.
+Proszę pomóc z moim laptopem zapętlonym w restartach po aktualizacji. Termin szkolenia już potwierdzono i tamta prośba jest załatwiona.
+Przy każdym starcie laptop wyświetla „Ponowne uruchamianie” i wraca do początku. Zaczęło się po aktualizacji. Potrzebuję pomocy w naprawie mojego urządzenia.
+Po aktualizacji laptop robi restart za restartem. Ogarniecie ten mój sprzęt, bo nie da się pracować?
+
+help_desk-003
+Moje stanowisko zawiesza się po wybudzeniu ze snu; proszę sprawdzić komputer.
+Gdy wracam do uśpionego komputera, obraz się pojawia, ale nic nie reaguje. Dotyczy to jednego stanowiska. Proszę ustalić przyczynę zawieszania po wybudzeniu.
+Wniosek urlopowy już zapisano. Potrzebuję pomocy z komputerem, który zawiesza się za każdym razem po wybudzeniu ze snu.
+Kolega próbujący pomóc zauważył: „Po wybudzeniu nic nie reaguje”. Proszę sprawdzić tę usterkę mojego pojedynczego stanowiska.
+Mój komputer zamiera po wybudzeniu. Sprawdzicie go? Inne stanowiska działają.
+
+help_desk-004
+Mój komputer loguje mnie do profilu tymczasowego bez zapisanych ustawień.
+Po uruchomieniu nie widzę swojego układu pulpitu ani ustawień. System korzysta z profilu tymczasowego zamiast mojego. Proszę pomóc przywrócić właściwy profil użytkownika.
+Proszę przywrócić mój profil na komputerze, bo uruchamia się tymczasowy i zniknęły ustawienia. Zaświadczenie pracownicze już otrzymałem, wcześniejsza sprawa jest zakończona.
+Komputer pokazuje komunikat: „Zalogowano przy użyciu profilu tymczasowego”. Nie mam swoich ustawień. Proszę o pomoc z przywróceniem profilu na moim stanowisku.
+Wyskakuje mi profil tymczasowy, wszystkie ustawienia inne. Pomożecie odzyskać mój profil na komputerze?
+
+help_desk-005
+Mój komputer działa bardzo wolno przy zwykłych zadaniach; proszę go sprawdzić.
+Otwieranie prostych dokumentów i przełączanie okien na moim stanowisku trwa niezwykle długo. U innych osób te same zadania działają normalnie. Proszę zdiagnozować mój komputer.
+Korekta czasu pracy została zakończona. Zgłaszam mocne spowolnienie mojego komputera nawet przy prostych, codziennych czynnościach. Proszę sprawdzić urządzenie.
+Koleżanka używająca mojego stanowiska powiedziała: „Nawet zwykły dokument otwiera się minutami”. Proszę sprawdzić nadmiernie wolne działanie tego komputera.
+Mój komputer muli nawet przy zwykłych dokumentach. Możecie go przejrzeć? Reszcie zespołu działa normalnie.
+
+help_desk-008
+Proszę pomóc wybrać właściwy system podczas uruchamiania mojego komputera.
+Przy starcie mam menu z kilkoma systemami. Nie wiem, który prowadzi do mojego zwykłego środowiska pracy. Potrzebuję pomocy w wyborze poprawnej opcji na tym stanowisku.
+Nie wiem, który system wybrać w menu startowym mojego komputera. Proszę pomóc. Poprzedni problem z rozliczeniem delegacji został wyjaśniony i zamknięty.
+Na ekranie startowym widnieje polecenie: „Wybierz system operacyjny”. Proszę wskazać właściwą opcję dla mojego komputera służbowego.
+Komputer pyta, który system odpalić. Pomożecie wybrać ten właściwy do mojej pracy?
+
+help_desk-009
+Mój komputer zgłasza niedokończoną aktualizację; proszę pomóc ją uporządkować.
+Na pojedynczym stanowisku pojawia się informacja, że aktualizacja nie została zakończona. Nie wiem, co powinienem zrobić, aby komputer działał prawidłowo. Proszę o pomoc.
+Materiał ze szkolenia został już dostarczony. Potrzebuję pomocy z komunikatem o niedokończonej aktualizacji na moim komputerze.
+System na moim stanowisku wyświetla: „Aktualizacja nie została ukończona”. Proszę sprawdzić komputer i pomóc rozwiązać ten problem.
+Mój komputer marudzi, że aktualizacja jest niedokończona. Pomożecie doprowadzić ją do końca?
+
+help_desk-010
+Sesja na moim komputerze sama mnie wylogowuje podczas pracy.
+Nie zamykam programu ani sesji, a mimo to komputer wraca do ekranu logowania. Tracę możliwość ciągłej pracy na swoim stanowisku. Proszę sprawdzić nieoczekiwane wylogowania.
+Proszę pomóc z samoczynnym wylogowywaniem mojej sesji na komputerze. Błędne naliczenie urlopu zostało skorygowane. Ta usterka nadal przerywa moją pracę.
+Komputer nagle pokazuje „Wylogowywanie”, chociaż niczego nie zamykałam. Proszę sprawdzić, dlaczego moja sesja użytkownika sama się kończy.
+W trakcie pracy komputer sam mnie wylogowuje. Możecie sprawdzić moją sesję? Nie klikam zamykania.
+
+help_desk-011
+Proszę zdiagnozować mój komputer po zawieszeniu aplikacji.
+Na moim stanowisku zawiesił się używany program. Chciałabym sprawdzić komputer i ustalić przyczynę, zanim wrócę do pracy. Proszę o diagnozę tego pojedynczego urządzenia.
+Wydanie zaświadczenia zostało zakończone. Potrzebuję diagnozy mojego komputera po zawieszeniu aplikacji, które przerwało pracę.
+Aplikacja na moim komputerze pokazała komunikat: „Brak odpowiedzi”. Proszę zdiagnozować stanowisko po tym zawieszeniu i ustalić przyczynę.
+Program zawisł na moim komputerze. Przejrzycie sprzęt i sprawdzicie, co się stało?

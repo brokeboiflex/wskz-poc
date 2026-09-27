@@ -1,0 +1,13 @@
+{
+  "id": "it/mail-auth/quoted_history",
+  "family": "it/mail-auth",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nWiadomości wysyłane z firmowego systemu są odrzucane przez wielu odbiorców z powodu błędnej konfiguracji uwierzytelniania domeny. Proszę o sprawdzenie rekordów SPF, DKIM i DMARC oraz ustawień serwera wysyłkowego. Problem dotyczy wspólnej infrastruktury, a nie programu pocztowego jednej osoby.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.25727900001220405,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a960081749eebfb811dbcf50361bd7cb402efabc68b0f3236c0e1e30a316e8ac",
+  "response_sha256": "ab06839e34941525f87cbf460172a98fff16f62f2c282a9ed41cce537309e243"
+}

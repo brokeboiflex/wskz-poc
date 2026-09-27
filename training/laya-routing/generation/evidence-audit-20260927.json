@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "authoring_responses": 18,
+  "runs": [
+    {
+      "run": "gemma-20260927",
+      "contract_sha256": "11e2bb2e720481721e7f629aba18f726951729cd742028888a01b45b8ce21e81",
+      "plan": "source/history/pre-exclusion-20260927/scenarios.json",
+      "responses": 1,
+      "reviews": [
+        {
+          "index": 0,
+          "decision": "reject",
+          "review_sha256": "daffd8b0313ad578f58341dc5b37f9f2f144ffd84931b9623da46d92c3b541dd"
+        }
+      ],
+      "accepted_for_training": false
+    },
+    {
+      "run": "gemma-v2-20260927",
+      "contract_sha256": "f0a65b079b5533e4fd3b7ddefb02864c251ae7483bd8ce06299bec1c44946985",
+      "plan": "source/history/pre-exclusion-20260927/scenarios.json",
+      "responses": 1,
+      "reviews": [
+        {
+          "index": 0,
+          "decision": "reject",
+          "review_sha256": "a95fe826843cdfce49e5836df1af3f98cb0932a44b05d5413067ecfb493e7f4f"
+        }
+      ],
+      "accepted_for_training": false
+    },
+    {
+      "run": "gemma-v3-20260927",
+      "contract_sha256": "4224270d623d3ec8daacaee37fd6c60fdbffe39ed5e73ffffea8d796075f1f05",
+      "plan": "source/history/pre-exclusion-20260927/scenarios.json",
+      "responses": 2,
+      "reviews": [
+        {
+          "index": 0,
+          "decision": "accept",
+          "review_sha256": "8758a205363f011f43641f5b573d56f47f74c29921143f02230bbaba76360424"
+        },
+        {
+          "index": 1,
+          "decision": "reject",
+          "review_sha256": "65472491e0e5ed79696843e35cc3bf3104c286973f8939efff1a529b040d84dc"
+        }
+      ],
+      "accepted_for_training": false
+    },
+    {
+      "run": "gemma-v4-20260927",
+      "contract_sha256": "d720d07ba7408f5780d6a86eff2a7088674c1ca8c17adc4f8ffb3b2864288753",
+      "plan": "source/scenarios.json",
+      "responses": 7,
+      "reviews": [
+        {
+          "index": 0,
+          "decision": "accept",
+          "review_sha256": "f0cb54f4c87349ade565d6762be9db20739e760a637cbbb0b6225f0bf60d991f"
+        },
+        {
+          "index": 1,
+          "decision": "accept",
+          "review_sha256": "2a91c3a742d945e8d608c7802f9fb5e572949039954cf37d6a625942c8236ed8"
+        },
+        {
+          "index": 2,
+          "decision": "accept",
+          "review_sha256": "7cb3692a535304d33f411f36f00a5958b72e2e8615170c5fdb4001890b113f68"
+        },
+        {
+          "index": 3,
+          "decision": "accept",
+          "review_sha256": "27a0be6e6e768e51893f85d0faac30ef20ff4d168421de87db1dd0c62c052157"
+        },
+        {
+          "index": 4,
+          "decision": "accept",
+          "review_sha256": "3a2c16094b2d9b1d506d8f6fa7ee9ab3045120059b7e2289d256a0df003059c3"
+        },
+        {
+          "index": 5,
+          "decision": "accept",
+          "review_sha256": "4ff3256b892f918b8f4c7021ed27518ededd583f6b062b7f3cb6fa4fcb76e1c6"
+        },
+        {
+          "index": 6,
+          "decision": "reject",
+          "review_sha256": "e3d2d67dd584f4d84776dc97fa25364087e68957cc6b3fec559b40b8baf5a4ad"
+        }
+      ],
+      "accepted_for_training": false
+    },
+    {
+      "run": "gemma-v5-20260927",
+      "contract_sha256": "e502b07990ed976783876ab7021a0d1fa53384bbe0cd4e8c9003f2430e8063f0",
+      "plan": "source/scenarios.json",
+      "responses": 1,
+      "reviews": [
+        {
+          "index": 0,
+          "decision": "reject",
+          "review_sha256": "63cf982f29c46aaaedbacaa53b5b9009ef7886332e517c36b2a29bda64225a45"
+        }
+      ],
+      "accepted_for_training": false
+    },
+    {
+      "run": "gemma-v6-20260927",
+      "contract_sha256": "d3ee5050981c82c694f511e296627eefae32c1476161ab357d0432b9eddbd98c",
+      "plan": "source/scenarios.json",
+      "responses": 5,
+      "reviews": [
+        {
+          "index": 0,
+          "decision": "reject",
+          "review_sha256": "5dd2d298bfacf22fdfd4de8bea88784bebd577f40cffc3a1187e00271c9d3fd9"
+        }
+      ],
+      "accepted_for_training": false
+    }
+  ],
+  "pilot": {
+    "path": "generation/single-variant-pilot-20260927",
+    "result_sha256": "16586d2d25ef803006fe6a97305e4627c9b0229f5c1aca0d041ca75e2834eb4c",
+    "accepted_for_training": false
+  },
+  "training_ready": false,
+  "reason": "Authorship quality rejected; separate reviewed manual proposal awaits method approval. No trained candidate or final evaluation."
+}

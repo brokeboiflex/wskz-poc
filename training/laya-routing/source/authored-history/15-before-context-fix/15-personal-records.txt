@@ -1,0 +1,69 @@
+payroll-044
+Po zmianie nazwiska proszę zaktualizować moją dokumentację zatrudnienia.
+Moje nazwisko uległo zmianie. Chcę, aby aktualne dane znalazły się w dokumentach dotyczących zatrudnienia. Proszę wprowadzić zmianę na podstawie przekazanego potwierdzenia.
+Proszę zmienić nazwisko w mojej dokumentacji zatrudnienia. Służbowy adres pocztowy już poprawiono i działa. Dokumenty pracownicze nadal wymagają aktualizacji.
+W nowym dokumencie widnieje zapis: „Nazwisko po zmianie”. Proszę na tej podstawie uaktualnić nazwisko w aktach związanych z moim zatrudnieniem.
+Zmieniłam nazwisko. Zaktualizujecie je w dokumentach zatrudnienia? Potwierdzenie mam przygotowane.
+
+payroll-045
+Proszę poprawić mój adres zamieszkania w aktach pracowniczych.
+W dokumentacji pracownika nadal widnieje poprzedni adres, choć przekazałam aktualny. Proszę skorygować dane zamieszkania w moich aktach.
+Uszkodzony zasilacz został wymieniony. Chciałbym poprawić adres zamieszkania zapisany w aktach pracownika, ponieważ obecny wpis jest nieaktualny.
+Na podglądzie akt widzę rubrykę „Adres zamieszkania” z poprzednimi danymi. Proszę poprawić ten adres w dokumentacji pracowniczej.
+W aktach pracownika mam stary adres mieszkania. Poprawicie go na aktualny?
+
+payroll-046
+Proszę o zaświadczenie o zatrudnieniu potrzebne do wynajęcia mieszkania.
+Właściciel mieszkania prosi o potwierdzenie, że pracuję. Potrzebuję zaświadczenia o zatrudnieniu do przedstawienia przy wynajmie. Proszę je wystawić.
+Chciałabym otrzymać zaświadczenie o zatrudnieniu do wynajmu mieszkania. Problem z dostępem do poczty został już naprawiony, mogę odebrać dokument.
+Wynajmujący napisał: „Proszę dostarczyć zaświadczenie o zatrudnieniu”. Potrzebuję tego dokumentu do zawarcia umowy najmu mieszkania.
+Wynajmuję mieszkanie i właściciel chce zaświadczenie, że pracuję. Wystawicie mi je?
+
+payroll-047
+Proszę uzupełnić moje akta osobowe o brakujące świadectwo ukończenia szkoły.
+Otrzymałem informację, że w dokumentacji zatrudnienia nie ma mojego świadectwa szkolnego. Przekazuję brakujący dokument i proszę dołączyć go do akt osobowych.
+Skaner został naprawiony, kopia dokumentu jest czytelna. Proszę uzupełnić moje akta osobowe o brakujące świadectwo ukończenia szkoły, które przekazuję.
+W wykazie braków zapisano: „Świadectwo ukończenia szkoły”. Proszę dołączyć dostarczony przeze mnie dokument do akt osobowych pracownika.
+Brakowało mojego świadectwa szkolnego w aktach pracowniczych. Dostarczam je, dołączycie do dokumentacji?
+
+payroll-050
+Potrzebuję kopii podpisanej przeze mnie umowy o pracę.
+Nie mam swojego egzemplarza zawartej umowy o pracę. Proszę udostępnić kopię podpisanego dokumentu z dokumentacji zatrudnienia.
+Proszę przekazać kopię mojej podpisanej umowy o pracę. Ostatni problem z otwieraniem załączników został rozwiązany i pliki odczytują się prawidłowo.
+W potwierdzeniu zatrudnienia napisano: „Umowa została podpisana przez obie strony”. Proszę o kopię tej podpisanej umowy o pracę.
+Podeślecie kopię mojej podpisanej umowy o pracę? Nie mam swojego egzemplarza.
+
+payroll-051
+Proszę skorygować literówkę w moich danych osobowych na zaświadczeniu pracowniczym.
+Otrzymane zaświadczenie zawiera błąd w pisowni mojego imienia. Potrzebuję poprawnego dokumentu. Proszę skorygować literówkę w danych osobowych.
+Naprawiono już drukarkę i wydruki są wyraźne. Na zaświadczeniu pracowniczym pozostaje jednak literówka w moich danych; proszę poprawić treść dokumentu.
+Na zaświadczeniu w rubryce „Imię” zapisano moje dane z dodatkową literą. Proszę skorygować tę pomyłkę w dokumencie pracowniczym.
+W zaświadczeniu z pracy przekręcono moje imię. Poprawicie literówkę i wydacie poprawny dokument?
+
+payroll-052
+Proszę zaktualizować numer rachunku używany do wypłat mojego wynagrodzenia.
+Zmieniłem konto bankowe i chcę otrzymywać pensję na nowy rachunek. Przekazuję jego numer do aktualizacji danych płatniczych pracownika.
+Zaktualizujcie proszę mój numer konta do wypłat wynagrodzenia. Sprawa wymiany telefonu służbowego jest już zakończona. Nowe dane rachunku przekazuję w formularzu.
+W oświadczeniu wpisałam: „Proszę przekazywać wynagrodzenie na nowy rachunek”. Proszę uaktualnić numer konta w danych do wypłaty pensji.
+Mam nowe konto do pensji. Zmienicie numer rachunku do kolejnych wypłat?
+
+payroll-053
+Jak upoważniona osoba może odebrać za mnie dokument potwierdzający zatrudnienie?
+Nie mogę osobiście odebrać przygotowanego dokumentu zatrudnienia. Chcę upoważnić inną osobę do jego odbioru. Proszę wyjaśnić wymagany sposób postępowania.
+Błąd w dacie na dokumencie został poprawiony. Potrzebuję informacji, jak upoważniona osoba może odebrać za mnie gotowy dokument dotyczący zatrudnienia.
+Pracownica recepcji poinformowała: „Odbiór przez inną osobę wymaga upoważnienia”. Proszę wyjaśnić, jak zorganizować taki odbiór mojego dokumentu zatrudnienia.
+Ktoś ma odebrać za mnie dokument z pracy. Jak to załatwić z upoważnieniem?
+
+payroll-056
+Proszę potwierdzić przyjęcie mojego oświadczenia o danych pracownika.
+Przekazałam oświadczenie z informacjami do dokumentacji pracowniczej. Chciałabym upewnić się, że zostało złożone i odnotowane. Proszę o potwierdzenie.
+Potrzebuję potwierdzenia złożenia oświadczenia o moich danych jako pracownika. Poprzednia prośba o naprawę skanera została zrealizowana; dokument udało się przygotować.
+Przy przekazaniu formularza otrzymałem komunikat: „Dokument dostarczony”. Proszę potwierdzić przyjęcie mojego oświadczenia o danych pracownika do dokumentacji.
+Moje oświadczenie z danymi pracownika dotarło i jest zapisane? Potwierdzicie złożenie?
+
+payroll-057
+Jakich dokumentów brakuje do założenia moich akt osobowych?
+Przekazałem część dokumentów przy zatrudnieniu, ale nie wiem, czy zestaw jest kompletny. Proszę ustalić, co jeszcze muszę dostarczyć do założenia akt osobowych.
+Rozmowę z nowym przełożonym już umówiono. Proszę sprawdzić, jakich dokumentów brakuje do założenia moich akt osobowych przy zatrudnieniu.
+W wiadomości otrzymałam informację: „Dokumentacja do akt osobowych jest niekompletna”. Proszę wskazać brakujące dokumenty potrzebne do ich założenia.
+Co jeszcze mam donieść, żeby założyć moje akta pracownicze? Sprawdzicie, czego brakuje?

@@ -1,0 +1,13 @@
+{
+  "id": "other/supplier-offer/conversation_history",
+  "family": "other/supplier-offer",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDzień dobry, reprezentuję dostawcę materiałów opakowaniowych i chciałbym przedstawić ofertę pudeł kartonowych dla Państwa firmy. Proszę o wskazanie osoby odpowiedzialnej za zakupy tego rodzaju produktów. Nie ubiegam się o zatrudnienie, tylko o możliwość nawiązania współpracy handlowej.\n\nMamy kilka standardowych rozmiarów i możliwość przygotowania próbnego zestawu do oceny. Zanim prześlę katalog, chciałbym upewnić się, że trafi do osoby zajmującej się zaopatrzeniem. Jeśli firma nie kupuje takich materiałów, wystarczy krótka odpowiedź.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.2759595419920515,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8488b92b52d06b5f2c151c28c9cc7903361b12eeb6e3396b81af28a3619a9487",
+  "response_sha256": "50f82a2d3473e60085fcf479e8ff0afe0671fdcaf6d49ceb012da472a640fea8"
+}

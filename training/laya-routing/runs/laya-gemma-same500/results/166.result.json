@@ -1,0 +1,13 @@
+{
+  "id": "payroll/schedule-record/base",
+  "family": "payroll/schedule-record",
+  "message": "Zamieniłem się ze współpracownikiem terminami dyżurów za zgodą kierownika. Grafik roboczy został poprawiony, ale w zestawieniu do rozliczenia nadal widać pierwotny układ. Proszę wyjaśnić, jak przekazać zatwierdzoną zmianę, aby ewidencja odpowiadała faktycznie przepracowanym godzinom.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2127746250189375,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "76e0ebfea65a82168d21bed84d959167bc5ffdaf0834761aa70cad3237b202aa",
+  "response_sha256": "9e643cdeb1975960491383c3b403b16e87b5569409f7653cb025776d4b71bf4c"
+}

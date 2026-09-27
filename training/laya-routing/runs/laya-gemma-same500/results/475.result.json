@@ -1,0 +1,13 @@
+{
+  "id": "other/vague-urgent/resolved_postscript",
+  "family": "other/vague-urgent",
+  "message": "To bardzo pilne!!! Sytuacja od rana jest taka sama. Ktoś może się wreszcie tym zająć? Potrzebuję odpowiedzi jeszcze dzisiaj.\n\nPS. Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.2022384160081856,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "97dc9e638169690f2a3aca6be9c0fe8095324d088bafe2dd6390cc6b699f3ae5",
+  "response_sha256": "102c184610f428fb23ced4a4d2ce6a79b2fe1fb6e573339f4024a777ec1ceff5"
+}

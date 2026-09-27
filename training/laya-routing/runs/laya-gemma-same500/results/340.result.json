@@ -1,0 +1,13 @@
+{
+  "id": "it/tls-expiry/base",
+  "family": "it/tls-expiry",
+  "message": "Wszystkie przeglądarki zgłaszają wygasły certyfikat przy otwieraniu firmowego portalu. Problem pojawił się dziś i dotyczy każdego użytkownika, również poza biurem. Proszę odnowić certyfikat na serwerze oraz sprawdzić mechanizm jego automatycznego odnawiania, aby usługa znów była dostępna.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.26208587500150315,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "caa15b9c19fdd8c3bca801235621c1289c2382596cf820e0bc992493e871de1c",
+  "response_sha256": "c32387a96db13cab9d1b819c30729ea8801af50e557ef25ebdfc94c38bc6a55a"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/printer-driver/base",
+  "family": "help_desk/printer-driver",
+  "message": "Zmieniono drukarkę przy naszym pokoju i nie pojawia się ona na liście urządzeń w moim komputerze. Inne osoby już z niej korzystają. Nie mam uprawnień do samodzielnej instalacji sterownika. Proszę o pomoc w dodaniu nowej drukarki do mojego stanowiska.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.20933124999282882,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "dc340a5097949ff797d0e161af1646ec71a8bc4cd65348d1c997f72c33613b35",
+  "response_sha256": "14d2b08e5fb049ae52b323ff3a87f39442bd5ce9881266bf5f048540dc6a48a4"
+}

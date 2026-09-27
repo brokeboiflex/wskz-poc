@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/internship/resolved_preface",
+  "family": "human_resources/internship",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nOsobna, aktualna wiadomość:\nStudiuję logistykę i szukam miejsca na praktyki wakacyjne. Na stronie firmy znalazłem opis zeszłorocznego programu, ale nie widzę aktualnych terminów. Czy w tym roku będą przyjmowani praktykanci i jakie dokumenty kandydat powinien złożyć na początku rekrutacji?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.22503825000603683,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9749121f66278f0ea77d804d55614d80299b7110de07e90f2da1d5d8005fb1b7",
+  "response_sha256": "ec15fba0615ea14d719eaf72fae906b1061f8ef92f9db2fe736f82246d3fb6d4"
+}

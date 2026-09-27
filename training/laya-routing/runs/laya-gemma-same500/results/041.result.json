@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/performance-feedback/quoted_history",
+  "family": "human_resources/performance-feedback",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nOtrzymałam roczną ocenę pracy, z której nie rozumiem kilku uwag dotyczących współpracy. Chciałabym przygotować się do konstruktywnej rozmowy i ustalić mierzalne cele na kolejny okres. Proszę o wsparcie w omówieniu zasad przekazywania informacji zwrotnej oraz możliwości wyjaśnienia tej oceny.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "human_resources",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.2567097909923177,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "95a29f4e2a657d6e675fb7864f88b735b41d2737ffc47117e3cdc01b4ee4d1fb",
+  "response_sha256": "ea1c0ecf89d185d548d023f203c09b1fe132e0766c072683b54a1a94d967a6e3"
+}

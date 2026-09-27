@@ -1,0 +1,13 @@
+{
+  "id": "other/heating-office/resolved_postscript",
+  "family": "other/heating-office",
+  "message": "W naszym pokoju biurowym od rana nie grzeje kaloryfer i jest bardzo zimno. Zawór jest otwarty, a w korytarzu obok ogrzewanie działa. Czy można poprosić obsługę budynku o sprawdzenie tego pomieszczenia? Pracuje tu sześć osób i nie mamy możliwości przeniesienia się dziś do innego pokoju.\n\nPS. Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.22927887499099597,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "94cd396ce9cc143a8fb7abf34f2d5f1bf4bb76153dda495434831bf0263a4619",
+  "response_sha256": "d478b0ed3dc635ea4c5648bc4e7e5704dbe1661d0bb6029ac1b942f949dc4341"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-demand/forwarded_history",
+  "family": "payroll/leave-demand",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZ powodu nagłej sytuacji rodzinnej nie będę dziś obecny w pracy. Przełożony został już powiadomiony telefonicznie. Chciałbym zgłosić dzisiejszy dzień jako urlop na żądanie i upewnić się, czy mam jeszcze dostępny limit oraz jaki dokument powinienem przekazać do ewidencji.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2501747499918565,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "883ab181e1b8b7cc715c5bbfb69bb4e69e2dab7676b1b5081e6a9ce458f80e3d",
+  "response_sha256": "e054906ab77c9700dd9177ceede49b6982aa2c2e174d4438130cc87889ae6f67"
+}

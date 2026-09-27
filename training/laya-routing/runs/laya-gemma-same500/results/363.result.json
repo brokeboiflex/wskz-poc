@@ -1,0 +1,13 @@
+{
+  "id": "it/token-leak/resolved_preface",
+  "family": "it/token-leak",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n\nOsobna, aktualna wiadomość:\nKlucz dostępu do firmowej usługi znalazł się omyłkowo w publicznym repozytorium. Repozytorium jest już ukryte, ale sam klucz nadal może działać. Proszę o natychmiastową obsługę incydentu, rotację ujawnionego poświadczenia oraz sprawdzenie logów pod kątem jego nieuprawnionego użycia.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.23331675000372343,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6377e061d3d0d76eab71cc512e587a6977239e6f10342808122e9f9a1d929215",
+  "response_sha256": "48e9328e4322877844c549afb5e13dbf8dedbd75b900ab73b41477a162f3930c"
+}

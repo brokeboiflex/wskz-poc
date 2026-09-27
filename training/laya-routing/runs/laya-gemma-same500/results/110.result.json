@@ -1,0 +1,13 @@
+{
+  "id": "payroll/unpaid-leave/base",
+  "family": "payroll/unpaid-leave",
+  "message": "Potrzebuję dwóch tygodni wolnego z powodów osobistych, ale nie chcę wykorzystywać urlopu wypoczynkowego. Chciałabym dowiedzieć się, jak złożyć wniosek o urlop bezpłatny i jakie dane powinien zawierać. Proszę również wskazać, z kim potwierdzić formalny okres takiej nieobecności.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2172680420044344,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3d414617c3a88e04727bfd6abc0c194637371d443de468baf62ae7f17fd22b19",
+  "response_sha256": "eb844960aa68da7bf9727990e132e00b3ce85f527ddb611e0ccc928fbf88ae89"
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:21:43.594272+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages read separately and checked against10 frozen definitions, policy and manual authoring approach. No benchmark/model-score access; request routing only, not legal advice.",
+  "source_sha256": "e0834ab85b2be5cdae349e3c465b8a837b191b0a7a592d493a79a4fbae8cdbe1",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/20-family-leave.txt",
+      "sha256": "e0834ab85b2be5cdae349e3c465b8a837b191b0a7a592d493a79a4fbae8cdbe1"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "payroll-000",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-001",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-032",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-033",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-034",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-037",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-043",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-055",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-058",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "payroll-064",
+      "split": "validation",
+      "label": "payroll",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "Specific leave/documentation or overtime-settlement requests remain intact across all variants. Employment context is carried by clear work references or unambiguous leave/payroll terminology. Histories have concrete closed issues with varied placement; quotations identify their source. No replacement of an explanation, correction, confirmation or application with a different active action.",
+  "limits": [
+    "Initial quality review only, not final training-data acceptance.",
+    "Final semantic/lexical exclusion review remains necessary; no benchmark was read.",
+    "Five variants within a family are correlated."
+  ]
+}

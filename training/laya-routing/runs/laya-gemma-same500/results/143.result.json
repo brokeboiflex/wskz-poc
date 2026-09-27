@@ -1,0 +1,13 @@
+{
+  "id": "payroll/tax-form/resolved_preface",
+  "family": "payroll/tax-form",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nOsobna, aktualna wiadomość:\nNie otrzymałem jeszcze rocznej informacji podatkowej dotyczącej wynagrodzeń z ubiegłego roku. Chciałbym sprawdzić, czy dokument został już przygotowany i na jaki kanał go wysłano. Proszę o pomoc w uzyskaniu kopii, abym mógł skompletować materiały do rozliczenia rocznego.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2292609169962816,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "08462c389a1c746439c1886557ea87f11f5e1d259b277c412c27f845adc36b63",
+  "response_sha256": "c81fabf250f0fb2c8f283ac44569306de94daea5143f533e5c57d96c49c6a723"
+}

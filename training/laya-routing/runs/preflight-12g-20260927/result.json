@@ -1,0 +1,16 @@
+{
+  "optimizer_steps": 2,
+  "microbatches": 32,
+  "trained_weights_saved": false,
+  "production_changed": false,
+  "checkpoint_tensor_bytes": 3861321396,
+  "atomic_checkpoint_plus_best_plus_reserve_bytes": 13305246080,
+  "disk_free_bytes": 111715196928,
+  "disk_gate_passed": true,
+  "four_epoch_train_seconds_estimate": 7821.638169750001,
+  "estimate_excludes_validation_and_checkpoint_io": true,
+  "estimate_only_covers_preflight_sequence_lengths": true,
+  "peak_rss_bytes": 7741759488,
+  "script_sha256": "48694069302fdcc4540a8f2ef7392a0efd68887ffca7b9fff16cf2c00d8103f6",
+  "optimizer_sha256": "0731178ececf0da3b1bb4cd8a2d96e73fbc07c0b7ff8edab4394166f7a371c5d"
+}

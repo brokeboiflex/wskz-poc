@@ -1,0 +1,13 @@
+{
+  "id": "other/film/resolved_preface",
+  "family": "other/film",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n\nOsobna, aktualna wiadomość:\nOrganizuję domowy wieczór filmowy dla znajomych i szukam pogodnej komedii, którą można obejrzeć bez znajomości wcześniejszych części. Proszę o propozycję sposobu wyboru tytułu odpowiedniego dla osób o różnych gustach.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.21679549998953007,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8f0277ab95425ff5fc2ea241645626463241909b4a9af01dceb198dba6579182",
+  "response_sha256": "2daac5731118d94f9b37f50974c50313ea44fbd147b89b43ce79ff3f7438363a"
+}

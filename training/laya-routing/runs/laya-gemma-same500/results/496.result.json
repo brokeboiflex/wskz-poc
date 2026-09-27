@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-change/base",
+  "family": "other/unknown-change",
+  "message": "Trzeba poprawić ten zapis, dalej jest stara wersja. Pisałem o tym wcześniej. Możecie to zmienić i potwierdzić?",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.18848129198886454,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a8e4b5969f5245c803060cdd78065109401ef75b462afce1d80071f63fc90746",
+  "response_sha256": "b00dbdbb0f8b6883a95b566d4fa210e8575a2544a397bf8a7759492a38b8f623"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/referral-process/resolved_postscript",
+  "family": "human_resources/referral-process",
+  "message": "Chciałabym polecić znajomego na otwarte stanowisko programisty. Nie pracował wcześniej w naszej firmie i ma doświadczenie zgodne z ogłoszeniem. Proszę wyjaśnić, jak przekazać jego kandydaturę do rekrutacji i czy powinien najpierw samodzielnie wysłać CV przez formularz.\n\nPS. Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.22267641601501964,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8fbeffb475b7885139ad70a2e7c50170926d4177f98866a6892fc527187470e8",
+  "response_sha256": "91a824427a811a9e9f649ed13d33b5b5455f7895d4d5436c50dbef93798fc0ec"
+}

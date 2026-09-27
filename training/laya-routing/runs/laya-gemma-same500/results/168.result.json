@@ -1,0 +1,13 @@
+{
+  "id": "payroll/part-time-leave/base",
+  "family": "payroll/part-time-leave",
+  "message": "Od początku przyszłego miesiąca zmienia się mój wymiar etatu. Chciałabym sprawdzić, jak wpłynie to na pozostały limit urlopu i sposób wykazywania dni wolnych. Proszę o przeliczenie salda na podstawie podpisanego aneksu i wyjaśnienie wartości widocznej w ewidencji.\n\nCzęść dni wykorzystałam jeszcze przy poprzednim wymiarze czasu pracy. Pozostałą część chcę zaplanować dopiero po wejściu aneksu w życie. Dlatego potrzebuję rozpisania wyliczenia, a nie jedynie wartości końcowej, którą widzę obecnie w portalu.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23021637499914505,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "caf4ff7fe96627c3d3527055f8ace213e539292e88cceaa739a88f818b9ed3c2",
+  "response_sha256": "67cef0fdc551153856bc5b50ea5c3625ddebfcbda3fea21d9f5576d4ef5df12d"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/database-backup-capacity/base",
+  "family": "it/database-backup-capacity",
+  "message": "Repozytorium kopii serwerów osiągnęło limit pojemności i najnowsze zadania nie mają gdzie zapisywać danych. Nie chcemy samodzielnie usuwać istniejących punktów odtworzenia. Proszę o ocenę retencji i zwiększenie dostępnego miejsca w centralnej infrastrukturze backupu.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.18648383300751448,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "930693adb2a9f410718c67387aa0e60a44e56300c6161ba04f80ffe269b9e0b9",
+  "response_sha256": "9117d3dbd16a273fe2b66e54bede93c90d1571c2cafdbeaa547c8e3f3ef17b24"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "it/server-cooling/conversation_history",
+  "family": "it/server-cooling",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nMonitoring pokazuje rosnącą temperaturę w szafie z serwerami, a dwa hosty zaczęły ograniczać wydajność. Proszę o sprawdzenie warunków pracy infrastruktury serwerowej i zabezpieczenie ciągłości usług. Alarm dotyczy pomieszczenia technicznego, nie komfortu pracy w zwykłym pokoju biurowym.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.24459462499362417,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5fdcfc699f3032c98d20a696ad64e0f93df51393854a0651c5b27975effa3228",
+  "response_sha256": "17b00ab6b5d5cd7587eff0d325eebc3ee17495c801c3ae1d6f70113274ec8439"
+}

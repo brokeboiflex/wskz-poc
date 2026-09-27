@@ -1,0 +1,13 @@
+{
+  "id": "it/production-server/quoted_history",
+  "family": "it/production-server",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nSerwer obsługujący główną aplikację przestał odpowiadać. Użytkownicy z wszystkich działów widzą komunikat o niedostępności, a monitoring przestał otrzymywać odpowiedzi z hosta. Proszę o pilną diagnostykę serwera i przywrócenie usługi zgodnie z procedurą obsługi awarii produkcyjnych.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.25547262499458157,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "60c86c0083e2c80db4f5e7c90b0868591c3d85521d30ba678fe1d66b50f923d1",
+  "response_sha256": "a8ab82810e01a6743d963505d952220493ad623fc73d6c87104043debc3b784d"
+}

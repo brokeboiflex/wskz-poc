@@ -1,0 +1,69 @@
+it-092
+Link do danych klientów działa publicznie nawet po wylogowaniu.
+Otworzyłem adres w sesji bez logowania i nadal mogłem zobaczyć dane klientów. Proszę zareagować na ujawnienie informacji oraz zabezpieczyć dostęp.
+Proszę sprawdzić publiczny dostęp do danych klientów po wylogowaniu. Mój problem z drukowaniem już usunięto. Link nadal ujawnia informacje osobom bez konta.
+Koleżanka potwierdziła: „Po wylogowaniu nadal widzę dane klientów pod tym linkiem”. Proszę podjąć reakcję na ujawnienie danych.
+Dane klientów są pod linkiem nawet bez logowania. Zajmiecie się tym publicznym ujawnieniem?
+
+it-093
+Poufny dokument służbowy wysłano omyłkowo nieuprawnionemu odbiorcy.
+Plik zawierający wewnętrzne informacje trafił do osoby, która nie powinna go otrzymać. Proszę zareagować na ujawnienie poufnego dokumentu i ograniczyć skutki.
+Rozliczenie mojego urlopu już poprawiono. Zgłaszam omyłkowe wysłanie poufnego dokumentu służbowego nieuprawnionej osobie i proszę o reakcję incydentową.
+Odbiorca odpisał: „Ten poufny dokument nie był przeznaczony dla mnie”. Proszę zająć się omyłkowym ujawnieniem danych służbowych.
+Poufny plik z pracy poszedł przez pomyłkę do osoby bez uprawnień. Potrzebna reakcja na ujawnienie.
+
+it-094
+Portal przez wspólną pamięć podręczną pokazuje odbiorcy fragment cudzej faktury.
+Użytkownik widzi część dokumentu innej osoby, ponieważ portal korzysta z niewłaściwie współdzielonego cache. Proszę zbadać ujawnienie danych faktury i zabezpieczyć usługę.
+Proszę zareagować na cudzą fakturę widoczną przez współdzielony cache portalu. Moja klawiatura już działa po naprawie. Zgłaszam ujawnienie danych odbiorcy.
+Odbiorca napisał: „Widzę kawałek faktury innej osoby”. Przyczyną jest wspólna pamięć podręczna firmowego portalu. Proszę zająć się ujawnieniem danych.
+Portal pokazuje klientowi fragment cudzej faktury przez wspólny cache. Sprawdzicie wyciek danych?
+
+it-095
+Konfiguracja zasobu chmurowego ujawniła firmowe pliki osobom z zewnątrz.
+Przez błędne ustawienia dostępu do chmury osoby spoza organizacji mogą odczytać wewnętrzne dokumenty. Proszę zabezpieczyć zasób i zbadać ujawnienie.
+Potwierdzenie wypłaty już dostałam. Proszę zareagować na błędną konfigurację zasobu chmurowego, która udostępniła pliki przedsiębiorstwa osobom zewnętrznym.
+Audyt chmury wskazuje: „Pliki dostępne dla użytkowników zewnętrznych”. Nie powinny być udostępnione. Proszę zbadać ujawnienie danych firmy przez konfigurację zasobu.
+Źle ustawiona chmura pokazała nasze pliki ludziom z zewnątrz. Potrzebna reakcja na ujawnienie danych.
+
+it-097
+Logi wykazały nieautoryzowany eksport danych pracowników.
+Z systemu wyprowadzono informacje pracownicze bez udzielonej zgody. Zdarzenie jest widoczne w dziennikach. Proszę zbadać incydent i zabezpieczyć dane.
+Proszę zająć się nieuprawnionym eksportem danych pracowników wykrytym w logach. Usterkę mojego laptopa już usunięto. To nowe zgłoszenie naruszenia.
+Dziennik audytu pokazuje: „Eksport danych pracowników bez autoryzacji”. Proszę podjąć reakcję na wykryte wyprowadzenie danych.
+W logach znaleziono eksport danych pracowników bez zgody. Sprawdzicie ten incydent?
+
+it-098
+Panel administracyjny ujawnia dane bez wymagania uwierzytelnienia.
+Można wejść do panelu i odczytać informacje bez zalogowania. Proszę zamknąć nieuprawniony dostęp oraz zbadać ujawnienie danych przez otwarty panel.
+Korekta mojej pensji jest zakończona. Proszę zabezpieczyć panel administracyjny, który pokazuje dane osobom bez uwierzytelnienia.
+Osoba testująca zgłosiła: „Panel pokazuje dane bez logowania”. Proszę zareagować na otwarty dostęp administracyjny i ujawnienie informacji.
+Panel admina jest otwarty i wyświetla dane bez logowania. Zajmiecie się zabezpieczeniem i incydentem?
+
+it-099
+Zgłaszam potwierdzoną kradzież nośnika zawierającego dane służbowe.
+Współpracownik potwierdził, że skradziono mu nośnik z informacjami organizacji. Proszę uruchomić reakcję na możliwe ujawnienie danych z tego urządzenia.
+Proszę podjąć działania po potwierdzonej kradzieży nośnika z danymi służbowymi. Termin szkolenia już ustalono. Zgłoszenie dotyczy bezpieczeństwa utraconych informacji.
+Współpracownik napisał: „Skradziono mi nośnik z danymi firmy”. Kradzież została potwierdzona. Proszę zająć się incydentem dotyczącym tych danych.
+Koledze skradziono nośnik z firmowymi danymi, kradzież potwierdzona. Potrzebna reakcja bezpieczeństwa.
+
+it-100
+Poufny plik z firmowej usługi pojawia się w wynikach publicznej wyszukiwarki.
+Wyszukiwarka indeksuje dokument, który powinien być dostępny tylko wewnętrznie. Proszę zbadać ujawnienie i zabezpieczyć plik w usłudze organizacji.
+Mój lokalny problem z siecią już naprawiono. Proszę zareagować na poufny plik firmowej usługi widoczny w publicznych wynikach wyszukiwania.
+Koleżanka zgłosiła: „Poufny dokument firmy znalazłam w wyszukiwarce”. Proszę sprawdzić ujawnienie pliku z naszej usługi.
+Poufny plik z naszej usługi wyskakuje publicznie w wyszukiwarce. Zajmiecie się wyciekiem?
+
+it-101
+System wykrył masowe kopiowanie informacji przez konto bez uprawnień.
+Alerty wskazują, że nieuprawnione konto pobiera dużą ilość danych organizacji. Proszę zbadać zdarzenie i powstrzymać nieautoryzowane kopiowanie.
+Proszę zareagować na masowe kopiowanie informacji przez nieuprawnione konto. Moje rozliczenie godzin już skorygowano. Zdarzenie zostało wykryte przez monitoring bezpieczeństwa.
+System alarmuje: „Masowe kopiowanie danych przez nieuprawnione konto”. Proszę podjąć reakcję na możliwe wyprowadzenie informacji z organizacji.
+Konto bez uprawnień masowo kopiuje nasze informacje. Monitoring alarmuje, zajmiecie się incydentem?
+
+it-103
+W logach publicznego serwisu przypadkowo ujawniono sekret aplikacji.
+W dostępnych logach znalazła się poufna wartość uwierzytelniająca aplikację. Proszę zabezpieczyć ujawniony sekret i zbadać skutki jego publikacji.
+Zaświadczenie pracownicze już odebrałem. Proszę zareagować na sekret aplikacji, który przypadkowo trafił do logów publicznego serwisu.
+Audyt zgłosił: „Sekret aplikacji widoczny w publicznych logach”. Proszę zająć się ujawnieniem i zabezpieczyć ten dostęp.
+Sekret aplikacji przez pomyłkę poleciał do publicznych logów. Potrzebna reakcja na ujawnienie.

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/harassment-procedure/base",
+  "family": "human_resources/harassment-procedure",
+  "message": "Potrzebuję informacji, jak zgłosić powtarzające się niestosowne wiadomości od współpracownika. Nie chcę przesyłać ich do całego zespołu ani omawiać sprawy na ogólnym spotkaniu. Proszę wskazać osobę do poufnego kontaktu i wyjaśnić, w jaki sposób dokumentować zdarzenia.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2153925829916261,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7c219d7c3bd858d39144d8cc143fc280d2e2e133b688d0f61c5230b9b7a76d3f",
+  "response_sha256": "6187f7014ded73edd471f36381a668ae2d0e6cea3aac77775525becf755666c3"
+}

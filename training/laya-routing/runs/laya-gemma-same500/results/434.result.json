@@ -1,0 +1,13 @@
+{
+  "id": "other/delivery-personal/base",
+  "family": "other/delivery-personal",
+  "message": "Czekam na paczkę z prezentem dla członka rodziny, a numer śledzenia od kilku dni pokazuje ten sam status. Chciałbym dowiedzieć się, jakie informacje przygotować przed kontaktem z przewoźnikiem.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.18432954099262133,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c5c11555a28ac9f2315fdf19a90dcb5dde956e37622446c55b1b2324d29c5721",
+  "response_sha256": "a10238029ed807aca1866b03455d009bf38efdc807db3af8901441dbdca08eab"
+}

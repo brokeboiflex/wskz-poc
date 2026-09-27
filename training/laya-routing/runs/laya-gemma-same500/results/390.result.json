@@ -1,0 +1,13 @@
+{
+  "id": "it/mail-auth/base",
+  "family": "it/mail-auth",
+  "message": "Wiadomości wysyłane z firmowego systemu są odrzucane przez wielu odbiorców z powodu błędnej konfiguracji uwierzytelniania domeny. Proszę o sprawdzenie rekordów SPF, DKIM i DMARC oraz ustawień serwera wysyłkowego. Problem dotyczy wspólnej infrastruktury, a nie programu pocztowego jednej osoby.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.21364695800002664,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0d1a0a1d6146f050797e1d21d44b1b742655cc068ffed9e2de2aa5091a7f043c",
+  "response_sha256": "18da70dedf33a0925a8c695b68cd16bda86a874eb9eaad36871d2adc0ed12ca3"
+}

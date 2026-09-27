@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/assessment-center/base",
+  "family": "human_resources/assessment-center",
+  "message": "W zaproszeniu do kolejnego etapu naboru pojawiła się informacja o zadaniu grupowym i krótkiej prezentacji. Chciałabym wiedzieć, ile potrwa spotkanie i czy należy wcześniej przygotować materiały. Proszę przekazać organizacyjne wskazówki dotyczące tego etapu rekrutacji na stanowisko konsultantki.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.21511354198446497,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "431b189b15729f43b679393df998e2d125d727b7ce15ec39dea0c10f4b09ade1",
+  "response_sha256": "acf2a9e56e4bdd5d0bed8656852a3a218752c2b94aee23dab0366c743c7cc6e7"
+}

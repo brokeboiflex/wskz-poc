@@ -1,0 +1,69 @@
+payroll-006
+Proszę wydać świadectwo pracy po zakończeniu mojego zatrudnienia.
+Moja umowa o pracę już się zakończyła. Nie otrzymałem jeszcze świadectwa pracy, więc proszę przygotować i przekazać ten dokument.
+Proszę o wydanie świadectwa pracy po zakończeniu zatrudnienia. Sprzęt służbowy już zwróciłem i odbiór potwierdzono. Czekam na dokument.
+Były przełożony potwierdził: „Zatrudnienie zakończyło się z końcem miesiąca”. Proszę wydać mi świadectwo pracy dotyczące tego okresu.
+Skończyłem już pracę w firmie. Wydacie mi świadectwo pracy?
+
+payroll-008
+Na moim świadectwie pracy jest błędna data; proszę ją sprostować.
+Otrzymałam świadectwo pracy i zauważyłam nieprawidłowo wpisaną datę zakończenia zatrudnienia. Proszę sprostować dokument według rzeczywistego okresu pracy.
+Zaległą wypłatę już otrzymałem. Potrzebuję sprostowania błędnej daty na wydanym mi świadectwie pracy.
+Na świadectwie w rubryce „Zatrudnienie do” wpisano niewłaściwy dzień. Proszę poprawić tę datę w dokumencie.
+Świadectwo pracy przyszło, ale data jest zła. Sprostujecie ją proszę?
+
+payroll-011
+Gdzie powinno trafić podpisane wypowiedzenie mojej umowy o pracę?
+Mam podpisane wypowiedzenie i potrzebuję ustalić jego formalny obieg u pracodawcy. Proszę wskazać, komu przekazać dokument i jak odnotować przyjęcie.
+Proszę wyjaśnić formalny obieg podpisanego wypowiedzenia umowy o pracę. Drukarka jest już naprawiona, dokument przygotowany. Potrzebuję wiedzieć, gdzie go złożyć.
+Przełożony napisał: „Podpisane wypowiedzenie trzeba przekazać do formalnego obiegu”. Proszę wyjaśnić sposób złożenia tego dokumentu zakończenia zatrudnienia.
+Wypowiedzenie umowy o pracę mam podpisane. Gdzie je przekazać, żeby formalnie trafiło do obiegu?
+
+payroll-014
+Proszę wyjaśnić wyliczenie ekwiwalentu za niewykorzystany urlop przy odejściu z pracy.
+Kończę zatrudnienie i pozostały mi niewykorzystane dni wypoczynku. Chcę zrozumieć kwotę ekwiwalentu wskazaną w końcowym rozliczeniu. Proszę objaśnić obliczenie.
+Problem z otwarciem rozliczenia został usunięty. Proszę wyjaśnić wyliczenie ekwiwalentu za niewykorzystany urlop, wypłacanego przy moim odejściu.
+W rozliczeniu końcowym widnieje pozycja „Ekwiwalent za urlop”. Proszę wyjaśnić, jak obliczono kwotę za niewykorzystane dni przy zakończeniu zatrudnienia.
+Odchodzę z pracy i mam ekwiwalent za zaległy urlop. Wyjaśnicie, jak policzono tę kwotę?
+
+payroll-017
+Proszę przygotować dokument rozwiązania umowy o pracę za porozumieniem stron.
+Uzgodniliśmy z pracodawcą zakończenie zatrudnienia za wspólnym porozumieniem. Potrzebny jest dokument formalizujący ustalenie. Proszę go sporządzić.
+Potrzebuję dokumentu rozwiązania umowy o pracę za porozumieniem stron. Zdanie służbowego telefonu zostało już potwierdzone. Proszę przygotować dokument zgodnie z ustaleniami.
+Pracodawca potwierdził: „Zgadzamy się na rozwiązanie umowy za porozumieniem stron”. Proszę przygotować dokument kończący zatrudnienie w tym trybie.
+Mamy zgodę obu stron na zakończenie umowy o pracę. Przygotujecie porozumienie do podpisu?
+
+payroll-019
+Potrzebuję duplikatu świadectwa pracy wystawionego kilka lat temu.
+Pracowałem w organizacji w przeszłości i zgubiłem otrzymane wtedy świadectwo. Proszę o wydanie duplikatu tego dokumentu sprzed kilku lat.
+Błędny adres do korespondencji został już poprawiony. Proszę wydać duplikat mojego świadectwa pracy dotyczącego zatrudnienia sprzed kilku lat.
+Nowy pracodawca poprosił: „Proszę dostarczyć świadectwo z tamtego okresu”. Oryginał sprzed kilku lat zaginął, dlatego proszę o duplikat świadectwa pracy.
+Zgubiłem stare świadectwo pracy, sprzed paru lat. Pomożecie uzyskać duplikat?
+
+payroll-020
+Proszę sprawdzić rozliczenie ostatniej wypłaty po rozwiązaniu mojej umowy o pracę.
+Zatrudnienie już się zakończyło i otrzymałam końcowe wynagrodzenie. Chcę upewnić się, że zostało prawidłowo rozliczone. Proszę zweryfikować ostatnią wypłatę.
+Sprawdźcie proszę moje ostatnie wynagrodzenie po rozwiązaniu umowy o pracę. Świadectwo już odebrałam, więc tamten temat jest zakończony. Potrzebuję weryfikacji wypłaty.
+W opisie przelewu jest: „Rozliczenie końcowe po ustaniu zatrudnienia”. Proszę sprawdzić poprawność mojej ostatniej wypłaty.
+Umowa o pracę już rozwiązana, ostatnia pensja przyszła. Sprawdzicie, czy końcowe rozliczenie jest poprawne?
+
+payroll-048
+Proszę potwierdzić datę końca okresu wypowiedzenia mojej umowy o pracę.
+Złożyłam wypowiedzenie i chcę mieć pewność, którego dnia upływa jego okres. Proszę potwierdzić dokładną datę zakończenia zatrudnienia wynikającą z wypowiedzenia.
+Problem z pocztą został naprawiony. Potrzebuję potwierdzenia, kiedy kończy się okres wypowiedzenia mojej umowy o pracę.
+W potwierdzeniu zapisano: „Wypowiedzenie zostało przyjęte”. Proszę wskazać datę końca obowiązującego mnie okresu wypowiedzenia umowy o pracę.
+Potwierdzicie konkretną datę końca mojego wypowiedzenia z pracy? Chcę wiedzieć, kiedy formalnie kończę.
+
+payroll-049
+Jak odebrać dokumentację pracowniczą po ustaniu zatrudnienia?
+Nie jestem już pracownikiem organizacji. Potrzebuję informacji o formalnościach związanych z odbiorem dokumentacji po zakończeniu pracy. Proszę wyjaśnić procedurę.
+Proszę wskazać formalności odbioru dokumentów po ustaniu mojego zatrudnienia. Rozliczenie zwrotu identyfikatora jest zamknięte i odbiór potwierdzono.
+Były przełożony napisał: „Dokumentacja po zakończeniu zatrudnienia jest do odbioru”. Proszę wyjaśnić, jakie formalności muszę spełnić, żeby ją odebrać.
+Już nie pracuję w firmie. Jak formalnie odebrać dokumenty po zakończeniu zatrudnienia?
+
+payroll-054
+Proszę poprawić informację o wykorzystanych nieobecnościach na moim świadectwie pracy.
+Świadectwo pracy wskazuje nieprawidłową liczbę wykorzystanych dni nieobecności. Proszę porównać zapis z ewidencją i skorygować dokument.
+Ostatnie wynagrodzenie zostało wyrównane. Na świadectwie pracy nadal jest błędna informacja o wykorzystanych nieobecnościach; proszę ją poprawić.
+W rubryce świadectwa „Wykorzystane nieobecności” podano niezgodne dane. Proszę skorygować tę część dokumentu według ewidencji mojego zatrudnienia.
+Na świadectwie pracy źle wpisano wykorzystane nieobecności. Poprawicie dane zgodnie z ewidencją?

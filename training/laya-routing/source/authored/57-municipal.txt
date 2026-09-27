@@ -1,0 +1,69 @@
+other-076
+Kiedy z osiedla odbierane będą odpady wielkogabarytowe?
+Mam stare meble do wyrzucenia jako mieszkaniec. Proszę podać termin odbioru gabarytów w naszej okolicy.
+Proszę o datę odbioru gabarytów z osiedla. Mój komputer już naprawiono; pytam jako mieszkaniec.
+Spółdzielnia napisała: „Odbiór gabarytów w wyznaczonym terminie”. Jaka jest data zbiórki?
+Kiedy zabierają gabaryty z naszego osiedla?
+
+other-082
+Zgłaszam uszkodzoną ławkę w miejskim parku.
+Siedzisko publicznej ławki jest połamane. Proszę przekazać zgłoszenie do naprawy wyposażenia parku.
+Moje logowanie już działa. Proszę naprawić uszkodzoną ławkę w miejskim parku.
+Sąsiadka zgłosiła: „Ławka w parku ma połamane siedzisko”. Proszę zająć się naprawą publicznej ławki.
+Ławka w miejskim parku jest rozwalona. Zgłosicie naprawę?
+
+other-083
+Proszę wspólnotę mieszkaniową o harmonogram zebrania.
+Jestem właścicielem mieszkania i chcę uczestniczyć w spotkaniu wspólnoty. Proszę przesłać jego harmonogram.
+Podeślecie harmonogram zebrania wspólnoty mieszkaniowej? Rozliczenie mojej pensji już poprawiono.
+Zarząd wspólnoty napisał: „Planowane jest zebranie mieszkańców”. Proszę o harmonogram tego spotkania.
+Macie plan zebrania naszej wspólnoty mieszkaniowej?
+
+other-086
+Jakie są godziny otwarcia biblioteki publicznej?
+Chcę wypożyczyć książkę jako mieszkaniec. Proszę podać, kiedy mogę odwiedzić bibliotekę publiczną.
+Drukarka już naprawiona. Prywatnie pytam o godziny otwarcia miejskiej biblioteki.
+Na stronie widzę: „Biblioteka publiczna zaprasza”. W jakich godzinach jest czynna?
+Do której dziś działa biblioteka publiczna?
+
+other-090
+Latarnia na osiedlu nie świeci; proszę zgłosić usterkę.
+Po zmroku część chodnika jest ciemna przez niedziałającą lampę uliczną. Proszę zająć się oświetleniem osiedla.
+Proszę naprawić latarnię osiedlową. Mój problem z pocztą już rozwiązano. To zgłoszenie mieszkańca dotyczące ulicy.
+Sąsiad napisał: „Latarnia przy chodniku nie działa”. Proszę zgłosić naprawę oświetlenia osiedla.
+Latarnia na osiedlu padła. Załatwicie zgłoszenie usterki?
+
+other-099
+Gdzie jako mieszkaniec mogę złożyć wniosek paszportowy?
+Chcę wyrobić paszport dla siebie. Proszę wskazać miejsce przyjmowania wniosków w mojej okolicy.
+Zaświadczenie pracownicze już dostałam. Pytam prywatnie, gdzie złożyć wniosek o paszport.
+W informacji urzędowej napisano: „Wniosek złóż osobiście”. Gdzie mogę złożyć dokumenty paszportowe?
+Gdzie mam iść z wnioskiem o paszport?
+
+other-108
+Proszę o informacje o przerwie w dostawie wody na osiedlu.
+W mieszkaniach nie ma wody. Chciałbym wiedzieć, czego dotyczy przerwa i kiedy dostawy wrócą.
+Kiedy wróci woda na osiedlu? Wypłatę już wyjaśniono; pytam jako mieszkaniec o dostawy wody.
+Ogłoszenie mówi: „Przerwa w dostawie wody”. Proszę o szczegóły dotyczące naszego osiedla.
+Nie ma wody na osiedlu. Wiecie coś o tej przerwie?
+
+other-113
+Jak zapisać się na miejskie zajęcia sportowe?
+Chcę uczestniczyć rekreacyjnie w zajęciach organizowanych przez miasto. Proszę o informacje dotyczące zapisów mieszkańców.
+Mój laptop już naprawiono. Proszę o informację, jak dołączyć do miejskich zajęć sportowych.
+Plakat informuje: „Zapraszamy mieszkańców na zajęcia sportowe”. Gdzie i jak się zapisać?
+Jak się zapisać na sportowe zajęcia miasta?
+
+other-115
+Publiczny kosz na śmieci jest przepełniony; proszę go opróżnić.
+Odpady wysypują się na chodnik przy miejskim koszu. Proszę zgłosić potrzebę jego opróżnienia.
+Proszę opróżnić przepełniony publiczny kosz przy chodniku. Problem z moim komputerem już usunięto.
+Sąsiadka zgłosiła: „Śmieci wysypują się z miejskiego kosza”. Proszę zorganizować jego opróżnienie.
+Kosz przy publicznym chodniku jest pełny po brzegi. Zgłosicie opróżnienie?
+
+other-117
+Kiedy odbędzie się lokalny festyn sąsiedzki?
+Chcę przyjść z rodziną na spotkanie mieszkańców. Proszę podać datę festynu w naszej okolicy.
+Moje rozliczenie urlopu jest zakończone. Pytam o termin lokalnego festynu sąsiedzkiego.
+Ogłoszenie zapowiada: „Festyn dla sąsiadów”. Jaki jest termin tego wydarzenia?
+Kiedy jest ten nasz sąsiedzki festyn?

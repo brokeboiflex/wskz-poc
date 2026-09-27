@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 10.305784166994272,
+  "response_sha256": "9bbeb6bf9327644f7c3b04cbcc374373c913d1170875cc75212f993fd9074a4b",
+  "request_sha256": "ef28737bad2c6b00a8fa01a9502f958c827d9e5184f317370c3ca83f26ae5738",
+  "messages": [
+    {
+      "style": "short",
+      "message": "Potrzebuję zgody kandydata na weryfikację referencji teraz."
+    },
+    {
+      "style": "context",
+      "message": "Potrzebuję potwierdzić zgodę kandydata na weryfikację referencji. Ta procedura jest konieczna przed formalnym rozpoczęciem procesu rekrutacyjnego. Proszę o udzielenie wymaganej zgody w tej sprawie."
+    },
+    {
+      "style": "resolved_history",
+      "message": "Wcześniej ustaliliśmy kwestię dokumentacji kandydata. Obecnie muszę uzyskać formalną zgodę na weryfikację referencji. Proszę o niezwłoczne potwierdzenie tej zgody."
+    },
+    {
+      "style": "quotation",
+      "message": "„Weryfikacja referencji kandydata za jego zgodą.” Proszę o zgodę kandydata na weryfikację referencji. Musimy to zrobić, aby kontynuować proces rekrutacji."
+    },
+    {
+      "style": "informal",
+      "message": "Trzeba sprawdzić zgodę kandydata na referencje. Proszę o to potwierdzenie jak najszybciej."
+    }
+  ]
+}

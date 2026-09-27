@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-balance/base",
+  "family": "payroll/leave-balance",
+  "message": "W zestawieniu urlopowym widzę cztery dni mniej, niż wynika z moich zapisów. Ostatni wniosek został odwołany przed rozpoczęciem wolnego, ale chyba nadal obciąża saldo. Proszę sprawdzić naliczenie dostępnych dni i wyjaśnić, które nieobecności uwzględniono w tegorocznym limicie.\n\nDla ułatwienia podaję przebieg sprawy. Najpierw złożyłam wniosek na cztery dni, który został zatwierdzony. Jeszcze przed rozpoczęciem nieobecności uzgodniłam z kierownikiem jego anulowanie, ponieważ zmienił się termin mojego prywatnego wyjazdu. W te dni normalnie pracowałam i jestem wykazana na liście obecności.\n\nW portalu widzę teraz jednocześnie anulowany wniosek oraz pomniejszony limit. Odświeżenie widoku niczego nie zmienia, a pobrane zestawienie pokazuje tę samą wartość. Mam potwierdzenie odwołania i mogę je przekazać wraz z zatwierdzeniem przełożonego. Przed złożeniem następnego wniosku chciałabym poznać właściwe saldo, aby nie rezerwować terminu na podstawie błędnych danych.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.34248675001435913,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8dc94a0ffc996a787b69e7ca23481184bccf051c67f8a8e31635cbb860b52135",
+  "response_sha256": "e1f5df10a9e5a2e69c5651ceba372dec761330464a6f64ad53616b51ab8f90a6"
+}

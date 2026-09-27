@@ -1,0 +1,13 @@
+{
+  "id": "payroll/medical-absence-record/base",
+  "family": "payroll/medical-absence-record",
+  "message": "Na zestawieniu obecności widzę nieusprawiedliwioną nieobecność za dni objęte wystawionym zwolnieniem. Przełożony zna sytuację, ale zapis nie został zmieniony. Proszę sprawdzić, czy informacja o zwolnieniu dotarła do pracodawcy i czy okres zostanie prawidłowo uwzględniony przy rozliczeniu.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19867991699720733,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "18207b2900f44fc3606c138c4a4f7d0dca90436309fbdb748f4503d1065feee3",
+  "response_sha256": "61b48d6a202e6c45ff20c2e22ef30bf42fe07821047a78ee4de18c6b8006cb89"
+}

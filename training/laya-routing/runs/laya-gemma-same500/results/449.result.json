@@ -1,0 +1,13 @@
+{
+  "id": "other/recycling/forwarded_history",
+  "family": "other/recycling",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPorządkuję mieszkanie i mam opakowania złożone z papieru oraz folii, których nie potrafię rozdzielić. Chciałabym wiedzieć, jak sprawdzić właściwy sposób ich segregacji w swojej gminie. Czy możecie wskazać, gdzie szukać informacji?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nMój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.27482883297489025,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "579245c00bedd3972f5a5be85f2eac504c64dacbae065b4fd72964334c06a398",
+  "response_sha256": "100607720ae4520b7f44dd6ba6452582a928bde679ca6bda6eabf228192f5732"
+}

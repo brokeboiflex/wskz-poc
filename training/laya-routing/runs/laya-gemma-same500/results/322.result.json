@@ -1,0 +1,13 @@
+{
+  "id": "it/database-down/base",
+  "family": "it/database-down",
+  "message": "Aplikacje korzystające ze wspólnej bazy przestały zapisywać dane. Błędy występują równocześnie w kilku usługach i wskazują na brak połączenia z serwerem bazy danych. Proszę o sprawdzenie jego stanu, dostępności dysków oraz procesu bazy przed wznowieniem operacji biznesowych.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.1937229169998318,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2457f7273ac59bddc6feb3ea54e0bf3f68c163433531d675d5b788e3e30daae2",
+  "response_sha256": "648e0e7f48e71f4a4970677f9c14b7c12ebd5c34c893dee3abead617aba81261"
+}

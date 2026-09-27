@@ -1,0 +1,13 @@
+{
+  "id": "it/load-balancer/base",
+  "family": "it/load-balancer",
+  "message": "Użytkownicy trafiają losowo na niedziałającą instancję aplikacji, mimo że druga odpowiada poprawnie. Wygląda na to, że load balancer nadal kieruje ruch do uszkodzonego węzła. Proszę o sprawdzenie testów zdrowia i konfiguracji rozdzielania ruchu w środowisku produkcyjnym.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19471679101116024,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "979d49ec7cfb161d9f0ae7dcd3162dcae7c38c21aa337f08e3794b40b2566fbe",
+  "response_sha256": "08d74673fd2c7d28d1f63c6b116b44c860cb189332de9a6b12ba7dbc7e999c04"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/learning-platform-content/base",
+  "family": "human_resources/learning-platform-content",
+  "message": "Mam dostęp do platformy szkoleniowej i wszystkie materiały otwierają się poprawnie. Nie wiem jednak, które kursy wybrać przed objęciem roli opiekuna klienta. Proszę o wskazanie ścieżki nauki i obowiązkowych modułów, które najlepiej przygotują mnie do nowych zadań.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2069439580081962,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1009867d84c017be2950b69ff74427a491cf55bf4fcabd5e671cb9d69831a3dd",
+  "response_sha256": "4d553038068b8222d68ed127017b77208cc2c7c73a37c6689fb2d9a04624f0cd"
+}

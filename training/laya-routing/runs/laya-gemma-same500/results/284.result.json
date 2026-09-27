@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/phone-mail/base",
+  "family": "help_desk/phone-mail",
+  "message": "Po otrzymaniu nowego służbowego telefonu nie mogę dodać konta pocztowego. Hasło pozwala zalogować się w przeglądarce, ale aplikacja mobilna zatrzymuje się na ekranie konfiguracji. Proszę o pomoc w ustawieniu poczty na tym urządzeniu i sprawdzenie synchronizacji wiadomości.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19134104100521654,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9fb2b0781735bea4cd18602eb30d4080ff94a1c0dd037f85401df6557c0593d7",
+  "response_sha256": "a8b15bba577e5e138192bb267bdd069c1c3aa46c465e5551342ea6ef6f5d00b6"
+}

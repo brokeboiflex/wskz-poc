@@ -1,0 +1,13 @@
+{
+  "id": "it/server-patching/base",
+  "family": "it/server-patching",
+  "message": "Mamy zatwierdzone okno serwisowe na aktualizację systemów serwerowych w najbliższy weekend. Proszę przygotować kolejność prac, sprawdzić kopie i przeprowadzić aktualizacje zgodnie z uzgodnionym planem. Po zakończeniu potrzebujemy potwierdzenia działania usług udostępnianych całej firmie.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.21365358398179524,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9ddf75b8ceb8534f2f2fd4ba93c4ccab02137008a7bc5854c318fa27df24aaf0",
+  "response_sha256": "7e8562de0de51fc35efc723f727698463bd89a3f244d653929003c2828ccb66b"
+}

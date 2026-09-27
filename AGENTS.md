@@ -1,5 +1,13 @@
 # Message router PoC
 
+README zawiera końcowe porównanie jakości/szybkości i granice dowodów sprzętowych. Nie podawać współczynnika oszczędności RAM Laya/Gemma: brak porównywalnego pomiaru. Historyczne1,926 GiB to bazowa Laya, nie obecne FP32; Qwen nie jest Gemmą.
+
+Nowy test regresji na tych samych500 co Gemma ukończony: Laya epoka1 **432/500 (86,4%)**, Gemma493/500 (98,6%);0 błędów protokołu obu. Wybrano epokę1 wyłącznie po walidacji. Bez treningu i ponowień; kontenery zatrzymane. Raport i procedura: `training/laya-routing/runs/laya-gemma-same500/README.md` względem katalogu PoC. Wcześniejsze stwierdzenie o niewykonanym starym benchmarku jest historyczne.
+
+Walidacja epoki2 dokończona na wyraźne polecenie użytkownika: **443/500 (88,6%)**, macro-F1 0,882589. Epoka1:447/500 (89,4%). Wznowiono tylko przypadki386–499, bez ponowień wcześniejszych. Bez kolejnego treningu, krytyka i dodatkowych testów. Kontenery zatrzymane, wagi zachowane. Końcowy test i stary benchmark niewykonane. Wcześniejsze przerwanie walidacji było błędną interpretacją polecenia użytkownika.
+
+Poniżej historia wcześniejszych etapów.
+
 Gemma work accepted as complete. Gemma is now the default; Qwen weights removed and all PoC containers stopped. [Delivered work, cleanup, validation and restart](docs/GEMMA_COMPLETION.md). Historical checkpoints below describe their original runtime.
 
 Final Gemma500 evaluation completed 2026-09-27: **493/500 correct (98.6%), 7 wrong routes, 0 missing/invalid native calls**. All500 first attempts, no retries or mail. Previous score471/500;27 old failures fixed,2 remain,5 new regressions. All raw responses and seven failure bundles saved; offline audit passed and1866 prior hashes unchanged. Synthetic regression evidence, not held-out/general application acceptance. [Results, failures and repeat procedure](docs/evidence/2026-09-27/gemma-final-500/README.md). No further run is implicit.
@@ -14,11 +22,36 @@ Laya generalization request (2026-09-27): user approved with "Dajesz". Read
 [the approved approach](docs/LAYA_GENERALIZATION_APPROACH.md) before training
 or evaluation. It excludes the existing 500 cases from training/model selection,
 requires a separate frozen test, and preserves Gemma and historical evidence.
-Resource preflight is blocked: serial AdamW completed one transient update, then
-steady-state probe OOMed during step two at a 6500 MiB limit. Disk checkpoint
-budget also fails. No trained weights saved, full corpus or 500-case evaluation.
-See [evidence and resume conditions](training/laya-routing/README.md). Do not
-change the method or use the old benchmark for model selection.
+Resource preflight now passes after the user freed resources: two complete
+FP32 AdamW updates at a 10 GiB container limit, Docker memory 12 GiB, peak
+RSS 7.21 GiB, checkpoint disk gate passed. Previous failed probes preserved.
+An initial manual draft was rejected for semantic family overlap and preserved
+under training/laya-routing/drafts/; the replacement corpus is now accepted.
+The user approved local Gemma authorship with "Ok do it". Follow
+[the generation approach](training/laya-routing/DATA_GENERATION_PROPOSAL.md).
+The600-family/60-group plan is accepted after13 replacements and a final
+exclusion review (`source/exclusion-scenario-review-v3.json`). All18 local
+Gemma authoring responses were preserved/audited, but no corpus accepted:
+intent drift and weak quotation/history variants persisted through v1-v6.
+The user approved manual authorship and immediate training: "Tak potem od razu trenuj".
+Follow [the approved manual approach](training/laya-routing/MANUAL_AUTHORING_APPROACH.md).
+Latest user correction: save tokens and do not run another critic. No further
+agents/reviews by a critic. All3000 texts are complete:2500 independently reviewed,
+500 author-reviewed with this limitation explicit in `data/acceptance.json`.
+Authored source, hash-bound reviews and preserved rejected versions
+are under `source/authored/`, `source/authored-reviews/`, `source/authored-history/`.
+The collector requires all600 families and current reviews; build rechecks the
+source/review/policy/code chain. Full3000 lexical audit and tokenization passed,
+zero truncations; frozen2000/500/500. Epoch1 finished with447/500 validation matches (89.4%), macroF1 .893358,0 protocol errors. Epoch2 is running in
+`wskz-laya-train-epoch2`, work/checkpoints under `work/run-20260927/`.
+The task-owned Gemma author server
+remains stopped; its rejected output is not training data.
+Trainer/evaluator/selector are prepared. Full Laya/AdamW save/reload and
+safetensors tensor parity passed in `training/laya-routing/runs/checkpoint-probe-20260927/`
+(peakRSS8.34GiB). Live export/API parity and final evaluation remain pending.
+No new500-case score yet. Do not change hash-bound training code/data during the run.
+[Runbook](training/laya-routing/RUNBOOK.md), [evidence](training/laya-routing/README.md).
+Do not use the old benchmark for model selection.
 
 Completed full Gemma check (2026-09-27 local time): **471/500 correct (94.2%)**, 24 wrong routes and 5 missing native calls. All 29 failures retain full requests and raw responses, plus individual debug bundles. All 77 manual review gates and offline audits pass. The earlier 147 outcomes reproduce exactly. No retries, tuning, tool execution or mail. Previous evidence, generic agent and Compose are unchanged. This is synthetic model transport/routing evidence, not full application acceptance.
 [Results, failures and repeat procedure](docs/evidence/2026-09-26/gemma-patched-500/README.md). No further run is implicit.

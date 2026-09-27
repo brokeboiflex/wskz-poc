@@ -1,0 +1,13 @@
+{
+  "id": "payroll/care-leave/base",
+  "family": "payroll/care-leave",
+  "message": "W tym miesiącu wykorzystałam jeden dzień opieki nad dzieckiem, a w zestawieniu pojawiły się dwa. Proszę zweryfikować zapis na podstawie mojego wniosku i poprawić pozostały limit. Zależy mi na prawidłowej ewidencji przed planowaniem kolejnej nieobecności w przyszłym miesiącu.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19073883301462047,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cedbcb05b76eeaaa64127060708716d584f942bd13f54f80464fb2887cf2031c",
+  "response_sha256": "495fa7d27bb79ce322a85e2e6e19818e9bce890ef4a48813ecf43e8c2cfa022f"
+}

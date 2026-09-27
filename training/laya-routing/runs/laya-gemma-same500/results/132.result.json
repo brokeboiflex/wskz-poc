@@ -1,0 +1,13 @@
+{
+  "id": "payroll/salary-overpayment/base",
+  "family": "payroll/salary-overpayment",
+  "message": "Na moje konto wpłynęła kwota wyższa niż wskazana na pasku wynagrodzenia. Nie mam informacji o dodatkowej premii ani wyrównaniu. Proszę zweryfikować przelew i poinformować mnie, czy doszło do nadpłaty oraz jak formalnie wyjaśnić tę różnicę w rozliczeniu.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19354920799378306,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "17385179bca3595878d2d9bcc905be323b1aaa0ee9d2739798ecf11fe5f88fa8",
+  "response_sha256": "5d1417563111a9e585354357813a50493869c5761843eb00e72d46a8882316fc"
+}

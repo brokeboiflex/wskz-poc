@@ -1,0 +1,13 @@
+{
+  "id": "it/ddos/base",
+  "family": "it/ddos",
+  "message": "Publiczny serwis firmy przestał odpowiadać, a monitoring pokazuje gwałtowny wzrost ruchu z wielu nietypowych źródeł. Obciążenie łącza utrzymuje się mimo ograniczenia zwykłych zadań. Proszę o pilne sprawdzenie podejrzenia ataku przeciążeniowego i uruchomienie właściwych zabezpieczeń infrastruktury.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.22144770799786784,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0ebe29669c1bd670d74ae9b159b4882f825ef3a2f81a68d036af569983e8a690",
+  "response_sha256": "007900d896f38b683cb3b983fa435df1cd57ef591abdcc3408462806cb878bce"
+}

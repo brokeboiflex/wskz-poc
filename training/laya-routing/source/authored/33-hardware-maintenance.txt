@@ -1,0 +1,69 @@
+help_desk-082
+Bateria mojego laptopa rozładowuje się po kilkunastu minutach.
+Po pełnym ładowaniu mogę pracować bez zasilacza tylko bardzo krótko. Proszę sprawdzić baterię w moim pojedynczym laptopie.
+Proszę sprawdzić baterię mojego laptopa, która wytrzymuje kilkanaście minut. Rozliczenie urlopu zostało już poprawione. Potrzebuję diagnozy sprzętu.
+Kolega testujący laptop zauważył: „Po kilkunastu minutach bateria jest pusta”. Proszę sprawdzić akumulator mojego urządzenia.
+Ładuję laptop do pełna, a po kilkunastu minutach bateria pada. Sprawdzicie ją?
+
+help_desk-083
+Moja ładowarka przestała zasilać służbowy komputer.
+Po podłączeniu zasilacza laptop nie dostaje prądu. Problem dotyczy używanej przeze mnie ładowarki. Proszę sprawdzić lub wymienić ten element.
+Brakujące wynagrodzenie już otrzymałam. Proszę pomóc z ładowarką, która przestała zasilać mój komputer służbowy.
+Laptop przy podłączonej ładowarce pokazuje: „Zasilanie bateryjne”. Proszę sprawdzić mój zasilacz, bo nie dostarcza prądu do komputera.
+Ładowarka nie daje już prądu do mojego laptopa z pracy. Zerkniecie na zasilacz?
+
+help_desk-086
+Wentylator mojego komputera hałasuje nawet przy małym obciążeniu.
+Przy prostych zadaniach na jednym stanowisku słychać głośną pracę chłodzenia. Proszę sprawdzić wentylator w moim komputerze.
+Proszę skontrolować głośny wentylator mojego stanowiska przy niewielkim obciążeniu. Zaświadczenie pracownicze już wydano. Hałas sprzętu nadal się utrzymuje.
+Koleżanka zauważyła: „Twój wentylator hałasuje nawet przy otwartym pustym dokumencie”. Proszę sprawdzić chłodzenie tego komputera.
+Mój komputer ledwo coś robi, a wentylator strasznie hałasuje. Sprawdzicie go?
+
+help_desk-089
+W moim laptopie służbowym uszkodził się zawias obudowy.
+Ekran nie trzyma się prawidłowo przy otwieraniu, ponieważ zawias jest uszkodzony. Proszę zorganizować naprawę mojego laptopa.
+Korektę obecności już wykonano. Zgłaszam uszkodzony zawias w obudowie mojego służbowego laptopa i proszę o serwis.
+Kolega oglądający urządzenie powiedział: „Ten zawias jest uszkodzony”. Proszę pomóc naprawić obudowę mojego laptopa do pracy.
+Zawias w moim służbowym laptopie pękł. Załatwicie naprawę sprzętu?
+
+help_desk-090
+Proszę zdiagnozować przegrzewanie się mojego komputera.
+Podczas pracy obudowa mojego stanowiska robi się nadmiernie gorąca. Chcę ustalić przyczynę i usunąć problem. Proszę o diagnozę tego urządzenia.
+Potrzebuję diagnozy przegrzewającego się komputera na moim stanowisku. Wypłatę dodatku już wyjaśniono. Sprzęt nadal bardzo się nagrzewa.
+System wyświetlił ostrzeżenie: „Temperatura jest zbyt wysoka”. Proszę sprawdzić przyczynę przegrzewania mojego komputera.
+Mój komputer strasznie się grzeje. Możecie go zdiagnozować i sprawdzić chłodzenie?
+
+help_desk-101
+Jeden port USB w moim komputerze nie utrzymuje fizycznie wtyczki.
+Złącze jest luźne i podłączony przewód wypada. Pozostałe porty na moim stanowisku działają. Proszę sprawdzić uszkodzone gniazdo USB.
+Plan szkolenia został już przekazany. Proszę naprawić pojedynczy port USB mojego komputera, który fizycznie nie trzyma wtyczki.
+Koleżanka po podłączeniu przewodu powiedziała: „Wtyczka wypada z tego gniazda”. Proszę sprawdzić uszkodzony port USB na moim stanowisku.
+Jedno USB w moim komputerze jest tak luźne, że wtyczka wypada. Pomożecie z naprawą gniazda?
+
+help_desk-107
+Ekran mojego laptopa pękł; proszę zorganizować serwis.
+Na wyświetlaczu mojego urządzenia jest fizyczne pęknięcie. Potrzebuję naprawy lub wymiany ekranu. Proszę pomóc przekazać laptop do serwisu.
+Proszę zająć się pękniętym ekranem mojego laptopa. Dokument zatrudnienia już poprawiono. Uszkodzenie sprzętu wymaga serwisu.
+Kolega obejrzał laptop i stwierdził: „Matryca jest pęknięta”. Proszę zorganizować naprawę ekranu w moim urządzeniu.
+Pękł mi ekran laptopa. Ogarniecie serwis tego sprzętu?
+
+help_desk-109
+Mój komputer wydaje nietypowy mechaniczny dźwięk z obudowy.
+Z jednego stanowiska dochodzi stukanie, którego wcześniej nie było. Proszę sprawdzić sprzęt i ustalić źródło mechanicznego hałasu.
+Rozliczenie delegacji zostało zamknięte. Proszę zdiagnozować dziwny mechaniczny dźwięk dochodzący z obudowy mojego komputera.
+Osoba siedząca obok zauważyła: „W twojej obudowie coś mechanicznie stuka”. Proszę sprawdzić ten pojedynczy komputer.
+Coś dziwnie stuka w obudowie mojego komputera. Zerkniecie, skąd ten mechaniczny hałas?
+
+help_desk-111
+Zalałem mój służbowy laptop i potrzebuję pomocy serwisowej.
+Na urządzenie do pracy przypadkowo wylał się płyn. Zgłaszam zalanie mojego laptopa i proszę pomóc przekazać sprzęt do sprawdzenia.
+Proszę o pomoc po zalaniu mojego służbowego laptopa. Wcześniejszy błąd urlopu już skorygowano. Obecne zgłoszenie dotyczy uszkodzenia urządzenia.
+Koleżanka zauważyła: „Płyn dostał się na twój laptop”. Zgłaszam zalanie własnego służbowego sprzętu i proszę o pomoc serwisową.
+Wylał mi się napój na laptop z pracy. Potrzebuję pomocy z serwisem tego urządzenia.
+
+help_desk-114
+Stacja dokująca na moim stanowisku ma uszkodzone złącze zasilania.
+Wtyk nie łączy prawidłowo z gniazdem zasilającym moją stację dokującą. Proszę sprawdzić i naprawić uszkodzone złącze tego urządzenia.
+Brakującą część pensji już rozliczono. Proszę pomóc z uszkodzonym gniazdem zasilania mojej stacji dokującej.
+Kolega po oględzinach powiedział: „Złącze zasilania w tej stacji jest uszkodzone”. Proszę zorganizować naprawę stacji dokującej na moim stanowisku.
+W moim docku uszkodziło się gniazdo zasilania. Sprawdzicie stację i pomożecie naprawić złącze?

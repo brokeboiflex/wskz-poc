@@ -1,0 +1,13 @@
+{
+  "id": "other/travel-route/base",
+  "family": "other/travel-route",
+  "message": "Planuję wycieczkę rowerową z rodziną i szukam spokojnej trasy nad jeziorem. Zależy mi na drodze bez dużego ruchu samochodowego i z miejscem na odpoczynek. Czy możecie zaproponować sposób zaplanowania takiego wyjazdu?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.1911174170090817,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ce956573a754bb6e1f24270484545c78b607fa4cc6a0732aee5f3301e6ed478a",
+  "response_sha256": "cd7bc5290b01f0d2f44b530eb3b32f8a1badb3e41654a54842a3716bc74d9dca"
+}

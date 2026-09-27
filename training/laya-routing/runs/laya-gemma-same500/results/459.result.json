@@ -1,0 +1,13 @@
+{
+  "id": "other/office-cleaning/forwarded_history",
+  "family": "other/office-cleaning",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPo wczorajszym spotkaniu w sali konferencyjnej zostały pełne kosze i zabrudzone stoły. Za kilka godzin przychodzą tam goście. Proszę o przekazanie prośby o posprzątanie pomieszczenia osobie zajmującej się obsługą budynku. Sprzęt w sali działa i nie zgłaszam problemu technicznego.\n\nW sali nie ma obecnie nikogo i można wejść od razu. Najpilniejsze jest opróżnienie koszy oraz wytarcie blatów; ustawienie stołów może zostać takie jak teraz. Klucz jest dostępny w recepcji, która zna godzinę kolejnego spotkania.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKomputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.30302133300574496,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "61a870cf89b4cf57977038691fc3a18f71a2747fd9115ebf92c42dc3129285b1",
+  "response_sha256": "d00a04ecb0d9b51959a83f08c43656bd9f8b969230a1981af3ff30ce50c8320d"
+}

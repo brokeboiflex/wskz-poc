@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/vacancy-profile/conversation_history",
+  "family": "human_resources/vacancy-profile",
+  "message": "Historia wcześniejszej rozmowy:\nJa: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nNasz zespół rozpoczyna nabór na stanowisko opiekuna klientów. W przygotowanym ogłoszeniu znalazł się wymóg prowadzenia samochodu, choć praca odbywa się zdalnie i nie obejmuje wyjazdów. Proszę o konsultację treści ogłoszenia przed jego publikacją i ustalenie rzeczywiście potrzebnych kompetencji.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2452861670171842,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "51c721ae5df8b12b4c0aa29b675934759c9f77041734710cc5b819bd584ce722",
+  "response_sha256": "624aa4cc2a80c5e25974b8ae68b3872f3e17f36bd82fccfefbd223eb414727be"
+}

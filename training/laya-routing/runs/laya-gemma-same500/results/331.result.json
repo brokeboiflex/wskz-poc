@@ -1,0 +1,13 @@
+{
+  "id": "it/server-disk/quoted_history",
+  "family": "it/server-disk",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nNa serwerze przetwarzającym zadania firmowe zabrakło wolnego miejsca i zatrzymała się kolejka operacji. Problem wpływa na wszystkie zlecane zadania od dzisiejszego poranka. Potrzebne jest sprawdzenie przyrostu danych, bezpieczne przywrócenie miejsca i uruchomienie zatrzymanej usługi wraz z oczekującymi zadaniami.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2637657909945119,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "09bd60ba87f23ccd69c39af73ffb3e86df739c805fb7f5d5295dfb803852f082",
+  "response_sha256": "b741560b587547ebaf11ecf6ebd19eaecefc8d0616595152503ca01e040e11fa"
+}

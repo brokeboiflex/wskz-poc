@@ -1,0 +1,69 @@
+help_desk-014
+Dźwięk z mojego laptopa działa tylko w jednym kanale nawet po zmianie słuchawek.
+Na służbowym laptopie słyszę dźwięk wyłącznie z jednej strony. Sprawdziłem drugi zestaw słuchawek i problem pozostał. Proszę pomóc naprawić odtwarzanie na tym urządzeniu.
+Proszę sprawdzić dźwięk mojego laptopa: działa jeden kanał mimo wymiany słuchawek. Rozliczenie nadgodzin zostało już poprawione i zamknięte.
+Kolega po podłączeniu drugich słuchawek potwierdził: „Nadal słychać tylko jedną stronę”. Proszę naprawić dźwięk na moim laptopie.
+Na moim laptopie gra tylko jedno ucho, na innych słuchawkach też. Sprawdzicie wyjście dźwięku?
+
+help_desk-015
+Podczas spotkań mój komputer nie wykrywa mikrofonu.
+Dołączam do rozmowy, ale nie mogę wybrać swojego mikrofonu. Inni uczestnicy mają dźwięk i mogą mówić. Proszę pomóc wykryć mikrofon na moim stanowisku.
+Urlop został prawidłowo zapisany. Proszę pomóc z niewykrywanym mikrofonem podczas spotkań na moim komputerze; problem dotyczy tylko mnie.
+Aplikacja spotkań na moim stanowisku pokazuje: „Nie znaleziono mikrofonu”. Proszę pomóc przywrócić jego wykrywanie.
+Na spotkaniach mój komputer w ogóle nie widzi mikrofonu. Pomożecie? Reszta normalnie rozmawia.
+
+help_desk-016
+Moja kamera pokazuje czarny obraz, chociaż usługa rozmów działa pozostałym uczestnikom.
+Wchodzę na spotkanie i widzę innych, ale obraz z mojej kamery pozostaje czarny. Proszę pomóc naprawić kamerę lub jej ustawienia na moim komputerze.
+Proszę sprawdzić czarny obraz z mojej kamery. Wspólna usługa rozmów działa, a korekta mojej pensji została już załatwiona. Potrzebuję pomocy z własnym stanowiskiem.
+Uczestnik spotkania powiedział mi: „U ciebie widzimy tylko czarne okno”. Reszta kamer działa. Proszę pomóc przywrócić obraz z mojej kamery.
+Tylko moja kamerka daje czarny obraz, rozmowa reszcie działa. Pomożecie z moim komputerem?
+
+help_desk-018
+Klawiatura na moim stanowisku wpisuje inne znaki niż naciskane klawisze.
+Gdy piszę na służbowym komputerze, pojawiają się znaki niezgodne z oznaczeniami klawiszy. Problem występuje na moim stanowisku. Proszę pomóc przywrócić prawidłowe wpisywanie.
+Świadectwo ze szkolenia już otrzymałam. Potrzebuję pomocy z klawiaturą na moim komputerze, ponieważ naciskam jeden klawisz, a pojawia się inny znak.
+Koleżanka sprawdziła mój komputer i powiedziała: „Ta klawiatura wpisuje inne znaki”. Proszę ustalić przyczynę i przywrócić właściwe działanie na stanowisku.
+Klawiatura na moim komputerze pisze nie te znaki, które naciskam. Ogarniecie ustawienia albo sprzęt?
+
+help_desk-019
+Moja mysz gubi połączenie z odbiornikiem; proszę sprawdzić zestaw.
+Na moim komputerze wskaźnik co chwilę przestaje reagować, ponieważ mysz rozłącza się z odbiornikiem. Proszę pomóc ustalić przyczynę i przywrócić stabilne działanie.
+Proszę sprawdzić mysz na moim stanowisku, która ciągle traci połączenie z odbiornikiem. Pomyłka w ewidencji godzin jest już poprawiona.
+Na komputerze wyskakuje informacja: „Mysz rozłączona”. Odbiornik pozostaje podłączony. Proszę pomóc z gubionym połączeniem tej myszy.
+Mysz ciągle gubi odbiornik i przestaje działać na moim stanowisku. Zerkniecie na ten zestaw?
+
+help_desk-020
+Mój komputer nie widzi podłączonego lokalnie skanera.
+Skaner jest podłączony bezpośrednio do mojego stanowiska, ale nie pojawia się wśród dostępnych urządzeń. Proszę pomóc przywrócić jego wykrywanie na tym komputerze.
+Termin rozmowy rozwojowej już ustalono. Proszę sprawdzić lokalny skaner podłączony do mojego komputera, którego system nie wykrywa.
+Program na moim komputerze zgłasza: „Nie wykryto skanera”. Urządzenie jest połączone bezpośrednio z tym stanowiskiem. Proszę o pomoc.
+Podpiąłem skaner prosto do swojego komputera, a on go nie widzi. Pomożecie go uruchomić?
+
+help_desk-021
+Dźwięk zamiast do moich słuchawek trafia do niewłaściwego urządzenia wyjściowego.
+Podłączyłam słuchawki do komputera, ale rozmowę słyszę z głośników monitora. Proszę pomóc ustawić poprawne wyjście audio na moim stanowisku.
+Proszę skierować dźwięk z mojego komputera do słuchawek, bo odtwarza się przez inne urządzenie. Sprawa zwrotu kosztów jest już rozliczona.
+W ustawieniach wyjścia widzę „Głośniki monitora”, choć chcę używać słuchawek. Proszę pomóc zmienić urządzenie odtwarzające na moim komputerze.
+Słuchawki podpięte, a dźwięk leci z monitora. Pomożecie ustawić wyjście na moim komputerze?
+
+help_desk-022
+Mój monitor nie pokazuje obrazu po podłączeniu laptopa do stacji dokującej.
+Laptop działa, lecz zewnętrzny ekran na moim stanowisku pozostaje pusty po połączeniu przez stację dokującą. Proszę sprawdzić to połączenie i przywrócić obraz.
+Dokumenty zatrudnienia zostały już uzupełnione. Zgłaszam brak obrazu na moim monitorze po podłączeniu laptopa przez stację dokującą.
+Monitor wyświetla: „Brak sygnału”, kiedy podłączam laptop do stacji dokującej. Proszę pomóc naprawić obraz na moim stanowisku.
+Po wpięciu laptopa w dock mój monitor nie pokazuje nic. Sprawdzicie to połączenie?
+
+help_desk-025
+Touchpad w moim laptopie przestał reagować na gesty.
+Mogę przesuwać wskaźnik, ale przewijanie i pozostałe gesty płytki dotykowej nie działają. Dotyczy to mojego laptopa. Proszę pomóc przywrócić obsługę gestów.
+Proszę sprawdzić gesty touchpada w moim laptopie, bo przestały działać. Brakujące potwierdzenie wypłaty już dostałam; tamto zgłoszenie jest zakończone.
+Kolega testujący mój laptop zauważył: „Kursor działa, ale gesty nie odpowiadają”. Proszę przywrócić działanie gestów touchpada.
+Touchpad w moim laptopie rusza kursorem, ale gesty nie działają. Pomożecie je przywrócić?
+
+help_desk-026
+Proszę pomóc skonfigurować dodatkowy monitor na moim stanowisku.
+Dostałem drugi ekran do służbowego komputera. Potrzebuję prawidłowo ustawić rozszerzenie pulpitu i położenie monitorów. Proszę o pomoc w konfiguracji tego stanowiska.
+Wniosek o urlop już zatwierdzono. Potrzebuję pomocy w konfiguracji dodatkowego monitora podłączonego do mojego komputera.
+Przełożona przekazała: „Drugi monitor jest do twojego stanowiska”. Proszę pomóc skonfigurować go z komputerem do wygodnej pracy.
+Mam drugi monitor i chcę go ustawić do swojego komputera. Pomożecie ogarnąć konfigurację ekranów?

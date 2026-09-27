@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T17:29:40.834361+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "Editorial and semantic review of15 manually authored proposal messages across3 existing train families. No benchmark access, inference, training or corpus generation.",
+  "inputs": {
+    "proposal": {
+      "path": "poc/message-router/training/laya-routing/drafts/manual-fallback-proposal/families.jsonl",
+      "sha256": "8d500f70e78516209692a238dcfbea8648c8676a7dc3823f8f0e6b502968c894"
+    },
+    "scenario_plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "prior_review": {
+      "path": "poc/message-router/training/laya-routing/drafts/manual-fallback-proposal/review-before-fix.json",
+      "sha256": "4527754f0e4f29a2f71fcebe27650b7582e1ac6e88536bcd6b8db274f872a199"
+    }
+  },
+  "approved_as_method_proposal": true,
+  "approved_for_full_manual_generation": false,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families": 3,
+    "messages": 15,
+    "label_correct": 15,
+    "scenario_faithful": 15,
+    "active_task_drift": 0,
+    "department_name_leaks": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "assessments": [
+    {
+      "family": "human_resources-001",
+      "expected_label": "human_resources",
+      "split": "train",
+      "all_messages_independently_support_label": true,
+      "all_messages_preserve_scenario": true,
+      "five_semantic_forms_present": true,
+      "resolved_history_contains_closed_problem_and_current_request": true,
+      "quotation_contains_attributed_words_and_current_request": true,
+      "blocking_findings": []
+    },
+    {
+      "family": "human_resources-006",
+      "expected_label": "human_resources",
+      "split": "train",
+      "all_messages_independently_support_label": true,
+      "all_messages_preserve_scenario": true,
+      "five_semantic_forms_present": true,
+      "resolved_history_contains_closed_problem_and_current_request": true,
+      "quotation_contains_attributed_words_and_current_request": true,
+      "blocking_findings": []
+    },
+    {
+      "family": "human_resources-009",
+      "expected_label": "human_resources",
+      "split": "train",
+      "all_messages_independently_support_label": true,
+      "all_messages_preserve_scenario": true,
+      "five_semantic_forms_present": true,
+      "resolved_history_contains_closed_problem_and_current_request": true,
+      "quotation_contains_attributed_words_and_current_request": true,
+      "blocking_findings": []
+    }
+  ],
+  "minor_findings": [],
+  "limits": [
+    "Only3 recruitment families were reviewed; this does not establish coverage or sustainable quality across all5 classes and60 groups.",
+    "No benchmark or corpus-wide lexical/semantic exclusion review was performed for these15 texts.",
+    "All rows are marked proposal_only:true; this review does not authorize a method change or accept training data."
+  ],
+  "delta_verification": {
+    "changed_messages": 2,
+    "unchanged_messages": 13,
+    "family": "human_resources-006",
+    "variants": ["short", "resolved_history"],
+    "both_fixes_accepted": true,
+    "notes": "Short is one sentence with consent already granted. Resolved history explicitly closes the salary issue and leaves reference verification as the only active request. Label and scenario fidelity preserved."
+  }
+}

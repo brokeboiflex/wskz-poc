@@ -1,0 +1,13 @@
+{
+  "id": "payroll/timesheet-approval/conversation_history",
+  "family": "payroll/timesheet-approval",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nMoja karta czasu pracy została zaakceptowana przez przełożonego, ale w miesięcznym zestawieniu nadal ma status oczekującej na rozliczenie. Proszę sprawdzić obieg zatwierdzonego dokumentu i potwierdzić, że godziny trafią do bieżącej listy płac.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23695525000221096,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "28f72ee335c09a0893a8d12e2f1246d290ab2065718096f4e725b42283b73dc0",
+  "response_sha256": "02b66e33289256037dee41df53a1049a89687ed9e6e20e1f60ea9e7d10d6538a"
+}

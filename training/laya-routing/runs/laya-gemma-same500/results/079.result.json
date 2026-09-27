@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/knowledge-sharing/forwarded_history",
+  "family": "human_resources/knowledge-sharing",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nKilka osób z zespołu chciałoby prowadzić krótkie spotkania, na których uczymy się od siebie nowych metod pracy. Potrzebujemy pomocy w zaplanowaniu programu i przygotowaniu prowadzących. Czy można wesprzeć nas w uruchomieniu cyklu wewnętrznych zajęć oraz ocenie ich przydatności?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nZamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.24930737499380484,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8936b49723e6a140dd6d4035d53ded30a8cf16ecabfce7be176e92a1019ddd89",
+  "response_sha256": "1a198d6773160e1f2b38835b31023edeecbe7a6acbef12dfcea3b682abc9a409"
+}

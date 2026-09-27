@@ -1,0 +1,13 @@
+{
+  "id": "it/storage-array/base",
+  "family": "it/storage-array",
+  "message": "Macierz przechowująca wspólne dane zgłasza awarię kilku dysków i przejście w stan zdegradowany. Dostęp do plików jest znacznie spowolniony we wszystkich zespołach. Proszę o pilną ocenę stanu infrastruktury pamięci masowej i zabezpieczenie ciągłości działania usług.\n\nAlarm pojawił się w nocy, a rano kolejne dyski zostały oznaczone jako niedostępne. Nie wyjmowaliśmy żadnych nośników i nie uruchamialiśmy samodzielnie odbudowy. Konsola zarządzania nadal odpowiada, więc można zebrać dane diagnostyczne przed podjęciem dalszych działań.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2558606249804143,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4dd18934ac5d24ccc6e1216d6cf0e3efa5bd7d3bf597a22ec97c8d74295a1faf",
+  "response_sha256": "4915332d1156ac02d49eac39918ac696c80f27eadfdf392951482c104b8ebe43"
+}

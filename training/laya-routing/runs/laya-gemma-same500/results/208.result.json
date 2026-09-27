@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/mouse/base",
+  "family": "help_desk/mouse",
+  "message": "Kursor na moim komputerze przeskakuje, a kliknięcia często nie są rejestrowane. Wymieniłem baterię i sprawdziłem mysz na innej powierzchni, bez poprawy. Pozostałe urządzenia działają. Proszę o wsparcie w ustaleniu usterki lub otrzymaniu sprawnej myszy do pracy.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.1943123750097584,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9b34620ed5c13f675ba453f6b0863ed61e31b30ea2b9b6d96e66526c2c6eecb3",
+  "response_sha256": "22d69bcdce651ed0e5761a8e84cc699a539845b7031dc0f465ab658d187167f6"
+}

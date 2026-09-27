@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/keyboard/conversation_history",
+  "family": "help_desk/keyboard",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nW mojej klawiaturze przestały działać niektóre klawisze. Problem występuje w różnych programach, również po ponownym uruchomieniu komputera. Podłączona na próbę inna klawiatura działa poprawnie. Proszę o pomoc w wymianie uszkodzonego urządzenia, abym mogła normalnie przygotowywać dokumenty.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.24831774999620393,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b650f4dc7debbc8188dc5be732bdff150bc7d9dcf807184fceb5a4b6e21f128a",
+  "response_sha256": "69f86f651d6d020a1969aee2ccf6e4703936f884395eef84ed487ba18248c4cd"
+}

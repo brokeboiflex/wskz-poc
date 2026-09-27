@@ -1,0 +1,13 @@
+{
+  "id": "other/charity-event/resolved_preface",
+  "family": "other/charity-event",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n\nOsobna, aktualna wiadomość:\nW naszej wspólnocie mieszkaniowej organizujemy zbiórkę książek dla lokalnej biblioteki. Chciałabym przygotować krótkie ogłoszenie z zasadami przekazywania egzemplarzy i terminem zakończenia akcji. Czy możecie pomóc ułożyć jego treść? To inicjatywa sąsiedzka, niezwiązana z działalnością firmy.",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.24274883398902602,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "60262a34f70a120a2caebe06741c934cc459db4f6abdc9957f0d0bf071489cfe",
+  "response_sha256": "dbc7b8f2f26a31cf1a11b5baa9c4b65ee77090a73634fef50ce1d605b89e42f4"
+}

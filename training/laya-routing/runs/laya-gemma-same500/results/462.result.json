@@ -1,0 +1,13 @@
+{
+  "id": "other/room-booking/base",
+  "family": "other/room-booking",
+  "message": "Potrzebuję zarezerwować małą salę na rozmowę z zewnętrznym dostawcą w przyszły wtorek. System rezerwacji działa, ale nie wiem, które pomieszczenia można udostępniać gościom. Proszę o informację od osoby odpowiedzialnej za organizację przestrzeni biurowej i zasady korzystania z sal.\n\nW kalendarzu widzę trzy wolne sale, ale przy jednej jest dopisek o dostępie wyłącznie dla pracowników, a przy drugiej ograniczenie liczby osób. Spotkanie obejmie dwie osoby z naszej strony i dwóch gości. Potrzebujemy zwykłego stołu oraz możliwości spokojnej rozmowy przez godzinę.\n\nNie planujemy prezentacji ani połączenia zdalnego. Chciałabym wiedzieć, czy wcześniej zgłosić gości recepcji i czy rezerwacja sali wymaga potwierdzenia przez osobę zarządzającą piętrem. Jeśli żadna z widocznych sal nie nadaje się do takiego spotkania, wystarczy wskazać inną dostępną przestrzeń. Termin możemy jeszcze przesunąć o godzinę, ale muszę potwierdzić go dostawcy przed końcem dnia.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.3110757920076139,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "232b6379645af56d26cf12872c3b3e4b1dc31f627a5df6c0a0f584fe87d4085f",
+  "response_sha256": "80971386bc0a084212ea562e5774e9a67e65b861d9f907c1d828b8f9f559d7ad"
+}

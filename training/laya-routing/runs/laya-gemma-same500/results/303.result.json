@@ -1,0 +1,13 @@
+{
+  "id": "it/branch-link/resolved_preface",
+  "family": "it/branch-link",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nOsobna, aktualna wiadomość:\nOddział w drugim mieście nie ma dostępu do centralnych zasobów. Lokalne aplikacje działają, ale wszystkie połączenia z centralą kończą się przekroczeniem czasu oczekiwania. Problem dotyczy całego oddziału. Proszę o sprawdzenie łącza między lokalizacjami i urządzeń odpowiedzialnych za komunikację.",
+  "expected": "it",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.22942770802183077,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "dd6b3de653aa1de876669f71bc4b85fba3f386b3b01b218f967d5e7c73eca53d",
+  "response_sha256": "e56bf19d30a7b49c1353d2db897236638ce5a4e1125742991c303955cb5a90d2"
+}

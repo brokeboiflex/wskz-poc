@@ -1,0 +1,13 @@
+{
+  "id": "it/shared-drive-outage/forwarded_history",
+  "family": "it/shared-drive-outage",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nŻaden pracownik nie może otworzyć wspólnego dysku firmowego, również z komputerów, które wcześniej działały poprawnie. Serwer plików nie odpowiada na żądania z różnych lokalizacji. Proszę o sprawdzenie usługi i przywrócenie dostępu do współdzielonych dokumentów dla całej organizacji.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWarsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.25029087500297464,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "842493ca98b50d8ad6746533b9f58c18b7e16a1bf5680bbfb6d08fab0b274e36",
+  "response_sha256": "0a081e534aaf10e2267ad7da3216b30cbc16c91678979962d60f305b0bf481a6"
+}

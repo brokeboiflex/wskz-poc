@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/laptop-power/base",
+  "family": "help_desk/laptop-power",
+  "message": "Mój służbowy laptop nie włącza się od dzisiejszego poranka. Po podłączeniu zasilacza świeci tylko dioda ładowania, a przytrzymanie przycisku nie pomaga. Inni w pokoju pracują normalnie. Proszę o pomoc w sprawdzeniu urządzenia, bo mam na nim materiały potrzebne do dzisiejszego spotkania.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2203852079983335,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c6bd129b8ddf3ea23b346aa8fa21fa7650134190a66f55c8e8918a8b0fbc9baa",
+  "response_sha256": "c0068288521d30de9c852674b45679df388e76f7695922ad1ba91f544879feb4"
+}

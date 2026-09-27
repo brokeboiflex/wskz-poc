@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/accessible-interview/base",
+  "family": "human_resources/accessible-interview",
+  "message": "Jestem zaproszony na rozmowę rekrutacyjną w przyszłym tygodniu. Ze względu na niedosłuch potrzebuję rozmowy z napisami albo możliwości udzielenia części odpowiedzi pisemnie. Chciałbym wcześniej uzgodnić dostępny format spotkania, aby wszyscy uczestnicy mogli się do niego przygotować.\n\nRozmowa telefoniczna jest dla mnie trudniejsza niż spotkanie wideo z widoczną twarzą rozmówcy. W poprzednich procesach dobrze sprawdzało się także przesłanie pytań organizacyjnych tekstowo. Zależy mi na uzgodnieniu formy z wyprzedzeniem, żeby na samym spotkaniu skupić się na zadaniach i doświadczeniu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2610877910046838,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cfef31992ea1df9bf38c0bff6a8aafee58b038a8112d622b24246f76a655c4ef",
+  "response_sha256": "884f2e1b64ec104d5e371ef022a36cda89552b1380789f2d52c7dc5edbe54af3"
+}

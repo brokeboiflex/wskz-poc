@@ -1,0 +1,13 @@
+{
+  "id": "other/gibberish/resolved_postscript",
+  "family": "other/gibberish",
+  "message": "Fioletowy zegar pożyczył chmurze siedem smaków, a schody zaczęły nucić kwadratowe morze. Zielona cisza pod stołem układała z liter śniadanie dla cienia. Proszę przestawić wczoraj na drugą stronę parasola, zanim liczba niebieska zasypie okrągłe okno.\n\nPS. Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.2296680830186233,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2081f87e15fbbfca6c16a16bd3c28573191fcc35333eeab716d9514d78a32050",
+  "response_sha256": "08ea505eccc7854867806b78c465da6b8bd8bf72faa3e7d9a0e44362a9f2f9de"
+}

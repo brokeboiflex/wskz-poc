@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 14.059057541016955,
+  "response_sha256": "cbd7dc82ca5761e50cf9747e2ebf4d632f8f51ddb975d9cd71202375f84a9b08",
+  "request_sha256": "71caaf0e745ce0394e3dbb2b7e126f47794abbfbdd4e46758ec27d2fc113a1ec",
+  "messages": [
+    {
+      "message": "Potrzebuję zapewnić tłumacza migowego podczas zbliżającej się rozmowy kwalifikacyjnej z kandydatem.",
+      "style": "short"
+    },
+    {
+      "message": "Proszę o pomoc w zorganizowaniu tłumacza migowego dla rozmowy z kandydatem, który jest niesłyszącym.",
+      "style": "context"
+    },
+    {
+      "message": "W związku z planowaną rozmową z kandydatem, który jest niesłyszący, musimy zapewnić odpowiednie wsparcie w postaci tłumacza migowego.",
+      "style": "resolved_history"
+    },
+    {
+      "message": "Czy możecie Państwo zorganizować osobę, która pomoże nam w komunikacji podczas rozmowy z tym kandydatem?",
+      "style": "quotation"
+    },
+    {
+      "message": "Musimy znaleźć rozwiązanie, jak przeprowadzić tę rozmowę z niesłyszącym. Proszę o wskazówki.",
+      "style": "informal"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "other/sport/base",
+  "family": "other/sport",
+  "message": "Znajomi zaprosili mnie na mecz siatkówki, ale nie znam dokładnie zasad rotacji zawodników. Czy możecie wyjaśnić, kiedy drużyna zmienia ustawienie i co oznaczają pozycje na boisku?",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.18201666700770147,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "381a83d7a7cd858ef69c23b6d20842715c5debb22a2063fc9c2f5499f48221f0",
+  "response_sha256": "a027798a4a2c92a67b39bc7264e040e3ea2b4d0e518fa7a211cc80792f5500ee"
+}

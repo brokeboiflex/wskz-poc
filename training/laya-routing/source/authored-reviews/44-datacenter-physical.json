@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:51:51.352164+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages read individually and compared with10 exact frozen definitions, policy and manual approach. No corpus authorship, old benchmark, scores or inference.",
+  "source_sha256": "f8d57d414753485d7804128167ac15364c9f8329e88792ac83641421070f89b4",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/44-datacenter-physical.txt",
+      "sha256": "f8d57d414753485d7804128167ac15364c9f8329e88792ac83641421070f89b4"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "it-008",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-013",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-014",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-017",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-020",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-031",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-036",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-047",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-056",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-067",
+      "split": "validation",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "All50 variants preserve the exact infrastructure task: critical server-room UPS battery, insufficient rack cooling, lost power to central switch modules, planning a server rack move, broken inter-floor patch-panel path, confirmed water threat to network equipment, preparation for planned server power shutdown, production-server fan fault, inter-rack optical module failure and redundancy verification after a power alarm. Physical context is tied to technical infrastructure rather than an individual workstation or generic building maintenance. Histories are concrete and closed, quotations attributed and no target department names leak.",
+  "limits": [
+    "Initial quality review only; final semantic/lexical exclusions remain mandatory.",
+    "Five variants are correlated within each family; no training-data acceptance."
+  ]
+}

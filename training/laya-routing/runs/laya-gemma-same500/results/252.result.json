@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/software-install/base",
+  "family": "help_desk/software-install",
+  "message": "Do realizacji zadania potrzebuję zatwierdzonego przez firmę programu do diagramów. Przełożony potwierdził zgodę, ale instalator wymaga uprawnień administratora na moim laptopie. Proszę o pomoc w instalacji wskazanej aplikacji i sprawdzeniu, czy mogę uruchomić ją na swoim koncie.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19295587501255795,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "86f616a5a8a41828103cd9b4ac11a6321871d629272b9ae674ae5985674ee533",
+  "response_sha256": "0de50df5d98ea1d2e81cbdf6d0444a82264aa2c578e0b359e0e9fec221f330fd"
+}

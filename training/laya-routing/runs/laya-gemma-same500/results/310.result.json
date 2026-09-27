@@ -1,0 +1,13 @@
+{
+  "id": "it/wifi-controller/base",
+  "family": "it/wifi-controller",
+  "message": "W całym biurze zniknęła firmowa sieć Wi-Fi, choć połączenia kablowe nadal działają. Problem potwierdzono na wielu różnych urządzeniach i piętrach. Proszę sprawdzić kontroler oraz punkty dostępowe; nie chodzi o konfigurację jednego laptopa, lecz o niedostępną usługę dla całej lokalizacji.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2167638750106562,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "473f97ba553c05e23a0b9f61d3ef9ed6055170ea2ca3fd6fda6691d08c78e66b",
+  "response_sha256": "597d4a9ae8cf9e30c7ede275eef4fe094ac8f560e28e886ab844f883a67a4866"
+}

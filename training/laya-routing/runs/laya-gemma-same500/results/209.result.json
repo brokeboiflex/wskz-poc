@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/mouse/forwarded_history",
+  "family": "help_desk/mouse",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nKursor na moim komputerze przeskakuje, a kliknięcia często nie są rejestrowane. Wymieniłem baterię i sprawdziłem mysz na innej powierzchni, bez poprawy. Pozostałe urządzenia działają. Proszę o wsparcie w ustaleniu usterki lub otrzymaniu sprawnej myszy do pracy.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nRozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.25722970798960887,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7b20d6c8c9f5231176f007bd48a0aa9e7deca9dd361f05afb563e7bd033e44ca",
+  "response_sha256": "1edb9b3570df608d51bb1c9a613e5bab1e4b28ba1ebf3ba59ceb6d6f01b10fa0"
+}

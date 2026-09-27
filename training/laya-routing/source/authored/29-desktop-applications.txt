@@ -1,0 +1,69 @@
+help_desk-069
+Edytor dokumentów na moim komputerze zamyka się po otwarciu zwykłego pliku.
+Próbuję otworzyć prosty dokument w lokalnym edytorze, lecz program natychmiast znika. Na komputerze koleżanki plik działa. Proszę naprawić aplikację na moim stanowisku.
+Proszę sprawdzić mój edytor, który zamyka się przy otwieraniu zwykłego dokumentu. Zaległe rozliczenie urlopu zostało poprawione. Nadal nie mogę pracować w aplikacji.
+System przy otwarciu dokumentu wyświetla: „Program przestał działać”. Dotyczy mojego lokalnego edytora. Proszę pomóc usunąć zamykanie aplikacji.
+Zwykły dokument otwieram i edytor na moim komputerze się zamyka. Naprawicie mi program?
+
+help_desk-070
+Arkusz kalkulacyjny na moim stanowisku zawiesza się już podczas uruchamiania.
+Nie dochodzę nawet do wyboru pliku, ponieważ program arkusza przestaje odpowiadać przy starcie. U innych działa. Proszę sprawdzić instalację na moim komputerze.
+Spotkanie z przełożonym już umówiono. Proszę pomóc z arkuszem kalkulacyjnym, który zawiesza się przy starcie tylko na moim komputerze.
+Przy uruchamianiu arkusza pojawia się „Brak odpowiedzi”. Nie otwieram jeszcze żadnego dokumentu. Proszę naprawić program na moim stanowisku.
+Arkusz wiesza się u mnie od razu przy starcie. Pomożecie uruchomić program na moim komputerze?
+
+help_desk-071
+Lokalny czytnik PDF na moim komputerze nie otwiera dokumentów.
+Pliki PDF są dostępne, ale mój program do ich czytania nie potrafi ich otworzyć. Na innym komputerze działają. Proszę sprawdzić lokalny czytnik.
+Proszę naprawić czytnik PDF na moim stanowisku, bo nie otwiera dokumentów. Zaświadczenie pracownicze już wydano; problemem jest teraz program do odczytu.
+Czytnik na moim komputerze zgłasza: „Nie można otworzyć dokumentu”. Te same pliki PDF działają kolegom. Proszę sprawdzić moją aplikację.
+Żaden PDF nie chce się otworzyć w moim czytniku, u innych pliki działają. Zerkniecie na program?
+
+help_desk-072
+Program do prezentacji na moim komputerze nie zapamiętuje ustawień.
+Zmieniam opcje aplikacji prezentacyjnej, lecz po ponownym uruchomieniu wracają poprzednie. Proszę pomóc naprawić zapisywanie ustawień na moim stanowisku.
+Błąd na pasku wynagrodzenia został wyjaśniony. Proszę sprawdzić mój program do prezentacji, który nie zachowuje zmienionych ustawień.
+Kolega podczas testu zauważył: „Po restarcie programu ustawienia wracają”. Proszę naprawić ich zapisywanie w aplikacji prezentacyjnej na moim komputerze.
+Ustawiam opcje w programie do prezentacji, a on je zapomina. Sprawdzicie to na moim stanowisku?
+
+help_desk-074
+Proszę przywrócić brakujący pasek narzędzi w mojej aplikacji biurowej.
+W używanym przeze mnie programie zniknął pasek z przyciskami. Nie wiem, jak ponownie go pokazać. Proszę pomóc przywrócić narzędzia na moim komputerze.
+Potrzebuję przywrócenia paska narzędzi w moim programie biurowym. Wniosek urlopowy już zaakceptowano. Aplikacja działa, lecz nie widzę potrzebnych przycisków.
+Koleżanka powiedziała: „Masz schowany cały pasek narzędzi”. Proszę pomóc przywrócić go w aplikacji biurowej na moim stanowisku.
+Zniknął mi pasek narzędzi w programie biurowym. Pomożecie go przywrócić?
+
+help_desk-075
+Okno jednej aplikacji na moim komputerze otwiera się poza widocznym ekranem.
+Program jest uruchomiony i widać jego ikonę, ale okno znajduje się poza obszarem monitora. Proszę pomóc przenieść je z powrotem na ekran mojego stanowiska.
+Rozliczenie dodatku zostało już poprawione. Potrzebuję pomocy z aplikacją, której okno uruchamia się poza widocznym obszarem mojego ekranu.
+Kolega sprawdził komputer i zauważył: „Okno jest otwarte poza ekranem”. Proszę pomóc przywrócić widoczność tej aplikacji na moim monitorze.
+Program niby działa, ale okno siedzi gdzieś poza ekranem. Pomożecie je ściągnąć na mój monitor?
+
+help_desk-076
+Proszę naprawić skojarzenie moich plików z właściwym programem.
+Po dwukrotnym kliknięciu dokument otwiera się w niewłaściwej aplikacji na moim komputerze. Chciałabym przywrócić odpowiedni program domyślny. Proszę o pomoc.
+Proszę poprawić skojarzenie plików na moim komputerze, bo uruchamia je zła aplikacja. Dokumenty do zatrudnienia zostały już przyjęte. Problem dotyczy lokalnego otwierania plików.
+Koleżanka wskazała: „Ten typ pliku masz przypisany do innego programu”. Proszę przywrócić prawidłowe skojarzenie na moim stanowisku.
+Klikam plik i odpala się zły program. Pomożecie naprawić skojarzenie na moim komputerze?
+
+help_desk-077
+Lokalny dodatek do edytora blokuje uruchamianie programu na moim komputerze.
+Po wczytaniu dodatku edytor przestaje się uruchamiać. Bez niego aplikacja działa. Proszę pomóc naprawić lub wyłączyć problematyczny dodatek na moim stanowisku.
+Zaświadczenie o zatrudnieniu już otrzymałam. Proszę pomóc z dodatkiem, który blokuje start lokalnego edytora na moim komputerze.
+Przy starcie program zatrzymuje się na komunikacie „Ładowanie dodatku”. Po pominięciu tego dodatku działa. Proszę usunąć blokadę uruchamiania na moim stanowisku.
+Dodatek blokuje mi odpalenie edytora, bez niego działa. Ogarniecie ten lokalny problem?
+
+help_desk-078
+Profil ustawień mojego programu jest uszkodzony; proszę pomóc go naprawić.
+Aplikacja na moim komputerze nie odczytuje własnego profilu konfiguracji i zgłasza jego uszkodzenie. Proszę przywrócić poprawne ustawienia mojego programu.
+Potrzebuję naprawy profilu ustawień mojej lokalnej aplikacji. Błędny zapis czasu pracy został już skorygowany. Program nadal zgłasza uszkodzoną konfigurację.
+Przy uruchomieniu mojego programu widzę: „Profil ustawień jest uszkodzony”. Proszę pomóc przywrócić działającą konfigurację na tym stanowisku.
+Mój program mówi, że ma uszkodzony profil ustawień. Pomożecie go naprawić?
+
+help_desk-079
+Jedna aplikacja na moim komputerze pokazuje błąd przy zamykaniu dokumentu.
+Mogę pracować w pliku, ale każda próba jego zamknięcia wywołuje okno błędu w tym programie. Proszę sprawdzić aplikację na moim stanowisku.
+Rozmowa rozwojowa została zakończona. Proszę pomóc z lokalnym programem, który przy zamykaniu dokumentu wyświetla błąd.
+Przy zamykaniu pliku aplikacja pokazuje: „Wystąpił błąd podczas zamykania dokumentu”. Proszę sprawdzić ten program na moim komputerze.
+Program na moim komputerze wali błędem, gdy zamykam dokument. Zerkniecie, czemu tak robi?

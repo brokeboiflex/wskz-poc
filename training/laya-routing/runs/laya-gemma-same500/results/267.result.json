@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/screen-scaling/conversation_history",
+  "family": "help_desk/screen-scaling",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPo podłączeniu nowego monitora tekst jest bardzo mały, a okna programów otwierają się częściowo poza ekranem. Nie wiem, jakie ustawienia rozdzielczości i skalowania wybrać. Proszę o pomoc w konfiguracji obu ekranów przy moim stanowisku, abym mogła wygodnie pracować.\n\nNa ekranie laptopa wszystko wygląda normalnie, a na zewnętrznym część okien jest rozmazana. Przesuwanie okna między ekranami zmienia wielkość tekstu. Najbardziej przeszkadza to przy pracy z arkuszami, kiedy muszę czytać dużo drobnych wartości.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.28256341701489873,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e8d6e0f51bcf2b38139bb02d82718a20a3b18615f9a63c2bcd07349d4d0a2a2f",
+  "response_sha256": "57749d4e1c18aa68a93be5ff9299fea2c9e1b96f495032df78a8393933b35c1c"
+}

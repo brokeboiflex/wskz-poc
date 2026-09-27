@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/expired-password/quoted_history",
+  "family": "help_desk/expired-password",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nSystem informuje, że moje hasło wygasło, ale po wybraniu opcji zmiany wraca do ekranu logowania. Problem dotyczy tylko mojego konta. Proszę o pomoc w ustawieniu nowego hasła, żebym mogła wrócić do pracy z dokumentami w służbowym komputerze.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.2671799580275547,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8dbcca415e60e742c97ca870dbf2926b802d3af662268be472b0610978e85115",
+  "response_sha256": "ec3bf5d90420bd22cf659a114ca22c80e50aca8574afeaae8d3a8f10f4686216"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "other/unspecified-approval/resolved_postscript",
+  "family": "other/unspecified-approval",
+  "message": "Czy jest już zgoda? Miała być odpowiedź do piątku, a nadal czekam. Bez tego nie ruszę dalej.\n\nPS. Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.19661245800671168,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9e66b143f824dc7488b815c3d0acda02e18e069c47996863f59b065dbc9a601b",
+  "response_sha256": "f93f42074b8d5ac0fabb9aa818bdac2bc9c2eee26c075c5b15e73695e4c8d729"
+}

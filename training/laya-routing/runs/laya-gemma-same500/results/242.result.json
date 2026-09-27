@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/calendar-sync/base",
+  "family": "help_desk/calendar-sync",
+  "message": "Spotkania dodawane na komputerze nie pojawiają się w służbowym telefonie. Poczta na obu urządzeniach działa, a problem dotyczy wyłącznie mojego kalendarza. Proszę o pomoc w sprawdzeniu ustawień synchronizacji, ponieważ przez brak aktualizacji przeoczyłam zmianę godziny spotkania.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.230277833994478,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "fd140f0062f87d4227a3c444d358502340d658701a7fc118e7fbb2cc40e22a04",
+  "response_sha256": "234aa65cd2d8d13294059b3c46b8ba28b01fb2a86a3c078be3e4cd862bb317f0"
+}

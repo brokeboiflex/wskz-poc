@@ -1,0 +1,13 @@
+{
+  "id": "it/database-replica/base",
+  "family": "it/database-replica",
+  "message": "Monitoring pokazuje narastające opóźnienie repliki bazy danych, a mechanizm automatycznego przełączenia utracił gotowość. Główna instancja jeszcze działa, ale potrzebujemy przywrócenia poprawnej replikacji. Proszę o diagnostykę połączenia między serwerami i sprawdzenie stanu procesu odtwarzania danych.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.21381350001320243,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0971bce19c2dabb407628696caff49866ebe73ff29a4b2ddd65802c71a7449e5",
+  "response_sha256": "a0cb844b4b132a898e6087d6d9df7b4dc1d778758c5d5d0e708ca3e03f961d3d"
+}

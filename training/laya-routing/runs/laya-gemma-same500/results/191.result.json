@@ -1,0 +1,13 @@
+{
+  "id": "payroll/certificate-deadline/quoted_history",
+  "family": "payroll/certificate-deadline",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nUrząd wymaga ode mnie zaświadczenia o okresie zatrudnienia na swoim formularzu. Termin uzupełnienia dokumentów mija w przyszłym tygodniu. Proszę o informację, jak przekazać druk do wypełnienia i z kim ustalić odbiór podpisanego dokumentu potwierdzającego moje zatrudnienie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.25361804201384075,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "51fef755224328ed28f748df88d819f2f2d6d87a8ee914079e05a12bf1ec5003",
+  "response_sha256": "71ca7dcf4fb1ed69dc6318a440091354b60d7301d5cc650005d023e74c306c54"
+}

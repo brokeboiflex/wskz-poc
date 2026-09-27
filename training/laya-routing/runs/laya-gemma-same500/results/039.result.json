@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/promotion-criteria/forwarded_history",
+  "family": "human_resources/promotion-criteria",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nChciałbym dowiedzieć się, jakie kompetencje i osiągnięcia są wymagane, aby ubiegać się o rolę starszego specjalisty. Rozmowa z przełożonym była bardzo ogólna. Proszę o wyjaśnienie procesu oceny gotowości do awansu i przykładów działań, które mogę zaplanować w najbliższym kwartale.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nZamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2862154580070637,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4c8c3f24ffa4c893e219c242decc2436c92b4d5c72793025b76a05e2527adeb2",
+  "response_sha256": "d1351d7fda69cb3c82ad7056765b72c6f148ac684f99fe4ffb5415558be8890f"
+}

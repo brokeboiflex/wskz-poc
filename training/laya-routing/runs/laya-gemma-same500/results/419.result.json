@@ -1,0 +1,13 @@
+{
+  "id": "other/astronomy/forwarded_history",
+  "family": "other/astronomy",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nWczoraj wieczorem widziałam bardzo jasny punkt obok Księżyca. Chciałabym zrozumieć, jak odróżnia się planetę od gwiazdy bez teleskopu i gdzie szukać mapy nieba. Mam zwykłą lornetkę i mogę obserwować niebo z balkonu skierowanego na południe.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKomputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2503269999870099,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "389698d9a4772ae1322d4f57fc110d369820ca6c8d22270f42fae9ee4719ab9f",
+  "response_sha256": "e65a80e3b69b89a79bda20fc71d3539963ac3b5bd88caeef20f12e45b46504b9"
+}

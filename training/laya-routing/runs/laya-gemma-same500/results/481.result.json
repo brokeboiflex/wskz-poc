@@ -1,0 +1,13 @@
+{
+  "id": "other/thank-you/quoted_history",
+  "family": "other/thank-you",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nDziękuję za wcześniejszą pomoc i szybki kontakt. Sprawa, o której rozmawialiśmy, jest już zakończona i nie potrzebuję dalszych działań. Chciałem tylko przekazać, że doceniam zaangażowanie osoby, która mi pomogła. Nie zgłaszam w tej wiadomości żadnego nowego problemu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.25262487499276176,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b0a3cfdc45c846aa9d0d772d247c7c71bf286f4b981017975e0541e3a1183a61",
+  "response_sha256": "f4cb41c0710de019bdf653ffa4119164908a7a97b7eb0f260fedc18cf7be8917"
+}

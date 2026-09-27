@@ -1,0 +1,13 @@
+{
+  "id": "payroll/bank-account/base",
+  "family": "payroll/bank-account",
+  "message": "Od następnego miesiąca chciałabym otrzymywać wynagrodzenie na nowy rachunek bankowy. Nie zamieszczam numeru w tej wiadomości, bo najpierw potrzebuję właściwego formularza i bezpiecznego sposobu przekazania danych. Proszę o instrukcję zgłoszenia zmiany oraz termin jej uwzględnienia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.21340637499815784,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9567060fbff33dcd29a6fd96abab1db33d883deb26428cc31e8d0c1cce70d649",
+  "response_sha256": "6f2a285d338373c58c5c0fc31b3b55a2fa09d10e3bee85a7065490fdecf98cdb"
+}

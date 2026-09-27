@@ -1,0 +1,13 @@
+{
+  "id": "other/fragment/conversation_history",
+  "family": "other/fragment",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDzień dobry, w nawiązaniu do kwestii związanej z tym, że w ubiegłym tygodniu miało zostać ustalone",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.2131658750004135,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9c26a7a449843ccc55760a096b72e89fa649f0a2558e87b5b5f40362656979ef",
+  "response_sha256": "36ac4c3d9134b363b5774d01f8fe06314756f7473d615e0f6ddacd1051f215b5"
+}

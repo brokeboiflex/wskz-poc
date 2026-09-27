@@ -1,0 +1,13 @@
+{
+  "id": "other/general-contact/resolved_preface",
+  "family": "other/general-contact",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n\nOsobna, aktualna wiadomość:\nDzień dobry, chciałabym porozmawiać z kimś z firmy. Nie wiem, od czego zacząć i do kogo napisać. Czy ktoś może się ze mną skontaktować?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.22448941701441072,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "70090b95a7411f249ae15ab8714c12b84c452aed2979522c0d09315b3895cd8e",
+  "response_sha256": "48e1da214984f1b613b70a2945abe471049d3c2094e1fca7b2ac4ea550511971"
+}

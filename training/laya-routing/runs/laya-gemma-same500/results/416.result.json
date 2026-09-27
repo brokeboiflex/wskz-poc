@@ -1,0 +1,13 @@
+{
+  "id": "other/math/base",
+  "family": "other/math",
+  "message": "Pomagam dziecku przygotować się do sprawdzianu i utknęliśmy przy obliczaniu pola trapezu. Czy możecie wyjaśnić prostymi słowami, skąd bierze się odpowiedni wzór i jak go zastosować?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.18073754099896178,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "89491cd98b9d13e0ae1c7383e8a04b14d58b63f53b9155566292f0d990d2a7b7",
+  "response_sha256": "4257ce20d047955e7dae2c664a70a9ba6f37cacc7e0707c21b8a523a84e04a26"
+}

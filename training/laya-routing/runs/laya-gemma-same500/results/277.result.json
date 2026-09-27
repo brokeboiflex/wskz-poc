@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/payroll-pdf-download/conversation_history",
+  "family": "help_desk/payroll-pdf-download",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPasek wynagrodzenia jest już wystawiony i widoczny w portalu, ale na moim laptopie jego pobieranie kończy się błędem przeglądarki. Na innym komputerze plik można pobrać. Będę wdzięczna za sprawdzenie ustawień mojego urządzenia, bo podobnie zachowuje się pobieranie innych dokumentów.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.250677791016642,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0046654b8d4cc641cb0450e3362ea3317319478a24fe04702b9e9a9765f6e6fb",
+  "response_sha256": "dad30af976b0c3b8a94bbff6a6de24bd3d9b8a50a80380f65a50c1635936e7cf"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "stopped_by_user",
+  "instruction": "One run; if it does not pass stop training. Stop chat spam and save tokens.",
+  "epoch1_validation_correct": 447,
+  "epoch1_validation_count": 500,
+  "epoch2_training_completed": true,
+  "epoch2_validation_count": 386,
+  "epoch2_validation_correct": 338,
+  "epoch2_validation_incomplete": true,
+  "final_test_run": false,
+  "old500_run": false,
+  "further_training_or_evaluation_authorized": false
+}

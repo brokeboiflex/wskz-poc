@@ -1,0 +1,74 @@
+{
+  "model": "gemma4:e2b",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Piszesz syntetyczne wiadomości po polsku do badania klasyfikacji zgłoszeń.\nNie klasyfikujesz istniejących wiadomości. Tworzysz nowe teksty na podstawie jednej definicji scenariusza.\nZwróć wyłącznie obiekt JSON z pięcioma polami: short, context, resolved_history, quotation, informal. Pola short, context, resolved_history i informal zawierają teksty. Pole quotation ma dwa pola: quote (dosłowne słowa rozmówcy) oraz message (dalsza wypowiedź autora).\nKażdy tekst ma wyrażać ten sam główny zamiar ze scenariusza, ale własnymi słowami i z innym naturalnym kontekstem.\nNie zmieniaj rodzaju sprawy, nie dodawaj nowej aktywnej prośby do innego działu.\nNie ujawniaj etykiety, nazwy docelowego działu, numeru scenariusza ani wskazówki dla klasyfikatora w wiadomości.\nNie pisz uzasadnienia poprawnej odpowiedzi. Nie używaj szablonu z podmienionymi nazwami.\nWarianty w kolejności:\nshort: krótka naturalna prośba, 6-18 słów;\ncontext: prośba z konkretnym kontekstem, 20-40 słów;\nresolved_history: zakończony wcześniejszy problem jako tło, wyraźna aktualna sprawa ze scenariusza, 25-50 słów;\nquotation: krótki cytat lub przekazana informacja i aktualny zamiar, 25-50 słów;\ninformal: naturalne skróty lub drobna literówka, 10-25 słów.\nJeśli scenariusz oznacza brak prośby lub brak informacji, zachowaj ten brak; nie wymyślaj konkretnego zadania tylko po to, by wydłużyć tekst.\nNie powtarzaj mechanicznie zwrotu 'nie chodzi o'. Używaj różnych zdań, nie jednego schematu.\nKażda wiadomość będzie czytana OSOBNO, bez scenariusza i pozostałych wariantów. Nawet krótka i potoczna musi zawierać fakty pozwalające rozpoznać konkretną sprawę. Nie usuwaj dziedziny sprawy przy skracaniu.\nWszystkie osoby i szczegóły są fikcyjne. Nie umieszczaj prawdziwych adresów, danych kontaktowych ani sekretów.\n"
+    },
+    {
+      "role": "user",
+      "content": "{\"znaczenie_dzialow\": {\"human_resources\": \"Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.\", \"payroll\": \"Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia.\", \"help_desk\": \"Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie.\", \"it\": \"Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa.\", \"other\": \"Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział.\"}, \"docelowe_znaczenie\": \"Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.\", \"scenariusz\": \"Przygotowanie merytorycznych pytań do ustrukturyzowanego wywiadu rekrutacyjnego.\", \"najwazniejsze\": \"Każdy z pięciu tekstów musi samodzielnie zawierać rodzaj sprawy ze scenariusza. Nie wolno pozostawić ogólnej rozmowy, zmiany, problemu, spotkania itp. bez podania czego dotyczy. Nie odsyłaj do poprzedniej wiadomości. Styl informal ma być potoczny, ale kompletny znaczeniowo.\", \"obowiazkowe_formy\": {\"short\": \"Jedno krótkie zdanie, 6-18 słów.\", \"context\": \"Trzy zdania: konkretna sytuacja, jej skutek i aktualna prośba. 25-45 słów.\", \"resolved_history\": \"Trzy zdania. Najpierw inna wcześniejsza sprawa wyraźnie JUŻ ROZWIĄZANA, następnie aktualna sytuacja ze scenariusza i prośba. 30-55 słów. Nie proś ponownie o rozwiązanie starej sprawy.\", \"quotation\": \"Wstaw dosłowny krótki cytat w cudzysłowie (np. słowa rozmówcy lub treść powiadomienia), następnie opisz aktualny zamiar ze scenariusza. 25-45 słów.\", \"informal\": \"Potoczna wiadomość do współpracownika, skróty lub drobna literówka, 10-25 słów.\"}, \"kontrola\": \"Sprawdź przed odpowiedzią: historia ma zakończoną dawną sprawę; quotation zawiera rzeczywisty cytat; wszystkie teksty zachowują scenariusz. Przy scenariuszu bez informacji lub bez prośby zachowaj ten brak, zamiast dopisywać zadanie.\"}"
+    }
+  ],
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "authored_messages",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "properties": {
+          "short": {
+            "type": "string",
+            "description": "Jedno krótkie zdanie, 6-18 słów."
+          },
+          "context": {
+            "type": "string",
+            "description": "Trzy zdania: konkretna sytuacja, jej skutek i aktualna prośba. 25-45 słów."
+          },
+          "resolved_history": {
+            "type": "string",
+            "description": "Trzy zdania. Najpierw inna wcześniejsza sprawa wyraźnie JUŻ ROZWIĄZANA, następnie aktualna sytuacja ze scenariusza i prośba. 30-55 słów. Nie proś ponownie o rozwiązanie starej sprawy."
+          },
+          "quotation": {
+            "type": "object",
+            "description": "Wstaw dosłowny krótki cytat w cudzysłowie (np. słowa rozmówcy lub treść powiadomienia), następnie opisz aktualny zamiar ze scenariusza. 25-45 słów.",
+            "properties": {
+              "quote": {
+                "type": "string",
+                "description": "Dosłowne słowa rozmówcy lub powiadomienia, bez cudzysłowu."
+              },
+              "message": {
+                "type": "string",
+                "description": "Aktualny zamiar autora po przytoczonym cytacie."
+              }
+            },
+            "required": [
+              "quote",
+              "message"
+            ],
+            "additionalProperties": false
+          },
+          "informal": {
+            "type": "string",
+            "description": "Potoczna wiadomość do współpracownika, skróty lub drobna literówka, 10-25 słów."
+          }
+        },
+        "required": [
+          "short",
+          "context",
+          "resolved_history",
+          "quotation",
+          "informal"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "seed": 44,
+  "reasoning_effort": "none",
+  "max_tokens": 1000,
+  "stream": false
+}

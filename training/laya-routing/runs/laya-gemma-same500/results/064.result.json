@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/employee-survey/base",
+  "family": "human_resources/employee-survey",
+  "message": "Chcemy zebrać anonimowe opinie zespołu o jakości komunikacji z kierownictwem. Nie potrzebujemy rozwiązania technicznego, lecz pomocy w przygotowaniu pytań i zasad wykorzystania wyników. Proszę o konsultację badania, aby pracownicy wiedzieli, w jakim celu przekazują swoje odpowiedzi.\n\nZespół jest mały i obawiamy się, że zbyt szczegółowe pytania pozwolą rozpoznać autora odpowiedzi. Chcielibyśmy ustalić, jak grupować wyniki i komu udostępniać komentarze. Zależy nam na szczerych opiniach, które da się przełożyć na poprawę współpracy.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.23319729100330733,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a1c96bb86ea9645d5549ad3fe41106e91eaa856e5b864e02ee119e3e6081ddc5",
+  "response_sha256": "65559a46652aaed03e70f119a649c9bff8aca998a1fc714d2ebacd2652d378d5"
+}

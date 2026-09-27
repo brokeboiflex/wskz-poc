@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/discrimination-report/base",
+  "family": "human_resources/discrimination-report",
+  "message": "Kilkukrotnie usłyszałem od współpracowników komentarze dotyczące mojego pochodzenia, także podczas rozmów z klientami. Mam zapisane daty i opis sytuacji. Chciałbym zgłosić problem poufnie i ustalić, jak wygląda procedura wyjaśniająca oraz jakie wsparcie jest dostępne dla pracownika.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.18968095901072957,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ee54996243c53a9d555fe76f2ef4729ba8dab9aeddf8942502da3504c0f3636f",
+  "response_sha256": "9e03aded32a070a99e24fbec5c6daa09324cde6fd8b37b3c12e8d44b9c1bb4a1"
+}

@@ -1,0 +1,69 @@
+it-008
+UPS serwerowni zgłasza krytyczny stan baterii.
+Awaryjne zasilanie obsługujące infrastrukturę serwerową ma poważny problem z akumulatorami. Proszę sprawdzić UPS i zabezpieczyć ciągłość zasilania serwerowni.
+Proszę zająć się krytycznym stanem baterii UPS serwerowni. Moje hasło do komputera już odblokowano. Alarm dotyczy wspólnego zasilania infrastruktury.
+Zasilacz awaryjny zgłasza: „Bateria w stanie krytycznym”. Obsługuje serwerownię. Proszę podjąć interwencję przy zasilaniu infrastruktury.
+UPS w serwerowni ma krytyczny alarm baterii. Sprawdzicie awaryjne zasilanie serwerów?
+
+it-013
+Chłodzenie szafy serwerowej nie utrzymuje wymaganej temperatury.
+Temperatura sprzętu w szafie rośnie mimo działającego układu chłodzenia. Proszę zdiagnozować chłodzenie infrastruktury i przywrócić wymagane warunki pracy.
+Rozliczenie mojego urlopu już zamknięto. Proszę sprawdzić chłodzenie szafy serwerowej, które nie utrzymuje wymaganej temperatury.
+Czujnik szafy zgłasza: „Przekroczona temperatura pracy”. Chłodzenie nie utrzymuje warunków. Proszę zabezpieczyć infrastrukturę serwerową.
+Chłodzenie szafy z serwerami nie daje rady, temperatura rośnie. Potrzebna interwencja przy infrastrukturze.
+
+it-014
+Centralny przełącznik utracił zasilanie kilku modułów.
+Część modułów wspólnego urządzenia sieciowego przestała pracować z powodu braku zasilania. Proszę sprawdzić przełącznik centralny i przywrócić jego sprawność.
+Proszę naprawić zasilanie kilku modułów centralnego przełącznika. Usterkę mojego monitora już usunięto. Awaria dotyczy urządzenia wspólnej sieci.
+Panel przełącznika pokazuje: „Brak zasilania modułów”. Dotyczy centralnego urządzenia obsługującego firmę. Proszę zająć się tą awarią.
+Kilka modułów centralnego switcha straciło zasilanie. Sprawdzicie urządzenie sieciowe?
+
+it-017
+Proszę zaplanować przeniesienie firmowych serwerów do nowej szafy rack.
+Przygotowujemy zmianę miejsca montażu infrastruktury. Potrzebny jest plan przełożenia serwerów do nowej szafy, z uwzględnieniem połączeń i kolejności działań.
+Zaświadczenie o zatrudnieniu już otrzymałem. Proszę przygotować plan przeniesienia firmowych serwerów do nowej szafy rack.
+W uzgodnieniach zapisano: „Serwery zostaną przeniesione do nowej szafy”. Proszę zaplanować tę zmianę infrastruktury firmowej.
+Mamy nowy rack na firmowe serwery. Zaplanujecie ich przeniesienie i podłączenie?
+
+it-020
+W panelu krosowym uszkodził się tor łączący dwa piętra.
+Połączenie infrastruktury między kondygnacjami nie działa z powodu uszkodzenia toru w panelu. Proszę sprawdzić panel krosowy i przywrócić łączność pięter.
+Proszę naprawić tor między dwoma piętrami w panelu krosowym infrastruktury. Moje rozliczenie nadgodzin już poprawiono. Łączność kondygnacji nadal nie działa.
+Pomiar wykazał: „Uszkodzony tor na panelu krosowym”. Łączy dwa firmowe piętra. Proszę przywrócić sprawność tego połączenia.
+Padł tor w patchpanelu między dwoma piętrami. Sprawdzicie i naprawicie połączenie infrastruktury?
+
+it-031
+Czujnik zalania serwerowni zgłasza realne zagrożenie dla sprzętu sieciowego.
+W serwerowni wykryto wodę w pobliżu urządzeń infrastruktury. Proszę podjąć interwencję, aby zabezpieczyć zagrożony sprzęt sieciowy.
+Naprawę mojej drukarki już zakończono. Zgłaszam rzeczywiste zagrożenie zalaniem sprzętu sieciowego w serwerowni potwierdzone przez czujnik.
+Czujnik zgłasza: „Woda w serwerowni”. Zagrożenie dla urządzeń sieciowych jest rzeczywiste. Proszę zabezpieczyć infrastrukturę.
+Alarm zalania w serwerowni jest prawdziwy, woda zagraża sprzętowi sieciowemu. Potrzebna interwencja.
+
+it-036
+Proszę przygotować zaplanowane wyłączenie zasilania infrastruktury serwerowej.
+Zbliża się uzgodniona przerwa energetyczna dotycząca serwerów. Potrzebujemy przygotowania urządzeń oraz kolejności ich wyłączenia i ponownego uruchomienia.
+Proszę przygotować planowane odłączenie zasilania infrastruktury serwerowej. Dokumenty pracownicze już uzupełniono. Chodzi o uzgodnioną przerwę w pracy serwerów.
+W harmonogramie zapisano: „Planowe wyłączenie zasilania serwerowni”. Proszę przygotować infrastrukturę serwerową do tej operacji.
+Będzie planowe odcięcie prądu serwerom. Przygotujecie infrastrukturę do wyłączenia?
+
+it-047
+Wentylator w serwerze produkcyjnym zgłasza awarię sprzętową.
+Monitoring jednego z serwerów wspólnej usługi wykrył uszkodzenie wentylatora. Proszę zorganizować interwencję sprzętową w infrastrukturze produkcyjnej.
+Korekta mojego wynagrodzenia została wykonana. Proszę zająć się awarią wentylatora zgłaszaną przez serwer produkcyjny.
+Panel serwera pokazuje: „Awaria wentylatora”. To urządzenie produkcyjne. Proszę sprawdzić i naprawić chłodzenie infrastruktury.
+Wentylator w produkcyjnym serwerze zgłosił awarię. Zajmiecie się sprzętem?
+
+it-056
+Światłowód między szafami technicznymi ma uszkodzony moduł optyczny.
+Łącze infrastruktury nie działa prawidłowo po wykryciu usterki transceivera. Proszę sprawdzić i wymienić uszkodzony moduł połączenia między szafami.
+Proszę naprawić uszkodzony moduł optyczny łącza między szafami technicznymi. Mój lokalny problem z pocztą już rozwiązano. Awaria dotyczy światłowodu infrastruktury.
+Diagnostyka wskazuje: „Uszkodzony moduł optyczny”. Obsługuje światłowód między szafami technicznymi. Proszę przywrócić to połączenie.
+Moduł optyczny na światłowodzie między szafami padł. Sprawdzicie łącze infrastruktury?
+
+it-067
+Po alarmie proszę sprawdzić redundancję zasilania centralnej infrastruktury.
+Pojawiło się ostrzeżenie dotyczące wspólnego zasilania urządzeń. Potrzebujemy zweryfikować, czy zapasowe tory nadal zapewniają redundancję infrastruktury.
+Zaświadczenie już odebrałam. Proszę sprawdzić redundancję zasilania centralnej infrastruktury po zgłoszonym alarmie.
+Monitoring zgłosił: „Możliwa utrata redundancji zasilania”. Proszę zweryfikować zapasowe zasilanie centralnej infrastruktury.
+Był alarm zasilania. Sprawdzicie, czy centralna infrastruktura nadal ma działającą redundancję?

@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 10.741451792011503,
+  "response_sha256": "bfc3792973c4ade51b05db1c03643e4ee9d4e6b29c92a99b1f17c51f677f2e4a",
+  "request_sha256": "3cb58c9c6b94eaee8cbbda83adc79b1786b4ba64b7c093015abfbd0be4c592d1",
+  "messages": [
+    {
+      "style": "short",
+      "message": "Proszę o pomoc w stworzeniu pytań do wywiadu rekrutacyjnego."
+    },
+    {
+      "style": "context",
+      "message": "Potrzebuję pomocy w przygotowaniu pytań do wywiadu rekrutacyjnego. Chciałbym, aby były one merytoryczne i ustrukturyzowane. Czy możesz mi w tym pomóc?"
+    },
+    {
+      "style": "resolved_history",
+      "message": "Wcześniej omówiliśmy kwestie związane z zatrudnieniem. Obecnie potrzebuję stworzyć merytoryczne pytania do wywiadu rekrutacyjnego. Proszę o wsparcie w tej konkretnej sprawie."
+    },
+    {
+      "style": "quotation",
+      "message": "„Przygotowanie merytorycznych pytań do ustrukturyzowanego wywiadu rekracyjnego.” Chciałbym przygotować merytoryczne pytania do ustrukturyzowanego wywiadu rekręacyjnego. Proszę o pomoc w tym zakresie."
+    },
+    {
+      "style": "informal",
+      "message": "Hej, muszę przygotować pytania do rozmowy rekrutacyjnej. Jak mi w tym pomożesz?"
+    }
+  ]
+}

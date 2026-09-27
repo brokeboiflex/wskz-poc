@@ -1,0 +1,13 @@
+{
+  "id": "payroll/contract-copy/resolved_postscript",
+  "family": "payroll/contract-copy",
+  "message": "Porządkuję dokumenty i nie mogę znaleźć swojego egzemplarza umowy o pracę wraz z ostatnim aneksem. Chciałabym otrzymać ich kopie z akt pracowniczych. Proszę o informację, jak złożyć taki wniosek i czy dokumenty można odebrać osobiście w uzgodnionym terminie.\n\nPS. Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.22831075001158752,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "771cb03da7d7bc74dcc73d81dd711be1cd67a144cdaad667c98a782595a1d54c",
+  "response_sha256": "6b1ab5223cfc40a2a7b0aef5454f5f2b9d284776c1c742af082c7030fd2b2f4e"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/career-path/resolved_postscript",
+  "family": "human_resources/career-path",
+  "message": "Od trzech lat zajmuję się obsługą klientów i chciałabym stopniowo przejść do analizy procesów. Nie wiem, jakie umiejętności będą wymagane i od czego zacząć przygotowania. Proszę o rozmowę dotyczącą możliwej ścieżki rozwoju oraz dostępnych działań wspierających taki kierunek.\n\nNajbardziej interesuje mnie praca z danymi o przyczynach reklamacji. Przygotowałam już niewielkie zestawienie powtarzających się problemów i rozmawiałam z analityczką o jej codziennych zadaniach. Widzę jednak, że potrzebuję uporządkować wiedzę, zamiast zapisywać się na przypadkowe kursy.\n\nMój przełożony popiera przygotowanie takiego planu i może zapewnić kilka godzin miesięcznie na obserwowanie pracy innego zespołu. Chciałabym podczas konsultacji ustalić realne etapy: co powinnam umieć po trzech miesiącach, jak pokazać postęp i kiedy wrócić do rozmowy o możliwym przejściu. Nie oczekuję gwarancji nowego stanowiska; potrzebuję konkretnego kierunku nauki.\n\nPS. Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.34602666599676013,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3b38707b750f10e9fcb8e327a2c44a94085e31c1d1f4e9b6d834b658ec95ab1a",
+  "response_sha256": "f10ba2913e5c8c1063a770c298385727dae32c1372df5539ad80efc055bfda7b"
+}

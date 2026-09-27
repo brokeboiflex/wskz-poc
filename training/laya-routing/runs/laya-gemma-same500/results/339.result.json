@@ -1,0 +1,13 @@
+{
+  "id": "it/load-balancer/forwarded_history",
+  "family": "it/load-balancer",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nUżytkownicy trafiają losowo na niedziałającą instancję aplikacji, mimo że druga odpowiada poprawnie. Wygląda na to, że load balancer nadal kieruje ruch do uszkodzonego węzła. Proszę o sprawdzenie testów zdrowia i konfiguracji rozdzielania ruchu w środowisku produkcyjnym.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nLokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2530410840117838,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2e2c5f2eacbb341a7820b05ee675460681778a2e0a55c81189123361a15ca32e",
+  "response_sha256": "b14a6424956f1e0df85174352c3d17145b37853378e547482b1741fb6758be03"
+}

@@ -1,0 +1,69 @@
+help_desk-012
+Proszę zainstalować zatwierdzony program na moim komputerze służbowym.
+Mam zgodę na używanie aplikacji potrzebnej do moich zadań. Potrzebuję jej instalacji na własnym stanowisku, proszę o pomoc.
+Proszę zainstalować na moim stanowisku zatwierdzoną aplikację. Błąd w ewidencji urlopu już poprawiono. Zgoda na program jest udzielona.
+Przełożona potwierdziła: „Ten program jest zatwierdzony do twojej pracy”. Proszę zainstalować go na moim komputerze.
+Mam zgodę na potrzebny program. Zainstalujecie go na moim stanowisku?
+
+help_desk-024
+Proszę aktywować legalnie przyznaną mi licencję aplikacji na moim komputerze.
+Program jest już dostępny, a licencję otrzymałem zgodnie z przydziałem. Nie potrafię jej aktywować. Proszę pomóc na tym stanowisku.
+Wyrównanie pensji już wypłacono. Potrzebuję aktywacji legalnie przyznanej mi licencji programu na moim pojedynczym komputerze.
+W potwierdzeniu przydziału napisano: „Licencja została przypisana do użytkownika”. Proszę pomóc aktywować ją w aplikacji na moim stanowisku.
+Mam legalnie przydzieloną licencję, tylko aktywacja mi nie idzie. Pomożecie na moim komputerze?
+
+help_desk-031
+Proszę usunąć starą wersję programu z mojego komputera przed instalacją nowej.
+Chcę zaktualizować aplikację, lecz najpierw trzeba odinstalować poprzednią wersję na moim stanowisku. Proszę pomóc przygotować komputer do nowej instalacji.
+Proszę odinstalować starą wersję programu u mnie przed wgraniem nowej. Dokument podatkowy już odebrałem. Ta prośba dotyczy lokalnego przygotowania aplikacji.
+Instalator informuje: „Najpierw usuń poprzednią wersję”. Proszę pomóc odinstalować ją na moim komputerze przed instalacją nowego programu.
+Przed nową wersją muszę wywalić starą aplikację z mojego komputera. Pomożecie z odinstalowaniem?
+
+help_desk-045
+Potrzebuję instalacji firmowej czcionki na moim komputerze.
+Mam plik kroju używanego w materiałach organizacji, lecz nie jest dostępny w programach. Proszę zainstalować tę firmową czcionkę na moim stanowisku.
+Terminy szkolenia już uzgodniono. Proszę pomóc zainstalować firmową czcionkę na moim komputerze do pracy.
+W instrukcji materiałów zapisano: „Zainstaluj firmowy krój pisma”. Proszę pomóc dodać tę czcionkę na moim stanowisku.
+Mam plik firmowej czcionki. Wgracie mi ją na komputer, żeby była w programach?
+
+help_desk-052
+Proszę dodać zatwierdzony słownik językowy do edytora na moim komputerze.
+Potrzebuję sprawdzania tekstu w dodatkowym języku. Słownik jest zatwierdzony, ale nie wiem, jak dołączyć go do mojego edytora. Proszę pomóc.
+Proszę zainstalować zaakceptowany słownik językowy w moim edytorze. Nieprawidłową liczbę godzin już skorygowano. Pozostała konfiguracja programu.
+Przełożona napisała: „Ten słownik jest zatwierdzony do użycia”. Proszę dodać go do edytora dokumentów na moim stanowisku.
+Mamy zatwierdzony słownik do edytora. Dodacie go w programie na moim komputerze?
+
+help_desk-054
+Proszę zainstalować wtyczkę dostępności na moim stanowisku.
+Potrzebuję rozszerzenia ułatwiającego mi korzystanie z aplikacji. Proszę pomóc zainstalować wtyczkę dostępności dla mojego użytkownika.
+Zaświadczenie o zatrudnieniu już wystawiono. Zwracam się o instalację wtyczki dostępności na moim komputerze.
+W instrukcji narzędzia jest krok: „Zainstaluj rozszerzenie dostępności”. Proszę pomóc dodać tę wtyczkę dla mojego użytkownika.
+Przyda mi się wtyczka dostępności do pracy na komputerze. Zainstalujecie ją na moim stanowisku?
+
+help_desk-055
+Aktualizacja legalnego programu na moim laptopie została przerwana; proszę ją naprawić.
+Używam zatwierdzonej aplikacji, której aktualizacja zatrzymała się w połowie. Proszę pomóc przywrócić poprawny stan programu na moim laptopie.
+Proszę naprawić przerwaną aktualizację legalnej aplikacji na moim komputerze. Sprawa naliczenia premii już zakończona. Program nadal wymaga naprawy instalacji.
+Aktualizator wyświetlił: „Aktualizacja została przerwana”. Dotyczy legalnego programu na moim laptopie. Proszę przywrócić poprawną instalację.
+Aktualizacja legalnego programu urwała się na moim laptopie. Pomożecie ją naprawić?
+
+help_desk-059
+Proszę przenieść przypisaną mi licencję programu na wymieniony komputer.
+Dostałam nowy komputer zamiast poprzedniego. Moja licencja aplikacji pozostaje związana ze starym urządzeniem. Proszę pomóc przenieść ją na nowe stanowisko.
+Dane do wypłaty już uaktualniono. Potrzebuję przeniesienia przypisanej mi licencji na komputer otrzymany w ramach wymiany sprzętu.
+W rejestrze licencji widnieje: „Przypisana do poprzedniego urządzenia”. Proszę przenieść moją licencję na nowy komputer służbowy.
+Wymienili mi komputer, a licencja została na starym. Przeniesiecie mój przydział na nowy sprzęt?
+
+help_desk-060
+Proszę zainstalować bibliotekę wymaganą przez legalną aplikację na moim komputerze.
+Zatwierdzony program nie ma potrzebnego składnika uruchomieniowego. Proszę dodać brakującą bibliotekę na moim pojedynczym stanowisku, aby aplikacja działała.
+Potrzebuję instalacji wymaganej biblioteki do legalnego programu na moim komputerze. Potwierdzenie urlopu już otrzymałem. Brakuje lokalnego składnika aplikacji.
+Program zgłasza: „Brak wymaganej biblioteki”. To legalna aplikacja używana przeze mnie w pracy. Proszę zainstalować zależność na moim stanowisku.
+Legalny program na moim komputerze woła o brakującą bibliotekę. Doinstalujecie potrzebny składnik?
+
+help_desk-073
+Proszę pomóc skonfigurować nowo zainstalowane narzędzie na moim komputerze.
+Aplikacja jest już wgrana, ale wymaga ustawienia przed pierwszym użyciem. Potrzebuję pomocy w konfiguracji narzędzia dla mojego stanowiska.
+Dokumenty do zatrudnienia zostały przyjęte. Proszę pomóc ustawić narzędzie, które właśnie zainstalowano na moim komputerze.
+Po instalacji widzę komunikat: „Dokończ konfigurację początkową”. Proszę pomóc ustawić nowe narzędzie na moim stanowisku.
+Program już mam zainstalowany, tylko trzeba go poustawiać. Pomożecie z konfiguracją na moim komputerze?

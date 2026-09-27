@@ -1,0 +1,13 @@
+{
+  "id": "it/domain-renewal/base",
+  "family": "it/domain-renewal",
+  "message": "Domena wykorzystywana przez publiczną aplikację zbliża się do końca ważności, a automatyczne odnowienie nie zostało potwierdzone. Proszę sprawdzić jej utrzymanie i konfigurację DNS, żeby uniknąć przerwy w działaniu usługi. Potrzebujemy potwierdzenia przed weekendem, kiedy dyżuruje mniejszy zespół.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19340666697826236,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "93287d05758cebebebfbce14cc16c226f622fa7d94a4a09b7356679b7946acb4",
+  "response_sha256": "727c7cc856741169fff0b9f958badcf9bfbbd3d61c0ef27725f79d74514563a4"
+}

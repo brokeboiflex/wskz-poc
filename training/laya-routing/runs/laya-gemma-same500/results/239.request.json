@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nProgram pocztowy na moim laptopie przestał pobierać wiadomości, ale przez przeglądarkę widzę całą aktualną skrzynkę. Inni pracownicy nie zgłaszają problemu. Proszę o pomoc w naprawie lokalnej konfiguracji poczty bez usuwania wiadomości zapisanych w moim profilu.\n\nW aplikacji ostatnia odebrana wiadomość ma datę z poniedziałku. Przycisk odświeżania przez chwilę pokazuje pracę, a potem wraca do poprzedniego stanu bez nowej poczty. W przeglądarce widzę wiadomości z dzisiaj i mogę na nie odpowiadać.\n\nNa laptopie mam też lokalny katalog z korespondencją dotyczącą zamkniętych projektów. Nie wiem, czy jest synchronizowany, dlatego nie próbowałem usuwać całego profilu ani zakładać go od początku. Proszę najpierw sprawdzić ustawienia i możliwość zachowania tego archiwum. Mogę pokazać dokładny widok programu podczas zdalnej sesji. Restart laptopa oraz wylogowanie z aplikacji nie zmieniły sytuacji, a inne programy korzystające z internetu działają.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

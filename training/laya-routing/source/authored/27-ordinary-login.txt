@@ -1,0 +1,69 @@
+help_desk-039
+Zapomniałem hasła do swojego konta służbowego i potrzebuję odzyskać dostęp.
+Nie pamiętam używanego hasła i nie mogę wejść na własne konto. Nie zauważyłem podejrzanych zmian ani obcych logowań. Proszę pomóc z jego zwykłym odzyskaniem.
+Potrzebuję odzyskać dostęp do własnego konta, bo zapomniałam hasła. Potrącenie z pensji już poprawiono. Nie ma oznak przejęcia konta, po prostu nie pamiętam danych.
+Ekran logowania podpowiada: „Nie pamiętasz hasła?”. To mój przypadek. Proszę pomóc odzyskać dostęp do własnego konta służbowego, bez innych oznak problemu bezpieczeństwa.
+Zapomniałem hasła do swojego konta w pracy. Nic podejrzanego się nie działo, pomożecie odzyskać dostęp?
+
+help_desk-040
+Zablokowałam własne konto przez błędne wpisywanie hasła; proszę je odblokować.
+Kilka razy wpisałem niewłaściwe hasło, po czym moje konto przestało dopuszczać logowanie. To były moje próby. Proszę pomóc odblokować dostęp.
+Zaświadczenie o zatrudnieniu już odebrałam. Proszę odblokować moje konto po tym, jak sama kilkakrotnie źle wpisałam hasło.
+Po moich nieudanych próbach ekran pokazuje: „Konto zablokowane”. Proszę pomóc odzyskać dostęp po błędnym wpisywaniu własnego hasła.
+Sam kilka razy pomyliłem hasło i konto się zablokowało. Odblokujecie mi dostęp?
+
+help_desk-041
+Moje hasło służbowe wygasa; potrzebuję pomocy w jego zwykłej zmianie.
+Otrzymałem przypomnienie o terminie ważności hasła. Chcę zmienić je zgodnie z procedurą na swoim koncie, ale nie wiem, jak przejść przez formularz. Proszę o pomoc.
+Proszę pomóc zmienić moje wygasające hasło służbowe. Zapis urlopu już skorygowano i tamta kwestia jest zakończona. Chodzi o rutynową zmianę własnych danych logowania.
+System wyświetla: „Twoje hasło wkrótce wygaśnie”. Proszę przeprowadzić mnie przez zwykłą zmianę hasła na moim koncie.
+Hasło mi wygasa. Pomożecie je normalnie zmienić na koncie służbowym?
+
+help_desk-042
+Nie wiem, jakiego identyfikatora użyć do logowania na moje konto służbowe.
+Ekran wymaga nazwy użytkownika, a ja nie jestem pewna, czy mam wpisać adres poczty czy nadany identyfikator. Proszę wskazać właściwe dane logowania dla mojego konta.
+Błędną datę zatrudnienia poprawiono. Potrzebuję pomocy w ustaleniu, który identyfikator mam wpisać na ekranie logowania do własnego konta.
+Na ekranie jest pole „Identyfikator użytkownika”. Nie wiem, który z otrzymanych identyfikatorów służbowych wpisać. Proszę pomóc mi się zalogować.
+Co mam wpisać jako login do swojego konta w pracy: mail czy jakiś numer? Pomożecie ustalić identyfikator?
+
+help_desk-044
+Proszę pomóc skonfigurować aplikację uwierzytelniającą na moim nowym telefonie.
+Wymieniłam telefon i potrzebuję przenieść zwykłe logowanie dwuetapowe do pracy na nowe urządzenie. Proszę pomóc skonfigurować aplikację uwierzytelniającą dla mojego konta.
+Chcę ustawić aplikację uwierzytelniającą na nowym telefonie do własnego konta służbowego. Rozliczenie dodatku za dyżur już wyjaśniono. Proszę pomóc z konfiguracją logowania.
+Instrukcja konta mówi: „Skonfiguruj aplikację uwierzytelniającą”. Mam nowy telefon i potrzebuję pomocy w wykonaniu tej konfiguracji dla własnego dostępu.
+Zmieniłem telefon. Ogarniecie mi aplikację do potwierdzania logowania na moje konto w pracy?
+
+help_desk-046
+Na moim urządzeniu nie pojawia się kod drugiego składnika logowania.
+Próbuję wejść na swoje konto, ale wymagany kod nie dociera na moje urządzenie. Sam rozpocząłem logowanie. Proszę pomóc uzyskać kod i dokończyć dostęp.
+Wniosek pracowniczy został już przyjęty. Teraz moje własne logowanie zatrzymuje się, ponieważ na urządzeniu nie pojawia się kod drugiego składnika. Proszę o pomoc.
+Formularz prosi: „Wpisz kod weryfikacyjny”, lecz na moim urządzeniu go nie ma. To moja próba logowania, proszę pomóc z otrzymaniem kodu.
+Sam się loguję, ale kod drugiego składnika nie pojawia się na moim urządzeniu. Sprawdzicie, czemu nie przychodzi?
+
+help_desk-047
+Po zatwierdzonej zmianie nazwiska na koncie nie mogę się zalogować.
+Moje nazwisko zostało formalnie zmienione i dane konta służbowego zaktualizowano. Od tego momentu nie mogę uzyskać dostępu. Proszę pomóc przywrócić logowanie.
+Proszę pomóc zalogować się po legalnej zmianie nazwiska mojego konta. Dokumenty zatrudnienia już poprawiono i ta sprawa jest zamknięta. Dostęp do konta nadal nie działa.
+Otrzymałam potwierdzenie: „Nazwisko na koncie zostało zaktualizowane”. Po tej uzgodnionej zmianie logowanie przestało działać. Proszę przywrócić mój dostęp.
+Po zmianie nazwiska na moim koncie nie mogę wejść. Wszystko było zatwierdzone, pomożecie z logowaniem?
+
+help_desk-048
+Mój menedżer haseł podpowiada stare dane do konta służbowego.
+Zmieniłem dane logowania, ale narzędzie na moim komputerze nadal automatycznie wstawia poprzednie. Proszę pomóc poprawić zapis w moim menedżerze haseł.
+Zwrot kosztów został rozliczony. Potrzebuję pomocy z menedżerem haseł na swoim komputerze, który podpowiada nieaktualne dane logowania.
+Kolega zauważył: „Menedżer wstawia ci stare hasło”. Proszę pomóc uaktualnić zapisane dane do mojego konta służbowego.
+Menedżer haseł ciągle wkleja mi stare dane. Pomożecie poprawić zapis na moim komputerze?
+
+help_desk-049
+Na moim koncie portal służbowy wraca w kółko do logowania.
+Podaję swoje dane, strona przechodzi dalej i natychmiast znów prosi o zalogowanie. Inni użytkownicy korzystają z portalu normalnie. Proszę pomóc przerwać tę pętlę u mnie.
+Proszę sprawdzić pętlę logowania do portalu na moim stanowisku. Sprawa certyfikatu ze szkolenia została zakończona. Pozostałym pracownikom dostęp do portalu działa.
+Po każdym zalogowaniu portal ponownie pokazuje mi „Zaloguj się”. Dotyczy to tylko mojego dostępu. Proszę pomóc wyjść z tej pętli.
+Portal służbowy ciągle wyrzuca mnie z powrotem do logowania. Innym działa, sprawdzicie moje konto?
+
+help_desk-050
+Usunęłam własną metodę logowania i potrzebuję odzyskać dostęp do konta.
+Samodzielnie usunąłem skonfigurowaną metodę dostępu, nie przewidując skutków. Nie mogę teraz zalogować się na własne konto służbowe. Proszę pomóc odzyskać możliwość logowania.
+Wypłata została już wyrównana. Potrzebuję odzyskania dostępu do swojego konta po tym, jak sama usunęłam własną metodę logowania.
+Po moim działaniu pojawił się komunikat: „Metoda logowania została usunięta”. To ja ją usunąłem. Proszę pomóc odzyskać dostęp do mojego konta.
+Sam skasowałem swoją metodę logowania i teraz nie mogę wejść na konto w pracy. Pomożecie odzyskać dostęp?

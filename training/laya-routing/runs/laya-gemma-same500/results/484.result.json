@@ -1,0 +1,13 @@
+{
+  "id": "other/gibberish/base",
+  "family": "other/gibberish",
+  "message": "Fioletowy zegar pożyczył chmurze siedem smaków, a schody zaczęły nucić kwadratowe morze. Zielona cisza pod stołem układała z liter śniadanie dla cienia. Proszę przestawić wczoraj na drugą stronę parasola, zanim liczba niebieska zasypie okrągłe okno.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.21782799999346025,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1a03f3b5582ab487e87020defdd261e6f7cadfe82f8006e76942f8dbe4ca4107",
+  "response_sha256": "0913786000d672dc7abd35f57d96043ab1a02324a5727493e26cf0aab3999c28"
+}

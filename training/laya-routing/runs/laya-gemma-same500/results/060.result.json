@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/buddy-program/base",
+  "family": "human_resources/buddy-program",
+  "message": "Chcielibyśmy wprowadzić w zespole osobę wspierającą każdego nowego pracownika przez pierwszy miesiąc. Potrzebujemy zasad wyboru opiekunów i wskazówek, jak przygotować ich do tej roli. Czy można pomóc nam opracować taki program i określić zakres spotkań z nowymi osobami?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.21394008299103007,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5dd2ffef935acbc2913a64ae87376ec0ac2e784bd7c7d7e8ad7d6a9f1889ae9e",
+  "response_sha256": "d3199b9fe0477973a84a84f952a34a2c38ce1d3b6dbe8ea3ff4f8185f3a0452c"
+}

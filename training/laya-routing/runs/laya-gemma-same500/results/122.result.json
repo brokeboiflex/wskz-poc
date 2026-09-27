@@ -1,0 +1,13 @@
+{
+  "id": "payroll/salary-underpayment/base",
+  "family": "payroll/salary-underpayment",
+  "message": "Kwota ostatniego przelewu jest niższa niż zwykle, mimo że przepracowałem pełny miesiąc i nie zgłaszałem nieobecności. Na pasku wynagrodzenia nie potrafię znaleźć przyczyny różnicy. Proszę o sprawdzenie naliczenia i wyjaśnienie składników, które wpłynęły na wysokość tej wypłaty.\n\nPorównałem dwa ostatnie paski. Podstawa wygląda tak samo, ale zmieniła się jedna pozycja w części potrąceń. Nie otrzymałem wyjaśnienia ani informacji o korekcie poprzedniego okresu. W tym miesiącu nie zmieniałem wymiaru etatu i nie korzystałem z dodatkowych świadczeń.\n\nWolałbym nie przesyłać całej dokumentacji na ogólną skrzynkę. Mogę przekazać paski oraz potwierdzenie przelewu przez wskazany kanał. Proszę wyjaśnić, jakiego okresu dotyczy różnica, czy jest jednorazowa i czy wymaga dostarczenia przeze mnie dodatkowych danych. Chciałbym też wiedzieć, czy w przypadku pomyłki korekta trafi do najbliższej wypłaty, czy otrzymam osobne wyrównanie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.3182131249923259,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5de77cd470db6cea5a4a8dd9285419a78e4d08821ed541197fdcad3e6199f401",
+  "response_sha256": "fa58a16e024f41ae439ebc8cbf9e075f49944c219097f7e9882f55c48ef4fc30"
+}

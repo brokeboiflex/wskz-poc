@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:09:40.182503+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "Read all50 messages individually and compare to10 frozen definitions, policy and approved manual approach. No benchmark, score or inference access.",
+  "source_sha256": "04396212fd50f6257efebbdfdda9275928c5562cbd67587b8fe07a8705dd0659",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/10-performance-feedback.txt",
+      "sha256": "04396212fd50f6257efebbdfdda9275928c5562cbd67587b8fe07a8705dd0659"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": false,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 47,
+    "route_ambiguous_due_to_missing_workplace_context": 3,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 47,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 3
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "human_resources-003",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-004",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-011",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-013",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-014",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-017",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-027",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "severity": "blocking",
+          "variant": "context",
+          "message_index": 1,
+          "category": "missing_routing_context",
+          "finding": "The standalone text asks about levels in an unspecified evaluation form. No employee or work context distinguishes it from an arbitrary rating form."
+        },
+        {
+          "severity": "blocking",
+          "variant": "informal",
+          "message_index": 4,
+          "category": "missing_routing_context",
+          "finding": "The standalone text asks about a rating form and scale without any employee or workplace reference."
+        }
+      ]
+    },
+    {
+      "family": "human_resources-028",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-031",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "severity": "blocking",
+          "variant": "short",
+          "message_index": 0,
+          "category": "missing_routing_context",
+          "finding": "The standalone request asks for a meeting about last-year achievements without a professional or manager context; it may describe a private review of personal achievements."
+        }
+      ]
+    },
+    {
+      "family": "human_resources-035",
+      "split": "test",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "Current task distinctions are retained: explaining vs appealing an evaluation; diagnosing turnover vs conducting an exit conversation; gathering opinions vs deriving conclusions. Closed histories retain meaningful ordering variation.",
+  "limits": [
+    "Initial quality review only; final benchmark and cross-split exclusion checks remain outstanding.",
+    "Test texts are reviewed before any model scoring; no target changes are based on performance.",
+    "This is not final training-data acceptance."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/team-integration/base",
+  "family": "human_resources/team-integration",
+  "message": "Po połączeniu dwóch zespołów pracujemy obok siebie, ale rzadko wymieniamy wiedzę i trudno nam ustalać wspólne zasady. Chciałabym zorganizować moderowany warsztat integracyjny nastawiony na współpracę. Proszę pomóc dobrać formę spotkania, która nie ograniczy się do wspólnej rozrywki.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2130139580112882,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "726303d8addaf64a36b5f4b8961e3938ca4bd70ab6b0b0f3043e61d7b2e1c757",
+  "response_sha256": "b72c2483e40dfde9102e39818926a6ed120f80a71198a1a05dc87ee44c91e0ce"
+}

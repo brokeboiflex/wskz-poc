@@ -1,0 +1,13 @@
+{
+  "id": "payroll/commission-correction/base",
+  "family": "payroll/commission-correction",
+  "message": "W zestawieniu prowizji za poprzedni miesiąc pominięto jedną zaakceptowaną transakcję. Osoba odpowiedzialna za sprzedaż potwierdziła jej uwzględnienie i przekazała korektę danych. Proszę sprawdzić, czy zmiana zostanie ujęta w moim wynagrodzeniu oraz w którym okresie pojawi się wyrównanie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.21858091600006446,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1e0d596cbdfd9a3b180a0c0cdefbc12c198f71cebe5512fb994137328f8c8049",
+  "response_sha256": "dbe79e3bd2be3f50c8b21dd84dbb3b3c79547fb9c8921ba166bed09afdef175f"
+}

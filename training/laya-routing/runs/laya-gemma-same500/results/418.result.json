@@ -1,0 +1,13 @@
+{
+  "id": "other/astronomy/base",
+  "family": "other/astronomy",
+  "message": "Wczoraj wieczorem widziałam bardzo jasny punkt obok Księżyca. Chciałabym zrozumieć, jak odróżnia się planetę od gwiazdy bez teleskopu i gdzie szukać mapy nieba. Mam zwykłą lornetkę i mogę obserwować niebo z balkonu skierowanego na południe.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.21519562500179745,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "00f2beed24821940823a09cd476a18058c62e8a1c174bce7029f4d777ccc43a4",
+  "response_sha256": "f634c33a698d5afad2fb65821adf80fbc7c840636a5882e24283e60d80bf82e7"
+}

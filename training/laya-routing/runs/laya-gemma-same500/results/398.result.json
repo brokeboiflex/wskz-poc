@@ -1,0 +1,13 @@
+{
+  "id": "it/recruitment-system-outage/base",
+  "family": "it/recruitment-system-outage",
+  "message": "Formularz rekrutacyjny nie działa dla żadnego kandydata, a serwer zwraca błędy przy każdym żądaniu. Zespół prowadzący nabór potwierdził, że treść ogłoszeń jest poprawna. Proszę o sprawdzenie serwera i bazy danych oraz przywrócenie dostępności całej usługi.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.21538400001008995,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "fda4989d23a96c49f145f7bc23018a35cb05b82dffe220ac3e4fea760f386172",
+  "response_sha256": "8216da47b4916802ff014d4bcaa05f8398196f06a678ec47559c77d94428212e"
+}

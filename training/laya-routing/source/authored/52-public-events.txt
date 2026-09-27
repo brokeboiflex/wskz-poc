@@ -1,0 +1,69 @@
+other-059
+Proszę opublikować zapowiedź otwartego wydarzenia w aktualnościach.
+Organizujemy wydarzenie dostępne dla publiczności. Potrzebujemy zamieszczenia jego zapowiedzi w sekcji aktualności.
+Zapowiedź otwartego wydarzenia czeka na publikację w aktualnościach. Błąd mojego komputera już naprawiono.
+Organizator napisał: „Prosimy o zapowiedź wydarzenia w aktualnościach”. Proszę opublikować informację o otwartym spotkaniu.
+Wrzucicie zapowiedź publicznego wydarzenia do aktualności?
+
+other-060
+Proszę uzgodnić tekst broszury promującej nasze usługi klientom.
+Przygotowujemy drukowany materiał sprzedażowy. Potrzebujemy akceptacji treści opisującej usługi dla klientów.
+Moje logowanie już działa. Proszę uzgodnić tekst broszury promującej usługi klientom.
+Redaktor broszury napisał: „Potrzebuję zatwierdzenia treści o usługach”. Proszę uzgodnić tekst materiału promocyjnego dla klientów.
+Dogadamy tekst broszury z ofertą usług dla klientów?
+
+other-061
+Czy organizacja może objąć patronatem lokalne wydarzenie kulturalne?
+Przygotowujemy otwarty festiwal i szukamy patrona. Proszę o informację dotyczącą patronatu organizacji nad wydarzeniem.
+Pytam o patronat nad lokalnym wydarzeniem kulturalnym. Problem z otwieraniem załącznika już rozwiązano.
+Organizator zapytał: „Czy obejmiecie festiwal patronatem?”. Proszę rozważyć patronat nad lokalnym wydarzeniem kulturalnym.
+Jest szansa na wasz patronat nad lokalnym wydarzeniem kulturalnym?
+
+other-062
+Nasza redakcja prosi organizację o komentarz prasowy.
+Przygotowujemy publikację jako zewnętrzni dziennikarze. Prosimy o oficjalną wypowiedź organizacji do artykułu.
+Nieczytelny plik już poprawiono. Jako redakcja zewnętrzna prosimy o komentarz prasowy organizacji.
+Dziennikarka napisała: „Prosimy o stanowisko do publikacji”. Proszę przygotować komentarz prasowy dla zewnętrznej redakcji.
+Piszę z redakcji. Dostaniemy komentarz organizacji do artykułu?
+
+other-063
+Proszę udostępnić logotyp do zatwierdzonego materiału promocyjnego.
+Mamy zgodę na przygotowanie promocji z waszym oznaczeniem. Potrzebujemy pliku logotypu do legalnego użycia w materiale.
+Proszę o logotyp do uzgodnionej promocji. Awarię mojej aplikacji już usunięto, pozostał brak pliku znaku.
+W zgodzie zapisano: „Możecie użyć naszego logotypu”. Proszę udostępnić plik do legalnego materiału promocyjnego.
+Mamy zgodę na logo w promocji. Podeślecie plik logotypu?
+
+other-064
+Zapraszamy organizację do udziału w akcji charytatywnej.
+Przygotowujemy zbiórkę pomocową i chcemy zaangażować waszą organizację. Prosimy o odpowiedź na zaproszenie do wspólnej akcji.
+Problem z przesłaniem wiadomości już naprawiono. Zapraszamy organizację do udziału w naszej akcji charytatywnej.
+Koordynatorka napisała: „Zapraszamy was do wspólnej pomocy”. Przekazuję organizacji zaproszenie do akcji charytatywnej.
+Dołączycie jako organizacja do naszej akcji charytatywnej?
+
+other-066
+Proszę zamówić plakaty informacyjne na otwartą wystawę.
+Przygotowujemy ekspozycję dostępną dla publiczności. Potrzebujemy drukowanych plakatów z informacjami o wystawie.
+Proszę zamówić plakaty na publiczną wystawę. Błąd wyświetlania projektu już usunięto i materiał jest gotowy.
+Kurator poprosił: „Zamówmy plakaty informujące o wystawie”. Proszę zrealizować zamówienie na otwarte wydarzenie.
+Zamówicie plakaty informacyjne na otwartą wystawę?
+
+other-067
+Proszę uzgodnić program publicznej konferencji dla zewnętrznych uczestników.
+To otwarte wydarzenie, niezwiązane ze szkoleniem pracowników. Potrzebujemy ustalić kolejność wystąpień i cały program konferencji.
+Mój problem z pocztą już rozwiązano. Proszę uzgodnić program publicznej konferencji, która nie jest szkoleniem pracowniczym.
+Organizator napisał: „Ustalmy program otwartej konferencji”. Proszę uzgodnić plan publicznego wydarzenia niezwiązanego ze szkoleniem pracowników.
+Dogadacie program otwartej konferencji dla publiczności? To nie szkolenie firmowe.
+
+other-069
+W jakich godzinach jest otwarte publiczne wydarzenie?
+Chciałabym przyjść jako odwiedzająca. Proszę podać godzinę rozpoczęcia i zakończenia dostępności wydarzenia dla publiczności.
+Proszę o godziny otwarcia wydarzenia dla odwiedzających. Błędny adres na zaproszeniu już poprawiono.
+Na zapowiedzi jest napis: „Wydarzenie otwarte dla publiczności”. Proszę podać godziny, w których można przyjść.
+Od której do której można wejść na publiczne wydarzenie?
+
+other-070
+Proszę przesłać zdjęcia z zakończonego wydarzenia do publikacji.
+Przygotowuję relację po spotkaniu publicznym. Potrzebuję fotografii z wydarzenia do zamieszczenia w materiale.
+Problem z odbiorem plików już usunięto. Proszę o zdjęcia z minionego wydarzenia do publikacji relacji.
+Redaktorka poprosiła: „Do relacji potrzebne są zdjęcia”. Proszę przesłać fotografie z zakończonego wydarzenia do publikacji.
+Podeślecie zdjęcia z wydarzenia? Chcę je dać do relacji.

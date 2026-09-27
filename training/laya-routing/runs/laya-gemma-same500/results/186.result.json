@@ -1,0 +1,13 @@
+{
+  "id": "payroll/timesheet-approval/base",
+  "family": "payroll/timesheet-approval",
+  "message": "Moja karta czasu pracy została zaakceptowana przez przełożonego, ale w miesięcznym zestawieniu nadal ma status oczekującej na rozliczenie. Proszę sprawdzić obieg zatwierdzonego dokumentu i potwierdzić, że godziny trafią do bieżącej listy płac.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.18839379199198447,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e9c0f3d9bf276d1f6a8682a48b7a14b7b6126b6ada017a1820941f57d1c3aca4",
+  "response_sha256": "370ccc67ab669c0cbe73b3a6beb904aa1313515af202fe4a9a7093e800591dd7"
+}

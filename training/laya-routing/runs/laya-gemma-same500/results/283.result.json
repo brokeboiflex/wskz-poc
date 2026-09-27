@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/touchpad/resolved_preface",
+  "family": "help_desk/touchpad",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nOsobna, aktualna wiadomość:\nGładzik w moim służbowym laptopie przestał reagować po ponownym uruchomieniu. Podłączona mysz działa, ale często pracuję poza biurkiem i potrzebuję przywrócenia gładzika. Proszę o sprawdzenie ustawień oraz sterownika tego urządzenia na moim komputerze.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.24129129099310376,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "41821d692536978672d9c57057cea04db5db62939c1e8344dbbd0284a370ae75",
+  "response_sha256": "3cbfa61469af751ec070d9246d0d01d734321864e85ba3015aa9ed9b2a630211"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/wifi-single/resolved_postscript",
+  "family": "help_desk/wifi-single",
+  "message": "Mój laptop nie łączy się z biurową siecią bezprzewodową, chociaż telefon i komputery obok mają połączenie. Usunęłam zapis sieci i próbowałam dodać ją ponownie. Proszę o pomoc z konfiguracją tego urządzenia; nie wygląda to na awarię obejmującą biuro.\n\nPS. Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.22362383297877386,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "76026cc838403936c26a740c8438ba0722f67cfd5573f198da5d00eb748f5863",
+  "response_sha256": "a8f3c0b2ea37745f7ff0f9277c1f5c542d8264e9cb19fa49f2db76b92ec069d2"
+}

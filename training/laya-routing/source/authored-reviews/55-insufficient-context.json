@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "reviewer": "root_author_self_review",
+  "independent_review": false,
+  "user_instruction": "Do not run critic again; conserve tokens.",
+  "source_sha256": "6ff79ed9ad1ce138f19fda95e8a82d7e419df37a0cb617b7dddc7cb1470287dc",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "policy": {
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "blocking_findings": 0
+  },
+  "families": [
+    {
+      "family": "other-100",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-102",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-106",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-107",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-109",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-110",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-112",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-114",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-116",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    },
+    {
+      "family": "other-118",
+      "verdict": "pass",
+      "messages_reviewed": 5
+    }
+  ],
+  "notes": "Author inspected all texts against frozen intents and policy. No model scores. No additional critic per user. Not an independent review. For no-action/insufficient-context groups, keep no actionable topic; style variants of inherently context-free messages are limited."
+}

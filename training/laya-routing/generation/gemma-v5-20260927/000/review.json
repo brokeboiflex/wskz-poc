@@ -1,0 +1,6 @@
+{
+  "decision": "reject",
+  "note": "Wlaczone myslenie nie poprawilo wierności: identyczny cytat i prosba, kontekst skopiowany z definicji, historia zawiera powtorzenia i niewlasciwa prosbe w polu rozwiazania. Brak akceptacji danych; potrzebna prostsza pojedyncza forma na request.",
+  "result_sha256": "cde6ce490600096c834a727edadcfa25b0aeac0fcf11defcd058020de140c485",
+  "time": 1790529546.315692
+}

@@ -1,0 +1,18 @@
+{"checkpoint_sha256": "992a2a7bd5efb93f97921752b88f2a45c19ce2ec0c12bd69f0b28f7cbbfd3a5f", "device": "cpu"}
+{"checkpoint_sha256": "992a2a7bd5efb93f97921752b88f2a45c19ce2ec0c12bd69f0b28f7cbbfd3a5f", "device": "cpu"}
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1]
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1]

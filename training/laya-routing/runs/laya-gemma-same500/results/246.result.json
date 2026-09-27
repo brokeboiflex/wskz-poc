@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/office-crash/base",
+  "family": "help_desk/office-crash",
+  "message": "Edytor tekstu zamyka się na moim komputerze kilka sekund po uruchomieniu, nawet przy pustym dokumencie. Inne programy działają normalnie, a plik otwiera się na komputerze kolegi. Proszę o sprawdzenie lokalnej instalacji i pomoc w przywróceniu działania programu.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.1914782079984434,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f700cee613ea37abfe4aaafc92e211c9bbd5015e0209e08236584b3909acd020",
+  "response_sha256": "cf58683346a57cbda0987360ee445168f22e39b9e366a847980ac15db448165b"
+}

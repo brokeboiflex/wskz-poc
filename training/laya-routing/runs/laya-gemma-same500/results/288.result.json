@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/meeting-display/base",
+  "family": "help_desk/meeting-display",
+  "message": "Mój laptop nie wyświetla obrazu na ekranie w sali spotkań. Komputer kolegi działa z tym samym przewodem, więc problem wydaje się dotyczyć mojego urządzenia. Proszę pomóc ustawić wyjście obrazu i sprawdzić przejściówkę, zanim rozpocznę prezentację dla zespołu.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.1892220829904545,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "10c7b48e5c3eb05383175c6dfecd1692688c150eb265c4dafe76a914e9074f57",
+  "response_sha256": "4ff90ed9f3f25b36d3e7c75f8c62036f1d8921c29dc02bc459c842603e4983ea"
+}

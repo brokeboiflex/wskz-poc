@@ -1,0 +1,13 @@
+{
+  "id": "other/photography/base",
+  "family": "other/photography",
+  "message": "Próbuję fotografować domowe rośliny telefonem, ale zdjęcia wychodzą zbyt ciemne przy oknie. Chciałabym zrozumieć, jak ustawić obiekt względem światła i tła. Czy możecie podać kilka wskazówek?\n\nNa zdjęciu liście są ciemne, a okno za nimi bardzo jasne. Kiedy włączam lampę, pojawiają się ostre odbicia. Mogę przestawić roślinę i użyć jasnego kartonu jako tła, ale nie mam dodatkowych lamp fotograficznych.",
+  "expected": "other",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.21874458299134858,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a8041198ddde4009530ec014b4f57a93ecfe4a95b11a426f6e267571b80d16db",
+  "response_sha256": "98fc2ff4997f497037a8c2795ab727720033e97b80f32c0bed274d409be0cbc2"
+}

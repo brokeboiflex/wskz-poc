@@ -1,0 +1,13 @@
+{
+  "id": "it/branch-link/base",
+  "family": "it/branch-link",
+  "message": "Oddział w drugim mieście nie ma dostępu do centralnych zasobów. Lokalne aplikacje działają, ale wszystkie połączenia z centralą kończą się przekroczeniem czasu oczekiwania. Problem dotyczy całego oddziału. Proszę o sprawdzenie łącza między lokalizacjami i urządzeń odpowiedzialnych za komunikację.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19256866700015962,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "86892fa3a9956e6fd74de95e2920dd15dfc5dca0a26fd295e543e6f12872f9ff",
+  "response_sha256": "16fbd7e6bfb36118a4243a2a73d6a5f8a7c7ee0d7cf9b28775dfd1fc746da491"
+}

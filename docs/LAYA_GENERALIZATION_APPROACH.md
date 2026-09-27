@@ -1,9 +1,18 @@
 # Laya dla WSKZ: dostrojenie bez uczenia pod benchmark
 
-Status 27.09.2026: użytkownik zatwierdził podejście słowem „Dajesz”. Wykonanie
-zatrzymane na rzeczywistych bramkach zasobów: OOM drugiego kroku i za mało
-miejsca na checkpointy. [Raport](../training/laya-routing/README.md).
-Nie ma pełnego korpusu, wyeksportowanych wag ani nowego wyniku 500.
+Nowy test regresji na tych samych500 co Gemma ukończony: Laya epoka1 **432/500 (86,4%)**, Gemma493/500 (98,6%);0 błędów protokołu obu. Wybrano epokę1 wyłącznie po walidacji. Bez treningu i ponowień; kontenery zatrzymane. Raport i procedura: `training/laya-routing/runs/laya-gemma-same500/README.md` względem katalogu PoC. Wcześniejsze stwierdzenie o niewykonanym starym benchmarku jest historyczne.
+
+Walidacja epoki2 dokończona na wyraźne polecenie użytkownika: **443/500 (88,6%)**, macro-F1 0,882589. Epoka1:447/500 (89,4%). Wznowiono tylko przypadki386–499, bez ponowień wcześniejszych. Bez kolejnego treningu, krytyka i dodatkowych testów. Kontenery zatrzymane, wagi zachowane. Końcowy test i stary benchmark niewykonane. Wcześniejsze przerwanie walidacji było błędną interpretacją polecenia użytkownika.
+
+Poniżej historia wcześniejszych etapów.
+
+Status27.09.2026: **pełne3000 wiadomości zaakceptowane, epoka2 uruchomiona po walidacji1:447/500**.
+Dane2000/500/500 zamrożone, audyt leksykalny i tokenizacja bez obcięć zaliczone.
+2500 tekstów przeglądnięto niezależnie,500 przez autora zgodnie z późniejszym
+poleceniem użytkownika oszczędzania tokenów i nieuruchamiania krytyka.
+Obowiązuje [zatwierdzona metoda z korektą użytkownika](../training/laya-routing/MANUAL_AUTHORING_APPROACH.md).
+Odrzucone próby Gemmy i wcześniejszy draft nie weszły do treningu.
+[Raport](../training/laya-routing/README.md), [komendy](../training/laya-routing/RUNBOOK.md).
 Polecenie użytkownika: dostosować
 Laya do prawidłowej klasyfikacji 500 przypadków bez overfittingu. Dokument
 uszczegóławia niewykonaną propozycję z [LAYA_TUNING_APPROACH.md](LAYA_TUNING_APPROACH.md).
@@ -105,8 +114,9 @@ Docelowy katalog: `training/laya-routing/`; duże wagi poza Git.
 Wymagane artefakty: `data/{train,validation,test}.jsonl`, `data/manifest.json`,
 `data/leakage-audit.json`, konfiguracja z hashami, skrypty przygotowania,
 treningu, eksportu, ewaluacji i audytu, `runs/<run-id>/` z metrykami i logami.
-Pełny korpus, trainer i runner ewaluacji jeszcze nie istnieją. Przygotowane
-skrypty pomiaru zasobów i audytu danych opisano poniżej.
+Pełny korpus istnieje, trening jest uruchomiony. Dokładny bieżący stan,
+ograniczenia i wznowienie opisuje runbook.
+Skrypty pomiaru zasobów i audytu danych opisano poniżej.
 
 Pełny checkpoint: model, optimizer, scheduler, RNG, epoka, kolejność danych,
 pozycja i liczba kroków. Zapisywać atomowo na granicy kroku optymalizatora.
@@ -210,6 +220,68 @@ duplikaty, grupy scenariuszy i nakładanie trigramów; nie zastępuje przeglądu
 semantycznego. Nie generuje przykładów z tekstu benchmarku.
 
 ## Przeczytane referencje
+
+## Wznowienie po zwolnieniu zasobów, 27.09.2026
+
+Użytkownik: „Ok powinieneś miec potrzebne zasoby wolne”. Dysk: około 104 GiB
+wolnego, Docker nadal 7.75 GiB RAM, ale bez uruchomionych innych kontenerów.
+Ta sama metoda CPU/FP32 i niezmieniony preflight, limit 7200 MiB zamiast
+6500 MiB; bez zmiany globalnej konfiguracji Docker. Historia prób pozostaje.
+
+```sh
+docker run --name wskz-laya-training-preflight-freed --network none --memory 7200m --memory-swap 7200m \
+  --mount source=message-router_laya-models,target=/models,readonly \
+  --mount type=bind,source="$PWD/training/laya-routing",target=/work \
+  --env HF_HUB_OFFLINE=1 --env TRANSFORMERS_OFFLINE=1 \
+  --entrypoint python sha256:4d0ffa68273f122a8bb1db1a14d1503b7cca218c91d05c4970ede69601107989 \
+  -u /work/preflight.py --steps 2 \
+  --model /models/hub/models--convaiinnovations--laya/snapshots/55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851/multilingual \
+  --output /work/runs/preflight-freed-20260927
+```
+
+### Źródła
+
+Próba `preflight-freed-20260927` przy 7200 MiB nadal OOM po wszystkich 32
+backward, przed ukończeniem drugiej aktualizacji. Dysk ma już ponad 100 GiB.
+Ponieważ wszystkie kontenery są zatrzymane, w Docker Desktop Resources >
+Advanced ustawiono do zastosowania Memory limit 12 GB (12288 MiB), wcześniej
+8 GB (8192 MiB), a następnie Apply & restart. Innych ustawień nie zmieniać.
+Rollback przy braku potrzeby większej pamięci: ten sam suwak na 8 GB i restart
+przy zatrzymanych kontenerach. To zwiększenie dostępnych zasobów tego samego
+treningu CPU/FP32, bez zmiany algorytmu, modelu ani danych.
+
+Po odczycie `docker info --format '{{.MemTotal}}'` nowa próba stosuje tę samą
+komendę z `--memory 10g --memory-swap 10g`, nazwą
+`wskz-laya-training-preflight-12g` i `--output /work/runs/preflight-12g-20260927`.
+
+## Przygotowanie korpusu
+
+600 rodzin, 120 na dział, po pięć osobno napisanych wiadomości. Najpierw
+`prepare_data.py plan` przydziela identyfikatory rodzin do splitów (seed 42),
+80/20/20 rodzin na dział. Dopiero potem powstają teksty źródłowe w `source/`.
+Warianty mogą zmieniać zwięzłość, narrację, historię i sposób sformułowania
+prośby; nie są mechanicznym generatorem zamiany nazw. Powiązania semantyczne
+między rodzinami trzeba ocenić przed akceptacją podziału.
+
+To 2000/500/500 wiadomości, ale tylko 400/100/100 rodzin. Raport i przedziały
+ufności muszą uwzględniać tę zależność. Test ma ograniczoną niezależność
+autorstwa. Szesnaście przykładów zasobowych nie jest automatycznie dodawane
+do korpusu i nie może przeniknąć do validation/test.
+
+Komendy z PoC (bez inferencji):
+
+```sh
+.venv/bin/python training/laya-routing/prepare_data.py plan
+.venv/bin/python training/laya-routing/prepare_data.py build
+```
+
+Build odmawia brakujących rodzin, niewłaściwej liczby wariantów, zmian splitów
+i nadpisania istniejącego kompletu danych. Po build wymagany jest audyt
+przecieku i przegląd semantyczny przed treningiem. Pierwotne ręczne autorstwo
+zastąpiła zatwierdzona lokalna Gemma, według zamrożonego `source/scenarios.json`.
+Nie odczytywać błędów starego benchmarku przy tworzeniu danych.
+
+### Referencje
 
 - [Oficjalny notebook Laya](https://github.com/NandhaKishorM/laya/blob/main/notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb):
   build_sequence, build_model, maski opcji, trening RLCD+CE, eksport tokenizer/

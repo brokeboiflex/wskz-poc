@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/recognition-program/base",
+  "family": "human_resources/recognition-program",
+  "message": "Chcemy uruchomić program, w którym pracownicy dziękują sobie za pomoc przy projektach. Nie przewidujemy premii ani rozliczeń finansowych. Potrzebujemy konsultacji zasad wyróżniania, aby program był przejrzysty i nie pomijał osób wykonujących mniej widoczną pracę w zespole.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.21067254201625474,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3e24e7f18be556539d2ef583712acfe0e187e80fdbcbaf710556de37a3683a98",
+  "response_sha256": "c6eefa2d5a2704203e3a94a1e4ecd22b0c974b4f3cd1f3897d6b21e38d6eb3fc"
+}

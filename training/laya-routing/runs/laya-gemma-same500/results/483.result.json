@@ -1,0 +1,13 @@
+{
+  "id": "other/wrong-recipient/resolved_preface",
+  "family": "other/wrong-recipient",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nOsobna, aktualna wiadomość:\nPrzepraszam, poprzednia wiadomość została wysłana na niewłaściwy adres. Proszę jej nie traktować jako zgłoszenia do firmy. W tej korespondencji nie ma opisu sprawy do załatwienia ani żadnego załącznika. Chciałam jedynie wyjaśnić pomyłkę i zakończyć wątek.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.22303512500366196,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "470bd443fe05b31fcba401ce23eee63a11bb3fb7c165f516385e75ca20346cf7",
+  "response_sha256": "8d926f907218075054dce2301a94b23a4866c28f0f34b527de59f29f3e2ec621"
+}

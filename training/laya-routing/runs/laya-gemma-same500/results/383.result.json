@@ -1,0 +1,13 @@
+{
+  "id": "it/storage-permissions/resolved_preface",
+  "family": "it/storage-permissions",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nOsobna, aktualna wiadomość:\nPo wczorajszej zmianie polityki katalogowej całe grupy pracowników straciły uprawnienia do kilku usług jednocześnie. Problem występuje w różnych lokalizacjach i nie dotyczy pojedynczego konta. Proszę o sprawdzenie wdrożonej konfiguracji infrastruktury tożsamości oraz przywrócenie prawidłowych zasad dostępu.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2324562080029864,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "35bc7cebe839389a26856ad541d88ce51839ca7684980133e3e8fe26fbca6d96",
+  "response_sha256": "330b3c2455719e9054ab76c4ab8b48742a1912b25f72ca40d88819f678010ead"
+}

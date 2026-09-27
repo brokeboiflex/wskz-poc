@@ -1,0 +1,47 @@
+{
+  "messages": [
+    {
+      "style": "short",
+      "message": "Proszę o zorganizowanie rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego. Rekrutacja."
+    },
+    {
+      "style": "context",
+      "message": "Potrzebuję zorganizować rozmowy kwalifikacyjne z kandydatem, który jest niesłyszący i wymaga tłumacza migowego. Jest to kluczowe dla zapewnienia mu równego dostępu do procesu rekrutacyjnego i umożliwienia mu pełnego wyrażenia swoich umiejętności. Uprzejmie proszę o pomoc w zapewnieniu, że rozmowy te zostaną odpowiednio zorganizowane z uwzględnieniem tych potrzeb."
+    },
+    {
+      "style": "resolved_history",
+      "message": "Chciałbym zapytać o organizację rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego. Wcześniej omówiliśmy problem z niedostępnością odpowiednich zasobów, który został już rozwiązany. Czy mogliby Państwo teraz pomóc w zorganizowaniu tej rozmowy?"
+    },
+    {
+      "style": "quotation",
+      "message": "Potrzebuję pomocy w zorganizowaniu rozmowy z kandydatem niesłyszącym, który wymaga tłumacza migowego. Proszę o zapewnienie odpowiedniego wsparcia w tym procesie."
+    },
+    {
+      "style": "informal",
+      "message": "Potrzebuję, żebyś zorganizował rozmowę z kandydatem niesłyszącym, a koniecznie z tłumaczem migowym."
+    }
+  ],
+  "variants": [
+    {
+      "variant": 0,
+      "result_sha256": "0ec992b3d82ec13c3cd41f78437107173a85f9680fe88c1814a0e5b5a88cb698"
+    },
+    {
+      "variant": 1,
+      "result_sha256": "e042c8fadad533b9716628d619b2658ddac8016a614bfb40c638c4b6b334f453"
+    },
+    {
+      "variant": 2,
+      "result_sha256": "0b1985ec741c2439affec964602e38620ddfe6f22deb0c7dada0935623ec8ce7"
+    },
+    {
+      "variant": 3,
+      "result_sha256": "b5ee8558edd6ea26fca4d86b0cd908383200dbf4e5f5b751ee19699065d841dc"
+    },
+    {
+      "variant": 4,
+      "result_sha256": "048fb6650b75bd2e3afe1fc90e63f291dcff0e601e83a247170aa0a3323a0469"
+    }
+  ],
+  "parse_error": null
+}

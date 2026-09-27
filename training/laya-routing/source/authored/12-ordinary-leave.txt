@@ -1,0 +1,69 @@
+payroll-002
+Czy święto przypadające w środku mojego urlopu pomniejsza pulę dni wypoczynku?
+Mam zaplanowany urlop obejmujący tydzień ze świętem. Chcę wiedzieć, czy ten świąteczny dzień zostanie odjęty z mojego wymiaru urlopu. Proszę wyjaśnić sposób rozliczenia.
+Proszę wyjaśnić, czy święto w środku mojego urlopu będzie pobrane z puli wypoczynku. Hasło już odblokowano i mogę sprawdzić plan, tamta usterka jest rozwiązana.
+Kolega powiedział: „W trakcie twojego urlopu jest dzień świąteczny”. Proszę wyjaśnić, czy pomniejszy on moją pulę dni wypoczynkowych.
+Mam święto pośrodku urlopu. Zjada mi ono dzień z puli czy nie? Pomożecie to wyjaśnić?
+
+payroll-003
+Jak przenoszone są niewykorzystane dni urlopu z poprzedniego roku?
+Na koniec roku zostało mi kilka dni wypoczynku. Chcę zrozumieć, jak zostaną przeniesione do bieżącej puli i wykazane w rozliczeniu. Proszę o wyjaśnienie.
+Problem z uruchamianiem komputera został naprawiony. Potrzebuję informacji o przeniesieniu niewykorzystanych dni urlopu z poprzedniego roku na ten rok.
+W zestawieniu widzę zapis: „Niewykorzystany urlop z poprzedniego roku”. Proszę wyjaśnić, jak te dni przenoszą się do aktualnego rozliczenia.
+Zostało mi trochę urlopu z zeszłego roku. Wyjaśnicie, jak przechodzi na ten rok?
+
+payroll-004
+Proszę skorygować liczbę dni odjętych z mojej puli urlopowej za zaplanowany wypoczynek.
+Zatwierdzony wyjazd obejmuje mniej dni urlopu, niż pobrano z dostępnej puli. Proszę sprawdzić naliczenie i poprawić liczbę odjętych dni wypoczynkowych.
+Od zaplanowanego urlopu odjęto mi zbyt wiele dni, proszę o korektę puli. Zgłoszony wcześniej brak obrazu na monitorze już naprawiono.
+W potwierdzeniu urlopu zapisano: „Pobrano sześć dni”, chociaż zatwierdzony wypoczynek obejmuje pięć. Proszę poprawić liczbę odjętą z puli.
+Za ten zaplanowany urlop zabrali mi z puli za dużo dni. Sprawdzicie i poprawicie naliczenie?
+
+payroll-005
+Proszę zmienić w ewidencji zatwierdzony termin mojego urlopu wypoczynkowego.
+Mam uzgodnione przesunięcie wypoczynku z przełożonym. W ewidencji nadal widnieje poprzedni zatwierdzony termin. Proszę wprowadzić nową datę urlopu.
+Spór o zakres projektu został wyjaśniony z zespołem. Proszę teraz zmienić zatwierdzony termin mojego urlopu wypoczynkowego w ewidencji zgodnie z nowym uzgodnieniem.
+Przełożona potwierdziła: „Zgadzam się na przesunięcie urlopu na kolejny tydzień”. Proszę zmienić zatwierdzony termin wypoczynku w ewidencji.
+Szef zgodził się przesunąć mój urlop. Zmienicie termin w ewidencji, bo nadal jest stary?
+
+payroll-007
+Zrezygnowałem z wyjazdu i proszę anulować mój wniosek urlopowy.
+Planowany wyjazd nie odbędzie się, więc nie potrzebuję już zgłoszonego urlopu. Proszę anulować wniosek dotyczący tego wypoczynku i odnotować rezygnację.
+Proszę anulować wniosek o urlop, ponieważ odwołałam wyjazd. Awaria drukarki została już usunięta i wcześniejsze zgłoszenie można zamknąć.
+Napisałam przełożonemu: „Rezygnuję z wyjazdu i chcę wycofać urlop”. Proszę anulować związany z nim wniosek urlopowy.
+Wyjazd mi nie wypalił. Cofniecie proszę mój wniosek o urlop na ten czas?
+
+payroll-009
+Ile urlopu proporcjonalnie przysługuje mi przy zatrudnieniu w środku roku?
+Zaczynam pracę kilka miesięcy po początku roku. Potrzebuję obliczenia wymiaru urlopu proporcjonalnego do okresu zatrudnienia. Proszę ustalić należną liczbę dni.
+Dostęp do służbowej skrzynki został już uruchomiony. Zwracam się o wyliczenie proporcjonalnego urlopu, ponieważ zostałam zatrudniona w środku roku.
+W umowie zapisano: „Rozpoczęcie pracy: pierwszy dzień lipca”. Proszę obliczyć proporcjonalny wymiar urlopu przy takim rozpoczęciu zatrudnienia w połowie roku.
+Dołączyłem do firmy w środku roku. Policzycie, ile proporcjonalnie mam urlopu?
+
+payroll-010
+Jak rozlicza się mój urlop przy nierównym rozkładzie godzin pracy?
+Nie pracuję każdego dnia tyle samo godzin. Chcę zrozumieć, jak pobierany jest urlop w dni z różną długością zmiany. Proszę wyjaśnić sposób rozliczenia.
+Proszę objaśnić rozliczanie urlopu przy moim nierównym rozkładzie godzin. Konflikt przy przekazywaniu zadania udało się wyjaśnić i nie wymaga już pomocy.
+W grafiku mam zapis: „Poniedziałek dwanaście godzin, wtorek cztery”. Proszę wyjaśnić, jak w takim nierównym rozkładzie rozliczany jest urlop.
+Mam zmiany różnej długości. Jak schodzi mi urlop za takie dni? Potrzebuję wyjaśnienia rozliczenia.
+
+payroll-012
+Proszę potwierdzić zapisanie mojego dnia urlopu na żądanie.
+Zgłosiłam jeden dzień urlopu na żądanie. Chcę mieć pewność, że został uwzględniony w ewidencji. Proszę o potwierdzenie jego zapisania.
+Mój telefon działa po wymianie karty. Proszę potwierdzić, czy zgłoszony dzień urlopu na żądanie został zapisany w ewidencji.
+Przełożony odpowiedział: „Przyjąłem zgłoszenie urlopu na żądanie”. Proszę potwierdzić, że ten dzień jest już odnotowany w ewidencji.
+Mój dzień na żądanie jest już wpisany? Dajcie proszę potwierdzenie, że urlop zapisano.
+
+payroll-013
+Ile godzin urlopu odjąć za nocną zmianę podczas przejścia z czasu letniego na zimowy?
+Zaplanowany urlop obejmuje nocną zmianę, podczas której cofamy zegary. Potrzebuję ustalenia liczby godzin do pobrania z puli urlopu za tę konkretną zmianę.
+Proszę ustalić liczbę godzin urlopu za nocną zmianę obejmującą cofnięcie zegarów z czasu letniego na zimowy. Problem z odczytem grafiku został usunięty i godziny są widoczne.
+Kierownik zaznaczył: „Twoja nocna zmiana wypada w noc cofania zegarów”. Chcę wziąć wtedy urlop. Proszę ustalić, ile godzin zostanie odjętych z puli.
+Biorę urlop na nockę, kiedy cofamy zegary na czas zimowy. Ile godzin ma zejść z puli? Sprawdzicie?
+
+payroll-015
+Jak złożyć wniosek o urlop bezpłatny?
+Rozważam przerwę w pracy w formie urlopu bezpłatnego. Potrzebuję informacji o procedurze wnioskowania i wymaganych krokach. Proszę wyjaśnić, jak to zgłosić.
+Rozmowa rozwojowa została już umówiona. W osobnej sprawie proszę o wyjaśnienie procedury składania wniosku o urlop bezpłatny.
+Przełożony powiedział: „Złóż formalny wniosek o urlop bezpłatny”. Proszę wskazać procedurę i sposób prawidłowego złożenia takiego wniosku.
+Chcę wziąć bezpłatny urlop. Jak mam złożyć wniosek i co trzeba zrobić?

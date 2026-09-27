@@ -1,0 +1,13 @@
+{
+  "id": "it/wifi-controller/quoted_history",
+  "family": "it/wifi-controller",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW całym biurze zniknęła firmowa sieć Wi-Fi, choć połączenia kablowe nadal działają. Problem potwierdzono na wielu różnych urządzeniach i piętrach. Proszę sprawdzić kontroler oraz punkty dostępowe; nie chodzi o konfigurację jednego laptopa, lecz o niedostępną usługę dla całej lokalizacji.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2609527079912368,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a6435dcddb0d65638c857d1a0b27581b52a3adf6df7bd3aa189a61d1d4b38cb2",
+  "response_sha256": "53fec1b71316655f75208754c4e90ab138579afa781374481b3876f0896eac7e"
+}

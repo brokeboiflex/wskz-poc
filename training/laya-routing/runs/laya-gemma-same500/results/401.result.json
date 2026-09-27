@@ -1,0 +1,13 @@
+{
+  "id": "other/recipe/quoted_history",
+  "family": "other/recipe",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW weekend odwiedzą mnie znajomi i chciałabym przygotować ciasto bez mleka. Mam w domu marchew, mąkę i orzechy, ale nie wiem, w jakich proporcjach ich użyć. Czy możecie podać przepis na prosty wypiek i wskazać, czym zastąpić nabiał?\n\nJedna osoba nie spożywa produktów mlecznych, ale jajka jej nie przeszkadzają. Mam zwykły piekarnik, jedną okrągłą formę i około dwóch godzin na przygotowanie całości. Chciałabym upiec coś, co można zrobić rano i podać wieczorem bez skomplikowanego dekorowania.\n\nW internecie znalazłam kilka przepisów, lecz każdy podaje inną ilość oleju i inny czas pieczenia. Nie wiem, jak sprawdzić gotowość środka, żeby ciasto nie zostało surowe. Przydałaby się też informacja, czy orzechy można pominąć bez zmieniania reszty proporcji. To ma być prosty domowy deser dla kilku znajomych, więc zależy mi bardziej na powtarzalnym efekcie niż na wyglądzie jak z cukierni.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.38269274999038316,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "aa765d79c46ef2fd2696fa3beddd6dac5a24cd0a3b6667a09502415eb370fc79",
+  "response_sha256": "72c1b27b68f237b21c18b1aebf89e9f5025df7e0f77f57c10db98f813200eb70"
+}

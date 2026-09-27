@@ -1,0 +1,13 @@
+{
+  "id": "it/log-pipeline/forwarded_history",
+  "family": "it/log-pipeline",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nCentralna platforma przestała przyjmować logi z serwerów aplikacyjnych. Lokalne pliki nadal powstają, lecz wspólna wyszukiwarka pokazuje dane tylko do wczoraj. Proszę o sprawdzenie kolejki przesyłania i magazynu logów, aby przywrócić obserwowalność usług oraz analizę zdarzeń bezpieczeństwa.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nLokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.25965670801815577,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "af28c3e8001f3116be2b5cc9d27e94df538992f46e53ae093ad17c50c28f8d7b",
+  "response_sha256": "6d1b5e3f69f720c8c14f8ad3d33634a879147dc001302901eb7f0ad3139fca19"
+}

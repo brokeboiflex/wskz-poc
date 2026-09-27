@@ -1,0 +1,44 @@
+{
+  "contract": {
+    "train_sha256": "391a5e6ba71cc2aba60db25981e1be3c9f7eae600783c10f7fb9d97edb1d68ae",
+    "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+    "approval_sha256": "cf7d0c872f9e977f24fcf2ab9c1e259c7caf3195fdeba317ae3a743cb3d632e4",
+    "trainer_sha256": "ce2f4b5fdba156a237f374589e9c67906e1098b38dbc406be24184190fcbf687",
+    "optimizer_sha256": "0731178ececf0da3b1bb4cd8a2d96e73fbc07c0b7ff8edab4394166f7a371c5d",
+    "checkpoint_code_sha256": "4abaf23d4d24c5f735555130ac3135cf1065b87f78ebd5a568dae111efe0a870",
+    "selector_sha256": "4a38cc28a937f2406eb67a0e28251e88f4012150dbbc79aeecd76cca19369873",
+    "base_assets": {
+      "encoder/config.json": "83f6916d13ef0f556ac461f28308dc2bffa7ebeadee8ec9e2db5812020ea5bb4",
+      "model.safetensors": "9d628fd971b700382ac6f65920a86f149777b2e748e0c955fb3b19695aa8f204",
+      "rl_agent_config.json": "25061739243b617ad88d1219ba6f8a9c86c5881ca28df024fa2d9b3b2fcc30c6",
+      "tokenizer/tokenizer.json": "609d8f4c067cd3950f88594c5a802616cea245823836ef5848ee4fc40aab5b6f",
+      "tokenizer/tokenizer_config.json": "6c6b2d8e3c84ce0e671c129cd6b374b235d6f9863042a5836358d00a89bbb5a1"
+    },
+    "configuration": {
+      "seed": 42,
+      "batch": 16,
+      "epochs": 4,
+      "encoder_lr": 2.5e-05,
+      "head_lr": 0.0001,
+      "weight_decay": 0.01,
+      "clip": 1.0,
+      "max_training_seconds": 28800,
+      "reserve_bytes": 4294967296,
+      "checkpoint_every_steps": 20,
+      "scheduler": null,
+      "dtype": "float32",
+      "max_len": 8192
+    },
+    "torch": "2.10.0+cpu",
+    "libraries": {
+      "laya": "0.3.20",
+      "transformers": "5.17.0",
+      "numpy": "2.5.3",
+      "safetensors": "0.8.0"
+    },
+    "runtime_image": "sha256:4d0ffa68273f122a8bb1db1a14d1503b7cca218c91d05c4970ede69601107989"
+  },
+  "epoch": 1,
+  "steps": 125,
+  "weights_sha256": "1b69c0e79d45ee9decac6bc0840985652448b8c28af59a30ecdf7f04628098a8"
+}

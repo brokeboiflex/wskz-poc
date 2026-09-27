@@ -1,0 +1,66 @@
+{
+  "schema_version": 3,
+  "created_at": "2026-09-27T17:08:44.746107+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "approved_for_generation": true,
+  "data_accepted_for_training": false,
+  "scope": "Final delta confirmation after independent exclusion-only semantic review. No inference, training, new examples or benchmark-informed replacement suggestions.",
+  "inputs": {
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "prior_delta_review": {
+      "path": "poc/message-router/training/laya-routing/source/history/exclusion-revision-20260927/exclusion-scenario-review-v2.json",
+      "sha256": "fda2a7bfaae6fdff19484a5ab580a85dd4baa801cffde5a9f36dc677ae2c22f9"
+    },
+    "prior_full_review": {
+      "path": "poc/message-router/training/laya-routing/source/history/pre-exclusion-20260927/exclusion-scenario-review.json",
+      "sha256": "3bea8b68fc87f7810e253372b27bdfae97f85081444519b977dcd99214e540b9"
+    },
+    "replacements": {
+      "path": "poc/message-router/training/laya-routing/source/replacements-20260927.json",
+      "sha256": "74eaac390d7251226e00b2176c51725794decd2348a7da05415dbc4e56575c52"
+    }
+  },
+  "verification": {
+    "exactly_one_scenario_changed_since_v2": "payroll-013",
+    "matches_independently_reviewed_replacement": true,
+    "changed_families_since_original": [
+      "human_resources-087",
+      "human_resources-095",
+      "payroll-002",
+      "payroll-013",
+      "payroll-025",
+      "help_desk-080",
+      "it-030",
+      "it-046",
+      "it-088",
+      "it-094",
+      "it-104",
+      "it-091",
+      "it-072"
+    ],
+    "unchanged_ids_labels_groups_splits": true,
+    "families": 600,
+    "semantic_groups": 60,
+    "split_family_counts": {
+      "train": 400,
+      "validation": 100,
+      "test": 100
+    },
+    "source_code_hash_matches_frozen_definitions": true,
+    "benchmark_smoke_preflight_policy_hashes_unchanged": true
+  },
+  "high_confidence_exclude_family_ids": [],
+  "new_cross_split_collision_ids": [],
+  "new_held_out_preflight_collision_ids": [],
+  "verdict": "All13 revised definitions eligible for generation. The remaining587 retain the prior hash-bound assessment. The final payroll013 replacement introduces no identified concrete near-duplicate or split-reservation breach.",
+  "limits": [
+    "Approval concerns frozen scenario definitions only. Generated messages still require individual review, lexical and semantic exclusion checks, group split verification and dataset acceptance before training.",
+    "Broad policy/task overlap remains permitted and is not proof of copying. Prior broader-overlap findings remain limitations of the known benchmark.",
+    "The existing500 remain known regression evidence, not a virgin generalization test.",
+    "Old-plan generation attempts remain excluded from the current corpus."
+  ]
+}

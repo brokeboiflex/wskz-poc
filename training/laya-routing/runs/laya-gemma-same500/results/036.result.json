@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/competency-assessment/base",
+  "family": "human_resources/competency-assessment",
+  "message": "Po ostatnim projekcie chcę uporządkować swoje mocne strony i obszary wymagające pracy. Potrzebuję narzędzia do oceny kompetencji oraz pomocy w ułożeniu planu rozwojowego na kolejne półrocze. Od czego zacząć i z kim omówić wyniki takiej oceny?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.18739833301515318,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "482a0f2180f1acb02f5d67512e1585a34280aa4d850254439783e353c264da33",
+  "response_sha256": "fa2317b7e01f08efe61e953af272ce7aafc90233a7ecf0dc30eb303846c73781"
+}

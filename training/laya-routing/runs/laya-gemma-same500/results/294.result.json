@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/print-duplex/base",
+  "family": "help_desk/print-duplex",
+  "message": "Drukarka działa, ale dokumenty z mojego komputera zawsze wychodzą jednostronnie, mimo wybrania druku dwustronnego. U koleżanki te same ustawienia dają właściwy wynik. Proszę pomóc sprawdzić konfigurację sterownika na moim stanowisku, ponieważ przygotowuję większy zestaw materiałów.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19327374998829328,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "71b77994e5710743d94e606c037c3928d5d02d41a37f6bfab934e6055e50144a",
+  "response_sha256": "4bb08f0cc282d9d7585540542406e7f96905a4dd8815ad1d248aefe8f2786b3f"
+}

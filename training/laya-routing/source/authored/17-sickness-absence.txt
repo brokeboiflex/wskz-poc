@@ -1,0 +1,69 @@
+payroll-077
+Czy moje zwolnienie lekarskie zostało odnotowane w ewidencji pracowniczej?
+Lekarz wystawił zwolnienie obejmujące moje dni pracy. Chcę upewnić się, że dotarło i zostało zapisane jako usprawiedliwiona nieobecność. Proszę sprawdzić ewidencję.
+Sprawdźcie proszę, czy odnotowano moje zwolnienie lekarskie w ewidencji zatrudnienia. Wcześniejszy problem z logowaniem rozwiązano, mogę już wejść na konto.
+Lekarz potwierdził: „Zwolnienie zostało wystawione i wysłane”. Proszę sprawdzić, czy moja nieobecność chorobowa jest zapisana w ewidencji pracownika.
+Moje zwolnienie od lekarza już u was widać w ewidencji pracowniczej? Potrzebuję potwierdzenia wpisu.
+
+payroll-078
+Proszę wyjaśnić naliczenie wynagrodzenia za okres mojej choroby.
+W ostatnim miesiącu przez kilka dni byłam niezdolna do pracy. Chcę zrozumieć kwotę wynagrodzenia naliczoną za ten okres. Proszę objaśnić rozliczenie choroby.
+Nieczytelny plik został przesłany ponownie i otwiera się poprawnie. Proszę wyjaśnić, jak naliczono moje wynagrodzenie za dni choroby.
+Na pasku znalazłam pozycję: „Wynagrodzenie chorobowe”. Proszę wyjaśnić sposób obliczenia kwoty za okres mojej niezdolności do pracy.
+Nie rozumiem kwoty za czas choroby na wypłacie. Wyjaśnicie, jak ją policzono?
+
+payroll-079
+Chcę uzupełnić brakujące dane potrzebne do wypłaty zasiłku chorobowego.
+Otrzymałem informację, że rozliczenie świadczenia wymaga dodatkowych danych. Proszę wskazać brakujące informacje i przyjąć ich uzupełnienie do wypłaty zasiłku chorobowego.
+Proszę przyjąć uzupełnienie danych do wypłaty zasiłku chorobowego. Dostęp do formularza działa po naprawie, więc wcześniejsza blokada jest usunięta.
+W powiadomieniu napisano: „Do wypłaty zasiłku chorobowego brakuje danych”. Proszę pomóc je uzupełnić, aby rozliczenie świadczenia mogło zostać wykonane.
+Brakuje wam danych do mojego zasiłku chorobowego? Chcę je uzupełnić, dajcie znać, co przekazać.
+
+payroll-081
+Proszę skorygować daty niezdolności do pracy wpisane w rozliczeniu nieobecności.
+Okres choroby w rozliczeniu zaczyna się innego dnia niż na wystawionym zwolnieniu. Proszę porównać dokumenty i poprawić daty mojej nieobecności chorobowej.
+Szkolenie zostało już przełożone na uzgodniony termin. Zwracam się o korektę błędnych dat niezdolności do pracy w rozliczeniu mojej nieobecności.
+Na zwolnieniu widnieje: „Niezdolność do pracy od dziesiątego dnia miesiąca”, a rozliczenie wskazuje wcześniejszy początek. Proszę poprawić daty choroby w ewidencji.
+W rozliczeniu nieobecności wpisano mi złe daty choroby. Poprawicie je zgodnie ze zwolnieniem?
+
+payroll-083
+Jak udokumentować chorobę, która wystąpiła podczas zatwierdzonego urlopu?
+Zachorowałam w trakcie zaplanowanego wypoczynku. Potrzebuję informacji, jakie dokumenty dotyczące niezdolności do pracy przekazać, aby prawidłowo wykazać ten okres. Proszę wyjaśnić formalności.
+Potrzebuję wyjaśnienia, jak udokumentować chorobę podczas wcześniej zatwierdzonego urlopu. Usterka służbowego telefonu została już usunięta. Pytam o dokumenty do rozliczenia nieobecności.
+Lekarz powiedział: „Zwolnienie obejmuje dni, na które ma pani urlop”. Proszę wyjaśnić, jak przekazać dokumentację choroby w czasie zatwierdzonego wypoczynku.
+Zachorowałem na zatwierdzonym urlopie. Jakie dokumenty mam przekazać, żeby prawidłowo wykazać chorobę?
+
+payroll-084
+Dlaczego ewidencja zatrudnienia nadal pokazuje moje zakończone zwolnienie lekarskie?
+Wróciłem już do pracy po chorobie, ale w zapisach wciąż widnieje trwające zwolnienie. Proszę sprawdzić, dlaczego zakończony okres nie został właściwie odnotowany.
+Problemy z wejściem na stronę rozliczeń naprawiono. Po zalogowaniu widzę jednak nadal trwające zwolnienie, które już się skończyło. Proszę sprawdzić ewidencję nieobecności.
+Na koncie pracownika widnieje: „Zwolnienie w toku”, choć data jego końca minęła i wróciłem do pracy. Proszę wyjaśnić ten zapis.
+Zwolnienie skończone, jestem w pracy, a ewidencja dalej pokazuje chorobę. Sprawdzicie, czemu tak jest?
+
+payroll-085
+Jakie formalności trzeba załatwić z zagranicznym zaświadczeniem o chorobie do rozliczenia nieobecności w pracy?
+Podczas pobytu za granicą lekarz wystawił mi dokument potwierdzający chorobę. Potrzebuję ustalić, jak przekazać go do usprawiedliwienia i rozliczenia nieobecności w pracy.
+Mam zagraniczne zaświadczenie o chorobie i proszę ustalić formalności związane z moją nieobecnością w pracy. Błąd wysyłania załącznika już naprawiono; dokument mogę przesłać.
+Zagraniczny lekarz napisał w zaświadczeniu: „Pacjent jest niezdolny do pracy”. Proszę wskazać formalności potrzebne do uwzględnienia tego dokumentu w rozliczeniu nieobecności.
+Mam zaświadczenie od lekarza za granicą. Co z nim zrobić, żeby rozliczyć chorobową nieobecność w pracy?
+
+payroll-086
+Proszę wyjaśnić rozliczenie okresu oczekiwania na świadczenie chorobowe.
+W informacji dotyczącej mojej nieobecności wskazano okres oczekiwania na świadczenie. Nie rozumiem, jak wpływa on na rozliczenie choroby. Proszę objaśnić tę kwestię.
+Pomyłka w nazwisku na dokumentach została poprawiona. Potrzebuję wyjaśnienia rozliczenia okresu oczekiwania na moje świadczenie chorobowe.
+W odpowiedzi otrzymałam zapis: „Obowiązuje okres oczekiwania na świadczenie chorobowe”. Proszę wyjaśnić, jak rozliczony jest ten okres w moim przypadku.
+Nie rozumiem tego okresu oczekiwania na świadczenie chorobowe. Jak go rozliczacie? Wyjaśnicie mi to?
+
+payroll-088
+Przekazuję dokumenty potrzebne do rozliczenia mojej nieobecności w pracy po wypadku.
+Po wypadku byłem niezdolny do pracy. Mam już dokumenty wymagane do rozliczenia tej nieobecności i chcę je przekazać. Proszę przyjąć komplet do właściwej dokumentacji.
+Chcę przekazać dokumenty do rozliczenia nieobecności pracowniczej po wypadku. Skaner został naprawiony i kopie są czytelne. Proszę przyjąć załączony komplet.
+W otrzymanej instrukcji napisano: „Dostarcz dokumenty do rozliczenia nieobecności po wypadku”. Przekazuję je i proszę dołączyć do mojego rozliczenia pracowniczego.
+Mam już papiery do rozliczenia nieobecności w pracy po wypadku. Przekazuję komplet, przyjmiecie je?
+
+payroll-089
+Jak skorygować pominięty w ewidencji okres usprawiedliwionej choroby?
+Część mojego udokumentowanego zwolnienia nie została ujęta w rozliczeniu nieobecności. Proszę wyjaśnić, jak zgłosić korektę pominiętego okresu usprawiedliwionej choroby.
+Awarię skrzynki pocztowej usunięto. Potrzebuję informacji, jak skorygować pominięte w ewidencji dni usprawiedliwionej choroby, na które mam zwolnienie.
+W odpowiedzi na zgłoszenie usłyszałem: „Ten okres nie został ujęty w rozliczeniu”. Proszę wyjaśnić procedurę korekty pominiętej, udokumentowanej nieobecności chorobowej.
+Część usprawiedliwionej choroby wypadła z mojej ewidencji. Jak zgłosić poprawkę tych brakujących dni?

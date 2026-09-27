@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-date-change/conversation_history",
+  "family": "payroll/leave-date-change",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nMój zaakceptowany urlop obejmuje dni od poniedziałku do środy. Uzgodniłam jednak z kierownikiem przesunięcie go na środę, czwartek i piątek tego samego tygodnia. Proszę o wskazanie sposobu skorygowania wniosku tak, aby liczba wykorzystanych dni pozostała bez zmian.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.24124883298645727,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "baf0b200a4ed9af96451c53bb880eb2ede81ae352ab60a8a546478c4764c32d0",
+  "response_sha256": "091b3f6a02fc442d385d12825a44e95bf1ced4b504718a079ddaeb6e7f62b64c"
+}

@@ -1,0 +1,7 @@
+{
+  "approved_for_generation": true,
+  "data_accepted_for_training": false,
+  "plan_sha256": "9a20ee73e24d79943415584ac8aabb91cc34a6cdb0d3f3b5cc6c911f5394fc2f",
+  "reviewer": "independent laya_preflight_review",
+  "notes": "Reviewed all60groups/600definitions; three cross-split primary-request overlaps and mail-notification ambiguity corrected before freeze. All16preflight scenarios remain train-reserved. Generated messages still require individual and leakage review. Test comprises100families but10broader groups."
+}

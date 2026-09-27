@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/feedback-culture/forwarded_history",
+  "family": "human_resources/feedback-culture",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPo ostatnim przeglądzie projektu kilka osób unika zabierania głosu, bo uwagi były przekazywane w bardzo osobisty sposób. Chciałabym, abyśmy nauczyli się rozmawiać o błędach bez atakowania współpracowników. Proszę o wsparcie w przygotowaniu warsztatu i zasad konstruktywnej informacji zwrotnej.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2788242920069024,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6dee01b6e007425da0a175676a3d290586ab76bf354b214675af5f1b35b17d89",
+  "response_sha256": "e80cd0e0d0690aa31e4a6b803fcf723ad00325b9c73ea33e9ebdbd21f5a5ad9e"
+}

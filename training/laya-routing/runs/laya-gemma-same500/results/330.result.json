@@ -1,0 +1,13 @@
+{
+  "id": "it/server-disk/base",
+  "family": "it/server-disk",
+  "message": "Na serwerze przetwarzającym zadania firmowe zabrakło wolnego miejsca i zatrzymała się kolejka operacji. Problem wpływa na wszystkie zlecane zadania od dzisiejszego poranka. Potrzebne jest sprawdzenie przyrostu danych, bezpieczne przywrócenie miejsca i uruchomienie zatrzymanej usługi wraz z oczekującymi zadaniami.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2272110000194516,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "50ea3a15c63c79c9606ea924aa0875033959bbb8499c7fd0f6e518c8732ad6cf",
+  "response_sha256": "db9ca2f8ea9b1cbc7617f56fba1fb820527ee158557978ec280e90fa8ef9a57f"
+}

@@ -1,0 +1,69 @@
+human_resources-070
+Program działa poprawnie; chcę zapisać się na kurs zaawansowanych arkuszy kalkulacyjnych.
+Na co dzień używam sprawnego arkusza do prostych zestawień. Chciałabym nauczyć się zaawansowanych formuł i analizy danych. Proszę pomóc zorganizować kurs.
+Zacinanie programu zostało naprawione i arkusz działa. Moim obecnym celem jest nauka jego zaawansowanych funkcji na kursie; proszę o możliwość udziału.
+Przełożony powiedział: „Przyda ci się kurs zaawansowanych arkuszy”. Program na moim komputerze działa prawidłowo. Proszę pomóc znaleźć takie szkolenie zawodowe.
+Arkusz śmiga, tylko ja znam podstawy. Pomożecie zapisać mnie na zaawansowany kurs do pracy?
+
+human_resources-072
+Proszę zorganizować warsztat podstaw programowania dla analityków.
+Nasz zespół analityczny chce nauczyć się pisać proste programy wspierające analizę. Potrzebujemy warsztatu od podstaw, dostosowanego do osób bez doświadczenia programistycznego.
+Instalacja edytora została zakończona i narzędzie działa. Teraz analitycy potrzebują warsztatu, na którym nauczą się podstaw programowania. Proszę go zorganizować.
+Analityczka zaproponowała: „Nauczmy się pisać proste skrypty zamiast powtarzać czynności ręcznie”. Proszę o warsztat podstaw programowania dla zespołu analityków.
+Analitycy chcą zacząć kodować, ale od zera. Ogarniecie warsztaty z podstaw programowania?
+
+human_resources-073
+Chcę uczestniczyć w szkoleniu z metod zarządzania projektami.
+W pracy koordynuję coraz więcej zadań i chcę poznać uporządkowane metody zarządzania projektami. Proszę o możliwość odbycia szkolenia z tego zakresu.
+Sala na spotkanie została już przydzielona. Teraz proszę pomóc zorganizować szkolenie z metod zarządzania projektami dla mnie i pozostałych koordynatorów.
+W rozmowie o rozwoju kierownik stwierdził: „Poznaj różne metody prowadzenia projektów”. Proszę o zapisanie mnie na szkolenie z zarządzania projektami.
+Chcę lepiej ogarniać projekty w pracy. Znajdziecie kurs metod zarządzania projektami?
+
+human_resources-074
+Potrzebuję kursu języka obcego używanego w moich obowiązkach zawodowych.
+Zaczynam regularnie kontaktować się z zagranicznymi partnerami i brakuje mi swobody językowej. Proszę pomóc zorganizować kurs języka potrzebnego w tych obowiązkach.
+Mój zwrot kosztów podróży już wpłynął. Aktualnie proszę o kurs języka obcego, którego potrzebuję do codziennej współpracy z partnerami w pracy.
+Przełożona napisała: „Do nowych obowiązków przyda ci się lepsza znajomość języka”. Proszę zorganizować naukę języka obcego związaną z moimi zadaniami zawodowymi.
+Muszę w pracy więcej mówić w obcym języku i przyda mi się kurs. Pomożecie z zapisaniem?
+
+human_resources-076
+Proszę o praktyczne zajęcia z obsługi sprawnej aparatury laboratoryjnej.
+Urządzenia w laboratorium działają prawidłowo, ale nie miałem jeszcze okazji nauczyć się ich używać. Potrzebuję zajęć praktycznych pokazujących obsługę aparatury.
+Przegląd aparatury zakończono i potwierdzono pełną sprawność. Teraz proszę o praktyczne szkolenie z jej obsługi, abym umiał samodzielnie wykonywać zadania w laboratorium.
+Opiekunka laboratorium powiedziała: „Sprzęt jest gotowy, potrzebujesz tylko nauki obsługi”. Proszę zorganizować zajęcia praktyczne przy sprawnej aparaturze.
+Sprzęt w laboratorium działa, tylko nie umiem go jeszcze obsługiwać. Możecie załatwić mi praktyczne szkolenie?
+
+human_resources-078
+Proszę o szkolenie z czytania wyników finansowych dla kierowników.
+Kierownicy otrzymują raporty finansowe, ale nie wszyscy potrafią właściwie interpretować ich wskaźniki. Chcemy zorganizować szkolenie uczące rozumienia tych wyników.
+Błąd w przelewie został wyjaśniony, środki dotarły. Aktualna prośba dotyczy szkolenia dla kierowników z czytania i interpretowania wyników finansowych.
+Dyrektorka napisała: „Kierownicy powinni rozumieć wyniki finansowe swoich obszarów”. Proszę zorganizować szkolenie z czytania takich raportów.
+Kierownicy chcą lepiej rozumieć finansowe wyniki zespołów. Da się zrobić szkolenie z czytania tych liczb?
+
+human_resources-079
+Chciałbym przejść kurs badania potrzeb użytkowników i prowadzenia wywiadów.
+Mam uczestniczyć w rozpoznawaniu potrzeb odbiorców produktu. Chcę nauczyć się przygotowywać i prowadzić wywiady badawcze. Proszę o odpowiedni kurs zawodowy.
+Problemy z kamerą już rozwiązano. Teraz potrzebuję szkolenia z badania potrzeb użytkowników, zwłaszcza przygotowania i prowadzenia wywiadów.
+Lider produktu zasugerował: „Naucz się zbierać potrzeby w rozmowach z użytkownikami”. Proszę pomóc mi znaleźć kurs badań i prowadzenia wywiadów.
+Chcę nauczyć się pytać użytkowników o potrzeby, żeby robić to porządnie w pracy. Załatwicie kurs wywiadów badawczych?
+
+human_resources-080
+Potrzebujemy warsztatu tworzenia dostępnych dokumentów cyfrowych.
+Przygotowujemy dokumenty dla różnych odbiorców i chcemy nauczyć się zasad dostępności. Proszę o warsztat praktyczny, na którym przećwiczymy tworzenie dostępnych plików.
+Edytor po aktualizacji działa poprawnie. Teraz proszę o szkolenie z przygotowywania dokumentów cyfrowych dostępnych także dla osób korzystających z technologii wspomagających.
+Redaktorka powiedziała: „Musimy nauczyć się tworzyć dokumenty dostępne dla wszystkich”. Proszę zorganizować warsztat tych umiejętności dla zespołu.
+Robimy dokumenty do pracy i chcemy nauczyć się dostępności. Ogarniecie praktyczny warsztat?
+
+human_resources-082
+Proszę o szkolenie z krytycznej analizy danych i wyciągania wniosków.
+Potrafię przygotować zestawienie, ale chcę lepiej oceniać jakość danych i zasadność wniosków. Potrzebuję szkolenia rozwijającego krytyczne myślenie podczas analizy.
+Brakujący raport został już dostarczony. Obecnie proszę o szkolenie, które nauczy mnie krytycznie analizować dane i formułować uzasadnione wnioski w pracy.
+Przełożony zwrócił uwagę: „Sprawdzaj, czy liczby rzeczywiście wspierają wniosek”. Chcę się tego nauczyć i proszę o szkolenie z krytycznej analizy danych.
+Chcę lepiej sprawdzać, co naprawdę wynika z danych w naszych analizach. Pomożecie z kursem krytycznego wnioskowania?
+
+human_resources-084
+Aplikacja graficzna działa; potrzebuję nauki przygotowywania w niej materiałów zawodowych.
+Mam dostęp do sprawnego programu graficznego, ale brakuje mi umiejętności tworzenia materiałów. Proszę o szkolenie z praktycznego przygotowywania grafik do pracy.
+Problem z uruchomieniem aplikacji graficznej został naprawiony. Teraz chciałabym nauczyć się przygotowywać w niej materiały; proszę o możliwość szkolenia.
+Kierowniczka powiedziała: „Narzędzie działa, teraz warto nauczyć się projektować materiały”. Proszę zorganizować naukę tworzenia grafik w dostępnej aplikacji.
+Program do grafiki działa bez problemu. Potrzebuję kursu, jak robić w nim materiały do pracy, pomożecie?

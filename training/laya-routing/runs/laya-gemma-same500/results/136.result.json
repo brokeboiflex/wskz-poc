@@ -1,0 +1,13 @@
+{
+  "id": "payroll/payslip-deduction/base",
+  "family": "payroll/payslip-deduction",
+  "message": "Na ostatnim pasku wynagrodzenia pojawiła się pozycja potrącenia, której wcześniej nie było. Opis jest skrótowy i nie potrafię ustalić, czego dotyczy. Proszę o wyjaśnienie podstawy naliczenia tej kwoty oraz wskazanie okresu, za który została pobrana z mojej pensji.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19235833300626837,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "03bc63fa661ff534bf41b05bc0a80661d77c1b1bd0b139a4719e4c3879a3fd80",
+  "response_sha256": "01877b5b4b1e599f43398b0e2b1f31b6d241b6b293782b2b18fc8bddfccb9a6b"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/account-locked/base",
+  "family": "help_desk/account-locked",
+  "message": "Przy logowaniu pojawił się komunikat, że moje konto jest zablokowane po zbyt wielu próbach. Wpisywałam wcześniej stare hasło z pamięci. Nie zauważyłam żadnych obcych logowań ani podejrzanych wiadomości. Proszę o pomoc w odblokowaniu dostępu do mojego konta pracowniczego.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19629145800718106,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "126e4bc14e35efbcf03ac7eacedd550017fde86327e52e7c2ea0c731147b2617",
+  "response_sha256": "0760b8ee15921b4674f1c04b33d3820c6cfdd28fdb3cff485ee5433767a9bfba"
+}

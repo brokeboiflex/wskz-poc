@@ -1,0 +1,13 @@
+{
+  "id": "other/film/base",
+  "family": "other/film",
+  "message": "Organizuję domowy wieczór filmowy dla znajomych i szukam pogodnej komedii, którą można obejrzeć bez znajomości wcześniejszych części. Proszę o propozycję sposobu wyboru tytułu odpowiedniego dla osób o różnych gustach.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.18097208300605416,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d523fdc2462cb12212fd44e2074375bc59b1b1eff9ffab4cf5f0cbefdc5b2c1b",
+  "response_sha256": "6d0a00118da7f67eddcdba396f4e84f12ff96e684f34eeffbd6233ee1539ac88"
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:00:21.651665+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages individually read and compared with10 exact frozen definitions, policy and manual approach. No benchmark access or inference.",
+  "source_sha256": "4ecfb71c0fd60ad82d007edcb6510e3de78705bb26f16c7f7142dc2abb30c9ef",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/05-professional-training.txt",
+      "sha256": "4ecfb71c0fd60ad82d007edcb6510e3de78705bb26f16c7f7142dc2abb30c9ef"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "human_resources-070",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-072",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-073",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-074",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-076",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-078",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-079",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-080",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-082",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "human_resources-084",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "corpus_observation": {
+    "severity": "nonblocking_limitation",
+    "scope": "Six reviewed batches00 through05,60 families/300 messages",
+    "resolved_histories": 60,
+    "closed_issue_first_current_request_later": 60,
+    "explicit_transition_marker": 58,
+    "finding": "A single ordering pattern and explicit current-request transitions dominate resolved histories. This materially limits evidence of generalization to other history orderings; it is not merely repeated polite phrasing. All current labels remain correct.",
+    "action": "Broaden order and natural discourse structure in subsequent authorship while retaining an unambiguously closed old issue and exact active intent. Do not interpret synthetic performance as robustness to unrepresented ordering."
+  },
+  "limits": [
+    "Only initial quality review; benchmark exclusions and cross-split checks remain required.",
+    "These are correlated variants of10 families, not50 independent scenarios.",
+    "Initial quality approval does not accept data for training."
+  ]
+}

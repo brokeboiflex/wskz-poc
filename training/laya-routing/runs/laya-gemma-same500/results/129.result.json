@@ -1,0 +1,13 @@
+{
+  "id": "payroll/bonus-missing/forwarded_history",
+  "family": "payroll/bonus-missing",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOtrzymałam pisemne potwierdzenie przyznania premii kwartalnej, ale nie widzę jej w ostatniej wypłacie. Decyzja została już zatwierdzona przez przełożonego, nie proszę o ponowną ocenę wyników. Chciałabym sprawdzić termin wypłaty oraz to, czy informacja trafiła do naliczenia wynagrodzeń.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nAwaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.29298779199598357,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e95a9f1d164aa00418bafbc88bcad8a23bbb3b10ae4d0822904451885f8826c0",
+  "response_sha256": "285297916391d7d67a2c3e25ff68b5cb444c7d6f9bf8c1391114274b320ec4b5"
+}

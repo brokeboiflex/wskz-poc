@@ -1,0 +1,13 @@
+{
+  "id": "payroll/overtime-pay/base",
+  "family": "payroll/overtime-pay",
+  "message": "W ubiegłym miesiącu przepracowałam dodatkowe godziny zatwierdzone przez kierownika. Widzę je w ewidencji, ale na pasku wypłaty nie pojawiło się odpowiadające im rozliczenie. Proszę sprawdzić, czy zostały uwzględnione na liście płac i w jakim terminie zostaną wypłacone.\n\nDodatkowa praca dotyczyła dwóch wieczorów przy zamknięciu miesiąca. Przełożony zatwierdził godziny w tym samym tygodniu. Mam daty i numer zaakceptowanej karty, więc mogę przekazać je do porównania z danymi wykorzystanymi podczas naliczania wypłaty.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23665370800881647,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3f1187cf45fb8f02319dfaa54f67f8fa934073a2729415b6db70c31d41bdacfa",
+  "response_sha256": "40ab764c520ab850890f78a971f40b9a167131f87f3c10c36dd03100340b22fd"
+}

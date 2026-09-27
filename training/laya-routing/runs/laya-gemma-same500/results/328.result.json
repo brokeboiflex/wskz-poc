@@ -1,0 +1,13 @@
+{
+  "id": "it/shared-drive-outage/base",
+  "family": "it/shared-drive-outage",
+  "message": "Żaden pracownik nie może otworzyć wspólnego dysku firmowego, również z komputerów, które wcześniej działały poprawnie. Serwer plików nie odpowiada na żądania z różnych lokalizacji. Proszę o sprawdzenie usługi i przywrócenie dostępu do współdzielonych dokumentów dla całej organizacji.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.189622791018337,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "85758f3d944c0e7c4ad0ed4a4916ca4d3dcdae63cdcf6a021081370268f0f4c8",
+  "response_sha256": "6af692cebf4130ae47730a2b28aaa907b493864a2a8994772beb533d9e620812"
+}

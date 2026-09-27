@@ -1,0 +1,69 @@
+help_desk-053
+Tylko mój laptop nie łączy się z firmowym Wi-Fi.
+Współpracownicy mają dostęp do sieci bezprzewodowej, ale moje urządzenie nie nawiązuje połączenia. Proszę sprawdzić ustawienia Wi-Fi na moim laptopie.
+Proszę pomóc podłączyć mój laptop do firmowego Wi-Fi, które innym działa. Zaległa premia została wypłacona i sprawa finansowa jest zamknięta.
+Na moim laptopie pojawia się: „Nie można połączyć z tą siecią”. Firmowe Wi-Fi działa kolegom. Proszę pomóc z moim urządzeniem.
+Firmowe Wi-Fi wszystkim działa, tylko mój laptop nie wchodzi. Zerkniecie na moje połączenie?
+
+help_desk-056
+Połączenie po kablu nie działa na moim pojedynczym stanowisku.
+Kabel sieciowy jest podłączony do mojego komputera, ale nie mam połączenia. Sąsiednie stanowiska działają. Proszę sprawdzić przewód i lokalne podłączenie.
+Dokument zatrudnienia został już odebrany. Proszę pomóc z brakiem połączenia po kablu wyłącznie na moim stanowisku.
+System na moim komputerze pokazuje: „Kabel sieciowy odłączony”, mimo że przewód jest wpięty. Proszę sprawdzić lokalne połączenie tego stanowiska.
+Mam kabel wpięty, a na moim komputerze sieci brak. U innych jest. Sprawdzicie przewód i gniazdo?
+
+help_desk-058
+Klient VPN na moim komputerze nie nawiązuje połączenia z domu.
+Pracuję z domu i próbuję uruchomić własne połączenie VPN. Klient na moim laptopie nie łączy się, chociaż inni mają dostęp. Proszę pomóc z tą lokalną konfiguracją.
+Potrzebuję pomocy z klientem VPN na moim domowym połączeniu do pracy. Wniosek o urlop już potwierdzono. Mój laptop nadal nie uruchamia tunelu, pozostałym działa.
+Aplikacja VPN na moim laptopie wyświetla: „Nie udało się nawiązać połączenia”. Łączę się z domu, problem dotyczy mnie. Proszę o pomoc z klientem.
+Z domu mój klient VPN nie chce się połączyć. Innym działa, pomożecie z moim laptopem?
+
+help_desk-061
+Proszę skonfigurować nowy profil sieci na moim laptopie.
+Otrzymałem dane nowego połączenia, ale nie wiem, jak dodać odpowiedni profil na swoim komputerze. Proszę pomóc przeprowadzić lokalną konfigurację sieci.
+Zaświadczenie o dochodach zostało już wystawione. Potrzebuję konfiguracji nowego profilu sieciowego na moim laptopie służbowym.
+Instrukcja mówi: „Utwórz nowy profil sieci”. Proszę pomóc zastosować otrzymane ustawienia na moim laptopie.
+Mam dane nowej sieci, ale nie umiem ustawić profilu na laptopie. Pomożecie z konfiguracją?
+
+help_desk-062
+Na moim komputerze są błędne ustawienia proxy; proszę je poprawić.
+Pozostałe stanowiska otwierają strony prawidłowo. U mnie wpisany jest niewłaściwy serwer proxy, co blokuje dostęp. Proszę skorygować lokalne ustawienia.
+Proszę poprawić błędną konfigurację proxy wyłącznie na moim komputerze. Rozliczenie wyjazdu zostało zamknięte. Sieć u innych pracowników działa.
+Komputer informuje: „Nie można połączyć z serwerem proxy”. Sprawdziliśmy, że tylko moje stanowisko ma niewłaściwe ustawienia. Proszę je naprawić.
+Tylko u mnie jest źle ustawione proxy i strony nie działają. Poprawicie konfigurację mojego komputera?
+
+help_desk-063
+Bluetooth mojego komputera nie znajduje służbowego urządzenia.
+Chcę sparować urządzenie z własnym stanowiskiem, ale nie pojawia się ono na liście Bluetooth. Proszę pomóc przywrócić wyszukiwanie i połączenie na tym komputerze.
+Korekta nazwiska w dokumentacji już zakończona. Zgłaszam brak wykrywania służbowego urządzenia przez Bluetooth na moim komputerze.
+Wyszukiwanie Bluetooth na moim stanowisku kończy się komunikatem: „Nie znaleziono urządzeń”. Proszę pomóc połączyć służbowe urządzenie z tym komputerem.
+Bluetooth na moim komputerze nie widzi służbowego sprzętu do sparowania. Pomożecie go znaleźć?
+
+help_desk-064
+Nie mogę połączyć mojego laptopa z hotspotem własnego telefonu.
+Telefon udostępnia połączenie, lecz mój komputer nie potrafi z niego skorzystać. Proszę pomóc ustawić połączenie laptopa z moim osobistym hotspotem.
+Proszę pomóc podłączyć laptop do hotspotu w moim telefonie. Termin szkolenia został już zmieniony. Problem dotyczy jedynie połączenia tych dwóch moich urządzeń.
+Laptop przy moim hotspocie pokazuje: „Połączenie nieudane”. Telefon udostępnia internet. Proszę pomóc zestawić połączenie między moimi urządzeniami.
+Mój laptop nie chce wejść na hotspot z mojego telefonu. Zerkniecie na ustawienia tego połączenia?
+
+help_desk-065
+Po aktualizacji sterownika karta sieciowa w moim komputerze pozostała wyłączona.
+Zaktualizowałem sterownik na własnym stanowisku. Od tego czasu karta sieciowa jest nieaktywna i nie ma połączenia. Proszę pomóc ją przywrócić.
+Zestawienie godzin zostało już skorygowane. Potrzebuję pomocy z wyłączoną kartą sieciową mojego komputera po aktualizacji sterownika.
+Menedżer urządzeń pokazuje przy mojej karcie sieciowej: „Wyłączone”. Stało się to po aktualizacji sterownika. Proszę pomóc uruchomić kartę.
+Po aktualizacji sterownika moja karta sieciowa została wyłączona. Pomożecie ją włączyć na tym komputerze?
+
+help_desk-066
+Połączenie sieciowe zrywa się tylko na moim komputerze.
+Co kilka minut tracę połączenie i muszę czekać na jego powrót. Inne stanowiska w tym samym miejscu działają stabilnie. Proszę sprawdzić mój komputer.
+Proszę zdiagnozować zrywanie połączenia wyłącznie na moim stanowisku. Sprawa brakującej wypłaty jest rozwiązana. Pozostałe komputery mają stabilną sieć.
+Koleżanka pracująca obok mówi: „U mnie połączenie ani razu nie zniknęło”. Mój komputer stale je traci. Proszę sprawdzić lokalną usterkę.
+Tylko mój komputer gubi sieć co chwilę. Sprawdzicie, czemu zrywa połączenie?
+
+help_desk-067
+Po wymianie laptopa potrzebuję pomocy z lokalną konfiguracją VPN.
+Dostałam nowy komputer i chcę ustawić na nim własne połączenie VPN do pracy. Proszę pomóc przenieść lub wprowadzić właściwe ustawienia klienta.
+Moje dokumenty zatrudnienia zostały już uzupełnione. Potrzebuję skonfigurowania klienta VPN na laptopie, który otrzymałem w zamian za poprzedni.
+Przy przekazaniu sprzętu usłyszałam: „Na nowym laptopie trzeba ustawić VPN”. Proszę pomóc z lokalną konfiguracją mojego połączenia.
+Wymienili mi laptop i muszę ustawić na nim VPN do pracy. Pomożecie z klientem?

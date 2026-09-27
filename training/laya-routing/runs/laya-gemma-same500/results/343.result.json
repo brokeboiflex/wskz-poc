@@ -1,0 +1,13 @@
+{
+  "id": "it/mail-server/resolved_preface",
+  "family": "it/mail-server",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\n\nOsobna, aktualna wiadomość:\nOd godziny ósmej wiadomości nie docierają do żadnej skrzynki w naszej domenie. Wysyłający z zewnątrz otrzymują komunikat o niedostępności serwera pocztowego. Proszę o pilną kontrolę infrastruktury poczty i przywrócenie przyjmowania wiadomości dla całej firmy.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.23267441699863411,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1cfa19e9e80c134e7d8b394c071d6ad4d5d15e62c7c5e1c3b005d4084dea42ba",
+  "response_sha256": "b358545aba0e2b418b71110ce0812c67201fdc41a425ebe25ed80352e7b3a20f"
+}

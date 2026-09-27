@@ -1,0 +1,12 @@
+{
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+  "proof_sha256": "1e8571d2565347bd3fe5b76d5b155d0dc6aa734a3e14c5890efdd39285525577",
+  "runtime_sha256": "591cf9358e87525fb4b45c3cf0b4eb27bdbb0bfa99a394631af61f7f25ecf3f7",
+  "plan_review_sha256": "283b6058db21d6acb9e012642eb52fe9c56014919f95bec4685958466a83b49b",
+  "exclusion_review_sha256": "ee5273202eb93271c52fb008d8620c587c99f58d7a6099262da50748010f6d2a",
+  "generator_sha256": "e143c1dcfc3a0d9b2263c94666f506c2e14654f9f41d27c9a8ea2454c23f7425",
+  "endpoint": "http://127.0.0.1:18092/v1/chat/completions",
+  "model": "gemma4:e2b",
+  "requests_per_observed_family": 5
+}

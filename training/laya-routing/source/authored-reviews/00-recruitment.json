@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T17:53:48.205911+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages read individually and compared with all10 exact frozen scenario definitions, policy and approved manual authoring approach. Initial quality review only; no held-out benchmark access or inference.",
+  "source_sha256": "d107ac4a21a9cb1c3f3e92ecfb346d60c73d1624688b4b464c83f86c6a0a6801",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/00-recruitment.txt",
+      "sha256": "d107ac4a21a9cb1c3f3e92ecfb346d60c73d1624688b4b464c83f86c6a0a6801"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "label_correct": 50,
+    "scenario_faithful": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "human_resources-001",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "Sign-language interpretation is requested for a recruitment interview in every variant."
+    },
+    {
+      "family": "human_resources-002",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "Every current request is to agree a replacement interview date with the candidate."
+    },
+    {
+      "family": "human_resources-005",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "All variants request substantive common interview questions, not help operating a tool."
+    },
+    {
+      "family": "human_resources-006",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "Consent is already granted; the active request is verification of references in all variants."
+    },
+    {
+      "family": "human_resources-007",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "Every variant requests handling or recording withdrawal from an ongoing recruitment process."
+    },
+    {
+      "family": "human_resources-008",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "All variants ask recruitment status only, not assessment feedback."
+    },
+    {
+      "family": "human_resources-009",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "The active request remains organizing a practical editorial recruitment task, without switching to training materials."
+    },
+    {
+      "family": "human_resources-010",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "All variants request membership of the recruitment panel for a managerial vacancy."
+    },
+    {
+      "family": "human_resources-012",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "Preselection criteria are requested without a personal rejection or an appeal."
+    },
+    {
+      "family": "human_resources-015",
+      "split": "train",
+      "label": "human_resources",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "all_five_styles_pass": true,
+      "findings": [],
+      "note": "The vacancy is already approved; the request is planning the recruitment process."
+    }
+  ],
+  "batch_findings": [],
+  "limits": [
+    "This batch covers only one recruitment group; it does not establish corpus-wide generalization or independence.",
+    "Several histories use the clear closed-issue then current-request structure. Broader corpus review must assess repeated scaffolding and language diversity across groups.",
+    "Benchmark exclusions and cross-split lexical/semantic checks remain mandatory before dataset acceptance.",
+    "Approval is initial message quality only and does not accept the corpus for training."
+  ]
+}

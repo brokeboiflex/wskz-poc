@@ -1,0 +1,13 @@
+{
+  "id": "other/sport/resolved_preface",
+  "family": "other/sport",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n\nOsobna, aktualna wiadomość:\nZnajomi zaprosili mnie na mecz siatkówki, ale nie znam dokładnie zasad rotacji zawodników. Czy możecie wyjaśnić, kiedy drużyna zmienia ustawienie i co oznaczają pozycje na boisku?",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.2307932499970775,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "be37c2b6c6737ccd15bf80ddc2438f8bd39c95a4c6389e981bd5711970977763",
+  "response_sha256": "81281c024412ba3f9ee45cc606ed02ccc63cc7d6a908eed7c2cab100a6542c4d"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "payroll/sick-pay/base",
+  "family": "payroll/sick-pay",
+  "message": "Przez kilka dni w zeszłym miesiącu przebywałem na zwolnieniu. Otrzymana wypłata różni się od mojego oszacowania, dlatego chciałbym zrozumieć sposób naliczenia wynagrodzenia za ten okres. Proszę sprawdzić, jakie dni nieobecności przyjęto i jak wpłynęły na poszczególne składniki wypłaty.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.1982464579923544,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "497aa7171d7c9dcd6c5ffc9c6067008d2681fcd8ec301f4a551d56091e02a7d3",
+  "response_sha256": "04c41b67ca589489de7503a9ab15230ab27e9b625fbabd9bdd3608a9d674f1e8"
+}

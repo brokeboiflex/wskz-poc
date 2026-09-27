@@ -1,0 +1,13 @@
+{
+  "id": "other/catering/quoted_history",
+  "family": "other/catering",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nNa jutrzejsze spotkanie z gośćmi potrzebujemy wody i prostego poczęstunku dla sześciu osób. Kto przyjmuje takie zamówienia i do kiedy przekazać szczegóły? Dwie osoby nie jedzą nabiału, więc chciałabym uprzedzić dostawcę przed przygotowaniem zestawu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.2474702920007985,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4f1731da88563d012ad3f0e7a5b9ebdceaa2d7ecc7bf6ae691ef494a2a48ec5b",
+  "response_sha256": "3676326ab8070c137093992fa56373847858b1f7e37c787b172b6137dfb071da"
+}

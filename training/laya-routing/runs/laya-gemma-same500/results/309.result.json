@@ -1,0 +1,13 @@
+{
+  "id": "it/switch-failure/forwarded_history",
+  "family": "it/switch-failure",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nWszystkie stanowiska na drugim piętrze straciły połączenie przewodowe w tym samym momencie. Na przełączniku w szafie sieciowej świeci kontrolka alarmu, podczas gdy inne piętra działają. Proszę o sprawdzenie urządzenia i przywrócenie łączności dla tej części firmowej infrastruktury.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nStary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.25122941701556556,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "10859331356daf4903a2d02b217dc701b64f39f8d47c01a442b34e0782bef928",
+  "response_sha256": "14a3e125bcf17d8d85c5b76d6e28f92151c370455fdcf8af434b0cc3a61c95d2"
+}

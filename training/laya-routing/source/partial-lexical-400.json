@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "complete_corpus_required": false,
+  "records": 400,
+  "families": 80,
+  "semantic_groups": 8,
+  "counts": {
+    "train/human_resources": 400
+  },
+  "errors": [],
+  "semantic_review_required": true,
+  "limitation": "Lexical screening cannot prove absence of paraphrase or semantic leakage.",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "evidence": [
+    {
+      "source": "source/authored/00-recruitment.txt",
+      "sha256": "d107ac4a21a9cb1c3f3e92ecfb346d60c73d1624688b4b464c83f86c6a0a6801",
+      "families": [
+        "human_resources-001",
+        "human_resources-002",
+        "human_resources-005",
+        "human_resources-006",
+        "human_resources-007",
+        "human_resources-008",
+        "human_resources-009",
+        "human_resources-010",
+        "human_resources-012",
+        "human_resources-015"
+      ],
+      "review": "source/authored-reviews/00-recruitment.json",
+      "review_sha256": "57924693abbae6dfb6fb33f1a0eb7d13331fa20cb161147a2e9469f8315b4af7"
+    },
+    {
+      "source": "source/authored/01-conflict.txt",
+      "sha256": "fae9e44a22956c177257b7f4c848256840383fafd0c918fc319ac6573ed802e1",
+      "families": [
+        "human_resources-016",
+        "human_resources-018",
+        "human_resources-019",
+        "human_resources-021",
+        "human_resources-022",
+        "human_resources-023",
+        "human_resources-024",
+        "human_resources-026",
+        "human_resources-030",
+        "human_resources-032"
+      ],
+      "review": "source/authored-reviews/01-conflict.json",
+      "review_sha256": "615be883668413e7c4a86a64c5e3473fa5d5ce30fe50c313bf9b4f888c707f61"
+    },
+    {
+      "source": "source/authored/02-equal-treatment.txt",
+      "sha256": "1ffce3c784b5743ecae143ad4607def41978543e03410b4b5aab5b115c1fe370",
+      "families": [
+        "human_resources-033",
+        "human_resources-034",
+        "human_resources-036",
+        "human_resources-037",
+        "human_resources-038",
+        "human_resources-039",
+        "human_resources-040",
+        "human_resources-041",
+        "human_resources-042",
+        "human_resources-044"
+      ],
+      "review": "source/authored-reviews/02-equal-treatment.json",
+      "review_sha256": "c9e69ea28ad1202ff7876970fd75a74e253cacfc68381bab039f47dd677fc691"
+    },
+    {
+      "source": "source/authored/03-development.txt",
+      "sha256": "b080aa5a50c0c5ae9043ee39532c9810f1124228f7ad656054a3db99a7fab0cd",
+      "families": [
+        "human_resources-045",
+        "human_resources-046",
+        "human_resources-047",
+        "human_resources-048",
+        "human_resources-049",
+        "human_resources-050",
+        "human_resources-051",
+        "human_resources-052",
+        "human_resources-055",
+        "human_resources-056"
+      ],
+      "review": "source/authored-reviews/03-development.json",
+      "review_sha256": "4ae83ee59a52d12a1609573c88cb58a8c3c6558dee075538142f9130e038fc91"
+    },
+    {
+      "source": "source/authored/04-communication-training.txt",
+      "sha256": "33291582a671b9558c4e95ae99d1e43deabaf2dd7dfa2f9ea980dd78c870fbea",
+      "families": [
+        "human_resources-058",
+        "human_resources-059",
+        "human_resources-060",
+        "human_resources-061",
+        "human_resources-062",
+        "human_resources-063",
+        "human_resources-065",
+        "human_resources-066",
+        "human_resources-067",
+        "human_resources-068"
+      ],
+      "review": "source/authored-reviews/04-communication-training.json",
+      "review_sha256": "cb9ecf2e67b47a8cb91a30b3fdffae052285bd7a8f9b552cb2b250a76670a8c8"
+    },
+    {
+      "source": "source/authored/05-professional-training.txt",
+      "sha256": "4ecfb71c0fd60ad82d007edcb6510e3de78705bb26f16c7f7142dc2abb30c9ef",
+      "families": [
+        "human_resources-070",
+        "human_resources-072",
+        "human_resources-073",
+        "human_resources-074",
+        "human_resources-076",
+        "human_resources-078",
+        "human_resources-079",
+        "human_resources-080",
+        "human_resources-082",
+        "human_resources-084"
+      ],
+      "review": "source/authored-reviews/05-professional-training.json",
+      "review_sha256": "3719177f9e6be819751915a025b26ecd74ec4c25ddf266b390fd9a55b348e640"
+    },
+    {
+      "source": "source/authored/06-team-learning.txt",
+      "sha256": "c7605be3e19e15a13ba5a88cca746394cc699441a7a4295c3e0594d178c95d9c",
+      "families": [
+        "human_resources-087",
+        "human_resources-088",
+        "human_resources-090",
+        "human_resources-092",
+        "human_resources-093",
+        "human_resources-095",
+        "human_resources-096",
+        "human_resources-097",
+        "human_resources-098",
+        "human_resources-099"
+      ],
+      "review": "source/authored-reviews/06-team-learning.json",
+      "review_sha256": "b21799624941dc188f00d2ab0a3471dcd17c3f46c304d15272787871a5fe0d5d"
+    },
+    {
+      "source": "source/authored/07-relationship-support.txt",
+      "sha256": "d5b575fb1b4debc188bd3e2781780743ac57d0308b793c2e31c543f4d2060407",
+      "families": [
+        "human_resources-100",
+        "human_resources-101",
+        "human_resources-103",
+        "human_resources-108",
+        "human_resources-109",
+        "human_resources-110",
+        "human_resources-112",
+        "human_resources-114",
+        "human_resources-118",
+        "human_resources-119"
+      ]
+    }
+  ],
+  "ready_for_training": false
+}

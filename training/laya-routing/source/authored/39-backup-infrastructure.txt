@@ -1,0 +1,69 @@
+it-046
+Proszę wdrożyć centralną niezmienialność backupów, z osobną autoryzacją ich usuwania.
+Chcemy zabezpieczyć wspólne kopie przed modyfikacją i przypadkowym usunięciem. Potrzebna jest centralna polityka niezmienialności, w której skasowanie kopii wymaga odrębnej zgody.
+Proszę wdrożyć niezmienialność centralnych kopii z odrębną autoryzacją usunięcia. Mój problem z czytnikiem PDF już naprawiono. Zadanie dotyczy polityki backupu organizacji.
+W ustaleniach zapisano: „Usunięcie kopii wymaga osobnej autoryzacji”. Proszę wdrożyć taką centralną politykę niezmienialności backupów.
+Zróbcie centralnie niezmienialne backupy, tak żeby ich usunięcie wymagało osobnej zgody. Potrzebujemy wdrożenia tej polityki.
+
+it-048
+Test odtworzenia danych całej usługi z backupu zakończył się błędem.
+Podczas próby odzyskania wspólnej usługi nie udało się odtworzyć jej danych. Proszę zdiagnozować błąd testu i naprawić mechanizm przywracania z kopii.
+Zaświadczenie pracownicze już odebrałam. Proszę zająć się błędem testu odtwarzania danych całej usługi z backupu.
+Raport próby wskazuje: „Odtworzenie danych usługi nie powiodło się”. Proszę sprawdzić błąd przywracania z kopii zapasowej.
+Test odtworzenia całej usługi z backupu się wysypał. Sprawdzicie, dlaczego odzyskiwanie danych nie działa?
+
+it-049
+W centralnym repozytorium backupów kończy się dostępna pojemność.
+Wspólne miejsce przechowywania kopii zapełnia się i zagraża kolejnym zapisom. Proszę przeanalizować pojemność repozytorium oraz zapewnić ciągłość centralnego backupu.
+Proszę zająć się wyczerpującą pojemnością centralnego repozytorium kopii. Rozliczenie mojego urlopu już skorygowano. Problem dotyczy wspólnej infrastruktury backupowej.
+Monitoring repozytorium pokazuje: „Pozostało niewiele wolnego miejsca”. Proszę zapewnić pojemność dla centralnych kopii zapasowych.
+Kończy się miejsce w centralnym repozytorium backupów. Zajmiecie się pojemnością, zanim zatrzyma kopie?
+
+it-050
+Proszę przeprowadzić uzgodniony test odzyskania infrastruktury po awarii.
+Termin i zakres ćwiczenia są zaakceptowane. Chcemy sprawdzić odtwarzanie infrastruktury po utracie środowiska. Proszę wykonać uzgodniony test odzyskiwania.
+Mój lokalny problem z drukowaniem jest rozwiązany. Proszę przeprowadzić zatwierdzony test przywracania infrastruktury po awarii.
+W zatwierdzonym planie zapisano: „Przeprowadzić test odzyskania infrastruktury”. Proszę wykonać uzgodnione ćwiczenie odtwarzania po awarii.
+Test odzyskania infrastruktury już uzgodniony. Przeprowadzicie to ćwiczenie po awarii zgodnie z planem?
+
+it-051
+Replikacja backupów kilku serwerów do zapasowej lokalizacji przestała działać.
+Kopie pozostają w głównej siedzibie i nie docierają do drugiej lokalizacji. Problem obejmuje kilka serwerów. Proszę przywrócić replikację backupów.
+Proszę naprawić replikację kopii kilku serwerów do lokalizacji zapasowej. Moje logowanie już odblokowano. Ta awaria dotyczy wspólnego zabezpieczania danych.
+System backupu zgłasza: „Replikacja do lokalizacji zapasowej nieudana”. Dotyczy kilku serwerów. Proszę przywrócić przesyłanie kopii.
+Backupy kilku serwerów nie replikują się do zapasowej lokalizacji. Sprawdzicie transfer kopii?
+
+it-052
+Harmonogram backupów pomija nową usługę produkcyjną.
+Uruchomiona aplikacja produkcyjna nie jest obejmowana planowymi kopiami. Proszę poprawić centralny harmonogram, aby uwzględniał tę nową usługę.
+Rozliczenie mojego świadczenia już wyjaśniono. Proszę dodać pomijaną nową usługę produkcyjną do harmonogramu backupów.
+W raporcie kopii zapisano: „Nowa usługa nieobjęta harmonogramem”. Proszę poprawić plan backupów dla tej aplikacji produkcyjnej.
+Nowa usługa produkcyjna wypada z harmonogramu kopii. Uwzględnicie ją w centralnym backupie?
+
+it-053
+System backupu zgłasza uszkodzone archiwa wielu projektów.
+Sprawdzenie integralności kopii wykazało błędy w archiwach różnych zespołów. Proszę zdiagnozować wspólny system backupu i problem uszkodzonych danych.
+Proszę sprawdzić uszkodzone archiwa wielu projektów w systemie kopii zapasowych. Usterkę mojego monitora już naprawiono. Błędy dotyczą centralnego backupu.
+Weryfikacja backupu zwraca: „Archiwum uszkodzone” dla wielu projektów. Proszę zająć się integralnością wspólnych kopii.
+Backup zgłasza uszkodzone archiwa kilku projektów. Sprawdzicie centralne kopie i ich integralność?
+
+it-054
+Proszę odtworzyć wspólną aplikację po awarii całego serwera.
+Serwer obsługujący aplikację organizacji uległ awarii i usługa jest niedostępna dla wszystkich. Potrzebujemy jej odtworzenia na działającym środowisku.
+Zaświadczenie do dokumentacji już dostałam. Proszę przywrócić wspólną aplikację po awarii całego obsługującego ją serwera.
+Dyżurny potwierdził: „Cały serwer aplikacji uległ awarii”. Proszę odtworzyć wspólną usługę, aby użytkownicy odzyskali dostęp.
+Cały serwer padł. Odtworzycie wspólną aplikację, żeby ludzie mogli wrócić do pracy?
+
+it-055
+Centralny backup działa, lecz automatyczny monitoring nie raportuje jego wyników.
+Kopie wykonują się poprawnie, ale nie otrzymujemy informacji o ich statusie. Proszę naprawić raportowanie wyników centralnego backupu w monitoringu.
+Proszę przywrócić automatyczne raportowanie wyników centralnego backupu. Same kopie działają. Moje wcześniejsze zgłoszenie dotyczące drukarki już zamknięto po naprawie.
+W panelu monitoringu widnieje: „Brak wyniku backupu”, chociaż kopie zostały wykonane. Proszę naprawić centralne raportowanie statusu.
+Backup robi kopie, ale monitoring nie podaje wyników. Ogarniecie automatyczne raportowanie centralnego procesu?
+
+it-057
+Proszę zweryfikować dostępne kopie na potrzeby planu odzyskania infrastruktury.
+Przygotowany plan odtwarzania wymaga potwierdzenia, jakie backupy rzeczywiście mamy. Proszę sprawdzić dostępność kopii potrzebnych do odzyskania środowiska.
+Korekta mojej pensji jest zakończona. Proszę zweryfikować dostępne kopie zapasowe wskazane w planie odzyskiwania infrastruktury.
+W planie awaryjnym zapisano: „Potwierdzić dostępność wymaganych kopii”. Proszę przeprowadzić tę weryfikację dla odzyskania infrastruktury.
+Musimy wiedzieć, jakie kopie naprawdę mamy do planu odzyskania infrastruktury. Zweryfikujecie dostępne backupy?

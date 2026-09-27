@@ -1,0 +1,13 @@
+{
+  "id": "other/poem/conversation_history",
+  "family": "other/poem",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPotrzebuję krótkiego, pogodnego wiersza na kartkę urodzinową dla babci. Chciałabym, żeby pojawiły się w nim ogród, wspólne spacery i domowe wypieki, ale bez żartów o wieku. Czy możecie pomóc napisać kilka wersów do prywatnych życzeń?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.23972358400351368,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0eaeb5f3edafc932be0459e261e0e43178f330be47e36a2f44183a8e312cfb29",
+  "response_sha256": "e179bad2eefd7ed3bd2909b2db0eee979e25d1bcf83903432459592ae4e9165d"
+}

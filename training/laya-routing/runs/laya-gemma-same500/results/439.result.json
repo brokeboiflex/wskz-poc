@@ -1,0 +1,13 @@
+{
+  "id": "other/language-grammar/forwarded_history",
+  "family": "other/language-grammar",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nW prywatnym liście zastanawiam się nad różnicą między angielskimi czasami używanymi do opisu zakończonej podróży. Czy możecie wyjaśnić zasadę na prostym przykładzie?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nAwaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.23361404199386016,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "ce97d9ae73cbb234f60bc680ac2b72eb77690dc164366df1349a6235b1334d0c",
+  "response_sha256": "ecebe628f05abf1e49b34ba2ba66c1597d5e488245f13ae41ff7fb4f5839db2a"
+}

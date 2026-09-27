@@ -1,0 +1,13 @@
+{
+  "id": "it/storage-array/conversation_history",
+  "family": "it/storage-array",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nMacierz przechowująca wspólne dane zgłasza awarię kilku dysków i przejście w stan zdegradowany. Dostęp do plików jest znacznie spowolniony we wszystkich zespołach. Proszę o pilną ocenę stanu infrastruktury pamięci masowej i zabezpieczenie ciągłości działania usług.\n\nAlarm pojawił się w nocy, a rano kolejne dyski zostały oznaczone jako niedostępne. Nie wyjmowaliśmy żadnych nośników i nie uruchamialiśmy samodzielnie odbudowy. Konsola zarządzania nadal odpowiada, więc można zebrać dane diagnostyczne przed podjęciem dalszych działań.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.29437529199640267,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "dd8f65b2c32ed49206c910fd64661f5b9d70541d27fdbb049bde002bddd590bc",
+  "response_sha256": "bdd59a8dff4713a2e455bb2379d0ff01c2567de99846a0cec1d217b8637f196f"
+}

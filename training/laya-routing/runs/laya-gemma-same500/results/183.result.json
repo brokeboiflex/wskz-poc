@@ -1,0 +1,13 @@
+{
+  "id": "payroll/benefit-deduction/resolved_preface",
+  "family": "payroll/benefit-deduction",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nOsobna, aktualna wiadomość:\nZrezygnowałam z dodatkowego pakietu sportowego zgodnie z terminem, jednak opłata nadal została potrącona z pensji. Potwierdzenie rezygnacji jest dostępne. Proszę sprawdzić rozliczenie tego składnika na liście płac i wyjaśnić, czy nadpłacona kwota zostanie zwrócona przy kolejnej wypłacie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23274195799604058,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "7767ba2764b5b47050386c1fe605f3409c277c324dc586868a65298dc116b12e",
+  "response_sha256": "1f7ebc4cc2b175b2eb19ac9908139f63a831bf3f0525757362d2ab6f64dd38fb"
+}

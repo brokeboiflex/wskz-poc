@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/candidate-feedback/base",
+  "family": "human_resources/candidate-feedback",
+  "message": "Dziękuję za wiadomość o zakończeniu naboru. Rozumiem, że wybrali Państwo inną osobę. Chciałabym jednak dowiedzieć się, nad którymi kompetencjami powinnam popracować przed kolejną aplikacją. Czy mogę otrzymać krótką informację zwrotną dotyczącą mojego zadania rekrutacyjnego?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19970804202603176,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2bf5cd103e0ac6e445b3ae53aaf3cdf08aacf6787d2c7dda882559cd1d2f4101",
+  "response_sha256": "b9e376757c2b18a3107516e269c49eaa6e2ce389c8e4e3e711ed9fd6ae29757e"
+}

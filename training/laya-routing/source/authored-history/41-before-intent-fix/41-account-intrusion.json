@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:47:06.369065+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages read individually and compared with10 exact frozen definitions, policy and manual approach. No corpus authorship, old benchmark, scores or inference.",
+  "source_sha256": "9a1efcfc13c8d85e5abf7e44dd3b42e10c57c4c7d39fdedd1e8c4d901f9d9a84",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/41-account-intrusion.txt",
+      "sha256": "9a1efcfc13c8d85e5abf7e44dd3b42e10c57c4c7d39fdedd1e8c4d901f9d9a84"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": false,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 49,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 1
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "it-075",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-076",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-077",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-080",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-081",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-084",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-086",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-087",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "it-088",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "needs_revision",
+      "findings": [
+        {
+          "severity": "blocking",
+          "variant": "context",
+          "message_index": 1,
+          "category": "scenario_specificity_lost",
+          "finding": "Serial password attempts against many accounts from one address range do not specifically establish the frozen password-spraying mechanism or hundreds-of-accounts scale. The IT route remains correct; this is an exact-scenario fidelity gap."
+        }
+      ]
+    },
+    {
+      "family": "it-089",
+      "split": "train",
+      "label": "it",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "All50 messages support the IT route and preserve an active security request. Unauthorized location login, unsolicited second factor, owner-disputed admin actions, confirmed password leak, recovery-method takeover, unauthorized outbound messages, active session takeover, unauthorized OAuth and confirmed unauthorized privileged-account creation remain clear. One context variant of it-088 loses the specifically frozen attack mechanism and scale: generic serial password attempts against many accounts do not establish password spraying against hundreds. The single source address range is retained. Other49 variants preserve their scenarios; closed histories and quotations pass.",
+  "limits": [
+    "Initial quality review only; final semantic/lexical exclusions remain mandatory.",
+    "Five variants are correlated within each family; no training-data acceptance."
+  ]
+}

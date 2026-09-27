@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "predictions_made": 0,
+  "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+  "splits": {
+    "train": {
+      "sha256": "391a5e6ba71cc2aba60db25981e1be3c9f7eae600783c10f7fb9d97edb1d68ae",
+      "records": 2000,
+      "min_tokens": 172,
+      "max_tokens": 239,
+      "truncated": 0
+    },
+    "validation": {
+      "sha256": "ca9d5dbd46a375d92ea43e81b551c40bf5929b4036430b0aa7c98b500eeee721",
+      "records": 500,
+      "min_tokens": 178,
+      "max_tokens": 224,
+      "truncated": 0
+    },
+    "test": {
+      "sha256": "a5b9c76b34cc3896c2369f20828419d61fe3d06013653084dd9ed65a90cd64ba",
+      "records": 500,
+      "min_tokens": 179,
+      "max_tokens": 227,
+      "truncated": 0
+    }
+  },
+  "code_sha256": "9932a2278e936b087da35e6591a6ec9548f02f742a5025d75e6cede2765206d7"
+}

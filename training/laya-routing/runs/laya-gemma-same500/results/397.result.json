@@ -1,0 +1,13 @@
+{
+  "id": "it/payroll-server/conversation_history",
+  "family": "it/payroll-server",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPortal płacowy nie otwiera się żadnemu pracownikowi, a monitoring wskazuje zatrzymanie jego serwera aplikacyjnego. Próbowały osoby z kilku oddziałów i każda otrzymała błąd 503. Potrzebujemy przywrócenia działania centralnej usługi, aby można było dokończyć dzisiejsze operacje i otworzyć zestawienia.\n\nZespół potwierdził, że ostatnie poprawne działanie miało miejsce przed planową zmianą konfiguracji. Od tego momentu proces serwera uruchamia się i natychmiast kończy. Logi są dostępne, a baza odpowiada na podstawowy test połączenia. Potrzebujemy diagnostyki warstwy aplikacyjnej.",
+  "expected": "it",
+  "predicted": "help_desk",
+  "correct": false,
+  "seconds": 0.2962641670019366,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b7e62d9f3b5965c18e12487ca2b628b1622f7765863dc60f83a6ba069e3463aa",
+  "response_sha256": "a252ae81e233d4db542a9e990deb2175145ab09d6b14ae40158b32c997459240"
+}

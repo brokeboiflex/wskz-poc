@@ -1,0 +1,13 @@
+{
+  "id": "other/charity-event/base",
+  "family": "other/charity-event",
+  "message": "W naszej wspólnocie mieszkaniowej organizujemy zbiórkę książek dla lokalnej biblioteki. Chciałabym przygotować krótkie ogłoszenie z zasadami przekazywania egzemplarzy i terminem zakończenia akcji. Czy możecie pomóc ułożyć jego treść? To inicjatywa sąsiedzka, niezwiązana z działalnością firmy.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.22156729199923575,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1ed8b26dc1c593276685b5a2c0247f5f7f2b6e3d9bef23e7f4deea2363970eb4",
+  "response_sha256": "e91738c477c3b885441b58d6d9a5a3dbe146ec481109532fcd4d045557d03c8a"
+}

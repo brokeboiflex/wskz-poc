@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/browser-cache/conversation_history",
+  "family": "help_desk/browser-cache",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nNa moim komputerze strona firmowej aplikacji stale pokazuje stary formularz, podczas gdy u kolegi jest już nowa wersja. W drugiej przeglądarce widok jest prawidłowy. Proszę o pomoc w uporządkowaniu ustawień przeglądarki, z której korzystam na co dzień.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.23787629199796356,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f669f755f1cb0154b42f32ea6f30e29250c792a7dc54cb72aa5a98b394a340bd",
+  "response_sha256": "b3077d40ea41365b03b83014ac3fd27ab89404300ba50c3beaa4d82b1b34250d"
+}

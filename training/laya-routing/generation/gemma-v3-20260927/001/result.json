@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 10.015557750011794,
+  "response_sha256": "42af155754620db665ac6c8bcbc91a12ef45f6404fd89042fa71697804e52b53",
+  "request_sha256": "18588f677544babda4d2a824ecc28b957376df75c418fb9d98e1d0f7c30403f4",
+  "messages": [
+    {
+      "style": "short",
+      "message": "Proszę o ustalenie innej daty dla spotkania kwalifikacyjnego."
+    },
+    {
+      "style": "context",
+      "message": "Chciałbym ustalić nową datę dla naszego spotkania kwalifikacyjnego. Wcześniej ustaliliśmy termin w środę, ale muszę zmienić tę propozycję. Proszę o informację, kiedy możemy się spotkać zamiast tego."
+    },
+    {
+      "style": "resolved_history",
+      "message": "Wcześniej udało się ustalić spotkanie kwalifikacyjne na środę. Obecnie muszę poprosić o zmianę tego terminu. Proszę o propozycję nowej daty spotkania."
+    },
+    {
+      "style": "quotation",
+      "message": "„Uzgodnienie z kandydatem innej daty spotkania kwalifikacyjnego.” Proszę o uzgodnienie innej daty na spotkanie kwalifikacyjne. Chciałbym przesunąć nasze ustalenia na inny termin."
+    },
+    {
+      "style": "informal",
+      "message": "Muszę zmienić termin rozmowy. Kiedy możemy się spotkać teraz?"
+    }
+  ]
+}

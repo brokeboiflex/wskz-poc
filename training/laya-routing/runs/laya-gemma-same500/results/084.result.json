@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/recruitment-task/base",
+  "family": "human_resources/recruitment-task",
+  "message": "Otrzymałam zadanie rekrutacyjne polegające na przygotowaniu analizy sprzedaży. W instrukcji nie wskazano, czy prezentacja ma być po polsku, czy po angielsku. Zanim rozpocznę pracę, proszę o doprecyzowanie oczekiwań oraz potwierdzenie terminu przekazania rozwiązania osobie oceniającej kandydatów.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.1934264170122333,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "70580431a4eeb76eee378ca9f913fe0f7392e6f379467e8ad680e40c6bcc0a90",
+  "response_sha256": "bf8a8036c73f2aa614f02a2b2af2b90641f8bc771da77a375c4bd5570aa27f69"
+}

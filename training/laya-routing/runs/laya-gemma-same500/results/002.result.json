@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/application-status/base",
+  "family": "human_resources/application-status",
+  "message": "Dwa tygodnie temu przesłałem CV na stanowisko koordynatora magazynu i otrzymałem potwierdzenie przyjęcia aplikacji. Od tamtej pory nie mam informacji o dalszych etapach. Proszę sprawdzić, czy rekrutacja nadal trwa i kiedy kandydaci mogą spodziewać się odpowiedzi.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.24389425001572818,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "3a43171e1bf876279e268592c8245e02c07438bf4ec46a046dda0c46f1f32de5",
+  "response_sha256": "be3477e13e5f94eee7209c03b670e76f742fa30faab169b8f6a16bb31410dc85"
+}

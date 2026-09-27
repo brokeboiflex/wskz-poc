@@ -1,0 +1,13 @@
+{
+  "id": "it/phishing-click/base",
+  "family": "it/phishing-click",
+  "message": "Otworzyłam link z wiadomości podszywającej się pod firmowy portal i wpisałam hasło. Dopiero później zauważyłam obcą domenę. Proszę potraktować to jako zgłoszenie incydentu i pomóc zabezpieczyć konto oraz sprawdzić możliwe skutki ujawnienia danych, nie tylko przywrócić dostęp.\n\nWiadomość wyglądała jak przypomnienie o aktualizacji danych pracownika i odwoływała się do kończącego się terminu. Strona miała podobne logo do naszego portalu, więc wpisałam dane bez dokładnego sprawdzenia adresu. Po chwili przeglądarka pokazała pusty ekran. Dopiero wtedy zauważyłam, że domena nie należy do firmy.\n\nNie podaję hasła w zgłoszeniu. Zachowałam wiadomość i mogę przekazać jej nagłówki przez wskazany kanał. Nie wiem, czy napastnik zdążył wykorzystać dane ani czy otrzymałam później prośbę o zatwierdzenie logowania, bo telefon był odłożony. Proszę o pilne zabezpieczenie konta i jasne instrukcje dalszego postępowania, w tym sprawdzenie aktywnych sesji i ewentualnych zmian w skrzynce.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.3261457500047982,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "57a01bc068d098cc273c1435c8ebac659e2c376f946461491244eca8d35cc26b",
+  "response_sha256": "70f498840c44ec31308d77f21412cf51c1785b6bd96a0af8bc41808e9a125aab"
+}

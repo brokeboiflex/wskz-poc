@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/overheating/resolved_preface",
+  "family": "help_desk/overheating",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n\nOsobna, aktualna wiadomość:\nMój laptop nagrzewa się i wyłącza po kilkunastu minutach zwykłej pracy. Stoi na płaskim biurku, a otwory wentylacyjne nie są zasłonięte. Nie uruchamiam wymagających programów. Proszę o pomoc w diagnostyce sprzętu, zanim ponownie utracę niezapisane zmiany w dokumentach.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.23517658401397057,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e574d747597c576e80b08eebd16ef8d2ab3333ed69493db331bc297a75b26c68",
+  "response_sha256": "4732e80eabf05a660c7a177f233b6170ac30cd9400c147d2f793514a6727e8fb"
+}

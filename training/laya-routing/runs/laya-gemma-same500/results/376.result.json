@@ -1,0 +1,13 @@
+{
+  "id": "it/monitoring-gap/base",
+  "family": "it/monitoring-gap",
+  "message": "Od wczoraj nie otrzymujemy metryk z grupy serwerów produkcyjnych. Same usługi jeszcze działają, ale brak alarmowania uniemożliwia szybkie wykrycie awarii. Proszę o sprawdzenie centralnego systemu monitoringu, połączeń agentów i przywrócenie zbierania danych oraz powiadomień.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19292800000403076,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "940fd9c49cf6122b4e71803abdbf0e2a050568401c8b814df8fdeb3c663700b0",
+  "response_sha256": "ea2e397b78854e22c418cb0ec05217f4949020ef5406941aa6bdce20a24664a0"
+}

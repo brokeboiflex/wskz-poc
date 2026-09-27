@@ -1,0 +1,13 @@
+{
+  "id": "payroll/part-time-leave/forwarded_history",
+  "family": "payroll/part-time-leave",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOd początku przyszłego miesiąca zmienia się mój wymiar etatu. Chciałabym sprawdzić, jak wpłynie to na pozostały limit urlopu i sposób wykazywania dni wolnych. Proszę o przeliczenie salda na podstawie podpisanego aneksu i wyjaśnienie wartości widocznej w ewidencji.\n\nCzęść dni wykorzystałam jeszcze przy poprzednim wymiarze czasu pracy. Pozostałą część chcę zaplanować dopiero po wejściu aneksu w życie. Dlatego potrzebuję rozpisania wyliczenia, a nie jedynie wartości końcowej, którą widzę obecnie w portalu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nAwaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2974352919845842,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "10f956bc47fde0a48f0cd398737ca33a60bdff23202de2ca0df6f6ed539891cd",
+  "response_sha256": "00585ee11988972c77ebed9fa4529f105bf1fc77a869b1ddf56984a903e94567"
+}

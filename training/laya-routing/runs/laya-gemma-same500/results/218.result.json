@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/printer-local/base",
+  "family": "help_desk/printer-local",
+  "message": "Nie mogę wydrukować dokumentu z mojego laptopa, choć kolega korzystający z tej samej drukarki drukuje bez przeszkód. Zadanie pozostaje w kolejce ze statusem błędu. Proszę o pomoc w konfiguracji drukowania na moim komputerze; samo urządzenie wygląda na sprawne.\n\nCo sprawdziłem do tej pory:\n- uruchomiłem komputer ponownie;\n- wysłałem prostą stronę tekstu zamiast dużego dokumentu;\n- upewniłem się, że drukarka nie ma zacięcia papieru.\n\nKolega wydrukował dokładnie ten sam plik ze swojego konta. U mnie zadanie zatrzymuje się jeszcze przed pojawieniem się na urządzeniu. Nie zmieniałem dziś hasła i mogę otwierać pozostałe zasoby sieciowe. Ostatnio otrzymałem nowy laptop, więc być może zostały na nim ustawienia wcześniejszego urządzenia.\n\nMogę udostępnić ekran podczas krótkiej rozmowy. Potrzebuję przygotować materiały przed południem, ale najpierw chciałbym usunąć przyczynę, żeby problem nie wracał przy każdym kolejnym wydruku.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.30989454200607724,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b707ff43e5c4d27c455ddcdbc3f1ed34021dca4f0c2e3a04d6b46a67069019b8",
+  "response_sha256": "7daefd2965372aab59dd9d827c2507909961bf5db6bd7d01da4c4692708a936d"
+}

@@ -1,0 +1,19 @@
+{
+  "container_id": "aab4bd55352de47a38698bfba759d9339ba07506dd63acaf7c2c5fd68e3c5395",
+  "image": "sha256:4d0ffa68273f122a8bb1db1a14d1503b7cca218c91d05c4970ede69601107989",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-27T17:00:06.353806958Z",
+    "FinishedAt": "2026-09-27T17:01:07.198920917Z"
+  },
+  "memory": 10737418240,
+  "memory_swap": 10737418240
+}

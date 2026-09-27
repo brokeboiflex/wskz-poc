@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Otworzyłam link z wiadomości podszywającej się pod firmowy portal i wpisałam hasło. Dopiero później zauważyłam obcą domenę. Proszę potraktować to jako zgłoszenie incydentu i pomóc zabezpieczyć konto oraz sprawdzić możliwe skutki ujawnienia danych, nie tylko przywrócić dostęp.\n\nWiadomość wyglądała jak przypomnienie o aktualizacji danych pracownika i odwoływała się do kończącego się terminu. Strona miała podobne logo do naszego portalu, więc wpisałam dane bez dokładnego sprawdzenia adresu. Po chwili przeglądarka pokazała pusty ekran. Dopiero wtedy zauważyłam, że domena nie należy do firmy.\n\nNie podaję hasła w zgłoszeniu. Zachowałam wiadomość i mogę przekazać jej nagłówki przez wskazany kanał. Nie wiem, czy napastnik zdążył wykorzystać dane ani czy otrzymałam później prośbę o zatwierdzenie logowania, bo telefon był odłożony. Proszę o pilne zabezpieczenie konta i jasne instrukcje dalszego postępowania, w tym sprawdzenie aktywnych sesji i ewentualnych zmian w skrzynce."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

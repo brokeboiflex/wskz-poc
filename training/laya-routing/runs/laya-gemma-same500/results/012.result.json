@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/internship/base",
+  "family": "human_resources/internship",
+  "message": "Studiuję logistykę i szukam miejsca na praktyki wakacyjne. Na stronie firmy znalazłem opis zeszłorocznego programu, ale nie widzę aktualnych terminów. Czy w tym roku będą przyjmowani praktykanci i jakie dokumenty kandydat powinien złożyć na początku rekrutacji?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19212074999813922,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "feadccf5d4cafc849001c8fdf52d613ca2ac51465c3d91906b2f7b229ac51079",
+  "response_sha256": "07daff93fc8721e787b2e75c2a54e047aa5c29da6efb036c7a772e9ad221b505"
+}

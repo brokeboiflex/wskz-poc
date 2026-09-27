@@ -1,0 +1,13 @@
+{
+  "id": "payroll/schedule-record/conversation_history",
+  "family": "payroll/schedule-record",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nZamieniłem się ze współpracownikiem terminami dyżurów za zgodą kierownika. Grafik roboczy został poprawiony, ale w zestawieniu do rozliczenia nadal widać pierwotny układ. Proszę wyjaśnić, jak przekazać zatwierdzoną zmianę, aby ewidencja odpowiadała faktycznie przepracowanym godzinom.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2447823749971576,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cda7184323b07979f26b64f96f7b824886a428bd232501c050adab9cd01e4288",
+  "response_sha256": "b70f7b7ef19447f6a68b0dcebbad69e7d4f0bca0dbc72f8b9b187435f0ec7cd2"
+}

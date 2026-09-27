@@ -1,0 +1,13 @@
+{
+  "id": "other/music/resolved_postscript",
+  "family": "other/music",
+  "message": "Uczę się grać na gitarze w wolnym czasie i chciałbym lepiej rozumieć zapis akordów nad tekstem piosenki. Czy możecie wyjaśnić, co oznaczają podstawowe symbole i jak ćwiczyć zmianę chwytów?\n\nPS. Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "other",
+  "predicted": "human_resources",
+  "correct": false,
+  "seconds": 0.22997266700258479,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "dc5307a0dfc4156f1c65b1edd81de8db5bd89d0dd6d17f653395796952f4efd2",
+  "response_sha256": "96fa80560ac1be2e01ddb257d43314159db3a926159b139afa909875b5ce3d24"
+}

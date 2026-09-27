@@ -1,0 +1,13 @@
+{
+  "family": {
+    "family": "human_resources-009",
+    "label": "human_resources",
+    "split": "train",
+    "semantic_group": "human_resources:recruitment_process",
+    "scenario": "Organizacja zadania praktycznego dla kandydatów na redaktorów."
+  },
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "script_sha256": "2a9cf039ba5074ee04d56289448170ac71e8c50ac1f44c96ca017a36fa26edc7",
+  "time": 1790529546.593608,
+  "training_data": false
+}

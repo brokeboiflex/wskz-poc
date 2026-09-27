@@ -1,0 +1,13 @@
+{
+  "id": "it/monitoring-gap/conversation_history",
+  "family": "it/monitoring-gap",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nOd wczoraj nie otrzymujemy metryk z grupy serwerów produkcyjnych. Same usługi jeszcze działają, ale brak alarmowania uniemożliwia szybkie wykrycie awarii. Proszę o sprawdzenie centralnego systemu monitoringu, połączeń agentów i przywrócenie zbierania danych oraz powiadomień.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.25818904099287465,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "74c93e5b1ffdaa4f04a49164702dfa9bbcde7724af88da4248b5da73c44c2ad8",
+  "response_sha256": "11304e1e8e98dde4a926517b649c5ac780b6a09907063a017929e2d492eba4ac"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/battery/quoted_history",
+  "family": "help_desk/battery",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nSłużbowy laptop wyłącza się natychmiast po odłączeniu zasilacza, mimo że wskaźnik pokazuje naładowaną baterię. Przez to nie mogę korzystać z niego podczas spotkań poza biurkiem. Proszę o sprawdzenie baterii i ustalenie sposobu przywrócenia normalnego działania mojego urządzenia.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.25456812500488013,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "701258e35e8c210558007b35ba5e77e0b9046e337224a19d38725950838abbef",
+  "response_sha256": "ccdca368545baaf7fead6e4d76ddfd48f7b2d6417ebdac147586fc1547638306"
+}

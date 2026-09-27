@@ -1,0 +1,13 @@
+{
+  "id": "payroll/payslip-copy/base",
+  "family": "payroll/payslip-copy",
+  "message": "Potrzebuję kopii pasków wynagrodzenia z trzech ostatnich miesięcy do uporządkowania prywatnej dokumentacji. Nie chodzi o problem z dostępem do komputera, tylko o otrzymanie tych dokumentów od pracodawcy. Proszę o informację, w jaki sposób mogę je odebrać w bezpiecznej formie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19218191702384502,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8c8a7e5b620d0fd74ec604aef9f27bbb3947370c5bacdd4589d9a8c7ae0e96e8",
+  "response_sha256": "ce44fbff2384e871eb7ca3ef4e749d929834fd761df474b1f1b213584666a192"
+}

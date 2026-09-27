@@ -1,0 +1,13 @@
+{
+  "id": "other/wrong-recipient/base",
+  "family": "other/wrong-recipient",
+  "message": "Przepraszam, poprzednia wiadomość została wysłana na niewłaściwy adres. Proszę jej nie traktować jako zgłoszenia do firmy. W tej korespondencji nie ma opisu sprawy do załatwienia ani żadnego załącznika. Chciałam jedynie wyjaśnić pomyłkę i zakończyć wątek.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.1930526249925606,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "fe59066934f748006b4ed5bce45f5a30937ecac65a3fbecdea7ad565fa185f7a",
+  "response_sha256": "c58eefe3f878c510e77b2ff48ad16bd713148a89ff9c4f15eb45a19a4659a4e3"
+}

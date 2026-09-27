@@ -1,0 +1,13 @@
+{
+  "id": "other/museum/base",
+  "family": "other/museum",
+  "message": "Wybieram się z rodziną do muzeum techniki i chciałbym wcześniej przygotować dzieci do zwiedzania. Jakie pytania można zadawać przy oglądaniu dawnych maszyn, żeby zainteresować je historią wynalazków?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.20071825000923127,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d6a2d286a1464ffe322e91771de1e04a69ce97cb3d6bd55dcdd9bc3100640c31",
+  "response_sha256": "f35e5cc27d27c867b0d71484c3069f3e5e8b019b1fcb777c32309a8b543e4737"
+}

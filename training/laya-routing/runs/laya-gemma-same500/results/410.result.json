@@ -1,0 +1,13 @@
+{
+  "id": "other/book/base",
+  "family": "other/book",
+  "message": "Szukam powieści przygodowej na długi przejazd pociągiem. Lubię historie z zagadką, ale bez bardzo brutalnych scen i rozbudowanych opisów wojny. Czy możecie polecić kilka kierunków poszukiwań lub autorów?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.20239354198565707,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8fcfe6468b6857daae244fda85728c3ee224c035a8b6bc20b6863c8b81128592",
+  "response_sha256": "e1bbe8766de627a55e100fb1ffc51a1fadd8b2416c26973cc4041121fa866edf"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/speaker-output/base",
+  "family": "help_desk/speaker-output",
+  "message": "Od odłączenia monitora nie słyszę żadnego dźwięku z laptopa. Wskaźnik głośności jest włączony, ale system chyba nadal kieruje odtwarzanie do niepodłączonego urządzenia. Proszę o pomoc w wyborze właściwego wyjścia audio na moim komputerze przed następnym spotkaniem.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19061108300229535,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "63ff468e953d234f49cea62dcf9f6bcd8f3d7d5eb556d2c58e2940a28f8d953d",
+  "response_sha256": "806bdb4e93f911c8113fcc05d07a98c79ef371c5092fca6f3bdb5fca0d2e11fe"
+}

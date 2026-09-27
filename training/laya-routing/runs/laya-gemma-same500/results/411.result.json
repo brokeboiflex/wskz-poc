@@ -1,0 +1,13 @@
+{
+  "id": "other/book/quoted_history",
+  "family": "other/book",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nSzukam powieści przygodowej na długi przejazd pociągiem. Lubię historie z zagadką, ale bez bardzo brutalnych scen i rozbudowanych opisów wojny. Czy możecie polecić kilka kierunków poszukiwań lub autorów?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.2355985000031069,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "203399887a578a6adef6b900300d0c21eea9d349a4a2f02ece9ac13066a5c162",
+  "response_sha256": "8957e3e71201a2ca729de6d7bcb218bdbeaeb7a133409ef8c7f3c702b04beb9b"
+}

@@ -1,0 +1,248 @@
+{
+  "epoch": 2,
+  "weights_sha256": "992a2a7bd5efb93f97921752b88f2a45c19ce2ec0c12bd69f0b28f7cbbfd3a5f",
+  "validation_sha256": "ca9d5dbd46a375d92ea43e81b551c40bf5929b4036430b0aa7c98b500eeee721",
+  "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+  "selected_epoch": 1,
+  "selected_sha256": "1b69c0e79d45ee9decac6bc0840985652448b8c28af59a30ecdf7f04628098a8",
+  "review_complete": true,
+  "stop": false,
+  "criterion": "macro_f1, accuracy, earlier epoch; patience=2; max_epochs=4",
+  "history": [
+    {
+      "epoch": 1,
+      "weights_sha256": "1b69c0e79d45ee9decac6bc0840985652448b8c28af59a30ecdf7f04628098a8",
+      "metrics_sha256": "d70717bb968cf9f9babd9b0d5a6673d4fcf7db002b225cfdce6314e1db509832",
+      "metrics": {
+        "count": 500,
+        "correct": 447,
+        "accuracy": 0.894,
+        "macro_f1": 0.8933581788080218,
+        "protocol_errors": 0,
+        "per_class": {
+          "human_resources": {
+            "support": 100,
+            "precision": 0.8958333333333334,
+            "recall": 0.86,
+            "f1": 0.8775510204081632
+          },
+          "payroll": {
+            "support": 100,
+            "precision": 0.9117647058823529,
+            "recall": 0.93,
+            "f1": 0.9207920792079208
+          },
+          "help_desk": {
+            "support": 100,
+            "precision": 0.8461538461538461,
+            "recall": 0.99,
+            "f1": 0.9124423963133641
+          },
+          "it": {
+            "support": 100,
+            "precision": 0.9333333333333333,
+            "recall": 0.84,
+            "f1": 0.8842105263157894
+          },
+          "other": {
+            "support": 100,
+            "precision": 0.8947368421052632,
+            "recall": 0.85,
+            "f1": 0.8717948717948718
+          }
+        },
+        "confusion": {
+          "human_resources": {
+            "human_resources": 86,
+            "payroll": 5,
+            "help_desk": 1,
+            "it": 3,
+            "other": 5,
+            "None": 0
+          },
+          "payroll": {
+            "human_resources": 2,
+            "payroll": 93,
+            "help_desk": 1,
+            "it": 0,
+            "other": 4,
+            "None": 0
+          },
+          "help_desk": {
+            "human_resources": 0,
+            "payroll": 0,
+            "help_desk": 99,
+            "it": 1,
+            "other": 0,
+            "None": 0
+          },
+          "it": {
+            "human_resources": 1,
+            "payroll": 0,
+            "help_desk": 14,
+            "it": 84,
+            "other": 1,
+            "None": 0
+          },
+          "other": {
+            "human_resources": 7,
+            "payroll": 4,
+            "help_desk": 2,
+            "it": 2,
+            "other": 85,
+            "None": 0
+          }
+        },
+        "families": 100,
+        "family_all_correct": 68,
+        "family_mean_accuracy": 0.894,
+        "family_cluster_bootstrap": {
+          "clusters": 100,
+          "all_correct": 68,
+          "mean_cluster_accuracy": 0.894,
+          "accuracy_percentile_95_interval": [
+            0.856,
+            0.928
+          ],
+          "bootstrap_repetitions": 2000,
+          "seed": 42,
+          "limitation": "Synthetic clustered bootstrap is descriptive; few broad groups and common author limit generalization."
+        },
+        "semantic_group_cluster_bootstrap": {
+          "clusters": 10,
+          "all_correct": 1,
+          "mean_cluster_accuracy": 0.894,
+          "accuracy_percentile_95_interval": [
+            0.848,
+            0.938
+          ],
+          "bootstrap_repetitions": 2000,
+          "seed": 42,
+          "limitation": "Synthetic clustered bootstrap is descriptive; few broad groups and common author limit generalization."
+        },
+        "latency_seconds": {
+          "median": 0.17298587450932246,
+          "p95": 0.19189954199828207
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "weights_sha256": "992a2a7bd5efb93f97921752b88f2a45c19ce2ec0c12bd69f0b28f7cbbfd3a5f",
+      "metrics_sha256": "42cc6d2cbcc238d500b0ed9a2807f8eab36252db64fb51630ae3ba5515f0de9b",
+      "metrics": {
+        "count": 500,
+        "correct": 443,
+        "accuracy": 0.886,
+        "macro_f1": 0.8825885928198579,
+        "protocol_errors": 0,
+        "per_class": {
+          "human_resources": {
+            "support": 100,
+            "precision": 0.8130841121495327,
+            "recall": 0.87,
+            "f1": 0.8405797101449275
+          },
+          "payroll": {
+            "support": 100,
+            "precision": 0.776,
+            "recall": 0.97,
+            "f1": 0.8622222222222222
+          },
+          "help_desk": {
+            "support": 100,
+            "precision": 0.9611650485436893,
+            "recall": 0.99,
+            "f1": 0.9753694581280788
+          },
+          "it": {
+            "support": 100,
+            "precision": 1.0,
+            "recall": 0.97,
+            "f1": 0.9847715736040609
+          },
+          "other": {
+            "support": 100,
+            "precision": 0.9264705882352942,
+            "recall": 0.63,
+            "f1": 0.75
+          }
+        },
+        "confusion": {
+          "human_resources": {
+            "human_resources": 87,
+            "payroll": 10,
+            "help_desk": 0,
+            "it": 0,
+            "other": 3,
+            "None": 0
+          },
+          "payroll": {
+            "human_resources": 2,
+            "payroll": 97,
+            "help_desk": 0,
+            "it": 0,
+            "other": 1,
+            "None": 0
+          },
+          "help_desk": {
+            "human_resources": 0,
+            "payroll": 0,
+            "help_desk": 99,
+            "it": 0,
+            "other": 1,
+            "None": 0
+          },
+          "it": {
+            "human_resources": 1,
+            "payroll": 0,
+            "help_desk": 2,
+            "it": 97,
+            "other": 0,
+            "None": 0
+          },
+          "other": {
+            "human_resources": 17,
+            "payroll": 18,
+            "help_desk": 2,
+            "it": 0,
+            "other": 63,
+            "None": 0
+          }
+        },
+        "families": 100,
+        "family_all_correct": 75,
+        "family_mean_accuracy": 0.886,
+        "family_cluster_bootstrap": {
+          "clusters": 100,
+          "all_correct": 75,
+          "mean_cluster_accuracy": 0.886,
+          "accuracy_percentile_95_interval": [
+            0.834,
+            0.93
+          ],
+          "bootstrap_repetitions": 2000,
+          "seed": 42,
+          "limitation": "Synthetic clustered bootstrap is descriptive; few broad groups and common author limit generalization."
+        },
+        "semantic_group_cluster_bootstrap": {
+          "clusters": 10,
+          "all_correct": 2,
+          "mean_cluster_accuracy": 0.886,
+          "accuracy_percentile_95_interval": [
+            0.786,
+            0.96
+          ],
+          "bootstrap_repetitions": 2000,
+          "seed": 42,
+          "limitation": "Synthetic clustered bootstrap is descriptive; few broad groups and common author limit generalization."
+        },
+        "latency_seconds": {
+          "median": 0.1728974370053038,
+          "p95": 0.1903518330072984
+        }
+      }
+    }
+  ],
+  "selector_sha256": "4a38cc28a937f2406eb67a0e28251e88f4012150dbbc79aeecd76cca19369873"
+}

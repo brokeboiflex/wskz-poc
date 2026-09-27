@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-reference/base",
+  "family": "other/unknown-reference",
+  "message": "Wracam do tego, o czym rozmawialiśmy ostatnio. Czy udało się już ustalić rozwiązanie i można przejść do kolejnego etapu? Dajcie znać, bo czekam na odpowiedź.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.18093612499069422,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f5bb7c94499e64f6265b7939fa65ddbb60dd31ebecbd0f04deba2cb19b2eccd3",
+  "response_sha256": "ce3d3d85b20297f2cc472aa4231c17cbe00a79d72e261b8233ea02aaa5fe2833"
+}

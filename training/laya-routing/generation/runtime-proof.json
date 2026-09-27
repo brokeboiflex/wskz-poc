@@ -1,0 +1,34 @@
+{
+  "container_id": "69eb4f00550b348a1cdb9a6744e31ed4e1a45c9cf1545b04494061ba66a8e82b",
+  "image": "sha256:f3d9e1f71a3f6d54ac426206726a3f18b412eece49445cb6230bf60da52119b9",
+  "state": {
+    "Status": "running",
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 885,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-27T16:44:44.138428253Z",
+    "FinishedAt": "0001-01-01T00:00:00Z"
+  },
+  "mounts": [
+    {
+      "Type": "volume",
+      "Name": "message-router_ollama-models",
+      "Destination": "/root/.ollama",
+      "RW": false
+    }
+  ],
+  "ports": {
+    "11434/tcp": [
+      {
+        "HostIp": "127.0.0.1",
+        "HostPort": "18092"
+      }
+    ]
+  },
+  "memory": 10737418240
+}

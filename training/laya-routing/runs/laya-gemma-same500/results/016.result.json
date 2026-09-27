@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/vacancy-profile/base",
+  "family": "human_resources/vacancy-profile",
+  "message": "Nasz zespół rozpoczyna nabór na stanowisko opiekuna klientów. W przygotowanym ogłoszeniu znalazł się wymóg prowadzenia samochodu, choć praca odbywa się zdalnie i nie obejmuje wyjazdów. Proszę o konsultację treści ogłoszenia przed jego publikacją i ustalenie rzeczywiście potrzebnych kompetencji.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19321695799590088,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5711660b1415076720b8a3e19f7268153c45b2a1e7ab004a60bc8fafbd5ae0df",
+  "response_sha256": "d0165120f45c3b471e52718ed16ab14f2a13c1e40630f20101631ea1e60acb70"
+}

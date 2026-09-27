@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/portfolio-update/forwarded_history",
+  "family": "human_resources/portfolio-update",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nW zgłoszeniu na stanowisko projektantki podałam stary odnośnik do portfolio. Przygotowałam aktualny zestaw prac i chciałabym dołączyć go do mojej kandydatury przed oceną zgłoszeń. Proszę o informację, jak uzupełnić materiały przekazane zespołowi rekrutacyjnemu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nW poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2612115000083577,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4166ac3f0baa98acd52a107e107b8445d55b2fecb16ead8a2e092834ce9038c0",
+  "response_sha256": "993e799ec14f37f29713877e2c2de7b7d9462c2dfb9265b0349fe05581680ee9"
+}

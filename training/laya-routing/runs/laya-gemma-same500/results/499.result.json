@@ -1,0 +1,13 @@
+{
+  "id": "other/abstract-question/forwarded_history",
+  "family": "other/abstract-question",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZastanawiam się, czy wspomnienie może mieć kolor i czy dwie osoby mogą tak samo rozumieć ciszę. Chciałabym podyskutować o tym jako pomyśle do opowiadania. Nie opisuję zdarzenia w firmie ani nie proszę o załatwienie sprawy pracowniczej lub technicznej.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKomputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.24944541699369438,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c25795c5914a664e48f9a284afec0482fde01d11b007e40ada48c75b224baec6",
+  "response_sha256": "7993a3a64734881999a1574ad0d72f6e94b57e787bfd5774fa1644c0d63feae3"
+}

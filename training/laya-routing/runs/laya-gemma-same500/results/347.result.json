@@ -1,0 +1,13 @@
+{
+  "id": "it/sso-outage/conversation_history",
+  "family": "it/sso-outage",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPracownicy z kilku oddziałów równocześnie stracili możliwość logowania do wszystkich aplikacji korzystających z firmowego SSO. Zmiana hasła pojedynczej osoby niczego nie rozwiązuje. Proszę o sprawdzenie centralnej usługi uwierzytelniania i przywrócenie jej dostępności dla organizacji.\n\nObjaw jest wspólny dla poczty, systemu zamówień i portalu pracowniczego. Osoby z aktywną sesją czasem jeszcze pracują, ale każda nowa próba logowania kończy się błędem. Proszę sprawdzić zależności centralnego uwierzytelniania, zanim zaczniemy resetować konta użytkowników.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.28912708300049417,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f0d4b815656b52d35e230d1745369c3d5580a3c69764cb3388ff658e30bf18a6",
+  "response_sha256": "57fe6738da55d9bdcfe6ea248d0b2d21675b675d84327ef75a527c9e8d99a8a1"
+}

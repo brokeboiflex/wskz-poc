@@ -1,0 +1,13 @@
+{
+  "id": "payroll/occasional-leave/conversation_history",
+  "family": "payroll/occasional-leave",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nW przyszłym tygodniu biorę ślub i chciałbym skorzystać z przysługującego z tego tytułu wolnego. Nie wiem, jaki rodzaj wniosku wybrać ani kiedy przedstawić potwierdzenie zdarzenia. Proszę o wskazanie wymaganych formalności i sposobu ujęcia tych dni w ewidencji czasu pracy.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23551337499520741,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8b3739a0bc8448ca74e05672467fb3cf085b8b46d50db15117043cec478de8d4",
+  "response_sha256": "5fdf42e198f926c8d17864c9394a0f7d279a7f08948becb994bdfaee15d21152"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/exit-interview/base",
+  "family": "human_resources/exit-interview",
+  "message": "Moja współpraca z firmą kończy się za dwa tygodnie. Dokumenty i rozliczenie są już uzgodnione. Chciałbym natomiast umówić rozmowę, podczas której przekażę uwagi dotyczące organizacji pracy i relacji w zespole. Zależy mi na spokojnym podsumowaniu doświadczeń i konstruktywnej informacji zwrotnej.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19392437499482185,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "62c98e9a9c38b878e52562f6171a0a0c36e4333a86b0eb6f2dd3751a3860829d",
+  "response_sha256": "fc7cf943d4ee878d8a5f4f3239db32d2cb04c0d478d76e6e701ab09d1f19fd9b"
+}

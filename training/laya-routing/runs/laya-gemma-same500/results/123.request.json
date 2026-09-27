@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\n\nOsobna, aktualna wiadomość:\nKwota ostatniego przelewu jest niższa niż zwykle, mimo że przepracowałem pełny miesiąc i nie zgłaszałem nieobecności. Na pasku wynagrodzenia nie potrafię znaleźć przyczyny różnicy. Proszę o sprawdzenie naliczenia i wyjaśnienie składników, które wpłynęły na wysokość tej wypłaty.\n\nPorównałem dwa ostatnie paski. Podstawa wygląda tak samo, ale zmieniła się jedna pozycja w części potrąceń. Nie otrzymałem wyjaśnienia ani informacji o korekcie poprzedniego okresu. W tym miesiącu nie zmieniałem wymiaru etatu i nie korzystałem z dodatkowych świadczeń.\n\nWolałbym nie przesyłać całej dokumentacji na ogólną skrzynkę. Mogę przekazać paski oraz potwierdzenie przelewu przez wskazany kanał. Proszę wyjaśnić, jakiego okresu dotyczy różnica, czy jest jednorazowa i czy wymaga dostarczenia przeze mnie dodatkowych danych. Chciałbym też wiedzieć, czy w przypadku pomyłki korekta trafi do najbliższej wypłaty, czy otrzymam osobne wyrównanie."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-27T18:56:31.686832+00:00",
+  "reviewer": "independent_laya_preflight_review",
+  "scope": "All50 messages read individually and compared with10 exact frozen definitions, policy and manual approach. No corpus authorship, old benchmark, scores or inference.",
+  "source_sha256": "aa112f1d5d928ae311a06c64d3af7040fdb22a4e95dd56705f5befe9aab4ad04",
+  "plan_sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99",
+  "inputs": {
+    "source": {
+      "path": "poc/message-router/training/laya-routing/source/authored/48-building-facilities.txt",
+      "sha256": "aa112f1d5d928ae311a06c64d3af7040fdb22a4e95dd56705f5befe9aab4ad04"
+    },
+    "plan": {
+      "path": "poc/message-router/training/laya-routing/source/scenarios.json",
+      "sha256": "561b082828ec7b8219d29d9adc2bdeac6cac59ad49e3f256d401800391510b99"
+    },
+    "policy": {
+      "path": "poc/message-router/training/laya-routing/policy.json",
+      "sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e"
+    },
+    "approach": {
+      "path": "poc/message-router/training/laya-routing/MANUAL_AUTHORING_APPROACH.md",
+      "sha256": "7620c0999f37faf402d1f04f4b07ef7d28078fb8bda2c929cb12fbd444c7c1df"
+    }
+  },
+  "approved_for_initial_quality": true,
+  "data_accepted_for_training": false,
+  "counts": {
+    "families_reviewed": 10,
+    "messages_reviewed": 50,
+    "route_supported": 50,
+    "scenario_current_request_preserved": 50,
+    "self_contained": 50,
+    "closed_histories": 10,
+    "attributed_quotations": 10,
+    "department_name_leaks": 0,
+    "active_task_drift": 0,
+    "blocking_findings": 0
+  },
+  "style_order": [
+    "short",
+    "context",
+    "resolved_history",
+    "quotation",
+    "informal"
+  ],
+  "families": [
+    {
+      "family": "other-000",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-001",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-002",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-005",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-006",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-007",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-009",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-010",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-011",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    },
+    {
+      "family": "other-012",
+      "split": "train",
+      "label": "other",
+      "messages_reviewed": 5,
+      "verdict": "pass",
+      "findings": []
+    }
+  ],
+  "batch_findings": [],
+  "notes": "All50 variants preserve the exact ordinary facilities request: mechanical blind, kitchen leak, physical keyed lock, failed light bulb, leaking cistern, kitchen cleaning, chair backrest, window closure, soap/towel supply and office heating. Mechanical equipment context and ordinary office heating remain clearly outside individual computer support and server infrastructure. The frozen functioning-equipment and non-server-room conditions are retained explicitly or through unambiguous mechanical/office descriptions. Histories are concrete and closed, quotations attributed, no target department names or active-task drift.",
+  "limits": [
+    "Initial quality review only; final semantic/lexical exclusions remain mandatory.",
+    "Five variants are correlated within each family; no training-data acceptance."
+  ]
+}

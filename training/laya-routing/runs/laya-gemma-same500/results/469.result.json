@@ -1,0 +1,13 @@
+{
+  "id": "other/press-request/forwarded_history",
+  "family": "other/press-request",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPrzygotowuję artykuł o lokalnych przedsiębiorstwach i chciałabym uzyskać zgodę na krótką rozmowę o historii Państwa firmy. Czy można skontaktować mnie z osobą uprawnioną do wypowiedzi dla mediów? Mogę wcześniej przesłać zakres pytań i uzgodnić termin autoryzacji wypowiedzi.\n\nArtykuł będzie dotyczył zmian, jakie zaszły w dzielnicy w ciągu ostatnich kilkunastu lat. Interesuje mnie historia powstania firmy, jej związek z okolicą i wspomnienia osób, które pamiętają pierwszą siedzibę. Nie potrzebuję danych finansowych ani informacji o konkretnych pracownikach.\n\nRozmowa może odbyć się telefonicznie lub osobiście, w dogodnym dla rozmówcy terminie. Przewiduję około dwudziestu minut i wcześniej prześlę listę zagadnień. Jeśli firma dysponuje archiwalnym zdjęciem budynku przeznaczonym do publikacji, chętnie uzgodnię również możliwość jego wykorzystania z odpowiednim podpisem. Proszę przekazać zapytanie osobie, która może reprezentować firmę w kontakcie z redakcją.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nUdział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.4397413330152631,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4aec34dfbf340aed5a5d32065bef45f19be407e37c71201973125d6b780716cc",
+  "response_sha256": "5f307c228821f272084884e48adf948205084e2370a8e661e2949aa7c6647307"
+}

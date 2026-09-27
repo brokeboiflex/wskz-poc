@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/career-consultation-it/base",
+  "family": "human_resources/career-consultation-it",
+  "message": "Pracuję przy obsłudze użytkowników i chciałbym w przyszłości zajmować się administracją serwerami. Potrzebuję konsultacji rozwojowej dotyczącej kompetencji, certyfikatów i możliwości zdobywania doświadczenia. Czy możemy ustalić plan przygotowania do ewentualnej zmiany roli w firmie?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19156174999079667,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "373d052d500781a1b356c2deab1311c397d3b14e019380f05704a41bce8da036",
+  "response_sha256": "c7afe43b25566249352041d3dac2eb94c1b11bedf6eba114e4f215aa103b1ac6"
+}

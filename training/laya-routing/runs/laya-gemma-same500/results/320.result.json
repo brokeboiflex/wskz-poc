@@ -1,0 +1,13 @@
+{
+  "id": "it/production-server/base",
+  "family": "it/production-server",
+  "message": "Serwer obsługujący główną aplikację przestał odpowiadać. Użytkownicy z wszystkich działów widzą komunikat o niedostępności, a monitoring przestał otrzymywać odpowiedzi z hosta. Proszę o pilną diagnostykę serwera i przywrócenie usługi zgodnie z procedurą obsługi awarii produkcyjnych.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2177185409818776,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2a8ea75b998b2dea45ee55f1c8266b5e6ed73c599fa1a43be646980dc03c8d46",
+  "response_sha256": "7a92c1f9b454bf829dfc987b8c8bcd8bb798cb268aefeb3414d674360cc2a8d3"
+}

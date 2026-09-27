@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/payroll-pdf-download/base",
+  "family": "help_desk/payroll-pdf-download",
+  "message": "Pasek wynagrodzenia jest już wystawiony i widoczny w portalu, ale na moim laptopie jego pobieranie kończy się błędem przeglądarki. Na innym komputerze plik można pobrać. Będę wdzięczna za sprawdzenie ustawień mojego urządzenia, bo podobnie zachowuje się pobieranie innych dokumentów.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19519137497991323,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9cc707f530b3866d2a6e2bd48849c268b79d093fb5a569e6e41a6aaefa082fdc",
+  "response_sha256": "790e23a2798c34dc99c89b2ec67d1c6ee96562ceeaa621464f4e89355f8dd80b"
+}

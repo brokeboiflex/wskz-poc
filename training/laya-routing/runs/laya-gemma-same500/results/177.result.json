@@ -1,0 +1,13 @@
+{
+  "id": "payroll/absence-code/conversation_history",
+  "family": "payroll/absence-code",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDzień uzgodnionego urlopu okolicznościowego został oznaczony jako urlop wypoczynkowy. W efekcie zmniejszyło się moje dostępne saldo. Proszę porównać wpis z zaakceptowanym wnioskiem i skorygować rodzaj nieobecności. Dokument potwierdzający przyczynę wolnego został już wcześniej dostarczony.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2442004999902565,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "5d38caed9212a00b66eff90f0abfb0ab9b4599245250f507a6dceb80ae110767",
+  "response_sha256": "72aa37200fbcfc506cbfefa8bfc76bc41c8b2b73110473ff57fe4c8aa4e30bdf"
+}

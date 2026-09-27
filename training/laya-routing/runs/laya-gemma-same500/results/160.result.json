@@ -1,0 +1,13 @@
+{
+  "id": "payroll/worktime-duplicate/base",
+  "family": "payroll/worktime-duplicate",
+  "message": "Zauważyłam, że jedna zmiana została wpisana do ewidencji dwukrotnie. Łączna liczba godzin za miesiąc jest przez to zawyżona. Chciałabym zgłosić błąd przed rozliczeniem wynagrodzenia. Proszę zweryfikować powtórzony wpis i potwierdzić prawidłowy wymiar czasu pracy za ten okres.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.21795883402228355,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0bb0028e5ed707bb7377ca61c9b0c5ba98f2fdac37c993881e2dc35402ce365c",
+  "response_sha256": "81fc54b565c6dce3931c05856f962d29989c33f5a45174ff2cc99b59016647aa"
+}

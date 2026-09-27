@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/knowledge-sharing/base",
+  "family": "human_resources/knowledge-sharing",
+  "message": "Kilka osób z zespołu chciałoby prowadzić krótkie spotkania, na których uczymy się od siebie nowych metod pracy. Potrzebujemy pomocy w zaplanowaniu programu i przygotowaniu prowadzących. Czy można wesprzeć nas w uruchomieniu cyklu wewnętrznych zajęć oraz ocenie ich przydatności?",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19078624999383464,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6effef65c69fe6426ac8425b208c997660d057d660302aed7a8a70b21dd910da",
+  "response_sha256": "c7aa9db28d76dc1d8da492d095bb3600d7c207c990d767656194c19215ad2c0f"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "other/pet/base",
+  "family": "other/pet",
+  "message": "Niedawno przygarnąłem kota i chciałbym urządzić mu spokojne miejsce do odpoczynku w mieszkaniu. Nie wiem, gdzie ustawić legowisko względem kuwety i misek. Czy możecie podpowiedzieć podstawowe zasady organizacji przestrzeni dla zwierzęcia, zwłaszcza w niewielkim mieszkaniu?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.19131595798535272,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8ad7bfb5d933e534884b23bc39684f5ff46a96c164364ebb4cf205dcb2d4b925",
+  "response_sha256": "3a24e3e5da8f3d871ed683f30cf8a2d306f231baf27eb9ff32b61e57c676889c"
+}

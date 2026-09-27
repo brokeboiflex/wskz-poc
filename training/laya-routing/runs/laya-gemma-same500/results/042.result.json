@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/team-mediation/base",
+  "family": "human_resources/team-mediation",
+  "message": "Dwie osoby w moim zespole od kilku tygodni spierają się o podział odpowiedzialności, a rozmowy kończą się wzajemnymi oskarżeniami. Próby samodzielnego wyjaśnienia sytuacji nie pomogły. Proszę o zorganizowanie mediacji i pomoc w ustaleniu zasad dalszej współpracy.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2147235420125071,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f68576554abd188bfafb4c0b554122a124800bc1ec891600e2b2abc828457ffd",
+  "response_sha256": "133740e4220c82ce76e1d1b48afbfe9c49f4857d49368b6c2b9ab6c867781406"
+}

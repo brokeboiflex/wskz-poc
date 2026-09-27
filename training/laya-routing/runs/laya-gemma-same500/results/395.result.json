@@ -1,0 +1,13 @@
+{
+  "id": "it/security-usb/resolved_postscript",
+  "family": "it/security-usb",
+  "message": "Do służbowego komputera podłączono znaleziony nośnik USB, po czym uruchomiło się nieznane okno poleceń. Nie wiem, jakie działania zostały wykonane. Proszę o potraktowanie zdarzenia jako podejrzenia incydentu i sprawdzenie urządzenia oraz możliwego wpływu na firmową sieć.\n\nPS. Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia. Ta dopisana informacja nie jest nową prośbą.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.22572149999905378,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "1320c5a14d58b57b8d65a9c5c23ed4ac20d88a0b9b1eb6622852dd4dd9592ef6",
+  "response_sha256": "4569bf902ea8c9faf9745c7da9e06c2a12357a3b47f84c0eecd89d00a61ce32d"
+}

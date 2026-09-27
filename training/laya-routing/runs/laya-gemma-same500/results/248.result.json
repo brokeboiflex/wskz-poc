@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/spreadsheet-open/base",
+  "family": "help_desk/spreadsheet-open",
+  "message": "Nie mogę otworzyć otrzymanego arkusza, bo mój komputer pyta o wybór programu i nie rozpoznaje rozszerzenia. Ten sam plik działa u osoby, która go wysłała. Proszę o pomoc w ustawieniu właściwej aplikacji do otwierania arkuszy na moim laptopie.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.18698975001461804,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "74f1df8ee35a39dbf58ccf106c8963826df00c6bc4a04bd5dc3e7e78cdcf4c3d",
+  "response_sha256": "450d8eea01bdf45d7c5a196e7016082417549685d4708b06a6a75fcd23c42be3"
+}

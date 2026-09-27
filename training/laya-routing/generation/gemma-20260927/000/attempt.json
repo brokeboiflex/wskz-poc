@@ -1,0 +1,11 @@
+{
+  "index": 0,
+  "family": {
+    "family": "human_resources-001",
+    "label": "human_resources",
+    "split": "train",
+    "semantic_group": "human_resources:recruitment_process",
+    "scenario": "Organizacja rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego."
+  },
+  "time": 1790527592.725429
+}

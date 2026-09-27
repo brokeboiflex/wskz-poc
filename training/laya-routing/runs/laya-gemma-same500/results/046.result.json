@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/exclusion/base",
+  "family": "human_resources/exclusion",
+  "message": "Od czasu powrotu do zespołu nie jestem zapraszana na spotkania, na których ustala się zadania dotyczące mojego stanowiska. Prośby o włączenie mnie do rozmów nie przynoszą rezultatu. Chciałabym omówić tę sytuację z osobą, która może pomóc przywrócić właściwą współpracę.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.19213799998397008,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d7d8906703cfb8dd0a3e466352c5b0b77625d8224e4bd567281ba934a7ffc3e4",
+  "response_sha256": "1cf2635794f81ca6ed1d8a2def934f70898712eefc7fe10e0bfa6b89ec3b429a"
+}

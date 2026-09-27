@@ -12,7 +12,13 @@ def sha(path):
 def main():
     root = Path(__file__).parent
     summaries = []
-    for name in ("preflight-20260927", "preflight-serial-20260927", "preflight-steady-20260927"):
+    for name in (
+        "preflight-20260927",
+        "preflight-serial-20260927",
+        "preflight-steady-20260927",
+        "preflight-freed-20260927",
+        "preflight-12g-20260927",
+    ):
         run = root / "runs" / name
         records = [json.loads(line) for line in (run / "events.jsonl").read_text().splitlines()]
         container = json.loads((run / "container-state.json").read_text())
@@ -29,6 +35,8 @@ def main():
             assert result["script_sha256"] == sha(run / "preflight-source.py")
             assert result["trained_weights_saved"] is False
             assert result["production_changed"] is False
+            if "optimizer_sha256" in result:
+                assert result["optimizer_sha256"] == sha(run / "optimizer-source.py")
         state = container["state"]
         assert state["Status"] == "exited" and not state["Running"]
         assert state["ExitCode"] == (137 if state["OOMKilled"] else 0)
@@ -51,14 +59,19 @@ def main():
                 "sources": {p.name: sha(p) for p in source_files},
             }
         )
-    assert [r["completed_optimizer_steps"] for r in summaries] == [0, 1, 1]
-    assert [r["oom_killed"] for r in summaries] == [True, False, True]
+    assert [r["completed_optimizer_steps"] for r in summaries] == [0, 1, 1, 1, 2]
+    assert [r["oom_killed"] for r in summaries] == [True, False, True, True, False]
+    latest = summaries[-1]
+    assert latest["completed_microbatches"] == 32 and latest["disk_gate_passed"]
+    assert latest["last_event"] == "completed"
+    assert latest["memory_limit_bytes"] == 10 * 1024**3
     print(
         json.dumps(
             {
                 "evidence_audit_passed": True,
                 "training_ready": False,
-                "reason": "Steady-state OOM and failed disk budget",
+                "resource_probe_passed": True,
+                "reason": "Resources passed for probe lengths; full corpus and live checkpoint verification remain unaccepted",
                 "runs": summaries,
             },
             indent=2,

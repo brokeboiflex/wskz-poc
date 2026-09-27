@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 11.492689292004798,
+  "response_sha256": "4ccb2f327ef7b19659c7afcde0a3afdf81e4914f9ac13e8b1d3a2d5e794ce040",
+  "request_sha256": "7459e452103bf7f937e1a3b76b669e92608c23eb093b0b4714640caa3ae8976c",
+  "messages": [
+    {
+      "style": "short",
+      "message": "Proszę o pomoc w organizacji tłumacza migowego na rozmowę z kandydatem."
+    },
+    {
+      "style": "context",
+      "message": "Potrzebujemy zapewnić tłumacza migowego podczas nadchodzącej rozmowy kwalifikacyjnej z kandydatem. Brak takiej pomocy utrudni komunikację i ocenę umiejętności. Proszę o wskazanie, jak zorganizować tę pomoc w ramach procesu rekrutacyjnego."
+    },
+    {
+      "style": "resolved_history",
+      "message": "Wcześniej ustaliliśmy kwestie związane z harmonogramem spotkań. Obecnie musimy zapewnić wsparcie komunikacyjne dla kandydata niesłyszącego. Jak możemy zorganizować tłumacza migowego na rozmowie?"
+    },
+    {
+      "style": "quotation",
+      "message": "Kandydat wymaga tłumacza migowego podczas rozmowy. Chciałbym wiedzieć, jak zapewnić mu tę pomoc w trakcie spotkania rekrutacyjnego."
+    },
+    {
+      "style": "informal",
+      "message": "Potrzebujemy tłumacza migowego na rozmowę z kandydatem. Jak to zorganizować?"
+    }
+  ]
+}

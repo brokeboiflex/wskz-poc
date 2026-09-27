@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/spreadsheet-open/forwarded_history",
+  "family": "help_desk/spreadsheet-open",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNie mogę otworzyć otrzymanego arkusza, bo mój komputer pyta o wybór programu i nie rozpoznaje rozszerzenia. Ten sam plik działa u osoby, która go wysłała. Proszę o pomoc w ustawieniu właściwej aplikacji do otwierania arkuszy na moim laptopie.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nRozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.24576587497722358,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6d6a2b9bdd51a03bb254ef087da585fb419e36e66a17e872e4d92cd942868359",
+  "response_sha256": "767c80a284b3f215cf2aa41f934f8291cd86aec01249d86c7c60481efc8cdd87"
+}

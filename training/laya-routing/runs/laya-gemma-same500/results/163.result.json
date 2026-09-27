@@ -1,0 +1,13 @@
+{
+  "id": "payroll/overtime-timeoff/resolved_preface",
+  "family": "payroll/overtime-timeoff",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\n\nOsobna, aktualna wiadomość:\nZ przełożonym uzgodniłem odbiór wolnego za dodatkową pracę podczas wdrożenia w sobotę. Chciałbym dowiedzieć się, jaki wniosek złożyć, aby godziny zostały prawidłowo rozliczone. Proszę o sprawdzenie dostępnego salda i zasad wpisania odbioru do ewidencji czasu pracy.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.22956062498269603,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "cd3cdffe214cd0784280136b062db178ef68b2c06d57c8bfeac2a724e55d49b6",
+  "response_sha256": "b6816f4b6851ef852fb8a55037d51329a6b9be7d2983694851b18302cf5c98fd"
+}

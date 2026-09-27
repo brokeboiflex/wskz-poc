@@ -1,0 +1,13 @@
+{
+  "id": "other/furniture/conversation_history",
+  "family": "other/furniture",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nSkładam w domu regał i nie potrafię ustalić, w jakiej kolejności zamontować tylną ściankę oraz półki. Instrukcja jest mało czytelna. Czy możecie podpowiedzieć ogólne zasady bezpiecznego montażu takiego mebla?",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.22651866599335335,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "e32a7451358b222bd68e2953f2b5b0df90958317f6047f98ca192f4c25dafbbb",
+  "response_sha256": "2af956e254e500a40c522ef858ec51b1f55425e082f968470385781896a443cc"
+}

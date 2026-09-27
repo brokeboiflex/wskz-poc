@@ -1,0 +1,69 @@
+payroll-059
+Chcę zgłosić członka rodziny do ubezpieczenia zdrowotnego przez moje zatrudnienie.
+Jestem pracownikiem organizacji i potrzebuję dopisać członka rodziny do ubezpieczenia zdrowotnego. Proszę przyjąć zgłoszenie oraz wskazać wymagane dane.
+Proszę zgłosić członka mojej rodziny do ubezpieczenia zdrowotnego jako osobę z rodziny pracownika. Brakujący formularz już otrzymałam. Chcę przekazać komplet danych do zgłoszenia.
+W informacji pracowniczej zapisano: „Można zgłosić członka rodziny do ubezpieczenia”. Chcę dokonać takiego zgłoszenia do ubezpieczenia zdrowotnego przez pracodawcę.
+Chcę dopisać członka rodziny do zdrowotnego przez moją pracę. Przyjmiecie zgłoszenie?
+
+payroll-063
+Proszę wyrejestrować członka rodziny zgłoszonego przez moje zatrudnienie, ponieważ uzyskał własne ubezpieczenie.
+Osoba ubezpieczona dotąd jako członek mojej rodziny ma już własny tytuł do ubezpieczenia. Proszę odnotować to u pracodawcy i wyrejestrować ją z mojego zgłoszenia.
+Uszkodzony skaner został naprawiony. Proszę wyrejestrować członka rodziny zgłoszonego przez moje zatrudnienie, ponieważ uzyskał własne ubezpieczenie zdrowotne.
+Członek rodziny poinformował mnie: „Mam już własne ubezpieczenie”. Proszę wyrejestrować go ze zgłoszenia przez moje zatrudnienie.
+Osoba dopisana do mojego ubezpieczenia w pracy ma już swoje. Wyrejestrujecie ją z mojego zgłoszenia rodzinnego?
+
+payroll-065
+Proszę potwierdzić zgłoszenie mnie jako nowego pracownika do ubezpieczeń społecznych.
+Niedawno rozpocząłem zatrudnienie i chciałbym upewnić się, że zgłoszenie ubezpieczeniowe zostało wykonane. Proszę o potwierdzenie zgłoszenia do ubezpieczeń społecznych.
+Potrzebuję potwierdzenia zgłoszenia nowego pracownika do ubezpieczeń społecznych. Konto służbowe już uruchomiono; wcześniejsze zgłoszenie dostępu jest zakończone.
+Przy zatrudnieniu poinformowano mnie: „Pracodawca dokona zgłoszenia do ubezpieczeń”. Proszę potwierdzić, że jako nowy pracownik zostałem już zgłoszony do ubezpieczeń społecznych.
+Dopiero zacząłem pracę. Potwierdzicie, że zgłoszono mnie do ubezpieczeń społecznych?
+
+payroll-076
+Proszę skorygować dane identyfikacyjne w moim pracowniczym zgłoszeniu ubezpieczeniowym.
+W dokumencie zgłoszenia do ubezpieczeń zauważyłam błędne dane identyfikacyjne. Proszę poprawić zgłoszenie pracownika według dostarczonych prawidłowych informacji.
+Mój dokument tożsamości został już poprawnie zeskanowany. Potrzebuję korekty błędnych danych identyfikacyjnych w zgłoszeniu ubezpieczeniowym związanym z zatrudnieniem.
+W zgłoszeniu pracownika rubryka „Dane identyfikacyjne” zawiera pomyłkę. Proszę skorygować informacje przekazane do ubezpieczeń.
+Mam błąd w danych na zgłoszeniu ubezpieczeniowym z pracy. Poprawicie dane identyfikacyjne?
+
+payroll-080
+Proszę wydać zaświadczenie o zarobkach potrzebne do ustalenia emerytury.
+Przygotowuję dokumenty do ustalenia świadczenia emerytalnego. Potrzebuję zaświadczenia od pracodawcy o moich zarobkach w okresie zatrudnienia. Proszę je wystawić.
+Proszę o zaświadczenie o zarobkach do ustalenia emerytury. Literówkę w nazwisku na wcześniejszym dokumencie już poprawiono. Potrzebuję dokumentu dotyczącego wynagrodzeń.
+W wezwaniu wskazano: „Należy dostarczyć zaświadczenie o zarobkach”. Proszę wystawić dokument z mojego zatrudnienia potrzebny do ustalenia emerytury.
+Kompletuję papiery do emerytury. Wydacie zaświadczenie o moich zarobkach z pracy?
+
+payroll-087
+Proszę wyjaśnić podstawę składek wykazaną za ostatni miesiąc mojego zatrudnienia.
+W informacji o składkach widzę podstawę, której nie potrafię powiązać z wynagrodzeniem. Proszę objaśnić, jak ustalono ją za dany miesiąc pracy.
+Problem z otwarciem zestawienia został rozwiązany. Proszę wyjaśnić podstawę składek pracowniczych wykazaną za ostatni miesiąc.
+W rozliczeniu widnieje rubryka „Podstawa wymiaru składek”. Proszę wyjaśnić kwotę wpisaną tam za miesiąc mojego zatrudnienia.
+Nie rozumiem podstawy składek z ostatniego miesiąca pracy. Wyjaśnicie, skąd taka kwota?
+
+payroll-096
+Przekazuję deklarację rezygnacji z pracowniczego planu kapitałowego.
+Chcę złożyć u pracodawcy deklarację rezygnacji z udziału w pracowniczym planie kapitałowym. Proszę przyjąć dokument i odnotować moje oświadczenie.
+Proszę przyjąć deklarację rezygnacji z pracowniczego planu kapitałowego. Drukarka została naprawiona i formularz jest już podpisany. Przekazuję go do dokumentacji.
+Na formularzu wpisałam: „Deklaracja rezygnacji z dokonywania wpłat do PPK”. Proszę przyjąć moje oświadczenie jako pracownika.
+Składam rezygnację z PPK. Przyjmiecie podpisaną deklarację do dokumentacji pracowniczej?
+
+payroll-101
+Proszę sprawdzić zapisanie mojego ponownego przystąpienia do pracowniczego programu kapitałowego.
+Złożyłam wniosek o ponowny udział w programie kapitałowym u pracodawcy. Chcę upewnić się, że został odnotowany. Proszę sprawdzić zapis przystąpienia.
+Awarię służbowego telefonu usunięto. Proszę zweryfikować, czy odnotowano moje ponowne przystąpienie do pracowniczego programu kapitałowego.
+W przesłanym wniosku napisałem: „Chcę ponownie uczestniczyć w PPK”. Proszę sprawdzić, czy powrót do programu został zapisany przez pracodawcę.
+Wracam do PPK, wniosek już złożony. Sprawdzicie, czy ponowne przystąpienie jest zapisane?
+
+payroll-105
+Potrzebuję dokumentu potwierdzającego okresy zatrudnienia do celów rentowych.
+Kompletuję dokumentację związaną z ustaleniem renty. Proszę wystawić potwierdzenie okresów mojego zatrudnienia, które będę mógł przedłożyć w tej sprawie.
+Proszę przygotować dokument potwierdzający moje okresy zatrudnienia do celów rentowych. Adres korespondencyjny został już uaktualniony, nie wymaga dalszej zmiany.
+W piśmie wskazano: „Prosimy udokumentować okresy zatrudnienia”. Proszę o odpowiedni dokument z pracy do celów rentowych.
+Zbieram dokumenty do renty. Dacie potwierdzenie moich okresów zatrudnienia?
+
+payroll-110
+Dlaczego nie ma potwierdzenia mojego ubezpieczenia, skoro nadal jestem zatrudniona?
+Pracuję nieprzerwanie, ale nie otrzymałem potwierdzenia aktualnego ubezpieczenia. Proszę sprawdzić zgłoszenie związane z zatrudnieniem i wyjaśnić brak potwierdzenia.
+Błąd w danych kontaktowych został poprawiony. Nadal brakuje potwierdzenia mojego ubezpieczenia mimo trwającego zatrudnienia; proszę wyjaśnić tę sytuację.
+Podczas sprawdzania statusu otrzymałem informację: „Brak potwierdzenia ubezpieczenia”. Jestem nadal zatrudniony. Proszę wyjaśnić, dlaczego nie ma potwierdzenia.
+Normalnie dalej pracuję, a nie mam potwierdzenia ubezpieczenia. Sprawdzicie, o co chodzi ze zgłoszeniem?

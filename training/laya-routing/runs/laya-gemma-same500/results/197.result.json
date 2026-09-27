@@ -1,0 +1,13 @@
+{
+  "id": "payroll/training-hours/conversation_history",
+  "family": "payroll/training-hours",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nBrałam udział w obowiązkowym szkoleniu po zakończeniu zwykłej zmiany. Prowadzący potwierdził obecność, ale te godziny nie znalazły się w mojej ewidencji. Proszę sprawdzić ich rozliczenie i wskazać dokument potrzebny do uzupełnienia czasu pracy za ten dzień.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2349923330184538,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8d577a8090b2be89856b7e1ee1096278b202f4c229bea22d65a5bfaca1345696",
+  "response_sha256": "e9ebb7f4716367aee4bb44d9a70949b933ee036539b84e9f3c6fe46111d2d474"
+}

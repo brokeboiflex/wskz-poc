@@ -1,0 +1,13 @@
+{
+  "id": "it/ntp-domain/base",
+  "family": "it/ntp-domain",
+  "message": "Na wielu serwerach i stacjach pojawiła się różnica czasu powodująca błędy uwierzytelniania. Ręczne poprawienie zegara pomaga tylko do kolejnej synchronizacji. Proszę o sprawdzenie centralnego źródła czasu oraz ustawień domeny, aby usunąć przyczynę problemu w całej infrastrukturze.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.19736887500039302,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "878d08ec2f6845ab7dde4c7bcd505bb21951501e03e33247ce43d47274539eec",
+  "response_sha256": "c8e7b7dc35f5a1ce741aa4bd0798857dbcaebbecc39ec17308ceb8c61c194782"
+}

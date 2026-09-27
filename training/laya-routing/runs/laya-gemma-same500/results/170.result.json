@@ -1,0 +1,13 @@
+{
+  "id": "payroll/termination-settlement/base",
+  "family": "payroll/termination-settlement",
+  "message": "Z końcem miesiąca kończy się moja umowa. Chciałbym potwierdzić, kiedy otrzymam ostatnią wypłatę i rozliczenie niewykorzystanego urlopu. Proszę o zestawienie składników końcowego rozliczenia oraz informację, czy powinienem jeszcze dostarczyć jakieś dokumenty dotyczące obecności.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.24393866598256864,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "331581b5e388543da2b9c416370b5c3b1c9f8a5e32d1dc3e29e1849e4d7262f0",
+  "response_sha256": "9aa1f35138a647409cb60a48e815b28ebe8e50fadd0b6c43c1ebf89bf786b9f8"
+}

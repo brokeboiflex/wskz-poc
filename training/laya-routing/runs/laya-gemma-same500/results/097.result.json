@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/payroll-course/conversation_history",
+  "family": "human_resources/payroll-course",
+  "message": "Historia wcześniejszej rozmowy:\nJa: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDo mojego zakresu zadań dojdzie weryfikowanie danych do list płac. Chciałabym zapisać się na szkolenie z podstaw naliczania wynagrodzeń i interpretacji dokumentów. Potrzebuję kursu dla początkującej osoby, najlepiej z ćwiczeniami na przykładach i możliwością zadawania pytań prowadzącemu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.24765249999472871,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "84546df0c1bafbdf273c4e7c8a83a6cabf9964178c11ce2e3bb3d486d1813761",
+  "response_sha256": "5363889027331af7e3fe02dd81c573f6886f93f736f90dd662a594ec9e824dd7"
+}

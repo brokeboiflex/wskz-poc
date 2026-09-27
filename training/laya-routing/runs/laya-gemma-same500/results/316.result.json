@@ -1,0 +1,13 @@
+{
+  "id": "it/internet-provider/base",
+  "family": "it/internet-provider",
+  "message": "Cała siedziba ma dostęp do zasobów lokalnych, ale nie otwiera żadnych usług internetowych. Zapasowe połączenie mobilne pozwala je osiągnąć. Proszę o sprawdzenie firmowego łącza, urządzenia brzegowego i kontaktu z operatorem w celu przywrócenia dostępu dla wszystkich zespołów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2095524589822162,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "fd0482abe96f950ab6c3e16c2e5271f7047f9e80610a9bcb27f9532d44c89239",
+  "response_sha256": "c1651dc2fe5bf2bc08314a5c25e1c3d259ddfcce52d30ebd63859b8f11f43df7"
+}

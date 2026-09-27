@@ -1,0 +1,13 @@
+{
+  "id": "payroll/unpaid-leave/quoted_history",
+  "family": "payroll/unpaid-leave",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPotrzebuję dwóch tygodni wolnego z powodów osobistych, ale nie chcę wykorzystywać urlopu wypoczynkowego. Chciałabym dowiedzieć się, jak złożyć wniosek o urlop bezpłatny i jakie dane powinien zawierać. Proszę również wskazać, z kim potwierdzić formalny okres takiej nieobecności.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.2610422089928761,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "bbb558f52dc128999dac18f8eb5a5af20ed3e058715c12ee5291e3ec23b9bb22",
+  "response_sha256": "34933d3f2b631409211f3e16dd7fb1bbaf880a977f27dc9ab6bf7d33d0472182"
+}

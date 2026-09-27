@@ -1,0 +1,13 @@
+{
+  "id": "payroll/worktime-report/base",
+  "family": "payroll/worktime-report",
+  "message": "Chciałbym otrzymać zestawienie moich godzin pracy i nieobecności z poprzedniego kwartału. Potrzebuję go do porównania z paskami wynagrodzenia. Proszę wskazać sposób złożenia wniosku o udostępnienie ewidencji oraz termin, w którym przygotowany raport będzie dostępny do odbioru.\n\nChodzi o zestawienie z podziałem na dni, a nie tylko sumę miesięczną. W kilku tygodniach zamieniałem się zmianami i chcę uporządkować własne zapisy. Jeżeli obowiązuje formularz wniosku o kopię ewidencji, proszę o jego udostępnienie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23792362498352304,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "94e6442d81c3dc36e16f6d38a2d1a3fd64feb7f91c1c3187e7072ffc4621a734",
+  "response_sha256": "4379728286d0cc41908852a167abd7a4e450a96b8f56d23427e1a297b50b7007"
+}

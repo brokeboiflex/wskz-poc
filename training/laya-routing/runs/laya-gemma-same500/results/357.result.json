@@ -1,0 +1,13 @@
+{
+  "id": "it/malware-alert/conversation_history",
+  "family": "it/malware-alert",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nProgram ochronny na służbowym komputerze wykrył złośliwy plik i informuje o próbie połączenia z podejrzanym serwerem. Nie uruchamiam już dokumentów na tym urządzeniu. Proszę o obsługę zgłoszenia jako incydentu bezpieczeństwa i sprawdzenie, czy zagrożenie dotknęło firmowych danych.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.24246379200485535,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2dd12658e8fa3fb921c8bb6a00984df55e9fd6c20eb1ec62daa39fb56951fda2",
+  "response_sha256": "146301ca5c44b264936eada3360bf608e73df09d74a8bab0aa3f2da82b6535dc"
+}

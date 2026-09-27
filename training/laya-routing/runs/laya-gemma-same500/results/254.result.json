@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/license-user/base",
+  "family": "help_desk/license-user",
+  "message": "Aplikacja biurowa na moim komputerze prosi o aktywację, mimo że powinienem mieć przypisaną licencję. U pozostałych osób działa normalnie. Proszę sprawdzić przypisanie do mojego konta oraz pomóc uruchomić program, abym mógł edytować dokumenty zamiast tylko je odczytywać.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.19019037499674596,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "efced5df1ec34f24531fce5f2ff2d3c3f6ee481b4281285a537889e4ff20125f",
+  "response_sha256": "28c33270776270ee6ea159bced7c2b7548c7cbacfb8f8958986534a781e1fa77"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "other/unspecified-approval/base",
+  "family": "other/unspecified-approval",
+  "message": "Czy jest już zgoda? Miała być odpowiedź do piątku, a nadal czekam. Bez tego nie ruszę dalej.",
+  "expected": "other",
+  "predicted": "other",
+  "correct": true,
+  "seconds": 0.16849020900554024,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "267e18046d3193aa8b804cafdbedc45fdbe04b3f1ffe7187da91da4af9f2506b",
+  "response_sha256": "af426ad776058e0876ac4fceca5ea149638c8fbc317ff82345cbc4b0dbd71b19"
+}

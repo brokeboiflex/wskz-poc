@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/reentry-development/conversation_history",
+  "family": "human_resources/reentry-development",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nWracam do zespołu po dłuższej przerwie i chciałabym odświeżyć wiedzę o metodach pracy, które wprowadzono podczas mojej nieobecności. Formalności zostały już załatwione. Proszę pomóc ułożyć plan szkoleń i konsultacji, dzięki którym stopniowo odzyskam samodzielność w wykonywaniu zadań.\n\nNajwięcej zmian dotyczy sposobu planowania projektów i omawiania wyników z klientami. Materiały są dostępne, ale nie wiem, które nadal obowiązują. Pomogłoby wskazanie kolejności tematów oraz osoby, z którą mogę sprawdzić, czy poprawnie rozumiem nowe zasady.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.28759283301769756,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "4255b13d67f1cca38b0204ef2ccf9e5e3c3316682a2f595e384587942185cd49",
+  "response_sha256": "7975aa81c44845c92331fe567ad4173cc849b86fc477c8a974a1250d3c75f6a9"
+}

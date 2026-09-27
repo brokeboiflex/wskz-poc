@@ -1,0 +1,13 @@
+{
+  "id": "it/dhcp-exhaustion/conversation_history",
+  "family": "it/dhcp-exhaustion",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nNowe urządzenia w kilku salach nie otrzymują adresów sieciowych, a starsze tracą połączenie po odnowieniu dzierżawy. Widać objawy wyczerpania puli adresowej w biurowej podsieci. Proszę o sprawdzenie konfiguracji centralnej usługi DHCP i zapewnienie prawidłowego przydziału adresów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2433915830042679,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "67b281de4a628367fc5719308250bd0bad3aa9eda753e74bd005cdc77b040339",
+  "response_sha256": "1ebad600c1dde4bc70c3b8f4ceccb24e8d16aebfc3d28e4c23400a7e038c2265"
+}

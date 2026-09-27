@@ -1,0 +1,13 @@
+{
+  "id": "it/token-leak/base",
+  "family": "it/token-leak",
+  "message": "Klucz dostępu do firmowej usługi znalazł się omyłkowo w publicznym repozytorium. Repozytorium jest już ukryte, ale sam klucz nadal może działać. Proszę o natychmiastową obsługę incydentu, rotację ujawnionego poświadczenia oraz sprawdzenie logów pod kątem jego nieuprawnionego użycia.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2004142499936279,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2adc2455292ec46f95fedb1616b6e25f0d7353dd1f58fc3ec10241b539ca5105",
+  "response_sha256": "179750e612bb83e10322113f2285f9a741efa73aa33396f6b1226923fed3a518"
+}

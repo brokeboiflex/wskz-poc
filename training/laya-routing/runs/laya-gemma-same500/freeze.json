@@ -1,0 +1,9 @@
+{
+  "selected_epoch": 1,
+  "selected_sha256": "1b69c0e79d45ee9decac6bc0840985652448b8c28af59a30ecdf7f04628098a8",
+  "base_sha256": "9d628fd971b700382ac6f65920a86f149777b2e748e0c955fb3b19695aa8f204",
+  "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+  "regression_sha256": "bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e",
+  "decision_sha256": "62453e94dd77e39ffaaf54900948bc2e60284b8776add6f37713494c5f904567",
+  "stop_reason": "User ended training after epoch2 and explicitly authorized old500 comparison. Patience condition not reached; no further training."
+}

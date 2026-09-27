@@ -1,0 +1,69 @@
+payroll-000
+Jakie dokumenty są potrzebne do urlopu rodzicielskiego po narodzinach dziecka?
+Urodziło mi się dziecko i chcę skorzystać z urlopu rodzicielskiego. Potrzebuję listy dokumentów, które należy złożyć pracodawcy. Proszę wskazać wymagany komplet.
+Proszę ustalić dokumenty potrzebne do urlopu rodzicielskiego po narodzinach mojego dziecka. Sprawa uszkodzonego laptopa jest zakończona, sprzęt wrócił z naprawy.
+Przełożona napisała: „Przygotuj dokumenty do urlopu rodzicielskiego”. Proszę wskazać, co mam złożyć po narodzinach dziecka.
+Urodziło mi się dziecko i chcę wziąć rodzicielski. Jakie dokumenty mam dostarczyć do pracy?
+
+payroll-001
+Chcę zgłosić planowany urlop ojcowski i terminy jego wykorzystania.
+Zamierzam skorzystać z urlopu ojcowskiego w określonych dniach. Proszę przyjąć moje zgłoszenie oraz odnotować proponowane terminy w dokumentacji pracowniczej.
+Telefon służbowy został naprawiony. Zgłaszam planowany urlop ojcowski i chcę przekazać daty jego wykorzystania do ewidencji pracodawcy.
+W wiadomości do przełożonego napisałem: „Planuję urlop ojcowski w przyszłym miesiącu”. Proszę przyjąć zgłoszenie wraz z dokładnymi terminami, które przekazuję.
+Chcę zgłosić ojcowski i podać dni, kiedy go wezmę. Przyjmiecie terminy do dokumentacji?
+
+payroll-032
+Jak ewidencjonowane są moje dni wolne na opiekę nad dzieckiem?
+Chciałabym zrozumieć, w jaki sposób zapisuje się wykorzystanie dni opieki nad dzieckiem w ewidencji pracownika. Proszę wyjaśnić oznaczenia i sposób ujęcia tych dni.
+Proszę objaśnić ewidencję dni opieki nad dzieckiem w moim rozliczeniu. Problem z dostępem do formularza został już usunięty i mogę odczytać wpisy.
+W zestawieniu widnieje wpis: „Opieka nad dzieckiem”. Proszę wyjaśnić, jak ewidencjonowane są te dni wolne pracownika.
+Nie do końca rozumiem zapis dni opieki nad dzieckiem w mojej ewidencji. Wyjaśnicie, jak to jest liczone i wpisywane?
+
+payroll-033
+Chcę złożyć wniosek o urlop wychowawczy.
+Planuję przerwę w pracy w formie urlopu wychowawczego. Przygotowałam wniosek i proszę o przyjęcie go do dokumentacji związanej z zatrudnieniem.
+Naprawa drukarki została zakończona, formularz udało się wydrukować. Składam wniosek o urlop wychowawczy i proszę odnotować jego przyjęcie.
+W formularzu wpisałam: „Wnoszę o udzielenie urlopu wychowawczego”. Proszę przyjąć mój wniosek do rozpatrzenia w dokumentacji pracowniczej.
+Chcę złożyć wniosek o wychowawczy. Mam go gotowego, przyjmiecie dokument?
+
+payroll-034
+Jak formalnie zgłosić powrót do pracy po urlopie macierzyńskim?
+Mój urlop macierzyński dobiega końca. Potrzebuję ustalić formalności związane z powrotem do wykonywania obowiązków. Proszę wskazać wymagane zgłoszenia i dokumenty.
+Chciałabym ustalić formalny powrót po urlopie macierzyńskim. Konto do pracy już odblokowano; tamta prośba jest zrealizowana. Pozostały formalności dotyczące zakończenia urlopu.
+Przełożona zapytała: „Czy formalności powrotu po macierzyńskim są już załatwione?”. Proszę pomóc ustalić, co mam zgłosić przed powrotem do pracy.
+Kończy mi się macierzyński. Co muszę formalnie załatwić, żeby wrócić do pracy?
+
+payroll-037
+Proszę skorygować rozliczenie zwolnienia na opiekę nad chorym dzieckiem.
+W rozliczeniu mojej nieobecności błędnie ujęto dni zwolnienia na chore dziecko. Proszę sprawdzić dokument i poprawić sposób rozliczenia tej opieki.
+Czytnik dokumentów już działa. Proszę poprawić błędne rozliczenie mojego zwolnienia na opiekę nad chorym dzieckiem według dostarczonego zaświadczenia.
+Na zaświadczeniu wskazano: „Opieka nad chorym dzieckiem”, a rozliczenie nie odpowiada temu okresowi. Proszę skorygować tę nieobecność pracowniczą.
+Źle rozliczono mi zwolnienie na chore dziecko. Sprawdzicie dokumenty i poprawicie opiekę?
+
+payroll-043
+Jak udokumentować zwolnienie od pracy z powodu siły wyższej w rodzinie?
+Pilna sytuacja rodzinna wymagała skorzystania ze zwolnienia z powodu siły wyższej. Potrzebuję informacji, jak udokumentować tę nieobecność wobec pracodawcy. Proszę wyjaśnić formalności.
+Proszę wyjaśnić dokumentowanie zwolnienia z powodu siły wyższej w rodzinie. Zgłoszony wcześniej problem z pocztą jest naprawiony. Pytam o dokumentację mojej nieobecności w pracy.
+Przełożony napisał: „Zgłoś zwolnienie z powodu siły wyższej”. Proszę wyjaśnić, jak udokumentować pilną sytuację rodzinną w rozliczeniu nieobecności.
+Wypadła pilna sprawa rodzinna i korzystam ze zwolnienia z powodu siły wyższej. Jakie dokumenty do pracy mam złożyć?
+
+payroll-055
+Jakie formalności obowiązują przy urlopie opiekuńczym dla członka rodziny?
+Potrzebuję czasu, aby zaopiekować się członkiem rodziny, i chcę skorzystać z urlopu opiekuńczego. Proszę wskazać formalności oraz sposób zgłoszenia go pracodawcy.
+Mój monitor działa po naprawie. Potrzebuję ustalenia formalności urlopu opiekuńczego, który chcę wziąć w celu opieki nad członkiem rodziny.
+W informacji pracowniczej przeczytałem: „Można wnioskować o urlop opiekuńczy”. Proszę wyjaśnić formalności potrzebne przy opiece nad członkiem rodziny.
+Chcę wziąć opiekuńczy na członka rodziny. Co trzeba formalnie zgłosić w pracy?
+
+payroll-058
+Proszę zapisać zatwierdzony urlop okolicznościowy związany z moim ślubem.
+Przełożony zaakceptował dni wolne z okazji mojego ślubu. Proszę odnotować ten urlop okolicznościowy w ewidencji pracowniczej zgodnie z zatwierdzeniem.
+Zapiszcie proszę zatwierdzony urlop okolicznościowy po moim ślubie. Błąd w numerze kontaktowym został już poprawiony. Pozostał wpis dotyczący dni wolnych.
+Przełożona potwierdziła: „Akceptuję urlop okolicznościowy z okazji ślubu”. Proszę zapisać zatwierdzone dni w ewidencji.
+Mam zgodę na okolicznościowy po ślubie. Wpiszecie go do ewidencji pracy?
+
+payroll-064
+Ile dni wolnych przysługuje mi w pracy w związku ze śmiercią bliskiej osoby?
+Zmarła bliska mi osoba i potrzebuję informacji o liczbie dni wolnych związanych z tym zdarzeniem. Proszę wyjaśnić wymiar zwolnienia od pracy w mojej sytuacji.
+Dostarczono już brakujące zaświadczenie, tamta sprawa jest zamknięta. Proszę wyjaśnić liczbę dni wolnych od pracy w związku ze zgonem bliskiej mi osoby.
+Przełożony poinformował: „W związku ze zgonem bliskiej osoby możesz zgłosić dni wolne”. Proszę wyjaśnić, ile dni przysługuje w moim przypadku.
+Zmarła mi bliska osoba. Ile wolnego z pracy mogę w związku z tym dostać? Potrzebuję informacji o dniach.

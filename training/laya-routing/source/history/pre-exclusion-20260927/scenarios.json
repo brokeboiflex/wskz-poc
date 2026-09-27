@@ -1,0 +1,4215 @@
+{
+  "seed": 42,
+  "variants_per_family": 5,
+  "policy_sha256": "ce81139dc408aa20fbfcd91c5b5a0dad6902817b4a592e1a09265e4ffe552f3e",
+  "original_allocation_sha256": "ba889cd43aba9c3ad6ab66dc08ddbfa07f088cfc0c731af174a28ec21f2bbe91",
+  "definitions_sha256": "8412ca7e4ccf20bc0eb329e36fd9a7d34cb66fd772140ca60df76f08b957204f",
+  "counts": {
+    "train": 400,
+    "validation": 100,
+    "test": 100
+  },
+  "families": [
+    {
+      "family": "human_resources-001",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Organizacja rozmowy z kandydatem niesłyszącym wymagającym tłumacza migowego."
+    },
+    {
+      "family": "human_resources-002",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Uzgodnienie z kandydatem innej daty spotkania kwalifikacyjnego."
+    },
+    {
+      "family": "human_resources-005",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Przygotowanie merytorycznych pytań do ustrukturyzowanego wywiadu rekrutacyjnego."
+    },
+    {
+      "family": "human_resources-006",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Weryfikacja referencji kandydata za jego zgodą."
+    },
+    {
+      "family": "human_resources-007",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Przyjęcie wycofania aplikacji przez kandydata przed zakończeniem naboru."
+    },
+    {
+      "family": "human_resources-008",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Informacja o etapie trwającej rekrutacji bez żądania oceny kompetencji."
+    },
+    {
+      "family": "human_resources-009",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Organizacja zadania praktycznego dla kandydatów na redaktorów."
+    },
+    {
+      "family": "human_resources-010",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Ustalenie składu komisji rekrutacyjnej przy naborze kierownika."
+    },
+    {
+      "family": "human_resources-012",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Wyjaśnienie kryteriów preselekcji aplikacji bez historii własnego odrzucenia."
+    },
+    {
+      "family": "human_resources-015",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:recruitment_process",
+      "scenario": "Zaplanowanie naboru po zatwierdzeniu nowego wakatu."
+    },
+    {
+      "family": "human_resources-016",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Mediacja po publicznym krytykowaniu i upokarzaniu pracownika."
+    },
+    {
+      "family": "human_resources-018",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Interwencja wobec krzyku i zastraszania podwładnych przez przełożonego."
+    },
+    {
+      "family": "human_resources-019",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Wyjaśnienie konfliktu o przypisywanie sobie cudzych osiągnięć."
+    },
+    {
+      "family": "human_resources-021",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Zatrzymanie rozpowszechniania plotek naruszających godność kolegi."
+    },
+    {
+      "family": "human_resources-022",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Odbudowa współpracy dwóch osób odmawiających wspólnej realizacji projektu."
+    },
+    {
+      "family": "human_resources-023",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Rozwiązanie sporu między zespołami o sposób dzielenia odpowiedzialności."
+    },
+    {
+      "family": "human_resources-024",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Wsparcie osoby izolowanej po zgłoszeniu niewłaściwego traktowania."
+    },
+    {
+      "family": "human_resources-026",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Ustalenie granic między życiem prywatnym a zachowaniem współpracowników."
+    },
+    {
+      "family": "human_resources-030",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Poufna interwencja po niechcianych komentarzach seksualnych w pracy."
+    },
+    {
+      "family": "human_resources-032",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:interpersonal_conflict",
+      "scenario": "Rozmowa o demonstracyjnym pomijaniu pracownika w ustaleniach zespołu."
+    },
+    {
+      "family": "human_resources-033",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Zgłoszenie pomijania starszych pracowników przy ambitnych zadaniach."
+    },
+    {
+      "family": "human_resources-034",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Zbadanie odmowy odpowiedzialności zawodowej uzasadnianej płcią."
+    },
+    {
+      "family": "human_resources-036",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Interwencja po obraźliwych uwagach o pochodzeniu narodowym."
+    },
+    {
+      "family": "human_resources-037",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Rozwiązanie problemu wyśmiewania przekonań religijnych współpracownika."
+    },
+    {
+      "family": "human_resources-038",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Wsparcie pracownika dyskryminowanego z powodu niepełnosprawności."
+    },
+    {
+      "family": "human_resources-039",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Zgłoszenie nierównego traktowania osoby ze względu na orientację seksualną."
+    },
+    {
+      "family": "human_resources-040",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Wyjaśnienie stereotypowych ocen pracowników wychowujących dzieci."
+    },
+    {
+      "family": "human_resources-041",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Zbadanie gorszego traktowania osoby po długiej chorobie."
+    },
+    {
+      "family": "human_resources-042",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Ustalenie równych możliwości udziału osób zdalnych w życiu zespołu."
+    },
+    {
+      "family": "human_resources-044",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:equal_treatment",
+      "scenario": "Przeciwdziałanie uprzedzeniom dotyczącym akcentu współpracownika."
+    },
+    {
+      "family": "human_resources-045",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Mentor i plan odbudowy kompetencji po powrocie z przerwy zawodowej."
+    },
+    {
+      "family": "human_resources-046",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Przygotowanie specjalisty do pierwszej roli kierowniczej."
+    },
+    {
+      "family": "human_resources-047",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Plan rozwoju eksperckiego dla osoby niechcącej zarządzać ludźmi."
+    },
+    {
+      "family": "human_resources-048",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Doradztwo przy zmianie specjalizacji zawodowej w organizacji."
+    },
+    {
+      "family": "human_resources-049",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Ustalenie następnego etapu nauki po warsztatach prezentacji."
+    },
+    {
+      "family": "human_resources-050",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Indywidualny coaching wspierający cele zawodowe."
+    },
+    {
+      "family": "human_resources-051",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Ocena luk kompetencyjnych przed podjęciem nowej odpowiedzialności."
+    },
+    {
+      "family": "human_resources-052",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Plan przygotowania następcy odchodzącego lidera."
+    },
+    {
+      "family": "human_resources-055",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Organizacja obserwowania pracy eksperta w celu nauki zawodu."
+    },
+    {
+      "family": "human_resources-056",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:individual_development",
+      "scenario": "Uzgodnienie celów rozwojowych podczas powrotu do regularnych obowiązków."
+    },
+    {
+      "family": "human_resources-058",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Warsztat konstruktywnej informacji zwrotnej dla kierowników."
+    },
+    {
+      "family": "human_resources-059",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Szkolenie z publicznych wystąpień i prezentowania wyników."
+    },
+    {
+      "family": "human_resources-060",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Trening asertywności i wyrażania granic zawodowych."
+    },
+    {
+      "family": "human_resources-061",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Kurs mediacji i prowadzenia trudnych rozmów."
+    },
+    {
+      "family": "human_resources-062",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Szkolenie komunikacji międzykulturowej międzynarodowego zespołu."
+    },
+    {
+      "family": "human_resources-063",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Warsztat jasnego pisania raportów i prostego języka."
+    },
+    {
+      "family": "human_resources-065",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Trening negocjowania warunków współpracy z klientem."
+    },
+    {
+      "family": "human_resources-066",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Kurs facylitacji i moderowania spotkań zespołowych."
+    },
+    {
+      "family": "human_resources-067",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Warsztat reagowania na emocje niezadowolonych klientów."
+    },
+    {
+      "family": "human_resources-068",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:communication_training",
+      "scenario": "Szkolenie profesjonalnego prowadzenia rozmów telefonicznych."
+    },
+    {
+      "family": "human_resources-070",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Kurs zaawansowanych arkuszy kalkulacyjnych przy sprawnym programie."
+    },
+    {
+      "family": "human_resources-072",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Warsztat podstaw programowania dla analityków."
+    },
+    {
+      "family": "human_resources-073",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Szkolenie metod zarządzania projektami."
+    },
+    {
+      "family": "human_resources-074",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Kurs języka obcego potrzebnego w obowiązkach zawodowych."
+    },
+    {
+      "family": "human_resources-076",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Zajęcia praktyczne z obsługi sprawnej aparatury laboratoryjnej."
+    },
+    {
+      "family": "human_resources-078",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Szkolenie czytania wyników finansowych dla kierowników."
+    },
+    {
+      "family": "human_resources-079",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Kurs badania potrzeb użytkowników i prowadzenia wywiadów."
+    },
+    {
+      "family": "human_resources-080",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Warsztat tworzenia dostępnych dokumentów cyfrowych."
+    },
+    {
+      "family": "human_resources-082",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Szkolenie krytycznej analizy danych i wyciągania wniosków."
+    },
+    {
+      "family": "human_resources-084",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:professional_skills_training",
+      "scenario": "Nauka przygotowywania materiałów graficznych w działającej aplikacji."
+    },
+    {
+      "family": "human_resources-087",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Program organizacyjnego wdrożenia nowych pracowników po wydaniu sprzętu."
+    },
+    {
+      "family": "human_resources-088",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Przygotowanie wewnętrznych ekspertów do roli trenerów."
+    },
+    {
+      "family": "human_resources-090",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Organizacja regularnych spotkań wymiany wiedzy między zespołami."
+    },
+    {
+      "family": "human_resources-092",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Warsztat delegowania odpowiedzialności i zadań."
+    },
+    {
+      "family": "human_resources-093",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Kurs planowania pracy własnej bez pytań o ewidencję godzin."
+    },
+    {
+      "family": "human_resources-095",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Zajęcia budujące zaufanie po połączeniu dwóch zespołów."
+    },
+    {
+      "family": "human_resources-096",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Szkolenie liderów z przeprowadzania zmiany organizacyjnej."
+    },
+    {
+      "family": "human_resources-097",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Warsztat dokumentowania wiedzy i przekazywania jej następcom."
+    },
+    {
+      "family": "human_resources-098",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Szkolenie rozpoznawania wypalenia i wspierania dobrostanu pracowników."
+    },
+    {
+      "family": "human_resources-099",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:team_learning",
+      "scenario": "Trening technik radzenia sobie z presją zawodową."
+    },
+    {
+      "family": "human_resources-100",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Doradztwo zawodowe dla osób objętych likwidacją zespołu po formalnym rozliczeniu."
+    },
+    {
+      "family": "human_resources-101",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Poufna rozmowa pracownika o trudnościach adaptacji do nowego zespołu."
+    },
+    {
+      "family": "human_resources-103",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Wsparcie kierownika w rozmowie z niezadowolonym podwładnym."
+    },
+    {
+      "family": "human_resources-108",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Ustalenie kultury doceniania osiągnięć bez naliczania premii."
+    },
+    {
+      "family": "human_resources-109",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Wyjaśnienie standardów zachowania i szacunku w relacjach pracowniczych."
+    },
+    {
+      "family": "human_resources-110",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Organizacja dobrowolnej rozmowy naprawczej po nieporozumieniu zawodowym."
+    },
+    {
+      "family": "human_resources-112",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Pomoc w zgłoszeniu obaw dotyczących atmosfery i bezpieczeństwa psychologicznego."
+    },
+    {
+      "family": "human_resources-114",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Uzgodnienie sposobu komunikowania trudnej decyzji personalnej pracownikom."
+    },
+    {
+      "family": "human_resources-118",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Wsparcie pracownika odczuwającego zawodowe osamotnienie w organizacji."
+    },
+    {
+      "family": "human_resources-119",
+      "label": "human_resources",
+      "split": "train",
+      "semantic_group": "human_resources:employment_relationship_support",
+      "scenario": "Konsultacja przełożonego o budowaniu zdrowych relacji w rozproszonym zespole."
+    },
+    {
+      "family": "human_resources-000",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Organizacja stoiska rekrutacyjnego podczas targów pracy na uczelni."
+    },
+    {
+      "family": "human_resources-020",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Ustalenie współpracy z biurem karier w pozyskiwaniu kandydatów."
+    },
+    {
+      "family": "human_resources-025",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Przygotowanie dnia otwartego dla osób zainteresowanych zatrudnieniem."
+    },
+    {
+      "family": "human_resources-029",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Wybór kanałów publikacji ogłoszenia o pracy w małej miejscowości."
+    },
+    {
+      "family": "human_resources-043",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Organizacja programu poleceń kandydatów przez pracowników bez wypłaty nagród."
+    },
+    {
+      "family": "human_resources-053",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Zaplanowanie kampanii naboru absolwentów szkół zawodowych."
+    },
+    {
+      "family": "human_resources-057",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Przygotowanie spotkania informacyjnego o możliwych ścieżkach zatrudnienia."
+    },
+    {
+      "family": "human_resources-064",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Koordynacja współpracy z organizatorem lokalnej giełdy pracy."
+    },
+    {
+      "family": "human_resources-071",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Zebranie materiałów przedstawiających organizację potencjalnym kandydatom."
+    },
+    {
+      "family": "human_resources-077",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:recruitment_outreach",
+      "scenario": "Uzgodnienie udziału pracowników jako ambasadorów pracodawcy."
+    },
+    {
+      "family": "human_resources-083",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Zmiana terminu wcześniej zatwierdzonego szkolenia pracowniczego."
+    },
+    {
+      "family": "human_resources-085",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Potwierdzenie miejsca na liście uczestników kursu zawodowego."
+    },
+    {
+      "family": "human_resources-089",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Zastępstwo uczestnika w zapisanym zespole szkoleniowym."
+    },
+    {
+      "family": "human_resources-091",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Uzyskanie duplikatu certyfikatu ukończenia szkolenia."
+    },
+    {
+      "family": "human_resources-102",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Wyjaśnienie zasad zaliczenia zajęć w programie rozwojowym."
+    },
+    {
+      "family": "human_resources-104",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Udostępnienie materiałów merytorycznych po szkoleniu bez problemu technicznego."
+    },
+    {
+      "family": "human_resources-105",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Uzgodnienie trybu zdalnego lub stacjonarnego zaplanowanego kursu."
+    },
+    {
+      "family": "human_resources-107",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Organizacja sali i prowadzącego na potwierdzone zajęcia pracownicze."
+    },
+    {
+      "family": "human_resources-113",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Zgłoszenie rezygnacji z udziału w kursie bez rozliczania kosztów."
+    },
+    {
+      "family": "human_resources-115",
+      "label": "human_resources",
+      "split": "validation",
+      "semantic_group": "human_resources:training_administration",
+      "scenario": "Ustalenie harmonogramu kolejnej edycji już wybranego programu nauki."
+    },
+    {
+      "family": "human_resources-003",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Wyjaśnienie merytorycznej oceny okresowej po zamknięciu cyklu."
+    },
+    {
+      "family": "human_resources-004",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Odwołanie od oceny rocznej przypisującej cudze błędy."
+    },
+    {
+      "family": "human_resources-011",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Organizacja wieloźródłowego feedbacku360 dla kadry kierowniczej."
+    },
+    {
+      "family": "human_resources-013",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Ustalenie standardu oceny kompetencji na różnych stanowiskach."
+    },
+    {
+      "family": "human_resources-014",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Zebranie opinii współpracowników do rozmowy oceniającej."
+    },
+    {
+      "family": "human_resources-017",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Kalibracja ocen między kierownikami różnych zespołów."
+    },
+    {
+      "family": "human_resources-027",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Wyjaśnienie skali stosowanej w formularzu oceny pracowniczej."
+    },
+    {
+      "family": "human_resources-028",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Rozdzielenie oceny wyników pracy od osobistej sympatii oceniającego."
+    },
+    {
+      "family": "human_resources-031",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Zaplanowanie spotkania omawiającego osiągnięcia minionego roku."
+    },
+    {
+      "family": "human_resources-035",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:performance_feedback",
+      "scenario": "Informacja zwrotna dla odrzuconego kandydata o ocenie jego kompetencji."
+    },
+    {
+      "family": "human_resources-054",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Badanie przyczyn wysokiej rotacji pracowników w dziale."
+    },
+    {
+      "family": "human_resources-069",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Organizacja anonimowej ankiety satysfakcji zawodowej."
+    },
+    {
+      "family": "human_resources-075",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Przeprowadzenie rozmowy o powodach odejścia pracownika."
+    },
+    {
+      "family": "human_resources-081",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Analiza zbiorczych potrzeb rozwojowych całej organizacji."
+    },
+    {
+      "family": "human_resources-086",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Zbadanie czynników angażujących pracowników w wykonywane zadania."
+    },
+    {
+      "family": "human_resources-094",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Przygotowanie mapy kluczowych kompetencji dostępnych w organizacji."
+    },
+    {
+      "family": "human_resources-106",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Zebranie opinii zespołów o kulturze organizacyjnej po reorganizacji."
+    },
+    {
+      "family": "human_resources-111",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Opracowanie wniosków z ankiety pracowniczej dla kierownictwa."
+    },
+    {
+      "family": "human_resources-116",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Diagnoza przyczyn rezygnacji kandydatów z procesu naboru."
+    },
+    {
+      "family": "human_resources-117",
+      "label": "human_resources",
+      "split": "test",
+      "semantic_group": "human_resources:workforce_diagnosis",
+      "scenario": "Badanie skuteczności programu zatrzymywania specjalistów."
+    },
+    {
+      "family": "payroll-002",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Ustalenie pozostałego limitu urlopu po zmianie wymiaru etatu."
+    },
+    {
+      "family": "payroll-003",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Wyjaśnienie przeniesienia niewykorzystanych dni urlopu z poprzedniego roku."
+    },
+    {
+      "family": "payroll-004",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Korekta liczby dni pobranych z puli za zaplanowany wypoczynek."
+    },
+    {
+      "family": "payroll-005",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Zmiana zatwierdzonego terminu urlopu wypoczynkowego w ewidencji."
+    },
+    {
+      "family": "payroll-007",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Anulowanie wniosku urlopowego po rezygnacji z wyjazdu."
+    },
+    {
+      "family": "payroll-009",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Obliczenie proporcjonalnego urlopu przy zatrudnieniu w środku roku."
+    },
+    {
+      "family": "payroll-010",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Wyjaśnienie rozliczenia urlopu osoby pracującej w nierównym rozkładzie godzin."
+    },
+    {
+      "family": "payroll-012",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Potwierdzenie zapisania dnia urlopu na żądanie."
+    },
+    {
+      "family": "payroll-013",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Aktualizacja wymiaru urlopu po dostarczeniu świadectwa poprzedniej pracy."
+    },
+    {
+      "family": "payroll-015",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:ordinary_leave",
+      "scenario": "Ustalenie procedury wniosku o urlop bezpłatny."
+    },
+    {
+      "family": "payroll-016",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Wyjaśnienie braku przelewu miesięcznego wynagrodzenia."
+    },
+    {
+      "family": "payroll-018",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Korekta potrącenia pensji za dzień faktycznie przepracowany."
+    },
+    {
+      "family": "payroll-021",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Sprawdzenie przelewu wynagrodzenia na nieaktualny rachunek pracownika."
+    },
+    {
+      "family": "payroll-022",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Wyjaśnienie rozbieżności między kwotą na pasku a otrzymanym przelewem."
+    },
+    {
+      "family": "payroll-023",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Korekta omyłkowego podwójnego naliczenia potrącenia z pensji."
+    },
+    {
+      "family": "payroll-024",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Ustalenie wypłaty wynagrodzenia za niepełny pierwszy miesiąc."
+    },
+    {
+      "family": "payroll-025",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Wyjaśnienie pominiętej uzgodnionej podwyżki w bieżącej wypłacie."
+    },
+    {
+      "family": "payroll-026",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Sprawdzenie terminu przelewu wynagrodzenia przed dniem wolnym bankowym."
+    },
+    {
+      "family": "payroll-027",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Otrzymanie czytelnego zestawienia składników ostatniej pensji."
+    },
+    {
+      "family": "payroll-028",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:salary_payments",
+      "scenario": "Rozliczenie zwrotu nadpłaconego wynagrodzenia."
+    },
+    {
+      "family": "payroll-029",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Poprawienie nieodnotowanego wejścia pracownika do ewidencji czasu."
+    },
+    {
+      "family": "payroll-030",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Wyjaśnienie błędnie wpisanej nieobecności przy pracy zdalnej."
+    },
+    {
+      "family": "payroll-031",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Korekta liczby godzin przy wyjściu prywatnym odpracowanym później."
+    },
+    {
+      "family": "payroll-035",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Zapisanie zatwierdzonej zamiany zmian pomiędzy pracownikami."
+    },
+    {
+      "family": "payroll-036",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Uzgodnienie sposobu ewidencji służbowego szkolenia w godzinach pracy."
+    },
+    {
+      "family": "payroll-038",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Wyjaśnienie rozliczenia czasu podróży służbowej w karcie obecności."
+    },
+    {
+      "family": "payroll-039",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Korekta wpisu obecności dotyczącego niewłaściwego pracownika."
+    },
+    {
+      "family": "payroll-040",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Potwierdzenie rozliczenia przerwy niewliczanej do czasu pracy."
+    },
+    {
+      "family": "payroll-041",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Uzupełnienie ewidencji po przejściu na inny grafik."
+    },
+    {
+      "family": "payroll-042",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:time_records",
+      "scenario": "Otrzymanie zestawienia przepracowanych godzin za zamknięty miesiąc."
+    },
+    {
+      "family": "payroll-044",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Aktualizacja nazwiska w dokumentacji zatrudnienia po zmianie danych."
+    },
+    {
+      "family": "payroll-045",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Poprawienie adresu zamieszkania w aktach pracownika."
+    },
+    {
+      "family": "payroll-046",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Wydanie zaświadczenia o zatrudnieniu potrzebnego do wynajęcia mieszkania."
+    },
+    {
+      "family": "payroll-047",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Uzupełnienie akt osobowych o brakujące świadectwo ukończenia szkoły."
+    },
+    {
+      "family": "payroll-050",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Uzyskanie kopii podpisanej umowy o pracę."
+    },
+    {
+      "family": "payroll-051",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Korekta literówki w danych osobowych na zaświadczeniu pracowniczym."
+    },
+    {
+      "family": "payroll-052",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Aktualizacja numeru rachunku do wypłat wynagrodzenia."
+    },
+    {
+      "family": "payroll-053",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Wyjaśnienie sposobu odbioru dokumentu zatrudnienia przez upoważnioną osobę."
+    },
+    {
+      "family": "payroll-056",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Potwierdzenie złożenia oświadczenia o danych pracownika."
+    },
+    {
+      "family": "payroll-057",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_personal_records",
+      "scenario": "Ustalenie brakujących dokumentów potrzebnych do założenia akt osobowych."
+    },
+    {
+      "family": "payroll-060",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Przygotowanie aneksu po zatwierdzonej zmianie wymiaru etatu."
+    },
+    {
+      "family": "payroll-061",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Poprawienie daty rozpoczęcia zatrudnienia w podpisywanej umowie."
+    },
+    {
+      "family": "payroll-062",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Wyjaśnienie formalnego terminu zakończenia umowy próbnej."
+    },
+    {
+      "family": "payroll-066",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Przygotowanie dokumentu przedłużenia zatrudnienia na uzgodnionych warunkach."
+    },
+    {
+      "family": "payroll-069",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Sprostowanie nazwy stanowiska w aneksie do umowy."
+    },
+    {
+      "family": "payroll-071",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Uzyskanie potwierdzenia obowiązującego wymiaru czasu pracy z umowy."
+    },
+    {
+      "family": "payroll-072",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Uzupełnienie podpisu na uzgodnionym dokumencie zatrudnienia."
+    },
+    {
+      "family": "payroll-073",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Zapisanie zatwierdzonej zmiany miejsca wykonywania pracy w dokumentacji."
+    },
+    {
+      "family": "payroll-074",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Wyjaśnienie formalności związanych z przejściem na część etatu."
+    },
+    {
+      "family": "payroll-075",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employment_contract_changes",
+      "scenario": "Sprawdzenie zgodności aneksu z zaakceptowaną datą zmiany warunków."
+    },
+    {
+      "family": "payroll-077",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Sprawdzenie odnotowania zwolnienia lekarskiego w kadrowej ewidencji."
+    },
+    {
+      "family": "payroll-078",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Wyjaśnienie naliczenia wynagrodzenia za okres choroby."
+    },
+    {
+      "family": "payroll-079",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Uzupełnienie danych potrzebnych do wypłaty zasiłku chorobowego."
+    },
+    {
+      "family": "payroll-081",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Korekta dat niezdolności do pracy w rozliczeniu nieobecności."
+    },
+    {
+      "family": "payroll-083",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Wyjaśnienie dokumentowania choroby podczas wcześniej zatwierdzonego urlopu."
+    },
+    {
+      "family": "payroll-084",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Sprawdzenie, dlaczego system kadrowy nadal wykazuje zakończone zwolnienie."
+    },
+    {
+      "family": "payroll-085",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Ustalenie formalności po zagranicznym zaświadczeniu o chorobie."
+    },
+    {
+      "family": "payroll-086",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Wyjaśnienie rozliczenia okresu oczekiwania na świadczenie chorobowe."
+    },
+    {
+      "family": "payroll-088",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Przekazanie dokumentów potrzebnych do rozliczenia nieobecności po wypadku."
+    },
+    {
+      "family": "payroll-089",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:sickness_absence",
+      "scenario": "Wyjaśnienie sposobu skorygowania pominiętego okresu usprawiedliwionej choroby."
+    },
+    {
+      "family": "payroll-090",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Wyjaśnienie naliczenia zatwierdzonej premii zadaniowej."
+    },
+    {
+      "family": "payroll-091",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Sprawdzenie potrącenia dobrowolnej składki z wynagrodzenia."
+    },
+    {
+      "family": "payroll-094",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Korekta dodatku stażowego po uzupełnieniu dokumentów."
+    },
+    {
+      "family": "payroll-097",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Wyjaśnienie naliczenia wynagrodzenia za dyżur zgodnie z decyzją przełożonego."
+    },
+    {
+      "family": "payroll-098",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Sprawdzenie rozliczenia finansowego zastępstwa na innym stanowisku."
+    },
+    {
+      "family": "payroll-099",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Ustalenie sposobu potrącenia zaliczki pobranej przez pracownika."
+    },
+    {
+      "family": "payroll-100",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Wyjaśnienie kwoty dodatku funkcyjnego na pasku płacowym."
+    },
+    {
+      "family": "payroll-102",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Rozliczenie uzgodnionej nagrody jubileuszowej."
+    },
+    {
+      "family": "payroll-103",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Korekta nieprawidłowo naliczonego świadczenia pracowniczego w pensji."
+    },
+    {
+      "family": "payroll-104",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:payroll_components",
+      "scenario": "Wyjaśnienie podziału wypłaty pomiędzy dwa rachunki bankowe pracownika."
+    },
+    {
+      "family": "payroll-106",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Otrzymanie rocznego dokumentu podatkowego od pracodawcy."
+    },
+    {
+      "family": "payroll-108",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Sprostowanie danych na informacji podatkowej dotyczącej wynagrodzeń."
+    },
+    {
+      "family": "payroll-111",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Złożenie oświadczenia wpływającego na zaliczki podatkowe z pensji."
+    },
+    {
+      "family": "payroll-113",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Wyjaśnienie zmiany zaliczki na podatek na pasku wynagrodzenia."
+    },
+    {
+      "family": "payroll-114",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Potwierdzenie uwzględnienia podwyższonych kosztów uzyskania przychodu pracownika."
+    },
+    {
+      "family": "payroll-115",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Aktualizacja właściwego urzędu skarbowego w danych płacowych."
+    },
+    {
+      "family": "payroll-116",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Wyjaśnienie, gdzie odebrać korektę dokumentu podatkowego pracownika."
+    },
+    {
+      "family": "payroll-117",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Ustalenie formalności cofnięcia wcześniejszego oświadczenia podatkowego."
+    },
+    {
+      "family": "payroll-118",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Sprawdzenie wykazania świadczenia pracowniczego w rocznej informacji podatkowej."
+    },
+    {
+      "family": "payroll-119",
+      "label": "payroll",
+      "split": "train",
+      "semantic_group": "payroll:employee_tax_documents",
+      "scenario": "Uzyskanie potwierdzenia przekazania dokumentu podatkowego byłemu pracownikowi."
+    },
+    {
+      "family": "payroll-000",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Ustalenie dokumentów do urlopu rodzicielskiego po narodzinach dziecka."
+    },
+    {
+      "family": "payroll-001",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Zgłoszenie planowanego urlopu ojcowskiego i jego terminów."
+    },
+    {
+      "family": "payroll-032",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Wyjaśnienie ewidencji dni opieki nad dzieckiem."
+    },
+    {
+      "family": "payroll-033",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Złożenie wniosku o urlop wychowawczy."
+    },
+    {
+      "family": "payroll-034",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Ustalenie formalnego powrotu po urlopie macierzyńskim."
+    },
+    {
+      "family": "payroll-037",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Korekta rozliczenia zwolnienia na opiekę nad chorym dzieckiem."
+    },
+    {
+      "family": "payroll-043",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Wyjaśnienie dokumentowania zwolnienia z powodu siły wyższej w rodzinie."
+    },
+    {
+      "family": "payroll-055",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Ustalenie formalności urlopu opiekuńczego dla członka rodziny."
+    },
+    {
+      "family": "payroll-058",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Zapisanie zatwierdzonego urlopu okolicznościowego po ślubie."
+    },
+    {
+      "family": "payroll-064",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:family_leave",
+      "scenario": "Wyjaśnienie liczby dni wolnych w związku ze zgonem bliskiej osoby."
+    },
+    {
+      "family": "payroll-067",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Wyjaśnienie wypłaty dodatku za zatwierdzone nadgodziny."
+    },
+    {
+      "family": "payroll-068",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Rozliczenie pracy w niedzielę przez udzielenie dnia wolnego."
+    },
+    {
+      "family": "payroll-070",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Sprawdzenie dodatku za pracę w porze nocnej."
+    },
+    {
+      "family": "payroll-082",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Korekta rozliczenia przekroczenia normy średniotygodniowej."
+    },
+    {
+      "family": "payroll-092",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Zamiana wynagrodzenia za nadgodziny na czas wolny na wniosek pracownika."
+    },
+    {
+      "family": "payroll-093",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Ustalenie daty wypłaty nadgodzin po zamknięciu okresu rozliczeniowego."
+    },
+    {
+      "family": "payroll-095",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Wyjaśnienie sposobu naliczenia dodatku za pracę w święto."
+    },
+    {
+      "family": "payroll-107",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Sprawdzenie rozliczenia dodatkowych godzin przy niepełnym etacie."
+    },
+    {
+      "family": "payroll-109",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Korekta pominiętych nadgodzin zatwierdzonych po zamknięciu listy płac."
+    },
+    {
+      "family": "payroll-112",
+      "label": "payroll",
+      "split": "validation",
+      "semantic_group": "payroll:overtime_compensation",
+      "scenario": "Wyjaśnienie bilansu czasu wolnego udzielonego za pracę poza grafikiem."
+    },
+    {
+      "family": "payroll-006",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Wydanie świadectwa pracy po zakończeniu zatrudnienia."
+    },
+    {
+      "family": "payroll-008",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Sprostowanie błędnej daty na otrzymanym świadectwie pracy."
+    },
+    {
+      "family": "payroll-011",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Ustalenie formalnego obiegu podpisanego wypowiedzenia."
+    },
+    {
+      "family": "payroll-014",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Wyjaśnienie wyliczenia ekwiwalentu za niewykorzystany urlop przy odejściu."
+    },
+    {
+      "family": "payroll-017",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Przygotowanie dokumentu rozwiązania umowy za porozumieniem stron."
+    },
+    {
+      "family": "payroll-019",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Uzyskanie duplikatu świadectwa pracy sprzed kilku lat."
+    },
+    {
+      "family": "payroll-020",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Sprawdzenie rozliczenia ostatniej wypłaty po rozwiązaniu umowy."
+    },
+    {
+      "family": "payroll-048",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Potwierdzenie daty końca okresu wypowiedzenia."
+    },
+    {
+      "family": "payroll-049",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Wyjaśnienie formalności odbioru dokumentacji po ustaniu zatrudnienia."
+    },
+    {
+      "family": "payroll-054",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:separation_documents",
+      "scenario": "Korekta informacji o wykorzystanych nieobecnościach na świadectwie pracy."
+    },
+    {
+      "family": "payroll-059",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Zgłoszenie członka rodziny pracownika do ubezpieczenia zdrowotnego."
+    },
+    {
+      "family": "payroll-063",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Wyrejestrowanie członka rodziny po uzyskaniu własnego ubezpieczenia."
+    },
+    {
+      "family": "payroll-065",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Potwierdzenie zgłoszenia nowego pracownika do ubezpieczeń społecznych."
+    },
+    {
+      "family": "payroll-076",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Korekta danych identyfikacyjnych w zgłoszeniu ubezpieczeniowym pracownika."
+    },
+    {
+      "family": "payroll-080",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Wydanie zaświadczenia o zarobkach potrzebnego do ustalenia emerytury."
+    },
+    {
+      "family": "payroll-087",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Wyjaśnienie wykazanej podstawy składek pracownika za miesiąc."
+    },
+    {
+      "family": "payroll-096",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Przekazanie deklaracji rezygnacji z pracowniczego planu kapitałowego."
+    },
+    {
+      "family": "payroll-101",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Sprawdzenie zapisania ponownego przystąpienia do programu kapitałowego."
+    },
+    {
+      "family": "payroll-105",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Uzyskanie dokumentu potwierdzającego okresy zatrudnienia do celów rentowych."
+    },
+    {
+      "family": "payroll-110",
+      "label": "payroll",
+      "split": "test",
+      "semantic_group": "payroll:insurance_retirement_records",
+      "scenario": "Wyjaśnienie braku potwierdzenia ubezpieczenia mimo trwającego zatrudnienia."
+    },
+    {
+      "family": "help_desk-000",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Pojedynczy komputer zatrzymuje się przed ekranem logowania."
+    },
+    {
+      "family": "help_desk-001",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Pulpit jednego użytkownika nie ładuje się po udanym zalogowaniu."
+    },
+    {
+      "family": "help_desk-002",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Laptop pracownika zapętla ponowne uruchamianie po aktualizacji."
+    },
+    {
+      "family": "help_desk-003",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Jedno stanowisko zawiesza się po wybudzeniu ze snu."
+    },
+    {
+      "family": "help_desk-004",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Profil użytkownika uruchamia się jako tymczasowy i nie pokazuje ustawień."
+    },
+    {
+      "family": "help_desk-005",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Komputer jednej osoby działa nadmiernie wolno przy zwykłych zadaniach."
+    },
+    {
+      "family": "help_desk-008",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Pracownik potrzebuje pomocy z wyborem właściwego systemu przy uruchamianiu."
+    },
+    {
+      "family": "help_desk-009",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Na pojedynczej stacji pojawia się komunikat o niedokończonej aktualizacji."
+    },
+    {
+      "family": "help_desk-010",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Sesja użytkownika wylogowuje się bez świadomego zamknięcia pracy."
+    },
+    {
+      "family": "help_desk-011",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:workstation_sessions",
+      "scenario": "Pracownik potrzebuje diagnozy jednego komputera po zawieszeniu aplikacji."
+    },
+    {
+      "family": "help_desk-014",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Dźwięk na jednym laptopie działa tylko w jednym kanale mimo zmiany słuchawek."
+    },
+    {
+      "family": "help_desk-015",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Mikrofon pojedynczego użytkownika nie jest wykrywany podczas spotkań."
+    },
+    {
+      "family": "help_desk-016",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Kamera jednej osoby pokazuje czarny obraz przy działającej usłudze rozmów."
+    },
+    {
+      "family": "help_desk-018",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Klawiatura na jednym stanowisku wpisuje inne znaki niż naciskane."
+    },
+    {
+      "family": "help_desk-019",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Mysz pracownika gubi połączenie z odbiornikiem."
+    },
+    {
+      "family": "help_desk-020",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Skaner podłączony lokalnie do jednego komputera nie jest widoczny."
+    },
+    {
+      "family": "help_desk-021",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Słuchawki pracownika odtwarzają dźwięk przez niewłaściwe urządzenie wyjściowe."
+    },
+    {
+      "family": "help_desk-022",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Monitor jednej osoby nie pokazuje obrazu po podłączeniu do stacji dokującej."
+    },
+    {
+      "family": "help_desk-025",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Touchpad pojedynczego laptopa przestał reagować na gesty."
+    },
+    {
+      "family": "help_desk-026",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_peripherals_audio",
+      "scenario": "Pracownik potrzebuje konfiguracji dodatkowego monitora na swoim stanowisku."
+    },
+    {
+      "family": "help_desk-027",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Dokumenty jednej osoby pozostają w jej lokalnej kolejce druku."
+    },
+    {
+      "family": "help_desk-028",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Pracownik nie widzi drukarki dostępnej u pozostałych kolegów."
+    },
+    {
+      "family": "help_desk-029",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Wydruki z jednego komputera trafiają na niewłaściwe urządzenie."
+    },
+    {
+      "family": "help_desk-030",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Jedna osoba potrzebuje konfiguracji druku dwustronnego."
+    },
+    {
+      "family": "help_desk-032",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Sterownik drukarki na pojedynczym stanowisku zgłasza błąd."
+    },
+    {
+      "family": "help_desk-033",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Użytkownik potrzebuje pomocy z wydrukiem dokumentu w odpowiedniej skali."
+    },
+    {
+      "family": "help_desk-034",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Prywatna kolejka jednego użytkownika pokazuje drukarkę jako offline."
+    },
+    {
+      "family": "help_desk-036",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Pracownik nie potrafi dodać udostępnionej drukarki do swojego profilu."
+    },
+    {
+      "family": "help_desk-037",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Wydruk PDF z jednej stacji ma nieprawidłowe marginesy."
+    },
+    {
+      "family": "help_desk-038",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:individual_printing",
+      "scenario": "Jedno stanowisko drukuje puste kartki z działającej wspólnej drukarki."
+    },
+    {
+      "family": "help_desk-039",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Pracownik zapomniał hasła do własnego konta bez oznak naruszenia bezpieczeństwa."
+    },
+    {
+      "family": "help_desk-040",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Konto jednej osoby zostało zablokowane po błędnych próbach wpisania hasła."
+    },
+    {
+      "family": "help_desk-041",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Użytkownik potrzebuje pomocy w zwykłej zmianie wygasającego hasła."
+    },
+    {
+      "family": "help_desk-042",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Pracownik nie wie, którego identyfikatora użyć w ekranie logowania."
+    },
+    {
+      "family": "help_desk-044",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Jedna osoba potrzebuje konfiguracji aplikacji uwierzytelniającej na nowym telefonie."
+    },
+    {
+      "family": "help_desk-046",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Kod drugiego składnika nie pojawia się na własnym urządzeniu użytkownika."
+    },
+    {
+      "family": "help_desk-047",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Pracownik nie może zalogować się po legalnej zmianie nazwiska konta."
+    },
+    {
+      "family": "help_desk-048",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Menedżer haseł jednego użytkownika podpowiada nieaktualne dane."
+    },
+    {
+      "family": "help_desk-049",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Pojedyncza osoba utknęła w pętli logowania do portalu służbowego."
+    },
+    {
+      "family": "help_desk-050",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:ordinary_login",
+      "scenario": "Pracownik potrzebuje odzyskania dostępu po samodzielnym usunięciu własnej metody logowania."
+    },
+    {
+      "family": "help_desk-053",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Tylko laptop jednej osoby nie łączy się z firmowym Wi-Fi."
+    },
+    {
+      "family": "help_desk-056",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Kabel sieciowy na jednym stanowisku nie zapewnia połączenia."
+    },
+    {
+      "family": "help_desk-058",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Pojedynczy klient VPN pracownika nie uruchamia połączenia z domu."
+    },
+    {
+      "family": "help_desk-061",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Użytkownik potrzebuje skonfigurowania nowego profilu sieci na swoim laptopie."
+    },
+    {
+      "family": "help_desk-062",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Tylko jedna stacja ma błędne ustawienia serwera proxy."
+    },
+    {
+      "family": "help_desk-063",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Bluetooth jednego komputera nie znajduje służbowego urządzenia."
+    },
+    {
+      "family": "help_desk-064",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Pracownik nie może połączyć laptopa z własnym hotspotem telefonicznym."
+    },
+    {
+      "family": "help_desk-065",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Jedna karta sieciowa pozostaje wyłączona po aktualizacji sterownika."
+    },
+    {
+      "family": "help_desk-066",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Połączenie zrywa się wyłącznie na komputerze jednego pracownika."
+    },
+    {
+      "family": "help_desk-067",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_connectivity",
+      "scenario": "Użytkownik potrzebuje pomocy z lokalną konfiguracją VPN po wymianie laptopa."
+    },
+    {
+      "family": "help_desk-069",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Edytor dokumentów jednej osoby zamyka się przy otwarciu zwykłego pliku."
+    },
+    {
+      "family": "help_desk-070",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Arkusz kalkulacyjny na pojedynczym stanowisku zawiesza się przy starcie."
+    },
+    {
+      "family": "help_desk-071",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Lokalny czytnik PDF nie otwiera dokumentów użytkownika."
+    },
+    {
+      "family": "help_desk-072",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Program do prezentacji jednej osoby nie zapisuje ustawień."
+    },
+    {
+      "family": "help_desk-074",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Pracownik potrzebuje przywrócenia paska narzędzi w aplikacji biurowej."
+    },
+    {
+      "family": "help_desk-075",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Jedna aplikacja uruchamia się poza widocznym obszarem ekranu."
+    },
+    {
+      "family": "help_desk-076",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Użytkownik potrzebuje naprawy skojarzenia plików z właściwym programem."
+    },
+    {
+      "family": "help_desk-077",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Lokalny dodatek do edytora blokuje uruchamianie programu."
+    },
+    {
+      "family": "help_desk-078",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Pracownik zgłasza uszkodzony profil ustawień swojego programu."
+    },
+    {
+      "family": "help_desk-079",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:desktop_applications",
+      "scenario": "Jeden program wyświetla okno błędu przy zamykaniu dokumentu."
+    },
+    {
+      "family": "help_desk-080",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Poczta na jednym komputerze nie odświeża się mimo działającego webmaila."
+    },
+    {
+      "family": "help_desk-081",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Użytkownik potrzebuje skonfigurowania podpisu w swoim kliencie pocztowym."
+    },
+    {
+      "family": "help_desk-085",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Lokalna wyszukiwarka wiadomości jednej osoby nie znajduje starych maili."
+    },
+    {
+      "family": "help_desk-087",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Jedna skrzynka pokazuje nieprawidłowo ustawioną strefę czasową spotkań."
+    },
+    {
+      "family": "help_desk-088",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Pracownik nie widzi własnego kalendarza w programie pocztowym."
+    },
+    {
+      "family": "help_desk-091",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Pojedynczy klient poczty nie otwiera legalnych załączników."
+    },
+    {
+      "family": "help_desk-094",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Użytkownik potrzebuje naprawy lokalnego profilu programu pocztowego."
+    },
+    {
+      "family": "help_desk-095",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Jedna osoba ma błędne reguły kierujące własną pocztę do folderów."
+    },
+    {
+      "family": "help_desk-096",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Pracownik potrzebuje pomocy w dodaniu zatwierdzonej skrzynki do aplikacji."
+    },
+    {
+      "family": "help_desk-097",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:personal_mail_client",
+      "scenario": "Powiadomienia o nowych wiadomościach nie działają u jednego użytkownika."
+    },
+    {
+      "family": "help_desk-098",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Odzyskanie własnego pliku omyłkowo usuniętego z lokalnego profilu."
+    },
+    {
+      "family": "help_desk-099",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Edytor jednej osoby odmawia zapisu we własnym katalogu z powodu uprawnień."
+    },
+    {
+      "family": "help_desk-102",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Pracownik nie może rozpakować legalnego archiwum na swoim komputerze."
+    },
+    {
+      "family": "help_desk-104",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Lokalny dysk jednej stacji jest pełny i wymaga bezpiecznego uporządkowania."
+    },
+    {
+      "family": "help_desk-105",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Użytkownik potrzebuje przywrócenia poprzedniej wersji własnego dokumentu."
+    },
+    {
+      "family": "help_desk-106",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Pojedynczy klient synchronizacji własnych plików utknął przy jednym dokumencie."
+    },
+    {
+      "family": "help_desk-113",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Pracownik potrzebuje pomocy ze zmianą uprawnień do własnego katalogu roboczego."
+    },
+    {
+      "family": "help_desk-116",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Lokalny pendrive nie jest widoczny na jednym stanowisku bez podejrzeń ataku."
+    },
+    {
+      "family": "help_desk-118",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Jedna osoba nie może zmienić nazwy swojego pliku z powodu blokady procesu."
+    },
+    {
+      "family": "help_desk-119",
+      "label": "help_desk",
+      "split": "train",
+      "semantic_group": "help_desk:local_files_permissions",
+      "scenario": "Pracownik potrzebuje przeniesienia własnych ustawień i plików na nowy komputer."
+    },
+    {
+      "family": "help_desk-006",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Służbowy telefon jednej osoby nie synchronizuje kontaktów."
+    },
+    {
+      "family": "help_desk-007",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Pracownik potrzebuje konfiguracji eSIM na własnym urządzeniu służbowym."
+    },
+    {
+      "family": "help_desk-013",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Tablet jednego użytkownika nie obraca obrazu po zmianie orientacji."
+    },
+    {
+      "family": "help_desk-017",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Pojedynczy smartfon nie odczytuje kodów kreskowych w działającej aplikacji magazynowej."
+    },
+    {
+      "family": "help_desk-023",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Pojedynczy smartfon nie pozwala zaktualizować aplikacji z zatwierdzonego sklepu."
+    },
+    {
+      "family": "help_desk-035",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Użytkownik potrzebuje pomocy z ustawieniem blokady ekranu telefonu."
+    },
+    {
+      "family": "help_desk-043",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Służbowy tablet pracownika nie reaguje na rysik."
+    },
+    {
+      "family": "help_desk-051",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Telefon jednej osoby nie zapisuje zdjęć dokumentów do aplikacji roboczej."
+    },
+    {
+      "family": "help_desk-057",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Automatyczna jasność ekranu jednego telefonu nie reaguje na zmianę oświetlenia."
+    },
+    {
+      "family": "help_desk-068",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_mobile_device",
+      "scenario": "Lokalizacja GPS jednego służbowego telefonu wskazuje błędną pozycję."
+    },
+    {
+      "family": "help_desk-082",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Bateria pojedynczego laptopa rozładowuje się po kilkunastu minutach."
+    },
+    {
+      "family": "help_desk-083",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Ładowarka jednego pracownika przestała zasilać komputer."
+    },
+    {
+      "family": "help_desk-086",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Wentylator na jednym stanowisku hałasuje przy niewielkim obciążeniu."
+    },
+    {
+      "family": "help_desk-089",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Obudowa służbowego laptopa jednej osoby ma uszkodzony zawias."
+    },
+    {
+      "family": "help_desk-090",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Pracownik potrzebuje diagnozy przegrzewania własnego komputera."
+    },
+    {
+      "family": "help_desk-101",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Pojedynczy port USB fizycznie nie utrzymuje wtyczki."
+    },
+    {
+      "family": "help_desk-107",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Ekran laptopa użytkownika jest pęknięty i potrzebuje serwisu."
+    },
+    {
+      "family": "help_desk-109",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Jeden komputer wydaje nietypowy dźwięk mechaniczny z obudowy."
+    },
+    {
+      "family": "help_desk-111",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Pracownik zgłasza zalanie własnego służbowego laptopa."
+    },
+    {
+      "family": "help_desk-114",
+      "label": "help_desk",
+      "split": "validation",
+      "semantic_group": "help_desk:individual_hardware_maintenance",
+      "scenario": "Stacja dokująca jednej osoby ma uszkodzone złącze zasilania."
+    },
+    {
+      "family": "help_desk-012",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Instalacja zatwierdzonego programu potrzebnego jednemu pracownikowi."
+    },
+    {
+      "family": "help_desk-024",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Aktywacja legalnie przyznanej licencji aplikacji na jednym stanowisku."
+    },
+    {
+      "family": "help_desk-031",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Usunięcie starej wersji programu przed instalacją nowej u użytkownika."
+    },
+    {
+      "family": "help_desk-045",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Pracownik potrzebuje instalacji firmowej czcionki na swoim komputerze."
+    },
+    {
+      "family": "help_desk-052",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Dodanie zatwierdzonego słownika językowego do edytora jednej osoby."
+    },
+    {
+      "family": "help_desk-054",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Instalacja wtyczki dostępności dla indywidualnego użytkownika."
+    },
+    {
+      "family": "help_desk-055",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Naprawa przerwanej aktualizacji legalnego programu na jednym laptopie."
+    },
+    {
+      "family": "help_desk-059",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Przeniesienie przypisanej pracownikowi licencji na wymieniony komputer."
+    },
+    {
+      "family": "help_desk-060",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Instalacja wymaganej biblioteki do legalnej aplikacji jednej osoby."
+    },
+    {
+      "family": "help_desk-073",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_software_installation",
+      "scenario": "Pracownik potrzebuje pomocy w skonfigurowaniu nowo zainstalowanego narzędzia."
+    },
+    {
+      "family": "help_desk-084",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Przeglądarka jednej osoby pokazuje stronę w niewłaściwym powiększeniu."
+    },
+    {
+      "family": "help_desk-092",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Użytkownik potrzebuje ustawienia czytnika ekranu na swoim stanowisku."
+    },
+    {
+      "family": "help_desk-093",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Lokalna przeglądarka blokuje potrzebne okno formularza wyskakującego."
+    },
+    {
+      "family": "help_desk-100",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Pracownik chce przywrócić zakładki we własnym profilu przeglądarki."
+    },
+    {
+      "family": "help_desk-103",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Jedna osoba potrzebuje konfiguracji kontrastu i wielkości tekstu systemowego."
+    },
+    {
+      "family": "help_desk-108",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Przeglądarka użytkownika nie zapamiętuje preferowanego języka stron."
+    },
+    {
+      "family": "help_desk-110",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Pracownik potrzebuje usunięcia uszkodzonej pamięci lokalnej jednej strony."
+    },
+    {
+      "family": "help_desk-112",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Tylko jeden profil przeglądarki błędnie wyświetla działający portal."
+    },
+    {
+      "family": "help_desk-115",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Użytkownik potrzebuje konfiguracji skrótów dostępności na własnym komputerze."
+    },
+    {
+      "family": "help_desk-117",
+      "label": "help_desk",
+      "split": "test",
+      "semantic_group": "help_desk:individual_browser_accessibility",
+      "scenario": "Przeglądarka jednego użytkownika nie wyświetla dostępnych napisów w materiałach wideo."
+    },
+    {
+      "family": "it-000",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Wspólny serwer aplikacji przestał odpowiadać wszystkim użytkownikom."
+    },
+    {
+      "family": "it-002",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Klaster maszyn wirtualnych utracił jeden węzeł i wymaga interwencji infrastrukturalnej."
+    },
+    {
+      "family": "it-003",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Centralna usługa harmonogramu zadań nie uruchamia procesów wielu zespołów."
+    },
+    {
+      "family": "it-004",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Brama dostępu do aplikacji firmowych zwraca błędy dla całej organizacji."
+    },
+    {
+      "family": "it-005",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Wspólna platforma kontenerowa zgłasza brak zasobów i zatrzymuje usługi."
+    },
+    {
+      "family": "it-006",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Serwer raportowy nie kończy zadań zlecanych przez różne działy."
+    },
+    {
+      "family": "it-007",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Usługa centralnego logowania zdarzeń przestała przyjmować dane serwerów."
+    },
+    {
+      "family": "it-010",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Firmowy system kolejkowania zadań ma rosnący zaległy ruch wielu aplikacji."
+    },
+    {
+      "family": "it-011",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Maszyny wirtualne całego środowiska uruchamiają się z błędami infrastruktury."
+    },
+    {
+      "family": "it-015",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:shared_compute_services",
+      "scenario": "Wspólny reverse proxy przestał kierować ruch do usług wewnętrznych."
+    },
+    {
+      "family": "it-018",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Cały oddział utracił dostęp do sieci firmowej jednocześnie."
+    },
+    {
+      "family": "it-019",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Sieć bezprzewodowa w całym budynku nie przydziela połączeń pracownikom."
+    },
+    {
+      "family": "it-021",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Centralny serwer DHCP przestał wydawać adresy komputerom wielu działów."
+    },
+    {
+      "family": "it-022",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Firmowa brama VPN nie przyjmuje połączeń żadnego pracownika."
+    },
+    {
+      "family": "it-023",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Połączenie między dwiema lokalizacjami firmy jest niedostępne."
+    },
+    {
+      "family": "it-024",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Routing między firmowymi podsieciami blokuje pracę kilku zespołów."
+    },
+    {
+      "family": "it-025",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Wspólne łącze internetowe ma potwierdzoną awarię obejmującą całą siedzibę."
+    },
+    {
+      "family": "it-026",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Kontroler firmowych punktów Wi-Fi zgłasza utratę wielu urządzeń."
+    },
+    {
+      "family": "it-028",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Konfiguracja centralnej zapory blokuje legalny ruch całego działu."
+    },
+    {
+      "family": "it-029",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:organisation_network",
+      "scenario": "Cała sieć gościnna firmy przestała działać po zmianie infrastruktury."
+    },
+    {
+      "family": "it-030",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "W całym oddziale usługi działają po adresie IP, ale nie po nazwie DNS."
+    },
+    {
+      "family": "it-032",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Wygasający certyfikat centralnej usługi wymaga odnowienia na serwerze."
+    },
+    {
+      "family": "it-034",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Firmowa domena ma błędny rekord kierujący wszystkich użytkowników do złej usługi."
+    },
+    {
+      "family": "it-035",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Wewnętrzny resolver DNS zwraca nieaktualne rekordy wielu komputerom."
+    },
+    {
+      "family": "it-037",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Centralna usługa po odnowieniu certyfikatu nie prezentuje pełnego łańcucha."
+    },
+    {
+      "family": "it-039",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Konfiguracja DNS dla nowej firmowej domeny wymaga wdrożenia."
+    },
+    {
+      "family": "it-041",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Firmowa domena przestała być rozpoznawana z kilku sieci zewnętrznych."
+    },
+    {
+      "family": "it-042",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Zegar infrastruktury powoduje błędy ważności certyfikatów w wielu usługach."
+    },
+    {
+      "family": "it-043",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Wspólne repozytorium certyfikatów wymaga uporządkowania automatycznego odnawiania."
+    },
+    {
+      "family": "it-045",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:dns_certificates_domains",
+      "scenario": "Niedostępność wewnętrznej strefy DNS blokuje dostęp kilku aplikacji."
+    },
+    {
+      "family": "it-046",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Monitoring wykazał brak kompletnych kopii wspólnego serwera od kilku nocy."
+    },
+    {
+      "family": "it-048",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Test odtworzenia danych całej usługi z backupu zakończył się błędem."
+    },
+    {
+      "family": "it-049",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Centralne repozytorium kopii zapasowych ma wyczerpującą się pojemność."
+    },
+    {
+      "family": "it-050",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Należy przeprowadzić uzgodniony test odzyskiwania infrastruktury po awarii."
+    },
+    {
+      "family": "it-051",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Replikacja kopii do zapasowej lokalizacji nie działa dla kilku serwerów."
+    },
+    {
+      "family": "it-052",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Harmonogram backupów pomija nową produkcyjną usługę."
+    },
+    {
+      "family": "it-053",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "System kopii zapasowych zgłasza uszkodzone archiwa wielu projektów."
+    },
+    {
+      "family": "it-054",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Potrzebne jest odtworzenie wspólnej aplikacji po awarii całego serwera."
+    },
+    {
+      "family": "it-055",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Centralny backup działa, ale automatyczny monitoring nie raportuje jego wyniku."
+    },
+    {
+      "family": "it-057",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "scenario": "Plan odzyskania infrastruktury wymaga weryfikacji dostępnych kopii."
+    },
+    {
+      "family": "it-059",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Na służbowym urządzeniu wykryto szyfrowanie plików przez ransomware."
+    },
+    {
+      "family": "it-060",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Oprogramowanie ochronne wykryło aktywnego trojana na koncie pracownika."
+    },
+    {
+      "family": "it-061",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Wiele stacji komunikuje się z adresem związanym ze złośliwym oprogramowaniem."
+    },
+    {
+      "family": "it-062",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Po otwarciu podejrzanego załącznika uruchomił się nieznany proces."
+    },
+    {
+      "family": "it-063",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Na firmowym serwerze wykryto koparkę kryptowalut bez autoryzacji."
+    },
+    {
+      "family": "it-065",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Użytkownik podłączył nośnik, po którym ochrona wykryła złośliwy kod."
+    },
+    {
+      "family": "it-066",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Monitoring bezpieczeństwa wykazał próbę rozprzestrzeniania robaka między stacjami."
+    },
+    {
+      "family": "it-071",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Antywirus potwierdził infekcję i potrzebna jest koordynacja izolacji urządzenia."
+    },
+    {
+      "family": "it-073",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "Nieznany program wyłączył zabezpieczenia na służbowym komputerze."
+    },
+    {
+      "family": "it-074",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:malware_incidents",
+      "scenario": "W firmowej aplikacji pojawił się wstrzyknięty złośliwy skrypt."
+    },
+    {
+      "family": "it-075",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Ktoś zalogował się na konto pracownika z nieznanej lokalizacji."
+    },
+    {
+      "family": "it-076",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Pracownik otrzymuje niezamówione zatwierdzenia drugiego składnika logowania."
+    },
+    {
+      "family": "it-077",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Na koncie administratora wykryto działania, których właściciel nie wykonywał."
+    },
+    {
+      "family": "it-080",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Hasło pracownika znalazło się w potwierdzonym wycieku i wymaga reakcji incydentowej."
+    },
+    {
+      "family": "it-081",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Nieuprawniona osoba zmieniła metody odzyskiwania konta służbowego."
+    },
+    {
+      "family": "it-084",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Konto pracownika wysyła wiadomości bez jego udziału."
+    },
+    {
+      "family": "it-086",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "W logach widoczne jest przejęcie aktywnej sesji użytkownika."
+    },
+    {
+      "family": "it-087",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Podejrzana aplikacja otrzymała nieautoryzowany dostęp OAuth do firmowego konta."
+    },
+    {
+      "family": "it-088",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Po utracie urządzenia istnieje ryzyko wykorzystania aktywnych sesji służbowych."
+    },
+    {
+      "family": "it-089",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:account_intrusion",
+      "scenario": "Potwierdzono nieautoryzowane utworzenie uprzywilejowanego konta w systemie firmy."
+    },
+    {
+      "family": "it-092",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Link do danych klientów jest dostępny publicznie po wylogowaniu."
+    },
+    {
+      "family": "it-093",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Poufny dokument służbowy wysłano omyłkowo do nieuprawnionego odbiorcy."
+    },
+    {
+      "family": "it-094",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Publicznie dostępne repozytorium zawiera firmowy klucz dostępowy."
+    },
+    {
+      "family": "it-095",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Konfiguracja zasobu chmurowego ujawniła pliki przedsiębiorstwa osobom z zewnątrz."
+    },
+    {
+      "family": "it-097",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Nieautoryzowany eksport danych pracowników został wykryty w logach."
+    },
+    {
+      "family": "it-098",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Otwarty panel administracyjny ujawnia dane bez uwierzytelnienia."
+    },
+    {
+      "family": "it-099",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Współpracownik zgłasza potwierdzoną kradzież nośnika z danymi służbowymi."
+    },
+    {
+      "family": "it-100",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "Wyniki wyszukiwarki zawierają poufny plik z firmowej usługi."
+    },
+    {
+      "family": "it-101",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "System alarmuje o masowym kopiowaniu informacji przez nieuprawnione konto."
+    },
+    {
+      "family": "it-103",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:data_exposure_incidents",
+      "scenario": "W logach publicznego serwisu przypadkowo ujawniono sekret aplikacji."
+    },
+    {
+      "family": "it-104",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Pracownik podał dane logowania na fałszywej stronie z wiadomości phishingowej."
+    },
+    {
+      "family": "it-105",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Do pracowników trafia wiadomość podszywająca się pod kierownika i żądająca hasła."
+    },
+    {
+      "family": "it-106",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Fałszywa strona logowania naśladuje portal organizacji."
+    },
+    {
+      "family": "it-107",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Użytkownik zeskanował podejrzany kod QR prowadzący do kradzieży danych dostępu."
+    },
+    {
+      "family": "it-108",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Napastnik podszywa się telefonicznie pod wsparcie i prosi o zatwierdzenie logowania."
+    },
+    {
+      "family": "it-109",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Rozsyłana kampania wyłudzeń wykorzystuje podobną do firmowej domenę."
+    },
+    {
+      "family": "it-110",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Pracownicy dostali fałszywe zaproszenie do udostępnienia konta służbowego."
+    },
+    {
+      "family": "it-113",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Zgłoszono próbę przejęcia konta przez spreparowany formularz resetu hasła."
+    },
+    {
+      "family": "it-114",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Ktoś nakłania pracownika do instalacji zdalnego dostępu w celu kradzieży danych."
+    },
+    {
+      "family": "it-117",
+      "label": "it",
+      "split": "train",
+      "semantic_group": "it:phishing_and_abuse",
+      "scenario": "Podejrzana strona obiecuje dokument kadrowy w zamian za firmowe dane logowania."
+    },
+    {
+      "family": "it-008",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Zasilacz awaryjny obsługujący serwerownię zgłasza krytyczny stan baterii."
+    },
+    {
+      "family": "it-013",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Chłodzenie szafy serwerowej przestało utrzymywać wymaganą temperaturę."
+    },
+    {
+      "family": "it-014",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Przełącznik centralny stracił zasilanie na kilku modułach."
+    },
+    {
+      "family": "it-017",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Należy zaplanować przeniesienie firmowych serwerów do nowej szafy rack."
+    },
+    {
+      "family": "it-020",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Panel krosowy infrastruktury ma uszkodzony tor łączący dwa piętra."
+    },
+    {
+      "family": "it-031",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Czujnik zalania w serwerowni zgłasza realne zagrożenie sprzętu sieciowego."
+    },
+    {
+      "family": "it-036",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Przygotowywane jest planowane wyłączenie zasilania infrastruktury serwerowej."
+    },
+    {
+      "family": "it-047",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Wentylator w serwerze produkcyjnym zgłasza awarię sprzętową."
+    },
+    {
+      "family": "it-056",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Łącze światłowodowe między szafami technicznymi ma uszkodzony moduł optyczny."
+    },
+    {
+      "family": "it-067",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:datacenter_physical_infrastructure",
+      "scenario": "Centralna infrastruktura wymaga sprawdzenia redundancji zasilania po alarmie."
+    },
+    {
+      "family": "it-069",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Serwer pocztowy nie dostarcza wiadomości dla całej domeny firmy."
+    },
+    {
+      "family": "it-070",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Centralna usługa kalendarzy nie udostępnia spotkań żadnemu zespołowi."
+    },
+    {
+      "family": "it-078",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Firmowa centrala telefoniczna przestała zestawiać połączenia."
+    },
+    {
+      "family": "it-083",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Usługa wideokonferencji organizacji nie pozwala tworzyć spotkań wielu osobom."
+    },
+    {
+      "family": "it-090",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Wspólna bramka antyspamowa odrzuca całą przychodzącą pocztę."
+    },
+    {
+      "family": "it-091",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Kolejka na serwerze wysyłkowym rośnie i obejmuje wszystkie skrzynki."
+    },
+    {
+      "family": "it-102",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Platforma komunikatora firmowego nie synchronizuje kanałów żadnego działu."
+    },
+    {
+      "family": "it-111",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Wspólny serwer książki adresowej przestał odpowiadać klientom."
+    },
+    {
+      "family": "it-116",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Infrastruktura telefonii internetowej utraciła rejestrację wszystkich numerów."
+    },
+    {
+      "family": "it-118",
+      "label": "it",
+      "split": "validation",
+      "semantic_group": "it:shared_communication_platforms",
+      "scenario": "Centralna usługa archiwizacji poczty nie zapisuje nowych wiadomości."
+    },
+    {
+      "family": "it-001",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Zaplanowanie wdrożenia obowiązkowego MFA w systemach organizacji."
+    },
+    {
+      "family": "it-009",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Przegląd uprawnień administratorów infrastruktury przed audytem bezpieczeństwa."
+    },
+    {
+      "family": "it-012",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Ustalenie procesu rotacji kluczy dostępowych używanych przez usługi."
+    },
+    {
+      "family": "it-016",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Wdrożenie segmentacji sieci ograniczającej dostęp do serwerów produkcyjnych."
+    },
+    {
+      "family": "it-027",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Przygotowanie technicznego skanowania podatności firmowych serwerów."
+    },
+    {
+      "family": "it-033",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Centralne wdrożenie poprawek bezpieczeństwa na infrastrukturze."
+    },
+    {
+      "family": "it-038",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Uzgodnienie polityki technicznej szyfrowania danych organizacji."
+    },
+    {
+      "family": "it-040",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Konfiguracja monitorowania podejrzanych logowań w systemie bezpieczeństwa."
+    },
+    {
+      "family": "it-044",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Przygotowanie technicznego procesu zarządzania uprzywilejowanym dostępem."
+    },
+    {
+      "family": "it-058",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:preventive_security_engineering",
+      "scenario": "Utworzenie zabezpieczeń chroniących firmową aplikację przed atakami sieciowymi."
+    },
+    {
+      "family": "it-064",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Wspólny serwer plików nie udostępnia katalogów żadnemu działowi."
+    },
+    {
+      "family": "it-068",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Klaster bazy danych aplikacji firmowej utracił dostępny węzeł podstawowy."
+    },
+    {
+      "family": "it-072",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Macierz dyskowa infrastruktury zgłasza awarię kilku dysków."
+    },
+    {
+      "family": "it-079",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Wspólna baza danych blokuje zapytania wielu aplikacji przez długą transakcję."
+    },
+    {
+      "family": "it-082",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Centralny zasób dokumentów osiągnął limit pojemności dla całej organizacji."
+    },
+    {
+      "family": "it-085",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Replikacja produkcyjnej bazy danych między serwerami ma duże opóźnienie."
+    },
+    {
+      "family": "it-096",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "System przechowywania obiektów zwraca błędy wielu usługom."
+    },
+    {
+      "family": "it-112",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Wspólny serwer plików wymaga zaplanowania migracji danych między macierzami."
+    },
+    {
+      "family": "it-115",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Baza danych firmy wymaga odtworzenia działania po uszkodzeniu indeksów."
+    },
+    {
+      "family": "it-119",
+      "label": "it",
+      "split": "test",
+      "semantic_group": "it:shared_storage_databases",
+      "scenario": "Centralna infrastruktura pamięci masowej zgłasza utratę jednej ścieżki dostępu."
+    },
+    {
+      "family": "other-000",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Naprawa zablokowanej mechanicznej rolety w sali przy sprawnym sprzęcie."
+    },
+    {
+      "family": "other-001",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Usunięcie przecieku pod zlewem w kuchni biurowej."
+    },
+    {
+      "family": "other-002",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Zgłoszenie uszkodzonego zamka w drzwiach do pomieszczenia."
+    },
+    {
+      "family": "other-005",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Wymiana przepalonej żarówki nad stołem w sali."
+    },
+    {
+      "family": "other-006",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Naprawa cieknącej spłuczki w toalecie budynku."
+    },
+    {
+      "family": "other-007",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Uzgodnienie sprzątania zabrudzonej wspólnej kuchni."
+    },
+    {
+      "family": "other-009",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Naprawa krzesła biurowego z uszkodzonym oparciem."
+    },
+    {
+      "family": "other-010",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Zgłoszenie niedomykającego się okna w pomieszczeniu."
+    },
+    {
+      "family": "other-011",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Uzupełnienie mydła i ręczników w toalecie."
+    },
+    {
+      "family": "other-012",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:building_facilities",
+      "scenario": "Naprawa ogrzewania w pokoju bez związku z serwerownią."
+    },
+    {
+      "family": "other-015",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Zamówienie papierowych materiałów biurowych do magazynku."
+    },
+    {
+      "family": "other-016",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Uzgodnienie odbioru przesyłki kurierskiej przez recepcję."
+    },
+    {
+      "family": "other-017",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Wyjaśnienie opóźnionej dostawy zamówionych mebli."
+    },
+    {
+      "family": "other-018",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Zgłoszenie brakującej pozycji w paczce z artykułami biurowymi."
+    },
+    {
+      "family": "other-019",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Ustalenie miejsca składowania nowej dostawy drukowanych broszur."
+    },
+    {
+      "family": "other-020",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Reklamacja uszkodzonego opakowania dostarczonego towaru."
+    },
+    {
+      "family": "other-021",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Zamówienie zapasu kopert do wysyłki dokumentów."
+    },
+    {
+      "family": "other-023",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Uzgodnienie zwrotu źle dostarczonych segregatorów."
+    },
+    {
+      "family": "other-026",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Prośba o ofertę na tablice korkowe do pomieszczeń."
+    },
+    {
+      "family": "other-027",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:purchasing_deliveries",
+      "scenario": "Ustalenie godziny odbioru paczek przez kuriera."
+    },
+    {
+      "family": "other-030",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Klient prosi o fakturę za zakupioną usługę."
+    },
+    {
+      "family": "other-031",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Kontrahent pyta o termin opłacenia faktury handlowej."
+    },
+    {
+      "family": "other-032",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Reklamacja nieprawidłowej kwoty na fakturze dla klienta."
+    },
+    {
+      "family": "other-034",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Potwierdzenie zaksięgowania płatności za zamówiony produkt."
+    },
+    {
+      "family": "other-036",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Prośba o zmianę danych nabywcy na dokumencie sprzedaży."
+    },
+    {
+      "family": "other-037",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Uzgodnienie warunków płatności za zewnętrzne zamówienie."
+    },
+    {
+      "family": "other-038",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Klient pyta o zwrot wpłaconej zaliczki za usługę."
+    },
+    {
+      "family": "other-041",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Prośba o przesłanie cennika usług organizacji."
+    },
+    {
+      "family": "other-043",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Kontrahent prosi o kopię umowy handlowej."
+    },
+    {
+      "family": "other-045",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:customer_commercial_billing",
+      "scenario": "Wyjaśnienie numeru rachunku do płatności za zamówienie klienta."
+    },
+    {
+      "family": "other-046",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Student pyta o termin egzaminu końcowego."
+    },
+    {
+      "family": "other-047",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Osoba studiująca prosi o przesunięcie terminu oddania pracy."
+    },
+    {
+      "family": "other-048",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Kandydat na studia pyta o wymagania przyjęcia na kierunek."
+    },
+    {
+      "family": "other-049",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Student prosi o zaświadczenie potwierdzające status studenta."
+    },
+    {
+      "family": "other-050",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Pytanie o harmonogram zjazdów studiów podyplomowych."
+    },
+    {
+      "family": "other-052",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Student zgłasza brak wpisanej oceny z zaliczonego przedmiotu."
+    },
+    {
+      "family": "other-053",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Prośba o informację o opłatach za semestr studiów."
+    },
+    {
+      "family": "other-054",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Zapytanie o zasady obrony pracy dyplomowej."
+    },
+    {
+      "family": "other-056",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Student prosi o kontakt do opiekuna kierunku."
+    },
+    {
+      "family": "other-057",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:student_academic_matters",
+      "scenario": "Pytanie o procedurę przeniesienia między kierunkami studiów."
+    },
+    {
+      "family": "other-059",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Prośba o publikację zapowiedzi otwartego wydarzenia w aktualnościach."
+    },
+    {
+      "family": "other-060",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Uzgodnienie tekstu broszury promującej usługi dla klientów."
+    },
+    {
+      "family": "other-061",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Pytanie o możliwość patronatu nad lokalnym wydarzeniem kulturalnym."
+    },
+    {
+      "family": "other-062",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Redakcja zewnętrzna prosi o komentarz prasowy organizacji."
+    },
+    {
+      "family": "other-063",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Prośba o udostępnienie logotypu do legalnego materiału promocyjnego."
+    },
+    {
+      "family": "other-064",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Zaproszenie organizacji do udziału w akcji charytatywnej."
+    },
+    {
+      "family": "other-066",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Zamówienie plakatów informacyjnych na otwartą wystawę."
+    },
+    {
+      "family": "other-067",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Uzgodnienie programu publicznej konferencji niezwiązanej ze szkoleniem pracowników."
+    },
+    {
+      "family": "other-069",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Pytanie odbiorcy o godziny otwarcia publicznego wydarzenia."
+    },
+    {
+      "family": "other-070",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:public_content_events",
+      "scenario": "Prośba o zdjęcia z zakończonego wydarzenia do publikacji."
+    },
+    {
+      "family": "other-071",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Prywatna prośba o przepis na kruche ciasto z owocami."
+    },
+    {
+      "family": "other-072",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Pytanie koleżeńskie o sposób przygotowania domowego chleba."
+    },
+    {
+      "family": "other-073",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Prośba o polecenie filmu na wieczór."
+    },
+    {
+      "family": "other-075",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Zaproszenie znajomych do wspólnej gry planszowej po pracy."
+    },
+    {
+      "family": "other-077",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Pytanie o przepis na domową zupę."
+    },
+    {
+      "family": "other-078",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Poszukiwanie nut do prywatnej nauki gry na instrumencie."
+    },
+    {
+      "family": "other-079",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Koleżeńska wymiana opinii o przeczytanej powieści."
+    },
+    {
+      "family": "other-080",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Pytanie o zasady amatorskiej gry karcianej."
+    },
+    {
+      "family": "other-081",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Prośba o pomysł na prywatny prezent urodzinowy."
+    },
+    {
+      "family": "other-085",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:private_food_leisure",
+      "scenario": "Zaproszenie do rozmowy o ulubionej muzyce."
+    },
+    {
+      "family": "other-087",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Potwierdzenie rozwiązania wcześniejszej sprawy bez dalszej prośby."
+    },
+    {
+      "family": "other-088",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Podziękowanie za otrzymaną pomoc bez nowego zadania."
+    },
+    {
+      "family": "other-089",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Informacja, że poprzednia wiadomość została wysłana omyłkowo i jest nieaktualna."
+    },
+    {
+      "family": "other-091",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Potwierdzenie przeczytania komunikatu bez pytania."
+    },
+    {
+      "family": "other-092",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Życzenia świąteczne dla odbiorcy wiadomości."
+    },
+    {
+      "family": "other-093",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Gratulacje z okazji osobistego sukcesu bez zlecenia pracy."
+    },
+    {
+      "family": "other-094",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Krótkie przywitanie bez dalszej treści i kontekstu."
+    },
+    {
+      "family": "other-095",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Pożegnanie po zakończonej rozmowie bez otwartej sprawy."
+    },
+    {
+      "family": "other-096",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Informacja o anulowaniu poprzedniego pytania bez podawania tematu."
+    },
+    {
+      "family": "other-097",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:closed_no_action",
+      "scenario": "Neutralne potwierdzenie otrzymania materiału bez oczekiwanej czynności."
+    },
+    {
+      "family": "other-100",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Niejasna prośba o pomoc bez opisu problemu ani wskazówek działu."
+    },
+    {
+      "family": "other-102",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Wiadomość zawierająca przypadkowy ciąg znaków bez znaczenia."
+    },
+    {
+      "family": "other-106",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Pytanie o status nieokreślonej sprawy bez wcześniejszej historii."
+    },
+    {
+      "family": "other-107",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Samo zdanie, że coś nie działa, bez określenia przedmiotu."
+    },
+    {
+      "family": "other-109",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Wiadomość z urwanym zdaniem bez informacji pozwalających ustalić temat."
+    },
+    {
+      "family": "other-110",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Prośba o pilny kontakt bez wskazania powodu."
+    },
+    {
+      "family": "other-112",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Sam numer sprawy bez opisu i bez rozpoznawalnego kontekstu."
+    },
+    {
+      "family": "other-114",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Nieczytelna transkrypcja złożona z niepowiązanych słów."
+    },
+    {
+      "family": "other-116",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Pytanie, do kogo się zwrócić, bez podania sprawy."
+    },
+    {
+      "family": "other-118",
+      "label": "other",
+      "split": "train",
+      "semantic_group": "other:insufficient_context",
+      "scenario": "Wiadomość informująca o brakującym załączniku, którego treść nie jest znana."
+    },
+    {
+      "family": "other-004",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Prywatne pytanie o godzinę wizyty u dentysty."
+    },
+    {
+      "family": "other-013",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Prośba do znajomego o namiar na fizjoterapeutę."
+    },
+    {
+      "family": "other-014",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Pytanie pacjenta o dostępny termin badania wzroku."
+    },
+    {
+      "family": "other-022",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Prywatna prośba o przypomnienie adresu przychodni."
+    },
+    {
+      "family": "other-033",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Pytanie o odbiór wyników własnego badania laboratoryjnego."
+    },
+    {
+      "family": "other-040",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Uzgodnienie terminu prywatnej wizyty szczepiennej."
+    },
+    {
+      "family": "other-055",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Pytanie o godziny otwarcia apteki w okolicy."
+    },
+    {
+      "family": "other-065",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Prośba o przesłanie kontaktu do gabinetu ortodontycznego."
+    },
+    {
+      "family": "other-068",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Pacjent chce zmienić datę konsultacji dietetycznej."
+    },
+    {
+      "family": "other-074",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:private_health",
+      "scenario": "Pytanie o możliwość zapisania się na prywatny masaż leczniczy."
+    },
+    {
+      "family": "other-076",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Pytanie mieszkańca o termin odbioru odpadów wielkogabarytowych."
+    },
+    {
+      "family": "other-082",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Zgłoszenie uszkodzonej ławki w miejskim parku."
+    },
+    {
+      "family": "other-083",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Prośba do wspólnoty mieszkaniowej o harmonogram zebrania."
+    },
+    {
+      "family": "other-086",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Pytanie o godziny otwarcia biblioteki publicznej."
+    },
+    {
+      "family": "other-090",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Zgłoszenie niedziałającej latarni na osiedlu."
+    },
+    {
+      "family": "other-099",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Pytanie mieszkańca o miejsce składania wniosku paszportowego."
+    },
+    {
+      "family": "other-108",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Prośba o informację o przerwie w dostawie wody na osiedlu."
+    },
+    {
+      "family": "other-113",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Zapytanie o zapisy na miejskie zajęcia sportowe."
+    },
+    {
+      "family": "other-115",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Zgłoszenie przepełnionego publicznego kosza na śmieci."
+    },
+    {
+      "family": "other-117",
+      "label": "other",
+      "split": "validation",
+      "semantic_group": "other:municipal_neighbourhood",
+      "scenario": "Pytanie o termin lokalnego festynu sąsiedzkiego."
+    },
+    {
+      "family": "other-003",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Prywatne pytanie o rezerwację noclegu na weekend."
+    },
+    {
+      "family": "other-008",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Prośba o informację o rozkładzie turystycznego promu."
+    },
+    {
+      "family": "other-024",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Pytanie o trasę pieszej wycieczki w góry."
+    },
+    {
+      "family": "other-025",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Zmiana terminu prywatnej rezerwacji biletu kolejowego."
+    },
+    {
+      "family": "other-028",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Zapytanie o zasady przewozu bagażu podczas urlopowej podróży."
+    },
+    {
+      "family": "other-029",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Prośba o wskazówki dojazdu do muzeum podczas prywatnej wycieczki."
+    },
+    {
+      "family": "other-035",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Pytanie o możliwość wypożyczenia roweru na wakacjach."
+    },
+    {
+      "family": "other-039",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Poszukiwanie mapy szlaku turystycznego."
+    },
+    {
+      "family": "other-042",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Prośba o kontakt do pensjonatu polecanego przez znajomego."
+    },
+    {
+      "family": "other-044",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_travel",
+      "scenario": "Pytanie o godziny zwiedzania zamku w wolnym dniu."
+    },
+    {
+      "family": "other-051",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Prywatna prośba o poradę dotyczącą podlewania storczyka."
+    },
+    {
+      "family": "other-058",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Pytanie o karmę dla domowego kota."
+    },
+    {
+      "family": "other-084",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Poszukiwanie opiekuna do psa podczas prywatnej nieobecności."
+    },
+    {
+      "family": "other-098",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Prośba o wskazówki przesadzania domowej paprotki."
+    },
+    {
+      "family": "other-101",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Pytanie o termin wizyty zwierzęcia u weterynarza."
+    },
+    {
+      "family": "other-103",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Prośba o polecenie ziemi do balkonowych ziół."
+    },
+    {
+      "family": "other-104",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Pytanie o sposób czyszczenia domowego akwarium."
+    },
+    {
+      "family": "other-105",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Zapytanie o adopcję królika z lokalnego schroniska."
+    },
+    {
+      "family": "other-111",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Prywatna prośba o rozpoznanie szkodnika na roślinie doniczkowej."
+    },
+    {
+      "family": "other-119",
+      "label": "other",
+      "split": "test",
+      "semantic_group": "other:private_plants_animals",
+      "scenario": "Pytanie o pielęgnację drzewka owocowego w prywatnym ogrodzie."
+    }
+  ],
+  "limitation": "Train/validation/test contain40/10/10 broad semantic groups; five variants per specific family are correlated."
+}

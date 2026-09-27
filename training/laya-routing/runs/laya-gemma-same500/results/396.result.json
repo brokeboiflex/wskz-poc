@@ -1,0 +1,13 @@
+{
+  "id": "it/payroll-server/base",
+  "family": "it/payroll-server",
+  "message": "Portal płacowy nie otwiera się żadnemu pracownikowi, a monitoring wskazuje zatrzymanie jego serwera aplikacyjnego. Próbowały osoby z kilku oddziałów i każda otrzymała błąd 503. Potrzebujemy przywrócenia działania centralnej usługi, aby można było dokończyć dzisiejsze operacje i otworzyć zestawienia.\n\nZespół potwierdził, że ostatnie poprawne działanie miało miejsce przed planową zmianą konfiguracji. Od tego momentu proces serwera uruchamia się i natychmiast kończy. Logi są dostępne, a baza odpowiada na podstawowy test połączenia. Potrzebujemy diagnostyki warstwy aplikacyjnej.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.24412350001512095,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6358b2c141e2a938427bf0ceafebaebaa40c59c88f9d93222485b790557bbe29",
+  "response_sha256": "edfab1cd74b2c867c1fbbfe4fea0b7f14882f52419dbb76da093ab766777026f"
+}

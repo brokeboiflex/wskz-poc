@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/teams-audio/base",
+  "family": "help_desk/teams-audio",
+  "message": "W aplikacji do spotkań dźwięk wychodzi przez głośniki laptopa zamiast przez podłączone słuchawki. W innych programach słuchawki działają prawidłowo. Proszę o pomoc w ustawieniu właściwego urządzenia dla mojego konta, żebym mogła prowadzić rozmowy bez przeszkadzania osobom obok.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.1937467500101775,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "8c1b7438e662fe524f00ef8d318ac1a0d88b154ab8e14f0997a9552ec3aca3de",
+  "response_sha256": "830c8b57d9e743e2f378085bb198d06989aaed9f8f2f51142a27840c66962221"
+}

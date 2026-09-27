@@ -1,0 +1,13 @@
+{
+  "id": "payroll/certificate-deadline/base",
+  "family": "payroll/certificate-deadline",
+  "message": "Urząd wymaga ode mnie zaświadczenia o okresie zatrudnienia na swoim formularzu. Termin uzupełnienia dokumentów mija w przyszłym tygodniu. Proszę o informację, jak przekazać druk do wypełnienia i z kim ustalić odbiór podpisanego dokumentu potwierdzającego moje zatrudnienie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19828162499470636,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "654c0a71f96aabdda8559a1e0c885bf8eb72c32543c5edb0134fa197159441ce",
+  "response_sha256": "1fd017cdf49abe65701d41a85526269e0760d91e1dd9c6eafd809e85d9111c1d"
+}

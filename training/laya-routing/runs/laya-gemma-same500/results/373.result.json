@@ -1,0 +1,13 @@
+{
+  "id": "it/server-provision/resolved_preface",
+  "family": "it/server-provision",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania.\n\nOsobna, aktualna wiadomość:\nZatwierdzono uruchomienie nowej wewnętrznej aplikacji. Potrzebujemy przygotować maszynę wirtualną, sieć, monitoring oraz kopie zapasowe w firmowym środowisku. Proszę o realizację części infrastrukturalnej zgodnie z przekazaną specyfikacją i ustalenie terminu przekazania serwera zespołowi wdrożeniowemu.\n\nAplikacja będzie dostępna wyłącznie wewnętrznie i ma korzystać z wydzielonej bazy danych. Zespół wdrożeniowy podał wymagane zasoby oraz porty, ale nie ma uprawnień do tworzenia maszyn ani zmiany reguł sieciowych. Potrzebujemy środowiska przygotowanego zgodnie ze standardem firmowym.\n\nPrzed przekazaniem chcemy potwierdzić objęcie maszyny monitoringiem, kopią zapasową i regularnymi aktualizacjami. Proszę ustalić też właściciela technicznego oraz sposób zgłaszania awarii poza zwykłymi godzinami pracy. Testy aplikacji rozpoczną się dopiero po odbiorze infrastruktury. Jeżeli specyfikacja wymaga doprecyzowania, możemy umówić krótkie spotkanie z osobą prowadzącą wdrożenie, zamiast uruchamiać serwer na podstawie niepełnych parametrów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.3738552920112852,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "791730f1f4c170f6a988efcd06c3513d4cc12946f236afab016b21feb0e505d4",
+  "response_sha256": "3c74f3d86247d9c656484bccd3a6808858936017cbc8140fd43e6923513154b2"
+}

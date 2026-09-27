@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Kupiłam w sklepie internetowym czajnik do domu i otrzymałam model w innym kolorze niż zamówiony. Chciałabym napisać do sprzedawcy prośbę o wymianę. Czy możecie pomóc ułożyć taką wiadomość? Zakup był prywatny i nie ma związku z firmowym wyposażeniem.\n\nNa potwierdzeniu zamówienia mam właściwy wariant, a etykieta pudełka wskazuje inny. Samo urządzenie wygląda na nieużywane i nie zostało jeszcze uruchomione. Mam zdjęcia przesyłki, numer zamówienia oraz wiadomość od sklepu potwierdzającą zakup.\n\nChciałabym poprosić o wymianę na zamówiony kolor, a nie o zwrot pieniędzy. Nie wiem, czy w pierwszej wiadomości opisywać wszystko szczegółowo, czy wystarczy krótka informacja i zdjęcia. Zależy mi na spokojnym tonie, bo być może to zwykła pomyłka podczas pakowania. Pomóżcie ułożyć jasną wiadomość do sprzedawcy z prośbą o wskazanie sposobu wymiany i o informację, jak przygotować paczkę do odbioru."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

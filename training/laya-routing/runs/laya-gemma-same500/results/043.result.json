@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/team-mediation/resolved_preface",
+  "family": "human_resources/team-mediation",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nOsobna, aktualna wiadomość:\nDwie osoby w moim zespole od kilku tygodni spierają się o podział odpowiedzialności, a rozmowy kończą się wzajemnymi oskarżeniami. Próby samodzielnego wyjaśnienia sytuacji nie pomogły. Proszę o zorganizowanie mediacji i pomoc w ustaleniu zasad dalszej współpracy.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.23147862497717142,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "6d8687df1c4900abf9413709ffb2a6877ef83655afa841ae4aad845bfc9b0221",
+  "response_sha256": "48e9e93a0c62d8665dc5726335efc082340f7ea1a084c9c0b774618e717eef92"
+}

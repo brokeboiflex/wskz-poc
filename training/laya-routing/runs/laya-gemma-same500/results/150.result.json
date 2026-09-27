@@ -1,0 +1,13 @@
+{
+  "id": "payroll/service-certificate/base",
+  "family": "payroll/service-certificate",
+  "message": "Moja umowa zakończyła się w ubiegłym tygodniu, ale nie otrzymałam jeszcze świadectwa pracy. Rozliczenie sprzętu zostało zamknięte. Proszę sprawdzić status dokumentu i potwierdzić, w jaki sposób zostanie mi przekazany. Potrzebuję go do dopełnienia formalności u nowego pracodawcy.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.22381512500578538,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0977fb27c345941351455b09b5f9c6a76ef114bbe6bcb1849ecf7272c40b7a7d",
+  "response_sha256": "32e3a51156b84e1d0a06a73458d380e7a11779a6bb282c7cdbdae59d0442cc64"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "payroll/benefit-deduction/base",
+  "family": "payroll/benefit-deduction",
+  "message": "Zrezygnowałam z dodatkowego pakietu sportowego zgodnie z terminem, jednak opłata nadal została potrącona z pensji. Potwierdzenie rezygnacji jest dostępne. Proszę sprawdzić rozliczenie tego składnika na liście płac i wyjaśnić, czy nadpłacona kwota zostanie zwrócona przy kolejnej wypłacie.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19969566699001007,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "784e0283e59c0516b8166a23a9f32842dfffd195ca10992f562b6e45db5076fd",
+  "response_sha256": "3bcf2ff61b37cfc61f41d060681de33e6c156b0b4ceed5303cb5f144d05c28bf"
+}

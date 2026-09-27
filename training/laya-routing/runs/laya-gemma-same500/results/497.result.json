@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-change/conversation_history",
+  "family": "other/unknown-change",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nTrzeba poprawić ten zapis, dalej jest stara wersja. Pisałem o tym wcześniej. Możecie to zmienić i potwierdzić?",
+  "expected": "other",
+  "predicted": "payroll",
+  "correct": false,
+  "seconds": 0.2322102920152247,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "a22a6971e99232d5a814db650c32721866c7dfd4cab576f0fab0b037005dad91",
+  "response_sha256": "c68827c5741f00b7b40b3c1eaaef38e2054d7fe41def488e43ca90847f00fe10"
+}

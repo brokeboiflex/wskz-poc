@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-balance/quoted_history",
+  "family": "payroll/leave-balance",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nW zestawieniu urlopowym widzę cztery dni mniej, niż wynika z moich zapisów. Ostatni wniosek został odwołany przed rozpoczęciem wolnego, ale chyba nadal obciąża saldo. Proszę sprawdzić naliczenie dostępnych dni i wyjaśnić, które nieobecności uwzględniono w tegorocznym limicie.\n\nDla ułatwienia podaję przebieg sprawy. Najpierw złożyłam wniosek na cztery dni, który został zatwierdzony. Jeszcze przed rozpoczęciem nieobecności uzgodniłam z kierownikiem jego anulowanie, ponieważ zmienił się termin mojego prywatnego wyjazdu. W te dni normalnie pracowałam i jestem wykazana na liście obecności.\n\nW portalu widzę teraz jednocześnie anulowany wniosek oraz pomniejszony limit. Odświeżenie widoku niczego nie zmienia, a pobrane zestawienie pokazuje tę samą wartość. Mam potwierdzenie odwołania i mogę je przekazać wraz z zatwierdzeniem przełożonego. Przed złożeniem następnego wniosku chciałabym poznać właściwe saldo, aby nie rezerwować terminu na podstawie błędnych danych.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.3932172089989763,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "d80b772168adf4de4be6c8ad348e39172608136f440a8c9bad7580e3fa4ca1e3",
+  "response_sha256": "f30ff05e906dce51f6d8ca3cfaf0a48d8c964db3fa792dbc6353d2b737ee086b"
+}

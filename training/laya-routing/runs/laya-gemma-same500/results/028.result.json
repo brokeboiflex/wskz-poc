@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/security-awareness/base",
+  "family": "human_resources/security-awareness",
+  "message": "Chciałabym zamówić dla zespołu szkolenie o rozpoznawaniu fałszywych wiadomości i bezpiecznym korzystaniu z internetu. Potrzebujemy programu profilaktycznego dla nowych pracowników oraz terminu, w którym każdy będzie mógł wziąć udział w zajęciach. Najlepiej sprawdziłyby się krótkie ćwiczenia z omawianiem przykładów.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.193832624994684,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2f290c581d80a980a34a5441a94190dc54c1f50da0c4d0c2bf97b122ba18e066",
+  "response_sha256": "eb387184556fb7e8f767c20d82fedf28fdd7f37e4248a8fb44d6dad271b7d040"
+}

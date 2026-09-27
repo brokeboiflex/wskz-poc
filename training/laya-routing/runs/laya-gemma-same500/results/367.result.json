@@ -1,0 +1,13 @@
+{
+  "id": "it/ddos/conversation_history",
+  "family": "it/ddos",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Pomyłka w moim saldzie urlopu została wyjaśniona. W ewidencji są już prawidłowe dane, a poprzednie zgłoszenie jest zamknięte.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPubliczny serwis firmy przestał odpowiadać, a monitoring pokazuje gwałtowny wzrost ruchu z wielu nietypowych źródeł. Obciążenie łącza utrzymuje się mimo ograniczenia zwykłych zadań. Proszę o pilne sprawdzenie podejrzenia ataku przeciążeniowego i uruchomienie właściwych zabezpieczeń infrastruktury.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.2487529999925755,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "c84c9b533e754ae37f1eaa170d5adbf3cf015f6819f7dcc19000db97b4a74c96",
+  "response_sha256": "765d2a2c53d80244cb9d05cdd2145f5927422a6cc805ca8d66f935489fd67e99"
+}

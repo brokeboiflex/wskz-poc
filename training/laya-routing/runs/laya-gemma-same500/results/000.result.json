@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/interview-slot/base",
+  "family": "human_resources/interview-slot",
+  "message": "Dzień dobry, dostałam zaproszenie na rozmowę dotyczącą stanowiska analityczki, ale wskazana godzina pokrywa się z moim egzaminem. Czy możemy przełożyć spotkanie na czwartek po południu? Nadal jestem zainteresowana ofertą i zależy mi na rozmowie z osobą prowadzącą nabór.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.29121887500514276,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f19222074f3e33f33d8bf08c7c2efd1d9fec4e6873bae108b294b56094515049",
+  "response_sha256": "9e5c9d6351ff4c51ace7cf8c66f05570757bfde7ffb43dd06293f1f34359b721"
+}

@@ -1,0 +1,28 @@
+{
+  "http_status": 200,
+  "seconds": 9.838600041985046,
+  "response_sha256": "847a731bf3dc1e45454947cf87e90494e0d458d93894f5a3fa9f12d314ce9391",
+  "request_sha256": "4fe549e8007b8d9c97813e1502e4c1fd440dac9dc5db282e5a68596de5cfe41e",
+  "messages": [
+    {
+      "style": "short",
+      "message": "Proszę o informację o bieżącym etapie rekrutacji."
+    },
+    {
+      "style": "context",
+      "message": "Aktualnie trwają rekrutacja na stanowisko analityka. Chciałbym tylko zapytać o obecny status tego procesu. Proszę o informację, na jakim etapie jesteśmy."
+    },
+    {
+      "style": "resolved_history",
+      "message": "Wcześniej omówiliśmy kwestię zatrudnienia. Obecnie chcę dowiedzieć się, na jakim etapie jest trwająca rekrutacja na stanowisko analityka. Proszę o aktualizację informacji."
+    },
+    {
+      "style": "quotation",
+      "message": "„Jakie jest aktualne etapy rekrutacji?” Chciałbym tylko sprawdzić, na jakim etapie jest ta rekrutacja. Proszę o informację o obecnym statusie."
+    },
+    {
+      "style": "informal",
+      "message": "Hej, pytam o rekrutację. Jaki jest teraz status tego procesu rekrutacyjnego?"
+    }
+  ]
+}

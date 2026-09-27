@@ -1,0 +1,13 @@
+{
+  "id": "other/unknown-error/forwarded_history",
+  "family": "other/unknown-error",
+  "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nCoś się nie zgadza, ale trudno mi teraz dokładnie wyjaśnić co. Wczoraj było inaczej. Czy mogę najpierw z kimś porozmawiać i ustalić, od czego zacząć?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nAwaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum.",
+  "expected": "other",
+  "predicted": "it",
+  "correct": false,
+  "seconds": 0.23518454100121744,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "9f3cbb6eb2bb61a96063150644bc624260c403408e5819acb78a11becd1a4696",
+  "response_sha256": "ec163dfdea721d6a0cc8832fd62fb535e873c381192d8c101aa19f4bf821119e"
+}

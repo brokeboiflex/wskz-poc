@@ -1,0 +1,13 @@
+{
+  "id": "payroll/employment-history/resolved_preface",
+  "family": "payroll/employment-history",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n\nOsobna, aktualna wiadomość:\nOdnalazłam świadectwo pracy od poprzedniego pracodawcy, którego nie przekazałam przy zatrudnieniu. Może ono mieć znaczenie dla naliczenia mojego wymiaru urlopu. Proszę wskazać sposób uzupełnienia dokumentacji i zweryfikować, czy po jego uwzględnieniu zmieni się dostępny limit.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.23609224997926503,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "216ea3d95e2f0c0f861d4a98a780b304f97a7ccc5d7feff6b30a0b54f8cbbf50",
+  "response_sha256": "7662fc82ccdea1946e63e8007c293c44fd32c30283eabbe30358cc55c2f38e12"
+}

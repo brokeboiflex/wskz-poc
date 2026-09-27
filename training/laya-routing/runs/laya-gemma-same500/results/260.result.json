@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/battery/base",
+  "family": "help_desk/battery",
+  "message": "Służbowy laptop wyłącza się natychmiast po odłączeniu zasilacza, mimo że wskaźnik pokazuje naładowaną baterię. Przez to nie mogę korzystać z niego podczas spotkań poza biurkiem. Proszę o sprawdzenie baterii i ustalenie sposobu przywrócenia normalnego działania mojego urządzenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.21885029200348072,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "2726bd8489285abaf0a6734bf22dc728d2f7a72c754b6edf8438e5f6670ee596",
+  "response_sha256": "03f38dc8db73e589590e9fb89af55771e0fc2f9d75f8a1c6dae7e5de9abdee86"
+}

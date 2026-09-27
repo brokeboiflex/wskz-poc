@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/candidate-references/resolved_preface",
+  "family": "human_resources/candidate-references",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nOsobna, aktualna wiadomość:\nOsoba prowadząca moją rekrutację poprosiła o referencje po ostatniej rozmowie. Poprzedni przełożony zgodził się na kontakt, ale chciałbym najpierw potwierdzić sposób przekazania jego danych. Proszę o wskazanie właściwej osoby w zespole rekrutacyjnym i informacji potrzebnych do kontynuowania procesu.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.2307383749866858,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "bd263d8916aa813a0591e9bdbc5c22830d4a2851fb1c492dec979b07c3c7c81c",
+  "response_sha256": "3f6b1d0aa83c47b87c022bb16edf7130c55cb2a893d7998e66f99457cf43e26b"
+}

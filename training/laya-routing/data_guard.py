@@ -40,6 +40,8 @@ def validate(rows, forbidden, *, complete=True):
     """Return failures; full CLI always demands 2000/500/500, balanced classes."""
     errors = []
     families = defaultdict(set)
+    groups = defaultdict(set)
+    family_groups = defaultdict(set)
     counts = Counter()
     ids, seen = set(), {}
     valid = []
@@ -64,12 +66,37 @@ def validate(rows, forbidden, *, complete=True):
             errors.append({"kind": "duplicate_text", "ids": [seen[text], identifier]})
         seen[text] = identifier
         families[row["family"]].add(row["split"])
+        group = row.get("semantic_group")
+        if isinstance(group, str) and group.strip():
+            groups[group].add(row["split"])
+            family_groups[row["family"]].add(group)
+        elif complete:
+            errors.append({"kind": "missing_semantic_group", "id": identifier})
         counts[row["split"], row["label"]] += 1
         valid.append((row, text, shingles(text)))
     for family, splits in families.items():
         if len(splits) != 1:
             errors.append({"kind": "family_split", "family": family, "splits": sorted(splits)})
+    for group, splits in groups.items():
+        if len(splits) != 1:
+            errors.append(
+                {"kind": "semantic_group_split", "group": group, "splits": sorted(splits)}
+            )
+    for family, values in family_groups.items():
+        if len(values) != 1:
+            errors.append({"kind": "family_group_mismatch", "family": family})
     if complete:
+        for split, expected in (("train", 40), ("validation", 10), ("test", 10)):
+            actual = sum(splits == {split} for splits in groups.values())
+            if actual != expected:
+                errors.append(
+                    {
+                        "kind": "semantic_group_count",
+                        "split": split,
+                        "actual": actual,
+                        "expected": expected,
+                    }
+                )
         for split, total in COUNTS.items():
             for label in sorted(LABELS):
                 if counts[split, label] != total // 5:
@@ -126,6 +153,7 @@ def validate(rows, forbidden, *, complete=True):
         "complete_corpus_required": complete,
         "records": len(rows),
         "families": len(families),
+        "semantic_groups": len(groups),
         "counts": {f"{s}/{label}": count for (s, label), count in sorted(counts.items())},
         "errors": errors,
         "semantic_review_required": True,

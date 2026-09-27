@@ -1,0 +1,84 @@
+{
+  "reason": "Independent exclusion-only review before training; no old text or model predictions used to author replacements.",
+  "previous_plan_sha256": "9a20ee73e24d79943415584ac8aabb91cc34a6cdb0d3f3b5cc6c911f5394fc2f",
+  "replacements": [
+    {
+      "family": "human_resources-087",
+      "semantic_group": "human_resources:team_learning",
+      "split": "train",
+      "replacement": "Organizacja zespołowego ćwiczenia przekazywania instrukcji prostym językiem nowym współpracownikom."
+    },
+    {
+      "family": "human_resources-095",
+      "semantic_group": "human_resources:team_learning",
+      "split": "train",
+      "replacement": "Szkolenie prowadzących spotkania z równoważenia udziału osób cichych i dominujących."
+    },
+    {
+      "family": "payroll-002",
+      "semantic_group": "payroll:ordinary_leave",
+      "split": "train",
+      "replacement": "Wyjaśnienie, czy dzień świąteczny w środku zaplanowanego urlopu pomniejsza pulę dni wypoczynku."
+    },
+    {
+      "family": "payroll-013",
+      "semantic_group": "payroll:ordinary_leave",
+      "split": "train",
+      "replacement": "Rozliczenie niewykorzystanego fragmentu urlopu po wcześniejszym odwołaniu pracownika z wypoczynku."
+    },
+    {
+      "family": "payroll-025",
+      "semantic_group": "payroll:salary_payments",
+      "split": "train",
+      "replacement": "Wyjaśnienie rozdzielenia jednej wypłaty na dwa przelewy z opisami różnych okresów rozliczeniowych."
+    },
+    {
+      "family": "help_desk-080",
+      "semantic_group": "help_desk:personal_mail_client",
+      "split": "train",
+      "replacement": "Włączenie ostrzeżenia przed wysłaniem wiadomości bez zapowiedzianego załącznika w programie pocztowym jednej osoby."
+    },
+    {
+      "family": "it-030",
+      "semantic_group": "it:dns_certificates_domains",
+      "split": "train",
+      "replacement": "Centralny urząd certyfikacji odmawia wystawiania certyfikatów nowym usługom z powodu błędnego szablonu uprawnień."
+    },
+    {
+      "family": "it-046",
+      "semantic_group": "it:backup_recovery_infrastructure",
+      "split": "train",
+      "replacement": "Wdrożenie centralnej polityki niezmienialności kopii zapasowych, aby usunięcie ich wymagało odrębnej autoryzacji."
+    },
+    {
+      "family": "it-088",
+      "semantic_group": "it:account_intrusion",
+      "split": "train",
+      "replacement": "Wykrycie próby password spraying wobec setek firmowych kont z jednego zakresu adresów."
+    },
+    {
+      "family": "it-094",
+      "semantic_group": "it:data_exposure_incidents",
+      "split": "train",
+      "replacement": "Odbiorca widzi fragment cudzej faktury przez współdzieloną pamięć podręczną firmowego portalu; zgłoszenie ujawnienia danych."
+    },
+    {
+      "family": "it-104",
+      "semantic_group": "it:phishing_and_abuse",
+      "split": "train",
+      "replacement": "Zgłoszenie fałszywych kodów jednorazowych przychodzących SMS-em z prośbą o oddzwonienie i podanie hasła."
+    },
+    {
+      "family": "it-091",
+      "semantic_group": "it:shared_communication_platforms",
+      "split": "validation",
+      "replacement": "Firmowy mostek konferencyjny łączy uczestników dwóch odrębnych spotkań w jednej rozmowie."
+    },
+    {
+      "family": "it-072",
+      "semantic_group": "it:shared_storage_databases",
+      "split": "test",
+      "replacement": "Centralna baza danych zatrzymuje zapisy po wyczerpaniu puli identyfikatorów sekwencji, mimo wolnej przestrzeni dyskowej."
+    }
+  ]
+}

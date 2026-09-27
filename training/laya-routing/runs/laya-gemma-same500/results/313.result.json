@@ -1,0 +1,13 @@
+{
+  "id": "it/vpn-gateway/resolved_preface",
+  "family": "it/vpn-gateway",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Warsztat dla nowych liderów zakończył się w ubiegłym tygodniu. Materiały są już przekazane i nie potrzeba pomocy przy jego organizacji.\n\nOsobna, aktualna wiadomość:\nOd rana wszyscy pracownicy zdalni otrzymują błąd połączenia z bramą VPN. Wczoraj usługa działała, a dziś problem występuje z różnych sieci domowych. Proszę o sprawdzenie centralnej bramy, jej certyfikatów i dostępności, aby przywrócić zdalny dostęp do firmowych zasobów.",
+  "expected": "it",
+  "predicted": "it",
+  "correct": true,
+  "seconds": 0.23313899998902343,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "f6730c59d9b2cf560b64e1e4febca14ca9cf85c4f00044d6f07256bc2f276355",
+  "response_sha256": "5a74b326bdb016b890d339090c1312dfbf5ac9182d3d554af26f5e714da5a79f"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "human_resources/training-evaluation/conversation_history",
+  "family": "human_resources/training-evaluation",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nUkończyłem szkolenie z obsługi trudnych rozmów, ale większość programu nie odpowiadała opisowi, na podstawie którego się zapisałem. Chciałbym przekazać szczegółową opinię osobie odpowiedzialnej za rozwój pracowników. Proszę o kontakt, aby omówić przydatność zajęć i potrzeby kolejnych grup.",
+  "expected": "human_resources",
+  "predicted": "human_resources",
+  "correct": true,
+  "seconds": 0.24310712501755916,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "93d9d67e6707cee8f2ce59ae593ee20e95a9d74911c0ef6988d98f895074d355",
+  "response_sha256": "a713acbd051cae307cca898b57f3d4df8ec2151de31092f40b21b569609731b8"
+}

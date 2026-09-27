@@ -1,0 +1,77 @@
+{
+  "model": "laya-multilingual",
+  "messages": [
+    {
+      "role": "user",
+      "content": "W poniedziałek dołącza do nas nowa osoba. Sprzęt, konta i dokumenty zatrudnienia są już przygotowane. Potrzebuję natomiast planu spotkań zapoznawczych, prezentacji zasad współpracy i wskazania opiekuna wdrożenia. Proszę o pomoc w ułożeniu pierwszego tygodnia od strony organizacyjnej i rozwojowej.\n\nNowa osoba będzie pracowała z nami hybrydowo. W pierwszym tygodniu może być w biurze w poniedziałek i środę, a pozostałe dni spędzi zdalnie. Chcemy zaplanować poznanie ludzi, omówienie sposobu przekazywania zadań oraz krótką sesję pytań po pierwszych doświadczeniach.\n\nMamy prezentację o produktach, ale brakuje materiału o codziennych zasadach współpracy. Nie chcemy zasypać nowej osoby całym zestawem dokumentów pierwszego dnia. Potrzebujemy pomocy w rozłożeniu tematów i dobraniu opiekuna, który będzie dostępny również w dni pracy zdalnej. Warto byłoby też ustalić moment rozmowy podsumowującej po dwóch tygodniach i sposób zbierania informacji o trudnościach we wdrożeniu."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "route_message",
+        "description": "Wybierz dział.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "department": {
+              "type": "string",
+              "enum": [
+                "human_resources",
+                "payroll",
+                "help_desk",
+                "it",
+                "other"
+              ],
+              "description": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+              "anyOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "human_resources"
+                  ],
+                  "description": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "payroll"
+                  ],
+                  "description": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "help_desk"
+                  ],
+                  "description": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "it"
+                  ],
+                  "description": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa."
+                },
+                {
+                  "type": "string",
+                  "enum": [
+                    "other"
+                  ],
+                  "description": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+                }
+              ]
+            }
+          },
+          "required": [
+            "department"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "required",
+  "stream": false
+}

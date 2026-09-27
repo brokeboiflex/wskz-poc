@@ -1,0 +1,13 @@
+{
+  "id": "payroll/leave-request/base",
+  "family": "payroll/leave-request",
+  "message": "Chciałabym złożyć wniosek o pięć dni urlopu wypoczynkowego w drugiej połowie listopada. Termin jest już uzgodniony z przełożonym, a zastępstwo zostało zapewnione. Proszę o informację, jakie formalności muszę jeszcze uzupełnić i czy mój obecny limit pozwala na taki wymiar wolnego.",
+  "expected": "payroll",
+  "predicted": "payroll",
+  "correct": true,
+  "seconds": 0.19406041598995216,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "0efe8964a437f4ab55b5e813f209b4967f90573029d4e769c77382f2023c1a82",
+  "response_sha256": "c1315ec800350fe43be85889d29a9307a16ff712251f0a93623570fd38c63c91"
+}

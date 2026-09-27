@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/laptop-power/quoted_history",
+  "family": "help_desk/laptop-power",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nMój służbowy laptop nie włącza się od dzisiejszego poranka. Po podłączeniu zasilacza świeci tylko dioda ładowania, a przytrzymanie przycisku nie pomaga. Inni w pokoju pracują normalnie. Proszę o pomoc w sprawdzeniu urządzenia, bo mam na nim materiały potrzebne do dzisiejszego spotkania.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.256589750002604,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "97688f2802b78dd394643870de854a7dcc999a4ff57f814725891a714b71f3b3",
+  "response_sha256": "7cf44be3c616df3a496543b4b1b10fa1056f7550f3830df9f039422b65ee0f95"
+}

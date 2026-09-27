@@ -1,0 +1,13 @@
+{
+  "id": "help_desk/local-backup-restore/conversation_history",
+  "family": "help_desk/local-backup-restore",
+  "message": "Historia wcześniejszej rozmowy:\nJa: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPrzez pomyłkę nadpisałam własny arkusz roboczy pustą wersją. Zauważyłam to dopiero po zamknięciu programu, więc cofnięcie ostatniej operacji już nie działa. Czy można sprawdzić historię wersji lub kopię mojego pliku, żeby odzyskać wczorajszą zawartość bez naruszania pozostałych dokumentów?\n\nPamiętam nazwę pliku i folder, w którym pracowałam. Ostatnia poprawna wersja była otwierana wczoraj po południu. Od zauważenia pomyłki nie zapisuję już kolejnych zmian, żeby nie utrudniać przywrócenia właściwej zawartości.",
+  "expected": "help_desk",
+  "predicted": "help_desk",
+  "correct": true,
+  "seconds": 0.30036170899984427,
+  "http_status": 200,
+  "error": null,
+  "request_sha256": "b806e053247c23e873219e6b40d08b4aa311006c504b1fe6e71c2da9e08c095a",
+  "response_sha256": "2bb667f0b9130c2b8f32f59a6f24f6a4e1e470072b0838f219d6807ec18fc707"
+}
