@@ -1,0 +1,8 @@
+{
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "completed": 147,
+  "planned": 147,
+  "correct": 133,
+  "wrong_route": 14,
+  "protocol_error": 0
+}

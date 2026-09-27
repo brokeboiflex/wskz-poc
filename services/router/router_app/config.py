@@ -9,14 +9,14 @@ class Settings(BaseSettings):
 
     openai_base_url: str = "http://ollama:11434/v1"
     openai_api_key: SecretStr = SecretStr("ollama")
-    openai_model: str = "qwen3:1.7b"
+    openai_model: str = "gemma4:e2b"
     model_timeout_seconds: float = Field(default=180, gt=0, le=600)
     model_trace: bool = False
-    model_tool_choice: Literal["auto", "required", "named"] | None = None
+    model_tool_choice: Literal["auto", "required", "named"] | None = "required"
     model_max_tokens: int = Field(default=1024, ge=64, le=8192)
     model_token_limit_field: Literal["max_tokens", "max_completion_tokens"] = "max_tokens"
     model_reasoning_effort: str | None = "none"
-    model_temperature: float | None = Field(default=0.7, ge=0, le=2)
+    model_temperature: float | None = Field(default=0, ge=0, le=2)
     model_top_p: float | None = Field(default=0.8, gt=0, le=1)
 
     @field_validator(

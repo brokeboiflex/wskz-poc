@@ -1,0 +1,4 @@
+{
+  "status": 200,
+  "body": "{\"id\":\"chatcmpl-648\",\"object\":\"chat.completion\",\"created\":1790519313,\"model\":\"gemma4:e2b\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"id\":\"xKx6WGNrtReEOE9t283ZgZXISsmjKK9X\",\"index\":0,\"type\":\"function\",\"function\":{\"name\":\"send_department_email\",\"arguments\":\"{\\\"department\\\":\\\"it\\\"}\"}}]},\"finish_reason\":\"tool_calls\"}],\"usage\":{\"prompt_tokens\":856,\"prompt_tokens_details\":{\"cached_tokens\":526},\"completion_tokens\":17,\"total_tokens\":873}}\n"
+}

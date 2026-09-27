@@ -1,5 +1,9 @@
 # Synthetic Polish routing benchmark: 500 cases
 
+Final Gemma500 evaluation completed 2026-09-27: **493/500 correct (98.6%), 7 wrong routes, 0 missing/invalid native calls**. All500 first attempts, no retries or mail. Previous score471/500;27 old failures fixed,2 remain,5 new regressions. All raw responses and seven failure bundles saved; offline audit passed and1866 prior hashes unchanged. Synthetic regression evidence, not held-out/general application acceptance. [Results, failures and repeat procedure](evidence/2026-09-27/gemma-final-500/README.md). No further run is implicit.
+
+Final Gemma500 evaluation authorized 2026-09-27, unattended with a one-hour budget: [approach and checkpoints](evidence/2026-09-27/gemma-final-500/README.md). Current guidance, tool_choice=required and patched backend; each case once, all raw responses saved, no mail. This explicit authorization supersedes historical manual review gates for this run only.
+
 ## Authorization and scope
 
 On 2026-09-25 the user explicitly approved creating a synthetic benchmark of
@@ -229,3 +233,19 @@ the implementation checkpoint, then completed evidence.
 User stopped testing to inspect failures. No further inference. Results: 375 correct,
 6 wrong routes, 19 upstream missing calls; 381 live MIME audits passed. See
 `docs/evidence/2026-09-25/qwen4b-500/FAILURE_REVIEW.md` (path from repository root).
+
+## Completed English minimal-schema evaluation, 2026-09-26
+
+User authorized all 500 cases with failure-only records. Completed unchanged
+Qwen3 4B / patched Ollama / temperature 0: 353 correct, 109 wrong routes,
+38 missing native calls. All missing calls were in the other category and
+returned ordinary text with finish_reason=stop, not native tool_calls.
+This is transport-only evidence: no emails or application schema changes.
+All 147 failures and 182 review gates passed the offline consistency audit;
+successful raw responses were intentionally not retained. No further run is
+implicit. Approach, exact prompt/schema, failure report and audit command:
+`docs/evidence/2026-09-26/english-minimal-500/README.md` (repository-root path).
+
+## Full Gemma run completed, 2026-09-27 local time
+
+User explicitly requested all 500 cases through Gemma and saving every failure for debugging. Reused the observed transport-only method, frozen corrected prompt/minimal schema and patched backend from the previous 147-case check. Result: 471 correct, 24 wrong routes, 5 missing native calls; 29 full failure records, 77 reviewed gates, audits passed. Prior 147 outcomes match exactly. No retries or mail. The full approach, resume command, failure bundles and limits are in [gemma-patched-500/README.md](evidence/2026-09-26/gemma-patched-500/README.md).

@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "other/vague-urgent/base", "scenario_id": "other/vague-urgent", "variant": "base", "run_id": "a2a66a7cf100", "dataset_sha256": "77adc54749e16b2367b4a3e0c39151bde64ce28051c22b3b6f9a4d9602fb3fda", "expected": "other@example.com", "actual": "other@example.com", "request_id": "681f9a28-0b59-4a61-b366-bb44aee52925", "passed": true, "seconds": 4.449}
+{"run_id": "a2a66a7cf100", "dataset_sha256": "77adc54749e16b2367b4a3e0c39151bde64ce28051c22b3b6f9a4d9602fb3fda", "passed": 1, "total": 1}

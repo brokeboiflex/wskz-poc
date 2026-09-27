@@ -1,0 +1,10 @@
+{
+  "id": "it/token-leak/resolved_preface",
+  "scenario_id": "it/token-leak",
+  "variant": "resolved_preface",
+  "language": "pl",
+  "department": "it",
+  "recipient": "it@example.com",
+  "rationale": "Ujawniony sekret systemowy.",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Lokalny problem z drukowaniem mojego dokumentu został rozwiązany. Wydruk odebrano i nie ma potrzeby ponawiania tamtego zgłoszenia.\n\nOsobna, aktualna wiadomość:\nKlucz dostępu do firmowej usługi znalazł się omyłkowo w publicznym repozytorium. Repozytorium jest już ukryte, ale sam klucz nadal może działać. Proszę o natychmiastową obsługę incydentu, rotację ujawnionego poświadczenia oraz sprawdzenie logów pod kątem jego nieuprawnionego użycia."
+}

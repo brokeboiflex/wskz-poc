@@ -101,6 +101,8 @@ async def test_model_department_is_mapped_to_its_mailbox(health_client, departme
     "response",
     [
         AIMessage(content="Email sent successfully"),
+        # Ollama PR17284 returns failed parser output as text, never a native call.
+        AIMessage(content='<tool_call>{"name":"it","arguments":{"department":"it"}}</tool_call>'),
         AIMessage(content='{"recipient":"kadry@example.com"}'),
         AIMessage(content="", tool_calls=[call(), {**call(), "id": "call_2"}]),
         AIMessage(content="", tool_calls=[{**call(), "name": "unregistered_tool"}]),

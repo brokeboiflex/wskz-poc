@@ -1,0 +1,28 @@
+{
+  "transport_exit": 0,
+  "http_status": 200,
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "type": "function",
+        "function": {
+          "name": "send_department_email",
+          "arguments": "{\"department\":\"other\"}"
+        },
+        "id": "Vp3QtaY5THJoQWXsxIeafSEbfHHdHrJb"
+      }
+    ]
+  },
+  "finish_reason": "tool_calls",
+  "usage": {
+    "completion_tokens": 17,
+    "prompt_tokens": 732,
+    "total_tokens": 749,
+    "prompt_tokens_details": {
+      "cached_tokens": 731
+    }
+  },
+  "generated_tokens": "<|tool_call>call:send_department_email{department:<|\"|>other<|\"|>}<tool_call|>"
+}

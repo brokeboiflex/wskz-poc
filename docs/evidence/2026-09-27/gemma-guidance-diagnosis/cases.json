@@ -1,0 +1,232 @@
+[
+  {
+    "id": "human_resources/interview-slot/base",
+    "scenario_id": "human_resources/interview-slot",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Ustalenie terminu rozmowy rekrutacyjnej.",
+    "message": "Dzień dobry, dostałam zaproszenie na rozmowę dotyczącą stanowiska analityczki, ale wskazana godzina pokrywa się z moim egzaminem. Czy możemy przełożyć spotkanie na czwartek po południu? Nadal jestem zainteresowana ofertą i zależy mi na rozmowie z osobą prowadzącą nabór."
+  },
+  {
+    "id": "human_resources/accessible-interview/quoted_history",
+    "scenario_id": "human_resources/accessible-interview",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Dostosowanie przebiegu rekrutacji do potrzeb kandydata.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nJestem zaproszony na rozmowę rekrutacyjną w przyszłym tygodniu. Ze względu na niedosłuch potrzebuję rozmowy z napisami albo możliwości udzielenia części odpowiedzi pisemnie. Chciałbym wcześniej uzgodnić dostępny format spotkania, aby wszyscy uczestnicy mogli się do niego przygotować.\n\nRozmowa telefoniczna jest dla mnie trudniejsza niż spotkanie wideo z widoczną twarzą rozmówcy. W poprzednich procesach dobrze sprawdzało się także przesłanie pytań organizacyjnych tekstowo. Zależy mi na uzgodnieniu formy z wyprzedzeniem, żeby na samym spotkaniu skupić się na zadaniach i doświadczeniu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "human_resources/internship/base",
+    "scenario_id": "human_resources/internship",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zapytanie o program praktyk.",
+    "message": "Studiuję logistykę i szukam miejsca na praktyki wakacyjne. Na stronie firmy znalazłem opis zeszłorocznego programu, ale nie widzę aktualnych terminów. Czy w tym roku będą przyjmowani praktykanci i jakie dokumenty kandydat powinien złożyć na początku rekrutacji?"
+  },
+  {
+    "id": "human_resources/internship/resolved_preface",
+    "scenario_id": "human_resources/internship",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zapytanie o program praktyk.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n\nOsobna, aktualna wiadomość:\nStudiuję logistykę i szukam miejsca na praktyki wakacyjne. Na stronie firmy znalazłem opis zeszłorocznego programu, ale nie widzę aktualnych terminów. Czy w tym roku będą przyjmowani praktykanci i jakie dokumenty kandydat powinien złożyć na początku rekrutacji?"
+  },
+  {
+    "id": "human_resources/excel-training/base",
+    "scenario_id": "human_resources/excel-training",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Nauka narzędzia zamiast usuwania usterki.",
+    "message": "Arkusz działa poprawnie, ale przygotowanie raportów zajmuje mi dużo czasu, ponieważ nie znam tabel przestawnych. Czy mogę zapisać się na szkolenie z zaawansowanego Excela? Zależy mi na praktycznych ćwiczeniach z analizy danych, a nie na pomocy z jednym konkretnym plikiem.\n\nNa co dzień łączę dane z kilku arkuszy i porównuję miesięczne zestawienia. Robię to ręcznie, więc łatwo o przeoczenie wiersza. Przydałby się kurs obejmujący porządkowanie danych, tabele przestawne i kontrolę poprawności wyników na podobnych przykładach."
+  },
+  {
+    "id": "human_resources/team-integration/base",
+    "scenario_id": "human_resources/team-integration",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Wsparcie integracji i współpracy zespołu.",
+    "message": "Po połączeniu dwóch zespołów pracujemy obok siebie, ale rzadko wymieniamy wiedzę i trudno nam ustalać wspólne zasady. Chciałabym zorganizować moderowany warsztat integracyjny nastawiony na współpracę. Proszę pomóc dobrać formę spotkania, która nie ograniczy się do wspólnej rozrywki."
+  },
+  {
+    "id": "human_resources/employee-survey/base",
+    "scenario_id": "human_resources/employee-survey",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Organizacja badania opinii pracowników.",
+    "message": "Chcemy zebrać anonimowe opinie zespołu o jakości komunikacji z kierownictwem. Nie potrzebujemy rozwiązania technicznego, lecz pomocy w przygotowaniu pytań i zasad wykorzystania wyników. Proszę o konsultację badania, aby pracownicy wiedzieli, w jakim celu przekazują swoje odpowiedzi.\n\nZespół jest mały i obawiamy się, że zbyt szczegółowe pytania pozwolą rozpoznać autora odpowiedzi. Chcielibyśmy ustalić, jak grupować wyniki i komu udostępniać komentarze. Zależy nam na szczerych opiniach, które da się przełożyć na poprawę współpracy."
+  },
+  {
+    "id": "human_resources/employee-survey/resolved_postscript",
+    "scenario_id": "human_resources/employee-survey",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Organizacja badania opinii pracowników.",
+    "message": "Chcemy zebrać anonimowe opinie zespołu o jakości komunikacji z kierownictwem. Nie potrzebujemy rozwiązania technicznego, lecz pomocy w przygotowaniu pytań i zasad wykorzystania wyników. Proszę o konsultację badania, aby pracownicy wiedzieli, w jakim celu przekazują swoje odpowiedzi.\n\nZespół jest mały i obawiamy się, że zbyt szczegółowe pytania pozwolą rozpoznać autora odpowiedzi. Chcielibyśmy ustalić, jak grupować wyniki i komu udostępniać komentarze. Zależy nam na szczerych opiniach, które da się przełożyć na poprawę współpracy.\n\nPS. W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "human_resources/values-workshop/base",
+    "scenario_id": "human_resources/values-workshop",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Warsztat dotyczący kultury współpracy.",
+    "message": "Nowo połączone zespoły mają różne zwyczaje dotyczące spotkań, odpowiedzialności i przekazywania informacji. Potrzebujemy warsztatu, na którym ustalimy wspólne zasady współpracy. Proszę pomóc przygotować scenariusz i poprowadzić rozmowę tak, aby każda grupa mogła przedstawić swoje potrzeby."
+  },
+  {
+    "id": "human_resources/values-workshop/forwarded_history",
+    "scenario_id": "human_resources/values-workshop",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Warsztat dotyczący kultury współpracy.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNowo połączone zespoły mają różne zwyczaje dotyczące spotkań, odpowiedzialności i przekazywania informacji. Potrzebujemy warsztatu, na którym ustalimy wspólne zasady współpracy. Proszę pomóc przygotować scenariusz i poprowadzić rozmowę tak, aby każda grupa mogła przedstawić swoje potrzeby.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nWczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "human_resources/learning-platform-content/quoted_history",
+    "scenario_id": "human_resources/learning-platform-content",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Dobór treści szkoleniowych, nie problem z logowaniem.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nMam dostęp do platformy szkoleniowej i wszystkie materiały otwierają się poprawnie. Nie wiem jednak, które kursy wybrać przed objęciem roli opiekuna klienta. Proszę o wskazanie ścieżki nauki i obowiązkowych modułów, które najlepiej przygotują mnie do nowych zadań.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Zamówione wcześniej zaświadczenie o zarobkach zostało już wystawione i odebrane. Nie wymaga korekty ani dodatkowego działania.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "human_resources/training-reschedule/base",
+    "scenario_id": "human_resources/training-reschedule",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zmiana terminu udziału w szkoleniu.",
+    "message": "Zostałem zapisany na warsztat negocjacji, ale w tym samym terminie prowadzę wcześniej uzgodnione spotkanie z klientem. Chciałbym przenieść udział na kolejną edycję, zachowując miejsce w programie. Proszę sprawdzić dostępne terminy i poinformować prowadzącego o zmianie uczestnika."
+  },
+  {
+    "id": "human_resources/training-reschedule/resolved_preface",
+    "scenario_id": "human_resources/training-reschedule",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zmiana terminu udziału w szkoleniu.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: W poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n\nOsobna, aktualna wiadomość:\nZostałem zapisany na warsztat negocjacji, ale w tym samym terminie prowadzę wcześniej uzgodnione spotkanie z klientem. Chciałbym przenieść udział na kolejną edycję, zachowując miejsce w programie. Proszę sprawdzić dostępne terminy i poinformować prowadzącego o zmianie uczestnika."
+  },
+  {
+    "id": "human_resources/training-accessibility/base",
+    "scenario_id": "human_resources/training-accessibility",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Dostosowanie materiałów szkoleniowych.",
+    "message": "W przyszłym miesiącu biorę udział w szkoleniu wdrożeniowym. Ze względu na słaby wzrok potrzebuję materiałów w dostępnej wersji tekstowej oraz większej czcionki w ćwiczeniach. Proszę uzgodnić to z organizatorem zajęć przed spotkaniem, abym mogła pracować samodzielnie z pozostałymi uczestnikami."
+  },
+  {
+    "id": "human_resources/training-accessibility/resolved_postscript",
+    "scenario_id": "human_resources/training-accessibility",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Dostosowanie materiałów szkoleniowych.",
+    "message": "W przyszłym miesiącu biorę udział w szkoleniu wdrożeniowym. Ze względu na słaby wzrok potrzebuję materiałów w dostępnej wersji tekstowej oraz większej czcionki w ćwiczeniach. Proszę uzgodnić to z organizatorem zajęć przed spotkaniem, abym mogła pracować samodzielnie z pozostałymi uczestnikami.\n\nPS. Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "human_resources/recruitment-task/base",
+    "scenario_id": "human_resources/recruitment-task",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Doprecyzowanie zadania dla kandydata.",
+    "message": "Otrzymałam zadanie rekrutacyjne polegające na przygotowaniu analizy sprzedaży. W instrukcji nie wskazano, czy prezentacja ma być po polsku, czy po angielsku. Zanim rozpocznę pracę, proszę o doprecyzowanie oczekiwań oraz potwierdzenie terminu przekazania rozwiązania osobie oceniającej kandydatów."
+  },
+  {
+    "id": "human_resources/recruitment-task/resolved_postscript",
+    "scenario_id": "human_resources/recruitment-task",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Doprecyzowanie zadania dla kandydata.",
+    "message": "Otrzymałam zadanie rekrutacyjne polegające na przygotowaniu analizy sprzedaży. W instrukcji nie wskazano, czy prezentacja ma być po polsku, czy po angielsku. Zanim rozpocznę pracę, proszę o doprecyzowanie oczekiwań oraz potwierdzenie terminu przekazania rozwiązania osobie oceniającej kandydatów.\n\nPS. Wczorajsza przerwa w dostępie do serwera plików została usunięta. Wszystkie zespoły potwierdziły poprawne działanie usługi. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "human_resources/cross-team-conflict/base",
+    "scenario_id": "human_resources/cross-team-conflict",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Mediacja pomiędzy zespołami.",
+    "message": "Zespół sprzedaży i realizacji wzajemnie obwiniają się za opóźnienia, przez co wspólne spotkania przestały prowadzić do ustaleń. Potrzebujemy neutralnej osoby do moderowania rozmowy o odpowiedzialności. Proszę o pomoc w zorganizowaniu mediacji i wypracowaniu zasad przekazywania zadań.\n\nPrzykład z ostatniego tygodnia: handlowiec obiecał klientowi termin, którego realizacja nie uważała za możliwy. W odpowiedzi na wspólnym czacie pojawiły się osobiste uwagi i rozmowa przeszła z ustalania rozwiązania do przypominania dawnych błędów. Klient ostatecznie dostał nowy termin, ale napięcie zostało.\n\nObie strony chcą dalej współpracować, tylko każda oczekuje, że pierwsza ustąpi druga. Chcielibyśmy spotkać się w małej grupie z neutralnym moderatorem. Celem ma być sposób uzgadniania zobowiązań i wyjaśniania rozbieżności, a nie rozstrzyganie, kto ogólnie pracuje lepiej. Mogę zebrać przykłady sytuacji, które powtarzają się najczęściej."
+  },
+  {
+    "id": "human_resources/cross-team-conflict/forwarded_history",
+    "scenario_id": "human_resources/cross-team-conflict",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Mediacja pomiędzy zespołami.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZespół sprzedaży i realizacji wzajemnie obwiniają się za opóźnienia, przez co wspólne spotkania przestały prowadzić do ustaleń. Potrzebujemy neutralnej osoby do moderowania rozmowy o odpowiedzialności. Proszę o pomoc w zorganizowaniu mediacji i wypracowaniu zasad przekazywania zadań.\n\nPrzykład z ostatniego tygodnia: handlowiec obiecał klientowi termin, którego realizacja nie uważała za możliwy. W odpowiedzi na wspólnym czacie pojawiły się osobiste uwagi i rozmowa przeszła z ustalania rozwiązania do przypominania dawnych błędów. Klient ostatecznie dostał nowy termin, ale napięcie zostało.\n\nObie strony chcą dalej współpracować, tylko każda oczekuje, że pierwsza ustąpi druga. Chcielibyśmy spotkać się w małej grupie z neutralnym moderatorem. Celem ma być sposób uzgadniania zobowiązań i wyjaśniania rozbieżności, a nie rozstrzyganie, kto ogólnie pracuje lepiej. Mogę zebrać przykłady sytuacji, które powtarzają się najczęściej.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nW poprzednim wątku wyjaśniono różnicę na moim pasku wynagrodzenia. Poprawne rozliczenie jest już dostępne, a sprawa została zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "human_resources/recognition-program/quoted_history",
+    "scenario_id": "human_resources/recognition-program",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Zasady niematerialnego doceniania pracowników.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nChcemy uruchomić program, w którym pracownicy dziękują sobie za pomoc przy projektach. Nie przewidujemy premii ani rozliczeń finansowych. Potrzebujemy konsultacji zasad wyróżniania, aby program był przejrzysty i nie pomijał osób wykonujących mniej widoczną pracę w zespole.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Wcześniej nie działał monitor na moim biurku. Urządzenie zostało wymienione, obraz jest poprawny i tamto zgłoszenie zostało zamknięte.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "help_desk/local-backup-restore/base",
+    "scenario_id": "help_desk/local-backup-restore",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Przywrócenie pliku użytkownika z dostępnej kopii.",
+    "message": "Przez pomyłkę nadpisałam własny arkusz roboczy pustą wersją. Zauważyłam to dopiero po zamknięciu programu, więc cofnięcie ostatniej operacji już nie działa. Czy można sprawdzić historię wersji lub kopię mojego pliku, żeby odzyskać wczorajszą zawartość bez naruszania pozostałych dokumentów?\n\nPamiętam nazwę pliku i folder, w którym pracowałam. Ostatnia poprawna wersja była otwierana wczoraj po południu. Od zauważenia pomyłki nie zapisuję już kolejnych zmian, żeby nie utrudniać przywrócenia właściwej zawartości."
+  },
+  {
+    "id": "it/suspicious-forwarding/base",
+    "scenario_id": "it/suspicious-forwarding",
+    "variant": "base",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Podejrzana reguła przekazywania poczty.",
+    "message": "Na mojej skrzynce pojawiła się reguła automatycznie przekazująca wiadomości na nieznany adres zewnętrzny. Nie tworzyłem jej i nie rozpoznaję ostatnich zmian ustawień. Proszę o sprawdzenie podejrzenia naruszenia konta, zatrzymanie wycieku korespondencji i ustalenie zakresu zdarzenia.\n\nO zmianie dowiedziałem się przypadkiem przy sprawdzaniu ustawień. Reguła obejmuje wszystkie nowe wiadomości i dodatkowo ukrywa niektóre powiadomienia. Zachowałem widok konfiguracji, ale nie potrafię ocenić, od kiedy działa i jakie wiadomości mogły zostać przekazane."
+  },
+  {
+    "id": "it/suspicious-forwarding/resolved_postscript",
+    "scenario_id": "it/suspicious-forwarding",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "it",
+    "recipient": "it@example.com",
+    "rationale": "Podejrzana reguła przekazywania poczty.",
+    "message": "Na mojej skrzynce pojawiła się reguła automatycznie przekazująca wiadomości na nieznany adres zewnętrzny. Nie tworzyłem jej i nie rozpoznaję ostatnich zmian ustawień. Proszę o sprawdzenie podejrzenia naruszenia konta, zatrzymanie wycieku korespondencji i ustalenie zakresu zdarzenia.\n\nO zmianie dowiedziałem się przypadkiem przy sprawdzaniu ustawień. Reguła obejmuje wszystkie nowe wiadomości i dodatkowo ukrywa niektóre powiadomienia. Zachowałem widok konfiguracji, ale nie potrafię ocenić, od kiedy działa i jakie wiadomości mogły zostać przekazane.\n\nPS. Stary problem z myszą przy moim biurku rozwiązano przez wymianę urządzenia. Nowa mysz działa i nie wymaga dalszego sprawdzania. Ta dopisana informacja nie jest nową prośbą."
+  }
+]

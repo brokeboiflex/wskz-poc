@@ -1,0 +1,10 @@
+{
+  "id": "human_resources/interview-slot/base",
+  "scenario_id": "human_resources/interview-slot",
+  "variant": "base",
+  "language": "pl",
+  "department": "human_resources",
+  "recipient": "human-resources@example.com",
+  "rationale": "Ustalenie terminu rozmowy rekrutacyjnej.",
+  "message": "Dzień dobry, dostałam zaproszenie na rozmowę dotyczącą stanowiska analityczki, ale wskazana godzina pokrywa się z moim egzaminem. Czy możemy przełożyć spotkanie na czwartek po południu? Nadal jestem zainteresowana ofertą i zależy mi na rozmowie z osobą prowadzącą nabór."
+}

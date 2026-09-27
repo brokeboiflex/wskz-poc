@@ -1,0 +1,37 @@
+{
+  "message-router-ollama-1": {
+    "id": "965be3668c5683b7ed61d0ce646417bd0ac422db61a8018d3f9ae2247b2948a9",
+    "image": "sha256:f3d9e1f71a3f6d54ac426206726a3f18b412eece49445cb6230bf60da52119b9",
+    "tag": "wskz-ollama-candidate:0.34.4-poc.tool-choice.2",
+    "status": "running",
+    "health": "healthy"
+  },
+  "message-router-api-1": {
+    "id": "252e81d118fd87e83409f0b2c1fe94388ba78d3d27161ef8a7277284cdacd5e3",
+    "image": "sha256:1f2739136c28516f6333ca765a37933da574edf2ea6cfc85be8ad7ee95cf8447",
+    "tag": "message-router-api",
+    "status": "running",
+    "health": "starting",
+    "settings": {
+      "MODEL_TOKEN_LIMIT_FIELD": "max_tokens",
+      "MODEL_MAX_TOKENS": "1024",
+      "OPENAI_BASE_URL": "http://ollama:11434/v1",
+      "MODEL_TOOL_CHOICE": "required",
+      "MODEL_TRACE": "false",
+      "MODEL_TOP_P": "0.8",
+      "MODEL_TEMPERATURE": "0",
+      "MODEL_REASONING_EFFORT": "none",
+      "MODEL_TIMEOUT_SECONDS": "180",
+      "OPENAI_MODEL": "qwen3:4b-instruct-2507-q4_K_M"
+    },
+    "agent_sha256": "a2103f4593a1a119cd038128b71b655bc9bb6cdcd84735ac4a540ec38c44b38d"
+  },
+  "message-router-mailer-1": {
+    "id": "9dd29f49f5b5601f23390be734f3f23b7008fbe00c22eb43f8207e137ca78157",
+    "image": "sha256:b95ffbe0d30b4086e4ad5b3dd4b71c85af1cb2bc1298319835e2ba3bb9c6e8a2",
+    "tag": "message-router-mailer",
+    "status": "running",
+    "health": "unhealthy"
+  },
+  "ollama_version": "ollama version is 0.34.4-poc.tool-choice.2"
+}

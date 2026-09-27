@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "old_evidence_and_agent_unchanged": true,
+  "same_backend_before_after": true,
+  "ollama_healthy": true,
+  "qwen_all_outcomes_identical_to_prior_backend": true
+}

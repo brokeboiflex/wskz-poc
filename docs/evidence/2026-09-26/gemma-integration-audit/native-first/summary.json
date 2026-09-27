@@ -1,0 +1,18 @@
+{
+  "transport_exit": 0,
+  "http_status": 200,
+  "message": {
+    "role": "assistant",
+    "content": "<|tool_call>call:send_department_email{department:human_resources}<tool_call|>"
+  },
+  "finish_reason": "stop",
+  "usage": {
+    "completion_tokens": 19,
+    "prompt_tokens": 506,
+    "total_tokens": 525,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "generated_tokens": "<|tool_call>call:send_department_email{department:human_resources}<tool_call|>"
+}

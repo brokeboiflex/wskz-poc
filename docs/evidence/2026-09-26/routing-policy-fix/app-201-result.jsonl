@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "help_desk/laptop-power/base", "scenario_id": "help_desk/laptop-power", "variant": "base", "run_id": "f7b29cd65a60", "dataset_sha256": "02baa775a54585abf3d1a0964d1b320c9bb4a8c7ae2d62a2adbb14afd545e601", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "f0326425-4dd7-42bf-aefc-0e5b27f5d357", "passed": true, "seconds": 6.169}
+{"run_id": "f7b29cd65a60", "dataset_sha256": "02baa775a54585abf3d1a0964d1b320c9bb4a8c7ae2d62a2adbb14afd545e601", "passed": 1, "total": 1}

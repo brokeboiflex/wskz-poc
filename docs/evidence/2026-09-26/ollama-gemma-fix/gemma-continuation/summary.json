@@ -1,0 +1,18 @@
+{
+  "transport_exit": 0,
+  "http_status": 200,
+  "message": {
+    "role": "assistant",
+    "content": ""
+  },
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 133,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    },
+    "completion_tokens": 1,
+    "total_tokens": 134
+  },
+  "generated_tokens": ""
+}

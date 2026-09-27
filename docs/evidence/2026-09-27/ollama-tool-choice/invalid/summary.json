@@ -1,0 +1,12 @@
+{
+  "transport_exit": 0,
+  "http_status": 400,
+  "error": {
+    "error": {
+      "message": "invalid tool_choice or required without tools",
+      "type": "invalid_request_error",
+      "param": null,
+      "code": null
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "other/missing-attachment/quoted_history",
+  "scenario_id": "other/missing-attachment",
+  "variant": "quoted_history",
+  "language": "pl",
+  "department": "other",
+  "recipient": "other@example.com",
+  "rationale": "Brak treści pozwalającej ustalić temat.",
+  "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nDzień dobry, proszę sprawdzić sprawę opisaną w załączniku i przekazać mi informację o dalszych krokach.\n\n[Brak załączników]\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+}

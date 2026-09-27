@@ -1,0 +1,29 @@
+{
+  "transport_exit": 0,
+  "stream_done": true,
+  "http_status": 200,
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "5Ep9L8AumASWp7Yf5fGfmdoq5tMq7Lru",
+        "type": "function",
+        "function": {
+          "name": "lookup_forecast",
+          "arguments": "{\"city\":\"Łódź\"}"
+        }
+      }
+    ]
+  },
+  "finish_reason": "tool_calls",
+  "usage": {
+    "prompt_tokens": 88,
+    "prompt_tokens_details": {
+      "cached_tokens": 1
+    },
+    "completion_tokens": 17,
+    "total_tokens": 105
+  },
+  "generated_tokens": ""
+}

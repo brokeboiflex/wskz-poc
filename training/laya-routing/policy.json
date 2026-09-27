@@ -1,0 +1,10 @@
+{
+  "instructions": "Do którego działu należy skierować główną prośbę zawartą w tej wiadomości? Wybierz dział na podstawie treści wiadomości i opisów działów.",
+  "criteria": {
+    "human_resources": "Rekrutacja, szkolenia, rozwój zawodowy i relacje pracownicze.",
+    "payroll": "Urlopy, wynagrodzenia, płace, ewidencja czasu pracy i dokumenty zatrudnienia.",
+    "help_desk": "Pomoc pojedynczemu użytkownikowi: niedziałający komputer, drukarka, hasła i logowanie.",
+    "it": "Infrastruktura, serwery, awarie sieci obejmujące firmę i incydenty cyberbezpieczeństwa.",
+    "other": "Pozostałe tematy, niezrozumiałe treści lub brak informacji pozwalających wybrać dział."
+  }
+}

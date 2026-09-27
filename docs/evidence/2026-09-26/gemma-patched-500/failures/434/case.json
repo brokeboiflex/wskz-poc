@@ -1,0 +1,10 @@
+{
+  "id": "other/private-purchase/resolved_preface",
+  "scenario_id": "other/private-purchase",
+  "variant": "resolved_preface",
+  "language": "pl",
+  "department": "other",
+  "recipient": "other@example.com",
+  "rationale": "Reklamacja prywatnego zakupu.",
+  "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nOsobna, aktualna wiadomość:\nKupiłam w sklepie internetowym czajnik do domu i otrzymałam model w innym kolorze niż zamówiony. Chciałabym napisać do sprzedawcy prośbę o wymianę. Czy możecie pomóc ułożyć taką wiadomość? Zakup był prywatny i nie ma związku z firmowym wyposażeniem.\n\nNa potwierdzeniu zamówienia mam właściwy wariant, a etykieta pudełka wskazuje inny. Samo urządzenie wygląda na nieużywane i nie zostało jeszcze uruchomione. Mam zdjęcia przesyłki, numer zamówienia oraz wiadomość od sklepu potwierdzającą zakup.\n\nChciałabym poprosić o wymianę na zamówiony kolor, a nie o zwrot pieniędzy. Nie wiem, czy w pierwszej wiadomości opisywać wszystko szczegółowo, czy wystarczy krótka informacja i zdjęcia. Zależy mi na spokojnym tonie, bo być może to zwykła pomyłka podczas pakowania. Pomóżcie ułożyć jasną wiadomość do sprzedawcy z prośbą o wskazanie sposobu wymiany i o informację, jak przygotować paczkę do odbioru."
+}

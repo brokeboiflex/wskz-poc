@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "new_diagnostic_generations": 3,
+  "identical_request_in_every_diagnostic": true,
+  "official_template_matches_ollama": true,
+  "native_prompt_matches_after_bos_handling": true,
+  "unconstrained_control_reproduces_original_tokens_exactly": true,
+  "native_tool_grammar_forces_registered_function_name": true,
+  "special_token_flag_changes_decoding_not_generated_token_ids": true,
+  "native_special_returns_one_valid_correct_tool_call": true,
+  "frozen_comparison_unchanged": true,
+  "bulk_resumed": false,
+  "tool_execution": false,
+  "application_or_backend_code_patched": false,
+  "full_argument_schema_enforcement_proven": false,
+  "full_model_reliability_proven": false
+}

@@ -1,0 +1,7 @@
+{
+  "time": "2026-09-26T23:26:44.263411+00:00",
+  "image_id": "sha256:006d00b95023fbfc98de1a193160edb1c48a314ebed61dc48c585f9db4157ca2",
+  "health": "healthy",
+  "temporary_native_processes_stopped": true,
+  "api_rebuilt_or_redeployed": false
+}

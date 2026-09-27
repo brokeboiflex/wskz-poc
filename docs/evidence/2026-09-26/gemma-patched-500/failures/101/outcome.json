@@ -1,0 +1,10 @@
+{
+  "index": 101,
+  "original_case": 101,
+  "case_id": "payroll/leave-balance/base",
+  "expected": "payroll",
+  "actual": null,
+  "category": "protocol_error",
+  "reason": "missing or incomplete native call",
+  "seconds": 2.806
+}

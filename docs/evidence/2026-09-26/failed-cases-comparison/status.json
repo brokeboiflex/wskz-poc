@@ -1,0 +1,9 @@
+{
+  "status": "blocked_before_inference",
+  "selected_cases": 147,
+  "completed_inferences": 0,
+  "server": "0.13.5-poc.17284",
+  "candidate": "gemma4:e4b",
+  "error": "HTTP412: model requires a newer version of Ollama",
+  "application_changed": false
+}

@@ -1,0 +1,832 @@
+{
+  "input_hashes": {
+    "cases.json": "bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e",
+    "prompt.txt": "cbcd42005f020cd99514151f36eca0f48ede39b228d3e1a2965326bcacf309dc",
+    "tool.json": "986245f4d29377f36c09a57b93d7f166df327ddaeb9a3a015ed134422b90c411",
+    "request-template.json": "1d82175ebf8450db25e0cca7903f86ad300fa1d3302c28924ecbcd5a587ff389",
+    "probe.py": "7a7fd0b79d34c7655a51d03d7d8abba76bfc4163135cc25cfc6f2584bdcf6edd",
+    "run.py": "f489d0423f667f8daf6fbf97abc66b8989ad33a94979dd45bc542917c26b0e4c",
+    "audit.py": "66c5165fdd79771fcc50337f43dc599fd43a0bf247dcfacfb5e2fbc710bcbba9"
+  },
+  "models": {
+    "gemma": {
+      "model": "gemma4:e2b",
+      "correct": 493,
+      "wrong_route": 7,
+      "protocol_error": 0,
+      "failures_audited": 7,
+      "median_seconds": 1.7999999999999998,
+      "total_seconds": 909.394
+    }
+  },
+  "successful_raw_responses_retained": true,
+  "per_department": {
+    "help_desk": {
+      "correct": 99,
+      "wrong_route": 1,
+      "protocol_error": 0
+    },
+    "human_resources": {
+      "correct": 99,
+      "wrong_route": 1,
+      "protocol_error": 0
+    },
+    "it": {
+      "correct": 100,
+      "wrong_route": 0,
+      "protocol_error": 0
+    },
+    "other": {
+      "correct": 99,
+      "wrong_route": 1,
+      "protocol_error": 0
+    },
+    "payroll": {
+      "correct": 96,
+      "wrong_route": 4,
+      "protocol_error": 0
+    }
+  },
+  "confusion_matrix": {
+    "help_desk": {
+      "help_desk": 99,
+      "human_resources": 0,
+      "it": 0,
+      "other": 1,
+      "payroll": 0,
+      "null": 0
+    },
+    "human_resources": {
+      "help_desk": 0,
+      "human_resources": 99,
+      "it": 0,
+      "other": 1,
+      "payroll": 0,
+      "null": 0
+    },
+    "it": {
+      "help_desk": 0,
+      "human_resources": 0,
+      "it": 100,
+      "other": 0,
+      "payroll": 0,
+      "null": 0
+    },
+    "other": {
+      "help_desk": 0,
+      "human_resources": 0,
+      "it": 1,
+      "other": 99,
+      "payroll": 0,
+      "null": 0
+    },
+    "payroll": {
+      "help_desk": 0,
+      "human_resources": 3,
+      "it": 0,
+      "other": 1,
+      "payroll": 96,
+      "null": 0
+    }
+  },
+  "previous_500_changes": [
+    {
+      "case_id": "human_resources/interview-slot/base",
+      "previous": {
+        "index": 1,
+        "original_case": 1,
+        "case_id": "human_resources/interview-slot/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.451
+      },
+      "current": {
+        "index": 1,
+        "original_case": 1,
+        "case_id": "human_resources/interview-slot/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 6.749
+      }
+    },
+    {
+      "case_id": "human_resources/accessible-interview/quoted_history",
+      "previous": {
+        "index": 12,
+        "original_case": 12,
+        "case_id": "human_resources/accessible-interview/quoted_history",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.981
+      },
+      "current": {
+        "index": 12,
+        "original_case": 12,
+        "case_id": "human_resources/accessible-interview/quoted_history",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.406
+      }
+    },
+    {
+      "case_id": "human_resources/internship/base",
+      "previous": {
+        "index": 13,
+        "original_case": 13,
+        "case_id": "human_resources/internship/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.148
+      },
+      "current": {
+        "index": 13,
+        "original_case": 13,
+        "case_id": "human_resources/internship/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.595
+      }
+    },
+    {
+      "case_id": "human_resources/internship/resolved_preface",
+      "previous": {
+        "index": 14,
+        "original_case": 14,
+        "case_id": "human_resources/internship/resolved_preface",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.428
+      },
+      "current": {
+        "index": 14,
+        "original_case": 14,
+        "case_id": "human_resources/internship/resolved_preface",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.28
+      }
+    },
+    {
+      "case_id": "human_resources/excel-training/base",
+      "previous": {
+        "index": 27,
+        "original_case": 27,
+        "case_id": "human_resources/excel-training/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.675
+      },
+      "current": {
+        "index": 27,
+        "original_case": 27,
+        "case_id": "human_resources/excel-training/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.777
+      }
+    },
+    {
+      "case_id": "human_resources/mentoring/resolved_preface",
+      "previous": {
+        "index": 34,
+        "original_case": 34,
+        "case_id": "human_resources/mentoring/resolved_preface",
+        "expected": "human_resources",
+        "actual": null,
+        "category": "protocol_error",
+        "reason": "missing or incomplete native call",
+        "seconds": 2.552
+      },
+      "current": {
+        "index": 34,
+        "original_case": 34,
+        "case_id": "human_resources/mentoring/resolved_preface",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.071
+      }
+    },
+    {
+      "case_id": "human_resources/team-integration/base",
+      "previous": {
+        "index": 57,
+        "original_case": 57,
+        "case_id": "human_resources/team-integration/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.071
+      },
+      "current": {
+        "index": 57,
+        "original_case": 57,
+        "case_id": "human_resources/team-integration/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.612
+      }
+    },
+    {
+      "case_id": "human_resources/employee-survey/base",
+      "previous": {
+        "index": 65,
+        "original_case": 65,
+        "case_id": "human_resources/employee-survey/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.765
+      },
+      "current": {
+        "index": 65,
+        "original_case": 65,
+        "case_id": "human_resources/employee-survey/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.979
+      }
+    },
+    {
+      "case_id": "human_resources/employee-survey/resolved_postscript",
+      "previous": {
+        "index": 66,
+        "original_case": 66,
+        "case_id": "human_resources/employee-survey/resolved_postscript",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 1.526
+      },
+      "current": {
+        "index": 66,
+        "original_case": 66,
+        "case_id": "human_resources/employee-survey/resolved_postscript",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.206
+      }
+    },
+    {
+      "case_id": "human_resources/values-workshop/base",
+      "previous": {
+        "index": 69,
+        "original_case": 69,
+        "case_id": "human_resources/values-workshop/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.039
+      },
+      "current": {
+        "index": 69,
+        "original_case": 69,
+        "case_id": "human_resources/values-workshop/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.667
+      }
+    },
+    {
+      "case_id": "human_resources/values-workshop/forwarded_history",
+      "previous": {
+        "index": 70,
+        "original_case": 70,
+        "case_id": "human_resources/values-workshop/forwarded_history",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.638
+      },
+      "current": {
+        "index": 70,
+        "original_case": 70,
+        "case_id": "human_resources/values-workshop/forwarded_history",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.977
+      }
+    },
+    {
+      "case_id": "human_resources/learning-platform-content/quoted_history",
+      "previous": {
+        "index": 72,
+        "original_case": 72,
+        "case_id": "human_resources/learning-platform-content/quoted_history",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.495
+      },
+      "current": {
+        "index": 72,
+        "original_case": 72,
+        "case_id": "human_resources/learning-platform-content/quoted_history",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.96
+      }
+    },
+    {
+      "case_id": "human_resources/training-reschedule/base",
+      "previous": {
+        "index": 73,
+        "original_case": 73,
+        "case_id": "human_resources/training-reschedule/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.097
+      },
+      "current": {
+        "index": 73,
+        "original_case": 73,
+        "case_id": "human_resources/training-reschedule/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.871
+      }
+    },
+    {
+      "case_id": "human_resources/training-reschedule/resolved_preface",
+      "previous": {
+        "index": 74,
+        "original_case": 74,
+        "case_id": "human_resources/training-reschedule/resolved_preface",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.688
+      },
+      "current": {
+        "index": 74,
+        "original_case": 74,
+        "case_id": "human_resources/training-reschedule/resolved_preface",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.932
+      }
+    },
+    {
+      "case_id": "human_resources/training-accessibility/base",
+      "previous": {
+        "index": 75,
+        "original_case": 75,
+        "case_id": "human_resources/training-accessibility/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.267
+      },
+      "current": {
+        "index": 75,
+        "original_case": 75,
+        "case_id": "human_resources/training-accessibility/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.685
+      }
+    },
+    {
+      "case_id": "human_resources/training-accessibility/resolved_postscript",
+      "previous": {
+        "index": 76,
+        "original_case": 76,
+        "case_id": "human_resources/training-accessibility/resolved_postscript",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 1.836
+      },
+      "current": {
+        "index": 76,
+        "original_case": 76,
+        "case_id": "human_resources/training-accessibility/resolved_postscript",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.17
+      }
+    },
+    {
+      "case_id": "human_resources/recruitment-task/base",
+      "previous": {
+        "index": 85,
+        "original_case": 85,
+        "case_id": "human_resources/recruitment-task/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.233
+      },
+      "current": {
+        "index": 85,
+        "original_case": 85,
+        "case_id": "human_resources/recruitment-task/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.748
+      }
+    },
+    {
+      "case_id": "human_resources/cross-team-conflict/base",
+      "previous": {
+        "index": 89,
+        "original_case": 89,
+        "case_id": "human_resources/cross-team-conflict/base",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.945
+      },
+      "current": {
+        "index": 89,
+        "original_case": 89,
+        "case_id": "human_resources/cross-team-conflict/base",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.28
+      }
+    },
+    {
+      "case_id": "human_resources/cross-team-conflict/forwarded_history",
+      "previous": {
+        "index": 90,
+        "original_case": 90,
+        "case_id": "human_resources/cross-team-conflict/forwarded_history",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 3.846
+      },
+      "current": {
+        "index": 90,
+        "original_case": 90,
+        "case_id": "human_resources/cross-team-conflict/forwarded_history",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 3.237
+      }
+    },
+    {
+      "case_id": "human_resources/recognition-program/quoted_history",
+      "previous": {
+        "index": 92,
+        "original_case": 92,
+        "case_id": "human_resources/recognition-program/quoted_history",
+        "expected": "human_resources",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected human_resources, received other",
+        "seconds": 2.895
+      },
+      "current": {
+        "index": 92,
+        "original_case": 92,
+        "case_id": "human_resources/recognition-program/quoted_history",
+        "expected": "human_resources",
+        "actual": "human_resources",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.039
+      }
+    },
+    {
+      "case_id": "payroll/leave-balance/base",
+      "previous": {
+        "index": 101,
+        "original_case": 101,
+        "case_id": "payroll/leave-balance/base",
+        "expected": "payroll",
+        "actual": null,
+        "category": "protocol_error",
+        "reason": "missing or incomplete native call",
+        "seconds": 2.806
+      },
+      "current": {
+        "index": 101,
+        "original_case": 101,
+        "case_id": "payroll/leave-balance/base",
+        "expected": "payroll",
+        "actual": "payroll",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.601
+      }
+    },
+    {
+      "case_id": "payroll/parental-leave/base",
+      "previous": {
+        "index": 113,
+        "original_case": 113,
+        "case_id": "payroll/parental-leave/base",
+        "expected": "payroll",
+        "actual": "payroll",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.844
+      },
+      "current": {
+        "index": 113,
+        "original_case": 113,
+        "case_id": "payroll/parental-leave/base",
+        "expected": "payroll",
+        "actual": "human_resources",
+        "category": "wrong_route",
+        "reason": "expected payroll, received human_resources",
+        "seconds": 2.272
+      }
+    },
+    {
+      "case_id": "payroll/occasional-leave/base",
+      "previous": {
+        "index": 117,
+        "original_case": 117,
+        "case_id": "payroll/occasional-leave/base",
+        "expected": "payroll",
+        "actual": "payroll",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.988
+      },
+      "current": {
+        "index": 117,
+        "original_case": 117,
+        "case_id": "payroll/occasional-leave/base",
+        "expected": "payroll",
+        "actual": "human_resources",
+        "category": "wrong_route",
+        "reason": "expected payroll, received human_resources",
+        "seconds": 1.623
+      }
+    },
+    {
+      "case_id": "payroll/employment-certificate/base",
+      "previous": {
+        "index": 147,
+        "original_case": 147,
+        "case_id": "payroll/employment-certificate/base",
+        "expected": "payroll",
+        "actual": "payroll",
+        "category": "correct",
+        "reason": null,
+        "seconds": 3.257
+      },
+      "current": {
+        "index": 147,
+        "original_case": 147,
+        "case_id": "payroll/employment-certificate/base",
+        "expected": "payroll",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected payroll, received other",
+        "seconds": 2.251
+      }
+    },
+    {
+      "case_id": "payroll/employment-history/resolved_preface",
+      "previous": {
+        "index": 174,
+        "original_case": 174,
+        "case_id": "payroll/employment-history/resolved_preface",
+        "expected": "payroll",
+        "actual": "payroll",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.375
+      },
+      "current": {
+        "index": 174,
+        "original_case": 174,
+        "case_id": "payroll/employment-history/resolved_preface",
+        "expected": "payroll",
+        "actual": "human_resources",
+        "category": "wrong_route",
+        "reason": "expected payroll, received human_resources",
+        "seconds": 1.837
+      }
+    },
+    {
+      "case_id": "help_desk/local-backup-restore/conversation_history",
+      "previous": {
+        "index": 288,
+        "original_case": 288,
+        "case_id": "help_desk/local-backup-restore/conversation_history",
+        "expected": "help_desk",
+        "actual": null,
+        "category": "protocol_error",
+        "reason": "missing or incomplete native call",
+        "seconds": 2.892
+      },
+      "current": {
+        "index": 288,
+        "original_case": 288,
+        "case_id": "help_desk/local-backup-restore/conversation_history",
+        "expected": "help_desk",
+        "actual": "help_desk",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.268
+      }
+    },
+    {
+      "case_id": "it/token-leak/resolved_preface",
+      "previous": {
+        "index": 364,
+        "original_case": 364,
+        "case_id": "it/token-leak/resolved_preface",
+        "expected": "it",
+        "actual": "help_desk",
+        "category": "wrong_route",
+        "reason": "expected it, received help_desk",
+        "seconds": 2.425
+      },
+      "current": {
+        "index": 364,
+        "original_case": 364,
+        "case_id": "it/token-leak/resolved_preface",
+        "expected": "it",
+        "actual": "it",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.799
+      }
+    },
+    {
+      "case_id": "it/suspicious-forwarding/base",
+      "previous": {
+        "index": 365,
+        "original_case": 365,
+        "case_id": "it/suspicious-forwarding/base",
+        "expected": "it",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected it, received other",
+        "seconds": 2.622
+      },
+      "current": {
+        "index": 365,
+        "original_case": 365,
+        "case_id": "it/suspicious-forwarding/base",
+        "expected": "it",
+        "actual": "it",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.956
+      }
+    },
+    {
+      "case_id": "it/suspicious-forwarding/resolved_postscript",
+      "previous": {
+        "index": 366,
+        "original_case": 366,
+        "case_id": "it/suspicious-forwarding/resolved_postscript",
+        "expected": "it",
+        "actual": "other",
+        "category": "wrong_route",
+        "reason": "expected it, received other",
+        "seconds": 1.585
+      },
+      "current": {
+        "index": 366,
+        "original_case": 366,
+        "case_id": "it/suspicious-forwarding/resolved_postscript",
+        "expected": "it",
+        "actual": "it",
+        "category": "correct",
+        "reason": null,
+        "seconds": 1.088
+      }
+    },
+    {
+      "case_id": "other/travel-route/resolved_preface",
+      "previous": {
+        "index": 404,
+        "original_case": 404,
+        "case_id": "other/travel-route/resolved_preface",
+        "expected": "other",
+        "actual": null,
+        "category": "protocol_error",
+        "reason": "missing or incomplete native call",
+        "seconds": 1.973
+      },
+      "current": {
+        "index": 404,
+        "original_case": 404,
+        "case_id": "other/travel-route/resolved_preface",
+        "expected": "other",
+        "actual": "other",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.045
+      }
+    },
+    {
+      "case_id": "other/private-purchase/resolved_preface",
+      "previous": {
+        "index": 434,
+        "original_case": 434,
+        "case_id": "other/private-purchase/resolved_preface",
+        "expected": "other",
+        "actual": null,
+        "category": "protocol_error",
+        "reason": "missing or incomplete native call",
+        "seconds": 2.861
+      },
+      "current": {
+        "index": 434,
+        "original_case": 434,
+        "case_id": "other/private-purchase/resolved_preface",
+        "expected": "other",
+        "actual": "other",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.641
+      }
+    },
+    {
+      "case_id": "other/missing-attachment/quoted_history",
+      "previous": {
+        "index": 472,
+        "original_case": 472,
+        "case_id": "other/missing-attachment/quoted_history",
+        "expected": "other",
+        "actual": "other",
+        "category": "correct",
+        "reason": null,
+        "seconds": 2.128
+      },
+      "current": {
+        "index": 472,
+        "original_case": 472,
+        "case_id": "other/missing-attachment/quoted_history",
+        "expected": "other",
+        "actual": "it",
+        "category": "wrong_route",
+        "reason": "expected other, received it",
+        "seconds": 1.762
+      }
+    }
+  ],
+  "preserved_files": 1866,
+  "passed": true
+}

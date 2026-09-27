@@ -1,0 +1,10 @@
+{
+  "id": "human_resources/recruitment-task/base",
+  "scenario_id": "human_resources/recruitment-task",
+  "variant": "base",
+  "language": "pl",
+  "department": "human_resources",
+  "recipient": "human-resources@example.com",
+  "rationale": "Doprecyzowanie zadania dla kandydata.",
+  "message": "Otrzymałam zadanie rekrutacyjne polegające na przygotowaniu analizy sprzedaży. W instrukcji nie wskazano, czy prezentacja ma być po polsku, czy po angielsku. Zanim rozpocznę pracę, proszę o doprecyzowanie oczekiwań oraz potwierdzenie terminu przekazania rozwiązania osobie oceniającej kandydatów."
+}

@@ -5,6 +5,13 @@
 
 # Korekta integracji Laya i propozycja dostrojenia wag
 
+27.09.2026: nową prośbę o dostrojenie bez overfittingu opisuje
+[LAYA_GENERALIZATION_APPROACH.md](LAYA_GENERALIZATION_APPROACH.md).
+Użytkownik zatwierdził ją słowem „Dajesz”. Pomiar zasobów wykonał przejściową
+aktualizację wag, ale drugi krok zakończył się OOM; brakuje również miejsca
+na checkpointy. Nie zapisano dostrojonych wag ani nie wykonano ewaluacji 500.
+[Dowody i warunki wznowienia](../training/laya-routing/README.md).
+
 Status 25.09.2026: użytkownik poleceniem „Dobra popraw to” zatwierdził korektę
 semantycznej decyzji na podstawie treści wiadomości. Wykonano zmianę integracji
 i testy lokalne. Nie rozpoczęto treningu wag ani generowania zbioru treningowego.

@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "human_resources/payroll-course/base",
+    "scenario_id": "human_resources/payroll-course",
+    "variant": "base",
+    "language": "pl",
+    "department": "human_resources",
+    "recipient": "human-resources@example.com",
+    "rationale": "Szkolenie z naliczania wynagrodzeń, bez błędu wypłaty.",
+    "message": "Do mojego zakresu zadań dojdzie weryfikowanie danych do list płac. Chciałabym zapisać się na szkolenie z podstaw naliczania wynagrodzeń i interpretacji dokumentów. Potrzebuję kursu dla początkującej osoby, najlepiej z ćwiczeniami na przykładach i możliwością zadawania pytań prowadzącemu."
+  },
+  {
+    "id": "payroll/leave-request/resolved_preface",
+    "scenario_id": "payroll/leave-request",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Zgłoszenie urlopu wypoczynkowego.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nOsobna, aktualna wiadomość:\nChciałabym złożyć wniosek o pięć dni urlopu wypoczynkowego w drugiej połowie listopada. Termin jest już uzgodniony z przełożonym, a zastępstwo zostało zapewnione. Proszę o informację, jakie formalności muszę jeszcze uzupełnić i czy mój obecny limit pozwala na taki wymiar wolnego."
+  },
+  {
+    "id": "payroll/leave-demand/base",
+    "scenario_id": "payroll/leave-demand",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Formalności dotyczące urlopu na żądanie.",
+    "message": "Z powodu nagłej sytuacji rodzinnej nie będę dziś obecny w pracy. Przełożony został już powiadomiony telefonicznie. Chciałbym zgłosić dzisiejszy dzień jako urlop na żądanie i upewnić się, czy mam jeszcze dostępny limit oraz jaki dokument powinienem przekazać do ewidencji."
+  },
+  {
+    "id": "payroll/leave-demand/forwarded_history",
+    "scenario_id": "payroll/leave-demand",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Formalności dotyczące urlopu na żądanie.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nZ powodu nagłej sytuacji rodzinnej nie będę dziś obecny w pracy. Przełożony został już powiadomiony telefonicznie. Chciałbym zgłosić dzisiejszy dzień jako urlop na żądanie i upewnić się, czy mam jeszcze dostępny limit oraz jaki dokument powinienem przekazać do ewidencji.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "payroll/unpaid-leave/base",
+    "scenario_id": "payroll/unpaid-leave",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wniosek o urlop bezpłatny.",
+    "message": "Potrzebuję dwóch tygodni wolnego z powodów osobistych, ale nie chcę wykorzystywać urlopu wypoczynkowego. Chciałabym dowiedzieć się, jak złożyć wniosek o urlop bezpłatny i jakie dane powinien zawierać. Proszę również wskazać, z kim potwierdzić formalny okres takiej nieobecności."
+  },
+  {
+    "id": "payroll/unpaid-leave/quoted_history",
+    "scenario_id": "payroll/unpaid-leave",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wniosek o urlop bezpłatny.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPotrzebuję dwóch tygodni wolnego z powodów osobistych, ale nie chcę wykorzystywać urlopu wypoczynkowego. Chciałabym dowiedzieć się, jak złożyć wniosek o urlop bezpłatny i jakie dane powinien zawierać. Proszę również wskazać, z kim potwierdzić formalny okres takiej nieobecności.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "payroll/parental-leave/base",
+    "scenario_id": "payroll/parental-leave",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Formalne dokumenty dotyczące urlopu rodzicielskiego.",
+    "message": "Planuję rozpocząć urlop rodzicielski po zakończeniu obecnej nieobecności. Chciałbym uporządkować terminy i komplet dokumentów wymaganych przez pracodawcę. Proszę o informację, jaki wniosek należy złożyć, gdzie go przekazać i w jaki sposób potwierdzić przyjęcie dokumentacji.\n\nChcemy z drugim rodzicem wcześniej ustalić podział opieki i podać pracodawcom spójne terminy. Nie przesądzam jeszcze o ostatecznych datach, ponieważ potrzebuję najpierw sprawdzić, jak je prawidłowo zapisać we wniosku i jakie potwierdzenia należy dołączyć.\n\nCzy mogę otrzymać listę wymaganych dokumentów oraz formularz stosowany w naszej firmie? Zależy mi również na informacji, gdzie odnotowane zostanie przyjęcie wniosku i w jaki sposób później otrzymam potwierdzenie okresu nieobecności. Dokumenty z danymi rodzinnymi przekażę dopiero przez wskazany kanał. Chciałbym uniknąć wysyłania kilku niepełnych wersji i przygotować komplet do jednorazowego sprawdzenia."
+  },
+  {
+    "id": "payroll/parental-leave/resolved_preface",
+    "scenario_id": "payroll/parental-leave",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Formalne dokumenty dotyczące urlopu rodzicielskiego.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\n\nOsobna, aktualna wiadomość:\nPlanuję rozpocząć urlop rodzicielski po zakończeniu obecnej nieobecności. Chciałbym uporządkować terminy i komplet dokumentów wymaganych przez pracodawcę. Proszę o informację, jaki wniosek należy złożyć, gdzie go przekazać i w jaki sposób potwierdzić przyjęcie dokumentacji.\n\nChcemy z drugim rodzicem wcześniej ustalić podział opieki i podać pracodawcom spójne terminy. Nie przesądzam jeszcze o ostatecznych datach, ponieważ potrzebuję najpierw sprawdzić, jak je prawidłowo zapisać we wniosku i jakie potwierdzenia należy dołączyć.\n\nCzy mogę otrzymać listę wymaganych dokumentów oraz formularz stosowany w naszej firmie? Zależy mi również na informacji, gdzie odnotowane zostanie przyjęcie wniosku i w jaki sposób później otrzymam potwierdzenie okresu nieobecności. Dokumenty z danymi rodzinnymi przekażę dopiero przez wskazany kanał. Chciałbym uniknąć wysyłania kilku niepełnych wersji i przygotować komplet do jednorazowego sprawdzenia."
+  },
+  {
+    "id": "payroll/occasional-leave/base",
+    "scenario_id": "payroll/occasional-leave",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Formalności urlopu okolicznościowego.",
+    "message": "W przyszłym tygodniu biorę ślub i chciałbym skorzystać z przysługującego z tego tytułu wolnego. Nie wiem, jaki rodzaj wniosku wybrać ani kiedy przedstawić potwierdzenie zdarzenia. Proszę o wskazanie wymaganych formalności i sposobu ujęcia tych dni w ewidencji czasu pracy."
+  },
+  {
+    "id": "payroll/occasional-leave/conversation_history",
+    "scenario_id": "payroll/occasional-leave",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Formalności urlopu okolicznościowego.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nW przyszłym tygodniu biorę ślub i chciałbym skorzystać z przysługującego z tego tytułu wolnego. Nie wiem, jaki rodzaj wniosku wybrać ani kiedy przedstawić potwierdzenie zdarzenia. Proszę o wskazanie wymaganych formalności i sposobu ujęcia tych dni w ewidencji czasu pracy."
+  },
+  {
+    "id": "payroll/employment-certificate/conversation_history",
+    "scenario_id": "payroll/employment-certificate",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Wystawienie zaświadczenia o zatrudnieniu.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nBank poprosił mnie o aktualne zaświadczenie potwierdzające zatrudnienie w naszej firmie. Formularz wymaga podpisu pracodawcy i wskazania rodzaju umowy. Proszę o informację, komu przekazać druk i ile czasu zajmuje przygotowanie takiego dokumentu do odbioru.\n\nInstytucja wymaga swojego formularza, na którym znajdują się pola dotyczące daty zatrudnienia, rodzaju umowy oraz potwierdzenia, że stosunek pracy nadal trwa. Nie wystarczy jej skan samej umowy. Dokument ma być podpisany przez upoważnioną osobę, a ja nie wiem, czy potrzebny jest oryginał formularza, czy wystarczy jego elektroniczna wersja.\n\nTermin uzupełnienia wniosku mija w przyszły czwartek. Mogę odebrać dokument osobiście, jeśli będzie to szybsze. Proszę dać znać, jakie dane identyfikujące pracownika przekazać przez właściwy kanał i czy na druku powinienem sam uzupełnić jakąś część przed dostarczeniem. Zależy mi na uniknięciu konieczności ponownego wystawiania zaświadczenia."
+  },
+  {
+    "id": "payroll/income-certificate/forwarded_history",
+    "scenario_id": "payroll/income-certificate",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Zaświadczenie o zarobkach.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nSkładam wniosek mieszkaniowy i potrzebuję potwierdzenia średniego wynagrodzenia z ostatnich trzech miesięcy. Mam formularz instytucji przyjmującej wniosek. Proszę o wskazanie sposobu przekazania go do wypełnienia oraz informacji, kiedy mogę odebrać podpisane zaświadczenie o zarobkach.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "payroll/service-certificate/base",
+    "scenario_id": "payroll/service-certificate",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Świadectwo pracy po zakończeniu zatrudnienia.",
+    "message": "Moja umowa zakończyła się w ubiegłym tygodniu, ale nie otrzymałam jeszcze świadectwa pracy. Rozliczenie sprzętu zostało zamknięte. Proszę sprawdzić status dokumentu i potwierdzić, w jaki sposób zostanie mi przekazany. Potrzebuję go do dopełnienia formalności u nowego pracodawcy."
+  },
+  {
+    "id": "payroll/service-certificate/quoted_history",
+    "scenario_id": "payroll/service-certificate",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Świadectwo pracy po zakończeniu zatrudnienia.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nMoja umowa zakończyła się w ubiegłym tygodniu, ale nie otrzymałam jeszcze świadectwa pracy. Rozliczenie sprzętu zostało zamknięte. Proszę sprawdzić status dokumentu i potwierdzić, w jaki sposób zostanie mi przekazany. Potrzebuję go do dopełnienia formalności u nowego pracodawcy.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "payroll/service-correction/base",
+    "scenario_id": "payroll/service-correction",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Sprostowanie dokumentu zatrudnienia.",
+    "message": "Na otrzymanym świadectwie pracy wpisano nieprawidłową datę rozpoczęcia zatrudnienia. Mam kopię umowy potwierdzającą właściwy termin. Proszę o wskazanie procedury sprostowania i dokumentów potrzebnych do przygotowania poprawionej wersji, tak aby dalsze formalności opierały się na zgodnych danych.\n\nPozostałe pozycje dokumentu wyglądają prawidłowo. Błąd dotyczy wyłącznie miesiąca rozpoczęcia pracy. Chciałbym wiedzieć, czy zwrócić poprzedni egzemplarz przy odbiorze poprawionego i czy potrzebny jest mój podpis na odrębnym wniosku o sprostowanie."
+  },
+  {
+    "id": "payroll/service-correction/resolved_preface",
+    "scenario_id": "payroll/service-correction",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Sprostowanie dokumentu zatrudnienia.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\n\nOsobna, aktualna wiadomość:\nNa otrzymanym świadectwie pracy wpisano nieprawidłową datę rozpoczęcia zatrudnienia. Mam kopię umowy potwierdzającą właściwy termin. Proszę o wskazanie procedury sprostowania i dokumentów potrzebnych do przygotowania poprawionej wersji, tak aby dalsze formalności opierały się na zgodnych danych.\n\nPozostałe pozycje dokumentu wyglądają prawidłowo. Błąd dotyczy wyłącznie miesiąca rozpoczęcia pracy. Chciałbym wiedzieć, czy zwrócić poprzedni egzemplarz przy odbiorze poprawionego i czy potrzebny jest mój podpis na odrębnym wniosku o sprostowanie."
+  },
+  {
+    "id": "payroll/contract-copy/base",
+    "scenario_id": "payroll/contract-copy",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Uzyskanie kopii umowy o pracę.",
+    "message": "Porządkuję dokumenty i nie mogę znaleźć swojego egzemplarza umowy o pracę wraz z ostatnim aneksem. Chciałabym otrzymać ich kopie z akt pracowniczych. Proszę o informację, jak złożyć taki wniosek i czy dokumenty można odebrać osobiście w uzgodnionym terminie."
+  },
+  {
+    "id": "payroll/contract-copy/resolved_postscript",
+    "scenario_id": "payroll/contract-copy",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Uzyskanie kopii umowy o pracę.",
+    "message": "Porządkuję dokumenty i nie mogę znaleźć swojego egzemplarza umowy o pracę wraz z ostatnim aneksem. Chciałabym otrzymać ich kopie z akt pracowniczych. Proszę o informację, jak złożyć taki wniosek i czy dokumenty można odebrać osobiście w uzgodnionym terminie.\n\nPS. Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "payroll/contract-data/base",
+    "scenario_id": "payroll/contract-data",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Korekta danych osobowych w dokumentacji zatrudnienia.",
+    "message": "Po zmianie nazwiska potrzebuję zaktualizować dane w dokumentach pracowniczych i rozliczeniach wynagrodzenia. Proszę wskazać wymagany formularz oraz sposób okazania dokumentu potwierdzającego zmianę. Chciałabym mieć pewność, że kolejne zaświadczenia będą wystawiane z prawidłowymi danymi."
+  },
+  {
+    "id": "payroll/contract-data/conversation_history",
+    "scenario_id": "payroll/contract-data",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Korekta danych osobowych w dokumentacji zatrudnienia.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Termin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPo zmianie nazwiska potrzebuję zaktualizować dane w dokumentach pracowniczych i rozliczeniach wynagrodzenia. Proszę wskazać wymagany formularz oraz sposób okazania dokumentu potwierdzającego zmianę. Chciałabym mieć pewność, że kolejne zaświadczenia będą wystawiane z prawidłowymi danymi."
+  },
+  {
+    "id": "payroll/overtime-timeoff/base",
+    "scenario_id": "payroll/overtime-timeoff",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Rozliczenie nadgodzin czasem wolnym.",
+    "message": "Z przełożonym uzgodniłem odbiór wolnego za dodatkową pracę podczas wdrożenia w sobotę. Chciałbym dowiedzieć się, jaki wniosek złożyć, aby godziny zostały prawidłowo rozliczone. Proszę o sprawdzenie dostępnego salda i zasad wpisania odbioru do ewidencji czasu pracy."
+  },
+  {
+    "id": "payroll/overtime-timeoff/resolved_preface",
+    "scenario_id": "payroll/overtime-timeoff",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Rozliczenie nadgodzin czasem wolnym.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Zapisy na warsztat komunikacji są zakończone. Miejsce jest potwierdzone i materiały przekazane; nie potrzeba już pomocy organizacyjnej.\n\nOsobna, aktualna wiadomość:\nZ przełożonym uzgodniłem odbiór wolnego za dodatkową pracę podczas wdrożenia w sobotę. Chciałbym dowiedzieć się, jaki wniosek złożyć, aby godziny zostały prawidłowo rozliczone. Proszę o sprawdzenie dostępnego salda i zasad wpisania odbioru do ewidencji czasu pracy."
+  },
+  {
+    "id": "payroll/schedule-record/base",
+    "scenario_id": "payroll/schedule-record",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Korekta ewidencji po zamianie zmian.",
+    "message": "Zamieniłem się ze współpracownikiem terminami dyżurów za zgodą kierownika. Grafik roboczy został poprawiony, ale w zestawieniu do rozliczenia nadal widać pierwotny układ. Proszę wyjaśnić, jak przekazać zatwierdzoną zmianę, aby ewidencja odpowiadała faktycznie przepracowanym godzinom."
+  },
+  {
+    "id": "payroll/part-time-leave/base",
+    "scenario_id": "payroll/part-time-leave",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Przeliczenie urlopu przy zmianie etatu.",
+    "message": "Od początku przyszłego miesiąca zmienia się mój wymiar etatu. Chciałabym sprawdzić, jak wpłynie to na pozostały limit urlopu i sposób wykazywania dni wolnych. Proszę o przeliczenie salda na podstawie podpisanego aneksu i wyjaśnienie wartości widocznej w ewidencji.\n\nCzęść dni wykorzystałam jeszcze przy poprzednim wymiarze czasu pracy. Pozostałą część chcę zaplanować dopiero po wejściu aneksu w życie. Dlatego potrzebuję rozpisania wyliczenia, a nie jedynie wartości końcowej, którą widzę obecnie w portalu."
+  },
+  {
+    "id": "payroll/part-time-leave/forwarded_history",
+    "scenario_id": "payroll/part-time-leave",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Przeliczenie urlopu przy zmianie etatu.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOd początku przyszłego miesiąca zmienia się mój wymiar etatu. Chciałabym sprawdzić, jak wpłynie to na pozostały limit urlopu i sposób wykazywania dni wolnych. Proszę o przeliczenie salda na podstawie podpisanego aneksu i wyjaśnienie wartości widocznej w ewidencji.\n\nCzęść dni wykorzystałam jeszcze przy poprzednim wymiarze czasu pracy. Pozostałą część chcę zaplanować dopiero po wejściu aneksu w życie. Dlatego potrzebuję rozpisania wyliczenia, a nie jedynie wartości końcowej, którą widzę obecnie w portalu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nAwaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "payroll/employment-history/base",
+    "scenario_id": "payroll/employment-history",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Dokumenty wpływające na staż urlopowy.",
+    "message": "Odnalazłam świadectwo pracy od poprzedniego pracodawcy, którego nie przekazałam przy zatrudnieniu. Może ono mieć znaczenie dla naliczenia mojego wymiaru urlopu. Proszę wskazać sposób uzupełnienia dokumentacji i zweryfikować, czy po jego uwzględnieniu zmieni się dostępny limit."
+  },
+  {
+    "id": "payroll/education-leave-credit/base",
+    "scenario_id": "payroll/education-leave-credit",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Uzupełnienie dokumentacji do wyliczenia urlopu.",
+    "message": "Chciałbym dostarczyć dyplom ukończenia studiów do akt pracowniczych, ponieważ nie został uwzględniony przy zatrudnieniu. Proszę o informację, czy wystarczy okazać oryginał, oraz o sprawdzenie wpływu tego dokumentu na naliczenie stażu i wymiaru urlopu wypoczynkowego."
+  },
+  {
+    "id": "payroll/education-leave-credit/resolved_postscript",
+    "scenario_id": "payroll/education-leave-credit",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Uzupełnienie dokumentacji do wyliczenia urlopu.",
+    "message": "Chciałbym dostarczyć dyplom ukończenia studiów do akt pracowniczych, ponieważ nie został uwzględniony przy zatrudnieniu. Proszę o informację, czy wystarczy okazać oryginał, oraz o sprawdzenie wpływu tego dokumentu na naliczenie stażu i wymiaru urlopu wypoczynkowego.\n\nPS. Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "payroll/absence-code/conversation_history",
+    "scenario_id": "payroll/absence-code",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Nieprawidłowy rodzaj nieobecności w ewidencji.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Awaria sieci w całym biurze została usunięta. Łączność jest stabilna i nie potrzebujemy dalszej interwencji w tej sprawie.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDzień uzgodnionego urlopu okolicznościowego został oznaczony jako urlop wypoczynkowy. W efekcie zmniejszyło się moje dostępne saldo. Proszę porównać wpis z zaakceptowanym wnioskiem i skorygować rodzaj nieobecności. Dokument potwierdzający przyczynę wolnego został już wcześniej dostarczony."
+  },
+  {
+    "id": "payroll/leave-return/base",
+    "scenario_id": "payroll/leave-return",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Skrócenie nieobecności i korekta salda.",
+    "message": "Po uzgodnieniu z kierownikiem wróciłam do pracy dwa dni przed końcem zaplanowanego urlopu. Proszę o wskazanie dokumentu potwierdzającego wcześniejszy powrót i skorygowanie ewidencji. Chciałabym, aby dni, w których faktycznie pracowałam, nie pomniejszały mojego pozostałego limitu."
+  },
+  {
+    "id": "payroll/leave-return/forwarded_history",
+    "scenario_id": "payroll/leave-return",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Skrócenie nieobecności i korekta salda.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPo uzgodnieniu z kierownikiem wróciłam do pracy dwa dni przed końcem zaplanowanego urlopu. Proszę o wskazanie dokumentu potwierdzającego wcześniejszy powrót i skorygowanie ewidencji. Chciałabym, aby dni, w których faktycznie pracowałam, nie pomniejszały mojego pozostałego limitu.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nTermin mojej rozmowy rozwojowej został już uzgodniony. Organizator potwierdził spotkanie i ten wątek jest zakończony.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "payroll/certificate-deadline/base",
+    "scenario_id": "payroll/certificate-deadline",
+    "variant": "base",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Przygotowanie zaświadczenia na formularzu urzędowym.",
+    "message": "Urząd wymaga ode mnie zaświadczenia o okresie zatrudnienia na swoim formularzu. Termin uzupełnienia dokumentów mija w przyszłym tygodniu. Proszę o informację, jak przekazać druk do wypełnienia i z kim ustalić odbiór podpisanego dokumentu potwierdzającego moje zatrudnienie."
+  },
+  {
+    "id": "payroll/certificate-deadline/quoted_history",
+    "scenario_id": "payroll/certificate-deadline",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "payroll",
+    "recipient": "kadry@example.com",
+    "rationale": "Przygotowanie zaświadczenia na formularzu urzędowym.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nUrząd wymaga ode mnie zaświadczenia o okresie zatrudnienia na swoim formularzu. Termin uzupełnienia dokumentów mija w przyszłym tygodniu. Proszę o informację, jak przekazać druk do wypełnienia i z kim ustalić odbiór podpisanego dokumentu potwierdzającego moje zatrudnienie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Hasło do konta zostało wczoraj zresetowane i logowanie działa. Rozwiązanie problemu i zamknięcie zgłoszenia zostały potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "help_desk/laptop-power/base",
+    "scenario_id": "help_desk/laptop-power",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka komputera pojedynczego użytkownika.",
+    "message": "Mój służbowy laptop nie włącza się od dzisiejszego poranka. Po podłączeniu zasilacza świeci tylko dioda ładowania, a przytrzymanie przycisku nie pomaga. Inni w pokoju pracują normalnie. Proszę o pomoc w sprawdzeniu urządzenia, bo mam na nim materiały potrzebne do dzisiejszego spotkania."
+  },
+  {
+    "id": "help_desk/laptop-power/quoted_history",
+    "scenario_id": "help_desk/laptop-power",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka komputera pojedynczego użytkownika.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nMój służbowy laptop nie włącza się od dzisiejszego poranka. Po podłączeniu zasilacza świeci tylko dioda ładowania, a przytrzymanie przycisku nie pomaga. Inni w pokoju pracują normalnie. Proszę o pomoc w sprawdzeniu urządzenia, bo mam na nim materiały potrzebne do dzisiejszego spotkania.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Rozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "help_desk/black-screen/base",
+    "scenario_id": "help_desk/black-screen",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Czarny ekran w laptopie użytkownika.",
+    "message": "Laptop wydaje dźwięk uruchamiania, ale ekran pozostaje czarny. Gdy podłączę monitor koleżanki, obraz jest widoczny, więc mogę na chwilę odczytać pliki. Proszę o pomoc w sprawdzeniu wbudowanego ekranu i ustaleniu, czy urządzenie wymaga naprawy albo wymiany."
+  },
+  {
+    "id": "help_desk/black-screen/resolved_postscript",
+    "scenario_id": "help_desk/black-screen",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Czarny ekran w laptopie użytkownika.",
+    "message": "Laptop wydaje dźwięk uruchamiania, ale ekran pozostaje czarny. Gdy podłączę monitor koleżanki, obraz jest widoczny, więc mogę na chwilę odczytać pliki. Proszę o pomoc w sprawdzeniu wbudowanego ekranu i ustaleniu, czy urządzenie wymaga naprawy albo wymiany.\n\nPS. Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "help_desk/mouse/forwarded_history",
+    "scenario_id": "help_desk/mouse",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem z myszą na jednym stanowisku.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nKursor na moim komputerze przeskakuje, a kliknięcia często nie są rejestrowane. Wymieniłem baterię i sprawdziłem mysz na innej powierzchni, bez poprawy. Pozostałe urządzenia działają. Proszę o wsparcie w ustaleniu usterki lub otrzymaniu sprawnej myszy do pracy.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nRozliczenie mojej wypłaty zostało sprawdzone i jest prawidłowe. Wyjaśnienie jest już dostępne, więc tamta sprawa jest zakończona.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "help_desk/docking-station/base",
+    "scenario_id": "help_desk/docking-station",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka stacji dokującej użytkownika.",
+    "message": "Po podłączeniu laptopa do mojej stacji dokującej nie działa monitor ani klawiatura. Te same urządzenia działają, gdy podłączę je bezpośrednio do komputera. Sprawdziłam przewód zasilania i uruchomiłam laptop ponownie. Proszę o pomoc z wyposażeniem tego stanowiska.\n\nSprawdziłam kilka połączeń, żeby zawęzić problem. Monitor działa bezpośrednio z laptopem. Klawiatura działa po podłączeniu do portu komputera. Po wpięciu do stacji dokującej oba urządzenia znikają, choć laptop nadal się ładuje. Inny laptop podłączony do tej samej stacji zachowuje się podobnie.\n\nWczoraj zestaw działał jeszcze poprawnie. Nie przenosiłam biurka ani nie wymieniałam przewodów, tylko na noc odłączyłam laptop. Teraz pracuję tymczasowo na jego małym ekranie, ale potrzebuję obu wyświetlaczy do porównania tabel. Czy można sprawdzić stację lub na czas diagnostyki zapewnić działający egzemplarz? Jestem dziś w biurze do popołudnia i mogę pokazać problem na miejscu."
+  },
+  {
+    "id": "help_desk/docking-station/quoted_history",
+    "scenario_id": "help_desk/docking-station",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka stacji dokującej użytkownika.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPo podłączeniu laptopa do mojej stacji dokującej nie działa monitor ani klawiatura. Te same urządzenia działają, gdy podłączę je bezpośrednio do komputera. Sprawdziłam przewód zasilania i uruchomiłam laptop ponownie. Proszę o pomoc z wyposażeniem tego stanowiska.\n\nSprawdziłam kilka połączeń, żeby zawęzić problem. Monitor działa bezpośrednio z laptopem. Klawiatura działa po podłączeniu do portu komputera. Po wpięciu do stacji dokującej oba urządzenia znikają, choć laptop nadal się ładuje. Inny laptop podłączony do tej samej stacji zachowuje się podobnie.\n\nWczoraj zestaw działał jeszcze poprawnie. Nie przenosiłam biurka ani nie wymieniałam przewodów, tylko na noc odłączyłam laptop. Teraz pracuję tymczasowo na jego małym ekranie, ale potrzebuję obu wyświetlaczy do porównania tabel. Czy można sprawdzić stację lub na czas diagnostyki zapewnić działający egzemplarz? Jestem dziś w biurze do popołudnia i mogę pokazać problem na miejscu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "help_desk/monitor-flicker/base",
+    "scenario_id": "help_desk/monitor-flicker",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka monitora użytkownika.",
+    "message": "Dodatkowy monitor na moim biurku co kilka minut gaśnie i wraca obraz. Drugi ekran podłączony do tego samego laptopa jest stabilny. Zmiana kabla nie pomogła. Proszę o sprawdzenie monitora, ponieważ przerywanie obrazu utrudnia mi porównywanie dokumentów podczas pracy."
+  },
+  {
+    "id": "help_desk/monitor-flicker/resolved_preface",
+    "scenario_id": "help_desk/monitor-flicker",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka monitora użytkownika.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nOsobna, aktualna wiadomość:\nDodatkowy monitor na moim biurku co kilka minut gaśnie i wraca obraz. Drugi ekran podłączony do tego samego laptopa jest stabilny. Zmiana kabla nie pomogła. Proszę o sprawdzenie monitora, ponieważ przerywanie obrazu utrudnia mi porównywanie dokumentów podczas pracy."
+  },
+  {
+    "id": "help_desk/camera/base",
+    "scenario_id": "help_desk/camera",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Niedziałająca kamera pojedynczego użytkownika.",
+    "message": "Kamera w moim laptopie pokazuje czarny obraz we wszystkich aplikacjach do spotkań. Osłona obiektywu jest odsunięta, a ponowne uruchomienie nie pomogło. Za godzinę mam rozmowę z kandydatem. Czy ktoś może pomóc uruchomić kamerę przed tym spotkaniem?"
+  },
+  {
+    "id": "help_desk/printer-driver/base",
+    "scenario_id": "help_desk/printer-driver",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Instalacja drukarki dla użytkownika.",
+    "message": "Zmieniono drukarkę przy naszym pokoju i nie pojawia się ona na liście urządzeń w moim komputerze. Inne osoby już z niej korzystają. Nie mam uprawnień do samodzielnej instalacji sterownika. Proszę o pomoc w dodaniu nowej drukarki do mojego stanowiska."
+  },
+  {
+    "id": "help_desk/printer-driver/quoted_history",
+    "scenario_id": "help_desk/printer-driver",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Instalacja drukarki dla użytkownika.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nZmieniono drukarkę przy naszym pokoju i nie pojawia się ona na liście urządzeń w moim komputerze. Inne osoby już z niej korzystają. Nie mam uprawnień do samodzielnej instalacji sterownika. Proszę o pomoc w dodaniu nowej drukarki do mojego stanowiska.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "help_desk/scanner/base",
+    "scenario_id": "help_desk/scanner",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Pomoc z urządzeniem użytkownika.",
+    "message": "Skaner podłączony do mojego komputera przestał być wykrywany po zmianie portu USB. Urządzenie ma zasilanie, a przewód jest dobrze wpięty. Potrzebuję zeskanować podpisany dokument. Proszę pomóc przywrócić połączenie skanera z aplikacją na tym konkretnym stanowisku."
+  },
+  {
+    "id": "help_desk/scanner/resolved_preface",
+    "scenario_id": "help_desk/scanner",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Pomoc z urządzeniem użytkownika.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n\nOsobna, aktualna wiadomość:\nSkaner podłączony do mojego komputera przestał być wykrywany po zmianie portu USB. Urządzenie ma zasilanie, a przewód jest dobrze wpięty. Potrzebuję zeskanować podpisany dokument. Proszę pomóc przywrócić połączenie skanera z aplikacją na tym konkretnym stanowisku."
+  },
+  {
+    "id": "help_desk/vpn-single/base",
+    "scenario_id": "help_desk/vpn-single",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Konfiguracja VPN u jednego użytkownika.",
+    "message": "Pracuję dziś z domu i na moim laptopie połączenie VPN zatrzymuje się przed zalogowaniem. Internet działa, a koleżanka łączy się z firmą normalnie. Proszę o pomoc w sprawdzeniu ustawień klienta na moim urządzeniu i przywróceniu dostępu do zasobów.\n\nKomunikat pojawia się przed prośbą o kod uwierzytelniający. Na ekranie jest nazwa nieaktualnego profilu połączenia z poprzedniego laptopa. Nie wiem, czy mogę go samodzielnie usunąć, dlatego potrzebuję pomocy w sprawdzeniu prawidłowej konfiguracji."
+  },
+  {
+    "id": "help_desk/mail-signature/base",
+    "scenario_id": "help_desk/mail-signature",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Konfiguracja podpisu pocztowego użytkownika.",
+    "message": "Po wymianie komputera zniknął mój firmowy podpis w programie pocztowym. Mam zatwierdzony wzór, ale nie wiem, jak dodać go do nowej konfiguracji. Proszę o pomoc techniczną w ustawieniu podpisu, aby pojawiał się automatycznie przy wysyłaniu wiadomości."
+  },
+  {
+    "id": "help_desk/teams-audio/resolved_postscript",
+    "scenario_id": "help_desk/teams-audio",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Ustawienia dźwięku pojedynczego pracownika.",
+    "message": "W aplikacji do spotkań dźwięk wychodzi przez głośniki laptopa zamiast przez podłączone słuchawki. W innych programach słuchawki działają prawidłowo. Proszę o pomoc w ustawieniu właściwego urządzenia dla mojego konta, żebym mogła prowadzić rozmowy bez przeszkadzania osobom obok.\n\nPS. Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "help_desk/office-crash/base",
+    "scenario_id": "help_desk/office-crash",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Awaria aplikacji na jednym stanowisku.",
+    "message": "Edytor tekstu zamyka się na moim komputerze kilka sekund po uruchomieniu, nawet przy pustym dokumencie. Inne programy działają normalnie, a plik otwiera się na komputerze kolegi. Proszę o sprawdzenie lokalnej instalacji i pomoc w przywróceniu działania programu."
+  },
+  {
+    "id": "help_desk/office-crash/conversation_history",
+    "scenario_id": "help_desk/office-crash",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Awaria aplikacji na jednym stanowisku.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nEdytor tekstu zamyka się na moim komputerze kilka sekund po uruchomieniu, nawet przy pustym dokumencie. Inne programy działają normalnie, a plik otwiera się na komputerze kolegi. Proszę o sprawdzenie lokalnej instalacji i pomoc w przywróceniu działania programu."
+  },
+  {
+    "id": "help_desk/pdf-reader/base",
+    "scenario_id": "help_desk/pdf-reader",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Konfiguracja czytnika dokumentów.",
+    "message": "Po ostatniej zmianie ustawień pliki PDF otwierają się w niewłaściwej aplikacji i nie mogę korzystać z komentarzy. Dokumenty same w sobie są poprawne. Proszę pomóc przywrócić firmowy czytnik jako domyślny program na moim komputerze i sprawdzić jego działanie."
+  },
+  {
+    "id": "help_desk/pdf-reader/quoted_history",
+    "scenario_id": "help_desk/pdf-reader",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Konfiguracja czytnika dokumentów.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPo ostatniej zmianie ustawień pliki PDF otwierają się w niewłaściwej aplikacji i nie mogę korzystać z komentarzy. Dokumenty same w sobie są poprawne. Proszę pomóc przywrócić firmowy czytnik jako domyślny program na moim komputerze i sprawdzić jego działanie.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Spotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "help_desk/software-install/base",
+    "scenario_id": "help_desk/software-install",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Instalacja zatwierdzonego programu na stanowisku.",
+    "message": "Do realizacji zadania potrzebuję zatwierdzonego przez firmę programu do diagramów. Przełożony potwierdził zgodę, ale instalator wymaga uprawnień administratora na moim laptopie. Proszę o pomoc w instalacji wskazanej aplikacji i sprawdzeniu, czy mogę uruchomić ją na swoim koncie."
+  },
+  {
+    "id": "help_desk/software-install/resolved_preface",
+    "scenario_id": "help_desk/software-install",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Instalacja zatwierdzonego programu na stanowisku.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nOsobna, aktualna wiadomość:\nDo realizacji zadania potrzebuję zatwierdzonego przez firmę programu do diagramów. Przełożony potwierdził zgodę, ale instalator wymaga uprawnień administratora na moim laptopie. Proszę o pomoc w instalacji wskazanej aplikacji i sprawdzeniu, czy mogę uruchomić ją na swoim koncie."
+  },
+  {
+    "id": "help_desk/license-user/base",
+    "scenario_id": "help_desk/license-user",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Aktywacja aplikacji dla pojedynczego pracownika.",
+    "message": "Aplikacja biurowa na moim komputerze prosi o aktywację, mimo że powinienem mieć przypisaną licencję. U pozostałych osób działa normalnie. Proszę sprawdzić przypisanie do mojego konta oraz pomóc uruchomić program, abym mógł edytować dokumenty zamiast tylko je odczytywać."
+  },
+  {
+    "id": "help_desk/disk-full/base",
+    "scenario_id": "help_desk/disk-full",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Brak miejsca na dysku laptopa użytkownika.",
+    "message": "Mój komputer zgłasza brak wolnego miejsca i nie zapisuje już nowych plików. Nie chcę usuwać firmowych dokumentów na własną rękę, ponieważ nie wiem, które katalogi są potrzebne. Proszę o pomoc w bezpiecznym uporządkowaniu lokalnego dysku i sprawdzeniu przyczyny jego zapełnienia."
+  },
+  {
+    "id": "help_desk/slow-laptop/base",
+    "scenario_id": "help_desk/slow-laptop",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Spowolnienie pojedynczego komputera.",
+    "message": "Od kilku dni mój laptop bardzo wolno otwiera programy, nawet zanim połączę się z firmowymi zasobami. Wentylator pracuje głośno, a ponowne uruchomienie pomaga tylko na chwilę. Proszę sprawdzić stan tego urządzenia; pozostałe stanowiska w zespole nie mają podobnych objawów."
+  },
+  {
+    "id": "help_desk/slow-laptop/forwarded_history",
+    "scenario_id": "help_desk/slow-laptop",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Spowolnienie pojedynczego komputera.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nOd kilku dni mój laptop bardzo wolno otwiera programy, nawet zanim połączę się z firmowymi zasobami. Wentylator pracuje głośno, a ponowne uruchomienie pomaga tylko na chwilę. Proszę sprawdzić stan tego urządzenia; pozostałe stanowiska w zespole nie mają podobnych objawów.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nSpotkanie z mentorem zostało już zaplanowane i odbyło się zgodnie z ustaleniami. Nie potrzebuję kolejnej rozmowy dotyczącej jego organizacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "help_desk/battery/base",
+    "scenario_id": "help_desk/battery",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka baterii urządzenia pracownika.",
+    "message": "Służbowy laptop wyłącza się natychmiast po odłączeniu zasilacza, mimo że wskaźnik pokazuje naładowaną baterię. Przez to nie mogę korzystać z niego podczas spotkań poza biurkiem. Proszę o sprawdzenie baterii i ustalenie sposobu przywrócenia normalnego działania mojego urządzenia."
+  },
+  {
+    "id": "help_desk/overheating/base",
+    "scenario_id": "help_desk/overheating",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Przegrzewanie jednostkowego urządzenia.",
+    "message": "Mój laptop nagrzewa się i wyłącza po kilkunastu minutach zwykłej pracy. Stoi na płaskim biurku, a otwory wentylacyjne nie są zasłonięte. Nie uruchamiam wymagających programów. Proszę o pomoc w diagnostyce sprzętu, zanim ponownie utracę niezapisane zmiany w dokumentach."
+  },
+  {
+    "id": "help_desk/overheating/resolved_preface",
+    "scenario_id": "help_desk/overheating",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Przegrzewanie jednostkowego urządzenia.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Kopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n\nOsobna, aktualna wiadomość:\nMój laptop nagrzewa się i wyłącza po kilkunastu minutach zwykłej pracy. Stoi na płaskim biurku, a otwory wentylacyjne nie są zasłonięte. Nie uruchamiam wymagających programów. Proszę o pomoc w diagnostyce sprzętu, zanim ponownie utracę niezapisane zmiany w dokumentach."
+  },
+  {
+    "id": "help_desk/access-folder/base",
+    "scenario_id": "help_desk/access-folder",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Przywrócenie uprawnienia konkretnego użytkownika.",
+    "message": "Nie mogę otworzyć folderu projektu, do którego miałem wcześniej dostęp. Koledzy nadal korzystają z niego bez problemów, a właściciel folderu potwierdził, że powinienem mieć uprawnienia. Proszę o sprawdzenie dostępu mojego konta i pomoc w przywróceniu możliwości odczytu dokumentów."
+  },
+  {
+    "id": "help_desk/access-folder/forwarded_history",
+    "scenario_id": "help_desk/access-folder",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Przywrócenie uprawnienia konkretnego użytkownika.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNie mogę otworzyć folderu projektu, do którego miałem wcześniej dostęp. Koledzy nadal korzystają z niego bez problemów, a właściciel folderu potwierdził, że powinienem mieć uprawnienia. Proszę o sprawdzenie dostępu mojego konta i pomoc w przywróceniu możliwości odczytu dokumentów.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nPrzerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "help_desk/hr-portal-password/base",
+    "scenario_id": "help_desk/hr-portal-password",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem logowania do portalu kadrowego, nie rozliczenie.",
+    "message": "Chciałam sprawdzić saldo urlopu w portalu pracowniczym, ale nie mogę się zalogować. Formularz odrzuca hasło, a wiadomość do resetowania dostępu nie przychodzi. Czy ktoś pomoże odzyskać dostęp do mojego konta? Próbowałam już ponownie wpisać adres służbowy i sprawdzić folder spamu.\n\nKolejność jest taka: wpisuję służbowy adres, przechodzę do hasła, a po zatwierdzeniu wracam do pierwszego ekranu. Przy odzyskiwaniu hasła pojawia się informacja o wysłaniu wiadomości, ale nic nie dociera. Inna poczta przychodzi normalnie.\n\nPróbowałam również na drugim komputerze i efekt jest taki sam dla mojego konta. Koleżanka na tym samym urządzeniu loguje się poprawnie. Nie zmieniałam ostatnio nazwiska ani adresu pocztowego. Chciałabym przejść właściwą procedurę odzyskania dostępu, zamiast zakładać kolejne konto i później łączyć dane. Mogę potwierdzić tożsamość przez firmowy komunikator lub osobiście. Proszę wskazać, jakie informacje będą potrzebne podczas sprawdzania ustawień konta."
+  },
+  {
+    "id": "help_desk/certificate-login/base",
+    "scenario_id": "help_desk/certificate-login",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Pomoc techniczna z podpisywaniem przez użytkownika.",
+    "message": "Nie mogę użyć służbowego certyfikatu do podpisania dokumentu na swoim komputerze. Program wyświetla komunikat o braku czytnika, choć urządzenie jest podłączone. Proszę o pomoc w konfiguracji czytnika i aplikacji podpisującej. Sam dokument jest już przygotowany i poprawny."
+  },
+  {
+    "id": "help_desk/certificate-login/forwarded_history",
+    "scenario_id": "help_desk/certificate-login",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Pomoc techniczna z podpisywaniem przez użytkownika.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNie mogę użyć służbowego certyfikatu do podpisania dokumentu na swoim komputerze. Program wyświetla komunikat o braku czytnika, choć urządzenie jest podłączone. Proszę o pomoc w konfiguracji czytnika i aplikacji podpisującej. Sam dokument jest już przygotowany i poprawny.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKopia umowy została odebrana, a zgodność dokumentu potwierdzona. Nie trzeba niczego uzupełniać w zakończonej sprawie dokumentacji zatrudnienia.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "help_desk/bluetooth/base",
+    "scenario_id": "help_desk/bluetooth",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Parowanie urządzenia użytkownika.",
+    "message": "Nowa mysz bezprzewodowa nie pojawia się w ustawieniach Bluetooth mojego laptopa. Włączyłem tryb parowania i wymieniłem baterię, ale komputer nadal jej nie wykrywa. Proszę o pomoc w połączeniu tych urządzeń, ponieważ obecnie mogę korzystać wyłącznie z gładzika."
+  },
+  {
+    "id": "help_desk/touchpad/base",
+    "scenario_id": "help_desk/touchpad",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Problem z gładzikiem laptopa.",
+    "message": "Gładzik w moim służbowym laptopie przestał reagować po ponownym uruchomieniu. Podłączona mysz działa, ale często pracuję poza biurkiem i potrzebuję przywrócenia gładzika. Proszę o sprawdzenie ustawień oraz sterownika tego urządzenia na moim komputerze."
+  },
+  {
+    "id": "help_desk/browser-extension/base",
+    "scenario_id": "help_desk/browser-extension",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka przeglądarki po instalacji dodatku.",
+    "message": "Po dodaniu zatwierdzonego rozszerzenia formularze w mojej przeglądarce przestały reagować na kliknięcia. W oknie bez dodatków działają poprawnie. Proszę o pomoc w ustaleniu konfliktu i przywróceniu działania mojego środowiska pracy bez zmieniania samej aplikacji firmowej."
+  },
+  {
+    "id": "help_desk/browser-extension/resolved_preface",
+    "scenario_id": "help_desk/browser-extension",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Usterka przeglądarki po instalacji dodatku.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Przerwa w działaniu centralnego serwera została usunięta. Monitoring i pozostałe zespoły potwierdzają, że usługi działają poprawnie.\n\nOsobna, aktualna wiadomość:\nPo dodaniu zatwierdzonego rozszerzenia formularze w mojej przeglądarce przestały reagować na kliknięcia. W oknie bez dodatków działają poprawnie. Proszę o pomoc w ustaleniu konfliktu i przywróceniu działania mojego środowiska pracy bez zmieniania samej aplikacji firmowej."
+  },
+  {
+    "id": "help_desk/print-duplex/base",
+    "scenario_id": "help_desk/print-duplex",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Ustawienia drukowania pojedynczego użytkownika.",
+    "message": "Drukarka działa, ale dokumenty z mojego komputera zawsze wychodzą jednostronnie, mimo wybrania druku dwustronnego. U koleżanki te same ustawienia dają właściwy wynik. Proszę pomóc sprawdzić konfigurację sterownika na moim stanowisku, ponieważ przygotowuję większy zestaw materiałów."
+  },
+  {
+    "id": "help_desk/local-time/base",
+    "scenario_id": "help_desk/local-time",
+    "variant": "base",
+    "language": "pl",
+    "department": "help_desk",
+    "recipient": "help-desk@example.com",
+    "rationale": "Ustawienie czasu w pojedynczym urządzeniu.",
+    "message": "Mój laptop pokazuje godzinę przesuniętą o dwie godziny, przez co przypomnienia o spotkaniach pojawiają się nie wtedy, kiedy trzeba. Telefon oraz komputery obok mają prawidłowy czas. Proszę o pomoc w ustawieniu strefy czasowej i synchronizacji na tym urządzeniu."
+  },
+  {
+    "id": "other/recipe/base",
+    "scenario_id": "other/recipe",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne pytanie kulinarne.",
+    "message": "W weekend odwiedzą mnie znajomi i chciałabym przygotować ciasto bez mleka. Mam w domu marchew, mąkę i orzechy, ale nie wiem, w jakich proporcjach ich użyć. Czy możecie podać przepis na prosty wypiek i wskazać, czym zastąpić nabiał?\n\nJedna osoba nie spożywa produktów mlecznych, ale jajka jej nie przeszkadzają. Mam zwykły piekarnik, jedną okrągłą formę i około dwóch godzin na przygotowanie całości. Chciałabym upiec coś, co można zrobić rano i podać wieczorem bez skomplikowanego dekorowania.\n\nW internecie znalazłam kilka przepisów, lecz każdy podaje inną ilość oleju i inny czas pieczenia. Nie wiem, jak sprawdzić gotowość środka, żeby ciasto nie zostało surowe. Przydałaby się też informacja, czy orzechy można pominąć bez zmieniania reszty proporcji. To ma być prosty domowy deser dla kilku znajomych, więc zależy mi bardziej na powtarzalnym efekcie niż na wyglądzie jak z cukierni."
+  },
+  {
+    "id": "other/travel-route/base",
+    "scenario_id": "other/travel-route",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne planowanie podróży.",
+    "message": "Planuję wycieczkę rowerową z rodziną i szukam spokojnej trasy nad jeziorem. Zależy mi na drodze bez dużego ruchu samochodowego i z miejscem na odpoczynek. Czy możecie zaproponować sposób zaplanowania takiego wyjazdu?"
+  },
+  {
+    "id": "other/ancient-history/base",
+    "scenario_id": "other/ancient-history",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie o historię.",
+    "message": "Czy możecie wyjaśnić, dlaczego rozpadło się cesarstwo zachodniorzymskie? Przygotowuję się do spotkania klubu historycznego i chciałbym odróżnić długotrwałe przyczyny od bezpośrednich wydarzeń. Interesuje mnie krótki opis najważniejszych zmian politycznych i gospodarczych, a nie sprawa związana z pracą.\n\nW dyskusji pojawiły się najazdy, problemy podatkowe i podział administracyjny, ale każdy wymienia inną przyczynę jako jedyną. Chciałbym uporządkować kolejność wydarzeń i zrozumieć, dlaczego część wschodnia przetrwała znacznie dłużej."
+  },
+  {
+    "id": "other/ancient-history/resolved_postscript",
+    "scenario_id": "other/ancient-history",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie o historię.",
+    "message": "Czy możecie wyjaśnić, dlaczego rozpadło się cesarstwo zachodniorzymskie? Przygotowuję się do spotkania klubu historycznego i chciałbym odróżnić długotrwałe przyczyny od bezpośrednich wydarzeń. Interesuje mnie krótki opis najważniejszych zmian politycznych i gospodarczych, a nie sprawa związana z pracą.\n\nW dyskusji pojawiły się najazdy, problemy podatkowe i podział administracyjny, ale każdy wymienia inną przyczynę jako jedyną. Chciałbym uporządkować kolejność wydarzeń i zrozumieć, dlaczego część wschodnia przetrwała znacznie dłużej.\n\nPS. Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/garden/base",
+    "scenario_id": "other/garden",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna pielęgnacja roślin.",
+    "message": "Liście mojego domowego fikusa zaczęły żółknąć, choć podlewam go regularnie. Stoi przy oknie od zachodu i niedawno został przesadzony. Chciałabym dowiedzieć się, jak rozpoznać, czy problemem jest nadmiar wody, światło czy ziemia.\n\nPrzed przesadzeniem roślina stała przez kilka miesięcy w tym samym miejscu i rosła regularnie. Nowa doniczka jest trochę większa, ma otwory w dnie i podstawkę. Po podlaniu zostaje w niej woda, którą czasem wylewam dopiero następnego dnia. Żółkną głównie dolne liście.\n\nNie widzę na nich owadów ani plam podobnych do pleśni. Ziemia na powierzchni wysycha szybko, ale głębiej pozostaje wilgotna. Nie chcę od razu kupować kilku preparatów, bo nie wiem, czy są potrzebne. Jakie obserwacje warto zrobić przez najbliższy tydzień i od jakiej zmiany pielęgnacji zacząć, żeby nie pogorszyć stanu rośliny?"
+  },
+  {
+    "id": "other/garden/conversation_history",
+    "scenario_id": "other/garden",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna pielęgnacja roślin.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nLiście mojego domowego fikusa zaczęły żółknąć, choć podlewam go regularnie. Stoi przy oknie od zachodu i niedawno został przesadzony. Chciałabym dowiedzieć się, jak rozpoznać, czy problemem jest nadmiar wody, światło czy ziemia.\n\nPrzed przesadzeniem roślina stała przez kilka miesięcy w tym samym miejscu i rosła regularnie. Nowa doniczka jest trochę większa, ma otwory w dnie i podstawkę. Po podlaniu zostaje w niej woda, którą czasem wylewam dopiero następnego dnia. Żółkną głównie dolne liście.\n\nNie widzę na nich owadów ani plam podobnych do pleśni. Ziemia na powierzchni wysycha szybko, ale głębiej pozostaje wilgotna. Nie chcę od razu kupować kilku preparatów, bo nie wiem, czy są potrzebne. Jakie obserwacje warto zrobić przez najbliższy tydzień i od jakiej zmiany pielęgnacji zacząć, żeby nie pogorszyć stanu rośliny?"
+  },
+  {
+    "id": "other/pet/base",
+    "scenario_id": "other/pet",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna opieka nad zwierzęciem.",
+    "message": "Niedawno przygarnąłem kota i chciałbym urządzić mu spokojne miejsce do odpoczynku w mieszkaniu. Nie wiem, gdzie ustawić legowisko względem kuwety i misek. Czy możecie podpowiedzieć podstawowe zasady organizacji przestrzeni dla zwierzęcia, zwłaszcza w niewielkim mieszkaniu?"
+  },
+  {
+    "id": "other/pet/forwarded_history",
+    "scenario_id": "other/pet",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna opieka nad zwierzęciem.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nNiedawno przygarnąłem kota i chciałbym urządzić mu spokojne miejsce do odpoczynku w mieszkaniu. Nie wiem, gdzie ustawić legowisko względem kuwety i misek. Czy możecie podpowiedzieć podstawowe zasady organizacji przestrzeni dla zwierzęcia, zwłaszcza w niewielkim mieszkaniu?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nMój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "other/book/base",
+    "scenario_id": "other/book",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna prośba o rekomendację książki.",
+    "message": "Szukam powieści przygodowej na długi przejazd pociągiem. Lubię historie z zagadką, ale bez bardzo brutalnych scen i rozbudowanych opisów wojny. Czy możecie polecić kilka kierunków poszukiwań lub autorów?"
+  },
+  {
+    "id": "other/book/quoted_history",
+    "scenario_id": "other/book",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna prośba o rekomendację książki.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nSzukam powieści przygodowej na długi przejazd pociągiem. Lubię historie z zagadką, ale bez bardzo brutalnych scen i rozbudowanych opisów wojny. Czy możecie polecić kilka kierunków poszukiwań lub autorów?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "other/film/base",
+    "scenario_id": "other/film",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie o film na prywatny wieczór.",
+    "message": "Organizuję domowy wieczór filmowy dla znajomych i szukam pogodnej komedii, którą można obejrzeć bez znajomości wcześniejszych części. Proszę o propozycję sposobu wyboru tytułu odpowiedniego dla osób o różnych gustach."
+  },
+  {
+    "id": "other/translation/base",
+    "scenario_id": "other/translation",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna prośba o tłumaczenie.",
+    "message": "Czy możecie przetłumaczyć na angielski krótkie zaproszenie na moje urodziny i zachować nieformalny ton? Chcę napisać znajomym, że spotykamy się w sobotę po południu i każdy może przynieść ulubioną przekąskę."
+  },
+  {
+    "id": "other/translation/resolved_postscript",
+    "scenario_id": "other/translation",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna prośba o tłumaczenie.",
+    "message": "Czy możecie przetłumaczyć na angielski krótkie zaproszenie na moje urodziny i zachować nieformalny ton? Chcę napisać znajomym, że spotykamy się w sobotę po południu i każdy może przynieść ulubioną przekąskę.\n\nPS. Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/math/base",
+    "scenario_id": "other/math",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie matematyczne niezwiązane z obsługą pracownika.",
+    "message": "Pomagam dziecku przygotować się do sprawdzianu i utknęliśmy przy obliczaniu pola trapezu. Czy możecie wyjaśnić prostymi słowami, skąd bierze się odpowiedni wzór i jak go zastosować?"
+  },
+  {
+    "id": "other/math/conversation_history",
+    "scenario_id": "other/math",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie matematyczne niezwiązane z obsługą pracownika.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPomagam dziecku przygotować się do sprawdzianu i utknęliśmy przy obliczaniu pola trapezu. Czy możecie wyjaśnić prostymi słowami, skąd bierze się odpowiedni wzór i jak go zastosować?"
+  },
+  {
+    "id": "other/astronomy/base",
+    "scenario_id": "other/astronomy",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie popularnonaukowe.",
+    "message": "Wczoraj wieczorem widziałam bardzo jasny punkt obok Księżyca. Chciałabym zrozumieć, jak odróżnia się planetę od gwiazdy bez teleskopu i gdzie szukać mapy nieba. Mam zwykłą lornetkę i mogę obserwować niebo z balkonu skierowanego na południe."
+  },
+  {
+    "id": "other/weather/base",
+    "scenario_id": "other/weather",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne pytanie o planowanie aktywności.",
+    "message": "Chciałbym zaplanować piknik i zastanawiam się, na jakie elementy prognozy pogody zwrócić uwagę poza samą temperaturą. Interesują mnie wiatr, opady i zachmurzenie. Czy możecie wyjaśnić, jak ocenić, czy dany dzień będzie odpowiedni na kilkugodzinny pobyt na zewnątrz?"
+  },
+  {
+    "id": "other/sport/base",
+    "scenario_id": "other/sport",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne zasady gry.",
+    "message": "Znajomi zaprosili mnie na mecz siatkówki, ale nie znam dokładnie zasad rotacji zawodników. Czy możecie wyjaśnić, kiedy drużyna zmienia ustawienie i co oznaczają pozycje na boisku?"
+  },
+  {
+    "id": "other/sport/resolved_preface",
+    "scenario_id": "other/sport",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne zasady gry.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n\nOsobna, aktualna wiadomość:\nZnajomi zaprosili mnie na mecz siatkówki, ale nie znam dokładnie zasad rotacji zawodników. Czy możecie wyjaśnić, kiedy drużyna zmienia ustawienie i co oznaczają pozycje na boisku?"
+  },
+  {
+    "id": "other/sewing/base",
+    "scenario_id": "other/sewing",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie o prywatne hobby.",
+    "message": "Chciałabym skrócić zasłony w mieszkaniu i zastanawiam się, jak równo wyznaczyć linię podwinięcia. Mam podstawowe przybory do szycia, ale niewielkie doświadczenie. Czy możecie opisać kolejność czynności i sposób sprawdzenia długości przed ostatecznym zszyciem materiału?"
+  },
+  {
+    "id": "other/sewing/resolved_postscript",
+    "scenario_id": "other/sewing",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie o prywatne hobby.",
+    "message": "Chciałabym skrócić zasłony w mieszkaniu i zastanawiam się, jak równo wyznaczyć linię podwinięcia. Mam podstawowe przybory do szycia, ale niewielkie doświadczenie. Czy możecie opisać kolejność czynności i sposób sprawdzenia długości przed ostatecznym zszyciem materiału?\n\nPS. Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/furniture/base",
+    "scenario_id": "other/furniture",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatny montaż mebli.",
+    "message": "Składam w domu regał i nie potrafię ustalić, w jakiej kolejności zamontować tylną ściankę oraz półki. Instrukcja jest mało czytelna. Czy możecie podpowiedzieć ogólne zasady bezpiecznego montażu takiego mebla?"
+  },
+  {
+    "id": "other/furniture/conversation_history",
+    "scenario_id": "other/furniture",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatny montaż mebli.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nSkładam w domu regał i nie potrafię ustalić, w jakiej kolejności zamontować tylną ściankę oraz półki. Instrukcja jest mało czytelna. Czy możecie podpowiedzieć ogólne zasady bezpiecznego montażu takiego mebla?"
+  },
+  {
+    "id": "other/car/base",
+    "scenario_id": "other/car",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna obsługa samochodu.",
+    "message": "Chciałbym uporządkować harmonogram przeglądów mojego prywatnego samochodu. Nie wiem, które informacje odczytać z książki serwisowej, aby nie pominąć wymiany podstawowych elementów. Czy możecie wskazać, jak przygotować listę czynności do omówienia z warsztatem?"
+  },
+  {
+    "id": "other/car/forwarded_history",
+    "scenario_id": "other/car",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna obsługa samochodu.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nChciałbym uporządkować harmonogram przeglądów mojego prywatnego samochodu. Nie wiem, które informacje odczytać z książki serwisowej, aby nie pominąć wymiany podstawowych elementów. Czy możecie wskazać, jak przygotować listę czynności do omówienia z warsztatem?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nUdział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "other/home-internet/base",
+    "scenario_id": "other/home-internet",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Domowa usługa poza zakresem urządzeń firmowych.",
+    "message": "Piszę o prywatnym internecie w mieszkaniu, z którego nie korzystam do pracy i do którego nie są podłączone urządzenia firmowe. Chciałbym porównać oferty operatorów przed końcem umowy. Proszę o wskazanie parametrów, na które powinienem zwrócić uwagę przy wyborze abonamentu."
+  },
+  {
+    "id": "other/private-purchase/resolved_preface",
+    "scenario_id": "other/private-purchase",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Reklamacja prywatnego zakupu.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nOsobna, aktualna wiadomość:\nKupiłam w sklepie internetowym czajnik do domu i otrzymałam model w innym kolorze niż zamówiony. Chciałabym napisać do sprzedawcy prośbę o wymianę. Czy możecie pomóc ułożyć taką wiadomość? Zakup był prywatny i nie ma związku z firmowym wyposażeniem.\n\nNa potwierdzeniu zamówienia mam właściwy wariant, a etykieta pudełka wskazuje inny. Samo urządzenie wygląda na nieużywane i nie zostało jeszcze uruchomione. Mam zdjęcia przesyłki, numer zamówienia oraz wiadomość od sklepu potwierdzającą zakup.\n\nChciałabym poprosić o wymianę na zamówiony kolor, a nie o zwrot pieniędzy. Nie wiem, czy w pierwszej wiadomości opisywać wszystko szczegółowo, czy wystarczy krótka informacja i zdjęcia. Zależy mi na spokojnym tonie, bo być może to zwykła pomyłka podczas pakowania. Pomóżcie ułożyć jasną wiadomość do sprzedawcy z prośbą o wskazanie sposobu wymiany i o informację, jak przygotować paczkę do odbioru."
+  },
+  {
+    "id": "other/poem/base",
+    "scenario_id": "other/poem",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prośba o tekst literacki.",
+    "message": "Potrzebuję krótkiego, pogodnego wiersza na kartkę urodzinową dla babci. Chciałabym, żeby pojawiły się w nim ogród, wspólne spacery i domowe wypieki, ale bez żartów o wieku. Czy możecie pomóc napisać kilka wersów do prywatnych życzeń?"
+  },
+  {
+    "id": "other/poem/conversation_history",
+    "scenario_id": "other/poem",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prośba o tekst literacki.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPotrzebuję krótkiego, pogodnego wiersza na kartkę urodzinową dla babci. Chciałabym, żeby pojawiły się w nim ogród, wspólne spacery i domowe wypieki, ale bez żartów o wieku. Czy możecie pomóc napisać kilka wersów do prywatnych życzeń?"
+  },
+  {
+    "id": "other/museum/quoted_history",
+    "scenario_id": "other/museum",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne zainteresowanie wystawą.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nWybieram się z rodziną do muzeum techniki i chciałbym wcześniej przygotować dzieci do zwiedzania. Jakie pytania można zadawać przy oglądaniu dawnych maszyn, żeby zainteresować je historią wynalazków?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "other/photography/base",
+    "scenario_id": "other/photography",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie o prywatne fotografowanie.",
+    "message": "Próbuję fotografować domowe rośliny telefonem, ale zdjęcia wychodzą zbyt ciemne przy oknie. Chciałabym zrozumieć, jak ustawić obiekt względem światła i tła. Czy możecie podać kilka wskazówek?\n\nNa zdjęciu liście są ciemne, a okno za nimi bardzo jasne. Kiedy włączam lampę, pojawiają się ostre odbicia. Mogę przestawić roślinę i użyć jasnego kartonu jako tła, ale nie mam dodatkowych lamp fotograficznych."
+  },
+  {
+    "id": "other/photography/resolved_preface",
+    "scenario_id": "other/photography",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pytanie o prywatne fotografowanie.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nOsobna, aktualna wiadomość:\nPróbuję fotografować domowe rośliny telefonem, ale zdjęcia wychodzą zbyt ciemne przy oknie. Chciałabym zrozumieć, jak ustawić obiekt względem światła i tła. Czy możecie podać kilka wskazówek?\n\nNa zdjęciu liście są ciemne, a okno za nimi bardzo jasne. Kiedy włączam lampę, pojawiają się ostre odbicia. Mogę przestawić roślinę i użyć jasnego kartonu jako tła, ale nie mam dodatkowych lamp fotograficznych."
+  },
+  {
+    "id": "other/music/base",
+    "scenario_id": "other/music",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna nauka muzyki.",
+    "message": "Uczę się grać na gitarze w wolnym czasie i chciałbym lepiej rozumieć zapis akordów nad tekstem piosenki. Czy możecie wyjaśnić, co oznaczają podstawowe symbole i jak ćwiczyć zmianę chwytów?"
+  },
+  {
+    "id": "other/music/resolved_postscript",
+    "scenario_id": "other/music",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatna nauka muzyki.",
+    "message": "Uczę się grać na gitarze w wolnym czasie i chciałbym lepiej rozumieć zapis akordów nad tekstem piosenki. Czy możecie wyjaśnić, co oznaczają podstawowe symbole i jak ćwiczyć zmianę chwytów?\n\nPS. Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/board-game/conversation_history",
+    "scenario_id": "other/board-game",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Wyjaśnienie zasad gry planszowej.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPlanujemy rodzinny wieczór z grami i szukam sposobu na jasne wytłumaczenie zasad początkującym. Czy lepiej najpierw opisać wszystkie wyjątki, czy rozegrać rundę próbną? Proszę o wskazówki dotyczące prowadzenia takiego prywatnego spotkania, bez związku z zajęciami dla pracowników.\n\nW grupie będą dwie osoby, które nigdy wcześniej nie grały, oraz kilka znających zasady. Nie chciałbym, żeby początkujący tylko obserwowali cudze ruchy. Przydałby się sposób wyjaśnienia celu gry i najważniejszych decyzji bez długiego wykładu."
+  },
+  {
+    "id": "other/recycling/base",
+    "scenario_id": "other/recycling",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne pytanie o segregowanie odpadów.",
+    "message": "Porządkuję mieszkanie i mam opakowania złożone z papieru oraz folii, których nie potrafię rozdzielić. Chciałabym wiedzieć, jak sprawdzić właściwy sposób ich segregacji w swojej gminie. Czy możecie wskazać, gdzie szukać informacji?"
+  },
+  {
+    "id": "other/coffee-machine-home/base",
+    "scenario_id": "other/coffee-machine-home",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne pytanie o domowy sprzęt.",
+    "message": "Chcę wybrać ekspres do kawy do własnego mieszkania. Zależy mi na łatwym czyszczeniu i możliwości przygotowania jednej filiżanki, ale gubię się w nazwach urządzeń. Czy możecie wyjaśnić różnice między podstawowymi typami?"
+  },
+  {
+    "id": "other/coffee-machine-home/quoted_history",
+    "scenario_id": "other/coffee-machine-home",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Prywatne pytanie o domowy sprzęt.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nChcę wybrać ekspres do kawy do własnego mieszkania. Zależy mi na łatwym czyszczeniu i możliwości przygotowania jednej filiżanki, ale gubię się w nazwach urządzeń. Czy możecie wyjaśnić różnice między podstawowymi typami?\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "other/lost-umbrella/base",
+    "scenario_id": "other/lost-umbrella",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Sprawa dotycząca zagubionego przedmiotu.",
+    "message": "Zostawiłem wczoraj parasol przy wejściu do budynku i chciałbym dowiedzieć się, czy ktoś go znalazł. Był granatowy, z drewnianą rączką, bez żadnych dokumentów ani urządzeń elektronicznych. Proszę przekazać informację, gdzie sprawdza się rzeczy znalezione lub z kim można się w tej sprawie skontaktować."
+  },
+  {
+    "id": "other/lost-umbrella/resolved_postscript",
+    "scenario_id": "other/lost-umbrella",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Sprawa dotycząca zagubionego przedmiotu.",
+    "message": "Zostawiłem wczoraj parasol przy wejściu do budynku i chciałbym dowiedzieć się, czy ktoś go znalazł. Był granatowy, z drewnianą rączką, bez żadnych dokumentów ani urządzeń elektronicznych. Proszę przekazać informację, gdzie sprawdza się rzeczy znalezione lub z kim można się w tej sprawie skontaktować.\n\nPS. Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/parking/conversation_history",
+    "scenario_id": "other/parking",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Sprawa parkingowa poza opisanymi działami.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPrzyjechałam dziś do biura i zauważyłam, że moje miejsce parkingowe jest zajęte przez nieznany samochód. Czy można ustalić, kto tam zaparkował? Numer miejsca jest na tabliczce, a ja od kilkunastu minut czekam przy wjeździe i nie mam gdzie zostawić auta."
+  },
+  {
+    "id": "other/office-cleaning/base",
+    "scenario_id": "other/office-cleaning",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Utrzymanie porządku w pomieszczeniu biurowym.",
+    "message": "Po wczorajszym spotkaniu w sali konferencyjnej zostały pełne kosze i zabrudzone stoły. Za kilka godzin przychodzą tam goście. Proszę o przekazanie prośby o posprzątanie pomieszczenia osobie zajmującej się obsługą budynku. Sprzęt w sali działa i nie zgłaszam problemu technicznego.\n\nW sali nie ma obecnie nikogo i można wejść od razu. Najpilniejsze jest opróżnienie koszy oraz wytarcie blatów; ustawienie stołów może zostać takie jak teraz. Klucz jest dostępny w recepcji, która zna godzinę kolejnego spotkania."
+  },
+  {
+    "id": "other/office-cleaning/forwarded_history",
+    "scenario_id": "other/office-cleaning",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Utrzymanie porządku w pomieszczeniu biurowym.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPo wczorajszym spotkaniu w sali konferencyjnej zostały pełne kosze i zabrudzone stoły. Za kilka godzin przychodzą tam goście. Proszę o przekazanie prośby o posprzątanie pomieszczenia osobie zajmującej się obsługą budynku. Sprzęt w sali działa i nie zgłaszam problemu technicznego.\n\nW sali nie ma obecnie nikogo i można wejść od razu. Najpilniejsze jest opróżnienie koszy oraz wytarcie blatów; ustawienie stołów może zostać takie jak teraz. Klucz jest dostępny w recepcji, która zna godzinę kolejnego spotkania.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nKomputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "other/room-booking/base",
+    "scenario_id": "other/room-booking",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Rezerwacja pomieszczenia, bez usterki systemu.",
+    "message": "Potrzebuję zarezerwować małą salę na rozmowę z zewnętrznym dostawcą w przyszły wtorek. System rezerwacji działa, ale nie wiem, które pomieszczenia można udostępniać gościom. Proszę o informację od osoby odpowiedzialnej za organizację przestrzeni biurowej i zasady korzystania z sal.\n\nW kalendarzu widzę trzy wolne sale, ale przy jednej jest dopisek o dostępie wyłącznie dla pracowników, a przy drugiej ograniczenie liczby osób. Spotkanie obejmie dwie osoby z naszej strony i dwóch gości. Potrzebujemy zwykłego stołu oraz możliwości spokojnej rozmowy przez godzinę.\n\nNie planujemy prezentacji ani połączenia zdalnego. Chciałabym wiedzieć, czy wcześniej zgłosić gości recepcji i czy rezerwacja sali wymaga potwierdzenia przez osobę zarządzającą piętrem. Jeśli żadna z widocznych sal nie nadaje się do takiego spotkania, wystarczy wskazać inną dostępną przestrzeń. Termin możemy jeszcze przesunąć o godzinę, ale muszę potwierdzić go dostawcy przed końcem dnia."
+  },
+  {
+    "id": "other/room-booking/resolved_preface",
+    "scenario_id": "other/room-booking",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Rezerwacja pomieszczenia, bez usterki systemu.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n\nOsobna, aktualna wiadomość:\nPotrzebuję zarezerwować małą salę na rozmowę z zewnętrznym dostawcą w przyszły wtorek. System rezerwacji działa, ale nie wiem, które pomieszczenia można udostępniać gościom. Proszę o informację od osoby odpowiedzialnej za organizację przestrzeni biurowej i zasady korzystania z sal.\n\nW kalendarzu widzę trzy wolne sale, ale przy jednej jest dopisek o dostępie wyłącznie dla pracowników, a przy drugiej ograniczenie liczby osób. Spotkanie obejmie dwie osoby z naszej strony i dwóch gości. Potrzebujemy zwykłego stołu oraz możliwości spokojnej rozmowy przez godzinę.\n\nNie planujemy prezentacji ani połączenia zdalnego. Chciałabym wiedzieć, czy wcześniej zgłosić gości recepcji i czy rezerwacja sali wymaga potwierdzenia przez osobę zarządzającą piętrem. Jeśli żadna z widocznych sal nie nadaje się do takiego spotkania, wystarczy wskazać inną dostępną przestrzeń. Termin możemy jeszcze przesunąć o godzinę, ale muszę potwierdzić go dostawcy przed końcem dnia."
+  },
+  {
+    "id": "other/heating-office/base",
+    "scenario_id": "other/heating-office",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Komfort pomieszczenia, nie infrastruktura IT.",
+    "message": "W naszym pokoju biurowym od rana nie grzeje kaloryfer i jest bardzo zimno. Zawór jest otwarty, a w korytarzu obok ogrzewanie działa. Czy można poprosić obsługę budynku o sprawdzenie tego pomieszczenia? Pracuje tu sześć osób i nie mamy możliwości przeniesienia się dziś do innego pokoju."
+  },
+  {
+    "id": "other/heating-office/resolved_postscript",
+    "scenario_id": "other/heating-office",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Komfort pomieszczenia, nie infrastruktura IT.",
+    "message": "W naszym pokoju biurowym od rana nie grzeje kaloryfer i jest bardzo zimno. Zawór jest otwarty, a w korytarzu obok ogrzewanie działa. Czy można poprosić obsługę budynku o sprawdzenie tego pomieszczenia? Pracuje tu sześć osób i nie mamy możliwości przeniesienia się dziś do innego pokoju.\n\nPS. Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/supplier-offer/base",
+    "scenario_id": "other/supplier-offer",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Zewnętrzna oferta handlowa.",
+    "message": "Dzień dobry, reprezentuję dostawcę materiałów opakowaniowych i chciałbym przedstawić ofertę pudeł kartonowych dla Państwa firmy. Proszę o wskazanie osoby odpowiedzialnej za zakupy tego rodzaju produktów. Nie ubiegam się o zatrudnienie, tylko o możliwość nawiązania współpracy handlowej.\n\nMamy kilka standardowych rozmiarów i możliwość przygotowania próbnego zestawu do oceny. Zanim prześlę katalog, chciałbym upewnić się, że trafi do osoby zajmującej się zaopatrzeniem. Jeśli firma nie kupuje takich materiałów, wystarczy krótka odpowiedź."
+  },
+  {
+    "id": "other/supplier-offer/conversation_history",
+    "scenario_id": "other/supplier-offer",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Zewnętrzna oferta handlowa.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDzień dobry, reprezentuję dostawcę materiałów opakowaniowych i chciałbym przedstawić ofertę pudeł kartonowych dla Państwa firmy. Proszę o wskazanie osoby odpowiedzialnej za zakupy tego rodzaju produktów. Nie ubiegam się o zatrudnienie, tylko o możliwość nawiązania współpracy handlowej.\n\nMamy kilka standardowych rozmiarów i możliwość przygotowania próbnego zestawu do oceny. Zanim prześlę katalog, chciałbym upewnić się, że trafi do osoby zajmującej się zaopatrzeniem. Jeśli firma nie kupuje takich materiałów, wystarczy krótka odpowiedź."
+  },
+  {
+    "id": "other/press-request/base",
+    "scenario_id": "other/press-request",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Zapytanie prasowe.",
+    "message": "Przygotowuję artykuł o lokalnych przedsiębiorstwach i chciałabym uzyskać zgodę na krótką rozmowę o historii Państwa firmy. Czy można skontaktować mnie z osobą uprawnioną do wypowiedzi dla mediów? Mogę wcześniej przesłać zakres pytań i uzgodnić termin autoryzacji wypowiedzi.\n\nArtykuł będzie dotyczył zmian, jakie zaszły w dzielnicy w ciągu ostatnich kilkunastu lat. Interesuje mnie historia powstania firmy, jej związek z okolicą i wspomnienia osób, które pamiętają pierwszą siedzibę. Nie potrzebuję danych finansowych ani informacji o konkretnych pracownikach.\n\nRozmowa może odbyć się telefonicznie lub osobiście, w dogodnym dla rozmówcy terminie. Przewiduję około dwudziestu minut i wcześniej prześlę listę zagadnień. Jeśli firma dysponuje archiwalnym zdjęciem budynku przeznaczonym do publikacji, chętnie uzgodnię również możliwość jego wykorzystania z odpowiednim podpisem. Proszę przekazać zapytanie osobie, która może reprezentować firmę w kontakcie z redakcją."
+  },
+  {
+    "id": "other/press-request/forwarded_history",
+    "scenario_id": "other/press-request",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Zapytanie prasowe.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nPrzygotowuję artykuł o lokalnych przedsiębiorstwach i chciałabym uzyskać zgodę na krótką rozmowę o historii Państwa firmy. Czy można skontaktować mnie z osobą uprawnioną do wypowiedzi dla mediów? Mogę wcześniej przesłać zakres pytań i uzgodnić termin autoryzacji wypowiedzi.\n\nArtykuł będzie dotyczył zmian, jakie zaszły w dzielnicy w ciągu ostatnich kilkunastu lat. Interesuje mnie historia powstania firmy, jej związek z okolicą i wspomnienia osób, które pamiętają pierwszą siedzibę. Nie potrzebuję danych finansowych ani informacji o konkretnych pracownikach.\n\nRozmowa może odbyć się telefonicznie lub osobiście, w dogodnym dla rozmówcy terminie. Przewiduję około dwudziestu minut i wcześniej prześlę listę zagadnień. Jeśli firma dysponuje archiwalnym zdjęciem budynku przeznaczonym do publikacji, chętnie uzgodnię również możliwość jego wykorzystania z odpowiednim podpisem. Proszę przekazać zapytanie osobie, która może reprezentować firmę w kontakcie z redakcją.\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nUdział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "other/unknown-reference/resolved_preface",
+    "scenario_id": "other/unknown-reference",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Nieokreślone odwołanie do nieudostępnionej rozmowy.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nOsobna, aktualna wiadomość:\nWracam do tego, o czym rozmawialiśmy ostatnio. Czy udało się już ustalić rozwiązanie i można przejść do kolejnego etapu? Dajcie znać, bo czekam na odpowiedź."
+  },
+  {
+    "id": "other/vague-urgent/base",
+    "scenario_id": "other/vague-urgent",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pilność bez informacji o przedmiocie.",
+    "message": "To bardzo pilne!!! Sytuacja od rana jest taka sama. Ktoś może się wreszcie tym zająć? Potrzebuję odpowiedzi jeszcze dzisiaj."
+  },
+  {
+    "id": "other/vague-urgent/resolved_postscript",
+    "scenario_id": "other/vague-urgent",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pilność bez informacji o przedmiocie.",
+    "message": "To bardzo pilne!!! Sytuacja od rana jest taka sama. Ktoś może się wreszcie tym zająć? Potrzebuję odpowiedzi jeszcze dzisiaj.\n\nPS. Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/empty-forward/conversation_history",
+    "scenario_id": "other/empty-forward",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Przekazanie pustego wątku.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nPrzesyłam poniżej korespondencję do sprawdzenia. Proszę o zajęcie się opisaną tam sprawą i informację zwrotną.\n\n--- Początek przekazanej wiadomości ---\n[treść wiadomości nie została dołączona]\n--- Koniec przekazanej wiadomości ---\n\nNie mam obecnie żadnych dodatkowych szczegółów ani identyfikatora, który pozwalałby odszukać ten wątek."
+  },
+  {
+    "id": "other/unknown-error/base",
+    "scenario_id": "other/unknown-error",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Nieopisany błąd bez wskazania urządzenia lub procesu.",
+    "message": "Coś się nie zgadza, ale trudno mi teraz dokładnie wyjaśnić co. Wczoraj było inaczej. Czy mogę najpierw z kimś porozmawiać i ustalić, od czego zacząć?"
+  },
+  {
+    "id": "other/unknown-error/forwarded_history",
+    "scenario_id": "other/unknown-error",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Nieopisany błąd bez wskazania urządzenia lub procesu.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nCoś się nie zgadza, ale trudno mi teraz dokładnie wyjaśnić co. Wczoraj było inaczej. Czy mogę najpierw z kimś porozmawiać i ustalić, od czego zacząć?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nAwaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "other/thank-you/base",
+    "scenario_id": "other/thank-you",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Podziękowanie bez nowej prośby i bez znanego tematu.",
+    "message": "Dziękuję za wcześniejszą pomoc i szybki kontakt. Sprawa, o której rozmawialiśmy, jest już zakończona i nie potrzebuję dalszych działań. Chciałem tylko przekazać, że doceniam zaangażowanie osoby, która mi pomogła. Nie zgłaszam w tej wiadomości żadnego nowego problemu."
+  },
+  {
+    "id": "other/thank-you/quoted_history",
+    "scenario_id": "other/thank-you",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Podziękowanie bez nowej prośby i bez znanego tematu.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nDziękuję za wcześniejszą pomoc i szybki kontakt. Sprawa, o której rozmawialiśmy, jest już zakończona i nie potrzebuję dalszych działań. Chciałem tylko przekazać, że doceniam zaangażowanie osoby, która mi pomogła. Nie zgłaszam w tej wiadomości żadnego nowego problemu.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "other/wrong-recipient/base",
+    "scenario_id": "other/wrong-recipient",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Wiadomość wysłana omyłkowo bez przedmiotu sprawy.",
+    "message": "Przepraszam, poprzednia wiadomość została wysłana na niewłaściwy adres. Proszę jej nie traktować jako zgłoszenia do firmy. W tej korespondencji nie ma opisu sprawy do załatwienia ani żadnego załącznika. Chciałam jedynie wyjaśnić pomyłkę i zakończyć wątek."
+  },
+  {
+    "id": "other/wrong-recipient/resolved_preface",
+    "scenario_id": "other/wrong-recipient",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Wiadomość wysłana omyłkowo bez przedmiotu sprawy.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nOsobna, aktualna wiadomość:\nPrzepraszam, poprzednia wiadomość została wysłana na niewłaściwy adres. Proszę jej nie traktować jako zgłoszenia do firmy. W tej korespondencji nie ma opisu sprawy do załatwienia ani żadnego załącznika. Chciałam jedynie wyjaśnić pomyłkę i zakończyć wątek."
+  },
+  {
+    "id": "other/gibberish/base",
+    "scenario_id": "other/gibberish",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Niezrozumiała treść bez możliwej do ustalenia intencji.",
+    "message": "Fioletowy zegar pożyczył chmurze siedem smaków, a schody zaczęły nucić kwadratowe morze. Zielona cisza pod stołem układała z liter śniadanie dla cienia. Proszę przestawić wczoraj na drugą stronę parasola, zanim liczba niebieska zasypie okrągłe okno."
+  },
+  {
+    "id": "other/gibberish/resolved_postscript",
+    "scenario_id": "other/gibberish",
+    "variant": "resolved_postscript",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Niezrozumiała treść bez możliwej do ustalenia intencji.",
+    "message": "Fioletowy zegar pożyczył chmurze siedem smaków, a schody zaczęły nucić kwadratowe morze. Zielona cisza pod stołem układała z liter śniadanie dla cienia. Proszę przestawić wczoraj na drugą stronę parasola, zanim liczba niebieska zasypie okrągłe okno.\n\nPS. Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta. Ta dopisana informacja nie jest nową prośbą."
+  },
+  {
+    "id": "other/fragment/base",
+    "scenario_id": "other/fragment",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Urwany tekst nie wskazuje przedmiotu działania.",
+    "message": "Dzień dobry, w nawiązaniu do kwestii związanej z tym, że w ubiegłym tygodniu miało zostać ustalone"
+  },
+  {
+    "id": "other/fragment/conversation_history",
+    "scenario_id": "other/fragment",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Urwany tekst nie wskazuje przedmiotu działania.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Awaria firmowej sieci została usunięta. Nie występują już żadne objawy i nie ma potrzeby dalszej interwencji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nDzień dobry, w nawiązaniu do kwestii związanej z tym, że w ubiegłym tygodniu miało zostać ustalone"
+  },
+  {
+    "id": "other/unknown-number/base",
+    "scenario_id": "other/unknown-number",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Sam numer nie określa tematu.",
+    "message": "Cześć, co z numerem 4827? Mam tylko taki zapis w notesie. Możecie sprawdzić i dać znać?"
+  },
+  {
+    "id": "other/unknown-number/forwarded_history",
+    "scenario_id": "other/unknown-number",
+    "variant": "forwarded_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Sam numer nie określa tematu.",
+    "message": "Przekazuję nową wiadomość w ramach tej samej korespondencji:\n\nCześć, co z numerem 4827? Mam tylko taki zapis w notesie. Możecie sprawdzić i dać znać?\n\n--- Przekazany stary wątek: ZAMKNIĘTY ---\nMój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\n--- Koniec archiwum ---\nProszę nie otwierać ponownie sprawy opisanej w archiwum."
+  },
+  {
+    "id": "other/undefined-document/quoted_history",
+    "scenario_id": "other/undefined-document",
+    "variant": "quoted_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Nieokreślony dokument bez informacji o jego rodzaju.",
+    "message": "Dzień dobry, poniżej przesyłam aktualną wiadomość.\n\nPotrzebuję poprawionej wersji tego dokumentu, który ostatnio omawialiśmy. Możecie podesłać? Nie pamiętam nazwy, chodzi o ten drugi.\n\n> Archiwalna korespondencja, sprawa zakończona:\n> Komputer został naprawiony i działa poprawnie. Zakończenie tamtego zgłoszenia technicznego zostało potwierdzone.\n\nCytat pozostawiam dla ciągłości korespondencji. Nie wznawiam starego zgłoszenia."
+  },
+  {
+    "id": "other/general-contact/base",
+    "scenario_id": "other/general-contact",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Ogólna prośba o kontakt bez podanego tematu.",
+    "message": "Dzień dobry, chciałabym porozmawiać z kimś z firmy. Nie wiem, od czego zacząć i do kogo napisać. Czy ktoś może się ze mną skontaktować?"
+  },
+  {
+    "id": "other/general-contact/resolved_preface",
+    "scenario_id": "other/general-contact",
+    "variant": "resolved_preface",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Ogólna prośba o kontakt bez podanego tematu.",
+    "message": "Najpierw potwierdzenie zamknięcia poprzedniego wątku: Udział w szkoleniu został już potwierdzony i przekazano komplet informacji. Tamta sprawa organizacyjna jest zamknięta.\n\nOsobna, aktualna wiadomość:\nDzień dobry, chciałabym porozmawiać z kimś z firmy. Nie wiem, od czego zacząć i do kogo napisać. Czy ktoś może się ze mną skontaktować?"
+  },
+  {
+    "id": "other/unspecified-approval/base",
+    "scenario_id": "other/unspecified-approval",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Nieokreślona prośba o akceptację.",
+    "message": "Czy jest już zgoda? Miała być odpowiedź do piątku, a nadal czekam. Bez tego nie ruszę dalej."
+  },
+  {
+    "id": "other/unknown-change/conversation_history",
+    "scenario_id": "other/unknown-change",
+    "variant": "conversation_history",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Nieokreślona zmiana bez wskazania dziedziny.",
+    "message": "Historia wcześniejszej rozmowy:\nJa: Mój wcześniejszy wniosek o urlop został już poprawnie rozliczony. Nie potrzebuję żadnych dalszych zmian w saldzie ani dokumentacji.\nOdpowiedź: Dziękujemy za potwierdzenie zakończenia tamtej sprawy.\n\nMoja obecna wiadomość dotyczy osobnej kwestii:\nTrzeba poprawić ten zapis, dalej jest stara wersja. Pisałem o tym wcześniej. Możecie to zmienić i potwierdzić?"
+  },
+  {
+    "id": "other/abstract-question/base",
+    "scenario_id": "other/abstract-question",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Abstrakcyjne pytanie niezwiązane z działami.",
+    "message": "Zastanawiam się, czy wspomnienie może mieć kolor i czy dwie osoby mogą tak samo rozumieć ciszę. Chciałabym podyskutować o tym jako pomyśle do opowiadania. Nie opisuję zdarzenia w firmie ani nie proszę o załatwienie sprawy pracowniczej lub technicznej."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "index": 365,
+  "original_case": 365,
+  "case_id": "it/suspicious-forwarding/base",
+  "expected": "it",
+  "actual": "other",
+  "category": "wrong_route",
+  "reason": "expected it, received other",
+  "seconds": 2.622
+}

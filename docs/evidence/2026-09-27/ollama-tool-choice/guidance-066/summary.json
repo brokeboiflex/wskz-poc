@@ -1,0 +1,29 @@
+{
+  "transport_exit": 0,
+  "http_status": 200,
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "UDhZWEKgUvfrT6FfgmPl2r7V1PehjvU0",
+        "index": 0,
+        "type": "function",
+        "function": {
+          "name": "send_department_email",
+          "arguments": "{\"department\":\"human_resources\"}"
+        }
+      }
+    ]
+  },
+  "finish_reason": "tool_calls",
+  "usage": {
+    "prompt_tokens": 724,
+    "prompt_tokens_details": {
+      "cached_tokens": 526
+    },
+    "completion_tokens": 19,
+    "total_tokens": 743
+  },
+  "generated_tokens": ""
+}

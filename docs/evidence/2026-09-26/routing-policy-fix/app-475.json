@@ -1,0 +1,12 @@
+[
+  {
+    "id": "other/vague-urgent/base",
+    "scenario_id": "other/vague-urgent",
+    "variant": "base",
+    "language": "pl",
+    "department": "other",
+    "recipient": "other@example.com",
+    "rationale": "Pilność bez informacji o przedmiocie.",
+    "message": "To bardzo pilne!!! Sytuacja od rana jest taka sama. Ktoś może się wreszcie tym zająć? Potrzebuję odpowiedzi jeszcze dzisiaj."
+  }
+]

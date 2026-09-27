@@ -1,0 +1,51 @@
+{
+  "evidence_audit_passed": true,
+  "training_ready": false,
+  "reason": "Steady-state OOM and failed disk budget",
+  "runs": [
+    {
+      "run": "preflight-20260927",
+      "oom_killed": true,
+      "exit_code": 137,
+      "completed_optimizer_steps": 0,
+      "completed_microbatches": 16,
+      "last_event": "train_microbatch",
+      "memory_limit_bytes": 6815744000,
+      "max_recorded_rss_bytes": 4359118848,
+      "disk_gate_passed": null,
+      "sources": {
+        "preflight-source.py": "88a4d10d0876f25b3e45f726b9cb210ab60fd72746b14623e7e29d8597608881"
+      }
+    },
+    {
+      "run": "preflight-serial-20260927",
+      "oom_killed": false,
+      "exit_code": 0,
+      "completed_optimizer_steps": 1,
+      "completed_microbatches": 16,
+      "last_event": "completed",
+      "memory_limit_bytes": 6815744000,
+      "max_recorded_rss_bytes": 6697308160,
+      "disk_gate_passed": false,
+      "sources": {
+        "preflight-source.py": "8dfe2de86f71d3d89df86e7cba60573d65ed99802b655e5c2efb3b57a1f8bfbe",
+        "optimizer-source.py": "0731178ececf0da3b1bb4cd8a2d96e73fbc07c0b7ff8edab4394166f7a371c5d"
+      }
+    },
+    {
+      "run": "preflight-steady-20260927",
+      "oom_killed": true,
+      "exit_code": 137,
+      "completed_optimizer_steps": 1,
+      "completed_microbatches": 17,
+      "last_event": "train_microbatch",
+      "memory_limit_bytes": 6815744000,
+      "max_recorded_rss_bytes": 6716903424,
+      "disk_gate_passed": null,
+      "sources": {
+        "preflight-source.py": "48694069302fdcc4540a8f2ef7392a0efd68887ffca7b9fff16cf2c00d8103f6",
+        "optimizer-source.py": "0731178ececf0da3b1bb4cd8a2d96e73fbc07c0b7ff8edab4394166f7a371c5d"
+      }
+    }
+  ]
+}

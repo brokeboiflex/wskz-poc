@@ -1,0 +1,4 @@
+# Reuse the exact running image and installed dependencies; registry timed out.
+# Base tag pinned locally to sha256:2cb21baff3a6f71e9a436a8c5366a721bb8bdaec943a3da38d7e9a4871740133.
+FROM message-router-api:before-tool-choice
+COPY router_app /app/router_app

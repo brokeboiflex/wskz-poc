@@ -1,0 +1,7 @@
+NAME                            IMAGE                                             COMMAND                  SERVICE        CREATED          STATUS                      PORTS
+message-router-api-1            message-router-api                                "uvicorn router_app.…"   api            7 hours ago      Up 6 hours (unhealthy)      127.0.0.1:8000->8000/tcp
+message-router-laya-adapter-1   message-router-laya-adapter                       "uvicorn laya_adapte…"   laya-adapter   25 hours ago     Exited (143) 25 hours ago   
+message-router-laya-runtime-1   message-router-laya-runtime                       "uvicorn runtime:app…"   laya-runtime   31 hours ago     Exited (143) 25 hours ago   
+message-router-mailer-1         message-router-mailer                             "uvicorn mailer_app.…"   mailer         32 hours ago     Up 6 hours (unhealthy)      8000/tcp
+message-router-model-init-1     message-router-model-init                         "python bootstrap.py"    model-init     25 hours ago     Exited (0) 25 hours ago     
+message-router-ollama-1         wskz-ollama-candidate:0.34.4-poc.gemma-native.2   "/bin/ollama serve"      ollama         35 seconds ago   Up 35 seconds (healthy)     11434/tcp

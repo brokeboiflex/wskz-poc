@@ -34,7 +34,7 @@ def probe_error(result):
 
 def initialize():
     base = os.environ.get("OPENAI_BASE_URL", "http://ollama:11434/v1").rstrip("/")
-    model = os.environ.get("OPENAI_MODEL", "qwen3:1.7b")
+    model = os.environ.get("OPENAI_MODEL", "gemma4:e2b")
     key = os.environ.get("OPENAI_API_KEY", "ollama")
     mode = os.environ.get("MODEL_BOOTSTRAP", "ollama")
     if mode not in {"ollama", "external"}:
@@ -47,12 +47,21 @@ def initialize():
         options = {token_field: int(os.environ.get("MODEL_MAX_TOKENS", "1024"))}
         for env, field, default, convert in (
             ("MODEL_REASONING_EFFORT", "reasoning_effort", "none", str),
-            ("MODEL_TEMPERATURE", "temperature", "0.7", float),
+            ("MODEL_TEMPERATURE", "temperature", "0", float),
             ("MODEL_TOP_P", "top_p", "0.8", float),
         ):
             value = os.environ.get(env, default)
             if value:
                 options[field] = convert(value)
+        choice = os.environ.get("MODEL_TOOL_CHOICE", "required")
+        if choice not in {"", "auto", "required", "named"}:
+            raise ValueError("invalid MODEL_TOOL_CHOICE")
+        if choice:
+            options["tool_choice"] = (
+                {"type": "function", "function": {"name": "readiness_probe"}}
+                if choice == "named"
+                else choice
+            )
         native = os.environ.get("OLLAMA_BASE_URL", "http://ollama:11434").rstrip("/")
         models = request(native + "/api/tags")["models"]
         if not any(item["name"] == model for item in models):

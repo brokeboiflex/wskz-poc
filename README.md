@@ -1,5 +1,9 @@
 # Inteligentny router wiadomości
 
+Gemma work accepted as complete. Gemma is now the default; Qwen weights removed and all PoC containers stopped. [Delivered work, cleanup, validation and restart](docs/GEMMA_COMPLETION.md). Historical checkpoints below describe their original runtime.
+
+Final Gemma500 evaluation completed 2026-09-27: **493/500 correct (98.6%), 7 wrong routes, 0 missing/invalid native calls**. All500 first attempts, no retries or mail. Previous score471/500;27 old failures fixed,2 remain,5 new regressions. All raw responses and seven failure bundles saved; offline audit passed and1866 prior hashes unchanged. Synthetic regression evidence, not held-out/general application acceptance. [Results, failures and repeat procedure](docs/evidence/2026-09-27/gemma-final-500/README.md). No further run is implicit.
+
 PoC mikroserwisów: Python, FastAPI, LangChain, lokalna Ollama i Mailpit.
 Agent analizuje wiadomość i wykonuje narzędzie wysyłkowe przez native function
 calling. Osobny serwis pocztowy przekazuje oryginalną treść przez SMTP do Mailpit,
@@ -20,9 +24,11 @@ docker compose up -d
 ```
 
 Nie trzeba tworzyć `.env`. Compose buduje obrazy, uruchamia Ollamę i Mailpit,
-pobiera `qwen3:1.7b`, rozgrzewa model i sprawdza rzeczywiste tool calling bez
-wysyłki maila. Ollama jest przypięta do `0.13.5`, wersji sprzed regresji
-serializacji narzędzi Qwen (#14601). Nie modyfikujemy szablonu ani wag modelu.
+pobiera `gemma4:e2b`, rozgrzewa model i sprawdza rzeczywiste tool calling bez
+wysyłki maila. Ollama jest przypięta do `0.34.4-poc.tool-choice.2`: poprawka
+serializacji narzędzi Qwen oraz natywne ograniczenia tool calling dla małej Gemmy4.
+Agent i wagi pozostają niezmienione. Szczegóły, ograniczenia i rollback:
+[OLLAMA_GEMMA_TOOL_FIX.md](docs/OLLAMA_GEMMA_TOOL_FIX.md).
 API startuje po pomyślnej inicjalizacji i gotowości mailera. Pierwszy start
 może potrwać kilka minut lub dłużej, zależnie od internetu i CPU. Kolejne starty
 wykorzystują zachowane wagi. Błąd inicjalizacji blokuje start API.
@@ -267,7 +273,7 @@ kontraktem, ale status `queued` nie może udawać `submitted`.
 ## Parametry modelu i błędne wywołania
 
 Wariant Ollama jawnie wyłącza thinking przez `MODEL_REASONING_EFFORT=none`,
-ustawia `MODEL_TEMPERATURE=0.7` i `MODEL_TOP_P=0.8`. Puste wartości pomijają te
+ustawia `MODEL_TEMPERATURE=0` i `MODEL_TOP_P=0.8`. Puste wartości pomijają te
 opcje, czego wymagają niektórzy dostawcy oraz adapter Laya. Szablony env zawierają
 odpowiednie ustawienia. `MODEL_TOKEN_LIMIT_FIELD=max_tokens` zachowuje pole
 obsługiwane przez przypiętą Ollamę; można wybrać `max_completion_tokens` dla
@@ -359,10 +365,16 @@ Kontrakty usług: [CONTRACTS.md](docs/CONTRACTS.md).
 `MODEL_TOOL_CHOICE` steruje standardowym polem wyboru narzędzia: puste pomija
 pole, `auto` zostawia wybór modelowi, `required` wymaga narzędzia, a `named`
 wskazuje funkcję `send_department_email`. Wsparcie zależy od backendu: przykład
-Ollamy pomija pole (ta wersja je ignoruje), Laya używa `required`, a OpenRouter
+Ollamy używa `required` na natywnej ścieżce dekodowania, Laya używa `required`, a OpenRouter
 `named` i wymaga obsługi przez wybrany model/backend. Nie wykonujemy automatycznego
 ponowienia z innymi ustawieniami. Polityka działów znajduje się w system prompt;
 schemat zachowuje opisy kategorii potrzebne adapterowi Laya.
+
+Domyślne ustawienia Compose i aplikacji to `gemma4:e2b`, temperatura0 oraz
+`MODEL_TOOL_CHOICE=required`, również bez `.env`. Pusta wartość nadal pomija pole
+u dostawców bez jego obsługi. Bootstrap przekazuje tę samą politykę wyboru
+narzędzia do sondy gotowości. Backend odrzuca nieobsługiwane wymagania jawnie.
+[Zamknięcie prac i odtworzenie](docs/GEMMA_COMPLETION.md).
 
 Ostatnia obserwowana próba po uproszczeniu opisu narzędzia i doprecyzowaniu polityki:
 2 z 4 wybranych przypadków poprawne, 2 nadal bez wywołania narzędzia. To mała
@@ -381,3 +393,11 @@ Audyt surowych odpowiedzi i wszystkich 190 przechwyconych maili potwierdził
 scenariuszy i tylko dwa działy; korpus był już używany podczas debugowania.
 Nie potwierdza to ogólnej skuteczności ani powtarzalności.
 [Audyt dowodów i ograniczenia](docs/evidence/2026-09-25/qwen4b-500/FORENSIC_REVIEW.md).
+
+### Poprawki backendu Ollama
+
+Aktualny build0.34.4 zawiera PR18391/17284 oraz naprawę integracji natywnego
+tool calling Gemmy4. Nie dodaje ponowień ani reguł modeli do agenta.
+[Podejście i rollback](docs/OLLAMA_GEMMA_TOOL_FIX.md),
+[wyniki i ograniczenia](docs/evidence/2026-09-26/ollama-gemma-fix/REPORT.md).
+Historyczny backport0.13.5: [OLLAMA_BACKPORT.md](docs/OLLAMA_BACKPORT.md).

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "llama-gemma4-parser.cpp",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/161755f29/common/parsers/gemma4.cpp",
+    "sha256": "e6caf03b1291b7315244b164af497e8d93c0dfcb2425adad9ee79186f56e1866"
+  },
+  {
+    "file": "llama-chat-auto-parser-generator.cpp",
+    "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/161755f29/common/chat-auto-parser-generator.cpp",
+    "sha256": "9f76ec58eb8e7aa8d2c40df1be0a75ba2e90a0486fc347f6a00e73b4457d1df4"
+  }
+]

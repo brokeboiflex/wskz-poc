@@ -1,0 +1,20 @@
+{
+  "frozen_inputs_unchanged": true,
+  "gemma_benchmark_stopped_after": 31,
+  "in_flight": false,
+  "diagnostic_inference_count": 1,
+  "diagnostic_only_request_change": "logprobs=true",
+  "render_only_generated_tokens": 0,
+  "declared_function": "send_department_email",
+  "generated_function": "human_resources",
+  "parsed_function": "human_resources",
+  "raw_generated_tokens": "<|tool_call>call:human_resources{}<tool_call|><|tool_response>",
+  "generated_name_matches_parsed": true,
+  "gemma_benchmark_counts": {
+    "protocol_error": 31
+  },
+  "selected_prefix_classes": {
+    "human_resources": 1,
+    "payroll": 30
+  }
+}

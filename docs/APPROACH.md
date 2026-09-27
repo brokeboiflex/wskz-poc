@@ -1,5 +1,42 @@
 # Zatwierdzone podejście, wykonanie i wznowienie
 
+Gemma work accepted as complete. Gemma is now the default; Qwen weights removed and all PoC containers stopped. [Delivered work, cleanup, validation and restart](GEMMA_COMPLETION.md). Historical checkpoints below describe their original runtime.
+
+Final Gemma500 evaluation completed 2026-09-27: **493/500 correct (98.6%), 7 wrong routes, 0 missing/invalid native calls**. All500 first attempts, no retries or mail. Previous score471/500;27 old failures fixed,2 remain,5 new regressions. All raw responses and seven failure bundles saved; offline audit passed and1866 prior hashes unchanged. Synthetic regression evidence, not held-out/general application acceptance. [Results, failures and repeat procedure](evidence/2026-09-27/gemma-final-500/README.md). No further run is implicit.
+
+Laya fine-tuning approved 2026-09-27; resource preflight blocked by steady-state
+OOM and checkpoint disk budget. No trained model or full dataset/test result.
+[Approved method](LAYA_GENERALIZATION_APPROACH.md),
+[evidence and resume conditions](../training/laya-routing/README.md).
+
+Latest repair (2026-09-27): **Ollama0.34.4-poc.tool-choice.2 is applied**. Generic native `tool_choice` transport now works; existing `MODEL_TOOL_CHOICE=required` is enabled and approved guidance is deployed. All8 saved missing-call cases pass on the first required request, including434; auto still reproduces434. Qwen, streaming, named, none and plain-text controls pass;81 application regressions and backend tests/vet pass. No full500 rerun or mail. Unsupported rendered required/none fails explicitly; API/mailer SMTP readiness remains blocked by pre-existing absent Mailpit. [Evidence, commands and rollback](evidence/2026-09-27/ollama-tool-choice/README.md).
+
+Previous prompt/diagnosis checkpoint (2026-09-27): added a minimal generic `<guidance>` block only. Focused23-case check:18 correct native routes,2 wrong routes,3 missing calls;81 regression tests pass. Raw tokens reproduce case434 missing the opening tool marker; native `tool_choice=required` corrects that case, but Ollama ignores the field. The other four original missing-call cases did not reproduce in isolation, so their precise trigger remains unresolved. No backend repair or full500 rerun. Source prompt not redeployed to the API container. [Evidence and repeat procedure](evidence/2026-09-27/gemma-guidance-diagnosis/README.md).
+
+Completed full Gemma check (2026-09-27 local time): **471/500 correct (94.2%)**, 24 wrong routes and 5 missing native calls. All 29 failures retain full requests and raw responses, plus individual debug bundles. All 77 manual review gates and offline audits pass. The earlier 147 outcomes reproduce exactly. No retries, tuning, tool execution or mail. Previous evidence, generic agent and Compose are unchanged. This is synthetic model transport/routing evidence, not full application acceptance.
+[Results, failures and repeat procedure](evidence/2026-09-26/gemma-patched-500/README.md). No further run is implicit.
+
+Latest completed check: the user reauthorized the147-case failed set after the
+Gemma repair. Gemma146/147 correct with one missing native call; Qwen133/147,
+14 wrong routes and no protocol errors. Both audits pass; no retries, email or
+full500 run. Historical checkpoints remain unchanged. See
+[approach and results](evidence/2026-09-26/failed-cases-patched/README.md).
+Older stopped-run statements below describe earlier checkpoints.
+
+Najnowsza zatwierdzona naprawa backendu została wdrożona lokalnie:
+[OLLAMA_GEMMA_TOOL_FIX.md](OLLAMA_GEMMA_TOOL_FIX.md).
+Ollama0.34.4 z natywnym dekodowaniem narzędzi Gemmy, bez zmiany agenta.
+Wyniki i granice dowodów: [raport](evidence/2026-09-26/ollama-gemma-fix/REPORT.md).
+Benchmark pozostaje zatrzymany.
+
+Poprzednia diagnoza integracji Gemma z 26.09.2026:
+[podejście](evidence/2026-09-26/gemma-integration-audit/APPROACH.md),
+[raport](evidence/2026-09-26/gemma-integration-audit/REPORT.md).
+Trzy pojedyncze generacje przez OpenAI-compatible API wyizolowały pomijanie
+natywnych ograniczeń nazw narzędzi w Ollama oraz osobny problem zachowania
+tokenów specjalnych w silniku natywnym. Bez zmian aplikacji, poprawek źródeł
+backendu, ponowień ani wznowienia benchmarku. Proces diagnostyczny zatrzymany.
+
 Użytkownik zatwierdził realizację 25.09.2026 („Ok […] Dajesz”), doprecyzowując
 oddzielne kontenery, luźne powiązania mikroserwisów, Service Layer Pattern w Pythonie
 oraz świeżego agenta krytyka po implementacji. Zgoda obejmuje implementację,
@@ -36,7 +73,8 @@ To 250 rodzin scenariuszy w dwóch wariantach, po 100 wiadomości na dział.
 2. Mailer: osobne API → DeliveryService → własny rejestr SQLite i SMTP.
    Trwała rezerwacja z UUID i hashem payloadu przed wywołaniem SMTP. Statusy
    submitted/failed/unknown, bez automatycznych ponowień.
-3. Ollama: osobny kontener, wersja 0.13.5 sprzed regresji tool calling #14601.
+3. Ollama: osobny kontener, przypięta0.34.4 z poprawkami backendu opisanymi
+   w OLLAMA_GEMMA_TOOL_FIX.md.
    Model-init sprawdza/pobiera wagi i wykonuje jeden neutralny tool call
    gotowości bez wysyłki. Nie zmienia szablonu ani wag modelu.
 4. Laya: osobne kontenery adaptera protokołu i silnika. Adapter przekłada jedno
@@ -274,3 +312,76 @@ the implementation checkpoint, then completed evidence.
 User stopped testing to inspect failures. No further inference. Results: 375 correct,
 6 wrong routes, 19 upstream missing calls; 381 live MIME audits passed. See
 `docs/evidence/2026-09-25/qwen4b-500/FAILURE_REVIEW.md` (path from repository root).
+
+## Approved Ollama backport
+
+User approved PR17284 backport and focused observed verification. Follow
+`docs/OLLAMA_BACKPORT.md` (repository root). Bulk testing remains stopped.
+
+## Temperature and schema diagnostic, 2026-09-26
+
+User requested temperature reduction and simpler schema, superseding EXAONE.
+Observed four transport-only requests: temperature0 alone still invalid on394;
+removing anyOf gives3/3 valid calls,2/3 correct departments. No production schema
+change or mail. Approach/evidence: docs/evidence/2026-09-26/simple-schema/README.md
+(path from repository root). Bulk benchmark remains stopped.
+
+## English minimal-schema diagnostic
+
+User approved testing the English prompt/minimal schema with failure-only records.
+Three observed cases394,235,393 passed native call and route checks at temperature0.
+Zero failures; no mail or production changes. Details and repeat approach:
+`docs/evidence/2026-09-26/english-minimal/README.md` (repository-root path).
+
+## Completed English minimal-schema evaluation, 2026-09-26
+
+User authorized all 500 cases with failure-only records. Completed unchanged
+Qwen3 4B / patched Ollama / temperature 0: 353 correct, 109 wrong routes,
+38 missing native calls. All missing calls were in the other category and
+returned ordinary text with finish_reason=stop, not native tool_calls.
+This is transport-only evidence: no emails or application schema changes.
+All 147 failures and 182 review gates passed the offline consistency audit;
+successful raw responses were intentionally not retained. No further run is
+implicit. Approach, exact prompt/schema, failure report and audit command:
+`docs/evidence/2026-09-26/english-minimal-500/README.md` (repository-root path).
+
+## Missing-call policy correction, 2026-09-26
+
+The user requested fixing missing calls and explaining the500 failures.
+Read `docs/evidence/2026-09-26/routing-policy-fix/README.md` and ANALYSIS.md
+(repository-root directory) before resuming. The application system prompt now
+requires forwarding every message, explicitly including other, and clarifies
+company-specific category boundaries. Schema/Laya criteria and agent code remain
+unchanged. Observed minimal-schema diagnostic:15native calls,14correct routes;
+case474 remains wrong due to resolved history. Seven former missing calls pass.
+81 router/wire/Laya/architecture tests pass. This is a prompt mitigation, not
+server-enforced tool calling or a full500 pass. Do not restart the bulk run.
+
+## Frozen failed-case comparison, 2026-09-26
+
+User authorized comparing Qwen and Gemma4 E4B only on the147 previously failed
+cases, freezing everything else. Inputs/settings are hashed under
+`docs/evidence/2026-09-26/failed-cases-comparison/`. Preflight blocked: current
+Ollama0.13.5-poc.17284 rejects Gemma4 with HTTP412 requiring a newer server.
+No inference or runtime upgrade occurred. Do not change the frozen backend
+implicitly; read that directory README before resuming.
+
+## Isolated newer Ollama candidate, 2026-09-26
+
+User requested investigating/patching newer Ollama. Build-only approach and logs:
+`docs/evidence/2026-09-26/ollama-candidate/README.md`. Candidate0.34.4 carries
+upstream PR18391 (template JSON) and PR17284 (unparsed output). Main Compose,
+running0.13.5 and frozen147-case comparison remain unchanged. These patches
+do not enforce tool_choice or establish Gemma inference correctness.
+
+## Gemma E2B comparison stopped and diagnosed, 2026-09-26
+
+The user stopped Gemma at31/147 after31 invalid tool-call names. Qwen completed
+133/147 correct routes,14 wrong routes and no protocol errors on the same backend.
+No bulk resume. One isolated logprobs replay proved the model itself generated
+`call:human_resources{}` despite a correct rendered `send_department_email` schema.
+Gemma uses its dedicated rendered completion/parser path; tool definitions are
+not enforced as decoding constraints and the parser passes through unknown names.
+The two existing generic patches do not cover this path. No repair implemented.
+Evidence, reproduction and checkpoint:
+[DIAGNOSIS_E2B.md](evidence/2026-09-26/failed-cases-comparison/DIAGNOSIS_E2B.md).

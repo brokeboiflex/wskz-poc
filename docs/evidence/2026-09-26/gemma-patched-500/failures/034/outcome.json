@@ -1,0 +1,10 @@
+{
+  "index": 34,
+  "original_case": 34,
+  "case_id": "human_resources/mentoring/resolved_preface",
+  "expected": "human_resources",
+  "actual": null,
+  "category": "protocol_error",
+  "reason": "missing or incomplete native call",
+  "seconds": 2.552
+}

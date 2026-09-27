@@ -1,0 +1,1 @@
+{"state":{"Status":"exited","Running":false,"Paused":false,"Restarting":false,"OOMKilled":true,"Dead":false,"Pid":0,"ExitCode":137,"Error":"","StartedAt":"2026-09-27T12:29:17.844665795Z","FinishedAt":"2026-09-27T12:29:44.024820126Z"},"image":"sha256:4d0ffa68273f122a8bb1db1a14d1503b7cca218c91d05c4970ede69601107989","memory":6815744000,"memory_swap":6815744000}

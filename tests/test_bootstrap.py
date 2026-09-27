@@ -254,3 +254,41 @@ def test_bootstrap_does_not_accept_a_valid_response_after_budget(monkeypatch):
     monkeypatch.setattr(bootstrap, "request", request)
     with pytest.raises(RuntimeError, match="timed out"):
         bootstrap.initialize()
+
+
+@pytest.mark.parametrize("choice", ["", "auto", "required", "named"])
+def test_bootstrap_forwards_configured_tool_choice(monkeypatch, choice):
+    monkeypatch.setenv("MODEL_TOOL_CHOICE", choice)
+    bodies = []
+
+    def request(url, payload=None, **kwargs):
+        if url.endswith("/api/tags"):
+            return {"models": [{"name": "test-model"}]}
+        if url.endswith("/models"):
+            return {"data": [{"id": "test-model"}]}
+        bodies.append(payload)
+        return {
+            "choices": [
+                {
+                    "finish_reason": "tool_calls",
+                    "message": {
+                        "tool_calls": [
+                            {"function": {"name": "readiness_probe", "arguments": '{"ready":true}'}}
+                        ]
+                    },
+                }
+            ]
+        }
+
+    monkeypatch.setattr(bootstrap, "request", request)
+    bootstrap.initialize()
+    assert len(bodies) == 1
+    if choice == "named":
+        assert bodies[0]["tool_choice"] == {
+            "type": "function",
+            "function": {"name": "readiness_probe"},
+        }
+    elif choice:
+        assert bodies[0]["tool_choice"] == choice
+    else:
+        assert "tool_choice" not in bodies[0]

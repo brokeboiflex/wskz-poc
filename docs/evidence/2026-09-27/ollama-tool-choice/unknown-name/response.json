@@ -1,0 +1,8 @@
+{
+  "error": {
+    "message": "tool_choice names an undeclared function",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": null
+  }
+}

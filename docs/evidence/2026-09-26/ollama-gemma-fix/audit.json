@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "fixed_initial_tool_call": true,
+  "streaming_arbitrary_tool_and_unicode": true,
+  "plain_output_clean": true,
+  "qwen_control_passed": true,
+  "promoted_service_smoke_passed": true,
+  "continuation_limitation_preserved": true,
+  "agent_and_frozen_comparison_unchanged": true,
+  "bulk_resumed": false,
+  "tool_execution": false,
+  "full_application_or_model_acceptance": false
+}

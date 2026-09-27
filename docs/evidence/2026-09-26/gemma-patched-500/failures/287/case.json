@@ -1,0 +1,10 @@
+{
+  "id": "help_desk/local-backup-restore/base",
+  "scenario_id": "help_desk/local-backup-restore",
+  "variant": "base",
+  "language": "pl",
+  "department": "help_desk",
+  "recipient": "help-desk@example.com",
+  "rationale": "Przywrócenie pliku użytkownika z dostępnej kopii.",
+  "message": "Przez pomyłkę nadpisałam własny arkusz roboczy pustą wersją. Zauważyłam to dopiero po zamknięciu programu, więc cofnięcie ostatniej operacji już nie działa. Czy można sprawdzić historię wersji lub kopię mojego pliku, żeby odzyskać wczorajszą zawartość bez naruszania pozostałych dokumentów?\n\nPamiętam nazwę pliku i folder, w którym pracowałam. Ostatnia poprawna wersja była otwierana wczoraj po południu. Od zauważenia pomyłki nie zapisuję już kolejnych zmian, żeby nie utrudniać przywrócenia właściwej zawartości."
+}

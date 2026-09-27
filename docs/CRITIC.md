@@ -1,5 +1,17 @@
 # Niezależny przegląd implementacji
 
+## Native Gemma backend patch, 2026-09-26
+
+Independent critic reviewed the actual patch, builds and live artifacts. It
+identified dropped assistant reasoning history; the generic native adapter and
+regression test now preserve it. It required final-image symbol resolution and
+loaded-library evidence; both passed. The parent caught broad `--special` token
+leakage and replaced it with a narrow native parser token patch. Final review
+accepted bounded local promotion for the PoC terminal first-tool flow, retaining
+the demonstrated pre-existing continuation failure, logprobs limitation, incomplete
+argument-schema constraints and lack of broad model/delivery validation.
+[Actual evidence](evidence/2026-09-26/ollama-gemma-fix/REPORT.md).
+
 ## Benchmark 500 przypadków - 25.09.2026
 
 Niezależny krytyk przeczytał wszystkie 250 scenariuszy źródłowych i porównał je
@@ -275,3 +287,17 @@ or duplicate deliveries. No model calls or mail were made during review.
 Earlier runner critic recommendations were incorporated into the final partial
 auditor: expected label and boolean/derived score consistency, category total
 conservation, all trace correlations and explicit partial-run status.
+
+## Ollama parser backport, 2026-09-26
+
+Compose now builds Ollama0.13.5 with upstream PR17284; runtime reports
+0.13.5-poc.17284. Source/patch hashes pinned; upstream parser tests and vet pass.
+Router tests:34 passed. Observed case394 exposes invented send_department_it
+with correct department=it; rejected with zero email. Control393 produces one
+valid native call and one audited email including Reply-To. No bulk run resumed.
+Tracing restored off; generic agent unchanged. See [backport and proper fix](OLLAMA_BACKPORT.md).
+
+Fresh backport critic inspected actual build, traces and MIME, plus running image
+and MODEL_TRACE=false. No blocker: recovered invalid text cannot execute; valid
+control still delivers. This certifies the data-loss backport, not constrained
+function-name generation or general classification accuracy.

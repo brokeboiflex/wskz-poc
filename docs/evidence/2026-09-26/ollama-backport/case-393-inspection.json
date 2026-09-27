@@ -1,0 +1,26 @@
+{
+  "raw_message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "call_z57w6la0",
+        "index": 0,
+        "type": "function",
+        "function": {
+          "name": "send_department_email",
+          "arguments": "{\"department\":\"it\"}"
+        }
+      }
+    ]
+  },
+  "finish_reason": "tool_calls",
+  "usage": {
+    "prompt_tokens": 838,
+    "completion_tokens": 21,
+    "total_tokens": 859
+  },
+  "rejection_reason": null,
+  "trace_mail_audit_passed": true,
+  "mail_count": 1
+}

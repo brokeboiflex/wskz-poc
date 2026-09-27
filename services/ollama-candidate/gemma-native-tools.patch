@@ -1,0 +1,829 @@
+diff --git a/llm/llama_server.go b/llm/llama_server.go
+index f11a6d5..c766337 100644
+--- a/llm/llama_server.go
++++ b/llm/llama_server.go
+@@ -782,6 +782,9 @@ func appendJinjaArgs(params []string, config LlamaServerConfig) []string {
+ 		return append(params, "--no-jinja", "--chat-template", "chatml")
+ 	}
+ 
++	if config.ChatTemplate != "" {
++		params = append(params, "--jinja", "--chat-template", config.ChatTemplate)
++	}
+ 	return params
+ }
+ 
+@@ -2313,6 +2316,9 @@ func llamaServerChatMessage(msg Message) (map[string]any, error) {
+ 	converted := map[string]any{
+ 		"role": msg.Role,
+ 	}
++	if msg.Thinking != "" {
++		converted["reasoning_content"] = msg.Thinking
++	}
+ 	if msg.ToolCallID != "" {
+ 		converted["tool_call_id"] = msg.ToolCallID
+ 	}
+diff --git a/llm/native_template_test.go b/llm/native_template_test.go
+new file mode 100644
+index 0000000..6ccfc9b
+--- /dev/null
++++ b/llm/native_template_test.go
+@@ -0,0 +1,32 @@
++package llm
++
++import (
++	"github.com/ollama/ollama/api"
++	"slices"
++	"testing"
++)
++
++func TestNativeTemplateRunnerArguments(t *testing.T) {
++	const template = "{{ messages[0].content }}"
++	got := appendJinjaArgs([]string{"base"}, LlamaServerConfig{ChatTemplate: template})
++	want := []string{"base", "--jinja", "--chat-template", template}
++	if !slices.Equal(got, want) {
++		t.Fatalf("native template/parser options = %q, want %q", got, want)
++	}
++	// A disabled native path must not accidentally activate this template.
++	got = appendJinjaArgs([]string{"base"}, LlamaServerConfig{DisableJinja: true, ChatTemplate: template})
++	want = []string{"base", "--no-jinja", "--chat-template", "chatml"}
++	if !slices.Equal(got, want) {
++		t.Fatalf("disabled native path = %q, want %q", got, want)
++	}
++}
++
++func TestNativeMessagePreservesThinkingWithTools(t *testing.T) {
++	msg, err := llamaServerChatMessage(Message{Role: "assistant", Thinking: "Need a lookup", ToolCalls: []api.ToolCall{{ID: "call_1", Function: api.ToolCallFunction{Name: "lookup"}}}})
++	if err != nil {
++		t.Fatal(err)
++	}
++	if msg["reasoning_content"] != "Need a lookup" || msg["content"] != "" || len(msg["tool_calls"].([]llamaServerChatToolCall)) != 1 {
++		t.Fatalf("thinking/tool history lost during native transport: %#v", msg)
++	}
++}
+diff --git a/llm/server.go b/llm/server.go
+index ee8a794..393f64b 100644
+--- a/llm/server.go
++++ b/llm/server.go
+@@ -77,6 +77,7 @@ type LlamaServer interface {
+ }
+ 
+ type LlamaServerConfig struct {
++	ChatTemplate         string
+ 	DisableJinja         bool
+ 	ContextShift         bool
+ 	EnableMTP            bool
+diff --git a/server/native_gemma4.go b/server/native_gemma4.go
+new file mode 100644
+index 0000000..cd0ff67
+--- /dev/null
++++ b/server/native_gemma4.go
+@@ -0,0 +1,23 @@
++package server
++
++import _ "embed"
++
++// Google's canonical small Gemma 4 template, unchanged from
++// google/gemma-4-E2B-it revision 3e22461f65e89153144f8adb70e3b8c2cc9845a7.
++// SHA256: 0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5.
++// The template activates llama.cpp's native Gemma parser and tool-name grammar.
++//
++//go:embed templates/gemma4-small.jinja
++var gemma4SmallNativeTemplate string
++
++func nativeGemma4Template(m *Model) string {
++	if m == nil || !m.isGGUF() || m.Config.Parser != "gemma4" || resolveRendererName(m) != gemma4RendererSmall {
++		return ""
++	}
++	// Preserve an explicitly selected Go template. The official Gemma package
++	// has renderer/parser metadata but no Go TEMPLATE or embedded chat template.
++	if shouldUseGoTemplate(m) {
++		return ""
++	}
++	return gemma4SmallNativeTemplate
++}
+diff --git a/server/native_gemma4_test.go b/server/native_gemma4_test.go
+new file mode 100644
+index 0000000..ac9111c
+--- /dev/null
++++ b/server/native_gemma4_test.go
+@@ -0,0 +1,99 @@
++package server
++
++import (
++	"context"
++	"crypto/sha256"
++	"encoding/json"
++	"fmt"
++	"net/http"
++	"testing"
++
++	"github.com/ollama/ollama/api"
++	gguftest "github.com/ollama/ollama/internal/testutil/gguf"
++	"github.com/ollama/ollama/llm"
++	"github.com/ollama/ollama/types/model"
++)
++
++func TestGemma4HandlerPassesToolsToNativeGrammar(t *testing.T) {
++	t.Setenv("OLLAMA_GO_TEMPLATE", "")
++	t.Setenv("OLLAMA_CONTEXT_LENGTH", "4096")
++	var tools []api.Tool
++	if err := json.Unmarshal([]byte(`[{"type":"function","function":{"name":"lookup_record","description":"Find a record","parameters":{"type":"object","properties":{"key":{"type":"string"}},"required":["key"]}}}]`), &tools); err != nil {
++		t.Fatal(err)
++	}
++	call := api.ToolCall{Function: api.ToolCallFunction{Name: "lookup_record", Arguments: testArgs(map[string]any{"key": "example"})}}
++	mock := mockRunner{ChatFn: func(_ context.Context, req llm.ChatRequest, fn func(llm.ChatResponse)) error {
++		fn(llm.ChatResponse{Message: api.Message{Role: "assistant", ToolCalls: []api.ToolCall{call}}, Done: true, DoneReason: llm.DoneReasonStop})
++		return nil
++	}}
++	s := newServerWithMockRunner(t, &mock)
++	createMinimalGGUFModel(t, s, "native-gemma-base", gguftest.KV{}, "", nil)
++	stream := false
++	w := createRequest(t, s.CreateHandler, api.CreateRequest{Model: "native-gemma-tools", From: "native-gemma-base", Renderer: "gemma4-small", Parser: "gemma4", Stream: &stream})
++	if w.Code != http.StatusOK {
++		t.Fatalf("create: %d %s", w.Code, w.Body.String())
++	}
++	w = createRequest(t, s.ChatHandler, api.ChatRequest{Model: "native-gemma-tools", Messages: []api.Message{{Role: "user", Content: "Find example"}}, Tools: tools, Stream: &stream})
++	if w.Code != http.StatusOK {
++		t.Fatalf("chat: %d %s", w.Code, w.Body.String())
++	}
++	if len(mock.ChatRequest.Tools) != 1 || mock.ChatRequest.Tools[0].Function.Name != "lookup_record" {
++		t.Fatal("Gemma tool schema never reached the native grammar")
++	}
++	var response api.ChatResponse
++	if err := json.Unmarshal(w.Body.Bytes(), &response); err != nil {
++		t.Fatal(err)
++	}
++	if len(response.Message.ToolCalls) != 1 || response.Message.ToolCalls[0].Function.Name != "lookup_record" {
++		t.Fatalf("native tool call did not survive response transport: %s", w.Body.String())
++	}
++}
++
++func TestGemma4NativeToolRoute(t *testing.T) {
++	t.Setenv("OLLAMA_GO_TEMPLATE", "")
++	for _, renderer := range []string{"gemma4", "gemma4-small"} {
++		// A renamed model must work from its existing architecture metadata.
++		m := &Model{Name: "renamed-model", Config: model.ConfigV2{
++			ModelFormat: "gguf", ModelType: "5.1B", Renderer: renderer, Parser: "gemma4",
++		}}
++		if got := chatModeForModel(m); got != chatExecutionModeNative {
++			t.Fatalf("Gemma tool calls bypass native grammar: mode = %v", got)
++		}
++		cfg := llamaServerConfigForModel(m)
++		if cfg.DisableJinja || cfg.ChatTemplate == "" {
++			t.Fatal("native Gemma requires the canonical template and preserved delimiters")
++		}
++	}
++}
++
++func TestGemma4NativeTemplateScope(t *testing.T) {
++	t.Setenv("OLLAMA_GO_TEMPLATE", "")
++	for _, tc := range []struct {
++		name, format, renderer, parser, size string
++		goTemplate                           bool
++	}{
++		{"large", "gguf", "gemma4-large", "gemma4", "31B", false},
++		{"legacy large", "gguf", "gemma4", "gemma4", "31B", false},
++		{"mlx", "safetensors", "gemma4", "gemma4", "5.1B", false},
++		{"parser only", "gguf", "", "gemma4", "5.1B", false},
++		{"different parser", "gguf", "gemma4-small", "gemma4-no-thinking", "5.1B", false},
++		{"explicit Go template", "gguf", "gemma4-small", "gemma4", "5.1B", true},
++		{"qwen", "gguf", "", "", "4B", false},
++	} {
++		t.Run(tc.name, func(t *testing.T) {
++			m := &Model{HasGoTemplate: tc.goTemplate, Config: model.ConfigV2{
++				ModelFormat: tc.format, Renderer: tc.renderer, Parser: tc.parser, ModelType: tc.size,
++			}}
++			cfg := llamaServerConfigForModel(m)
++			if cfg.ChatTemplate != "" {
++				t.Fatal("unrelated execution path received the Gemma template")
++			}
++		})
++	}
++}
++
++func TestGemma4CanonicalTemplate(t *testing.T) {
++	if got := fmt.Sprintf("%x", sha256.Sum256([]byte(gemma4SmallNativeTemplate))); got != "0a2c8073c878ab1da004bee933a998606537bbb62016310352c7285c3f01c5b5" {
++		t.Fatalf("official template changed: %s", got)
++	}
++}
+diff --git a/server/routes.go b/server/routes.go
+index 99846c1..eae6117 100644
+--- a/server/routes.go
++++ b/server/routes.go
+@@ -2432,6 +2432,7 @@ func chatModeForModel(m *Model) chatExecutionMode {
+ func llamaServerConfigForModel(m *Model) llm.LlamaServerConfig {
+ 	return llm.LlamaServerConfig{
+ 		DisableJinja:         usesOllamaRenderedChat(m),
++		ChatTemplate:         nativeGemma4Template(m),
+ 		ManifestDigest:       m.Digest,
+ 		DraftModelPath:       m.DraftPath,
+ 		DraftModelShardPaths: slices.Clone(m.DraftShardPaths),
+@@ -2439,7 +2440,7 @@ func llamaServerConfigForModel(m *Model) llm.LlamaServerConfig {
+ }
+ 
+ func usesOllamaRenderedChat(m *Model) bool {
+-	return m != nil && (m.Config.Renderer != "" || m.Config.Parser != "" || shouldUseHarmony(m) || shouldUseGoTemplate(m))
++	return m != nil && nativeGemma4Template(m) == "" && (m.Config.Renderer != "" || m.Config.Parser != "" || shouldUseHarmony(m) || shouldUseGoTemplate(m))
+ }
+ 
+ func shouldUseGoTemplate(m *Model) bool {
+diff --git a/server/templates/gemma4-small.LICENSE b/server/templates/gemma4-small.LICENSE
+new file mode 100644
+index 0000000..56ee3c8
+--- /dev/null
++++ b/server/templates/gemma4-small.LICENSE
+@@ -0,0 +1,201 @@
++                                Apache License
++                           Version 2.0, January 2004
++                        http://www.apache.org/licenses/
++
++   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
++
++   1. Definitions.
++
++      "License" shall mean the terms and conditions for use, reproduction,
++      and distribution as defined by Sections 1 through 9 of this document.
++
++      "Licensor" shall mean the copyright owner or entity authorized by
++      the copyright owner that is granting the License.
++
++      "Legal Entity" shall mean the union of the acting entity and all
++      other entities that control, are controlled by, or are under common
++      control with that entity. For the purposes of this definition,
++      "control" means (i) the power, direct or indirect, to cause the
++      direction or management of such entity, whether by contract or
++      otherwise, or (ii) ownership of fifty percent (50%) or more of the
++      outstanding shares, or (iii) beneficial ownership of such entity.
++
++      "You" (or "Your") shall mean an individual or Legal Entity
++      exercising permissions granted by this License.
++
++      "Source" form shall mean the preferred form for making modifications,
++      including but not limited to software source code, documentation
++      source, and configuration files.
++
++      "Object" form shall mean any form resulting from mechanical
++      transformation or translation of a Source form, including but
++      not limited to compiled object code, generated documentation,
++      and conversions to other media types.
++
++      "Work" shall mean the work of authorship, whether in Source or
++      Object form, made available under the License, as indicated by a
++      copyright notice that is included in or attached to the work
++      (an example is provided in the Appendix below).
++
++      "Derivative Works" shall mean any work, whether in Source or Object
++      form, that is based on (or derived from) the Work and for which the
++      editorial revisions, annotations, elaborations, or other modifications
++      represent, as a whole, an original work of authorship. For the purposes
++      of this License, Derivative Works shall not include works that remain
++      separable from, or merely link (or bind by name) to the interfaces of,
++      the Work and Derivative Works thereof.
++
++      "Contribution" shall mean any work of authorship, including
++      the original version of the Work and any modifications or additions
++      to that Work or Derivative Works thereof, that is intentionally
++      submitted to Licensor for inclusion in the Work by the copyright owner
++      or by an individual or Legal Entity authorized to submit on behalf of
++      the copyright owner. For the purposes of this definition, "submitted"
++      means any form of electronic, verbal, or written communication sent
++      to the Licensor or its representatives, including but not limited to
++      communication on electronic mailing lists, source code control systems,
++      and issue tracking systems that are managed by, or on behalf of, the
++      Licensor for the purpose of discussing and improving the Work, but
++      excluding communication that is conspicuously marked or otherwise
++      designated in writing by the copyright owner as "Not a Contribution."
++
++      "Contributor" shall mean Licensor and any individual or Legal Entity
++      on behalf of whom a Contribution has been received by Licensor and
++      subsequently incorporated within the Work.
++
++   2. Grant of Copyright License. Subject to the terms and conditions of
++      this License, each Contributor hereby grants to You a perpetual,
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
++      copyright license to reproduce, prepare Derivative Works of,
++      publicly display, publicly perform, sublicense, and distribute the
++      Work and such Derivative Works in Source or Object form.
++
++   3. Grant of Patent License. Subject to the terms and conditions of
++      this License, each Contributor hereby grants to You a perpetual,
++      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
++      (except as stated in this section) patent license to make, have made,
++      use, offer to sell, sell, import, and otherwise transfer the Work,
++      where such license applies only to those patent claims licensable
++      by such Contributor that are necessarily infringed by their
++      Contribution(s) alone or by combination of their Contribution(s)
++      with the Work to which such Contribution(s) was submitted. If You
++      institute patent litigation against any entity (including a
++      cross-claim or counterclaim in a lawsuit) alleging that the Work
++      or a Contribution incorporated within the Work constitutes direct
++      or contributory patent infringement, then any patent licenses
++      granted to You under this License for that Work shall terminate
++      as of the date such litigation is filed.
++
++   4. Redistribution. You may reproduce and distribute copies of the
++      Work or Derivative Works thereof in any medium, with or without
++      modifications, and in Source or Object form, provided that You
++      meet the following conditions:
++
++      (a) You must give any other recipients of the Work or
++          Derivative Works a copy of this License; and
++
++      (b) You must cause any modified files to carry prominent notices
++          stating that You changed the files; and
++
++      (c) You must retain, in the Source form of any Derivative Works
++          that You distribute, all copyright, patent, trademark, and
++          attribution notices from the Source form of the Work,
++          excluding those notices that do not pertain to any part of
++          the Derivative Works; and
++
++      (d) If the Work includes a "NOTICE" text file as part of its
++          distribution, then any Derivative Works that You distribute must
++          include a readable copy of the attribution notices contained
++          within such NOTICE file, excluding those notices that do not
++          pertain to any part of the Derivative Works, in at least one
++          of the following places: within a NOTICE text file distributed
++          as part of the Derivative Works; within the Source form or
++          documentation, if provided along with the Derivative Works; or,
++          within a display generated by the Derivative Works, if and
++          wherever such third-party notices normally appear. The contents
++          of the NOTICE file are for informational purposes only and
++          do not modify the License. You may add Your own attribution
++          notices within Derivative Works that You distribute, alongside
++          or as an addendum to the NOTICE text from the Work, provided
++          that such additional attribution notices cannot be construed
++          as modifying the License.
++
++      You may add Your own copyright statement to Your modifications and
++      may provide additional or different license terms and conditions
++      for use, reproduction, or distribution of Your modifications, or
++      for any such Derivative Works as a whole, provided Your use,
++      reproduction, and distribution of the Work otherwise complies with
++      the conditions stated in this License.
++
++   5. Submission of Contributions. Unless You explicitly state otherwise,
++      any Contribution intentionally submitted for inclusion in the Work
++      by You to the Licensor shall be under the terms and conditions of
++      this License, without any additional terms or conditions.
++      Notwithstanding the above, nothing herein shall supersede or modify
++      the terms of any separate license agreement you may have executed
++      with Licensor regarding such Contributions.
++
++   6. Trademarks. This License does not grant permission to use the trade
++      names, trademarks, service marks, or product names of the Licensor,
++      except as required for reasonable and customary use in describing the
++      origin of the Work and reproducing the content of the NOTICE file.
++
++   7. Disclaimer of Warranty. Unless required by applicable law or
++      agreed to in writing, Licensor provides the Work (and each
++      Contributor provides its Contributions) on an "AS IS" BASIS,
++      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
++      implied, including, without limitation, any warranties or conditions
++      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
++      PARTICULAR PURPOSE. You are solely responsible for determining the
++      appropriateness of using or redistributing the Work and assume any
++      risks associated with Your exercise of permissions under this License.
++
++   8. Limitation of Liability. In no event and under no legal theory,
++      whether in tort (including negligence), contract, or otherwise,
++      unless required by applicable law (such as deliberate and grossly
++      negligent acts) or agreed to in writing, shall any Contributor be
++      liable to You for damages, including any direct, indirect, special,
++      incidental, or consequential damages of any character arising as a
++      result of this License or out of the use or inability to use the
++      Work (including but not limited to damages for loss of goodwill,
++      work stoppage, computer failure or malfunction, or any and all
++      other commercial damages or losses), even if such Contributor
++      has been advised of the possibility of such damages.
++
++   9. Accepting Warranty or Additional Liability. While redistributing
++      the Work or Derivative Works thereof, You may choose to offer,
++      and charge a fee for, acceptance of support, warranty, indemnity,
++      or other liability obligations and/or rights consistent with this
++      License. However, in accepting such obligations, You may act only
++      on Your own behalf and on Your sole responsibility, not on behalf
++      of any other Contributor, and only if You agree to indemnify,
++      defend, and hold each Contributor harmless for any liability
++      incurred by, or claims asserted against, such Contributor by reason
++      of your accepting any such warranty or additional liability.
++
++   END OF TERMS AND CONDITIONS
++
++   APPENDIX: How to apply the Apache License to your work.
++
++      To apply the Apache License to your work, attach the following
++      boilerplate notice, with the fields enclosed by brackets "[]"
++      replaced with your own identifying information. (Don't include
++      the brackets!)  The text should be enclosed in the appropriate
++      comment syntax for the file format. We also recommend that a
++      file or class name and description of purpose be included on the
++      same "printed page" as the copyright notice for easier
++      identification within third-party archives.
++
++   Copyright [yyyy] [name of copyright owner]
++
++   Licensed under the Apache License, Version 2.0 (the "License");
++   you may not use this file except in compliance with the License.
++   You may obtain a copy of the License at
++
++       http://www.apache.org/licenses/LICENSE-2.0
++
++   Unless required by applicable law or agreed to in writing, software
++   distributed under the License is distributed on an "AS IS" BASIS,
++   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++   See the License for the specific language governing permissions and
++   limitations under the License.
+\ No newline at end of file
+diff --git a/server/templates/gemma4-small.jinja b/server/templates/gemma4-small.jinja
+new file mode 100644
+index 0000000..fbe3b59
+--- /dev/null
++++ b/server/templates/gemma4-small.jinja
+@@ -0,0 +1,386 @@
++{#
++  Template: Google Gemma 4 Canonical Chat Template
++  Author: Google Gemma Engineering Team
++  Published: 2026-07-09
++  Context: Fixed tool-calling loops, turn closures, and thinking content-ordering.
++#}
++{%- macro format_parameters(properties, required, filter_keys=false) -%}
++    {%- set standard_keys = ['description', 'type', 'properties', 'required', 'nullable'] -%}
++    {%- set ns = namespace(found_first=false) -%}
++    {%- for key, value in properties | dictsort -%}
++        {%- set add_comma = false -%}
++        {%- if not filter_keys or key not in standard_keys -%}
++            {%- if ns.found_first %},{% endif -%}
++            {%- set ns.found_first = true -%}
++            {{ key }}:{
++            {%- if value['description'] -%}
++                description:<|"|>{{ value['description'] }}<|"|>
++                {%- set add_comma = true -%}
++            {%- endif -%}
++            {%- if value['type'] | upper == 'STRING' -%}
++                {%- if value['enum'] -%}
++                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}
++                    enum:{{ format_argument(value['enum']) }}
++                {%- endif -%}
++            {%- elif value['type'] | upper == 'ARRAY' -%}
++                {%- if value['items'] is mapping and value['items'] -%}
++                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}
++                    items:{
++                    {%- set ns_items = namespace(found_first=false) -%}
++                    {%- for item_key, item_value in value['items'] | dictsort -%}
++                        {%- if item_value is not none -%}
++                            {%- if ns_items.found_first %},{% endif -%}
++                            {%- set ns_items.found_first = true -%}
++                            {%- if item_key == 'properties' -%}
++                                properties:{
++                                {%- if item_value is mapping -%}
++                                    {{- format_parameters(item_value, value['items']['required'] | default([])) -}}
++                                {%- endif -%}
++                                }
++                            {%- elif item_key == 'required' -%}
++                                required:[
++                                {%- for req_item in item_value -%}
++                                    <|"|>{{- req_item -}}<|"|>
++                                    {%- if not loop.last %},{% endif -%}
++                                {%- endfor -%}
++                                ]
++                            {%- elif item_key == 'type' -%}
++                                {%- if item_value is string -%}
++                                    type:{{ format_argument(item_value | upper) }}
++                                {%- else -%}
++                                    type:{{ format_argument(item_value | map('upper') | list) }}
++                                {%- endif -%}
++                            {%- else -%}
++                                {{ item_key }}:{{ format_argument(item_value) }}
++                            {%- endif -%}
++                        {%- endif -%}
++                    {%- endfor -%}
++                    }
++                {%- endif -%}
++            {%- endif -%}
++            {%- if value['nullable'] %}
++                {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}
++                nullable:true
++            {%- endif -%}
++            {%- if value['type'] | upper == 'OBJECT' -%}
++                {%- if value['properties'] is defined and value['properties'] is mapping -%}
++                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}
++                    properties:{
++                    {{- format_parameters(value['properties'], value['required'] | default([])) -}}
++                    }
++                {%- elif value is mapping -%}
++                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}
++                    properties:{
++                    {{- format_parameters(value, value['required'] | default([]), filter_keys=true) -}}
++                    }
++                {%- endif -%}
++                {%- if value['required'] -%}
++                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}
++                    required:[
++                    {%- for item in value['required'] | default([]) -%}
++                        <|"|>{{- item -}}<|"|>
++                        {%- if not loop.last %},{% endif -%}
++                    {%- endfor -%}
++                    ]
++                {%- endif -%}
++            {%- endif -%}
++            {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}
++            type:<|"|>{{ value['type'] | upper }}<|"|>}
++        {%- endif -%}
++    {%- endfor -%}
++{%- endmacro -%}
++{%- macro format_function_declaration(tool_data) -%}
++    declaration:{{- tool_data['function']['name'] -}}{description:<|"|>{{- tool_data['function']['description'] -}}<|"|>
++    {%- set params = tool_data['function']['parameters'] -%}
++    {%- if params -%}
++        ,parameters:{
++        {%- if params['properties'] -%}
++            properties:{ {{- format_parameters(params['properties'], params['required']) -}} },
++        {%- endif -%}
++        {%- if params['required'] -%}
++            required:[
++            {%- for item in params['required'] -%}
++                <|"|>{{- item -}}<|"|>
++                {{- ',' if not loop.last -}}
++            {%- endfor -%}
++            ],
++        {%- endif -%}
++        {%- if params['type'] -%}
++            type:<|"|>{{- params['type'] | upper -}}<|"|>}
++        {%- endif -%}
++    {%- endif -%}
++    {%- if 'response' in tool_data['function'] -%}
++        {%- set response_declaration = tool_data['function']['response'] -%}
++        ,response:{
++        {%- if response_declaration['description'] -%}
++            description:<|"|>{{- response_declaration['description'] -}}<|"|>,
++        {%- endif -%}
++        {%- if response_declaration['type'] | upper == 'OBJECT' -%}
++            type:<|"|>{{- response_declaration['type'] | upper -}}<|"|>}
++        {%- endif -%}
++    {%- endif -%}
++    }
++{%- endmacro -%}
++{%- macro format_argument(argument, escape_keys=True) -%}
++    {%- if argument is none -%}
++        {{- 'null' -}}
++    {%- elif argument is string -%}
++        {{- '<|"|>' + argument + '<|"|>' -}}
++    {%- elif argument is boolean -%}
++        {{- 'true' if argument else 'false' -}}
++    {%- elif argument is mapping -%}
++        {{- '{' -}}
++        {%- set ns = namespace(found_first=false) -%}
++        {%- for key, value in argument | dictsort -%}
++            {%- if ns.found_first %},{% endif -%}
++            {%- set ns.found_first = true -%}
++            {%- if escape_keys -%}
++                {{- '<|"|>' + key + '<|"|>' -}}
++            {%- else -%}
++                {{- key -}}
++            {%- endif -%}
++            :{{- format_argument(value, escape_keys=escape_keys) -}}
++        {%- endfor -%}
++        {{- '}' -}}
++    {%- elif argument is sequence -%}
++        {{- '[' -}}
++        {%- for item in argument -%}
++            {{- format_argument(item, escape_keys=escape_keys) -}}
++            {%- if not loop.last %},{% endif -%}
++        {%- endfor -%}
++        {{- ']' -}}
++    {%- else -%}
++        {{- argument -}}
++    {%- endif -%}
++{%- endmacro -%}
++{%- macro strip_thinking(text) -%}
++    {%- set ns = namespace(result='') -%}
++    {%- for part in text.split('<channel|>') -%}
++        {%- if '<|channel>' in part -%}
++            {%- set ns.result = ns.result + part.split('<|channel>')[0] -%}
++        {%- else -%}
++            {%- set ns.result = ns.result + part -%}
++        {%- endif -%}
++    {%- endfor -%}
++    {{- ns.result | trim -}}
++{%- endmacro -%}
++
++{%- macro format_tool_response_block(tool_name, response) -%}
++    {{- '<|tool_response>' -}}
++    {%- if response is mapping -%}
++        {{- 'response:' + tool_name + '{' -}}
++        {%- for key, value in response | dictsort -%}
++            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}
++            {%- if not loop.last %},{% endif -%}
++        {%- endfor -%}
++        {{- '}' -}}
++    {%- else -%}
++        {{- 'response:' + tool_name + '{value:' + format_argument(response, escape_keys=False) + '}' -}}
++    {%- endif -%}
++    {{- '<tool_response|>' -}}
++{%- endmacro -%}
++
++{#- ===== SETUP ===== -#}
++{%- set ns = namespace(prev_message_type=None, prev_non_tool_role=None) -%}
++{%- set loop_messages = messages -%}
++{%- set enable_thinking = enable_thinking | default(false) -%}
++{%- set preserve_thinking = preserve_thinking | default(false) -%}
++{{- bos_token -}}
++{#- Handle System/Tool Definitions Block -#}
++{%- if enable_thinking or tools or (messages and messages[0]['role'] in ['system', 'developer']) -%}
++    {{- '<|turn>system\n' -}}
++    {#- Inject Thinking token at the very top of the FIRST system turn -#}
++    {%- if enable_thinking -%}
++        {{- '<|think|>\n' -}}
++        {%- set ns.prev_message_type = 'think' -%}
++    {%- endif -%}
++    {%- if messages and messages[0]['role'] in ['system', 'developer'] -%}
++        {%- if messages[0]['content'] is string -%}
++            {{- messages[0]['content'] | trim -}}
++        {%- elif messages[0]['content'] is sequence -%}
++            {%- for item in messages[0]['content'] -%}
++                {{- item['text'] | trim + ' '-}}
++            {%- endfor -%}
++        {%- endif -%}
++        {%- set loop_messages = messages[1:] -%}
++    {%- endif -%}
++    {%- if tools -%}
++        {%- for tool in tools %}
++            {{- '<|tool>' -}}
++            {{- format_function_declaration(tool) | trim -}}
++            {{- '<tool|>' -}}
++        {%- endfor %}
++        {%- set ns.prev_message_type = 'tool' -%}
++    {%- endif -%}
++    {{- '<turn|>\n' -}}
++{%- endif %}
++
++{#- Pre-scan: find last user message index for reasoning guard -#}
++{%- set ns_turn = namespace(last_user_idx=-1) -%}
++{%- for i in range(loop_messages | length) -%}
++    {%- if loop_messages[i]['role'] == 'user' -%}
++        {%- set ns_turn.last_user_idx = i -%}
++    {%- endif -%}
++{%- endfor -%}
++
++{#- Loop through messages -#}
++{%- for message in loop_messages -%}
++    {%- if message['role'] != 'tool' -%}
++    {%- set ns.prev_message_type = None -%}
++    {%- set role = 'model' if message['role'] == 'assistant' else message['role'] -%}
++    {#- Detect continuation using tracked state — O(1) instead of O(n) backward scan -#}
++    {%- set continue_same_model_turn = (role == 'model' and ns.prev_non_tool_role == 'assistant') -%}
++    {%- if not continue_same_model_turn -%}
++        {{- '<|turn>' + role + '\n' }}
++    {%- endif -%}
++
++    {#- Render reasoning/reasoning_content as thinking channel -#}
++    {%- set thinking_text = message.get('reasoning') or message.get('reasoning_content') -%}
++    {%- set thinking_gate = (loop.index0 > ns_turn.last_user_idx) or (preserve_thinking and message.get('tool_calls')) -%}
++    {%- if thinking_text and thinking_gate -%}
++        {{- '<|channel>thought\n' + thinking_text + '\n<channel|>' -}}
++    {%- endif -%}
++
++            {%- if message.get('tool_calls') -%}
++                {%- for tool_call in message.get('tool_calls') -%}
++                    {%- set function = tool_call['function'] -%}
++                    {{- '<|tool_call>call:' + function['name'] + '{' -}}
++                    {%- if function['arguments'] is mapping -%}
++                        {%- set ns_args = namespace(found_first=false) -%}
++                        {%- for key, value in function['arguments'] | dictsort -%}
++                            {%- if ns_args.found_first %},{% endif -%}
++                            {%- set ns_args.found_first = true -%}
++                            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}
++                        {%- endfor -%}
++                    {%- elif function['arguments'] is none -%}
++                    {%- else -%}
++                        {{- raise_exception(
++                            "chat_template: tool_calls[].function.arguments must be a "
++                            "JSON object (mapping), not a string. Deserialize arguments "
++                            "before passing to the template."
++                        ) -}}
++                    {%- endif -%}
++                    {{- '}<tool_call|>' -}}
++                {%- endfor -%}
++                {%- set ns.prev_message_type = 'tool_call' -%}
++            {%- endif -%}
++
++            {%- set ns_tr_out = namespace(flag=false) -%}
++            {%- if message.get('tool_responses') -%}
++                {#- Legacy: tool_responses embedded on the assistant message (Google/Gemma native) -#}
++                {%- for tool_response in message.get('tool_responses') -%}
++                    {{- format_tool_response_block(tool_response['name'] | default('unknown', true), tool_response['response']) -}}
++                    {%- set ns_tr_out.flag = true -%}
++                    {%- set ns.prev_message_type = 'tool_response' -%}
++                {%- endfor -%}
++            {%- elif message.get('tool_calls') -%}
++                {#- OpenAI Chat Completions: forward-scan consecutive role:tool messages -#}
++                {%- set ns_tool_scan = namespace(stopped=false) -%}
++                {%- for k in range(loop.index0 + 1, loop_messages | length) -%}
++                    {%- if ns_tool_scan.stopped -%}
++                    {%- elif loop_messages[k]['role'] != 'tool' -%}
++                        {%- set ns_tool_scan.stopped = true -%}
++                    {%- else -%}
++                        {%- set follow = loop_messages[k] -%}
++                        {#- Resolve tool_call_id to function name -#}
++                        {%- set ns_tname = namespace(name=follow.get('name') or 'unknown') -%}
++                        {%- for tc in message.get('tool_calls') -%}
++                            {%- if tc.get('id') == follow.get('tool_call_id') -%}
++                                {%- set ns_tname.name = tc['function']['name'] -%}
++                            {%- endif -%}
++                        {%- endfor -%}
++                        {#- Handle content as string or content-parts array -#}
++                        {%- set tool_body = follow.get('content') -%}
++                        {%- if tool_body is string -%}
++                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}
++                        {%- elif tool_body is sequence and tool_body is not string -%}
++                            {%- set ns_txt = namespace(s='') -%}
++                            {%- for part in tool_body -%}
++                                {%- if part.get('type') == 'text' -%}
++                                    {%- set ns_txt.s = ns_txt.s + (part.get('text') | default('')) -%}
++                                {%- endif -%}
++                            {%- endfor -%}
++                            {{- format_tool_response_block(ns_tname.name, ns_txt.s) -}}
++                            {%- for part in tool_body -%}
++                                {%- if part.get('type') in ['image', 'image_url'] -%}
++                                    {{- '<|image|>' -}}
++                                {%- elif part.get('type') in ['audio', 'input_audio'] -%}
++                                    {{- '<|audio|>' -}}
++                                {%- elif part.get('type') == 'video' -%}
++                                    {{- '<|video|>' -}}
++                                {%- endif -%}
++                            {%- endfor -%}
++                        {%- else -%}
++                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}
++                        {%- endif -%}
++                        {%- set ns_tr_out.flag = true -%}
++                        {%- set ns.prev_message_type = 'tool_response' -%}
++                    {%- endif -%}
++                {%- endfor -%}
++            {%- endif -%}
++
++            {%- set captured_content -%}
++            {%- if message.get('content') is string -%}
++                {%- if role == 'model' -%}
++                    {{- strip_thinking(message['content']) -}}
++                {%- else -%}
++                    {{- message['content'] | trim -}}
++                {%- endif -%}
++            {%- elif message.get('content') is sequence -%}
++                {%- for item in message['content'] -%}
++                    {%- if item.get('type') == 'text' -%}
++                        {%- if role == 'model' -%}
++                            {{- strip_thinking(item['text']) -}}
++                        {%- else -%}
++                            {{- item['text'] | trim -}}
++                        {%- endif -%}
++                    {%- elif item.get('type') in ['image', 'image_url'] -%}
++                        {{- '<|image|>' -}}
++                    {%- elif item.get('type') in ['audio', 'input_audio'] -%}
++                        {{- '<|audio|>' -}}
++                    {%- elif item.get('type') == 'video' -%}
++                        {{- '<|video|>' -}}
++                    {%- endif -%}
++                {%- endfor -%}
++            {%- endif -%}
++            {%- endset -%}
++
++            {{- captured_content -}}
++            {%- set has_content = captured_content | trim | length > 0 -%}
++
++        {#- Forward-scan: find next non-tool message role for continuation detection -#}
++        {%- set next_nt = namespace(role=None, found=false) -%}
++        {%- for j in range(loop.index0 + 1, loop_messages | length) -%}
++            {%- if not next_nt.found -%}
++                {%- if loop_messages[j]['role'] != 'tool' -%}
++                    {%- set next_nt.role = loop_messages[j]['role'] -%}
++                    {%- set next_nt.found = true -%}
++                {%- endif -%}
++            {%- endif -%}
++        {%- endfor -%}
++
++        {%- set continues_into_next = (
++            role == 'model'
++            and next_nt.role == 'assistant'
++            and (not message.get('tool_calls') or ns_tr_out.flag)
++        ) -%}
++
++        {%- if ns.prev_message_type == 'tool_call' and not ns_tr_out.flag -%}
++            {{- '<|tool_response>' -}}
++        {%- elif continues_into_next -%}
++        {%- elif not (ns_tr_out.flag and not has_content and not next_nt.found) -%}
++            {{- '<turn|>\n' -}}
++        {%- endif -%}
++
++    {#- Track previous non-tool role for next iteration (avoids O(n) backward scan) -#}
++    {%- set ns.prev_non_tool_role = message['role'] -%}
++    {%- endif -%}
++{%- endfor -%}
++
++{%- if add_generation_prompt -%}
++    {%- if ns.prev_message_type != 'tool_response' and ns.prev_message_type != 'tool_call' -%}
++        {{- '<|turn>model\n' -}}
++    {%- elif ns.prev_message_type == 'tool_response' and enable_thinking -%}
++        {{- '<|channel>thought\n' -}}
++    {%- endif -%}
++{%- endif -%}

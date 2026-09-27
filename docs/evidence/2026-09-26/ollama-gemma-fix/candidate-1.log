@@ -1,0 +1,480 @@
+time=2026-09-26T20:43:37.693Z level=INFO source=routes.go:2005 msg="server config" env="map[CUDA_VISIBLE_DEVICES: GGML_VK_VISIBLE_DEVICES: GPU_DEVICE_ORDINAL: HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: LLAMA_ARG_FIT: LLAMA_ARG_FIT_TARGET: NO_PROXY: OLLAMA_CONTEXT_LENGTH:4096 OLLAMA_CREATE_REMOTE:false OLLAMA_DEBUG:DEBUG OLLAMA_DEBUG_LOG_REQUESTS:false OLLAMA_EDITOR: OLLAMA_FLASH_ATTENTION:false OLLAMA_GO_TEMPLATE:true OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://0.0.0.0:11434 OLLAMA_IGPU_ENABLE: OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MAX_TRANSFER_STREAMS:4 OLLAMA_MODELS:/root/.ollama/models OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NO_CLOUD:false OLLAMA_NUM_PARALLEL:1 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_REMOTES:[ollama.com] OLLAMA_SCHED_SPREAD:false OLLAMA_VULKAN:true ROCR_VISIBLE_DEVICES: http_proxy: https_proxy: no_proxy:]"
+time=2026-09-26T20:43:37.693Z level=INFO source=routes.go:2007 msg="Ollama cloud disabled: false"
+time=2026-09-26T20:43:37.693Z level=INFO source=images.go:922 msg="total blobs: 19"
+time=2026-09-26T20:43:37.693Z level=INFO source=images.go:930 msg="total unused blobs removed: 0"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] HEAD   /                         --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.func1 (5 handlers)
+[GIN-debug] GET    /                         --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.func2 (5 handlers)
+[GIN-debug] HEAD   /api/version              --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.func3 (5 handlers)
+[GIN-debug] GET    /api/version              --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.func4 (5 handlers)
+[GIN-debug] GET    /api/status               --> github.com/ollama/ollama/server.(*Server).StatusHandler-fm (5 handlers)
+[GIN-debug] GET    /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] POST   /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] PUT    /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] PATCH  /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] HEAD   /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] OPTIONS /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] DELETE /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] CONNECT /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] TRACE  /api/codex/*path          --> github.com/ollama/ollama/server.(*Server).GenerateRoutes.WrapH.func6 (5 handlers)
+[GIN-debug] POST   /api/pull                 --> github.com/ollama/ollama/server.(*Server).PullHandler-fm (5 handlers)
+[GIN-debug] POST   /api/push                 --> github.com/ollama/ollama/server.(*Server).PushHandler-fm (5 handlers)
+[GIN-debug] HEAD   /api/tags                 --> github.com/ollama/ollama/server.(*Server).ListHandler-fm (5 handlers)
+[GIN-debug] GET    /api/tags                 --> github.com/ollama/ollama/server.(*Server).ListHandler-fm (5 handlers)
+[GIN-debug] POST   /api/show                 --> github.com/ollama/ollama/server.(*Server).ShowHandler-fm (5 handlers)
+[GIN-debug] DELETE /api/delete               --> github.com/ollama/ollama/server.(*Server).DeleteHandler-fm (5 handlers)
+[GIN-debug] POST   /api/me                   --> github.com/ollama/ollama/server.(*Server).WhoamiHandler-fm (5 handlers)
+[GIN-debug] POST   /api/signout              --> github.com/ollama/ollama/server.(*Server).SignoutHandler-fm (5 handlers)
+[GIN-debug] DELETE /api/user/keys/:encodedKey --> github.com/ollama/ollama/server.(*Server).SignoutHandler-fm (5 handlers)
+[GIN-debug] POST   /api/create               --> github.com/ollama/ollama/server.(*Server).CreateHandler-fm (5 handlers)
+[GIN-debug] POST   /api/blobs/:digest        --> github.com/ollama/ollama/server.(*Server).CreateBlobHandler-fm (5 handlers)
+[GIN-debug] HEAD   /api/blobs/:digest        --> github.com/ollama/ollama/server.(*Server).HeadBlobHandler-fm (5 handlers)
+[GIN-debug] POST   /api/copy                 --> github.com/ollama/ollama/server.(*Server).CopyHandler-fm (5 handlers)
+[GIN-debug] POST   /api/experimental/web_search --> github.com/ollama/ollama/server.(*Server).WebSearchExperimentalHandler-fm (5 handlers)
+[GIN-debug] POST   /api/experimental/web_fetch --> github.com/ollama/ollama/server.(*Server).WebFetchExperimentalHandler-fm (5 handlers)
+[GIN-debug] GET    /api/experimental/model-recommendations --> github.com/ollama/ollama/server.(*Server).ModelRecommendationsExperimentalHandler-fm (5 handlers)
+[GIN-debug] GET    /api/ps                   --> github.com/ollama/ollama/server.(*Server).PsHandler-fm (5 handlers)
+[GIN-debug] POST   /api/generate             --> github.com/ollama/ollama/server.(*Server).GenerateHandler-fm (5 handlers)
+[GIN-debug] POST   /api/chat                 --> github.com/ollama/ollama/server.(*Server).ChatHandler-fm (5 handlers)
+[GIN-debug] POST   /api/embed                --> github.com/ollama/ollama/server.(*Server).EmbedHandler-fm (5 handlers)
+[GIN-debug] POST   /api/embeddings           --> github.com/ollama/ollama/server.(*Server).EmbeddingsHandler-fm (5 handlers)
+[GIN-debug] POST   /v1/chat/completions      --> github.com/ollama/ollama/server.(*Server).ChatHandler-fm (7 handlers)
+[GIN-debug] POST   /v1/completions           --> github.com/ollama/ollama/server.(*Server).GenerateHandler-fm (7 handlers)
+[GIN-debug] POST   /v1/embeddings            --> github.com/ollama/ollama/server.(*Server).EmbedHandler-fm (7 handlers)
+[GIN-debug] GET    /v1/models                --> github.com/ollama/ollama/server.(*Server).ListHandler-fm (6 handlers)
+[GIN-debug] GET    /v1/models/:model         --> github.com/ollama/ollama/server.(*Server).ShowHandler-fm (7 handlers)
+[GIN-debug] POST   /v1/responses             --> github.com/ollama/ollama/server.(*Server).ChatHandler-fm (8 handlers)
+[GIN-debug] POST   /v1/responses/compact     --> github.com/ollama/ollama/server.(*Server).ResponsesCompactHandler-fm (5 handlers)
+[GIN-debug] POST   /v1/audio/transcriptions  --> github.com/ollama/ollama/server.(*Server).ChatHandler-fm (6 handlers)
+[GIN-debug] POST   /v1/messages              --> github.com/ollama/ollama/server.(*Server).ChatHandler-fm (7 handlers)
+time=2026-09-26T20:43:37.694Z level=DEBUG source=model_recommendations.go:57 msg="starting model recommendations cache" default_recommendations=6 refresh_interval=4h0m0s fetch_timeout=3s
+time=2026-09-26T20:43:37.694Z level=DEBUG source=model_show_cache.go:128 msg="starting model show cache"
+time=2026-09-26T20:43:37.694Z level=INFO source=routes.go:2065 msg="Listening on [::]:11434 (version 0.34.4-poc.gemma-native.1)"
+time=2026-09-26T20:43:37.694Z level=DEBUG source=model_recommendations.go:265 msg="loaded model recommendations snapshot" path=/root/.ollama/cache/model-recommendations.json count=5
+time=2026-09-26T20:43:37.694Z level=DEBUG source=model_recommendations.go:192 msg="refreshing model recommendations from remote" url=https://ollama.com/api/experimental/model-recommendations
+time=2026-09-26T20:43:37.694Z level=DEBUG source=sched.go:220 msg="starting llm scheduler"
+time=2026-09-26T20:43:37.698Z level=INFO source=runner.go:60 msg="discovering available GPUs..."
+time=2026-09-26T20:43:37.698Z level=DEBUG source=runner.go:106 msg="jetpack not detected (set JETSON_JETPACK or OLLAMA_LLM_LIBRARY to override), skipping" libDir=/usr/lib/ollama/cuda_jetpack5
+time=2026-09-26T20:43:37.698Z level=DEBUG source=runner.go:106 msg="jetpack not detected (set JETSON_JETPACK or OLLAMA_LLM_LIBRARY to override), skipping" libDir=/usr/lib/ollama/cuda_jetpack6
+time=2026-09-26T20:43:37.708Z level=DEBUG source=llama_server.go:121 msg="llama-server discovery: stopped subprocess after collecting GPU info" exit=unknown libDirs="[/usr/lib/ollama /usr/lib/ollama/cuda_v12]"
+time=2026-09-26T20:43:37.722Z level=DEBUG source=native_probe.go:259 msg="native GPU discovery failed" error="exit status 1" stderr="load_backend: failed to load /usr/lib/ollama/cuda_v12/libggml-cuda.so: libcuda.so.1: cannot open shared object file: No such file or directory\nError: dlopen libcuda.so.1: libcuda.so.1: cannot open shared object file: No such file or directory; dlopen libcuda.so: libcuda.so: cannot open shared object file: No such file or directory\n" libDirs="[/usr/lib/ollama /usr/lib/ollama/cuda_v12]"
+time=2026-09-26T20:43:37.722Z level=DEBUG source=llama_server.go:52 msg="llama-server device discovery took" duration=24.254917ms libDirs="[/usr/lib/ollama /usr/lib/ollama/cuda_v12]"
+time=2026-09-26T20:43:37.722Z level=DEBUG source=runner.go:494 msg="bootstrap discovery took" duration=24.371125ms OLLAMA_LIBRARY_PATH="[/usr/lib/ollama /usr/lib/ollama/cuda_v12]" extra_envs=map[]
+time=2026-09-26T20:43:37.732Z level=DEBUG source=llama_server.go:121 msg="llama-server discovery: stopped subprocess after collecting GPU info" exit=unknown libDirs="[/usr/lib/ollama /usr/lib/ollama/cuda_v13]"
+time=2026-09-26T20:43:37.749Z level=DEBUG source=native_probe.go:259 msg="native GPU discovery failed" error="exit status 1" stderr="load_backend: failed to load /usr/lib/ollama/cuda_v13/libggml-cuda.so: libcuda.so.1: cannot open shared object file: No such file or directory\nError: dlopen libcuda.so.1: libcuda.so.1: cannot open shared object file: No such file or directory; dlopen libcuda.so: libcuda.so: cannot open shared object file: No such file or directory\n" libDirs="[/usr/lib/ollama /usr/lib/ollama/cuda_v13]"
+time=2026-09-26T20:43:37.749Z level=DEBUG source=llama_server.go:52 msg="llama-server device discovery took" duration=26.461792ms libDirs="[/usr/lib/ollama /usr/lib/ollama/cuda_v13]"
+time=2026-09-26T20:43:37.749Z level=DEBUG source=runner.go:494 msg="bootstrap discovery took" duration=26.610167ms OLLAMA_LIBRARY_PATH="[/usr/lib/ollama /usr/lib/ollama/cuda_v13]" extra_envs=map[]
+time=2026-09-26T20:43:37.749Z level=DEBUG source=runner.go:131 msg="evaluating which, if any, devices to filter out" initial_count=0
+time=2026-09-26T20:43:37.749Z level=DEBUG source=runner.go:42 msg="GPU bootstrap discovery took" duration=55.003417ms
+time=2026-09-26T20:43:37.749Z level=INFO source=types.go:50 msg="inference compute" id=cpu library=cpu compute="" name=cpu description=cpu libdirs=ollama driver="" pci_id="" type="" total="7.8 GiB" available="7.7 GiB"
+time=2026-09-26T20:43:37.749Z level=INFO source=routes.go:2115 msg="vram-based default context" total_vram="0 B" default_num_ctx=4096
+time=2026-09-26T20:43:37.926Z level=DEBUG source=model_recommendations.go:228 msg="model recommendations refreshed" count=5
+time=2026-09-26T20:43:37.926Z level=WARN source=model_recommendations.go:230 msg="failed to persist model recommendations snapshot" error="open /root/.ollama/cache/.model-recommendations-3811592537.tmp: read-only file system"
+time=2026-09-26T20:43:37.926Z level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4h1m12.06845389s consecutive_failures=0
+time=2026-09-26T20:43:38.019Z level=DEBUG source=runner.go:272 msg="refreshing free memory"
+time=2026-09-26T20:43:38.019Z level=DEBUG source=runner.go:42 msg="overall device VRAM discovery took" duration=24.417µs
+time=2026-09-26T20:43:38.019Z level=DEBUG source=sched.go:295 msg="updating default concurrency" OLLAMA_MAX_LOADED_MODELS=3 gpu_count=0
+time=2026-09-26T20:43:38.019Z level=DEBUG source=sched.go:304 msg="loading first model" model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:43:38.071Z level=INFO source=sched.go:1152 msg="disabling mmap for llama-server load by default" model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 reason=cpu
+time=2026-09-26T20:43:38.071Z level=INFO source=server.go:102 msg="using llama-server for model" model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:43:38.072Z level=INFO source=llama_server.go:436 msg="starting llama-server" cmd="/usr/lib/ollama/llama-server --model /root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 --port 38517 --host 127.0.0.1 --no-webui --offline -c 4096 -np 1 --log-verbosity 4 --no-log-prefix --no-log-timestamps --jinja --chat-template {#\n  Template: Google Gemma 4 Canonical Chat Template\n  Author: Google Gemma Engineering Team\n  Published: 2026-07-09\n  Context: Fixed tool-calling loops, turn closures, and thinking content-ordering.\n#}\n{%- macro format_parameters(properties, required, filter_keys=false) -%}\n    {%- set standard_keys = ['description', 'type', 'properties', 'required', 'nullable'] -%}\n    {%- set ns = namespace(found_first=false) -%}\n    {%- for key, value in properties | dictsort -%}\n        {%- set add_comma = false -%}\n        {%- if not filter_keys or key not in standard_keys -%}\n            {%- if ns.found_first %},{% endif -%}\n            {%- set ns.found_first = true -%}\n            {{ key }}:{\n            {%- if value['description'] -%}\n                description:<|\"|>{{ value['description'] }}<|\"|>\n                {%- set add_comma = true -%}\n            {%- endif -%}\n            {%- if value['type'] | upper == 'STRING' -%}\n                {%- if value['enum'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    enum:{{ format_argument(value['enum']) }}\n                {%- endif -%}\n            {%- elif value['type'] | upper == 'ARRAY' -%}\n                {%- if value['items'] is mapping and value['items'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    items:{\n                    {%- set ns_items = namespace(found_first=false) -%}\n                    {%- for item_key, item_value in value['items'] | dictsort -%}\n                        {%- if item_value is not none -%}\n                            {%- if ns_items.found_first %},{% endif -%}\n                            {%- set ns_items.found_first = true -%}\n                            {%- if item_key == 'properties' -%}\n                                properties:{\n                                {%- if item_value is mapping -%}\n                                    {{- format_parameters(item_value, value['items']['required'] | default([])) -}}\n                                {%- endif -%}\n                                }\n                            {%- elif item_key == 'required' -%}\n                                required:[\n                                {%- for req_item in item_value -%}\n                                    <|\"|>{{- req_item -}}<|\"|>\n                                    {%- if not loop.last %},{% endif -%}\n                                {%- endfor -%}\n                                ]\n                            {%- elif item_key == 'type' -%}\n                                {%- if item_value is string -%}\n                                    type:{{ format_argument(item_value | upper) }}\n                                {%- else -%}\n                                    type:{{ format_argument(item_value | map('upper') | list) }}\n                                {%- endif -%}\n                            {%- else -%}\n                                {{ item_key }}:{{ format_argument(item_value) }}\n                            {%- endif -%}\n                        {%- endif -%}\n                    {%- endfor -%}\n                    }\n                {%- endif -%}\n            {%- endif -%}\n            {%- if value['nullable'] %}\n                {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                nullable:true\n            {%- endif -%}\n            {%- if value['type'] | upper == 'OBJECT' -%}\n                {%- if value['properties'] is defined and value['properties'] is mapping -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    properties:{\n                    {{- format_parameters(value['properties'], value['required'] | default([])) -}}\n                    }\n                {%- elif value is mapping -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    properties:{\n                    {{- format_parameters(value, value['required'] | default([]), filter_keys=true) -}}\n                    }\n                {%- endif -%}\n                {%- if value['required'] -%}\n                    {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n                    required:[\n                    {%- for item in value['required'] | default([]) -%}\n                        <|\"|>{{- item -}}<|\"|>\n                        {%- if not loop.last %},{% endif -%}\n                    {%- endfor -%}\n                    ]\n                {%- endif -%}\n            {%- endif -%}\n            {%- if add_comma %},{%- else -%} {%- set add_comma = true -%} {% endif -%}\n            type:<|\"|>{{ value['type'] | upper }}<|\"|>}\n        {%- endif -%}\n    {%- endfor -%}\n{%- endmacro -%}\n{%- macro format_function_declaration(tool_data) -%}\n    declaration:{{- tool_data['function']['name'] -}}{description:<|\"|>{{- tool_data['function']['description'] -}}<|\"|>\n    {%- set params = tool_data['function']['parameters'] -%}\n    {%- if params -%}\n        ,parameters:{\n        {%- if params['properties'] -%}\n            properties:{ {{- format_parameters(params['properties'], params['required']) -}} },\n        {%- endif -%}\n        {%- if params['required'] -%}\n            required:[\n            {%- for item in params['required'] -%}\n                <|\"|>{{- item -}}<|\"|>\n                {{- ',' if not loop.last -}}\n            {%- endfor -%}\n            ],\n        {%- endif -%}\n        {%- if params['type'] -%}\n            type:<|\"|>{{- params['type'] | upper -}}<|\"|>}\n        {%- endif -%}\n    {%- endif -%}\n    {%- if 'response' in tool_data['function'] -%}\n        {%- set response_declaration = tool_data['function']['response'] -%}\n        ,response:{\n        {%- if response_declaration['description'] -%}\n            description:<|\"|>{{- response_declaration['description'] -}}<|\"|>,\n        {%- endif -%}\n        {%- if response_declaration['type'] | upper == 'OBJECT' -%}\n            type:<|\"|>{{- response_declaration['type'] | upper -}}<|\"|>}\n        {%- endif -%}\n    {%- endif -%}\n    }\n{%- endmacro -%}\n{%- macro format_argument(argument, escape_keys=True) -%}\n    {%- if argument is none -%}\n        {{- 'null' -}}\n    {%- elif argument is string -%}\n        {{- '<|\"|>' + argument + '<|\"|>' -}}\n    {%- elif argument is boolean -%}\n        {{- 'true' if argument else 'false' -}}\n    {%- elif argument is mapping -%}\n        {{- '{' -}}\n        {%- set ns = namespace(found_first=false) -%}\n        {%- for key, value in argument | dictsort -%}\n            {%- if ns.found_first %},{% endif -%}\n            {%- set ns.found_first = true -%}\n            {%- if escape_keys -%}\n                {{- '<|\"|>' + key + '<|\"|>' -}}\n            {%- else -%}\n                {{- key -}}\n            {%- endif -%}\n            :{{- format_argument(value, escape_keys=escape_keys) -}}\n        {%- endfor -%}\n        {{- '}' -}}\n    {%- elif argument is sequence -%}\n        {{- '[' -}}\n        {%- for item in argument -%}\n            {{- format_argument(item, escape_keys=escape_keys) -}}\n            {%- if not loop.last %},{% endif -%}\n        {%- endfor -%}\n        {{- ']' -}}\n    {%- else -%}\n        {{- argument -}}\n    {%- endif -%}\n{%- endmacro -%}\n{%- macro strip_thinking(text) -%}\n    {%- set ns = namespace(result='') -%}\n    {%- for part in text.split('<channel|>') -%}\n        {%- if '<|channel>' in part -%}\n            {%- set ns.result = ns.result + part.split('<|channel>')[0] -%}\n        {%- else -%}\n            {%- set ns.result = ns.result + part -%}\n        {%- endif -%}\n    {%- endfor -%}\n    {{- ns.result | trim -}}\n{%- endmacro -%}\n\n{%- macro format_tool_response_block(tool_name, response) -%}\n    {{- '<|tool_response>' -}}\n    {%- if response is mapping -%}\n        {{- 'response:' + tool_name + '{' -}}\n        {%- for key, value in response | dictsort -%}\n            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}\n            {%- if not loop.last %},{% endif -%}\n        {%- endfor -%}\n        {{- '}' -}}\n    {%- else -%}\n        {{- 'response:' + tool_name + '{value:' + format_argument(response, escape_keys=False) + '}' -}}\n    {%- endif -%}\n    {{- '<tool_response|>' -}}\n{%- endmacro -%}\n\n{#- ===== SETUP ===== -#}\n{%- set ns = namespace(prev_message_type=None, prev_non_tool_role=None) -%}\n{%- set loop_messages = messages -%}\n{%- set enable_thinking = enable_thinking | default(false) -%}\n{%- set preserve_thinking = preserve_thinking | default(false) -%}\n{{- bos_token -}}\n{#- Handle System/Tool Definitions Block -#}\n{%- if enable_thinking or tools or (messages and messages[0]['role'] in ['system', 'developer']) -%}\n    {{- '<|turn>system\\n' -}}\n    {#- Inject Thinking token at the very top of the FIRST system turn -#}\n    {%- if enable_thinking -%}\n        {{- '<|think|>\\n' -}}\n        {%- set ns.prev_message_type = 'think' -%}\n    {%- endif -%}\n    {%- if messages and messages[0]['role'] in ['system', 'developer'] -%}\n        {%- if messages[0]['content'] is string -%}\n            {{- messages[0]['content'] | trim -}}\n        {%- elif messages[0]['content'] is sequence -%}\n            {%- for item in messages[0]['content'] -%}\n                {{- item['text'] | trim + ' '-}}\n            {%- endfor -%}\n        {%- endif -%}\n        {%- set loop_messages = messages[1:] -%}\n    {%- endif -%}\n    {%- if tools -%}\n        {%- for tool in tools %}\n            {{- '<|tool>' -}}\n            {{- format_function_declaration(tool) | trim -}}\n            {{- '<tool|>' -}}\n        {%- endfor %}\n        {%- set ns.prev_message_type = 'tool' -%}\n    {%- endif -%}\n    {{- '<turn|>\\n' -}}\n{%- endif %}\n\n{#- Pre-scan: find last user message index for reasoning guard -#}\n{%- set ns_turn = namespace(last_user_idx=-1) -%}\n{%- for i in range(loop_messages | length) -%}\n    {%- if loop_messages[i]['role'] == 'user' -%}\n        {%- set ns_turn.last_user_idx = i -%}\n    {%- endif -%}\n{%- endfor -%}\n\n{#- Loop through messages -#}\n{%- for message in loop_messages -%}\n    {%- if message['role'] != 'tool' -%}\n    {%- set ns.prev_message_type = None -%}\n    {%- set role = 'model' if message['role'] == 'assistant' else message['role'] -%}\n    {#- Detect continuation using tracked state — O(1) instead of O(n) backward scan -#}\n    {%- set continue_same_model_turn = (role == 'model' and ns.prev_non_tool_role == 'assistant') -%}\n    {%- if not continue_same_model_turn -%}\n        {{- '<|turn>' + role + '\\n' }}\n    {%- endif -%}\n\n    {#- Render reasoning/reasoning_content as thinking channel -#}\n    {%- set thinking_text = message.get('reasoning') or message.get('reasoning_content') -%}\n    {%- set thinking_gate = (loop.index0 > ns_turn.last_user_idx) or (preserve_thinking and message.get('tool_calls')) -%}\n    {%- if thinking_text and thinking_gate -%}\n        {{- '<|channel>thought\\n' + thinking_text + '\\n<channel|>' -}}\n    {%- endif -%}\n\n            {%- if message.get('tool_calls') -%}\n                {%- for tool_call in message.get('tool_calls') -%}\n                    {%- set function = tool_call['function'] -%}\n                    {{- '<|tool_call>call:' + function['name'] + '{' -}}\n                    {%- if function['arguments'] is mapping -%}\n                        {%- set ns_args = namespace(found_first=false) -%}\n                        {%- for key, value in function['arguments'] | dictsort -%}\n                            {%- if ns_args.found_first %},{% endif -%}\n                            {%- set ns_args.found_first = true -%}\n                            {{- key -}}:{{- format_argument(value, escape_keys=False) -}}\n                        {%- endfor -%}\n                    {%- elif function['arguments'] is none -%}\n                    {%- else -%}\n                        {{- raise_exception(\n                            \"chat_template: tool_calls[].function.arguments must be a \"\n                            \"JSON object (mapping), not a string. Deserialize arguments \"\n                            \"before passing to the template.\"\n                        ) -}}\n                    {%- endif -%}\n                    {{- '}<tool_call|>' -}}\n                {%- endfor -%}\n                {%- set ns.prev_message_type = 'tool_call' -%}\n            {%- endif -%}\n\n            {%- set ns_tr_out = namespace(flag=false) -%}\n            {%- if message.get('tool_responses') -%}\n                {#- Legacy: tool_responses embedded on the assistant message (Google/Gemma native) -#}\n                {%- for tool_response in message.get('tool_responses') -%}\n                    {{- format_tool_response_block(tool_response['name'] | default('unknown', true), tool_response['response']) -}}\n                    {%- set ns_tr_out.flag = true -%}\n                    {%- set ns.prev_message_type = 'tool_response' -%}\n                {%- endfor -%}\n            {%- elif message.get('tool_calls') -%}\n                {#- OpenAI Chat Completions: forward-scan consecutive role:tool messages -#}\n                {%- set ns_tool_scan = namespace(stopped=false) -%}\n                {%- for k in range(loop.index0 + 1, loop_messages | length) -%}\n                    {%- if ns_tool_scan.stopped -%}\n                    {%- elif loop_messages[k]['role'] != 'tool' -%}\n                        {%- set ns_tool_scan.stopped = true -%}\n                    {%- else -%}\n                        {%- set follow = loop_messages[k] -%}\n                        {#- Resolve tool_call_id to function name -#}\n                        {%- set ns_tname = namespace(name=follow.get('name') or 'unknown') -%}\n                        {%- for tc in message.get('tool_calls') -%}\n                            {%- if tc.get('id') == follow.get('tool_call_id') -%}\n                                {%- set ns_tname.name = tc['function']['name'] -%}\n                            {%- endif -%}\n                        {%- endfor -%}\n                        {#- Handle content as string or content-parts array -#}\n                        {%- set tool_body = follow.get('content') -%}\n                        {%- if tool_body is string -%}\n                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}\n                        {%- elif tool_body is sequence and tool_body is not string -%}\n                            {%- set ns_txt = namespace(s='') -%}\n                            {%- for part in tool_body -%}\n                                {%- if part.get('type') == 'text' -%}\n                                    {%- set ns_txt.s = ns_txt.s + (part.get('text') | default('')) -%}\n                                {%- endif -%}\n                            {%- endfor -%}\n                            {{- format_tool_response_block(ns_tname.name, ns_txt.s) -}}\n                            {%- for part in tool_body -%}\n                                {%- if part.get('type') in ['image', 'image_url'] -%}\n                                    {{- '<|image|>' -}}\n                                {%- elif part.get('type') in ['audio', 'input_audio'] -%}\n                                    {{- '<|audio|>' -}}\n                                {%- elif part.get('type') == 'video' -%}\n                                    {{- '<|video|>' -}}\n                                {%- endif -%}\n                            {%- endfor -%}\n                        {%- else -%}\n                            {{- format_tool_response_block(ns_tname.name, tool_body) -}}\n                        {%- endif -%}\n                        {%- set ns_tr_out.flag = true -%}\n                        {%- set ns.prev_message_type = 'tool_response' -%}\n                    {%- endif -%}\n                {%- endfor -%}\n            {%- endif -%}\n\n            {%- set captured_content -%}\n            {%- if message.get('content') is string -%}\n                {%- if role == 'model' -%}\n                    {{- strip_thinking(message['content']) -}}\n                {%- else -%}\n                    {{- message['content'] | trim -}}\n                {%- endif -%}\n            {%- elif message.get('content') is sequence -%}\n                {%- for item in message['content'] -%}\n                    {%- if item.get('type') == 'text' -%}\n                        {%- if role == 'model' -%}\n                            {{- strip_thinking(item['text']) -}}\n                        {%- else -%}\n                            {{- item['text'] | trim -}}\n                        {%- endif -%}\n                    {%- elif item.get('type') in ['image', 'image_url'] -%}\n                        {{- '<|image|>' -}}\n                    {%- elif item.get('type') in ['audio', 'input_audio'] -%}\n                        {{- '<|audio|>' -}}\n                    {%- elif item.get('type') == 'video' -%}\n                        {{- '<|video|>' -}}\n                    {%- endif -%}\n                {%- endfor -%}\n            {%- endif -%}\n            {%- endset -%}\n\n            {{- captured_content -}}\n            {%- set has_content = captured_content | trim | length > 0 -%}\n\n        {#- Forward-scan: find next non-tool message role for continuation detection -#}\n        {%- set next_nt = namespace(role=None, found=false) -%}\n        {%- for j in range(loop.index0 + 1, loop_messages | length) -%}\n            {%- if not next_nt.found -%}\n                {%- if loop_messages[j]['role'] != 'tool' -%}\n                    {%- set next_nt.role = loop_messages[j]['role'] -%}\n                    {%- set next_nt.found = true -%}\n                {%- endif -%}\n            {%- endif -%}\n        {%- endfor -%}\n\n        {%- set continues_into_next = (\n            role == 'model'\n            and next_nt.role == 'assistant'\n            and (not message.get('tool_calls') or ns_tr_out.flag)\n        ) -%}\n\n        {%- if ns.prev_message_type == 'tool_call' and not ns_tr_out.flag -%}\n            {{- '<|tool_response>' -}}\n        {%- elif continues_into_next -%}\n        {%- elif not (ns_tr_out.flag and not has_content and not next_nt.found) -%}\n            {{- '<turn|>\\n' -}}\n        {%- endif -%}\n\n    {#- Track previous non-tool role for next iteration (avoids O(n) backward scan) -#}\n    {%- set ns.prev_non_tool_role = message['role'] -%}\n    {%- endif -%}\n{%- endfor -%}\n\n{%- if add_generation_prompt -%}\n    {%- if ns.prev_message_type != 'tool_response' and ns.prev_message_type != 'tool_call' -%}\n        {{- '<|turn>model\\n' -}}\n    {%- elif ns.prev_message_type == 'tool_response' and enable_thinking -%}\n        {{- '<|channel>thought\\n' -}}\n    {%- endif -%}\n{%- endif -%}\n --special --mmproj /root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 --load-mode none --flash-attn auto -b 512 -ub 512 --context-shift --keep 4"
+time=2026-09-26T20:43:38.072Z level=DEBUG source=llama_server.go:437 msg=subprocess PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin LD_LIBRARY_PATH=/usr/lib/ollama:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+time=2026-09-26T20:43:38.072Z level=INFO source=sched.go:618 msg="system memory" total="7.8 GiB" free="7.7 GiB" free_swap="1022.3 MiB"
+time=2026-09-26T20:43:38.072Z level=INFO source=llama_server.go:1060 msg="loading model via llama-server" model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:43:38.072Z level=INFO source=llama_server.go:1313 msg="waiting for llama-server to start responding"
+time=2026-09-26T20:43:38.072Z level=INFO source=llama_server.go:1368 msg="waiting for llama-server to become available" status="llm server not responding"
+0.00.000.182 I srv  llama_server: initializing ...
+cmn  common_param: common_params_print_info: build 1 (161755f29) with Clang 21.1.8 for Linux aarch64
+cmn  common_param: common_params_print_info: verbosity = 4 (adjust with the `-lv N` CLI arg)
+cmn  common_param: device_info:
+cmn  common_param:   - CPU     : CPU (7936 MiB, 7936 MiB free)
+cmn  common_param: system_info: n_threads = 10 (n_threads_batch = 10) / 10 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | LLAMAFILE = 1 | REPACK = 1 | 
+srv          init: using 9 threads for HTTP server
+srv          init: The UI is disabled
+srv          init: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+srv         start: binding port with default address family
+srv    load_model: loading model '/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448'
+srv    load_model: local path '/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448'
+handle_gemma4_clip: detected Ollama-format gemma4 GGUF used as mmproj; translating
+srv    load_model: [mtmd] estimated worst-case memory usage of mmproj is 1143.72 MiB (took 51.55 ms)
+cmn  common_init_: fitting params to device memory ...
+cmn  common_init_: (for bugs during this step try to reproduce them with -fit off, or provide --verbose logs if the bug only occurs with -fit on)
+common_params_fit_impl: getting device memory data for initial parameters:
+time=2026-09-26T20:43:38.326Z level=INFO source=llama_server.go:1368 msg="waiting for llama-server to become available" status="llm server loading model"
+common_memory_breakdown_print: | memory breakdown [MiB] | total   free    self   model   context   compute    unaccounted |
+common_memory_breakdown_print: |   - Host               |                 4946 =  4796 +      36 +     114                |
+common_memory_breakdown_print: |   - CPU_REPACK         |                 1396 =  1396 +       0 +       0                |
+common_params_fit_impl: projected to use 4946 MiB of host memory vs. 7936 MiB of total host memory
+common_params_fit_impl: cannot meet free memory target of 3105 MiB, need to reduce device memory by 116 MiB
+common_params_fit_impl: context size set by user to 4096 -> no change
+common_fit_params: failed to fit params to free device memory: was unable to fit model into system memory by reducing context, abort
+common_fit_params: fitting params to free memory took 0.34 seconds
+handle_gemma4: detected Ollama-format gemma4 GGUF; applying compatibility fixes
+llama_model_loader: loaded meta data with 55 key-value pairs and 601 tensors from /root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                gemma4.attention.head_count u32              = 8
+llama_model_loader: - kv   1:             gemma4.attention.head_count_kv u32              = 1
+llama_model_loader: - kv   2:                gemma4.attention.key_length u32              = 512
+llama_model_loader: - kv   3:            gemma4.attention.key_length_swa u32              = 256
+llama_model_loader: - kv   4:    gemma4.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv   5:          gemma4.attention.shared_kv_layers u32              = 20
+llama_model_loader: - kv   6:            gemma4.attention.sliding_window u32              = 512
+llama_model_loader: - kv   7:    gemma4.attention.sliding_window_pattern arr[bool,35]     = [true, true, true, true, false, true,...
+llama_model_loader: - kv   8:              gemma4.attention.value_length u32              = 512
+llama_model_loader: - kv   9:          gemma4.attention.value_length_swa u32              = 256
+llama_model_loader: - kv  10:          gemma4.audio.attention.head_count u32              = 8
+llama_model_loader: - kv  11:  gemma4.audio.attention.layer_norm_epsilon f32              = 0.000001
+llama_model_loader: - kv  12:                   gemma4.audio.block_count u32              = 12
+llama_model_loader: - kv  13:              gemma4.audio.conv_kernel_size u32              = 5
+llama_model_loader: - kv  14:              gemma4.audio.embedding_length u32              = 1024
+llama_model_loader: - kv  15:           gemma4.audio.feed_forward_length u32              = 4096
+llama_model_loader: - kv  16:                         gemma4.block_count u32              = 35
+llama_model_loader: - kv  17:                      gemma4.context_length u32              = 131072
+llama_model_loader: - kv  18:                    gemma4.embedding_length u32              = 1536
+llama_model_loader: - kv  19:    gemma4.embedding_length_per_layer_input u32              = 256
+llama_model_loader: - kv  20:                 gemma4.feed_forward_length arr[i32,35]      = [6144, 6144, 6144, 6144, 6144, 6144, ...
+llama_model_loader: - kv  21:             gemma4.final_logit_softcapping f32              = 30.000000
+llama_model_loader: - kv  22:                gemma4.rope.dimension_count u32              = 512
+llama_model_loader: - kv  23:            gemma4.rope.dimension_count_swa u32              = 256
+llama_model_loader: - kv  24:                      gemma4.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  25:                  gemma4.rope.freq_base_swa f32              = 10000.000000
+llama_model_loader: - kv  26:         gemma4.vision.attention.head_count u32              = 12
+llama_model_loader: - kv  27: gemma4.vision.attention.layer_norm_epsilon f32              = 0.000001
+llama_model_loader: - kv  28:                  gemma4.vision.block_count u32              = 16
+llama_model_loader: - kv  29:             gemma4.vision.embedding_length u32              = 768
+llama_model_loader: - kv  30:          gemma4.vision.feed_forward_length u32              = 3072
+llama_model_loader: - kv  31:                 gemma4.vision.num_channels u32              = 3
+llama_model_loader: - kv  32:                   gemma4.vision.patch_size u32              = 16
+llama_model_loader: - kv  33:       gemma4.vision.projector.scale_factor u32              = 3
+llama_model_loader: - kv  34:                       general.architecture str              = gemma4
+llama_model_loader: - kv  35:                          general.file_type u32              = 15
+llama_model_loader: - kv  36:                    general.parameter_count u64              = 5123179235
+llama_model_loader: - kv  37:               general.quantization_version u32              = 2
+llama_model_loader: - kv  38:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  39:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  40:              tokenizer.ggml.add_mask_token bool             = false
+llama_model_loader: - kv  41:           tokenizer.ggml.add_padding_token bool             = false
+llama_model_loader: - kv  42:           tokenizer.ggml.add_unknown_token bool             = false
+llama_model_loader: - kv  43:                tokenizer.ggml.bos_token_id u32              = 2
+llama_model_loader: - kv  44:                tokenizer.ggml.eos_token_id u32              = 1
+llama_model_loader: - kv  45:               tokenizer.ggml.eos_token_ids arr[i32,3]       = [1, 106, 50]
+llama_model_loader: - kv  46:               tokenizer.ggml.mask_token_id u32              = 4
+llama_model_loader: - kv  47:                      tokenizer.ggml.merges arr[str,514906]  = ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n", ...
+llama_model_loader: - kv  48:            tokenizer.ggml.padding_token_id u32              = 0
+llama_model_loader: - kv  49:                         tokenizer.ggml.pre str              = gemma4
+llama_model_loader: - kv  50:                      tokenizer.ggml.scores arr[f32,262144]  = [0.000000, 1.000000, 2.000000, 3.0000...
+llama_model_loader: - kv  51:                  tokenizer.ggml.token_type arr[i32,262144]  = [3, 3, 3, 3, 3, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  52:                      tokenizer.ggml.tokens arr[str,262144]  = ["<pad>", "<eos>", "<bos>", "<unk>", ...
+llama_model_loader: - kv  53:            tokenizer.ggml.unknown_token_id u32              = 3
+llama_model_loader: - kv  54:                       tokenizer.ggml.model str              = gemma4
+llama_model_loader: - type  f32:  283 tensors
+llama_model_loader: - type q4_K:  283 tensors
+llama_model_loader: - type q6_K:   34 tensors
+llama_model_loader: - type bf16:    1 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 5.74 GiB (10.61 BPW) 
+load: override 'tokenizer.ggml.add_bos_token' to 'true' for Gemma4
+load: 0 unused tokens
+load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+load: printing all EOG tokens:
+load:   - 1 ('<eos>')
+load:   - 50 ('<|tool_response>')
+load:   - 106 ('<turn|>')
+load:   - 212 ('</s>')
+load: special_eog_ids contains '<|tool_response>', removing '</s>' token from EOG list
+load: special tokens cache size = 24
+load: token to piece cache size = 1.9458 MB
+print_info: arch                  = gemma4
+print_info: vocab_only            = 0
+print_info: no_alloc              = 0
+print_info: n_ctx_train           = 131072
+print_info: n_embd_inp            = 1536
+print_info: n_embd                = 1536
+print_info: n_embd_out            = 1536
+print_info: n_layer               = 35
+print_info: n_layer_all           = 35
+print_info: n_head                = 8
+print_info: n_head_kv             = 1
+print_info: n_rot                 = 512
+print_info: n_swa                 = 512
+print_info: is_swa_any            = 1
+print_info: non_causal_type       = 1
+print_info: n_embd_head_k         = 512
+print_info: n_embd_head_v         = 512
+print_info: n_gqa                 = 8
+print_info: n_embd_k_gqa          = [256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512]
+print_info: n_embd_v_gqa          = [256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512, 256, 256, 256, 256, 512]
+print_info: f_norm_eps            = 0.0e+00
+print_info: f_norm_rms_eps        = 1.0e-06
+print_info: f_clamp_kqv           = 0.0e+00
+print_info: f_max_alibi_bias      = 0.0e+00
+print_info: f_logit_scale         = 0.0e+00
+print_info: f_attn_scale          = 1.0e+00
+print_info: f_attn_value_scale    = 0.0000
+print_info: n_ff                  = [6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 6144, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288, 12288]
+print_info: n_expert              = 0
+print_info: n_expert_used         = 0
+print_info: n_expert_groups       = 0
+print_info: n_group_used          = 0
+print_info: causal attn           = 1
+print_info: pooling type          = -1
+print_info: rope type             = 2
+print_info: rope scaling          = linear
+print_info: freq_base_train       = 1000000.0
+print_info: freq_scale_train      = 1
+print_info: freq_base_swa         = 10000.0
+print_info: freq_scale_swa        = 1
+print_info: n_embd_head_k_swa     = 256
+print_info: n_embd_head_v_swa     = 256
+print_info: n_rot_swa             = 256
+print_info: n_ctx_orig_yarn       = 131072
+print_info: rope_yarn_log_mul     = 0.0000
+print_info: rope_finetuned        = unknown
+print_info: model type            = E2B
+print_info: model params          = 4.65 B
+print_info: general.name          = n/a
+print_info: vocab type            = BPE
+print_info: n_vocab               = 262144
+print_info: n_merges              = 514906
+print_info: BOS token             = 2 '<bos>'
+print_info: EOS token             = 1 '<eos>'
+print_info: UNK token             = 3 '<unk>'
+print_info: PAD token             = 0 '<pad>'
+print_info: MASK token            = 4 '<mask>'
+print_info: LF token              = 107 '
+'
+print_info: EOG token             = 1 '<eos>'
+print_info: EOG token             = 50 '<|tool_response>'
+print_info: EOG token             = 106 '<turn|>'
+print_info: max token length      = 93
+load_tensors: loading model tensors, this can take a while... (load_mode = none)
+add: tensor per_layer_token_embd.weight (size = 4480 MiB) lazy read enabled
+load_tensors:          CPU model buffer size =   316.12 MiB
+load_tensors:   CPU_REPACK model buffer size =  1396.42 MiB
+load_tensors:   CPU_Mapped model buffer size =  4480.00 MiB
+cmn  common_init_: added <eos> logit bias = -inf
+cmn  common_init_: added <|tool_response> logit bias = -inf
+cmn  common_init_: added <turn|> logit bias = -inf
+llama_context: constructing llama_context
+llama_context: n_seq_max             = 1
+llama_context: n_ctx                 = 4096
+llama_context: n_ctx_seq             = 4096
+llama_context: n_batch               = 512
+llama_context: n_ubatch              = 512
+llama_context: causal_attn           = 1
+llama_context: flash_attn            = auto
+llama_context: kv_unified            = false
+llama_context: freq_base             = 1000000.0
+llama_context: freq_scale            = 1
+llama_context: n_rs_seq              = 0
+llama_context: n_outputs_max         = 1
+llama_context: n_outputs_max_per_seq = 1
+llama_context: n_ctx_seq (4096) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+llama_context:        CPU  output buffer size =     1.00 MiB
+llama_kv_cache_iswa: creating non-SWA KV cache, size = 4096 cells
+llama_kv_cache:        CPU KV buffer size =    24.00 MiB
+llama_kv_cache: size =   24.00 MiB (  4096 cells,   3 layers,  1/1 seqs), K (f16):   12.00 MiB, V (f16):   12.00 MiB
+llama_kv_cache: attn_rot_k = 0, n_embd_head_k_all = 512
+llama_kv_cache: attn_rot_v = 0, n_embd_head_k_all = 512
+llama_kv_cache_iswa: creating     SWA KV cache, size = 1024 cells
+llama_kv_cache:        CPU KV buffer size =    12.00 MiB
+llama_kv_cache: size =   12.00 MiB (  1024 cells,  12 layers,  1/1 seqs), K (f16):    6.00 MiB, V (f16):    6.00 MiB
+llama_kv_cache: attn_rot_k = 0, n_embd_head_k_all = 256
+llama_kv_cache: attn_rot_v = 0, n_embd_head_k_all = 256
+sched_reserve: reserving ...
+resolve_fused_ops: Flash Attention enabled
+resolve_fused_ops: resolving fused DeepSeek V4 HC support:
+resolve_fused_ops: fused DeepSeek V4 HC pre enabled
+resolve_fused_ops: fused DeepSeek V4 HC comb enabled
+resolve_fused_ops: fused DeepSeek V4 HC post enabled
+sched_reserve:        CPU compute buffer size =   114.52 MiB
+sched_reserve: graph nodes  = 1496
+sched_reserve: graph splits = 1
+sched_reserve: reserve took 1.77 ms, sched copies = 1
+cmn          init: llama threadpool init, n_threads = 10
+cmn  common_init_: KV cache shifting is not supported for this context, disabling KV cache shifting
+cmn  common_init_: warming up the model with an empty run - please wait ... (--no-warmup to disable)
+handle_gemma4_clip: detected Ollama-format gemma4 GGUF used as mmproj; translating
+clip_model_loader: model name:   
+clip_model_loader: description:  
+clip_model_loader: GGUF version: 3
+clip_model_loader: alignment:    32
+clip_model_loader: n_tensors:    2012
+clip_model_loader: n_kv:         76
+
+clip_model_loader: has vision encoder
+clip_model_loader: has audio encoder
+clip_ctx: CLIP using CPU backend
+load_hparams: projector:          gemma4v
+load_hparams: n_embd:             768
+load_hparams: n_head:             12
+load_hparams: n_ff:               3072
+load_hparams: n_layer:            16
+load_hparams: ffn_op:             gelu_quick
+load_hparams: projection_dim:     1536
+
+--- vision hparams ---
+load_hparams: image_size:         224
+load_hparams: patch_size:         16
+load_hparams: has_llava_proj:     0
+load_hparams: minicpmv_version:   0
+load_hparams: n_merge:            3
+load_hparams: n_wa_pattern: 0
+load_hparams: image_min_pixels:   161280
+load_hparams: image_max_pixels:   2580480
+
+load_hparams: model size:         6816.54 MiB
+load_hparams: metadata size:      0.71 MiB
+compat tensor transform: op=F16->F32 promote tensor=v.patch_embd.weight bytes=2359296 duration_ms=1.433 total_ops=1 total_bytes=2359296 total_ms=1.433
+get_dummy_batch: warmup with image size = 768 x 768
+get_dummy_batch: warmup with image size = 768 x 768
+reserve_compute_meta:        CPU compute buffer size =   101.27 MiB
+reserve_compute_meta: graph splits = 1, nodes = 846
+warmup: flash attention is enabled
+clip_ctx: CLIP using CPU backend
+load_hparams: projector:          gemma4a
+load_hparams: n_embd:             1024
+load_hparams: n_head:             8
+load_hparams: n_ff:               4096
+load_hparams: n_layer:            12
+load_hparams: ffn_op:             gelu_quick
+load_hparams: projection_dim:     1536
+
+--- audio hparams ---
+load_hparams: n_mel_bins:         128
+load_hparams: proj_stack_factor:  0
+load_hparams: audio_chunk_len:    0
+load_hparams: audio_sample_rate:  16000
+load_hparams: audio_n_fft:        512
+load_hparams: audio_window_len:   320
+load_hparams: audio_hop_len:      160
+
+load_hparams: model size:         6816.54 MiB
+load_hparams: metadata size:      0.71 MiB
+get_dummy_batch: warmup with audio size = 3000
+get_dummy_batch: warmup with audio size = 3000
+reserve_compute_meta:        CPU compute buffer size =   101.19 MiB
+reserve_compute_meta: graph splits = 1, nodes = 1448
+warmup: flash attention is enabled
+init_audio: audio input is in experimental stage and may have reduced quality:
+    https://github.com/ggml-org/llama.cpp/discussions/13759
+srv    load_model: loaded multimodal model, '/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448'
+srv    load_model: initializing, n_slots = 1, n_ctx_slot = 4096, kv_unified = 'false'
+spec common_specu: no implementations specified for speculative decoding
+slot   load_model: id  0 | task -1 | new slot, n_ctx = 4096
+srv    load_model: prompt cache is enabled, size limit: 8192 MiB
+srv    load_model: use `--cache-ram 0` to disable the prompt cache
+srv    load_model: for more info see https://github.com/ggml-org/llama.cpp/pull/16391
+srv    load_model: context checkpoints enabled, max = 32, min spacing = 8192
+srv          init: idle slots will be saved to prompt cache upon starting a new task
+srv          init: init: chat template, example_format: '<|turn>system
+<|think|>
+You are a helpful assistant<turn|>
+<|turn>user
+Hello<turn|>
+<|turn>model
+Hi there<turn|>
+<|turn>user
+How are you?<turn|>
+<|turn>model
+'
+srv          init: init: chat template, thinking = 1
+srv          init: preserve_reasoning kwarg: not supported by template
+srv  llama_server: model loaded
+srv  llama_server: listening on http://127.0.0.1:38517
+srv  update_slots: all slots are idle
+time=2026-09-26T20:43:40.367Z level=INFO source=llama_server.go:1380 msg="llama-server started in 2.29 seconds"
+time=2026-09-26T20:43:40.367Z level=INFO source=images.go:383 msg="template selection" model=registry.ollama.ai/library/gemma4:e2b selected=renderer_parser renderer=gemma4 parser=gemma4 go_template=null chat_template=null harmony=null renderer_parser="[completion vision audio tools thinking]"
+time=2026-09-26T20:43:40.367Z level=INFO source=sched.go:733 msg="loaded runners" count=1
+time=2026-09-26T20:43:40.367Z level=INFO source=llama_server.go:1313 msg="waiting for llama-server to start responding"
+time=2026-09-26T20:43:40.367Z level=INFO source=llama_server.go:1380 msg="llama-server started in 2.30 seconds"
+time=2026-09-26T20:43:40.367Z level=DEBUG source=sched.go:745 msg="finished setting up" runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:43:40.373Z level=DEBUG source=llama_server.go:1998 msg="llama-server chat request" messages=2 tools=1
+srv    operator(): got exception: {"error":{"code":400,"message":"logprobs is not supported with tools + stream","type":"invalid_request_error"}}
+[GIN] 2026/09/26 - 20:43:40 | 400 |  2.359927584s |      172.25.0.2 | POST     "/v1/chat/completions"
+time=2026-09-26T20:43:40.377Z level=DEBUG source=sched.go:753 msg="context for request finished"
+time=2026-09-26T20:43:40.377Z level=DEBUG source=sched.go:399 msg="runner with non-zero duration has gone idle, adding timer" runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 duration=5m0s
+time=2026-09-26T20:43:40.377Z level=DEBUG source=sched.go:417 msg="after processing request finished event" runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 refCount=0
+time=2026-09-26T20:44:26.196Z level=DEBUG source=sched.go:1391 msg="evaluating already loaded" model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:44:26.201Z level=DEBUG source=llama_server.go:1998 msg="llama-server chat request" messages=2 tools=1
+srv  server_strea: conv_id= (empty=1)
+srv    operator(): chat format: peg-gemma4
+slot get_availabl: id  0 | task -1 |  - skipping, slot is empty
+slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+srv  get_availabl: updating prompt cache
+srv          load:  - looking for better prompt, base f_keep = -1.000, f_sim = 0.000
+srv        update:  - cache state: 0 prompts, 0.000 MiB (limits: 8192.000 MiB, 4096 tokens, 8589934592 est)
+srv  get_availabl: prompt cache update took 0.02 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 64, top_p = 0.800, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.000
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+slot   operator(): id  0 | task 0 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 506
+slot   operator(): id  0 | task 0 | cached n_tokens = 0, memory_seq_rm [0, end)
+slot   operator(): id  0 | task 0 | cached n_tokens = 418, memory_seq_rm [418, end)
+slot create_check: id  0 | task 0 | created context checkpoint 1 of 32 (pos_min = 0, pos_max = 417, n_tokens = 418, size = 4.904 MiB)
+slot   operator(): id  0 | task 0 | cached n_tokens = 502, memory_seq_rm [502, end)
+slot init_sampler: id  0 | task 0 | init sampler, took 0.06 ms, tokens: text = 506, total = 506
+slot create_check: id  0 | task 0 | created context checkpoint 2 of 32 (pos_min = 0, pos_max = 501, n_tokens = 502, size = 5.889 MiB)
+slot print_timing: id  0 | task 0 | prompt eval time =    2962.69 ms /   506 tokens (    5.86 ms per token,   170.79 tokens per second)
+slot print_timing: id  0 | task 0 |        eval time =     515.11 ms /    19 tokens (   28.62 ms per token,    34.94 tokens per second)
+slot print_timing: id  0 | task 0 |       total time =    3477.80 ms /   525 tokens
+slot print_timing: id  0 | task 0 |    graphs reused =         17
+[GIN] 2026/09/26 - 20:44:29 | 200 |  3.486947085s |      172.25.0.2 | POST     "/v1/chat/completions"
+time=2026-09-26T20:44:29.684Z level=DEBUG source=sched.go:494 msg="context for request finished" runner.name=registry.ollama.ai/library/gemma4:e2b runner.pid=52 runner.num_ctx=4096 runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:44:29.684Z level=DEBUG source=sched.go:399 msg="runner with non-zero duration has gone idle, adding timer" runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 duration=5m0s
+time=2026-09-26T20:44:29.684Z level=DEBUG source=sched.go:417 msg="after processing request finished event" runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 refCount=0
+slot      release: id  0 | task 0 | stop processing: n_tokens = 524, truncated = 0
+srv  update_slots: all slots are idle
+time=2026-09-26T20:45:15.556Z level=DEBUG source=sched.go:1391 msg="evaluating already loaded" model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:45:15.557Z level=DEBUG source=llama_server.go:1998 msg="llama-server chat request" messages=1 tools=0
+srv  server_strea: conv_id= (empty=1)
+srv    operator(): chat format: peg-gemma4
+slot get_availabl: id  0 | task -1 |  - checking sim = 0.143 (2/14) > 0.100
+slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.143 (> 0.100 thold), f_keep = 0.004
+srv  get_availabl: updating prompt cache
+srv   prompt_save:  - saving prompt with length 524, total state size = 9.083 MiB (draft: 0.000 MiB)
+srv          load:  - looking for better prompt, base f_keep = 0.004, f_sim = 0.143
+srv          load:    - prompt with length     524, lcp =       2, f_keep = 0.004, f_sim = 0.143
+srv        update:  - cache state: 1 prompts, 19.875 MiB (limits: 8192.000 MiB, 4096 tokens, 215981 est)
+srv        update:    - prompt 0x20800b80:     524 tokens, checkpoints:  2,    19.875 MiB
+srv  get_availabl: prompt cache update took 0.84 ms
+slot launch_slot_: id  0 | task -1 | sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> ?top-p -> ?min-p -> ?xtc -> temp-ext -> dist 
+slot launch_slot_: id  0 | task -1 | sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 64, top_p = 1.000, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.000
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+slot launch_slot_: id  0 | task 22 | processing task, is_child = 0
+slot   operator(): id  0 | task 22 | new prompt, n_ctx_slot = 4096, n_keep = 4, task.n_tokens = 14
+slot   operator(): id  0 | task 22 | checking checkpoint with [0, 501] against 0...
+slot   operator(): id  0 | task 22 | checking checkpoint with [0, 417] against 0...
+slot   operator(): id  0 | task 22 | forcing full prompt re-processing due to lack of cache data (likely due to SWA or hybrid/recurrent memory, see https://github.com/ggml-org/llama.cpp/pull/13194#issuecomment-2868343055)
+slot   operator(): id  0 | task 22 | erased invalidated context checkpoint (pos_min = 0, pos_max = 417, n_tokens = 418, n_swa = 512, pos_next = 0, size = 4.904 MiB)
+slot   operator(): id  0 | task 22 | erased invalidated context checkpoint (pos_min = 0, pos_max = 501, n_tokens = 502, n_swa = 512, pos_next = 0, size = 5.889 MiB)
+slot   operator(): id  0 | task 22 | cached n_tokens = 0, memory_seq_rm [0, end)
+slot   operator(): id  0 | task 22 | cached n_tokens = 1, memory_seq_rm [1, end)
+slot create_check: id  0 | task 22 | created context checkpoint 1 of 32 (pos_min = 0, pos_max = 0, n_tokens = 1, size = 0.012 MiB)
+slot   operator(): id  0 | task 22 | cached n_tokens = 10, memory_seq_rm [10, end)
+slot init_sampler: id  0 | task 22 | init sampler, took 0.00 ms, tokens: text = 14, total = 14
+slot create_check: id  0 | task 22 | created context checkpoint 2 of 32 (pos_min = 0, pos_max = 9, n_tokens = 10, size = 0.118 MiB)
+slot print_timing: id  0 | task 22 | prompt eval time =     122.74 ms /    14 tokens (    8.77 ms per token,   114.06 tokens per second)
+slot print_timing: id  0 | task 22 |        eval time =      28.72 ms /     2 tokens (   28.72 ms per token,    34.82 tokens per second)
+slot print_timing: id  0 | task 22 |       total time =     151.46 ms /    16 tokens
+slot print_timing: id  0 | task 22 |    graphs reused =         17
+slot      release: id  0 | task 22 | stop processing: n_tokens = 15, truncated = 0
+srv  update_slots: all slots are idle
+[GIN] 2026/09/26 - 20:45:15 | 200 |  154.488292ms |      172.25.0.2 | POST     "/v1/chat/completions"
+time=2026-09-26T20:45:15.710Z level=DEBUG source=sched.go:494 msg="context for request finished" runner.name=registry.ollama.ai/library/gemma4:e2b runner.pid=52 runner.num_ctx=4096 runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448
+time=2026-09-26T20:45:15.711Z level=DEBUG source=sched.go:399 msg="runner with non-zero duration has gone idle, adding timer" runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 duration=5m0s
+time=2026-09-26T20:45:15.711Z level=DEBUG source=sched.go:417 msg="after processing request finished event" runner.size="6.3 GiB" runner.vram="0 B" runner.parallel=1 runner.model=/root/.ollama/models/blobs/sha256-4e30e2665218745ef463f722c0bf86be0cab6ee676320f1cfadf91e989107448 refCount=0

@@ -1,0 +1,31 @@
+{
+  "input_hashes": {
+    "cases.json": "4b300204e326e18f93e68a3c36d8ba4480496e4110d1f7f30e0f4e4a6315d6a8",
+    "prompt.txt": "0a1d35a18cde15464e0f037dbcd3859c4de4fa22ab88bae30cf6412d25e44161",
+    "tool.json": "fd620588dd25f26aa51263b3a0cc611666f2d280d571bce75deabe45278fcd37",
+    "request-template.json": "9a076c4d7e74153a58cc8438d1b335fe8bc83beda7dc655c45c041847ef26984"
+  },
+  "models": {
+    "qwen": {
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "correct": 133,
+      "wrong_route": 14,
+      "protocol_error": 0,
+      "failures_audited": 14,
+      "required_reviews": 28,
+      "median_seconds": 3.461,
+      "total_seconds": 550.458
+    },
+    "gemma": {
+      "model": "gemma4:e2b",
+      "correct": 146,
+      "wrong_route": 0,
+      "protocol_error": 1,
+      "failures_audited": 1,
+      "required_reviews": 16,
+      "median_seconds": 2.35,
+      "total_seconds": 351.059
+    }
+  },
+  "successful_raw_responses_retained": false
+}

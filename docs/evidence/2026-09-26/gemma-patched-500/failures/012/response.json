@@ -1,0 +1,36 @@
+{
+  "id": "chatcmpl-794",
+  "object": "chat.completion",
+  "created": 1790459555,
+  "model": "gemma4:e2b",
+  "system_fingerprint": "fp_ollama",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "Dobzh2Dn5gqfiuHH2XBBFEL5Tdygi9Wb",
+            "index": 0,
+            "type": "function",
+            "function": {
+              "name": "send_department_email",
+              "arguments": "{\"department\":\"other\"}"
+            }
+          }
+        ]
+      },
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 670,
+    "prompt_tokens_details": {
+      "cached_tokens": 417
+    },
+    "completion_tokens": 17,
+    "total_tokens": 687
+  }
+}

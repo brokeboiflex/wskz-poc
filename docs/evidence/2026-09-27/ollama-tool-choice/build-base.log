@@ -1,0 +1,67 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 5.48kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/golang:1.26.0-bookworm@sha256:2a0ba12e116687098780d3ce700f9ce3cb340783779646aafbabed748fa6677c
+#2 DONE 0.8s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [build  1/10] FROM docker.io/library/golang:1.26.0-bookworm@sha256:2a0ba12e116687098780d3ce700f9ce3cb340783779646aafbabed748fa6677c
+#5 resolve docker.io/library/golang:1.26.0-bookworm@sha256:2a0ba12e116687098780d3ce700f9ce3cb340783779646aafbabed748fa6677c done
+#5 DONE 0.0s
+
+#6 [build  3/10] ADD https://codeload.github.com/ollama/ollama/tar.gz/refs/tags/v0.34.4 /tmp/ollama.tar.gz
+#6 DONE 0.2s
+
+#4 [internal] load build context
+#4 transferring context: 132B done
+#4 DONE 0.0s
+
+#7 [build  4/10] RUN echo 'c265dfff78cd2fe909f9f9fa0bb21b1e34dfcd354e1bfa13ed8eac2cfce90940  /tmp/ollama.tar.gz' | sha256sum -c -     && tar -xzf /tmp/ollama.tar.gz --strip-components=1 -C /src
+#7 CACHED
+
+#8 [build  5/10] COPY template-json.patch unparsed-tool-output.patch /tmp/
+#8 CACHED
+
+#9 [build  6/10] RUN echo '25d63f40f90a6e1f5820164faca11655d8cfb9f9c47216c138ceb1baea63784e  /tmp/template-json.patch' | sha256sum -c -     && echo '5172a6b076ee7dfadb8052913de5d13fdf963cffb748d7e22eb67dad87fe964f  /tmp/unparsed-tool-output.patch' | sha256sum -c -     && git apply --check /tmp/template-json.patch /tmp/unparsed-tool-output.patch     && git apply /tmp/template-json.patch /tmp/unparsed-tool-output.patch
+#9 CACHED
+
+#10 [build  9/10] RUN echo '42f0afb553b84be729b262f83634e0556e8670ac403f0ee7dbd26ef6ba918ae6  /tmp/gemma-native-tools.patch' | sha256sum -c -     && git apply --check /tmp/gemma-native-tools.patch     && git apply /tmp/gemma-native-tools.patch
+#10 CACHED
+
+#11 [build  7/10] RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache/go-build     git apply -R --include=template/template.go /tmp/template-json.patch     && if go test -count=1 ./template/ -run '^TestTemplateToolFunctionJSON$' > /tmp/before.txt 2>&1; then cat /tmp/before.txt; exit 1; fi     && cat /tmp/before.txt     && grep -q 'not valid JSON:' /tmp/before.txt     && git apply --include=template/template.go /tmp/template-json.patch     && go test -count=1 ./template/... ./thinking/... ./tools/...     && go vet ./template/... ./tools/...     && CGO_ENABLED=1 go build -trimpath -buildmode=pie        -ldflags='-w -s -X github.com/ollama/ollama/version.Version=0.34.4-poc.18391.17284'        -o /out/ollama .
+#11 CACHED
+
+#12 [build  8/10] COPY gemma-native-tools.patch /tmp/
+#12 CACHED
+
+#13 [build  2/10] WORKDIR /src
+#13 CACHED
+
+#14 [build  3/10] ADD https://codeload.github.com/ollama/ollama/tar.gz/refs/tags/v0.34.4 /tmp/ollama.tar.gz
+#14 CACHED
+
+#15 [build 10/10] RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache/go-build     git apply -R --include=server/routes.go /tmp/gemma-native-tools.patch     && if go test -count=1 ./server/ -run '^TestGemma4NativeToolRoute$' > /tmp/gemma-before.txt 2>&1; then cat /tmp/gemma-before.txt; exit 1; fi     && cat /tmp/gemma-before.txt     && grep -q 'Gemma tool calls bypass native grammar' /tmp/gemma-before.txt     && git apply --include=server/routes.go /tmp/gemma-native-tools.patch     && test -z "$(gofmt -l llm/server.go llm/llama_server.go llm/native_template_test.go server/routes.go server/native_gemma4.go server/native_gemma4_test.go)"     && go test -count=1 ./llm/... ./server/... ./model/renderers/... ./model/parsers/... ./openai/...     && go vet ./llm/... ./server/...     && CGO_ENABLED=1 go build -trimpath -buildmode=pie        -ldflags='-w -s -X github.com/ollama/ollama/version.Version=0.34.4-poc.gemma-native.2'        -o /out/ollama .
+#15 CACHED
+
+#16 exporting to image
+#16 exporting layers
+#16 exporting layers 1.2s done
+#16 exporting manifest sha256:dc10bad366acad261e5114f41fafd69206d751c824ce5656ba3a99ad4b28214b done
+#16 exporting config sha256:e8e534227ae5fcc8570ab3ccccd19d9beb2b3d4e30ff8ca3f25fbb327067c05e done
+#16 exporting attestation manifest sha256:c679fcf297b8f333075f2957c8f9477a20e7cff11a20b83f51023ff256b52145 done
+#16 exporting manifest list sha256:38cce3e429dc263032f671080475dbff8abdb6efdee33f9ffbc863b39408e18e done
+#16 naming to docker.io/library/wskz-ollama-tool-choice-build-base:latest done
+#16 unpacking to docker.io/library/wskz-ollama-tool-choice-build-base:latest
+#16 unpacking to docker.io/library/wskz-ollama-tool-choice-build-base:latest 0.3s done
+#16 DONE 1.6s
+
+View build details: docker-desktop://dashboard/build/default/default/kio6r9m1yqyi7jzhvakbptb3b

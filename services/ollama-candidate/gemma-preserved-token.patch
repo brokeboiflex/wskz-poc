@@ -1,0 +1,12 @@
+diff --git a/common/parsers/gemma4.cpp b/common/parsers/gemma4.cpp
+index f43c5ae..4c8d066 100644
+--- a/common/parsers/gemma4.cpp
++++ b/common/parsers/gemma4.cpp
+@@ -174,6 +174,7 @@ common_chat_params common_chat_params_init_gemma4(const common_chat_template &
+     data.thinking_end_tags  = {"<channel|>"};
+ 
+     data.preserved_tokens = {
++        "<|\"|>", // String delimiter required by the native tool-call parser.
+         "<|channel>",
+         "<channel|>",
+         "<|tool_call>",

@@ -85,7 +85,7 @@ async def test_real_chatopenai_sends_tools_and_parses_native_tool_calls():
     assert body["max_tokens"] == 1024
     assert "max_completion_tokens" not in body
     assert body["reasoning_effort"] == "none"
-    assert body["temperature"] == 0.7
+    assert body["temperature"] == 0
     assert body["top_p"] == 0.8
     assert "extra_body" not in body
 

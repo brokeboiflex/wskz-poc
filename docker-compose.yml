@@ -26,12 +26,14 @@ x-python-health: &python-health
 x-model-env: &model-env
   OPENAI_BASE_URL: ${OPENAI_BASE_URL:-http://ollama:11434/v1}
   OPENAI_API_KEY: ${OPENAI_API_KEY:-ollama}
-  OPENAI_MODEL: ${OPENAI_MODEL:-qwen3:1.7b}
+  OPENAI_MODEL: ${OPENAI_MODEL:-gemma4:e2b}
+  # auto|required|named; puste pomija pole dla backendów bez jego obsługi.
+  MODEL_TOOL_CHOICE: ${MODEL_TOOL_CHOICE-required}
   MODEL_MAX_TOKENS: ${MODEL_MAX_TOKENS:-1024}
   MODEL_TOKEN_LIMIT_FIELD: ${MODEL_TOKEN_LIMIT_FIELD:-max_tokens}
   # Puste wartości pomijają opcję u dostawcy; nie używać tu operatora :-.
   MODEL_REASONING_EFFORT: ${MODEL_REASONING_EFFORT-none}
-  MODEL_TEMPERATURE: ${MODEL_TEMPERATURE-0.7}
+  MODEL_TEMPERATURE: ${MODEL_TEMPERATURE-0}
   MODEL_TOP_P: ${MODEL_TOP_P-0.8}
 
 services:
@@ -43,8 +45,6 @@ services:
       MODEL_TIMEOUT_SECONDS: ${MODEL_TIMEOUT_SECONDS:-180}
       # Opt-in raw model traces for observed synthetic debugging; includes message content.
       MODEL_TRACE: ${MODEL_TRACE:-false}
-      # auto|required|named; puste pomija pole dla backendów bez jego obsługi.
-      MODEL_TOOL_CHOICE: ${MODEL_TOOL_CHOICE-}
       MAILER_BASE_URL: http://mailer:8000
       MAILER_TOKEN: ${MAILER_TOKEN:-local-poc-mailer-token}
       MAILER_TIMEOUT_SECONDS: 40
@@ -111,9 +111,10 @@ services:
   # Domyślny lokalny LLM wymagany w zadaniu. Pozostaje uruchomiony także
   # dla Laya/OpenRouter; MODEL_BOOTSTRAP=external pomija pobieranie jego wag.
   ollama:
-    # 0.14+ regressed Qwen tool-schema rendering (upstream #14601 / #18391).
-    # Keep the verified pre-regression release until the upstream fix is released.
-    image: ollama/ollama:0.13.5
+    # Pinned backend fixes; generic agent and model weights remain unchanged.
+    # Native Gemma grammar + narrow delimiter preservation; see OLLAMA_GEMMA_TOOL_FIX.md.
+    image: wskz-ollama-candidate:0.34.4-poc.tool-choice.2
+    build: ./services/ollama-candidate
     environment:
       OLLAMA_HOST: 0.0.0.0:11434
       OLLAMA_KEEP_ALIVE: 30m

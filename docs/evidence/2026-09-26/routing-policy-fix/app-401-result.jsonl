@@ -1,0 +1,2 @@
+{"case": 1, "case_id": "other/recipe/base", "scenario_id": "other/recipe", "variant": "base", "run_id": "156ad45e36dd", "dataset_sha256": "417dadb714a8d375e00440b40a58fde2f4337fb6ae62ed1f9b0523dc924e80b1", "expected": "other@example.com", "actual": "other@example.com", "request_id": "ea479838-1ec0-40c5-846a-0839ea83d905", "passed": true, "seconds": 23.041}
+{"run_id": "156ad45e36dd", "dataset_sha256": "417dadb714a8d375e00440b40a58fde2f4337fb6ae62ed1f9b0523dc924e80b1", "passed": 1, "total": 1}

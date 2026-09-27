@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "complete_corpus_required": false,
+  "records": 16,
+  "families": 16,
+  "counts": {
+    "train/help_desk": 3,
+    "train/human_resources": 4,
+    "train/it": 3,
+    "train/other": 3,
+    "train/payroll": 3
+  },
+  "errors": [],
+  "semantic_review_required": true,
+  "limitation": "Lexical screening cannot prove absence of paraphrase or semantic leakage.",
+  "inputs": {
+    "training/laya-routing/preflight-train.jsonl": "d2a006979f14c870e29436a62ab9dff1a62ac295e1b4ed2320488db1272a65a3",
+    "verification/benchmark/cases-500.json": "bd3cf10bc628dc0c27349201b443ef95a9b11112b272573766d323c547f5cd0e",
+    "verification/cases.json": "34b55ac3f3854c93547500fa60e7b4344dc41f42c1be31a0fb9c016d91da131b"
+  }
+}

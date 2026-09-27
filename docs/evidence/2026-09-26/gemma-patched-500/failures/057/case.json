@@ -1,0 +1,10 @@
+{
+  "id": "human_resources/team-integration/base",
+  "scenario_id": "human_resources/team-integration",
+  "variant": "base",
+  "language": "pl",
+  "department": "human_resources",
+  "recipient": "human-resources@example.com",
+  "rationale": "Wsparcie integracji i współpracy zespołu.",
+  "message": "Po połączeniu dwóch zespołów pracujemy obok siebie, ale rzadko wymieniamy wiedzę i trudno nam ustalać wspólne zasady. Chciałabym zorganizować moderowany warsztat integracyjny nastawiony na współpracę. Proszę pomóc dobrać formę spotkania, która nie ograniczy się do wspólnej rozrywki."
+}

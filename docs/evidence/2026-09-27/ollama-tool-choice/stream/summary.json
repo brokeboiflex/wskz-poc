@@ -1,0 +1,22 @@
+{
+  "transport_exit": 0,
+  "stream_done": true,
+  "http_status": 200,
+  "message": {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "KTQFSpBtBmRK6v1KfNPp81HQZSeK2FQ2",
+        "type": "function",
+        "function": {
+          "name": "send_department_email",
+          "arguments": "{\"department\":\"other\"}"
+        }
+      }
+    ]
+  },
+  "finish_reason": "tool_calls",
+  "usage": null,
+  "generated_tokens": ""
+}

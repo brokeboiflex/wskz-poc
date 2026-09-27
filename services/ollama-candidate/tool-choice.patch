@@ -1,0 +1,344 @@
+--- a/api/types.go
++++ b/api/types.go
+@@ -131,6 +131,7 @@
+ 
+ // ChatRequest describes a request sent by [Client.Chat].
+ type ChatRequest struct {
++	ToolChoice string `json:"tool_choice,omitempty"`
+ 	// Model is the model name, as in [GenerateRequest].
+ 	Model string `json:"model"`
+ 
+--- a/openai/openai.go
++++ b/openai/openai.go
+@@ -108,6 +108,7 @@
+ }
+ 
+ type ChatCompletionRequest struct {
++	ToolChoice       json.RawMessage `json:"tool_choice,omitempty"`
+ 	Model            string          `json:"model"`
+ 	Messages         []Message       `json:"messages"`
+ 	Stream           bool            `json:"stream"`
+@@ -572,6 +573,11 @@
+ // FromChatRequest converts a ChatCompletionRequest to api.ChatRequest.
+ // An optional thinking descriptor preserves model-defined effort names for rendering.
+ func FromChatRequest(r ChatCompletionRequest, thinking ...*model.Thinking) (*api.ChatRequest, error) {
++	choice, selectedTools, err := parseChatToolChoice(r.ToolChoice, r.Tools)
++	if err != nil {
++		return nil, err
++	}
++	r.Tools = selectedTools
+ 	var messages []api.Message
+ 	for _, msg := range r.Messages {
+ 		toolName := ""
+@@ -733,6 +739,7 @@
+ 	}
+ 
+ 	return &api.ChatRequest{
++		ToolChoice:      choice,
+ 		Model:           r.Model,
+ 		Messages:        messages,
+ 		Format:          format,
+--- a/llm/server.go
++++ b/llm/server.go
+@@ -219,12 +219,13 @@
+ }
+ 
+ type ChatRequest struct {
+-	Messages []api.Message
+-	Tools    api.Tools
+-	Format   json.RawMessage
+-	Options  *api.Options
+-	Think    *api.ThinkValue
+-	Shift    bool
++	ToolChoice string
++	Messages   []api.Message
++	Tools      api.Tools
++	Format     json.RawMessage
++	Options    *api.Options
++	Think      *api.ThinkValue
++	Shift      bool
+ 
+ 	Logprobs    bool
+ 	TopLogprobs int
+--- a/llm/llama_server.go
++++ b/llm/llama_server.go
+@@ -2280,6 +2280,9 @@
+ 	if len(req.Tools) > 0 {
+ 		body["tools"] = req.Tools
+ 	}
++	if req.ToolChoice != "" {
++		body["tool_choice"] = req.ToolChoice
++	}
+ 	if req.Logprobs {
+ 		body["logprobs"] = true
+ 		body["top_logprobs"] = max(req.TopLogprobs, 1)
+--- a/server/routes.go
++++ b/server/routes.go
+@@ -2686,6 +2686,11 @@
+ 			return
+ 		}
+ 
++		return
++	}
++
++	if err := validateChatToolChoice(&req, m); err != nil {
++		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+ 		return
+ 	}
+ 
+@@ -2966,6 +2971,7 @@
+ func (s *Server) handleNativeChat(c *gin.Context, req api.ChatRequest, m *Model, r llm.LlamaServer, opts *api.Options, msgs []api.Message, checkpointStart, checkpointLoaded time.Time) {
+ 	truncate := req.Truncate == nil || *req.Truncate
+ 	nativeReq, err := prepareNativeChatRequest(c.Request.Context(), m, r, opts, llm.ChatRequest{
++		ToolChoice:  req.ToolChoice,
+ 		Messages:    msgs,
+ 		Tools:       req.Tools,
+ 		Format:      req.Format,
+--- /dev/null
++++ b/openai/tool_choice.go
+@@ -0,0 +1,43 @@
++package openai
++
++import (
++	"encoding/json"
++	"fmt"
++	"github.com/ollama/ollama/api"
++)
++
++// Normalize named selection for native engines that accept string choices.
++func parseChatToolChoice(raw json.RawMessage, tools api.Tools) (string, api.Tools, error) {
++	if len(raw) == 0 || string(raw) == "null" {
++		return "", tools, nil
++	}
++	var choice string
++	if err := json.Unmarshal(raw, &choice); err == nil {
++		switch choice {
++		case "auto":
++			return choice, tools, nil
++		case "none":
++			return choice, nil, nil
++		case "required":
++			if len(tools) > 0 {
++				return choice, tools, nil
++			}
++		}
++		return "", nil, fmt.Errorf("invalid tool_choice or required without tools")
++	}
++	var named struct {
++		Type     string `json:"type"`
++		Function struct {
++			Name string `json:"name"`
++		} `json:"function"`
++	}
++	if err := json.Unmarshal(raw, &named); err != nil || named.Type != "function" || named.Function.Name == "" {
++		return "", nil, fmt.Errorf("invalid tool_choice")
++	}
++	for _, tool := range tools {
++		if tool.Function.Name == named.Function.Name && tool.Type == "function" {
++			return "required", api.Tools{tool}, nil
++		}
++	}
++	return "", nil, fmt.Errorf("tool_choice names an undeclared function")
++}
+--- /dev/null
++++ b/openai/tool_choice_test.go
+@@ -0,0 +1,64 @@
++package openai
++
++import (
++	"encoding/json"
++	"github.com/ollama/ollama/api"
++	"testing"
++)
++
++func TestChatToolChoiceWire(t *testing.T) {
++	for _, tc := range []struct {
++		raw, mode, name string
++		count           int
++		bad             bool
++	}{
++		{``, "", "", 2, false}, {`null`, "", "", 2, false},
++		{`"auto"`, "auto", "", 2, false}, {`"none"`, "none", "", 0, false},
++		{`"required"`, "required", "", 2, false},
++		{`{"type":"function","function":{"name":"second"}}`, "required", "second", 1, false},
++		{`"any"`, "", "", 0, true}, {`true`, "", "", 0, true},
++		{`{"type":"function","function":{"name":"missing"}}`, "", "", 0, true},
++	} {
++		t.Run(tc.raw, func(t *testing.T) {
++			body := `{"model":"example","messages":[{"role":"user","content":"hello"}],"tools":[{"type":"function","function":{"name":"first","parameters":{"type":"object"}}},{"type":"function","function":{"name":"second","parameters":{"type":"object"}}}]`
++			if tc.raw != "" {
++				body += `,"tool_choice":` + tc.raw
++			}
++			body += `}`
++			var req ChatCompletionRequest
++			if err := json.Unmarshal([]byte(body), &req); err != nil {
++				t.Fatal(err)
++			}
++			result, err := FromChatRequest(req)
++			if tc.bad {
++				if err == nil {
++					t.Fatal("accepted invalid choice")
++				}
++				return
++			}
++			if err != nil {
++				t.Fatal(err)
++			}
++			if result.ToolChoice != tc.mode || len(result.Tools) != tc.count {
++				t.Fatalf("choice lost: %#v", result)
++			}
++			if tc.name != "" && result.Tools[0].Function.Name != tc.name {
++				t.Fatal("selected wrong tool")
++			}
++			wire, err := json.Marshal(result)
++			if err != nil {
++				t.Fatal(err)
++			}
++			var decoded api.ChatRequest
++			if err = json.Unmarshal(wire, &decoded); err != nil {
++				t.Fatal(err)
++			}
++			if decoded.ToolChoice != tc.mode {
++				t.Fatal("API transport dropped choice")
++			}
++		})
++	}
++	if _, _, err := parseChatToolChoice(json.RawMessage(`"required"`), nil); err == nil {
++		t.Fatal("required accepted without tools")
++	}
++}
+--- /dev/null
++++ b/llm/tool_choice_test.go
+@@ -0,0 +1,22 @@
++package llm
++
++import "testing"
++
++func TestNativeToolChoiceForwarding(t *testing.T) {
++	runner := &llamaServerRunner{}
++	for _, mode := range []string{"", "auto", "none", "required"} {
++		for _, stream := range []bool{false, true} {
++			body, err := runner.llamaServerChatRequest(ChatRequest{ToolChoice: mode}, stream)
++			if err != nil {
++				t.Fatal(err)
++			}
++			if mode == "" {
++				if _, ok := body["tool_choice"]; ok {
++					t.Fatal("changed omitted default")
++				}
++			} else if body["tool_choice"] != mode {
++				t.Fatalf("tool_choice dropped: %v", body)
++			}
++		}
++	}
++}
+--- /dev/null
++++ b/server/tool_choice.go
+@@ -0,0 +1,29 @@
++package server
++
++import (
++	"fmt"
++	"github.com/ollama/ollama/api"
++)
++
++func validateChatToolChoice(req *api.ChatRequest, m *Model) error {
++	switch req.ToolChoice {
++	case "", "auto":
++		return nil
++	case "none":
++		if chatModeForModel(m) != chatExecutionModeNative {
++			return fmt.Errorf("tool_choice none is unsupported by this model's rendered execution path")
++		}
++		req.Tools = nil
++		return nil
++	case "required":
++		if len(req.Tools) == 0 {
++			return fmt.Errorf("tool_choice required needs tools")
++		}
++		if chatModeForModel(m) != chatExecutionModeNative {
++			return fmt.Errorf("tool_choice required is unsupported by this model's rendered execution path")
++		}
++		return nil
++	default:
++		return fmt.Errorf("invalid tool_choice")
++	}
++}
+--- /dev/null
++++ b/server/tool_choice_test.go
+@@ -0,0 +1,75 @@
++package server
++
++import (
++	"context"
++	"encoding/json"
++	"net/http"
++	"testing"
++
++	"github.com/ollama/ollama/api"
++	gguftest "github.com/ollama/ollama/internal/testutil/gguf"
++	"github.com/ollama/ollama/llm"
++)
++
++func TestHandlerPassesRequiredToolChoice(t *testing.T) {
++	t.Setenv("OLLAMA_GO_TEMPLATE", "")
++	t.Setenv("OLLAMA_CONTEXT_LENGTH", "4096")
++	var tools []api.Tool
++	if err := json.Unmarshal([]byte(`[{"type":"function","function":{"name":"lookup_record","description":"Find a record","parameters":{"type":"object","properties":{"key":{"type":"string"}},"required":["key"]}}}]`), &tools); err != nil {
++		t.Fatal(err)
++	}
++	call := api.ToolCall{Function: api.ToolCallFunction{Name: "lookup_record", Arguments: testArgs(map[string]any{"key": "example"})}}
++	mock := mockRunner{ChatFn: func(_ context.Context, req llm.ChatRequest, fn func(llm.ChatResponse)) error {
++		fn(llm.ChatResponse{Message: api.Message{Role: "assistant", ToolCalls: []api.ToolCall{call}}, Done: true, DoneReason: llm.DoneReasonStop})
++		return nil
++	}}
++	s := newServerWithMockRunner(t, &mock)
++	createMinimalGGUFModel(t, s, "native-gemma-base", gguftest.KV{}, "", nil)
++	stream := false
++	w := createRequest(t, s.CreateHandler, api.CreateRequest{Model: "native-gemma-tools", From: "native-gemma-base", Renderer: "gemma4-small", Parser: "gemma4", Stream: &stream})
++	if w.Code != http.StatusOK {
++		t.Fatalf("create: %d %s", w.Code, w.Body.String())
++	}
++	w = createRequest(t, s.ChatHandler, api.ChatRequest{Model: "native-gemma-tools", Messages: []api.Message{{Role: "user", Content: "Find example"}}, Tools: tools, ToolChoice: "required", Stream: &stream})
++	if w.Code != http.StatusOK {
++		t.Fatalf("chat: %d %s", w.Code, w.Body.String())
++	}
++	if mock.ChatRequest.ToolChoice != "required" {
++		t.Fatal("handler dropped tool_choice")
++	}
++	if len(mock.ChatRequest.Tools) != 1 || mock.ChatRequest.Tools[0].Function.Name != "lookup_record" {
++		t.Fatal("Gemma tool schema never reached the native grammar")
++	}
++	var response api.ChatResponse
++	if err := json.Unmarshal(w.Body.Bytes(), &response); err != nil {
++		t.Fatal(err)
++	}
++	if len(response.Message.ToolCalls) != 1 || response.Message.ToolCalls[0].Function.Name != "lookup_record" {
++		t.Fatalf("native tool call did not survive response transport: %s", w.Body.String())
++	}
++}
++
++func TestToolChoiceUnsupportedAndNone(t *testing.T) {
++	req := api.ChatRequest{ToolChoice: "required", Tools: api.Tools{{}}}
++	m := &Model{}
++	m.Config.Parser = "some-rendered-parser"
++	if err := validateChatToolChoice(&req, m); err == nil {
++		t.Fatal("silently accepted unsupported required")
++	}
++	req.ToolChoice = "none"
++	if err := validateChatToolChoice(&req, m); err == nil {
++		t.Fatal("silently accepted unsupported none")
++	}
++	m.Config.Parser = ""
++	if err := validateChatToolChoice(&req, m); err != nil || len(req.Tools) != 0 {
++		t.Fatal("none must remove tools")
++	}
++	req.ToolChoice = "required"
++	if err := validateChatToolChoice(&req, m); err == nil {
++		t.Fatal("required accepted without tools")
++	}
++	req.ToolChoice = "invalid"
++	if err := validateChatToolChoice(&req, m); err == nil {
++		t.Fatal("accepted invalid choice")
++	}
++}

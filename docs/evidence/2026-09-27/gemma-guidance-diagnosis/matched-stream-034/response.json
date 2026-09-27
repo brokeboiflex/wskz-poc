@@ -1,0 +1,22 @@
+{
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "tool_calls": [
+          {
+            "id": "xloAFQDSJxzHrXQ4TGRohi2Ctfi63bFd",
+            "type": "function",
+            "function": {
+              "name": "send_department_email",
+              "arguments": "{\"department\":\"human_resources\"}"
+            }
+          }
+        ]
+      },
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": null
+}

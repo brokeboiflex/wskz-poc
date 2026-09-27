@@ -1,0 +1,14 @@
+{
+  "guidance": {
+    "correct": 18,
+    "wrong_route": 2,
+    "protocol_error": 3
+  },
+  "all_23_raw_responses_audited": true,
+  "review_gates": 8,
+  "previous_files_preserved": 693,
+  "case_434_auto_missing_marker_required_native_valid": true,
+  "ollama_required_434_still_plain_text": true,
+  "other_four_original_protocol_failures_reproduced_in_isolation": false,
+  "regression_tests_passed": 81
+}

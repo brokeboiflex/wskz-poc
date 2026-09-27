@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-353",
+  "object": "chat.completion",
+  "created": 1790459712,
+  "model": "gemma4:e2b",
+  "system_fingerprint": "fp_ollama",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "send_department_email{department:<|\"|>human_resources<|\"|>}"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 622,
+    "prompt_tokens_details": {
+      "cached_tokens": 417
+    },
+    "completion_tokens": 15,
+    "total_tokens": 637
+  }
+}
