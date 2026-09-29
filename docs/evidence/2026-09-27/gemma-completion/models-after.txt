@@ -1,2 +1,0 @@
-NAME          ID              SIZE      MODIFIED     
-gemma4:e2b    7fbdbf8f5e45    7.2 GB    23 hours ago    

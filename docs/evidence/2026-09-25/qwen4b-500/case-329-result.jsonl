@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/shared-drive-outage/base", "scenario_id": "it/shared-drive-outage", "variant": "base", "run_id": "5e5ac76afdf6", "dataset_sha256": "e6a0527087a9de2813b978240c0b5b621fb2cfe260008bc5c89dd297b52a9bb3", "expected": "it@example.com", "actual": "it@example.com", "request_id": "3115db8a-7898-48fa-bd92-7ad451c5b5ba", "passed": true, "seconds": 5.766}
-{"run_id": "5e5ac76afdf6", "dataset_sha256": "e6a0527087a9de2813b978240c0b5b621fb2cfe260008bc5c89dd297b52a9bb3", "passed": 1, "total": 1}

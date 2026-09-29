@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/candidate-references/base", "scenario_id": "human_resources/candidate-references", "variant": "base", "run_id": "83d74223eafb", "dataset_sha256": "34be6fab2288f2c9f11c536b9ad0327437eca2baabbaf52c8e200fd3769314ca", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "f6593688-5d82-4572-b388-75e76243701a", "passed": true, "seconds": 3.598}
-{"run_id": "83d74223eafb", "dataset_sha256": "34be6fab2288f2c9f11c536b9ad0327437eca2baabbaf52c8e200fd3769314ca", "passed": 1, "total": 1}

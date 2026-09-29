@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/payroll-server/base", "scenario_id": "it/payroll-server", "variant": "base", "run_id": "35b4f168c085", "dataset_sha256": "44cda0c901a8f370eb6273cde4cea6ea8093c7998a3590a55a640e775b331df2", "expected": "it@example.com", "actual": "it@example.com", "request_id": "8cbbe175-9dea-424f-8d96-1bb3a36de2e4", "passed": true, "seconds": 7.221}
-{"run_id": "35b4f168c085", "dataset_sha256": "44cda0c901a8f370eb6273cde4cea6ea8093c7998a3590a55a640e775b331df2", "passed": 1, "total": 1}

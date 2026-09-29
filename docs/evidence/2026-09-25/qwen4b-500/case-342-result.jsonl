@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/tls-expiry/quoted_history", "scenario_id": "it/tls-expiry", "variant": "quoted_history", "run_id": "e29214e272fb", "dataset_sha256": "13898ab7e7d9b70857d233b73c7689b9706dbaa772d01bdba429c72026e1e439", "expected": "it@example.com", "actual": "it@example.com", "request_id": "53464b6b-3ebd-44ec-8f98-50736e63d9b9", "passed": true, "seconds": 9.721}
-{"run_id": "e29214e272fb", "dataset_sha256": "13898ab7e7d9b70857d233b73c7689b9706dbaa772d01bdba429c72026e1e439", "passed": 1, "total": 1}

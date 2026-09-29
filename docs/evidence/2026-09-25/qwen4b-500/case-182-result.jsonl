@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/salary-change-effective/quoted_history", "scenario_id": "payroll/salary-change-effective", "variant": "quoted_history", "run_id": "2c1c2239aa97", "dataset_sha256": "59fe59516174f2e41d70725811bbd3d60ab96db89a766f7d40d74ff287226790", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "7d8325a3-85f8-458d-babd-f8ea274f3da6", "passed": true, "seconds": 6.954}
-{"run_id": "2c1c2239aa97", "dataset_sha256": "59fe59516174f2e41d70725811bbd3d60ab96db89a766f7d40d74ff287226790", "passed": 1, "total": 1}

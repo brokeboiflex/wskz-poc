@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/training-platform-login/resolved_postscript", "scenario_id": "help_desk/training-platform-login", "variant": "resolved_postscript", "run_id": "77fcd2203d45", "dataset_sha256": "a24f73ba9b69df2d3ce90a33a0daaa6177d6461623c652e83ff41aeb6c4cf243", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "dc033bba-7729-4d44-ae18-e8d0ef3a762b", "passed": true, "seconds": 3.122}
-{"run_id": "77fcd2203d45", "dataset_sha256": "a24f73ba9b69df2d3ce90a33a0daaa6177d6461623c652e83ff41aeb6c4cf243", "passed": 1, "total": 1}

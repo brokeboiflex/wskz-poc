@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/employment-history/resolved_preface", "scenario_id": "payroll/employment-history", "variant": "resolved_preface", "run_id": "0e9f5188d9d4", "dataset_sha256": "573fd8cc72d45875b1b60f8131457ee3770e8b762f2216942232c885e35caec3", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "e963ab60-16b1-4b6f-931d-bf963bbfd49d", "passed": true, "seconds": 6.074}
-{"run_id": "0e9f5188d9d4", "dataset_sha256": "573fd8cc72d45875b1b60f8131457ee3770e8b762f2216942232c885e35caec3", "passed": 1, "total": 1}

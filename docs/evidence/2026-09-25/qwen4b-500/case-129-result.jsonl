@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/bonus-missing/base", "scenario_id": "payroll/bonus-missing", "variant": "base", "run_id": "43ea8aab9b98", "dataset_sha256": "cca48e21b684717ce83ec170609bb31ac175674bd97b36e56cad8f4e363ac710", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "e967fffa-f0dc-4d45-a42b-eb3ee8fbbe02", "passed": true, "seconds": 3.631}
-{"run_id": "43ea8aab9b98", "dataset_sha256": "cca48e21b684717ce83ec170609bb31ac175674bd97b36e56cad8f4e363ac710", "passed": 1, "total": 1}

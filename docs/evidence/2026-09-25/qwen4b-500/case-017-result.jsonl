@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/vacancy-profile/base", "scenario_id": "human_resources/vacancy-profile", "variant": "base", "run_id": "d98169d749ef", "dataset_sha256": "0b7270a61befda55cd75dcd8d6c766f6859460b060654891fc0d659dbb7735ba", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "abd4a429-dde7-4217-95b8-e61cda73e045", "passed": true, "seconds": 3.802}
-{"run_id": "d98169d749ef", "dataset_sha256": "0b7270a61befda55cd75dcd8d6c766f6859460b060654891fc0d659dbb7735ba", "passed": 1, "total": 1}

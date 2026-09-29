@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/database-replica/resolved_postscript", "scenario_id": "it/database-replica", "variant": "resolved_postscript", "run_id": "161d17121f18", "dataset_sha256": "3d9b484be48156ca6ac7abe6cffea4f69cf90d4c293b086861761b3e32ece150", "expected": "it@example.com", "actual": "it@example.com", "request_id": "02f07971-7feb-467b-b1d5-fa92f9ce0e7e", "passed": true, "seconds": 6.889}
-{"run_id": "161d17121f18", "dataset_sha256": "3d9b484be48156ca6ac7abe6cffea4f69cf90d4c293b086861761b3e32ece150", "passed": 1, "total": 1}

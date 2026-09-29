@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/teams-audio/resolved_postscript", "scenario_id": "help_desk/teams-audio", "variant": "resolved_postscript", "run_id": "8cfbf3e5987e", "dataset_sha256": "f5fdb9ae6c6e6b6ffc25b2135248689fb9355fa374bc74ce70a3ac7c6807087c", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "ea4f31c6-b889-494a-9352-932a4ff0a0da", "passed": true, "seconds": 3.29}
-{"run_id": "8cfbf3e5987e", "dataset_sha256": "f5fdb9ae6c6e6b6ffc25b2135248689fb9355fa374bc74ce70a3ac7c6807087c", "passed": 1, "total": 1}

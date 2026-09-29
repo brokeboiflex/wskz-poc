@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/performance-feedback/base", "scenario_id": "human_resources/performance-feedback", "variant": "base", "run_id": "21e00fb4d83e", "dataset_sha256": "284dcd2671d69146e89b2ece33d33f01bf28522cd24c3841d3f7f35f9178cf25", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "165f1ae4-4389-40d6-bca3-07ffc359cb79", "passed": true, "seconds": 3.588}
-{"run_id": "21e00fb4d83e", "dataset_sha256": "284dcd2671d69146e89b2ece33d33f01bf28522cd24c3841d3f7f35f9178cf25", "passed": 1, "total": 1}

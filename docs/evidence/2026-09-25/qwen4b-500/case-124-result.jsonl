@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/salary-underpayment/resolved_preface", "scenario_id": "payroll/salary-underpayment", "variant": "resolved_preface", "run_id": "14078b0ee3d1", "dataset_sha256": "68a02c14034c861a0a53af366c91fae89f7a1bd92aef54434af40ee797bc51be", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "c0ff69bd-19b1-4ccb-989b-e2a704f6ef20", "passed": true, "seconds": 11.405}
-{"run_id": "14078b0ee3d1", "dataset_sha256": "68a02c14034c861a0a53af366c91fae89f7a1bd92aef54434af40ee797bc51be", "passed": 1, "total": 1}

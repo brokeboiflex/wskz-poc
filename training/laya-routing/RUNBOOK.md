@@ -11,7 +11,7 @@ Walidacja1:447/500, macroF1 .893358,0 błędów protokołu. Selektor:kontynuuj.
 Pełny korpus2000/500/500 zaakceptowany; tokenizacja3000 wiadomości bez obcięć.
 2500 tekstów ma niezależny przegląd,500 przegląd autora. Zgodnie z ostatnim
 poleceniem użytkownika nie uruchamiać kolejnego krytyka. Końcowy test pozostaje przed nami.
-Najpierw przeczytać [zatwierdzone podejście](../../docs/LAYA_GENERALIZATION_APPROACH.md).
+Najpierw przeczytać [ustalenia treningu w README](../../README.md#trening-laya).
 [Zmiana autorstwa na Gemmę](DATA_GENERATION_PROPOSAL.md) jest zatwierdzona
 przez „Ok do it”; małe próby autora nie spełniły kryteriów i zostały zakończone.
 Wszystkie18 odpowiedzi zachowano. Nie wznawiać ich automatycznie. Użytkownik

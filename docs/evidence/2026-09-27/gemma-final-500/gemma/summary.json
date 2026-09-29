@@ -1,8 +1,0 @@
-{
-  "model": "gemma4:e2b",
-  "completed": 500,
-  "planned": 500,
-  "correct": 493,
-  "wrong_route": 7,
-  "protocol_error": 0
-}

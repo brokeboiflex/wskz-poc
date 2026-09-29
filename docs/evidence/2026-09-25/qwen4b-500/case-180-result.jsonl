@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/medical-absence-record/forwarded_history", "scenario_id": "payroll/medical-absence-record", "variant": "forwarded_history", "run_id": "dbd28e082cba", "dataset_sha256": "77c387b26724758eb23657245be4edf90402140f3626526e54c0056c4153a085", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "47cac127-6a5b-4060-b091-097b0e3187e6", "passed": true, "seconds": 7.043}
-{"run_id": "dbd28e082cba", "dataset_sha256": "77c387b26724758eb23657245be4edf90402140f3626526e54c0056c4153a085", "passed": 1, "total": 1}

@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/ntp-domain/base", "scenario_id": "it/ntp-domain", "variant": "base", "run_id": "e4dca85d6dfc", "dataset_sha256": "f73c8b853affb87d258c61606fe95f1f396c14e2647cb57befca9517b27939ac", "expected": "it@example.com", "actual": "it@example.com", "request_id": "b1468911-c8bf-444d-a1c3-cc51da9116eb", "passed": true, "seconds": 7.992}
-{"run_id": "e4dca85d6dfc", "dataset_sha256": "f73c8b853affb87d258c61606fe95f1f396c14e2647cb57befca9517b27939ac", "passed": 1, "total": 1}

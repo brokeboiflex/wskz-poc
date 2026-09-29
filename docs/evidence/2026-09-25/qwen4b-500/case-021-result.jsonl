@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/communication-workshop/base", "scenario_id": "human_resources/communication-workshop", "variant": "base", "run_id": "724474252e41", "dataset_sha256": "81269fd06008eaa098aac21a3aca93754f91dbcee2f3489b7c6cbae1bd390d55", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "dc2bf4d2-e5f5-4b39-98c6-67d4e98652fe", "passed": true, "seconds": 9.409}
-{"run_id": "724474252e41", "dataset_sha256": "81269fd06008eaa098aac21a3aca93754f91dbcee2f3489b7c6cbae1bd390d55", "passed": 1, "total": 1}

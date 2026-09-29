@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/leave-return/base", "scenario_id": "payroll/leave-return", "variant": "base", "run_id": "cc94b8e00e6f", "dataset_sha256": "12ea4fd8c05623fba01ad04520e2b8ddc7a35e897083334c683e0c80494620aa", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "41ad732d-537f-43d5-99a3-de4e02c0dd52", "passed": true, "seconds": 4.456}
-{"run_id": "cc94b8e00e6f", "dataset_sha256": "12ea4fd8c05623fba01ad04520e2b8ddc7a35e897083334c683e0c80494620aa", "passed": 1, "total": 1}

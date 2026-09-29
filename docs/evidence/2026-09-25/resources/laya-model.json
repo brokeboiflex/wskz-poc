@@ -1,7 +1,0 @@
-{
-  "weights_bytes": 643835514,
-  "tensor_bytes_by_dtype": {
-    "F32": 12,
-    "F16": 643817990
-  }
-}

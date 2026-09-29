@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/software-install/resolved_preface", "scenario_id": "help_desk/software-install", "variant": "resolved_preface", "run_id": "7e8c636448d4", "dataset_sha256": "f971ab0cd8c28f0e3d50cf7fc8af618b21859134c2086d1691fc73312405172f", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "87093537-afcd-49ac-82e5-752ce8c8baff", "passed": true, "seconds": 5.673}
-{"run_id": "7e8c636448d4", "dataset_sha256": "f971ab0cd8c28f0e3d50cf7fc8af618b21859134c2086d1691fc73312405172f", "passed": 1, "total": 1}

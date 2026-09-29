@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/worktime-missing/base", "scenario_id": "payroll/worktime-missing", "variant": "base", "run_id": "a184e472db84", "dataset_sha256": "8ca747ba7264610b1a852dd32fff9b67b46e1cbfa7a6173633499321831bcd11", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "830deb46-6454-461c-8650-5922a88278d4", "passed": true, "seconds": 9.623}
-{"run_id": "a184e472db84", "dataset_sha256": "8ca747ba7264610b1a852dd32fff9b67b46e1cbfa7a6173633499321831bcd11", "passed": 1, "total": 1}

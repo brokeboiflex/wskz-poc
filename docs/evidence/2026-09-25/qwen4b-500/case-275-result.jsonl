@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/training-platform-login/base", "scenario_id": "help_desk/training-platform-login", "variant": "base", "run_id": "40387aef5a9d", "dataset_sha256": "aa2cb4faf35e38def41a83e0330eda3bce2320d2175b225e28c3654a961e57fe", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "8122287b-8c21-4614-862d-27ba292d3fe3", "passed": true, "seconds": 3.617}
-{"run_id": "40387aef5a9d", "dataset_sha256": "aa2cb4faf35e38def41a83e0330eda3bce2320d2175b225e28c3654a961e57fe", "passed": 1, "total": 1}

@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/storage-array/base", "scenario_id": "it/storage-array", "variant": "base", "run_id": "d74864e093ef", "dataset_sha256": "ce47f2d77b4226a94c312cffa514a391f2ef7ee2d82c6268c744fc65268aaebe", "expected": "it@example.com", "actual": "it@example.com", "request_id": "37575437-ef85-4449-8c2c-75ba9b39c8ac", "passed": true, "seconds": 9.282}
-{"run_id": "d74864e093ef", "dataset_sha256": "ce47f2d77b4226a94c312cffa514a391f2ef7ee2d82c6268c744fc65268aaebe", "passed": 1, "total": 1}

@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/mentoring/resolved_preface", "scenario_id": "human_resources/mentoring", "variant": "resolved_preface", "run_id": "1db7b3cd4b31", "dataset_sha256": "d61a13129997bbe4afb1f54568fefb4d28bd1fbe431cd242503badaedb24a523", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "7b29464f-5125-49e4-9fa8-25e78b07816a", "passed": true, "seconds": 7.799}
-{"run_id": "1db7b3cd4b31", "dataset_sha256": "d61a13129997bbe4afb1f54568fefb4d28bd1fbe431cd242503badaedb24a523", "passed": 1, "total": 1}

@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/interview-panel-training/base", "scenario_id": "human_resources/interview-panel-training", "variant": "base", "run_id": "f49f60e615c4", "dataset_sha256": "96784d7558893f87d8f044b94fb8c0dc7f016c1aa0b69c49c36e5014e1043449", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "e615b574-9c8f-46d8-a726-e6fab47c5533", "passed": true, "seconds": 4.479}
-{"run_id": "f49f60e615c4", "dataset_sha256": "96784d7558893f87d8f044b94fb8c0dc7f016c1aa0b69c49c36e5014e1043449", "passed": 1, "total": 1}

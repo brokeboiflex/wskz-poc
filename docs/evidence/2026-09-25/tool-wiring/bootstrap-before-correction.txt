@@ -1,7 +1,0 @@
-model-init-1  | Warming the model and checking native tool calling (no email).
-model-init-1  | Traceback (most recent call last):
-model-init-1  |   File "/app/bootstrap.py", line 101, in <module>
-model-init-1  |     initialize()
-model-init-1  |   File "/app/bootstrap.py", line 81, in initialize
-model-init-1  |     raise RuntimeError("model did not produce a native tool call")
-model-init-1  | RuntimeError: model did not produce a native tool call

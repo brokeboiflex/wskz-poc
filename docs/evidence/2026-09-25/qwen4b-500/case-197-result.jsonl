@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/training-hours/base", "scenario_id": "payroll/training-hours", "variant": "base", "run_id": "21bf3ec4a4d7", "dataset_sha256": "7121adb14034079b7a304531dfd96a9d1e1f3e346bcc9be0a4f56f5b7b213bf8", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "7425ea9b-a8a9-4545-8dc7-beb402fe150b", "passed": true, "seconds": 3.602}
-{"run_id": "21bf3ec4a4d7", "dataset_sha256": "7121adb14034079b7a304531dfd96a9d1e1f3e346bcc9be0a4f56f5b7b213bf8", "passed": 1, "total": 1}

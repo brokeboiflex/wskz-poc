@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/malware-alert/conversation_history", "scenario_id": "it/malware-alert", "variant": "conversation_history", "run_id": "75b9a490fe85", "dataset_sha256": "b27534b11c149d2b26a10167a21373ec35396bc28c0a07c1b8e5bcc9d9a50d8f", "expected": "it@example.com", "actual": "it@example.com", "request_id": "092e78dd-f19a-4a35-affd-94171465338b", "passed": true, "seconds": 7.175}
-{"run_id": "75b9a490fe85", "dataset_sha256": "b27534b11c149d2b26a10167a21373ec35396bc28c0a07c1b8e5bcc9d9a50d8f", "passed": 1, "total": 1}

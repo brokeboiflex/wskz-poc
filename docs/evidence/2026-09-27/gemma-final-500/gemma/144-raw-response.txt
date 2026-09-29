@@ -1,4 +1,0 @@
-{
-  "status": 200,
-  "body": "{\"id\":\"chatcmpl-781\",\"object\":\"chat.completion\",\"created\":1790518962,\"model\":\"gemma4:e2b\",\"system_fingerprint\":\"fp_ollama\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"id\":\"HI3k7ItQlmevKsujllAUc4HBtHtZjuVi\",\"index\":0,\"type\":\"function\",\"function\":{\"name\":\"send_department_email\",\"arguments\":\"{\\\"department\\\":\\\"payroll\\\"}\"}}]},\"finish_reason\":\"tool_calls\"}],\"usage\":{\"prompt_tokens\":661,\"prompt_tokens_details\":{\"cached_tokens\":526},\"completion_tokens\":17,\"total_tokens\":678}}\n"
-}

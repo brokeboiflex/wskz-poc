@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/office-crash/conversation_history", "scenario_id": "help_desk/office-crash", "variant": "conversation_history", "run_id": "9747993c1041", "dataset_sha256": "56394c39880b1e7edde6ba40a0d0d2a06ffea253119338ff094fa8ec5d5fc4ed", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "ed167f79-efc0-46d4-b013-0684fec26a61", "passed": true, "seconds": 6.024}
-{"run_id": "9747993c1041", "dataset_sha256": "56394c39880b1e7edde6ba40a0d0d2a06ffea253119338ff094fa8ec5d5fc4ed", "passed": 1, "total": 1}

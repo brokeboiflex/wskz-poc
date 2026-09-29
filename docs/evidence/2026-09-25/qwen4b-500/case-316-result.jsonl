@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/firewall-rules/resolved_postscript", "scenario_id": "it/firewall-rules", "variant": "resolved_postscript", "run_id": "2ecd96c48c56", "dataset_sha256": "17d57a1ba890ac7f4c96704b9951c5397b251e85ce7793341714c4dcd2945970", "expected": "it@example.com", "actual": "it@example.com", "request_id": "8ca2cfbd-0401-463c-9c21-d065fbf542c0", "passed": true, "seconds": 6.84}
-{"run_id": "2ecd96c48c56", "dataset_sha256": "17d57a1ba890ac7f4c96704b9951c5397b251e85ce7793341714c4dcd2945970", "passed": 1, "total": 1}

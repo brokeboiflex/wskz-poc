@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/password-forgotten/base", "scenario_id": "help_desk/password-forgotten", "variant": "base", "run_id": "5353f1174b05", "dataset_sha256": "1d3aebb061f028c483c23599bbe64e781be814f1121f3404c377437bc234999b", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "55f8ab23-ab5a-4ad5-8771-50824034b218", "passed": true, "seconds": 4.054}
-{"run_id": "5353f1174b05", "dataset_sha256": "1d3aebb061f028c483c23599bbe64e781be814f1121f3404c377437bc234999b", "passed": 1, "total": 1}

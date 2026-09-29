@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/wifi-single/resolved_postscript", "scenario_id": "help_desk/wifi-single", "variant": "resolved_postscript", "run_id": "d4d5db7bd2dc", "dataset_sha256": "2a6487887c90b0cf91bc2c7fd8cd0d74f34fc144c2980f6411fa8e9da9e85a83", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "839b7adb-38ca-4a35-adc0-c350595349ce", "passed": true, "seconds": 2.897}
-{"run_id": "d4d5db7bd2dc", "dataset_sha256": "2a6487887c90b0cf91bc2c7fd8cd0d74f34fc144c2980f6411fa8e9da9e85a83", "passed": 1, "total": 1}

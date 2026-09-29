@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/certificate-login/base", "scenario_id": "help_desk/certificate-login", "variant": "base", "run_id": "010ac4a240bd", "dataset_sha256": "37cee7458c3ef24a7790537ec0b857f794f7cead51f632373b8140433a6b829e", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "12bd4820-8ece-477e-bb5f-c90f20819e59", "passed": true, "seconds": 3.786}
-{"run_id": "010ac4a240bd", "dataset_sha256": "37cee7458c3ef24a7790537ec0b857f794f7cead51f632373b8140433a6b829e", "passed": 1, "total": 1}

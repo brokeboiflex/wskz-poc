@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/team-integration/base", "scenario_id": "human_resources/team-integration", "variant": "base", "run_id": "9edf029bc6c6", "dataset_sha256": "45acbe98fbf2ccd4caa0e6205a46f40ae54706b4f0a5c4d84dc02948513e0c6c", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "8b4b9f9b-a3ec-4e05-9399-e5ad9f8347d2", "passed": true, "seconds": 4.021}
-{"run_id": "9edf029bc6c6", "dataset_sha256": "45acbe98fbf2ccd4caa0e6205a46f40ae54706b4f0a5c4d84dc02948513e0c6c", "passed": 1, "total": 1}

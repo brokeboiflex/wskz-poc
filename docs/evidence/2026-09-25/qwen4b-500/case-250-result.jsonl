@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/spreadsheet-open/forwarded_history", "scenario_id": "help_desk/spreadsheet-open", "variant": "forwarded_history", "run_id": "844773cfe839", "dataset_sha256": "4c4f445286951e85735454bd4c7b1046b76ca71c2a38efd3c6c2195728b1efa9", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "1b84ee8f-bf95-4e8e-b635-d822a22d8166", "passed": true, "seconds": 6.176}
-{"run_id": "844773cfe839", "dataset_sha256": "4c4f445286951e85735454bd4c7b1046b76ca71c2a38efd3c6c2195728b1efa9", "passed": 1, "total": 1}

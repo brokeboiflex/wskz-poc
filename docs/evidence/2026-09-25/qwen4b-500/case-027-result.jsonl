@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/excel-training/base", "scenario_id": "human_resources/excel-training", "variant": "base", "run_id": "1be1ca628131", "dataset_sha256": "1d1bda5aeba74ae753cd18c5113bff4a29121731c4c11271f112cbf802ce62cc", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "9d26079b-c5b6-4bfd-906b-f6b44e944944", "passed": true, "seconds": 6.209}
-{"run_id": "1be1ca628131", "dataset_sha256": "1d1bda5aeba74ae753cd18c5113bff4a29121731c4c11271f112cbf802ce62cc", "passed": 1, "total": 1}

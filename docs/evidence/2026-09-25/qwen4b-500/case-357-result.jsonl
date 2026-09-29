@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/malware-alert/base", "scenario_id": "it/malware-alert", "variant": "base", "run_id": "a8dae40742f8", "dataset_sha256": "0fa3cd829d93a1f6cf2640a9330e1d178e74d035daf646351d079b993e370c74", "expected": "it@example.com", "actual": "it@example.com", "request_id": "01f52d81-2f6f-4402-bfa9-ebaf639f615a", "passed": true, "seconds": 5.271}
-{"run_id": "a8dae40742f8", "dataset_sha256": "0fa3cd829d93a1f6cf2640a9330e1d178e74d035daf646351d079b993e370c74", "passed": 1, "total": 1}

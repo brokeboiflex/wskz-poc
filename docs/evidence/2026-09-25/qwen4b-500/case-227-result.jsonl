@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/account-locked/base", "scenario_id": "help_desk/account-locked", "variant": "base", "run_id": "f8ef3d64eefd", "dataset_sha256": "07b2032c064fd11630c210bffa62c8f8d0c5f36a328fefbfd585065d57c2edeb", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "d7a7ca32-d530-495b-aeba-e27d485285e5", "passed": true, "seconds": 3.731}
-{"run_id": "f8ef3d64eefd", "dataset_sha256": "07b2032c064fd11630c210bffa62c8f8d0c5f36a328fefbfd585065d57c2edeb", "passed": 1, "total": 1}

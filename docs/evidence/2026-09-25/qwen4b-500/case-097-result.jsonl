@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/payroll-course/base", "scenario_id": "human_resources/payroll-course", "variant": "base", "run_id": "2a35e2b0fe5b", "dataset_sha256": "38379970af6e4afa178e3d49e0f4de364fc28ca96439249e9b684729a681dd05", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "9a52d823-0a62-4063-b88e-faae82383d41", "passed": true, "seconds": 3.726}
-{"run_id": "2a35e2b0fe5b", "dataset_sha256": "38379970af6e4afa178e3d49e0f4de364fc28ca96439249e9b684729a681dd05", "passed": 1, "total": 1}

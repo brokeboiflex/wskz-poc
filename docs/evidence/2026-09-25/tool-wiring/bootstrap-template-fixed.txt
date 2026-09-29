@@ -1,3 +1,0 @@
-model-init-1  | Rendered tool schema verified as JSON (no inference).
-model-init-1  | Warming the model and checking native tool calling (no email).
-model-init-1  | Selected model endpoint is ready.

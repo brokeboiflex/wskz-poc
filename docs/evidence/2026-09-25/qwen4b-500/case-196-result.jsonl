@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/referral-bonus-pay/resolved_postscript", "scenario_id": "payroll/referral-bonus-pay", "variant": "resolved_postscript", "run_id": "725326f03c37", "dataset_sha256": "4b20e92f6cd4e85e73b76c4cb61a9c3bac170d44a39fff56172cfb8ca0ed0374", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "bf9bd36a-fc0b-4a76-a2da-2114adb77d1a", "passed": true, "seconds": 3.237}
-{"run_id": "725326f03c37", "dataset_sha256": "4b20e92f6cd4e85e73b76c4cb61a9c3bac170d44a39fff56172cfb8ca0ed0374", "passed": 1, "total": 1}

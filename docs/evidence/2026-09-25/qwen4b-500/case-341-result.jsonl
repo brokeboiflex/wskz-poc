@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/tls-expiry/base", "scenario_id": "it/tls-expiry", "variant": "base", "run_id": "cebde069ca44", "dataset_sha256": "b9b70810634623c9ec0378945519375783372c8dc92f47f736c4d6b52a05458d", "expected": "it@example.com", "actual": "it@example.com", "request_id": "c80ad862-761f-4e71-8562-408b4ca33a9f", "passed": true, "seconds": 7.019}
-{"run_id": "cebde069ca44", "dataset_sha256": "b9b70810634623c9ec0378945519375783372c8dc92f47f736c4d6b52a05458d", "passed": 1, "total": 1}

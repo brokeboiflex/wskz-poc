@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/keyboard-layout/resolved_postscript", "scenario_id": "help_desk/keyboard-layout", "variant": "resolved_postscript", "run_id": "b35f2f232285", "dataset_sha256": "aa6c17a97ddf5c3efddfbf58ec47b56739b5b503bff9ee23200fdf4a0b98d4e5", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "20bd5754-6cce-48cd-8bd9-7e4eac79f291", "passed": true, "seconds": 3.433}
-{"run_id": "b35f2f232285", "dataset_sha256": "aa6c17a97ddf5c3efddfbf58ec47b56739b5b503bff9ee23200fdf4a0b98d4e5", "passed": 1, "total": 1}

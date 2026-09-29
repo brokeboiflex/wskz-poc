@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/domain-renewal/base", "scenario_id": "it/domain-renewal", "variant": "base", "run_id": "2f3a86198644", "dataset_sha256": "9eac640881b087342b79f0bdfba23f706f8112c1fd0277eda06b93ecdf54b3aa", "expected": "it@example.com", "actual": "it@example.com", "request_id": "c14874c7-0951-40bc-b46b-e882acb01253", "passed": true, "seconds": 5.945}
-{"run_id": "2f3a86198644", "dataset_sha256": "9eac640881b087342b79f0bdfba23f706f8112c1fd0277eda06b93ecdf54b3aa", "passed": 1, "total": 1}

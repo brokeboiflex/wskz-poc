@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/cluster-node/base", "scenario_id": "it/cluster-node", "variant": "base", "run_id": "381435de8e32", "dataset_sha256": "21f64a1d5acf99b9669222c2b2d8dda7919284a78780d4496fbf7043b5595938", "expected": "it@example.com", "actual": "it@example.com", "request_id": "0cd57494-11c1-4713-b9c9-16e8c2100cef", "passed": true, "seconds": 5.49}
-{"run_id": "381435de8e32", "dataset_sha256": "21f64a1d5acf99b9669222c2b2d8dda7919284a78780d4496fbf7043b5595938", "passed": 1, "total": 1}

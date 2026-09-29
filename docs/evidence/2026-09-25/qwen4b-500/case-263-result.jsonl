@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/overheating/base", "scenario_id": "help_desk/overheating", "variant": "base", "run_id": "6550e2ab853b", "dataset_sha256": "bcd4eb2f7dee6f69408aa1f0ebd41407721277446bffc4230cd06a96fe442488", "expected": "help-desk@example.com", "actual": "it@example.com", "request_id": "0e26278c-ac26-4036-bb25-ee3bc645fc36", "passed": false, "error": "wrong MIME recipient", "seconds": 4.239}
-{"run_id": "6550e2ab853b", "dataset_sha256": "bcd4eb2f7dee6f69408aa1f0ebd41407721277446bffc4230cd06a96fe442488", "passed": 0, "total": 1}

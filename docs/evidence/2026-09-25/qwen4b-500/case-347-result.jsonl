@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/sso-outage/base", "scenario_id": "it/sso-outage", "variant": "base", "run_id": "dd6e278c848c", "dataset_sha256": "6bfbceec688912ec976d791ad691bc0e16af8a0ad15d4be5298da1f242fdbb88", "expected": "it@example.com", "actual": "it@example.com", "request_id": "088da619-28c0-4495-b777-e194783c0f52", "passed": true, "seconds": 9.893}
-{"run_id": "dd6e278c848c", "dataset_sha256": "6bfbceec688912ec976d791ad691bc0e16af8a0ad15d4be5298da1f242fdbb88", "passed": 1, "total": 1}

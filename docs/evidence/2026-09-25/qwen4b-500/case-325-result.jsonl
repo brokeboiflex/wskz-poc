@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/database-replica/base", "scenario_id": "it/database-replica", "variant": "base", "run_id": "eaf571634731", "dataset_sha256": "308df16c89948c855a56f821d49b4ebb11c37aa724a60ae027623ae0841c9750", "expected": "it@example.com", "actual": "it@example.com", "request_id": "53837e6a-dde2-4219-9e39-d960e4f84e94", "passed": true, "seconds": 6.871}
-{"run_id": "eaf571634731", "dataset_sha256": "308df16c89948c855a56f821d49b4ebb11c37aa724a60ae027623ae0841c9750", "passed": 1, "total": 1}

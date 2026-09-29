@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/internet-provider/base", "scenario_id": "it/internet-provider", "variant": "base", "run_id": "2c7032322296", "dataset_sha256": "0ed171c687897fe8cef33818a90f2044ed51f056ad7903891808afa5cb0c060a", "expected": "it@example.com", "actual": "it@example.com", "request_id": "5b750704-ab2e-4368-87b1-39702bd10ec5", "passed": true, "seconds": 6.826}
-{"run_id": "2c7032322296", "dataset_sha256": "0ed171c687897fe8cef33818a90f2044ed51f056ad7903891808afa5cb0c060a", "passed": 1, "total": 1}

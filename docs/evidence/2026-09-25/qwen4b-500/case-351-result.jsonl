@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/ransomware/base", "scenario_id": "it/ransomware", "variant": "base", "run_id": "03d7f42cfae1", "dataset_sha256": "4377fbf1be2e056535598a6bf2c8e40bcdf55f241a08258879912acee5cba916", "expected": "it@example.com", "actual": "it@example.com", "request_id": "77780f80-8ce5-4f61-9bae-516639d01997", "passed": true, "seconds": 14.38}
-{"run_id": "03d7f42cfae1", "dataset_sha256": "4377fbf1be2e056535598a6bf2c8e40bcdf55f241a08258879912acee5cba916", "passed": 1, "total": 1}

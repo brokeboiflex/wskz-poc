@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/mfa-new-phone/base", "scenario_id": "help_desk/mfa-new-phone", "variant": "base", "run_id": "cb1d42f94b05", "dataset_sha256": "07c80027c0c91f95ab069697f660c204c1a06478b7c95e8edb0a1308e4bbfb69", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "1337a9ff-8dab-4876-9594-f06f64720b6b", "passed": true, "seconds": 9.311}
-{"run_id": "cb1d42f94b05", "dataset_sha256": "07c80027c0c91f95ab069697f660c204c1a06478b7c95e8edb0a1308e4bbfb69", "passed": 1, "total": 1}

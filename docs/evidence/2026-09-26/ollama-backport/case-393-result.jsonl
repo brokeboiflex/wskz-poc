@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/database-backup-capacity/base", "scenario_id": "it/database-backup-capacity", "variant": "base", "run_id": "e07921b6a924", "dataset_sha256": "291b7359e84f77c27f58cd34746b6b208fe85bcb17465c334f849c2c8ca47521", "expected": "it@example.com", "actual": "it@example.com", "request_id": "007580d0-48e2-4bef-bbf1-8e5a64e0b9d6", "passed": true, "seconds": 5.772}
-{"run_id": "e07921b6a924", "dataset_sha256": "291b7359e84f77c27f58cd34746b6b208fe85bcb17465c334f849c2c8ca47521", "passed": 1, "total": 1}

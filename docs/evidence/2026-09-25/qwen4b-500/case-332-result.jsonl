@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/server-disk/quoted_history", "scenario_id": "it/server-disk", "variant": "quoted_history", "run_id": "6ad7fd98c4bb", "dataset_sha256": "f0f929161c331cf577702d34e8e70f88ab177ff0fc356563c0bac0f8370575bc", "expected": "it@example.com", "actual": "it@example.com", "request_id": "9f7156e6-0241-4208-b212-488205555eb9", "passed": true, "seconds": 10.103}
-{"run_id": "6ad7fd98c4bb", "dataset_sha256": "f0f929161c331cf577702d34e8e70f88ab177ff0fc356563c0bac0f8370575bc", "passed": 1, "total": 1}

@@ -64,6 +64,24 @@ services:
     security_opt: [no-new-privileges:true]
     cap_drop: [ALL]
 
+  # Bariera startowa: zwykłe up -d czeka na zdrowe API, nie tylko start procesu.
+  # Kontener jednorazowy; nie wykonuje inferencji ani nie wysyła wiadomości.
+  ready:
+    image: python:3.12.12-slim-bookworm
+    command:
+      - python
+      - -c
+      - "import json, urllib.request; assert json.load(urllib.request.urlopen('http://api:8000/health/ready', timeout=8))['status'] == 'ready'"
+    depends_on:
+      api:
+        condition: service_healthy
+    networks: [app]
+    restart: "no"
+    user: "10001:10001"
+    read_only: true
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+
   # Wewnętrzne API wysyłki, własny rejestr SQLite i transport SMTP do Mailpit.
   mailer:
     build: ./services/mailer
@@ -112,7 +130,7 @@ services:
   # dla Laya/OpenRouter; MODEL_BOOTSTRAP=external pomija pobieranie jego wag.
   ollama:
     # Pinned backend fixes; generic agent and model weights remain unchanged.
-    # Native Gemma grammar + narrow delimiter preservation; see OLLAMA_GEMMA_TOOL_FIX.md.
+    # Native Gemma grammar + narrow delimiter preservation; see README.md#poprawki-backendu-ollama.
     image: wskz-ollama-candidate:0.34.4-poc.tool-choice.2
     build: ./services/ollama-candidate
     environment:

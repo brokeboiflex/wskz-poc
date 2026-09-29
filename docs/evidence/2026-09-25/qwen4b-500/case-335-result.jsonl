@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/restore-server/base", "scenario_id": "it/restore-server", "variant": "base", "run_id": "9a8410975cf9", "dataset_sha256": "3af1986d367ef981d481030b3b3ec0795b486fb6ae8b2a25ee3f61dbb557be9e", "expected": "it@example.com", "actual": "it@example.com", "request_id": "bdcb1b20-fca3-4291-97de-b18808d84852", "passed": true, "seconds": 7.461}
-{"run_id": "9a8410975cf9", "dataset_sha256": "3af1986d367ef981d481030b3b3ec0795b486fb6ae8b2a25ee3f61dbb557be9e", "passed": 1, "total": 1}

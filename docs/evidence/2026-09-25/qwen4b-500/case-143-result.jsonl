@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/tax-form/base", "scenario_id": "payroll/tax-form", "variant": "base", "run_id": "9e131ccf93b2", "dataset_sha256": "481d12d332f24f49a6cee1c404503f1df271a608022c9bdb6d993d409fad3778", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "3684dc0c-b56a-4181-8e66-4cb1e7efbb36", "passed": true, "seconds": 3.791}
-{"run_id": "9e131ccf93b2", "dataset_sha256": "481d12d332f24f49a6cee1c404503f1df271a608022c9bdb6d993d409fad3778", "passed": 1, "total": 1}

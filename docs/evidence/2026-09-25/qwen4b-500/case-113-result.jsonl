@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/parental-leave/base", "scenario_id": "payroll/parental-leave", "variant": "base", "run_id": "2958fdc49031", "dataset_sha256": "84e061f450b97b6dc418ecea2249ff8a6dba14dc8f43fd6e1ddeefb1d7afa853", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "8be18107-956f-4cc4-b998-6dfa06e0b105", "passed": true, "seconds": 9.184}
-{"run_id": "2958fdc49031", "dataset_sha256": "84e061f450b97b6dc418ecea2249ff8a6dba14dc8f43fd6e1ddeefb1d7afa853", "passed": 1, "total": 1}

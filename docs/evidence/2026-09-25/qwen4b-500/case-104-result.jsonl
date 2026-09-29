@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/leave-request/resolved_preface", "scenario_id": "payroll/leave-request", "variant": "resolved_preface", "run_id": "ca3450df2022", "dataset_sha256": "3daa6984eb997965cc4f8e37953c282a4374d3302c9c6e0e913f8b496b601cda", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "bc6d5425-af86-46c8-8547-0b09895edcdf", "passed": true, "seconds": 5.746}
-{"run_id": "ca3450df2022", "dataset_sha256": "3daa6984eb997965cc4f8e37953c282a4374d3302c9c6e0e913f8b496b601cda", "passed": 1, "total": 1}

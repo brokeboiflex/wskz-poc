@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/exit-interview/base", "scenario_id": "human_resources/exit-interview", "variant": "base", "run_id": "20da8c3844bc", "dataset_sha256": "55426a1fbe81dfe142567a1787cb685845e093c028b000935ba2d9288028009d", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "c9917284-1147-45eb-8301-1b2e08b43819", "passed": true, "seconds": 3.89}
-{"run_id": "20da8c3844bc", "dataset_sha256": "55426a1fbe81dfe142567a1787cb685845e093c028b000935ba2d9288028009d", "passed": 1, "total": 1}

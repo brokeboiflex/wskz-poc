@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/payslip-deduction/base", "scenario_id": "payroll/payslip-deduction", "variant": "base", "run_id": "339ab227c38f", "dataset_sha256": "0df8fb26b18580529be41adcdad0ad17e12e86043ede83a5bdfcc2b4f8275687", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "a5098141-d889-4eac-9a56-617d47416dea", "passed": true, "seconds": 3.855}
-{"run_id": "339ab227c38f", "dataset_sha256": "0df8fb26b18580529be41adcdad0ad17e12e86043ede83a5bdfcc2b4f8275687", "passed": 1, "total": 1}

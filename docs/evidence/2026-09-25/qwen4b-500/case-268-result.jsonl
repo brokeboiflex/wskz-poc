@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/screen-scaling/conversation_history", "scenario_id": "help_desk/screen-scaling", "variant": "conversation_history", "run_id": "cea13d7c561c", "dataset_sha256": "f65ef7c7386bcb0987959ccd1b4ff83acbb9162d9f9a5917553e5fbd96aecd1e", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "8578fb77-48ac-444b-8e24-9649611e1f60", "passed": true, "seconds": 7.882}
-{"run_id": "cea13d7c561c", "dataset_sha256": "f65ef7c7386bcb0987959ccd1b4ff83acbb9162d9f9a5917553e5fbd96aecd1e", "passed": 1, "total": 1}

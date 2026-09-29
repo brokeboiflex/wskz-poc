@@ -1,111 +1,33 @@
 # Inteligentny router wiadomości
 
-Gemma work accepted as complete. Gemma is now the default; Qwen weights removed and all PoC containers stopped. [Delivered work, cleanup, validation and restart](docs/GEMMA_COMPLETION.md). Historical checkpoints below describe their original runtime.
-
-Final Gemma500 evaluation completed 2026-09-27: **493/500 correct (98.6%), 7 wrong routes, 0 missing/invalid native calls**. All500 first attempts, no retries or mail. Previous score471/500;27 old failures fixed,2 remain,5 new regressions. All raw responses and seven failure bundles saved; offline audit passed and1866 prior hashes unchanged. Synthetic regression evidence, not held-out/general application acceptance. [Results, failures and repeat procedure](docs/evidence/2026-09-27/gemma-final-500/README.md). No further run is implicit.
-
-PoC mikroserwisów: Python, FastAPI, LangChain, lokalna Ollama i Mailpit.
-Agent analizuje wiadomość i wykonuje narzędzie wysyłkowe przez native function
-calling. Osobny serwis pocztowy przekazuje oryginalną treść przez SMTP do Mailpit,
-ustawiając `Reply-To` na adres z requestu.
-
-## Laya vs Gemma: jakość, szybkość i sprzęt (27.09.2026)
-
-Ten sam zestaw500 wiadomości, po jednej próbie, bez maili i ponowień. Laya:
-epoka1 wybrana wyłącznie na osobnej walidacji (447/500; epoka2:443/500).
-Gemma: zachowany wcześniejszy wynik, bez ponownego uruchomienia.
-
-| Miara                                     | Laya multilingual, epoka1 | Gemma4 E2B Q4_K_M |
-| ----------------------------------------- | ------------------------: | ----------------: |
-| Poprawne odpowiedzi                       |           432/500 (86,4%) |   493/500 (98,6%) |
-| Błędne działy                             |                        68 |                 7 |
-| Błędy protokołu                           |                         0 |                 0 |
-| Mediana żądania HTTP                      |                   0,231 s |           1,800 s |
-| P95 żądania HTTP                          |                   0,346 s |           2,590 s |
-| Suma czasu500 żądań, bez przerw operatora |                 119,981 s |         909,394 s |
-| HR /100                                   |                        87 |                99 |
-| Płace /100                                |                        99 |                96 |
-| Helpdesk /100                             |                       100 |                99 |
-| IT /100                                   |                        86 |               100 |
-| Inne /100                                 |                        60 |                99 |
-
-Laya ma **7,8× krótszą medianę odpowiedzi**, ale o61 poprawnych klasyfikacji mniej.
-Największa słabość to prywatne/nieokreślone wiadomości i odróżnianie aktualnej
-prośby od zamkniętej sprawy w historii. Wyniki dotyczą lokalnego CPU na Apple M4
-przez Docker Desktop, przy sekwencyjnych żądaniach. Oba warianty działają bez GPU.
-To porównanie istniejących konfiguracji, z różnymi promptami i adapterami,
-a nie identycznych silników ani jednoczesny pomiar obciążenia hosta.
-Gemma była wcześniej poprawiana na tym znanym zbiorze; nie jest to niezależny
-test generalizacji. Nowy oddzielny test Laya nie został uruchomiony.
-
-### RAM, dysk i koszt sprzętu
-
-**Nie zmierzono porównywalnego RAM ani CPU-sekund dla obu modeli podczas tych500
-żądań. Nie ma podstaw do stwierdzenia „Laya potrzebuje X razy mniej RAM” ani
-„kosztuje X razy mniej”.** Czas odpowiedzi nie mierzy energii, wykorzystania rdzeni,
-przepustowości pod obciążeniem ani rachunku za serwer.
-
-- Dostrojone wagi Laya FP32: **1 287 653 720 bajtów (1,20 GiB)**, sam plik
-  `model.safetensors`, bez tokenizera, obrazów i stanu optymalizatora.
-- Pakiet Gemmy raportowany przez Ollamę: **7 162 405 886 bajtów (6,67 GiB)**.
-  To około5,6× więcej miejsca niż sam eksport Laya, ale pakiety mają różny zakres;
-  nie jest to stosunek zużycia RAM.
-- Log Gemmy pokazuje bufory wag CPU316,12 MiB + CPU_REPACK1396,42 MiB oraz
-  mapowanie CPU_Mapped4480 MiB z lazy read. Ponadto KV36 MiB i początkowy
-  bufor obliczeń114,52 MiB. **Mapowanie pliku nie oznacza rezydentnego RAM**;
-  nie sumujemy tych wartości jako zmierzonej pamięci procesu lub kontenera.
-- Historyczny pomiar **bazowej, niedostrojonej Laya** na15 wiadomościach:
-  maksymalnie1,926 GiB dla runtime,2,127 GiB dla wybranych kontenerów aplikacji
-  po żądaniach. Dotyczył porównania z **Qwen3 1.7B, nie Gemmą** i nie dowodzi
-  zużycia obecnego eksportu FP32. Docker VM i macOS były poza tym pomiarem.
-- **Trening Laya**, osobny koszt: peak RSS7,247 GiB w epoce1 i8,286 GiB w epoce2.
-  Kontener miał limit10 GiB, VM Dockera12 GiB. Limit nie jest zużyciem ani
-  wymaganiem inferencji. Wagi, optimizer i checkpointy pozostają lokalnie.
-
-Na podstawie wykonanych testów potwierdzamy mniejsze opóźnienie i mniejszy plik
-wag Laya; **oszczędność RAM oraz koszt hostingu względem Gemmy pozostają nieustalone**.
-Domyślnym modelem pozostaje Gemma. Trening zakończono po dwóch epokach zgodnie
-z ograniczeniem użytkownika, nie po osiągnięciu patience. Brak dalszego treningu.
-Wszystkie kontenery zostały zatrzymane.
-
-Dowody i odtworzenie:
-[pełne porównanie, błędy, requesty i odpowiedzi](training/laya-routing/runs/laya-gemma-same500/README.md),
-[Gemma500](docs/evidence/2026-09-27/gemma-final-500/RESULTS.md),
-[metadane pakietu Gemmy](docs/evidence/2026-09-27/gemma-final-500/backend-before.json),
-[log buforów Gemmy](docs/evidence/2026-09-27/gemma-final-500/ollama.log),
-[historyczny pomiar RAM/CPU](docs/RESOURCE_MEASUREMENT.md),
-[trening, dane, wznowienie](training/laya-routing/RUNBOOK.md),
-[metryki i wybór checkpointu](training/laya-routing/runs/completed-validation/).
-W repozytorium są syntetyczne dane, kod i dowody; duże wagi i checkpointy
-są ignorowane przez Git. Sam klon nie zawiera dostrojonych wag.
+Samodzielny PoC mikroserwisów: Python, FastAPI, LangChain, lokalna Ollama i Mailpit.
+Agent interpretuje wiadomość, wybiera dział przez natywne function calling i wykonuje
+narzędzie wysyłki. Osobny mailer przekazuje oryginalną treść przez SMTP do Mailpit,
+z nagłówkiem `Reply-To` ustawionym na adres nadawcy z requestu.
 
 ## Uruchomienie
 
 Wymagania: Docker Engine / Docker Desktop z Compose **2.24 lub nowszym**, internet
-przy pierwszym pobraniu obrazów i wag, wolne porty 8000 i 8025. Przeznacz na początek
-8 GB RAM dla Dockera i zapas miejsca na obrazy oraz modele; jest to zalecenie
-startowe, nie zmierzony minimalny próg. Domyślna konfiguracja używa CPU, także
-w Docker Desktop na Apple Silicon. Nie wymaga Pythona ani klucza API na hoście.
+przy pierwszym pobraniu obrazów, źródeł i wag oraz wolne porty 8000 i 8025.
+Zalecenie startowe: 8 GB RAM dla Dockera i zapas miejsca na obrazy, kompilację
+oraz model; nie jest to zmierzony minimalny próg. Domyślny wariant używa CPU.
+Nie wymaga Pythona ani klucza API na hoście.
 
-Z głównego katalogu tego projektu:
+Z głównego katalogu projektu:
 
 ```sh
 docker compose up -d
 ```
 
 Nie trzeba tworzyć `.env`. Compose buduje obrazy, uruchamia Ollamę i Mailpit,
-pobiera `gemma4:e2b`, rozgrzewa model i sprawdza rzeczywiste tool calling bez
-wysyłki maila. Ollama jest przypięta do `0.34.4-poc.tool-choice.2`: poprawka
-serializacji narzędzi Qwen oraz natywne ograniczenia tool calling dla małej Gemmy4.
-Agent i wagi pozostają niezmienione. Szczegóły, ograniczenia i rollback:
-[OLLAMA_GEMMA_TOOL_FIX.md](docs/OLLAMA_GEMMA_TOOL_FIX.md).
-API startuje po pomyślnej inicjalizacji i gotowości mailera. Pierwszy start
-może potrwać kilka minut lub dłużej, zależnie od internetu i CPU. Kolejne starty
-wykorzystują zachowane wagi. Błąd inicjalizacji blokuje start API.
+pobiera `gemma4:e2b`, rozgrzewa model i sprawdza natywne tool calling bez wysyłki
+maila. API startuje dopiero po inicjalizacji modelu i gotowości mailera.
+Jednorazowy serwis `ready` zależy od zdrowego API i domyka start `up -d`.
+Stan `Exited (0)` serwisów `model-init` i `ready` jest prawidłowy.
 
-**Laya jest opcjonalna i domyślnie wyłączona.** Bez aktywnego profilu `laya`
-Compose nie buduje ani nie uruchamia `laya-runtime` i `laya-adapter`, ani nie
-pobiera wag Laya. Do podstawowego wariantu nie trzeba edytować Compose.
+Pierwszy start obejmuje kompilację poprawionego backendu Ollama i pobranie wag.
+Kolejne starty wykorzystują cache i zachowane wolumeny. Błąd inicjalizacji
+blokuje start API, zamiast zgłaszać pozorną gotowość.
 
 - Swagger: <http://localhost:8000/api/v1/docs>
 - OpenAPI: <http://localhost:8000/api/v1/openapi.json>
@@ -118,7 +40,7 @@ curl --fail-with-body http://localhost:8000/api/v1/messages \
   -d '{"email":"jan.nowak@example.com","message":"Chciałbym zgłosić urlop na jutro"}'
 ```
 
-Przykładowy kształt odpowiedzi (identyfikatory są generowane dla requestu):
+Przykładowy kształt odpowiedzi; identyfikatory są generowane dla requestu:
 
 ```json
 {
@@ -129,15 +51,22 @@ Przykładowy kształt odpowiedzi (identyfikatory są generowane dla requestu):
 }
 ```
 
-`submitted` oznacza akceptację SMTP, nie przeczytanie wiadomości przez człowieka.
-W domyślnym środowisku odbiorcą SMTP jest Mailpit. Nie ma połączenia z produkcyjną
-skrzynką ani dostarczania maili na zewnętrzne adresy.
+W panelu Mailpit powinna pojawić się wiadomość do `kadry@example.com`,
+z `Reply-To: jan.nowak@example.com` i niezmienioną treścią. `submitted` oznacza
+akceptację SMTP, nie przeczytanie wiadomości. Domyślne środowisko nie dostarcza
+maili na zewnętrzne skrzynki.
+
+Po zmianie kodu użyj `docker compose up -d --build`. Zatrzymanie bez usuwania
+modeli, wiadomości i rejestru wysyłek:
+
+```sh
+docker compose stop
+```
+
+`docker compose down` bez `--volumes` również zachowuje dane. Nie używaj
+`down --volumes` do zwykłego restartu ani rozwiązywania problemów.
 
 ## Architektura i Service Layer Pattern
-
-**Przebieg jednego zgłoszenia** po uruchomieniu środowiska. Agent działa wewnątrz
-API: model wybiera dział przez tool calling, a agent wykonuje narzędzie wysyłki.
-Każdy serwis na diagramie to osobny kontener; klient jest poza aplikacją.
 
 ```mermaid
 sequenceDiagram
@@ -159,315 +88,443 @@ sequenceDiagram
     API-->>Client: Odbiorca, request_id, status submitted
 ```
 
-Wiadomość pozostaje w Mailpit i jest widoczna w jego panelu. SQLite jest prywatnym
-magazynem mailera, bez osobnego kontenera. `model-init` przygotowuje model przed
-startem API i nie uczestniczy w obsłudze zgłoszeń.
+| Kontener                       | Odpowiedzialność                                             |
+| ------------------------------ | ------------------------------------------------------------ |
+| `api`                          | Publiczny endpoint, agent LangChain i narzędzie wysyłki      |
+| `mailer`                       | Osobne API, MIME, SMTP i trwały rejestr wysyłek w SQLite     |
+| `mailpit`                      | Przechwytywanie poczty oraz panel i API do jej kontroli      |
+| `ollama`                       | Lokalny LLM przez OpenAI-compatible Chat Completions         |
+| `model-init`                   | Pobranie, rozgrzanie i kontrola modelu przed startem API     |
+| `ready`                        | Jednorazowa kontrola HTTP po zdrowym API; domknięcie `up -d` |
+| `laya-adapter`, `laya-runtime` | Opcjonalny wariant klasyfikatora, wyłączony domyślnie        |
 
-**Wybór modelu jest alternatywą, nie kolejnym etapem przepływu.** Powyżej pokazano
-domyślną Ollamę. API korzysta z jednego endpointu wskazanego przez `OPENAI_BASE_URL`:
+Router, mailer i adapter mają niezależne obrazy, zależności i kontrakty HTTP.
+Nie importują kodu sąsiada ani nie współdzielą bazy. SQLite jest prywatnym
+magazynem mailera, bez osobnego kontenera. Mailer nie zna modelu, router nie zna
+SMTP ani bazy mailera. `model-init` i `ready` nie uczestniczą w obsłudze zgłoszeń.
 
-| Wariant            | Z czym komunikuje się agent w API                      | Sposób wyboru działu                                    |
-| ------------------ | ------------------------------------------------------ | ------------------------------------------------------- |
-| Ollama (domyślnie) | Kontener `ollama`                                      | Natywny tool call lokalnego LLM                         |
-| OpenRouter         | Zewnętrzne API OpenRouter                              | Natywny tool call wybranego modelu                      |
-| Laya (opcjonalnie) | Kontener `laya-adapter`, który odpytuje `laya-runtime` | Klasyfikator wybiera dział, adapter tworzy `tool_calls` |
+W aplikacjach biznesowych kontroler HTTP waliduje DTO i mapuje błędy, service
+layer realizuje przypadek użycia przez porty `Protocol`, a domena nie zależy od
+FastAPI, LangChain ani SMTP. Adaptery implementują komunikację i zapis danych.
+Composition root w `main.py` tworzy zależności podczas startu aplikacji.
 
-Mailer i Mailpit obsługują każdy wariant tak samo. Kontenery Laya uruchamiają się
-tylko po włączeniu profilu `laya`. Ollama pozostaje w Compose także przy innym
-dostawcy, ale API wtedy jej nie odpytuje. [Konfiguracja wariantów](#dostawcy-przez-env).
+`create_agent(model=ChatOpenAI(...), tools=[...])` zarządza wywołaniem modelu
+oraz narzędzia. Middleware sprawdza tool call przed dostawą, a `return_direct=True`
+kończy agenta po wykonaniu narzędzia. Nie ma własnej pętli agenta, naprawiania
+odpowiedzi, dodatkowej inferencji po wysyłce ani reguł konkretnego modelu w aplikacji.
 
-| Kontener       | Odpowiedzialność                                                    |
-| -------------- | ------------------------------------------------------------------- |
-| `api`          | Publiczny endpoint, agent LangChain, wybór działu i wywołanie toola |
-| `mailer`       | Niezależne API wysyłki, MIME, SMTP, własny trwały rejestr zleceń    |
-| `mailpit`      | Przechwytywanie wiadomości oraz panel i API do ich kontroli         |
-| `ollama`       | Lokalny model przez protokół OpenAI Chat Completions                |
-| `model-init`   | Jednorazowe pobranie, rozgrzanie i kontrola dostępności modelu      |
-| `laya-adapter` | Opcjonalna translacja typowanej decyzji na `tool_calls`             |
-| `laya-runtime` | Opcjonalny silnik Laya, bez zależności od routingu i poczty         |
-
-Router, mailer i adapter mają osobne obrazy, zależności, konfigurację i kontrakty
-HTTP. Nie importują kodu sąsiada i nie współdzielą bazy. Mailer nie zna modelu,
-a router nie zna SMTP ani bazy mailera. Sieć `smtp` jest wewnętrzna i niedostępna
-routerowi; porty SMTP, mailera i modeli nie są publikowane na hoście. Połączenie
-z dostawcą modelu jest jedyną zależnością routera wymagającą wyjścia do internetu.
-Mailpit ma dodatkową sieć `mailpit-ui`, dzięki której Docker publikuje panel na
-`127.0.0.1:8025`. Sama sieć `internal` nie zapewnia publikacji portu na hoście.
-Port SMTP pozostaje niepublikowany, a mailer korzysta z wewnętrznej sieci `smtp`.
-
-W każdej aplikacji biznesowej:
-
-1. **Kontroler HTTP** waliduje DTO, wywołuje usługę i mapuje odpowiedź/błąd.
-2. **Service layer** realizuje przypadek użycia przez porty (`Protocol`).
-3. **Domena** zawiera wartości i błędy, bez FastAPI, LangChain czy SMTP.
-4. **Adaptery** implementują komunikację z modelem, HTTP mailera, SMTP i SQLite.
-5. **Composition root** (`main.py`) tworzy zależności w lifecycle aplikacji.
-
-Agent jest celowo ograniczony do jednej decyzji i jednej czynności końcowej.
-`create_agent(model=ChatOpenAI(...), tools=[...])` zarządza powiązaniem modelu
-z narzędziem i jego wykonaniem. Jeden middleware sprawdza poprawność wywołania
-przed wysyłką. `return_direct=True` kończy agenta po wykonaniu narzędzia.
-Nie ma własnej pętli agenta, korekcyjnych ponowień ani heurystyk konkretnego
-modelu. Schemat narzędzia używa standardowych enum, anyOf i description; każdy
-dostawca dostaje te same opisy działów. Adapter Laya tłumaczy ten schemat na
-swój format typed choice.
+Sieć `smtp` jest wewnętrzna i niedostępna routerowi. Porty SMTP, mailera i modeli
+nie są publikowane na hoście. API i panel Mailpit są publikowane wyłącznie na
+loopback. Mailpit potrzebuje dodatkowej sieci `mailpit-ui`, aby jego panel był
+dostępny z hosta; nie należy zastępować jej wyłącznie siecią `internal`.
 
 ## Zasady routingu
 
-Zadanie nie precyzuje granicy między HR i kadrami ani help deskiem i IT. Dlatego
-przyjęto następujący jawny podział, zapisany w polityce routera:
+Model otrzymuje treść i opisy działów, nie adres nadawcy, token mailera ani
+odpowiedź wzorcową. Wybiera `department`; aplikacja mapuje ten wybór na adres.
+Jawna polityka rozdziela podobne kompetencje HR/kadr oraz help desku/IT:
 
-Użytkownik podaje swój adres kontaktowy i treść. Model otrzymuje treść oraz
-znaczenie działów i sam wybiera `department`. Adresy odbiorców znajdują się
-wyłącznie w mapowaniu aplikacji i konfiguracji mailera. Model nie otrzymuje
-gotowego odbiorcy ani nie musi wnioskować o znaczeniu działu z adresu e-mail.
+| Wartość `department` | Adres docelowy                | Zakres                                                                         |
+| -------------------- | ----------------------------- | ------------------------------------------------------------------------------ |
+| `human_resources`    | `human-resources@example.com` | Rekrutacja, szkolenia, rozwój i relacje pracownicze                            |
+| `payroll`            | `kadry@example.com`           | Urlopy, płace, czas pracy i dokumenty zatrudnienia                             |
+| `help_desk`          | `help-desk@example.com`       | Komputer, aplikacje, drukarka, hasła i dostęp pojedynczego użytkownika         |
+| `it`                 | `it@example.com`              | Infrastruktura, serwery, awarie sieci/systemów i cyberbezpieczeństwo           |
+| `other`              | `other@example.com`           | Pozostałe sprawy, niezrozumiała treść lub brak aktualnej rozpoznawalnej prośby |
 
-| Dział                         | Typ sprawy                                                             |
-| ----------------------------- | ---------------------------------------------------------------------- |
-| `human-resources@example.com` | Rekrutacja, szkolenia, rozwój, relacje pracownicze                     |
-| `kadry@example.com`           | Urlopy, płace, czas pracy, dokumenty zatrudnienia                      |
-| `help-desk@example.com`       | Pomoc pojedynczemu użytkownikowi: komputer, drukarka, hasło            |
-| `it@example.com`              | Infrastruktura, serwery, awarie sieci/systemów, cyberbezpieczeństwo    |
-| `other@example.com`           | Nierozpoznany temat, treść niezwiązana z działami lub niewystarczająca |
+Decyduje aktualna prośba, nie wzmianka w zakończonej historii. Na przykład
+problem z logowaniem do portalu urlopowego należy do help desku, a organizacja
+szkolenia o płacach do HR. Dla kilku tematów model wybiera główną prośbę.
+`other` również uruchamia narzędzie wysyłki. Awaria modelu daje błąd, nie
+automatyczne przekazanie do fallbacku.
 
-Fallback jest decyzją semantyczną. Awaria modelu nie jest zamieniana na wysyłkę do
-`other`. Dla kilku tematów agent ma wybrać główną prośbę. Nie deklarujemy idealnej
-trafności małego modelu: mierzy ją zestaw akceptacyjny w `verification/cases.json`.
+## Kontrakty, błędy i dane
 
-## Dostawcy przez env
+### API publiczne
 
-Klient routera pozostaje ten sam. Zmieniają się `OPENAI_BASE_URL`, `OPENAI_API_KEY`,
-`OPENAI_MODEL` oraz sposób inicjalizacji i profil potrzebnych kontenerów.
-Obsługiwany jest tekstowy Chat Completions z function calling. Nie każdy model
-oferowany przez dostawcę obsługuje tools. Rozszerzenia Responses API, multimodalność
-i specyficzne parametry reasoning nie są częścią wspólnego kontraktu.
+`POST /api/v1/messages` przyjmuje wyłącznie `email` i `message`.
+Adres jest walidowany składniowo; wiadomość ma 1-4000 znaków i nie może zawierać
+samych białych znaków. Nadmiarowe pola są zabronione.
 
-Przykłady nie zawierają sekretów:
+HTTP 200 zwraca `request_id`, `recipient`, `status: submitted` i `message_id`.
+HTTP 422 oznacza błąd wejścia. HTTP 502 zawiera `code` oraz `request_id`, np.
+`model_unavailable`, `invalid_tool_call` lub błąd dostawy.
 
-| Wariant                          | Aktywny profil | Kontenery Laya    |
-| -------------------------------- | -------------- | ----------------- |
-| Domyślny / `.env.ollama-example` | brak           | Wyłączone         |
-| `.env.openrouter-example`        | brak           | Wyłączone         |
-| `.env.laya-example`              | `laya`         | Runtime i adapter |
+`/health/live` sprawdza proces. `/health/ready` sprawdza obecność wybranego modelu
+przez `/v1/models` i gotowość mailera; niedostępność daje 503. Healthcheck nie
+mierzy trafności klasyfikacji.
 
-`COMPOSE_PROFILES=laya` w przykładzie Laya włącza oba kontenery. Ten sam plik
-ustawia `OPENAI_BASE_URL` na adapter. Samo `--profile laya` nie przełącza klienta
-modelu. Profile można ustawić również w `.env` lub powłoce; usuń takie ustawienie,
-jeśli ma obowiązywać wariant domyślny.
+### Mailer wewnętrzny
+
+`POST /internal/v1/deliveries` wymaga `Authorization: Bearer <MAILER_TOKEN>`:
+
+```json
+{
+  "request_id": "e19f7b8a-1d0b-4a54-9f7c-cb0674fa5950",
+  "recipient": "kadry@example.com",
+  "reply_to": "jan.nowak@example.com",
+  "message": "Chciałbym zgłosić urlop na jutro"
+}
+```
+
+Odbiorca musi należeć do skonfigurowanej listy. SMTP envelope ma dokładnie jednego
+odbiorcę; brak parametrów CC/BCC. `From` i `Subject` ustala mailer. `Reply-To`
+i niezmieniona treść pochodzą z pierwotnego requestu.
+
+UUID jest kluczem idempotencji mailera i nagłówkiem `X-Request-ID`. Rezerwacja
+w SQLite następuje **przed SMTP**. Ten sam UUID i payload zwracają poprzedni
+wynik; inny payload daje HTTP 409 `idempotency_conflict`. Trwająca wysyłka daje
+409 `delivery_in_progress`. Brak lub błędny token daje 401; walidacja lub
+niedopuszczony odbiorca daje 422.
+
+Statusy rejestru to `sending`, `submitted`, `failed` i `unknown`. Znane odrzucenie
+daje `delivery_failed`; niepewny wynik SMTP lub awaria utrwalenia jego wyniku daje
+`delivery_unknown`. Brak możliwości zapisania rezerwacji daje `mailer_unavailable`
+bez próby SMTP. Po restarcie niedokończone `sending` staje się `unknown`.
+Mailer pracuje jako **jedna instancja na wolumen**.
+
+Chronione `GET /internal/v1/deliveries/{request_id}` zwraca status, bez oryginalnej
+treści; nieistniejące zlecenie daje 404. Nie jest to publiczny endpoint routera.
+**Ponowny publiczny POST tworzy nowe zgłoszenie.** Nie ponawiaj niepewnej wysyłki
+bez sprawdzenia Mailpit i rejestru. Nie ma automatycznego retry modelu ani mailera.
+
+Rejestr przechowuje hash payloadu i potwierdzenia; pełne wiadomości przechowuje
+Mailpit. Zwykłe logi nie zawierają treści ani nadawcy. Domyślny token mailera jest
+publiczną wartością lokalnego PoC. To nie jest wdrożenie produkcyjne: brak
+publicznego uwierzytelniania, limitów ruchu, HA i produkcyjnego MTA. Unified Mail
+Core nie jest wymagany ani dołączony; przyszły adapter nie może przedstawiać
+statusu `queued` jako `submitted`.
+
+## Konfiguracja modelu i dostawców
+
+Pełną listę zmiennych zawiera [`.env.example`](.env.example). Wspólny klient
+pozostaje `ChatOpenAI`; zmieniają się `OPENAI_BASE_URL`, `OPENAI_API_KEY`,
+`OPENAI_MODEL` i sposób inicjalizacji. Domyślne ustawienia:
+
+| Zmienna                   | Wartość                  |
+| ------------------------- | ------------------------ |
+| `OPENAI_BASE_URL`         | `http://ollama:11434/v1` |
+| `OPENAI_MODEL`            | `gemma4:e2b`             |
+| `MODEL_TOOL_CHOICE`       | `required`               |
+| `MODEL_REASONING_EFFORT`  | `none`                   |
+| `MODEL_TEMPERATURE`       | `0`                      |
+| `MODEL_TOP_P`             | `0.8`                    |
+| `MODEL_MAX_TOKENS`        | `1024`                   |
+| `MODEL_TOKEN_LIMIT_FIELD` | `max_tokens`             |
+| `MODEL_TIMEOUT_SECONDS`   | `180`                    |
+| `MODEL_TRACE`             | `false`                  |
+
+Puste opcjonalne ustawienia pomijają pola nieobsługiwane przez innego dostawcę.
+`MODEL_TOOL_CHOICE` obsługuje puste/`auto`/`required`/`named`; `named` wskazuje
+`send_department_email`, a w inicjalizatorze jego własne narzędzie gotowości.
+`MODEL_TOKEN_LIMIT_FIELD` może wskazywać `max_completion_tokens` dla innego API.
+Sam format OpenAI-compatible nie gwarantuje zgodności narzędzi ani parametrów.
+Nie ma automatycznego ponowienia z innymi ustawieniami.
+
+Odpowiedź musi zawierać dokładnie jeden natywny `send_department_email` z jedynym
+argumentem `department` należącym do enum. Dodatkowe argumenty, błędna nazwa,
+wiele wywołań, brak wywołania i jawne `finish_reason=length` są odrzucane przed
+wysyłką. Tekst lub JSON w treści odpowiedzi nie zastępuje `tool_calls`.
+Samo zużycie limitu tokenów nie dowodzi obcięcia odpowiedzi.
+
+### Warianty przez env
+
+| Wariant          | Plik przykładowy          | Sposób decyzji                                             |
+| ---------------- | ------------------------- | ---------------------------------------------------------- |
+| Ollama, domyślny | `.env.ollama-example`     | Lokalny LLM i natywny tool call                            |
+| OpenRouter       | `.env.openrouter-example` | Zewnętrzny model obsługujący tools; wymaga własnego klucza |
+| Laya, opcjonalny | `.env.laya-example`       | Klasyfikator i adapter protokołu; profil `laya`            |
 
 ```sh
-# Ollama; równoważne domyślnemu uruchomieniu.
 docker compose --env-file .env.ollama-example up -d
-
-# Laya: uruchamia dodatkowo silnik i adapter, bez pobierania wag Ollamy.
 docker compose --env-file .env.laya-example up -d
 ```
 
-Dla OpenRouter skopiuj `.env.openrouter-example` do ignorowanego `.env`, wpisz
-własny klucz i wybierz dostępny model obsługujący tools, następnie:
+Dla OpenRouter skopiuj jego przykład do ignorowanego `.env`, ustaw własny klucz
+i model obsługujący tools, następnie uruchom `docker compose up -d`. Jest to
+alternatywny wariant, nie wariant spełniający wymaganie lokalnego LLM z zadania.
+Ollama pozostaje w Compose także przy zewnętrznym dostawcy, ale
+`MODEL_BOOTSTRAP=external` pomija pobieranie jej wag.
 
-```sh
-docker compose up -d
-```
-
-Ollama pozostaje uruchomiona także przy dostawcy zewnętrznym, ale bez pobierania
-niepotrzebnych wag. Przy przełączaniu wariantu zachowaj ten sam plik env we
-wszystkich komendach. Aby zatrzymać poprzedni wariant przed zmianą, użyj
-`docker compose --env-file <poprzedni-plik> down` bez `--volumes`; dane pozostaną.
-Po zmianie kodu użyj `up -d --build`. `.env.example` opisuje pełną konfigurację.
-
-Jeśli Laya była wcześniej uruchomiona, samo wyłączenie profilu nie zatrzyma jej
-kontenerów. Powrót do Ollamy z zachowaniem danych i pobranych wag:
+`COMPOSE_PROFILES=laya` w przykładzie Laya włącza runtime i adapter; ten sam
+plik kieruje klienta API do adaptera. Sam profil nie przełącza endpointu.
+Bez profilu kontenery ani wagi Laya nie są budowane/pobierane. Wyłączenie profilu
+nie zatrzymuje już uruchomionych kontenerów. Powrót do Ollamy:
 
 ```sh
 docker compose --env-file .env.laya-example stop laya-adapter laya-runtime
 docker compose --env-file .env.ollama-example up -d
 ```
 
-Mechanizm profili opisuje [dokumentacja Docker Compose](https://docs.docker.com/compose/how-tos/profiles/).
+### Granice wariantu Laya
 
-### Różnica wariantu Laya
+Laya to model typowanych decyzji, nie LLM emitujący natywne function calling.
+Adapter obsługuje jeden tekst użytkownika i jedno narzędzie z argumentem string
+`enum`; mapuje opisy singletonów `anyOf` na kryteria klasyfikatora i opakowuje
+wynik `choice` w `tool_calls`. Nie zna adresów działów, nie stosuje reguł słów
+kluczowych i nie ma dostępu do mailera. Laya otrzymuje pytanie i opisy opcji,
+nie pełny system prompt Gemmy.
 
-Laya jest rzeczywistym modelem typowanych decyzji, nie modelem generującym natywne
-wywołania funkcji. Adapter przyjmuje dokładnie jedno narzędzie z jednym argumentem
-`string enum`, przekazuje opcje, osobne opisy działów i krótkie pytanie przez HTTP do Laya, a odpowiedź
-`choice` opakowuje w `tool_calls`. Sam nie zna adresów działów i nie klasyfikuje
-słowami kluczowymi. Nie ma dostępu do mailera.
+Domyślny profil używa bazowego `multilingual` przez `laya==0.3.20`, z
+`Router.predict(..., max_len=8192)` i `POST /v1/systemone`. Nie ładuje automatycznie
+lokalnych wag po treningu. Adapter odrzuca streaming, multimodalność, historię
+narzędzi, nieobsługiwane pola i kontekst przekraczający 7000 bajtów, zamiast go
+obcinać. Model ma także limity pytania i opcji: 256 tokenów łącznie dla pytania
+z opcjami oraz 48 na opis opcji z etykietą; budżet bajtów nie zastępuje tokenizacji.
+`TORCHINDUCTOR_CACHE_DIR` musi wskazywać zapisywalne `/tmp`, ponieważ numeryczny
+UID kontenera nie ma wpisu w passwd.
 
-Silnik używa `laya==0.3.20` i ładuje checkpoint `multilingual` (mmBERT-base)
-przed zgłoszeniem gotowości. W tej poprawce nie trenowano ani nie zmieniano wag. Cienki host
-wykorzystuje publiczne `Router.predict(..., max_len=8192)` i format
-`/v1/systemone`. Jawny limit chroni przed użyciem domyślnych 1024 tokenów serwera
-upstream. Adapter przyjmuje do 7000 bajtów łącznej treści, instrukcji i opcji;
-nadmiar jest odrzucany, a nie obcinany. To dodatkowy wariant porównawczy.
-**Ścieżką spełniającą wymaganie lokalnego LLM z natywnym function calling jest Ollama.**
+**Wariantem spełniającym wymaganie lokalnego LLM i natywnego tool calling jest
+Ollama.** Laya pozostaje opcjonalnym eksperymentem porównawczym.
 
-Przed poprawką Laya uzyskała **6/15**, po przekazaniu polskich opisów działów
-uzyskała **13/15** na tych samych wiadomościach (25.09.2026). Pozostały błędy
-klasyfikacji niedziałającego komputera i pytania o historię Rzymu jako IT.
-Laya nadal nie spełnia pełnego kryterium trafności. Ollama po zmianie schematu
-narzędzia ponownie zaliczyła **15/15**. Wyniki i granice dowodów:
-[raport weryfikacji](docs/VERIFICATION.md).
-Podczas testów wystąpiły też okresowe błędy sondy tool calling w inicjalizatorze
-Ollamy, blokujące start API. Ich przyczyna pozostaje nieustalona; udany przebieg
-E2E nie stanowi potwierdzenia niezawodności każdego startu.
+## Poprawki backendu Ollama
 
-## Błędy, potwierdzenia i dane
+Domyślna wersja to `0.34.4-poc.tool-choice.2`, budowana w
+[`services/ollama-candidate/`](services/ollama-candidate/) na oficjalnym obrazie
+Ollama. Dockerfile przypina źródła, obraz bazowy i sumy kontrolne poprawek oraz
+uruchamia testy regresji i `go vet` podczas budowy.
 
-- HTTP 422: niepoprawny e-mail, pusta wiadomość, ponad 4000 znaków lub nadmiarowe pola.
-- HTTP 502 z `code` i `request_id`: awaria modelu, błędne tool calling lub niepotwierdzona wysyłka.
-- Model wybiera wyłącznie dział z enum; aplikacja ustala jego adres. Reply-To i treść pochodzą z requestu,
-  From z konfiguracji mailera. Dodatkowe argumenty narzędzia są odrzucane.
-- Mailer sprawdza swoją listę dopuszczonych odbiorców i token połączenia usługowego.
-  Domyślny token jest publiczną wartością PoC, a port mailera pozostaje wewnętrzny.
-- Każdy request ma UUID, przekazywany do mailera jako klucz zlecenia i nagłówek
-  `X-Request-ID`. Mailer zapisuje rezerwację przed SMTP. Ten sam UUID i payload
-  zwracają wcześniejsze potwierdzenie, inny payload daje konflikt.
-- `failed` oznacza znane odrzucenie, `unknown` brak pewnego potwierdzenia.
-  Po restarcie niedokończone `sending` przechodzi w `unknown`. Nie ma automatycznego
-  ponawiania niepewnych operacji. Mailer pracuje jako **jedna instancja na wolumen**.
-- Awaria zapisu rezerwacji daje `mailer_unavailable` przed jakąkolwiek próbą SMTP.
-  Awaria utrwalenia wyniku po wywołaniu transportu daje `delivery_unknown`.
-- Ponowne wysłanie publicznego POST tworzy nowe zgłoszenie. Nie jest deduplikowane
-  między requestami. Nie ponawiaj go bez sprawdzenia Mailpit po błędzie niepewnej wysyłki.
-- Status zlecenia jest dostępny przez chronione, wewnętrzne
-  `GET /internal/v1/deliveries/{request_id}`. Treść i adres nadawcy nie trafiają do
-  logów aplikacji. Rejestr mailera przechowuje hash payloadu i potwierdzenia,
-  a pełne wiadomości przechowuje Mailpit.
+Poprawki zachowują serializację narzędzi Qwen (PR 18391/17284), kierują małą
+Gemmę przez natywny szablon i gramatykę, zachowują wymagany separator ciągu
+w parserze i przekazują standardowe `tool_choice` do natywnego runnera.
+Przebudowywany jest również pasujący `libllama-common`; oficjalne biblioteki
+inferencji i wagi pozostają niezmienione. Nie zastępuj obrazu przypadkową wersją
+upstream ani nie przenoś napraw do agenta.
 
-To PoC, bez publicznego uwierzytelniania, limitów ruchu, HA ani produkcyjnego MTA.
-Lokalne porty są ograniczone do loopback. Unified Mail Core nie jest wymagany ani
-dołączony: ewentualny adapter z jego outboxem może zastąpić mailer za tym samym
-kontraktem, ale status `queued` nie może udawać `submitted`.
+```sh
+docker compose build ollama
+docker compose up -d --build
+docker compose exec -T ollama ollama --version
+```
 
-## Parametry modelu i błędne wywołania
+`required` i nazwany wybór są obsługiwane na zweryfikowanej ścieżce natywnej;
+nieobsługiwane wymagania na ścieżce renderowanej kończą się jawnym błędem.
+Gramatyka ogranicza nazwę funkcji i składnię wartości, **nie gwarantuje pełnej
+zgodności ze schematem argumentów ani trafności działu**. Zachowaj walidację
+aplikacyjną. Kontynuacja rozmowy po wyniku narzędzia pozostaje niezweryfikowana
+jako działająca, a tools z logprobs nie są obsługiwane w tej ścieżce.
+PoC nie korzysta z tych funkcji: kończy się po jednym narzędziu.
 
-Wariant Ollama jawnie wyłącza thinking przez `MODEL_REASONING_EFFORT=none`,
-ustawia `MODEL_TEMPERATURE=0` i `MODEL_TOP_P=0.8`. Puste wartości pomijają te
-opcje, czego wymagają niektórzy dostawcy oraz adapter Laya. Szablony env zawierają
-odpowiednie ustawienia. `MODEL_TOKEN_LIMIT_FIELD=max_tokens` zachowuje pole
-obsługiwane przez przypiętą Ollamę; można wybrać `max_completion_tokens` dla
-innego endpointu. Sam wspólny format OpenAI nie oznacza identycznych możliwości
-wszystkich dostawców.
-
-Agent wykonuje jedno wywołanie modelu z limitem `MODEL_TIMEOUT_SECONDS=180`.
-Niepoprawny tool call kończy request błędem `invalid_tool_call`, bez wysyłki.
-Agent sprawdza nazwę narzędzia, dokładnie jeden argument `department`, wartości
-z enum i nieuciętą odpowiedź. Nie usuwa nadmiarowych argumentów ani nie zgaduje
-wywołania z tekstu. Po wysyłce nie ma kolejnej próby modelu ani mailera.
-Logi API rozróżniają brak wywołania, błędne argumenty, wiele wywołań, niewłaściwą
-nazwę i jawne zakończenie `length`. Sam licznik tokenów nie oznacza błędu. Szczegóły naprawy i źródła:
-[TOOL_WIRING.md](docs/TOOL_WIRING.md).
+Historyczny rollback do `0.34.4-poc.gemma-native.2` wymaga zachowanego obrazu,
+zmiany wyboru obrazu Compose oraz pustego `MODEL_TOOL_CHOICE`. Cofnięcie usuwa
+naprawę wymuszania narzędzia i przywraca znane braki wywołań; nie jest gotowym
+wariantem odbiorowym. Nie usuwaj wolumenu modeli podczas rollbacku. Aktualną
+wersję odtwarza powyższa standardowa budowa.
 
 ## Testy i diagnostyka
 
-Obserwowane debugowanie: [OBSERVED_DEBUGGING.md](docs/OBSERVED_DEBUGGING.md).
-`MODEL_TRACE=true` włącza w logach API surowe requesty i odpowiedzi modelu,
-wynik parsowania, walidacji i wysyłki po wspólnym `request_id`. Wyłącznie dla
-syntetycznych danych lokalnych; domyślnie wyłączone. Inference nadal korzysta
-z ChatOpenAI i API OpenAI-compatible, bez klienta Ollamy. Przed kolejnym
-przypadkiem odczytać trace; nie uruchamiać nieobserwowanych testów modelu.
-
-Rozszerzony zbiór: [500 syntetycznych wiadomości po polsku](verification/benchmark/cases-500.json),
-po 100 na każdy z pięciu działów. Zawiera 250 scenariuszy w dwóch wariantach:
-bazowym oraz z zamkniętym wcześniejszym wątkiem. Obejmuje krótkie niepełne prośby,
-zwykłe zgłoszenia i dłuższe wiadomości z konkretnymi szczegółami. Etykiety i ich
-uzasadnienia powstały razem ze scenariuszami; nie pochodzą z przewidywań modeli.
-To kontrolowany benchmark syntetyczny, nie próbka rzeczywistej skrzynki.
-
-Dotychczasowy test 15 wiadomości pozostaje domyślny. Duży zbiór wybiera się jawnie:
-
 ```sh
-docker compose --env-file .env.ollama-example --profile test run --build --rm e2e \
-  python e2e.py --cases benchmark/cases-500.json
-```
-
-Dla Laya użyj `.env.laya-example`. Do API trafiają tylko adres nadawcy i treść;
-odpowiedzi wzorcowe pozostają w teście. Wyniki zapisują identyfikatory przypadków,
-rodzin i SHA-256 dokładnie użytego pliku, a przy błędzie HTTP także jego kod
-oraz `request_id`. Aktualne wyniki: [VERIFICATION.md](docs/VERIFICATION.md).
-Wykonanie wymaga działającego wariantu usług. `MAILPIT_MAX_MESSAGES` (domyślnie
-10 000) musi pomieścić wcześniejszą pocztę i nowy przebieg bez automatycznego
-usuwania najstarszych wiadomości.
-Źródła, ograniczenia par scenariuszy, kontrole i wznowienie:
-[BENCHMARK_APPROACH.md](docs/BENCHMARK_APPROACH.md).
-
-```sh
-# Konfiguracja nie wymaga działającego daemonu.
+# Walidacja konfiguracji bez uruchamiania usług.
 docker compose config --quiet
+docker compose --env-file .env.laya-example config --quiet
+docker compose --env-file .env.openrouter-example config --quiet
 
-# Testy jednostkowe, kontraktowe i granic architektury, bez dostępu do sieci w runtime.
+# Testy jednostkowe, kontraktowe i granic architektury; runtime bez sieci.
 docker compose --profile test run --build --rm tests
 
-# Prawdziwy model + HTTP + SMTP + Mailpit, 15 wiadomości po polsku.
+# Działający model + HTTP + SMTP + Mailpit; 15 wiadomości po polsku.
 docker compose --profile test run --build --rm e2e
 
-# Ta sama weryfikacja dla Laya.
-docker compose --env-file .env.laya-example --profile test run --build --rm e2e
-
 docker compose ps -a
-docker compose logs --tail 100 model-init api mailer
+docker compose logs --tail 100 model-init ready api mailer
 ```
 
-Test E2E kontroluje Swagger, adres docelowy, surowy MIME, Reply-To, Message-ID,
-korelację i treść każdego maila. Kończy się błędem, jeśli którykolwiek przypadek
-nie przejdzie. Nie kasuje istniejących wiadomości; każde uruchomienie dodaje nowy
-zestaw syntetyczny. Wynik wypisuje jako JSONL, wraz z opóźnieniami.
+E2E kontroluje Swagger, odpowiedź API, rzeczywisty surowy MIME, odbiorcę,
+`Reply-To`, `Message-ID`, korelację i oryginalną treść. Wypisuje JSONL z
+identyfikatorami i czasami, a dowolny błąd daje niezerowy exit code. Każde
+uruchomienie tworzy nowy zestaw syntetycznych maili. Nie usuwa starej poczty.
+`MAILPIT_MAX_MESSAGES` (domyślnie 10 000) musi pomieścić istniejące i nowe maile,
+aby Mailpit nie usunął najstarszych przez limit retencji.
 
-Przy nieudanym pobraniu zachowaj wolumen i ponów `docker compose up -d model-init`.
-Po naprawie inicjalizacji uruchom `docker compose up -d`. Błąd klucza, nieistniejący
-model, brak native tool calling i timeout inicjalizacji mają pozostać widocznymi
-błędami. Nie podmieniaj modelu na atrapę w celu uzyskania zielonego healthchecka.
+### Obserwowane sprawdzenie pojedynczego zgłoszenia
 
-Stan faktycznie wykonanych kontroli i ograniczenia: [VERIFICATION.md](docs/VERIFICATION.md).
-Odtwarzalne podejście i wznowienie: [APPROACH.md](docs/APPROACH.md).
-Kontrakty usług: [CONTRACTS.md](docs/CONTRACTS.md).
+`MODEL_TRACE=true` zapisuje surowy request, odpowiedź, parsowanie, walidację
+oraz wynik dostawy ze wspólnym `request_id`. To ustawienie wyłącznie do lokalnych
+syntetycznych wiadomości; treści nie są redagowane. Nie używaj go do rzeczywistej
+korespondencji ani payloadów zawierających sekrety.
 
-## Referencje
+```sh
+MODEL_TRACE=true docker compose up -d --no-deps api
+curl --fail-with-body http://localhost:8000/api/v1/messages \
+  -H 'Content-Type: application/json' \
+  -d '{"email":"test@example.com","message":"Nie działa mi komputer."}'
+docker compose logs --no-color api mailer
+```
+
+Przed kolejną próbą sprawdź skorelowany natywny tool call, rezultat walidacji i
+rzeczywistą wiadomość w Mailpit, włącznie z `Reply-To`. Zachowaj wynik również
+przy błędzie i nigdy automatycznie nie ponawiaj niepewnego POST. Zapisz potrzebne
+logi przed odtworzeniem kontenera, po czym wyłącz śledzenie:
+
+```sh
+MODEL_TRACE=false docker compose up -d --no-deps api
+```
+
+Lokalne kontrole kodu w już przygotowanym środowisku Python:
+
+```sh
+.venv/bin/pytest -q
+.venv/bin/ruff check services tests verification
+.venv/bin/ruff format --check services tests verification
+```
+
+### Restart i problemy pierwszego uruchomienia
+
+Po nieudanym pobraniu zachowaj wolumen, sprawdź log `model-init`, ponów
+`docker compose up -d model-init`, a następnie `docker compose up -d`.
+Błędy modelu, klucza, timeoutu lub tool calling muszą pozostać widoczne;
+nie osłabiaj sondy gotowości ani nie podstawiaj atrapy.
+
+Sprawdzenie bariery startowej, bez opóźnienia i ponowień klienta:
+
+```sh
+docker compose stop
+docker compose up -d && curl --fail --max-time 10 http://localhost:8000/health/ready
+```
+
+Na hoście weryfikacji wystąpił także timeout klienta Docker przed utworzeniem
+kontenerów. Publiczne pobrania/budowa zadziałały z osobną konfiguracją klienta
+z pustym `auths` i kontenerem `docker:cli`; nie zmieniano ustawień użytkownika.
+Przy podobnym problemie sprawdź endpoint Dockera, dostęp do rejestrów i helper
+poświadczeń przed zmienianiem aplikacji. Przyczyny pierwszego timeoutu nie
+ustalono; ta uwaga nie oznacza wymogu dodatkowego kontenera do normalnego startu.
+
+## Weryfikacja
+
+**28.09.2026 PoC zaliczył sprawdzenie wszystkich kryteriów zadania.**
+Świeży klon, budowa serwisów i poprawionej Ollamy ze źródeł oraz automatyczne
+pobranie modelu z pustymi wolumenami zakończyły się powodzeniem bez `.env`.
+Swagger i panel Mailpit sprawdzono także w rzeczywistej przeglądarce.
+
+| Kontrola                                                    | Wynik                                             |
+| ----------------------------------------------------------- | ------------------------------------------------- |
+| Testy na hoście i w świeżym kontenerze                      | 134/134 w każdym środowisku                       |
+| Obserwowane HTTP → natywny tool call Gemmy → SMTP → Mailpit | 15/15 za pierwszym razem, po 3 na każdy dział     |
+| Odbiorca, Reply-To, treść, Message-ID i korelacja           | Poprawne we wszystkich 15; brak duplikatów        |
+| Błędny e-mail, pusta wiadomość, brak wiadomości             | 3 odpowiedzi 422, bez nowej poczty                |
+| Restart po naprawie `ready`                                 | 2/2 z natychmiastowym HTTP 200, bez sleep i retry |
+| Dokładny przykład cURL z README, śledzenie wyłączone        | Poprawna szesnasta wiadomość do kadr              |
+| Ruff i konfiguracje Compose                                 | Zaliczone                                         |
+
+W trakcie kontroli znaleziono wyścig: `up -d` wracało, gdy API dopiero startowało.
+Dodano wyłącznie barierę `ready`. Pierwsza budowa/pobranie oraz 15 przypadków
+poprzedzały tę poprawkę; oba restarty i dodatkowy cURL sprawdziły końcową
+konfigurację. Kod aplikacji, prompt i ustawienia modelu nie zmieniały się.
+
+Środowisko: Apple M4, Docker Desktop Linux ARM64, 10 vCPU, VM 12 GiB, CPU.
+Nie sprawdzono x86, GPU, produkcyjnego SMTP ani jakości na nieznanej rzeczywistej
+korespondencji. Zaliczenie PoC nie oznacza idealnej klasyfikacji dowolnego tekstu.
+Po weryfikacji zatrzymano usługi i przeglądarkę, wyłączono trace, zachowano dane.
+
+### Identyfikacja zweryfikowanej wersji i zachowane dowody
+
+Klon bazowy: commit `8936b86a66f84ebfc764d7a73fe2321294486df3`, plus opisana
+poprawka Compose. Historyczne SHA-256 poniżej identyfikują pliki z chwili
+weryfikacji, nie późniejsze zmiany komentarzy i dokumentacji:
+
+```text
+Compose: 669a657bd9561d7e4f35619846b7e33687bd581c987f39b9c92729cb8438ffd5
+15 cases: 34b55ac3f3854c93547500fa60e7b4344dc41f42c1be31a0fb9c016d91da131b
+Ollama image: sha256:96dc17e704990906e8b218884145e1fdb98079ac4233bbb7640a94223eb327f4
+Final cURL request_id: c3c27c08-0448-4df3-acb3-ab0f259f0609
+```
+
+Na hoście weryfikacji zachowano logi budowy/startu w kontenerze
+`wskz-acceptance-build-20260928`, testów w `wskz-acceptance-unit-20260928`
+i 75 zdarzeń trace w `wskz-acceptance-trace-20260928`. Można je odczytać przez
+`docker logs <nazwa>`, bez uruchamiania kontenera. Wiadomości i modele są w
+wolumenach `wskz-acceptance-20260928_captured-mail` oraz
+`wskz-acceptance-20260928_ollama-models`. Klon z lokalnymi snapshotami przeglądarki:
+`/Users/mini/programming/wskz-poc-acceptance-20260928`.
+Te lokalne artefakty nie są częścią świeżego klonu repozytorium.
+
+## Porównanie Gemma i Laya
+
+Wcześniejsza, odrębna od odbioru E2E regresja z 27.09.2026 używała tych samych
+500 syntetycznych wiadomości, po jednej próbie, bez SMTP i ponowień.
+
+| Miara                            | Laya multilingual, epoka 1 | Gemma 4 E2B Q4_K_M |
+| -------------------------------- | -------------------------: | -----------------: |
+| Poprawne odpowiedzi              |            432/500 (86,4%) |    493/500 (98,6%) |
+| Błędne działy                    |                         68 |                  7 |
+| Błędy protokołu                  |                          0 |                  0 |
+| Mediana HTTP                     |                    0,231 s |            1,800 s |
+| P95 HTTP                         |                    0,346 s |            2,590 s |
+| Suma czasu 500 żądań, bez przerw |                  119,981 s |          909,394 s |
+| HR /100                          |                         87 |                 99 |
+| Kadry /100                       |                         99 |                 96 |
+| Helpdesk /100                    |                        100 |                 99 |
+| IT /100                          |                         86 |                100 |
+| Inne /100                        |                         60 |                 99 |
+
+Laya miała 7,8 razy krótszą medianę, ale o 61 poprawnych klasyfikacji mniej.
+Największą słabością były nieokreślone/prywatne wiadomości i rozróżnianie aktualnej
+prośby od zakończonej historii. To sekwencyjne żądania na lokalnym CPU Apple M4
+przez Docker, z różnymi promptami i adapterami. Gemma była poprawiana na znanym
+zbiorze, więc **nie jest to niezależny test generalizacji**. Nie należy utożsamiać
+tej regresji z powyższą weryfikacją rzeczywistej dostawy SMTP.
+
+Korpus [`verification/benchmark/cases-500.json`](verification/benchmark/cases-500.json)
+zawiera 250 rodzin scenariuszy z dwoma skorelowanymi wariantami, po 100 wiadomości
+na dział. Rodziny muszą pozostać razem przy podziale danych. Etykiet, uzasadnień
+i identyfikatorów nigdy nie przekazuje się modelowi. Domyślny test to nadal 15
+wiadomości; pełny benchmark wymaga odrębnego, jawnego zlecenia. Nie należy
+uruchamiać treningu ani kolejnych 500 przypadków przy zwykłym utrzymaniu PoC.
+
+### RAM i dysk
+
+Nie zmierzono porównywalnego RAM ani CPU-sekund obu modeli podczas tych 500
+żądań. Krótszy czas odpowiedzi nie dowodzi niższego kosztu energii ani hostingu.
+Dostrojone wagi Laya FP32 zajmują 1 287 653 720 bajtów (1,20 GiB), sam
+`model.safetensors`. Pakiet Gemmy raportowany przez Ollamę zajmuje 7 162 405 886
+bajtów (6,67 GiB). Zakres pakietów jest różny, więc stosunek około 5,6 dotyczy
+tych plików, nie RAM. Mapowanie wag Gemmy również nie oznacza pamięci rezydentnej.
+
+Historyczny maksymalny pomiar bazowej, niedostrojonej Laya wyniósł 1,926 GiB
+runtime i 2,127 GiB wybranych kontenerów aplikacji na 15 wiadomościach. Porównywano
+ją wtedy z Qwen3 1.7B, nie Gemmą; wynik nie określa potrzeb obecnych wag FP32.
+Peak RSS treningu Laya wyniósł 7,247 GiB i 8,286 GiB w kolejnych epokach, przy
+limicie kontenera 10 GiB i VM 12 GiB. To koszt treningu, nie inferencji.
+
+### Trening Laya
+
+Trening zakończono na polecenie użytkownika po dwóch epokach, nie po osiągnięciu
+patience. Epoka 1: 447/500 na walidacji (macro-F1 0,893358); epoka 2:
+443/500 (macro-F1 0,882589). Wybrano epokę 1 wyłącznie według walidacji.
+Osobnego końcowego testu 500 nowych wiadomości nie wykonano. Profil Compose
+nadal ładuje model bazowy; lokalne dostrojone wagi i checkpointy są poza Git.
+
+Zamrożony korpus to 2000 train / 500 validation / 500 test, 600 rodzin i 60 grup,
+seed 42. Zachowano rozdział rodzin i audyt przecieków. Stare 500 i 15 smoke nie
+mogą służyć jako materiał treningowy, parafrazy, wzorce błędów ani kryterium
+wyboru modelu. 2500 tekstów przeglądnięto niezależnie, ostatnie 500 przez autora,
+zgodnie z poleceniem nieuruchamiania kolejnego krytyka; ograniczenie jest jawne.
+
+Zachowaj frozen dane, politykę, tokenizer, bazowe wagi i hashe kodu. Trening
+korzysta tylko z train; test pozostaje odseparowany. Wybór checkpointu odbywa się
+po macro-F1 walidacji, następnie accuracy i wcześniejszej epoce. Checkpoint
+obejmuje optimizer, scheduler, RNG i pozycję danych; wznowienie odmawia przy
+niezgodnych hashach i nie powtarza niejasnych prób ewaluacji. Trening CPU/FP32
+używał microbatch 1, akumulacji 16, AdamW z LR encoder 2,5e-5 / head 1e-4,
+weight decay 0,01 i clipping 1. Nie zmieniaj działającej Gemmy w ramach tych
+opcjonalnych eksperymentów. Dalszy trening/test wymaga nowego zlecenia.
+
+Dokładne zachowane parametry, komendy i checkpointy:
+[`training/laya-routing/RUNBOOK.md`](training/laya-routing/RUNBOOK.md),
+[metoda autorstwa](training/laya-routing/MANUAL_AUTHORING_APPROACH.md),
+[wynik regresji i procedura](training/laya-routing/runs/laya-gemma-same500/README.md)
+i [wybór checkpointu](training/laya-routing/runs/completed-validation/).
+
+Metoda autorstwa i jej snapshoty pozostają bez zmian, ponieważ przeglądy danych
+wiążą ich sumy kontrolne. Odwołania do dawnych dokumentów w tych zamrożonych
+rekordach są historyczne; aktualne zasady określa powyższa sekcja i runbook.
+
+## Referencje technologiczne
 
 - [LangChain tools](https://docs.langchain.com/oss/python/langchain/tools)
 - [ChatOpenAI i tool calling](https://docs.langchain.com/oss/python/integrations/chat/openai)
 - [Ollama OpenAI compatibility](https://docs.ollama.com/api/openai-compatibility)
 - [Gotowość zależności Compose](https://docs.docker.com/compose/how-tos/startup-order/)
+- [Profile Compose](https://docs.docker.com/compose/how-tos/profiles/)
 - [Mailpit API](https://mailpit.axllent.org/docs/api-v1/)
-- [Laya, SDK i granice modelu](https://github.com/NandhaKishorM/laya)
-
-`MODEL_TOOL_CHOICE` steruje standardowym polem wyboru narzędzia: puste pomija
-pole, `auto` zostawia wybór modelowi, `required` wymaga narzędzia, a `named`
-wskazuje funkcję `send_department_email`. Wsparcie zależy od backendu: przykład
-Ollamy używa `required` na natywnej ścieżce dekodowania, Laya używa `required`, a OpenRouter
-`named` i wymaga obsługi przez wybrany model/backend. Nie wykonujemy automatycznego
-ponowienia z innymi ustawieniami. Polityka działów znajduje się w system prompt;
-schemat zachowuje opisy kategorii potrzebne adapterowi Laya.
-
-Domyślne ustawienia Compose i aplikacji to `gemma4:e2b`, temperatura0 oraz
-`MODEL_TOOL_CHOICE=required`, również bez `.env`. Pusta wartość nadal pomija pole
-u dostawców bez jego obsługi. Bootstrap przekazuje tę samą politykę wyboru
-narzędzia do sondy gotowości. Backend odrzuca nieobsługiwane wymagania jawnie.
-[Zamknięcie prac i odtworzenie](docs/GEMMA_COMPLETION.md).
-
-Ostatnia obserwowana próba po uproszczeniu opisu narzędzia i doprecyzowaniu polityki:
-2 z 4 wybranych przypadków poprawne, 2 nadal bez wywołania narzędzia. To mała
-próba diagnostyczna, nie pomiar skuteczności. Problem lokalnego modelu/backendu
-pozostaje; [surowe dowody i wyniki](docs/evidence/2026-09-25/routing-policy/README.md).
-
-Późniejsze porównanie z `qwen3:4b-instruct-2507-q4_K_M`, bez zmian kodu,
-zaliczyło te same **4/4 przypadki**, w tym oba wcześniejsze błędy. To nadal
-wybrana próba HR/kadry, nie ogólna skuteczność. Kandydat pozostaje aktywny
-lokalnie; domyślny model repozytorium nie został zmieniony.
-[Konfiguracja eksperymentu, surowe logi i przechwycone maile](docs/evidence/2026-09-25/qwen4b-instruct/README.md).
-
-Pełny przebieg został następnie zatrzymany przez użytkownika na **190/500**.
-Audyt surowych odpowiedzi i wszystkich 190 przechwyconych maili potwierdził
-100 poprawnych HR i 90 kadry, bez błędów protokołu ani duplikatów. To 95 par
-scenariuszy i tylko dwa działy; korpus był już używany podczas debugowania.
-Nie potwierdza to ogólnej skuteczności ani powtarzalności.
-[Audyt dowodów i ograniczenia](docs/evidence/2026-09-25/qwen4b-500/FORENSIC_REVIEW.md).
-
-### Poprawki backendu Ollama
-
-Aktualny build0.34.4 zawiera PR18391/17284 oraz naprawę integracji natywnego
-tool calling Gemmy4. Nie dodaje ponowień ani reguł modeli do agenta.
-[Podejście i rollback](docs/OLLAMA_GEMMA_TOOL_FIX.md),
-[wyniki i ograniczenia](docs/evidence/2026-09-26/ollama-gemma-fix/REPORT.md).
-Historyczny backport0.13.5: [OLLAMA_BACKPORT.md](docs/OLLAMA_BACKPORT.md).
+- [Laya SDK](https://github.com/NandhaKishorM/laya)

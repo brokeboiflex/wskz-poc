@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/education-leave-credit/resolved_postscript", "scenario_id": "payroll/education-leave-credit", "variant": "resolved_postscript", "run_id": "df51e4bcb756", "dataset_sha256": "123acff68ce5fc4a1bd1632008cd87d3719d3516b6fac5cc64d5f798e11f7f86", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "1b02ee1b-a3c9-4726-a561-a2ea02c71e62", "passed": true, "seconds": 3.281}
-{"run_id": "df51e4bcb756", "dataset_sha256": "123acff68ce5fc4a1bd1632008cd87d3719d3516b6fac5cc64d5f798e11f7f86", "passed": 1, "total": 1}

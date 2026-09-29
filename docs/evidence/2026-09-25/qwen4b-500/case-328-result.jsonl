@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/storage-array/conversation_history", "scenario_id": "it/storage-array", "variant": "conversation_history", "run_id": "ae88798452fb", "dataset_sha256": "c3b3af86e0fedb342e1e4e535145acd9a677e6e9c32fb52747ccd46a9c4e98e1", "expected": "it@example.com", "actual": "it@example.com", "request_id": "bf10d66b-3556-43ac-9d13-a07b5ed8e51a", "passed": true, "seconds": 12.012}
-{"run_id": "ae88798452fb", "dataset_sha256": "c3b3af86e0fedb342e1e4e535145acd9a677e6e9c32fb52747ccd46a9c4e98e1", "passed": 1, "total": 1}

@@ -1,6 +1,0 @@
-model-init-1  | Warming the model and checking native tool calling (no email).
-model-init-1  | Selected model endpoint is ready.
-api-1         | INFO:     Started server process [7]
-api-1         | INFO:     Waiting for application startup.
-api-1         | INFO:     Application startup complete.
-api-1         | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)

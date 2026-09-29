@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/certificate-deadline/base", "scenario_id": "payroll/certificate-deadline", "variant": "base", "run_id": "fe1bd37b1f1f", "dataset_sha256": "390cb41d7a25f41ea91f92db4965bcd81d0d3b2f7ecec6f204e7d5aa92dd2513", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "3c75fa53-5356-4f45-a84a-dcff848da4b0", "passed": true, "seconds": 4.333}
-{"run_id": "fe1bd37b1f1f", "dataset_sha256": "390cb41d7a25f41ea91f92db4965bcd81d0d3b2f7ecec6f204e7d5aa92dd2513", "passed": 1, "total": 1}

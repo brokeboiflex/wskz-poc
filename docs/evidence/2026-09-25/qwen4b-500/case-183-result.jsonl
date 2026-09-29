@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/benefit-deduction/base", "scenario_id": "payroll/benefit-deduction", "variant": "base", "run_id": "eb7ece21cb5d", "dataset_sha256": "24baaa67f2dba640ff92a891891a4b7b841a18d5fcb7ce78991a40810f668e08", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "b9f60246-0a4e-4bf7-b565-4d91e81fdbec", "passed": true, "seconds": 3.968}
-{"run_id": "eb7ece21cb5d", "dataset_sha256": "24baaa67f2dba640ff92a891891a4b7b841a18d5fcb7ce78991a40810f668e08", "passed": 1, "total": 1}

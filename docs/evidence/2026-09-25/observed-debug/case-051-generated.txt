@@ -1,3 +1,0 @@
-<tool_call>
-{"name": "help_desk", "arguments": {"department": "help_desk"}}
-</tool_call>

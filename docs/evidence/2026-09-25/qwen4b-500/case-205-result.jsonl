@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/black-screen/base", "scenario_id": "help_desk/black-screen", "variant": "base", "run_id": "096a214b2945", "dataset_sha256": "27ec6c23b6fb2213ce5fd519f329db677d4ab00ce35e7046e5b150e7b97b595a", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "faeb4e97-d782-4c0f-8987-c04d3fec58e7", "passed": true, "seconds": 4.427}
-{"run_id": "096a214b2945", "dataset_sha256": "27ec6c23b6fb2213ce5fd519f329db677d4ab00ce35e7046e5b150e7b97b595a", "passed": 1, "total": 1}

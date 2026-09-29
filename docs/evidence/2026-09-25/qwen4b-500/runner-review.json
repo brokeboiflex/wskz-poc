@@ -1,7 +1,0 @@
-{
-  "actual_inherited_api": "http://localhost:8000",
-  "actual_inherited_mailpit": "http://localhost:8025",
-  "ambient_api_set": false,
-  "ambient_mailpit_set": false,
-  "note": "Active runner began before guard hardening; original source preserved in runner-at-start.py. No restart occurred. Future invocations use exclusive start guard and pinned endpoints."
-}

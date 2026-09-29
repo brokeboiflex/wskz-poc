@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/token-leak/base", "scenario_id": "it/token-leak", "variant": "base", "run_id": "e946998892db", "dataset_sha256": "5510b4faca0a37388dc9b8909b8a3a5d4c454ae8299c1289b90e1519ae7692dd", "expected": "it@example.com", "actual": "it@example.com", "request_id": "2df42654-6e66-4259-9019-c6eaaf0b37a9", "passed": true, "seconds": 4.582}
-{"run_id": "e946998892db", "dataset_sha256": "5510b4faca0a37388dc9b8909b8a3a5d4c454ae8299c1289b90e1519ae7692dd", "passed": 1, "total": 1}

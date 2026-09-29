@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/values-workshop/base", "scenario_id": "human_resources/values-workshop", "variant": "base", "run_id": "16f82b4f2e4b", "dataset_sha256": "ccbd784db3f135bd30c71d8e65e64d306ff4a4295806322d113c4675eadb0922", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "fc959433-ceb1-4527-8829-1e45633538aa", "passed": true, "seconds": 3.87}
-{"run_id": "16f82b4f2e4b", "dataset_sha256": "ccbd784db3f135bd30c71d8e65e64d306ff4a4295806322d113c4675eadb0922", "passed": 1, "total": 1}

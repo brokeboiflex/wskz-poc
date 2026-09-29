@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/local-backup-restore/conversation_history", "scenario_id": "help_desk/local-backup-restore", "variant": "conversation_history", "run_id": "14e396238fb8", "dataset_sha256": "21001a62104219068905236698d2fdace22116bc5e8a388104df9249cae142dc", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "0bf6cc1e-d215-42ad-aa3b-2f98c40930fd", "passed": true, "seconds": 8.569}
-{"run_id": "14e396238fb8", "dataset_sha256": "21001a62104219068905236698d2fdace22116bc5e8a388104df9249cae142dc", "passed": 1, "total": 1}

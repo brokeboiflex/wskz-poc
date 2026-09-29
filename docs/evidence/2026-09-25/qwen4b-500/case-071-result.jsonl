@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/learning-platform-content/base", "scenario_id": "human_resources/learning-platform-content", "variant": "base", "run_id": "473d3fe44954", "dataset_sha256": "415869c8c33235d746e6f5b4c12363e4e99ed222a853a98363e4bacea0713360", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "0fcbdb23-3297-4b5f-a618-4fd10d8ebc11", "passed": true, "seconds": 3.719}
-{"run_id": "473d3fe44954", "dataset_sha256": "415869c8c33235d746e6f5b4c12363e4e99ed222a853a98363e4bacea0713360", "passed": 1, "total": 1}

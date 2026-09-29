@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/slow-laptop/base", "scenario_id": "help_desk/slow-laptop", "variant": "base", "run_id": "58836d0e589f", "dataset_sha256": "8ba3d88b17948f18664a716c49210baa728375376d100d25212258190038270a", "expected": "help-desk@example.com", "actual": "it@example.com", "request_id": "34bcb417-52d2-4fd8-8b07-7f0c605013db", "passed": false, "error": "wrong MIME recipient", "seconds": 3.767}
-{"run_id": "58836d0e589f", "dataset_sha256": "8ba3d88b17948f18664a716c49210baa728375376d100d25212258190038270a", "passed": 0, "total": 1}

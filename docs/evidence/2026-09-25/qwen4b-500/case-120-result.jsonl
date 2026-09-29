@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/leave-carryover/forwarded_history", "scenario_id": "payroll/leave-carryover", "variant": "forwarded_history", "run_id": "19db997875ce", "dataset_sha256": "e4fa7172e87a30d9faaac5728b4bf56144514d45297157aeaa4648337f318732", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "167b20fa-162d-4371-8c08-d87fc9fa8805", "passed": true, "seconds": 6.553}
-{"run_id": "19db997875ce", "dataset_sha256": "e4fa7172e87a30d9faaac5728b4bf56144514d45297157aeaa4648337f318732", "passed": 1, "total": 1}

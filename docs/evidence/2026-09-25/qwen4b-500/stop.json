@@ -1,6 +1,0 @@
-{
-  "status": "stopped_by_user",
-  "completed": 400,
-  "planned": 500,
-  "reason": "Read failure logs; no additional inference"
-}

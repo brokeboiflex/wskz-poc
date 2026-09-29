@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/server-patching/base", "scenario_id": "it/server-patching", "variant": "base", "run_id": "86357bc75a8b", "dataset_sha256": "2b412ef3b083d84fe344a36213b06dab8f6e36529b777e9e01ebdb881384e33d", "expected": "it@example.com", "actual": "it@example.com", "request_id": "faeaaf61-8063-4155-86ee-6b777f4b15ce", "passed": true, "seconds": 4.583}
-{"run_id": "86357bc75a8b", "dataset_sha256": "2b412ef3b083d84fe344a36213b06dab8f6e36529b777e9e01ebdb881384e33d", "passed": 1, "total": 1}

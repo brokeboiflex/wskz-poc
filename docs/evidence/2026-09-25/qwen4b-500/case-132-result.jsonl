@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/commission-correction/quoted_history", "scenario_id": "payroll/commission-correction", "variant": "quoted_history", "run_id": "628f4dc79c6f", "dataset_sha256": "a620b8ea63fd95cf16a7651af9c109442cc8edbc29a590d479c4bff6ef469d8b", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "05ac298b-f69a-45bd-a418-5d9dfaf76a08", "passed": true, "seconds": 6.86}
-{"run_id": "628f4dc79c6f", "dataset_sha256": "a620b8ea63fd95cf16a7651af9c109442cc8edbc29a590d479c4bff6ef469d8b", "passed": 1, "total": 1}

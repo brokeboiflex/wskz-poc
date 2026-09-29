@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/ntp-domain/forwarded_history", "scenario_id": "it/ntp-domain", "variant": "forwarded_history", "run_id": "8d0414e30b87", "dataset_sha256": "e6aaeb48ebc52b8e486afad5911aa2573327935ca2dec53bfea7db152fe3e3e6", "expected": "it@example.com", "actual": "it@example.com", "request_id": "77c54055-ef16-47f2-ad9d-b74d69ead9f0", "passed": true, "seconds": 9.96}
-{"run_id": "8d0414e30b87", "dataset_sha256": "e6aaeb48ebc52b8e486afad5911aa2573327935ca2dec53bfea7db152fe3e3e6", "passed": 1, "total": 1}

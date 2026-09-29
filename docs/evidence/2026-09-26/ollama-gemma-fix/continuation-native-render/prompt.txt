@@ -1,6 +1,0 @@
-<|turn>system
-Use lookup_forecast to get the forecast. When a tool result is present, repeat that result exactly and do not call any tools again.<|tool>declaration:lookup_forecast{description:<|"|>Look up the forecast for a city.<|"|>,parameters:{properties:{city:{type:<|"|>STRING<|"|>}},required:[<|"|>city<|"|>],type:<|"|>OBJECT<|"|>}}<tool|><turn|>
-<|turn>user
-What is the weather forecast for Łódź?<turn|>
-<|turn>model
-<|tool_call>call:lookup_forecast{city:<|"|>Łódź<|"|>}<tool_call|><|tool_response>response:lookup_forecast{value:<|"|>Sunny, 22 C.<|"|>}<tool_response|>

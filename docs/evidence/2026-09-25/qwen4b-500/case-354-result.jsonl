@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/phishing-click/resolved_preface", "scenario_id": "it/phishing-click", "variant": "resolved_preface", "run_id": "9f5d770c1afe", "dataset_sha256": "418f120e02983ef6a417da91f6fb638347e0b1cf35dc8fbbaedb4ad745458aec", "expected": "it@example.com", "actual": "it@example.com", "request_id": "68d24d72-68e2-43f1-aa51-1d8309963f70", "passed": true, "seconds": 12.895}
-{"run_id": "9f5d770c1afe", "dataset_sha256": "418f120e02983ef6a417da91f6fb638347e0b1cf35dc8fbbaedb4ad745458aec", "passed": 1, "total": 1}

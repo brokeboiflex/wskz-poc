@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/career-path/resolved_postscript", "scenario_id": "human_resources/career-path", "variant": "resolved_postscript", "run_id": "2a0bcbbe8c59", "dataset_sha256": "69c4e94fd9b08944bcdda818d48612956db2a3bf832f5ddf2b0a55382c86e164", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "f5a7e773-d50b-4dfa-baa6-509542289152", "passed": true, "seconds": 3.699}
-{"run_id": "2a0bcbbe8c59", "dataset_sha256": "69c4e94fd9b08944bcdda818d48612956db2a3bf832f5ddf2b0a55382c86e164", "passed": 1, "total": 1}

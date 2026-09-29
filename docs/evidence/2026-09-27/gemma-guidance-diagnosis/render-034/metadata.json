@@ -1,7 +1,0 @@
-{
-  "endpoint": "http://ollama:11434/v1/chat/completions",
-  "started_at": "2026-09-26T23:22:28.922971+00:00",
-  "source": "/Users/mini/programming/resumer/poc/message-router/docs/evidence/2026-09-27/gemma-guidance-diagnosis/requests/034-render.json",
-  "retries": 0,
-  "tool_execution": false
-}

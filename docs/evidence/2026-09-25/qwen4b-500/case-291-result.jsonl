@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/remote-desktop-single/base", "scenario_id": "help_desk/remote-desktop-single", "variant": "base", "run_id": "57aa595e5e82", "dataset_sha256": "4bf2d8ad7bbf07d37dab584a38703dc303fb505d7d1a31b0d2222347246710e4", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "c92b9b9a-26e2-472c-8903-3d6141eb4005", "passed": true, "seconds": 7.807}
-{"run_id": "57aa595e5e82", "dataset_sha256": "4bf2d8ad7bbf07d37dab584a38703dc303fb505d7d1a31b0d2222347246710e4", "passed": 1, "total": 1}

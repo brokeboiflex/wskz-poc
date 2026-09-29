@@ -1,7 +1,0 @@
-{
-  "mailpit_messages_before": 578,
-  "mailpit_retention": 10000,
-  "model": "qwen3:1.7b",
-  "ollama_version": "0.13.5",
-  "purpose": "User requested all 500 after provider-neutrality repair; unchanged frozen corpus, no retries."
-}

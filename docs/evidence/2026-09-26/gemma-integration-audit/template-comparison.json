@@ -1,9 +1,0 @@
-{
-  "google_revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
-  "jinja_version": "3.1.6",
-  "identical": true,
-  "google_characters": 2459,
-  "ollama_characters": 2459,
-  "google_sha256": "429593d26b94af857cbd9da332fceaf13a8328f314a279935f7f5d548f03d5a9",
-  "ollama_sha256": "429593d26b94af857cbd9da332fceaf13a8328f314a279935f7f5d548f03d5a9"
-}

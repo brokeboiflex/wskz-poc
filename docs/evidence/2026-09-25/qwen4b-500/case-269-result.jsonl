@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/access-folder/base", "scenario_id": "help_desk/access-folder", "variant": "base", "run_id": "64190b07402c", "dataset_sha256": "a6341a56455ca539ff840fb14f9dd880acb46dad699e336cf8fee2463000aeb5", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "65362b45-c291-4ed9-a37a-7f691a91de43", "passed": true, "seconds": 3.693}
-{"run_id": "64190b07402c", "dataset_sha256": "a6341a56455ca539ff840fb14f9dd880acb46dad699e336cf8fee2463000aeb5", "passed": 1, "total": 1}

@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/docking-station/base", "scenario_id": "help_desk/docking-station", "variant": "base", "run_id": "943652ddecc0", "dataset_sha256": "dcce30cf4df135c93cd254fda88739805cdfc071d3398ee40336a05ccd32f43a", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "254c9c41-897e-4d42-b0ba-9417eab7d95a", "passed": true, "seconds": 8.767}
-{"run_id": "943652ddecc0", "dataset_sha256": "dcce30cf4df135c93cd254fda88739805cdfc071d3398ee40336a05ccd32f43a", "passed": 1, "total": 1}

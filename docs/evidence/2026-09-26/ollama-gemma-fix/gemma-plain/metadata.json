@@ -1,7 +1,0 @@
-{
-  "endpoint": "http://wskz-gemma-fix-validation:11434/v1/chat/completions",
-  "started_at": "2026-09-26T20:45:15.272550+00:00",
-  "source": "/Users/mini/programming/resumer/poc/message-router/docs/evidence/2026-09-26/ollama-gemma-fix/plain-request.json",
-  "retries": 0,
-  "tool_execution": false
-}

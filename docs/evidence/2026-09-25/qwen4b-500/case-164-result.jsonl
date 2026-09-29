@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/overtime-timeoff/resolved_preface", "scenario_id": "payroll/overtime-timeoff", "variant": "resolved_preface", "run_id": "d7a12a0ab331", "dataset_sha256": "1edd6af69f9944c005cf740ea14997c33e2b4571766ece936c2a5efd91559900", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "fd2c390d-ad7c-47db-9b99-0de295e5783d", "passed": true, "seconds": 7.453}
-{"run_id": "d7a12a0ab331", "dataset_sha256": "1edd6af69f9944c005cf740ea14997c33e2b4571766ece936c2a5efd91559900", "passed": 1, "total": 1}

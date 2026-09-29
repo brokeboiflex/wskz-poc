@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/branch-link/resolved_preface", "scenario_id": "it/branch-link", "variant": "resolved_preface", "run_id": "a9821f31b6f1", "dataset_sha256": "3080437664b2101076b8adeac0bc248f9436c766e57903c866dad2687460393d", "expected": "it@example.com", "actual": "it@example.com", "request_id": "9b8c200b-47bf-4ab7-a5d4-c9b744fa2d8a", "passed": true, "seconds": 8.113}
-{"run_id": "a9821f31b6f1", "dataset_sha256": "3080437664b2101076b8adeac0bc248f9436c766e57903c866dad2687460393d", "passed": 1, "total": 1}

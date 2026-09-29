@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/calendar-sync/base", "scenario_id": "help_desk/calendar-sync", "variant": "base", "run_id": "268e6ded06e6", "dataset_sha256": "d1b976d5712268027afaf15b8a5db92971b65177636e37e425f2fdb070ed7710", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "78731c57-1a5f-4e16-87af-5b646473ce47", "passed": true, "seconds": 4.043}
-{"run_id": "268e6ded06e6", "dataset_sha256": "d1b976d5712268027afaf15b8a5db92971b65177636e37e425f2fdb070ed7710", "passed": 1, "total": 1}

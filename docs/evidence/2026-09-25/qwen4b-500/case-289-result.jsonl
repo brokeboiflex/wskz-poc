@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/meeting-display/base", "scenario_id": "help_desk/meeting-display", "variant": "base", "run_id": "abf97e9715f8", "dataset_sha256": "926b14bfa5dc7754dfa6e0f8ad77c9f5ede5d12ab883de9c7f35865a854f7be9", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "da5fc06f-6a6f-433f-bd13-abb8cdb04606", "passed": true, "seconds": 3.179}
-{"run_id": "abf97e9715f8", "dataset_sha256": "926b14bfa5dc7754dfa6e0f8ad77c9f5ede5d12ab883de9c7f35865a854f7be9", "passed": 1, "total": 1}

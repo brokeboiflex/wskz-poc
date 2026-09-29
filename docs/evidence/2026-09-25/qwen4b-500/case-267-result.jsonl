@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/screen-scaling/base", "scenario_id": "help_desk/screen-scaling", "variant": "base", "run_id": "ad2e058b3f88", "dataset_sha256": "a8d0402b3f3781d771b5189d2ad019c4c077a0ddafdc29d42361ccbbbda59e6d", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "96184b74-e1a5-4ea8-b919-8e1457c2accb", "passed": true, "seconds": 5.425}
-{"run_id": "ad2e058b3f88", "dataset_sha256": "a8d0402b3f3781d771b5189d2ad019c4c077a0ddafdc29d42361ccbbbda59e6d", "passed": 1, "total": 1}

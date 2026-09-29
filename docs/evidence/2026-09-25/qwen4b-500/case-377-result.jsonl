@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/monitoring-gap/base", "scenario_id": "it/monitoring-gap", "variant": "base", "run_id": "4583f0daf7f2", "dataset_sha256": "b4613f1e8d81d051f28a653b51c28c6b8856dcee64750e4c4ebe2e2ae26514d9", "expected": "it@example.com", "actual": "it@example.com", "request_id": "f9c68101-f39f-4961-ae08-ef663ad9a11a", "passed": true, "seconds": 5.006}
-{"run_id": "4583f0daf7f2", "dataset_sha256": "b4613f1e8d81d051f28a653b51c28c6b8856dcee64750e4c4ebe2e2ae26514d9", "passed": 1, "total": 1}

@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/salary-overpayment/base", "scenario_id": "payroll/salary-overpayment", "variant": "base", "run_id": "0f5d7f0ec121", "dataset_sha256": "ff8d26ba3016a2cda52bfda12b9a461c2e9120d6996245e755055246a786b9e1", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "9574a1fd-d814-4ca9-835b-bbbfe0fd9021", "passed": true, "seconds": 3.742}
-{"run_id": "0f5d7f0ec121", "dataset_sha256": "ff8d26ba3016a2cda52bfda12b9a461c2e9120d6996245e755055246a786b9e1", "passed": 1, "total": 1}

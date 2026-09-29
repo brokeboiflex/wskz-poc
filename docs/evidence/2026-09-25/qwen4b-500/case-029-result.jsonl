@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/security-awareness/base", "scenario_id": "human_resources/security-awareness", "variant": "base", "run_id": "9334669a91d8", "dataset_sha256": "558420d0d004a28e15d036c9cc8ea0025967cdb843fb12f59d6cb3e18c9a8d35", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "95d6dec9-7394-4a7c-9d67-be63558a6189", "passed": true, "seconds": 3.889}
-{"run_id": "9334669a91d8", "dataset_sha256": "558420d0d004a28e15d036c9cc8ea0025967cdb843fb12f59d6cb3e18c9a8d35", "passed": 1, "total": 1}

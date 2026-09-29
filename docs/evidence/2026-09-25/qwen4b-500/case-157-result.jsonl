@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/contract-data/base", "scenario_id": "payroll/contract-data", "variant": "base", "run_id": "91dd268270fa", "dataset_sha256": "a4bc8db40f9f5e6c700e03d01c9821490be9804b5c2b53d851c947f85526fc90", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "0a27b5de-118c-4e31-a79d-df90dace3ba1", "passed": true, "seconds": 4.155}
-{"run_id": "91dd268270fa", "dataset_sha256": "a4bc8db40f9f5e6c700e03d01c9821490be9804b5c2b53d851c947f85526fc90", "passed": 1, "total": 1}

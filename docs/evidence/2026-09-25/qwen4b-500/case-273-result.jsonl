@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/hr-portal-password/base", "scenario_id": "help_desk/hr-portal-password", "variant": "base", "run_id": "d0f9ee20be70", "dataset_sha256": "85df25daf2d725dcb8828e1f9f94a50d8a30b8f9b4b1ad5164fc4282b8f852fb", "expected": "help-desk@example.com", "actual": "kadry@example.com", "request_id": "e0cd8cb2-9f34-4e3d-917b-7685c5026da2", "passed": false, "error": "wrong MIME recipient", "seconds": 9.483}
-{"run_id": "d0f9ee20be70", "dataset_sha256": "85df25daf2d725dcb8828e1f9f94a50d8a30b8f9b4b1ad5164fc4282b8f852fb", "passed": 0, "total": 1}

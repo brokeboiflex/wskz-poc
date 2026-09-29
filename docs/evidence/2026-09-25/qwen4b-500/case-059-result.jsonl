@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/onboarding-program/base", "scenario_id": "human_resources/onboarding-program", "variant": "base", "run_id": "46054ea77285", "dataset_sha256": "c42ac99d279a2a63db0f9cb9c7b767eed24ec020799e90153661edb9f73be77a", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "27876af3-0ba6-4f32-b584-a93625d71984", "passed": true, "seconds": 9.403}
-{"run_id": "46054ea77285", "dataset_sha256": "c42ac99d279a2a63db0f9cb9c7b767eed24ec020799e90153661edb9f73be77a", "passed": 1, "total": 1}

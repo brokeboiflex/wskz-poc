@@ -1,7 +1,0 @@
-{
-  "endpoint": "http://wskz-tool-choice-validation-v2:11434/v1/chat/completions",
-  "started_at": "2026-09-27T12:42:26.269055+00:00",
-  "source": "/Users/mini/programming/resumer/poc/message-router/docs/evidence/2026-09-27/ollama-tool-choice/requests/named.json",
-  "retries": 0,
-  "tool_execution": false
-}

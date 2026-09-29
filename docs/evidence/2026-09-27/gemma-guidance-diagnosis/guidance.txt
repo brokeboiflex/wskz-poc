@@ -1,5 +1,0 @@
-<guidance>
-- Recruitment arrangements and candidate questions, training arrangements and accessibility, mentoring, team cooperation and employee feedback belong to human_resources, including requests for advice or coordination.
-- Recovering a user's work files belongs to help_desk. Suspected account compromise or data leakage belongs to it, even when only one account is affected.
-- Use other only when no specialist responsibility applies; asking for information or help organizing an action does not make a specialist request other.
-</guidance>

@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/discrimination-report/base", "scenario_id": "human_resources/discrimination-report", "variant": "base", "run_id": "2595eecba513", "dataset_sha256": "6bde4135175629b2b280a29ccf807819a68359fd0d4cd7941f16de1c6c66ed79", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "b592a6f8-2b43-4d8e-a2c8-d81d0138fd78", "passed": true, "seconds": 3.7}
-{"run_id": "2595eecba513", "dataset_sha256": "6bde4135175629b2b280a29ccf807819a68359fd0d4cd7941f16de1c6c66ed79", "passed": 1, "total": 1}

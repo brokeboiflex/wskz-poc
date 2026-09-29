@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/speaker-output/base", "scenario_id": "help_desk/speaker-output", "variant": "base", "run_id": "973ebfeca1b2", "dataset_sha256": "ea77c3e557333ccfdbe651604175a824a523852340b80ba03674598f4b308798", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "5681c871-c29a-4e1d-b637-a776b60413fd", "passed": true, "seconds": 5.349}
-{"run_id": "973ebfeca1b2", "dataset_sha256": "ea77c3e557333ccfdbe651604175a824a523852340b80ba03674598f4b308798", "passed": 1, "total": 1}

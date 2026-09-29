@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/leave-request/base", "scenario_id": "payroll/leave-request", "variant": "base", "run_id": "2397fa8bc39d", "dataset_sha256": "c7abfe636fcba810009dcb35cc6617678d75dd61842aaae1850cbe898031db24", "expected": "kadry@example.com", "passed": false, "error": "HTTP Error 502: Bad Gateway", "http_status": 502, "code": "invalid_tool_call", "request_id": "16c8abb8-1173-4090-b4de-92a2ee0a98c8", "seconds": 2.109}
-{"run_id": "2397fa8bc39d", "dataset_sha256": "c7abfe636fcba810009dcb35cc6617678d75dd61842aaae1850cbe898031db24", "passed": 0, "total": 1}

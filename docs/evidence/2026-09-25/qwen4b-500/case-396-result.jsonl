@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/security-usb/resolved_postscript", "scenario_id": "it/security-usb", "variant": "resolved_postscript", "run_id": "65e88b7ef70e", "dataset_sha256": "e9f1d14cb36e0f6a3ea7181d0609e864728d892d3770f71c9555d6c55e55aa63", "expected": "it@example.com", "actual": "it@example.com", "request_id": "15b0043e-32db-4cdc-afec-5afeffc8cd9b", "passed": true, "seconds": 4.564}
-{"run_id": "65e88b7ef70e", "dataset_sha256": "e9f1d14cb36e0f6a3ea7181d0609e864728d892d3770f71c9555d6c55e55aa63", "passed": 1, "total": 1}

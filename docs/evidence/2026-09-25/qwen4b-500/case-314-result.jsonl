@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/vpn-gateway/resolved_preface", "scenario_id": "it/vpn-gateway", "variant": "resolved_preface", "run_id": "9759b2a8c2c7", "dataset_sha256": "eb4cf33e11d83248dd07b4814b4f818760d3124722e836a7a0b1e9ca3ca731b7", "expected": "it@example.com", "passed": false, "error": "HTTP Error 502: Bad Gateway", "http_status": 502, "code": "invalid_tool_call", "request_id": "2242a94e-8f00-4b6c-881d-abe3826cc4d2", "seconds": 8.707}
-{"run_id": "9759b2a8c2c7", "dataset_sha256": "eb4cf33e11d83248dd07b4814b4f818760d3124722e836a7a0b1e9ca3ca731b7", "passed": 0, "total": 1}

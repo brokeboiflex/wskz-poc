@@ -1,8 +1,0 @@
-{
-  "status": "stopped_by_user",
-  "completed": 190,
-  "planned": 500,
-  "utc": "2026-09-25T22:14:30.593022+00:00",
-  "process_present": false,
-  "note": "Stopped at the case-190 review gate; no continuation was sent after case 190. Tool session no longer existed after turn interruption. No inference is authorized by this audit."
-}

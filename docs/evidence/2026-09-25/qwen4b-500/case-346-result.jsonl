@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/mail-queue/resolved_postscript", "scenario_id": "it/mail-queue", "variant": "resolved_postscript", "run_id": "f0be49971838", "dataset_sha256": "98c94713b7f914cddb333f68dc1f55552879033c6d1a06fc1da9f6ab877823ac", "expected": "it@example.com", "actual": "it@example.com", "request_id": "660cb4e5-7342-4cfd-9f49-7b42e8fe09ca", "passed": true, "seconds": 6.335}
-{"run_id": "f0be49971838", "dataset_sha256": "98c94713b7f914cddb333f68dc1f55552879033c6d1a06fc1da9f6ab877823ac", "passed": 1, "total": 1}

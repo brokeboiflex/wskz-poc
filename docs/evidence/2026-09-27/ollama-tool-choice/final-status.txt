@@ -1,4 +1,0 @@
-NAME                      IMAGE                                            COMMAND                  SERVICE   CREATED         STATUS                     PORTS
-message-router-api-1      message-router-api                               "uvicorn router_app.…"   api       3 minutes ago   Up 3 minutes (unhealthy)   127.0.0.1:8000->8000/tcp
-message-router-mailer-1   message-router-mailer                            "uvicorn mailer_app.…"   mailer    2 days ago      Up 22 hours (unhealthy)    8000/tcp
-message-router-ollama-1   wskz-ollama-candidate:0.34.4-poc.tool-choice.2   "/bin/ollama serve"      ollama    3 minutes ago   Up 3 minutes (healthy)     11434/tcp

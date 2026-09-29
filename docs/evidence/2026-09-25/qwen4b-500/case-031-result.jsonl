@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/conference-development/base", "scenario_id": "human_resources/conference-development", "variant": "base", "run_id": "26f4b2da3a22", "dataset_sha256": "105756b5ea0e6f5a73e2e00783a581a2589518ffe8c318ae6e11f1658c5d2aa6", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "bce7f96a-f2e4-4ba4-a0ee-27e374e574ab", "passed": true, "seconds": 3.986}
-{"run_id": "26f4b2da3a22", "dataset_sha256": "105756b5ea0e6f5a73e2e00783a581a2589518ffe8c318ae6e11f1658c5d2aa6", "passed": 1, "total": 1}

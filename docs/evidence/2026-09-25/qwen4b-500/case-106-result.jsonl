@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/leave-cancellation/resolved_postscript", "scenario_id": "payroll/leave-cancellation", "variant": "resolved_postscript", "run_id": "0eeab35ff343", "dataset_sha256": "36c6d5441615079c1d4bd0ce0df33ab16d7478db09ba0a8b27240c0280926830", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "85a66d20-9911-4d9a-9a3c-7a70eb433f72", "passed": true, "seconds": 3.571}
-{"run_id": "0eeab35ff343", "dataset_sha256": "36c6d5441615079c1d4bd0ce0df33ab16d7478db09ba0a8b27240c0280926830", "passed": 1, "total": 1}

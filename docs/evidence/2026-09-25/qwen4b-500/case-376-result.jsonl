@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/capacity/resolved_postscript", "scenario_id": "it/capacity", "variant": "resolved_postscript", "run_id": "272b2cd3ba40", "dataset_sha256": "776697c1db5c9bfeb1afc3bd996b60abbc1c5f87ed75140e04c84d93a7fcb154", "expected": "it@example.com", "actual": "it@example.com", "request_id": "8c828e20-e758-4a33-87c9-1dafb996b97c", "passed": true, "seconds": 4.469}
-{"run_id": "272b2cd3ba40", "dataset_sha256": "776697c1db5c9bfeb1afc3bd996b60abbc1c5f87ed75140e04c84d93a7fcb154", "passed": 1, "total": 1}

@@ -1,8 +1,0 @@
-{
-  "captured_deliveries": 10,
-  "mime_checks_passed": true,
-  "routing_correct": {
-    "ollama": 5,
-    "laya": 4
-  }
-}

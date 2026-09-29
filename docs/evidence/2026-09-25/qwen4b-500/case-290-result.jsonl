@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/meeting-display/forwarded_history", "scenario_id": "help_desk/meeting-display", "variant": "forwarded_history", "run_id": "807dff5e3ca9", "dataset_sha256": "29542630baa4e22e0dd65861700d915682712bda3c82ddcddc637083c9da9ff5", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "ead4554d-f83e-4433-8da9-7b219544478b", "passed": true, "seconds": 6.484}
-{"run_id": "807dff5e3ca9", "dataset_sha256": "29542630baa4e22e0dd65861700d915682712bda3c82ddcddc637083c9da9ff5", "passed": 1, "total": 1}

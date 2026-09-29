@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/payroll-login-resolved/base", "scenario_id": "payroll/payroll-login-resolved", "variant": "base", "run_id": "c63307ea1e6e", "dataset_sha256": "025c04417bbea361dc12a6368d957a38ffac2255e89639b1d9714a5ea06a28d8", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "3c509183-f8f7-41eb-a26e-6b3d634312f4", "passed": true, "seconds": 3.722}
-{"run_id": "c63307ea1e6e", "dataset_sha256": "025c04417bbea361dc12a6368d957a38ffac2255e89639b1d9714a5ea06a28d8", "passed": 1, "total": 1}

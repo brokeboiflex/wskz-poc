@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/leave-date-change/base", "scenario_id": "payroll/leave-date-change", "variant": "base", "run_id": "3acd95d2510b", "dataset_sha256": "c663fa7f4c7009150459d3c9d05ef2cf004ff27409723a08705005a380cc7e6c", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "d534f16f-e23d-43f9-89d7-7201a33ecbe3", "passed": true, "seconds": 3.518}
-{"run_id": "3acd95d2510b", "dataset_sha256": "c663fa7f4c7009150459d3c9d05ef2cf004ff27409723a08705005a380cc7e6c", "passed": 1, "total": 1}

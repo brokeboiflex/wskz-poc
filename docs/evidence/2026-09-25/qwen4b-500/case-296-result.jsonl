@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/print-duplex/resolved_postscript", "scenario_id": "help_desk/print-duplex", "variant": "resolved_postscript", "run_id": "6887161b4380", "dataset_sha256": "a733a81d65acf03dd67710cd85b07d910211cd27e29587a400e60f75d3dd090f", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "18d9a0cc-a282-4587-af54-a2be4c3e5dc3", "passed": true, "seconds": 4.875}
-{"run_id": "6887161b4380", "dataset_sha256": "a733a81d65acf03dd67710cd85b07d910211cd27e29587a400e60f75d3dd090f", "passed": 1, "total": 1}

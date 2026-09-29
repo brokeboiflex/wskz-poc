@@ -1,185 +1,0 @@
-#0 building with "default" instance using docker driver
-
-#1 [internal] load build definition from Dockerfile
-#1 transferring dockerfile: 5.48kB done
-#1 DONE 0.0s
-
-#2 [internal] load metadata for docker.io/library/golang:1.26.0-bookworm@sha256:2a0ba12e116687098780d3ce700f9ce3cb340783779646aafbabed748fa6677c
-#2 DONE 0.0s
-
-#3 [internal] load metadata for docker.io/ollama/ollama:0.34.4@sha256:8262851b2846b87c649eddf3e76beb270c52f4d1bc94559f47efde16b0841551
-#3 DONE 0.0s
-
-#4 [internal] load .dockerignore
-#4 transferring context: 2B done
-#4 DONE 0.0s
-
-#5 [internal] load build context
-#5 DONE 0.0s
-
-#6 [stage-2 1/4] FROM docker.io/ollama/ollama:0.34.4@sha256:8262851b2846b87c649eddf3e76beb270c52f4d1bc94559f47efde16b0841551
-#6 resolve docker.io/ollama/ollama:0.34.4@sha256:8262851b2846b87c649eddf3e76beb270c52f4d1bc94559f47efde16b0841551 done
-#6 DONE 0.0s
-
-#7 [build  1/10] FROM docker.io/library/golang:1.26.0-bookworm@sha256:2a0ba12e116687098780d3ce700f9ce3cb340783779646aafbabed748fa6677c
-#7 resolve docker.io/library/golang:1.26.0-bookworm@sha256:2a0ba12e116687098780d3ce700f9ce3cb340783779646aafbabed748fa6677c done
-#7 DONE 0.0s
-
-#8 [build  3/10] ADD https://codeload.github.com/ollama/ollama/tar.gz/refs/tags/v0.34.4 /tmp/ollama.tar.gz
-#8 DONE 0.2s
-
-#9 [native-build 2/5] ADD https://codeload.github.com/ggml-org/llama.cpp/tar.gz/161755f29e415e2c33efe906e91843c068efd664 /tmp/llama.tar.gz
-#9 ...
-
-#5 [internal] load build context
-#5 transferring context: 42.21kB done
-#5 DONE 0.0s
-
-#10 [build  4/10] RUN echo 'c265dfff78cd2fe909f9f9fa0bb21b1e34dfcd354e1bfa13ed8eac2cfce90940  /tmp/ollama.tar.gz' | sha256sum -c -     && tar -xzf /tmp/ollama.tar.gz --strip-components=1 -C /src
-#10 CACHED
-
-#11 [build  5/10] COPY template-json.patch unparsed-tool-output.patch /tmp/
-#11 CACHED
-
-#12 [build  2/10] WORKDIR /src
-#12 CACHED
-
-#13 [build  3/10] ADD https://codeload.github.com/ollama/ollama/tar.gz/refs/tags/v0.34.4 /tmp/ollama.tar.gz
-#13 CACHED
-
-#14 [build  6/10] RUN echo '25d63f40f90a6e1f5820164faca11655d8cfb9f9c47216c138ceb1baea63784e  /tmp/template-json.patch' | sha256sum -c -     && echo '5172a6b076ee7dfadb8052913de5d13fdf963cffb748d7e22eb67dad87fe964f  /tmp/unparsed-tool-output.patch' | sha256sum -c -     && git apply --check /tmp/template-json.patch /tmp/unparsed-tool-output.patch     && git apply /tmp/template-json.patch /tmp/unparsed-tool-output.patch
-#14 CACHED
-
-#15 [build  7/10] RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache/go-build     git apply -R --include=template/template.go /tmp/template-json.patch     && if go test -count=1 ./template/ -run '^TestTemplateToolFunctionJSON$' > /tmp/before.txt 2>&1; then cat /tmp/before.txt; exit 1; fi     && cat /tmp/before.txt     && grep -q 'not valid JSON:' /tmp/before.txt     && git apply --include=template/template.go /tmp/template-json.patch     && go test -count=1 ./template/... ./thinking/... ./tools/...     && go vet ./template/... ./tools/...     && CGO_ENABLED=1 go build -trimpath -buildmode=pie        -ldflags='-w -s -X github.com/ollama/ollama/version.Version=0.34.4-poc.18391.17284'        -o /out/ollama .
-#15 CACHED
-
-#16 [build  8/10] COPY gemma-native-tools.patch /tmp/
-#16 DONE 0.0s
-
-#17 [build  9/10] RUN echo '42f0afb553b84be729b262f83634e0556e8670ac403f0ee7dbd26ef6ba918ae6  /tmp/gemma-native-tools.patch' | sha256sum -c -     && git apply --check /tmp/gemma-native-tools.patch     && git apply /tmp/gemma-native-tools.patch
-#17 0.085 /tmp/gemma-native-tools.patch: OK
-#17 DONE 0.1s
-
-#18 [build 10/10] RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache/go-build     git apply -R --include=server/routes.go /tmp/gemma-native-tools.patch     && if go test -count=1 ./server/ -run '^TestGemma4NativeToolRoute$' > /tmp/gemma-before.txt 2>&1; then cat /tmp/gemma-before.txt; exit 1; fi     && cat /tmp/gemma-before.txt     && grep -q 'Gemma tool calls bypass native grammar' /tmp/gemma-before.txt     && git apply --include=server/routes.go /tmp/gemma-native-tools.patch     && test -z "$(gofmt -l llm/server.go llm/llama_server.go llm/native_template_test.go server/routes.go server/native_gemma4.go server/native_gemma4_test.go)"     && go test -count=1 ./llm/... ./server/... ./model/renderers/... ./model/parsers/... ./openai/...     && go vet ./llm/... ./server/...     && CGO_ENABLED=1 go build -trimpath -buildmode=pie        -ldflags='-w -s -X github.com/ollama/ollama/version.Version=0.34.4-poc.gemma-native.2'        -o /out/ollama .
-#18 1.763 --- FAIL: TestGemma4NativeToolRoute (0.00s)
-#18 1.763     native_gemma4_test.go:60: Gemma tool calls bypass native grammar: mode = 1
-#18 1.763 FAIL
-#18 1.763 FAIL	github.com/ollama/ollama/server	0.005s
-#18 1.763 FAIL
-#18 3.630 ok  	github.com/ollama/ollama/llm	1.381s
-#18 ...
-
-#9 [native-build 2/5] ADD https://codeload.github.com/ggml-org/llama.cpp/tar.gz/161755f29e415e2c33efe906e91843c068efd664 /tmp/llama.tar.gz
-#9 DONE 5.0s
-
-#9 [native-build 2/5] ADD https://codeload.github.com/ggml-org/llama.cpp/tar.gz/161755f29e415e2c33efe906e91843c068efd664 /tmp/llama.tar.gz
-#9 DONE 5.0s
-
-#18 [build 10/10] RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache/go-build     git apply -R --include=server/routes.go /tmp/gemma-native-tools.patch     && if go test -count=1 ./server/ -run '^TestGemma4NativeToolRoute$' > /tmp/gemma-before.txt 2>&1; then cat /tmp/gemma-before.txt; exit 1; fi     && cat /tmp/gemma-before.txt     && grep -q 'Gemma tool calls bypass native grammar' /tmp/gemma-before.txt     && git apply --include=server/routes.go /tmp/gemma-native-tools.patch     && test -z "$(gofmt -l llm/server.go llm/llama_server.go llm/native_template_test.go server/routes.go server/native_gemma4.go server/native_gemma4_test.go)"     && go test -count=1 ./llm/... ./server/... ./model/renderers/... ./model/parsers/... ./openai/...     && go vet ./llm/... ./server/...     && CGO_ENABLED=1 go build -trimpath -buildmode=pie        -ldflags='-w -s -X github.com/ollama/ollama/version.Version=0.34.4-poc.gemma-native.2'        -o /out/ollama .
-#18 5.739 ok  	github.com/ollama/ollama/server	2.658s
-#18 5.739 ok  	github.com/ollama/ollama/model/renderers	0.011s
-#18 5.739 ok  	github.com/ollama/ollama/model/parsers	0.019s
-#18 5.739 ok  	github.com/ollama/ollama/openai	0.011s
-#18 DONE 7.4s
-
-#6 [stage-2 1/4] FROM docker.io/ollama/ollama:0.34.4@sha256:8262851b2846b87c649eddf3e76beb270c52f4d1bc94559f47efde16b0841551
-#6 CACHED
-
-#19 [stage-2 2/4] COPY --from=build /out/ollama /usr/bin/ollama
-#19 DONE 0.0s
-
-#20 [native-build 1/5] RUN apt-get update && apt-get install -y --no-install-recommends cmake ninja-build && rm -rf /var/lib/apt/lists/*
-#20 0.241 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
-#20 0.329 Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
-#20 0.365 Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
-#20 0.403 Get:4 http://deb.debian.org/debian bookworm/main arm64 Packages [8689 kB]
-#20 0.701 Get:5 http://deb.debian.org/debian bookworm-updates/main arm64 Packages [6936 B]
-#20 0.731 Get:6 http://deb.debian.org/debian-security bookworm-security/main arm64 Packages [343 kB]
-#20 1.211 Fetched 9280 kB in 1s (8860 kB/s)
-#20 1.211 Reading package lists...
-#20 1.395 Reading package lists...
-#20 1.573 Building dependency tree...
-#20 1.617 Reading state information...
-#20 1.670 The following additional packages will be installed:
-#20 1.670   cmake-data libarchive13 libicu72 libjsoncpp25 librhash0 libuv1 libxml2
-#20 1.670 Suggested packages:
-#20 1.670   cmake-doc cmake-format elpa-cmake-mode lrzip
-#20 1.703 The following NEW packages will be installed:
-#20 1.703   cmake cmake-data libarchive13 libicu72 libjsoncpp25 librhash0 libuv1 libxml2
-#20 1.703   ninja-build
-#20 1.798 0 upgraded, 9 newly installed, 0 to remove and 36 not upgraded.
-#20 1.798 Need to get 19.4 MB of archives.
-#20 1.798 After this operation, 77.5 MB of additional disk space will be used.
-#20 1.798 Get:1 http://deb.debian.org/debian bookworm/main arm64 libicu72 arm64 72.1-3+deb12u1 [9202 kB]
-#20 2.194 Get:2 http://deb.debian.org/debian bookworm/main arm64 libxml2 arm64 2.9.14+dfsg-1.3~deb12u6 [620 kB]
-#20 2.210 Get:3 http://deb.debian.org/debian-security bookworm-security/main arm64 libarchive13 arm64 3.6.2-1+deb12u5 [318 kB]
-#20 2.219 Get:4 http://deb.debian.org/debian bookworm/main arm64 libjsoncpp25 arm64 1.9.5-4 [72.3 kB]
-#20 2.251 Get:5 http://deb.debian.org/debian bookworm/main arm64 librhash0 arm64 1.4.3-3 [131 kB]
-#20 2.285 Get:6 http://deb.debian.org/debian bookworm/main arm64 libuv1 arm64 1.44.2-1+deb12u1 [130 kB]
-#20 2.318 Get:7 http://deb.debian.org/debian bookworm/main arm64 cmake-data all 3.25.1-1 [2026 kB]
-#20 2.405 Get:8 http://deb.debian.org/debian bookworm/main arm64 cmake arm64 3.25.1-1 [6806 kB]
-#20 2.593 Get:9 http://deb.debian.org/debian bookworm/main arm64 ninja-build arm64 1.11.1-2~deb12u1 [126 kB]
-#20 2.688 debconf: delaying package configuration, since apt-utils is not installed
-#20 2.696 Fetched 19.4 MB in 1s (21.8 MB/s)
-#20 2.706 Selecting previously unselected package libicu72:arm64.
-#20 2.706 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 15641 files and directories currently installed.)
-#20 2.749 Preparing to unpack .../0-libicu72_72.1-3+deb12u1_arm64.deb ...
-#20 2.750 Unpacking libicu72:arm64 (72.1-3+deb12u1) ...
-#20 3.025 Selecting previously unselected package libxml2:arm64.
-#20 3.026 Preparing to unpack .../1-libxml2_2.9.14+dfsg-1.3~deb12u6_arm64.deb ...
-#20 3.027 Unpacking libxml2:arm64 (2.9.14+dfsg-1.3~deb12u6) ...
-#20 3.058 Selecting previously unselected package libarchive13:arm64.
-#20 3.058 Preparing to unpack .../2-libarchive13_3.6.2-1+deb12u5_arm64.deb ...
-#20 3.059 Unpacking libarchive13:arm64 (3.6.2-1+deb12u5) ...
-#20 3.078 Selecting previously unselected package libjsoncpp25:arm64.
-#20 3.079 Preparing to unpack .../3-libjsoncpp25_1.9.5-4_arm64.deb ...
-#20 3.080 Unpacking libjsoncpp25:arm64 (1.9.5-4) ...
-#20 3.090 Selecting previously unselected package librhash0:arm64.
-#20 3.091 Preparing to unpack .../4-librhash0_1.4.3-3_arm64.deb ...
-#20 3.091 Unpacking librhash0:arm64 (1.4.3-3) ...
-#20 3.103 Selecting previously unselected package libuv1:arm64.
-#20 3.104 Preparing to unpack .../5-libuv1_1.44.2-1+deb12u1_arm64.deb ...
-#20 3.105 Unpacking libuv1:arm64 (1.44.2-1+deb12u1) ...
-#20 3.120 Selecting previously unselected package cmake-data.
-#20 3.121 Preparing to unpack .../6-cmake-data_3.25.1-1_all.deb ...
-#20 3.124 Unpacking cmake-data (3.25.1-1) ...
-#20 3.242 Selecting previously unselected package cmake.
-#20 3.243 Preparing to unpack .../7-cmake_3.25.1-1_arm64.deb ...
-#20 3.244 Unpacking cmake (3.25.1-1) ...
-#20 3.490 Selecting previously unselected package ninja-build.
-#20 3.491 Preparing to unpack .../8-ninja-build_1.11.1-2~deb12u1_arm64.deb ...
-#20 3.492 Unpacking ninja-build (1.11.1-2~deb12u1) ...
-#20 3.507 Setting up libicu72:arm64 (72.1-3+deb12u1) ...
-#20 3.509 Setting up ninja-build (1.11.1-2~deb12u1) ...
-#20 3.512 Setting up libuv1:arm64 (1.44.2-1+deb12u1) ...
-#20 3.514 Setting up libjsoncpp25:arm64 (1.9.5-4) ...
-#20 3.516 Setting up librhash0:arm64 (1.4.3-3) ...
-#20 3.518 Setting up cmake-data (3.25.1-1) ...
-#20 3.522 Setting up libxml2:arm64 (2.9.14+dfsg-1.3~deb12u6) ...
-#20 3.524 Setting up libarchive13:arm64 (3.6.2-1+deb12u5) ...
-#20 3.526 Setting up cmake (3.25.1-1) ...
-#20 3.529 Processing triggers for libc-bin (2.36-9+deb12u13) ...
-#20 DONE 3.6s
-
-#21 [native-build 2/5] ADD https://codeload.github.com/ggml-org/llama.cpp/tar.gz/161755f29e415e2c33efe906e91843c068efd664 /tmp/llama.tar.gz
-#21 DONE 0.0s
-
-#22 [native-build 3/5] RUN echo 'd1038d4e2ec8c0d9ecceaad11c8ec37d287ba0ab3e618a008be11dbd81822ed0  /tmp/llama.tar.gz' | sha256sum -c -     && mkdir /llama && tar -xzf /tmp/llama.tar.gz --strip-components=1 -C /llama
-#22 0.148 /tmp/llama.tar.gz: FAILED
-#22 0.148 sha256sum: WARNING: 1 computed checksum did NOT match
-#22 ERROR: process "/bin/sh -c echo 'd1038d4e2ec8c0d9ecceaad11c8ec37d287ba0ab3e618a008be11dbd81822ed0  /tmp/llama.tar.gz' | sha256sum -c -     && mkdir /llama && tar -xzf /tmp/llama.tar.gz --strip-components=1 -C /llama" did not complete successfully: exit code: 1
-------
- > [native-build 3/5] RUN echo 'd1038d4e2ec8c0d9ecceaad11c8ec37d287ba0ab3e618a008be11dbd81822ed0  /tmp/llama.tar.gz' | sha256sum -c -     && mkdir /llama && tar -xzf /tmp/llama.tar.gz --strip-components=1 -C /llama:
-0.148 /tmp/llama.tar.gz: FAILED
-0.148 sha256sum: WARNING: 1 computed checksum did NOT match
-------
-Dockerfile:46
---------------------
-  45 |     ADD https://codeload.github.com/ggml-org/llama.cpp/tar.gz/161755f29e415e2c33efe906e91843c068efd664 /tmp/llama.tar.gz
-  46 | >>> RUN echo 'd1038d4e2ec8c0d9ecceaad11c8ec37d287ba0ab3e618a008be11dbd81822ed0  /tmp/llama.tar.gz' | sha256sum -c - \
-  47 | >>>     && mkdir /llama && tar -xzf /tmp/llama.tar.gz --strip-components=1 -C /llama
-  48 |     COPY gemma-preserved-token.patch gemma-native-test.cpp /tmp/
---------------------
-ERROR: failed to build: failed to solve: process "/bin/sh -c echo 'd1038d4e2ec8c0d9ecceaad11c8ec37d287ba0ab3e618a008be11dbd81822ed0  /tmp/llama.tar.gz' | sha256sum -c -     && mkdir /llama && tar -xzf /tmp/llama.tar.gz --strip-components=1 -C /llama" did not complete successfully: exit code: 1
-
-View build details: docker-desktop://dashboard/build/default/default/tlsnr7e5qnfxn8mfa5m9gxp0s

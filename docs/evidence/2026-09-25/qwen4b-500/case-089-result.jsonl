@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "human_resources/cross-team-conflict/base", "scenario_id": "human_resources/cross-team-conflict", "variant": "base", "run_id": "72394c54747f", "dataset_sha256": "d5ca6ac43fee62779465a79b963e9536f9ca95eda89ce5c250d623ebe03abc1f", "expected": "human-resources@example.com", "actual": "human-resources@example.com", "request_id": "6cfa91e9-42ad-46cc-9af5-259ab1a5c4d6", "passed": true, "seconds": 9.07}
-{"run_id": "72394c54747f", "dataset_sha256": "d5ca6ac43fee62779465a79b963e9536f9ca95eda89ce5c250d623ebe03abc1f", "passed": 1, "total": 1}

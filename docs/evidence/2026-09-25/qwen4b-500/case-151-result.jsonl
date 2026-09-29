@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/service-certificate/base", "scenario_id": "payroll/service-certificate", "variant": "base", "run_id": "007a68b12eba", "dataset_sha256": "d0ce01927b8dbe81fdcc29d6713bd159d81db1e455ef1635b40f185eb4985a1e", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "1336f1ad-28dd-4540-86d2-bd3fc566b424", "passed": true, "seconds": 3.585}
-{"run_id": "007a68b12eba", "dataset_sha256": "d0ce01927b8dbe81fdcc29d6713bd159d81db1e455ef1635b40f185eb4985a1e", "passed": 1, "total": 1}

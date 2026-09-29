@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/switch-failure/base", "scenario_id": "it/switch-failure", "variant": "base", "run_id": "a7867349fbb0", "dataset_sha256": "81713e9224c74b4fc4d754cb322b394b9b5e0743c8d124da11709f3766997213", "expected": "it@example.com", "actual": "it@example.com", "request_id": "77d06ca5-9159-4c76-9f93-f6179082d643", "passed": true, "seconds": 7.396}
-{"run_id": "a7867349fbb0", "dataset_sha256": "81713e9224c74b4fc4d754cb322b394b9b5e0743c8d124da11709f3766997213", "passed": 1, "total": 1}

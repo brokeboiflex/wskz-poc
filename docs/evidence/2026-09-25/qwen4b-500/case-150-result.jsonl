@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/income-certificate/forwarded_history", "scenario_id": "payroll/income-certificate", "variant": "forwarded_history", "run_id": "cb6caabdda1e", "dataset_sha256": "e40527dc8f8f5f32334c60e848f87d68b8e2632026c63077f7b7eeb9d05d318d", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "3f95e1af-84f7-463d-8c11-5aacee1a5e78", "passed": true, "seconds": 6.384}
-{"run_id": "cb6caabdda1e", "dataset_sha256": "e40527dc8f8f5f32334c60e848f87d68b8e2632026c63077f7b7eeb9d05d318d", "passed": 1, "total": 1}

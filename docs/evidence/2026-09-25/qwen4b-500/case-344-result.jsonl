@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/mail-server/resolved_preface", "scenario_id": "it/mail-server", "variant": "resolved_preface", "run_id": "60b3a9e7f61c", "dataset_sha256": "555fc6b299b3e6f4377fcc325fe11e6f2f6bb12570db55e4a39e27b73736258c", "expected": "it@example.com", "actual": "it@example.com", "request_id": "fbc09c82-fed6-4dea-b6c8-8713d9ecbd1f", "passed": true, "seconds": 8.861}
-{"run_id": "60b3a9e7f61c", "dataset_sha256": "555fc6b299b3e6f4377fcc325fe11e6f2f6bb12570db55e4a39e27b73736258c", "passed": 1, "total": 1}

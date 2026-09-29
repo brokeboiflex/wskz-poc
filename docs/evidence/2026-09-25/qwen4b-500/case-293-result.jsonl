@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/browser-extension/base", "scenario_id": "help_desk/browser-extension", "variant": "base", "run_id": "26ca58554a59", "dataset_sha256": "1d454c2385f4da8fc2c94ab321b25a5dfe24d8c23f33507a48d1e0e8b33fa038", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "e8a36eaf-1004-4939-8a13-9cbb2efbebb9", "passed": true, "seconds": 4.455}
-{"run_id": "26ca58554a59", "dataset_sha256": "1d454c2385f4da8fc2c94ab321b25a5dfe24d8c23f33507a48d1e0e8b33fa038", "passed": 1, "total": 1}

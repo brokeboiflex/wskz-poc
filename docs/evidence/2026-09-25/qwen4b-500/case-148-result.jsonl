@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/employment-certificate/conversation_history", "scenario_id": "payroll/employment-certificate", "variant": "conversation_history", "run_id": "c031944f4f1f", "dataset_sha256": "e3b70ce161024fa42870bf0344ec6dd3c3e581db25ffbbda7d31c29c32c1f1fb", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "9704b10d-bd31-4703-9094-6059e19116ad", "passed": true, "seconds": 11.808}
-{"run_id": "c031944f4f1f", "dataset_sha256": "e3b70ce161024fa42870bf0344ec6dd3c3e581db25ffbbda7d31c29c32c1f1fb", "passed": 1, "total": 1}

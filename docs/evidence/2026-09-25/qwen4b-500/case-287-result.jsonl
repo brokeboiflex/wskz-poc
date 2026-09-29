@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/local-backup-restore/base", "scenario_id": "help_desk/local-backup-restore", "variant": "base", "run_id": "ca0c3a170808", "dataset_sha256": "f7c789fb101207e43165d7d0b7eb75b4240bef042601cc5c04019d693f85741a", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "2ca9b606-b936-4ad4-9a98-7576d7219293", "passed": true, "seconds": 6.026}
-{"run_id": "ca0c3a170808", "dataset_sha256": "f7c789fb101207e43165d7d0b7eb75b4240bef042601cc5c04019d693f85741a", "passed": 1, "total": 1}

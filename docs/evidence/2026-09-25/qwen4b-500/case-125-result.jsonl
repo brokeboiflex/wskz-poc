@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/overtime-pay/base", "scenario_id": "payroll/overtime-pay", "variant": "base", "run_id": "601224b571e6", "dataset_sha256": "65a37daf9d98242085408bfdfb09731913bef72efe3ae618561037a75d69eb96", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "0be7447a-211e-45a2-b657-57c10a2a170f", "passed": true, "seconds": 5.817}
-{"run_id": "601224b571e6", "dataset_sha256": "65a37daf9d98242085408bfdfb09731913bef72efe3ae618561037a75d69eb96", "passed": 1, "total": 1}

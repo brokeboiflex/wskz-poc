@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/scanner/resolved_preface", "scenario_id": "help_desk/scanner", "variant": "resolved_preface", "run_id": "1eeba4eda2bd", "dataset_sha256": "790345e2405b7416026154fa5e6dd76a73de3effb2c88e314533b54aa855015d", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "fe471bf8-d13e-4d26-86d9-7ddaa78bdbfc", "passed": true, "seconds": 5.735}
-{"run_id": "1eeba4eda2bd", "dataset_sha256": "790345e2405b7416026154fa5e6dd76a73de3effb2c88e314533b54aa855015d", "passed": 1, "total": 1}

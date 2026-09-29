@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/sso-outage/conversation_history", "scenario_id": "it/sso-outage", "variant": "conversation_history", "run_id": "15df2747932e", "dataset_sha256": "cf95cc3f0b87ff47ef94a8ef3d0769e38c490b79e6dd8b00576f9461b2570922", "expected": "it@example.com", "actual": "it@example.com", "request_id": "0534dbdf-ab4f-42f3-9250-42532db2a54f", "passed": true, "seconds": 11.165}
-{"run_id": "15df2747932e", "dataset_sha256": "cf95cc3f0b87ff47ef94a8ef3d0769e38c490b79e6dd8b00576f9461b2570922", "passed": 1, "total": 1}

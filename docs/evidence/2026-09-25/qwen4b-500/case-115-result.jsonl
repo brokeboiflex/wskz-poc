@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/care-leave/base", "scenario_id": "payroll/care-leave", "variant": "base", "run_id": "a24035aa5313", "dataset_sha256": "877b3bc355dcbe81fceee19a3de4aff184705969a7d95cbbde883cc9f9f21ce1", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "d157ad68-c84c-4f45-92b1-8aa1719ce0cf", "passed": true, "seconds": 3.856}
-{"run_id": "a24035aa5313", "dataset_sha256": "877b3bc355dcbe81fceee19a3de4aff184705969a7d95cbbde883cc9f9f21ce1", "passed": 1, "total": 1}

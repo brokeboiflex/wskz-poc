@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/printer-local/forwarded_history", "scenario_id": "help_desk/printer-local", "variant": "forwarded_history", "run_id": "8fa35eff9167", "dataset_sha256": "8da3721283065a025b350588a3615b800bbae3d5d9894700737e1648c2587993", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "0330a540-24c2-4b85-9838-be3f804eb16b", "passed": true, "seconds": 11.695}
-{"run_id": "8fa35eff9167", "dataset_sha256": "8da3721283065a025b350588a3615b800bbae3d5d9894700737e1648c2587993", "passed": 1, "total": 1}

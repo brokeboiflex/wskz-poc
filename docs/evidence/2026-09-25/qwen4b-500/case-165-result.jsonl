@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/weekend-shift/base", "scenario_id": "payroll/weekend-shift", "variant": "base", "run_id": "3bc8be85067e", "dataset_sha256": "400ac064a1e3c5143f56d99b41dd6447a245646a86808ee31275423ea3d85701", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "ea781ca7-69ee-47f2-8884-884979dd4cc9", "passed": true, "seconds": 8.736}
-{"run_id": "3bc8be85067e", "dataset_sha256": "400ac064a1e3c5143f56d99b41dd6447a245646a86808ee31275423ea3d85701", "passed": 1, "total": 1}

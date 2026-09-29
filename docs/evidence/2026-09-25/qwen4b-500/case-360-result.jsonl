@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/data-exposure/forwarded_history", "scenario_id": "it/data-exposure", "variant": "forwarded_history", "run_id": "3efc947c4d15", "dataset_sha256": "ab449e191006e01801728130cd74b78d388a4097f8ab24dd8039dc793e2a88da", "expected": "it@example.com", "actual": "it@example.com", "request_id": "cee29c78-85ea-4626-808a-5653dc17f7d5", "passed": true, "seconds": 8.473}
-{"run_id": "3efc947c4d15", "dataset_sha256": "ab449e191006e01801728130cd74b78d388a4097f8ab24dd8039dc793e2a88da", "passed": 1, "total": 1}

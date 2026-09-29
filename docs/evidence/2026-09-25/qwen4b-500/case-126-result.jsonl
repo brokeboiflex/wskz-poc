@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/overtime-pay/resolved_postscript", "scenario_id": "payroll/overtime-pay", "variant": "resolved_postscript", "run_id": "19aff6a1c265", "dataset_sha256": "3f33b111aa129cece8b0407b8062799d2153549a5bf7f603008b6a14450a3ae9", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "60245568-8a72-4ac8-8948-19d30854cc72", "passed": true, "seconds": 3.682}
-{"run_id": "19aff6a1c265", "dataset_sha256": "3f33b111aa129cece8b0407b8062799d2153549a5bf7f603008b6a14450a3ae9", "passed": 1, "total": 1}

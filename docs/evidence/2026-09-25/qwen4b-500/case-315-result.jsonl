@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "it/firewall-rules/base", "scenario_id": "it/firewall-rules", "variant": "base", "run_id": "e0667ad2aad3", "dataset_sha256": "26e05243aedbb9eaef3ef237977001b31350583ffa2d4e07633bec45e7a740a4", "expected": "it@example.com", "actual": "it@example.com", "request_id": "cfc4658e-fbc1-449b-95d9-ca085b958092", "passed": true, "seconds": 7.279}
-{"run_id": "e0667ad2aad3", "dataset_sha256": "26e05243aedbb9eaef3ef237977001b31350583ffa2d4e07633bec45e7a740a4", "passed": 1, "total": 1}

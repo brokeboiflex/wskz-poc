@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "help_desk/boot-loop/resolved_preface", "scenario_id": "help_desk/boot-loop", "variant": "resolved_preface", "run_id": "604efa7a94f4", "dataset_sha256": "e76f2da5ead70953f457152f0fba817d0510602cd9e7698e99b40083f1c3019a", "expected": "help-desk@example.com", "actual": "help-desk@example.com", "request_id": "6f6491f4-d790-4bee-b10d-c1a058042eff", "passed": true, "seconds": 7.356}
-{"run_id": "604efa7a94f4", "dataset_sha256": "e76f2da5ead70953f457152f0fba817d0510602cd9e7698e99b40083f1c3019a", "passed": 1, "total": 1}

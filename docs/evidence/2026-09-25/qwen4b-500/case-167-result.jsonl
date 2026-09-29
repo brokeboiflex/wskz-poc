@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/schedule-record/base", "scenario_id": "payroll/schedule-record", "variant": "base", "run_id": "6c1ff9f9f55e", "dataset_sha256": "3f19305b944869c5c9319537271b65e29064a3407053baaede69ec393fe22d39", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "244c0fcf-6b69-4346-b9d9-d9d23e7545a7", "passed": true, "seconds": 8.12}
-{"run_id": "6c1ff9f9f55e", "dataset_sha256": "3f19305b944869c5c9319537271b65e29064a3407053baaede69ec393fe22d39", "passed": 1, "total": 1}

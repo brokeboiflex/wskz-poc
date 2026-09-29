@@ -1,2 +1,0 @@
-{"case": 1, "case_id": "payroll/sick-pay/forwarded_history", "scenario_id": "payroll/sick-pay", "variant": "forwarded_history", "run_id": "abe855ab8726", "dataset_sha256": "fc094aa1f418649c4242c91274f76fb6e1fafeecf29f8384d33ae1969fe75515", "expected": "kadry@example.com", "actual": "kadry@example.com", "request_id": "aa8feb22-9cad-401a-bb3f-b7bf3cd40d86", "passed": true, "seconds": 6.777}
-{"run_id": "abe855ab8726", "dataset_sha256": "fc094aa1f418649c4242c91274f76fb6e1fafeecf29f8384d33ae1969fe75515", "passed": 1, "total": 1}
