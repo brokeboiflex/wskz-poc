@@ -1,0 +1,3 @@
+# Backend patches are verified byte-for-byte during the Docker build.
+# Keep their original LF bytes even with core.autocrlf=true on Windows.
+/services/ollama/*.patch text eol=lf

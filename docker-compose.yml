@@ -131,8 +131,8 @@ services:
   ollama:
     # Pinned backend fixes; generic agent and model weights remain unchanged.
     # Native Gemma grammar + narrow delimiter preservation; see README.md#poprawki-backendu-ollama.
-    image: wskz-ollama-candidate:0.34.4-poc.tool-choice.2
-    build: ./services/ollama-candidate
+    image: wskz-ollama:0.34.4-poc.tool-choice.2
+    build: ./services/ollama
     environment:
       OLLAMA_HOST: 0.0.0.0:11434
       OLLAMA_KEEP_ALIVE: 30m

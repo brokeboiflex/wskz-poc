@@ -63,7 +63,7 @@ hashes intact; never use the old benchmark to tune or select the model.
 - Tests use synthetic messages and Mailpit only. Never use another project's
   keys, production mail or arbitrary external recipients.
 - Preserve checksummed backend patches, native token preservation and tool-choice
-  transport under services/ollama-candidate. Do not replace them with stock
+  transport under services/ollama. Do not replace them with stock
   upstream, template rewrites at startup or application-specific heuristics.
 
 ## Operation and verification

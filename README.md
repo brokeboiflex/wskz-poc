@@ -13,6 +13,11 @@ Zalecenie startowe: 8 GB RAM dla Dockera i zapas miejsca na obrazy, kompilację
 oraz model; nie jest to zmierzony minimalny próg. Domyślny wariant używa CPU.
 Nie wymaga Pythona ani klucza API na hoście.
 
+Na Windows pliki `services/ollama/*.patch` muszą zachować końce linii
+LF: Dockerfile weryfikuje ich dokładne sumy SHA-256 przed zastosowaniem poprawek.
+Reguła w `.gitattributes` chroni je także przy `core.autocrlf=true`.
+Konwersja tych plików do CRLF powoduje błąd sumy kontrolnej podczas budowy.
+
 Z głównego katalogu projektu:
 
 ```sh
@@ -280,7 +285,7 @@ Ollama.** Laya pozostaje opcjonalnym eksperymentem porównawczym.
 ## Poprawki backendu Ollama
 
 Domyślna wersja to `0.34.4-poc.tool-choice.2`, budowana w
-[`services/ollama-candidate/`](services/ollama-candidate/) na oficjalnym obrazie
+[`services/ollama/`](services/ollama/) na oficjalnym obrazie
 Ollama. Dockerfile przypina źródła, obraz bazowy i sumy kontrolne poprawek oraz
 uruchamia testy regresji i `go vet` podczas budowy.
 
@@ -390,6 +395,54 @@ poświadczeń przed zmienianiem aplikacji. Przyczyny pierwszego timeoutu nie
 ustalono; ta uwaga nie oznacza wymogu dodatkowego kontenera do normalnego startu.
 
 ## Weryfikacja
+
+### Windows / x86-64 — 29.09.2026
+
+Aktualny kod (`aa50abc2cfdc5b9e5d47ae7d312b2be55fb57797` plus poniższa
+poprawka `.gitattributes`) sprawdzono na Windows z Docker Desktop Linux x86-64,
+12 vCPU i 15,42 GiB RAM, na CPU. Użyto nowych kontenerów i pustych wolumenów
+w osobnym projekcie `wskz-acceptance-20260929`, z domyślnymi ustawieniami
+i pustym plikiem env. Stare środowisko `message-router` i jego dane zachowano.
+
+Pierwsze `up -d` ujawniło błąd przenośności: `core.autocrlf=true` zmieniało
+bajty patchy na CRLF, przez co kontrola SHA-256 zatrzymywała budowę Ollamy.
+Dodano `.gitattributes` wymuszający LF wyłącznie dla patchy backendu i przywrócono
+ich oryginalne bajty. Sum kontrolnych ani treści poprawek nie zmieniano.
+Sprawdzono także wynik filtrów checkoutu Git przy `core.autocrlf=true`.
+
+Po tej poprawce zwykłe `up -d` zbudowało Ollamę ze źródeł wraz z testami
+backendu, pobrało `gemma4:e2b` do pustego wolumenu, zaliczyło sondę natywnego
+tool calling i udostępniło zdrowe API. Cache niezmienionych warstw obrazów
+aplikacyjnych był dostępny; nie był to test całkowicie pustego cache Dockera.
+
+| Kontrola | Wynik |
+| --- | --- |
+| Testy aplikacji w świeżo zbudowanym kontenerze | 134/134 |
+| Ruff: lint i formatowanie | Zaliczone |
+| Pierwszy start i późniejszy pełny stop/start | Natychmiastowe HTTP 200 po każdym `up -d`, bez retry klienta |
+| 15 przypadków z `verification/cases.json` | 15/15 za pierwszą próbą, po 3 na każdy dział |
+| Natywny tool call, walidacja, dostawa | 75 skorelowanych zdarzeń trace, po 5 na przypadek |
+| MIME: odbiorca, Reply-To, treść, Message-ID, X-Request-ID | Poprawne we wszystkich 15 przypadkach |
+| Błędny adres, pusta treść, brak treści | 3 odpowiedzi 422, bez nowej poczty |
+| Swagger i Mailpit z hosta w przeglądarce | Zaliczone; widoczne wiadomości i Reply-To |
+| Request z README przez cURL, po restarcie i z trace=false | Poprawna dodatkowa wiadomość do kadr |
+| Liczba wiadomości po kontroli | 16, bez duplikatów |
+
+Każdy przypadek sprawdzono przed następnym żądaniem. Nie uruchamiano benchmarku
+500 wiadomości ani treningu. Po kontroli pozostawiono nowe usługi uruchomione
+na portach 8000 i 8025, z `MODEL_TRACE=false`. Ich obsługa z katalogu repozytorium:
+
+```sh
+docker compose -p wskz-acceptance-20260929 ps -a
+docker compose -p wskz-acceptance-20260929 stop
+```
+
+Przed uruchomieniem innego projektu Compose na tych samych portach zatrzymaj
+ten projekt. Lokalny komplet dowodów (log błędu i udanej budowy, 15 wyników,
+trace, MIME, zrzuty przeglądarki, restart i `summary.json`) zachowano pod
+`%LOCALAPPDATA%/wskz-poc/acceptance-20260929`. Nie jest częścią repozytorium.
+
+### Historyczny odbiór ARM64 — 28.09.2026
 
 **28.09.2026 PoC zaliczył sprawdzenie wszystkich kryteriów zadania.**
 Świeży klon, budowa serwisów i poprawionej Ollamy ze źródeł oraz automatyczne
