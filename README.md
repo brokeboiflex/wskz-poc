@@ -143,6 +143,42 @@ szkolenia o płacach do HR. Dla kilku tematów model wybiera główną prośbę.
 `other` również uruchamia narzędzie wysyłki. Awaria modelu daje błąd, nie
 automatyczne przekazanie do fallbacku.
 
+### Zmiana promptu
+
+Prompt jest definiowany w
+[`services/router/router_app/adapters/agent.py`](services/router/router_app/adapters/agent.py),
+bezpośrednio w kodzie:
+
+- `SYSTEM_PROMPT` — instrukcja systemowa agenta: zasady routingu, rozstrzyganie
+  niejednoznaczności i sposób wywołania narzędzia.
+- `DEPARTMENT_CRITERIA` — opisy działów przekazywane w schemacie narzędzia.
+- `DECISION_INSTRUCTIONS` — pytanie decyzyjne opisujące argument `department`.
+
+Aby zmienić zakres odpowiedzialności działu, zaktualizuj zarówno jego opis
+w `DEPARTMENT_CRITERIA`, jak i odpowiadające mu reguły w `SYSTEM_PROMPT`.
+Na przykład zmianę zasad kierowania zgłoszeń o dostępie do aplikacji należy
+uwzględnić w opisach help desku i IT oraz w instrukcji systemowej.
+Zachowaj nazwy klas i kontrakt narzędzia: jedno wywołanie
+`send_department_email` z jednym argumentem `department`.
+
+Po zapisaniu zmian przebuduj i odtwórz kontener API:
+
+```sh
+docker compose up -d --build --no-deps api
+```
+
+Jeśli środowisko uruchomiono z `--env-file` lub `-p`, użyj tych samych opcji
+przy przebudowie. Sam restart kontenera nie wczyta zmian kodu z hosta.
+Po uzyskaniu gotowości API wyślij przykładowy request z sekcji „Uruchomienie”
+i sprawdź odbiorcę oraz `Reply-To` w Mailpit. Sposób podglądu wejścia modelu
+i wywołania narzędzia opisuje sekcja „Śledzenie pojedynczego zgłoszenia”.
+
+Ollama i OpenRouter korzystają z instrukcji systemowej oraz schematu narzędzia.
+Wariant Laya korzysta z `DECISION_INSTRUCTIONS` i `DEPARTMENT_CRITERIA`;
+sama zmiana `SYSTEM_PROMPT` nie zmienia jego kryteriów klasyfikacji.
+Plik `training/laya-routing/policy.json` służy do treningu i ewaluacji,
+nie jest źródłem promptu działającego API.
+
 ## Kontrakty, błędy i dane
 
 ### API publiczne
