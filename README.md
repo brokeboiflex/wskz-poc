@@ -375,6 +375,41 @@ docker compose stop
 docker compose up -d && curl --fail --max-time 10 http://localhost:8000/health/ready
 ```
 
+## Porównanie Gemma i Laya
+
+Porównanie obejmuje 500 tych samych syntetycznych wiadomości, po jednej próbie
+na model, bez SMTP i ponowień. Żądania wykonywane są sekwencyjnie na CPU
+Apple M4 przez Docker, z różnymi promptami i adapterami modeli.
+
+| Miara | Laya multilingual, epoka 1 | Gemma 4 E2B Q4_K_M |
+| --- | ---: | ---: |
+| Poprawne odpowiedzi | 432/500 (86,4%) | 493/500 (98,6%) |
+| Błędne działy | 68 | 7 |
+| Błędy protokołu | 0 | 0 |
+| Mediana HTTP | 0,231 s | 1,800 s |
+| P95 HTTP | 0,346 s | 2,590 s |
+| Suma czasu 500 żądań, bez przerw | 119,981 s | 909,394 s |
+| HR /100 | 87 | 99 |
+| Kadry /100 | 99 | 96 |
+| Helpdesk /100 | 100 | 99 |
+| IT /100 | 86 | 100 |
+| Inne /100 | 60 | 99 |
+
+
+
+Korpus [`verification/benchmark/cases-500.json`](verification/benchmark/cases-500.json)
+zawiera 250 rodzin scenariuszy z dwoma skorelowanymi wariantami, po 100 wiadomości
+na dział. Model otrzymuje treść wiadomości i kryteria działów, bez etykiet
+wzorcowych, uzasadnień i identyfikatorów przypadków.
+
+Konfiguracja Gemmy była dostosowywana na tym zbiorze, więc wyniki są miarą
+regresji na znanych danych, nie niezależnym testem jakości na nowej korespondencji.
+Pomiar obejmuje klasyfikację i protokół wywołania narzędzia, bez weryfikacji
+dostawy SMTP. Nie obejmuje porównywalnego pomiaru RAM ani kosztu obliczeń.
+
+Szczegółowe wyniki i procedura:
+[`training/laya-routing/runs/laya-gemma-same500/README.md`](training/laya-routing/runs/laya-gemma-same500/README.md).
+
 ## Opcjonalny model Laya
 
 Profil Compose ładuje bazowy model Laya. Dostrojone wagi i checkpointy nie są
